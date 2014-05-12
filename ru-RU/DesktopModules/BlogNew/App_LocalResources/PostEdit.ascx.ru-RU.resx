@@ -124,7 +124,7 @@
     <value>Описание</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
-    <value>Title</value>
+    <value>Заголовок</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;h1&gt;Blog - Edit Post&lt;/h1&gt;
@@ -134,7 +134,7 @@
     <value>Разрешить пользователям комментировать это сообщение (переопределяет настройки блога)</value>
   </data>
   <data name="valPost.ErrorMessage" xml:space="preserve">
-    <value>Post is Required</value>
+    <value>Тело сообщения обязательно</value>
   </data>
   <data name="lblDisplayCopyright.Help" xml:space="preserve">
     <value>Если отмечено, отображает уведомление об авторском праве сразу под сообщением.</value>
@@ -143,7 +143,7 @@
     <value>Категории</value>
   </data>
   <data name="lblTags.Text" xml:space="preserve">
-    <value>Tags</value>
+    <value>Метки</value>
   </data>
   <data name="lblAllowComments.Text" xml:space="preserve">
     <value>Разрешить комментарии</value>
@@ -152,7 +152,7 @@
     <value>Отображать авторское право</value>
   </data>
   <data name="AddTags.Text" xml:space="preserve">
-    <value>start typing to associate tags</value>
+    <value>начните печатать для добавления меток</value>
   </data>
   <data name="lblPublishDate.Text" xml:space="preserve">
     <value>Дата публикации</value>
@@ -161,7 +161,7 @@
     <value>Редактировать</value>
   </data>
   <data name="Publishing.Text" xml:space="preserve">
-    <value>Publishing Details</value>
+    <value>Датали публикации</value>
   </data>
   <data name="lblPublished.Help" xml:space="preserve">
     <value>Отметьте, чтобы опубликовать сообщение. Снимите отметку, чтобы снять сообщение с публикации (т.е. сделать его невидимым для других).</value>
@@ -170,7 +170,7 @@
     <value>Опубликовано</value>
   </data>
   <data name="cmdImageRemove.Text" xml:space="preserve">
-    <value>Удалить изображение</value>
+    <value>Убрать изображение</value>
   </data>
   <data name="lblImage.Help" xml:space="preserve">
     <value>Вы можете указать изображение, связанное с этим сообщением</value>
@@ -194,10 +194,10 @@
     <value>Содержимое</value>
   </data>
   <data name="Metadata.Text" xml:space="preserve">
-    <value>Summary and Metadata</value>
+    <value>Описание и метаданные</value>
   </data>
   <data name="PublishTimeZoneNote.Text" xml:space="preserve">
-    <value>The publish date is based on your profile timezone of: </value>
+    <value>Дата публикации основана на часовом поясе, указанном в Вашем профиле: </value>
   </data>
   <data name="ctlTags.PlaceholderText" xml:space="preserve">
     <value>Введите метки для этого сообщения здесь ...</value>
@@ -206,12 +206,12 @@
     <value>&lt; Язык по-умолчанию &gt;</value>
   </data>
   <data name="Title.Required" xml:space="preserve">
-    <value>A title is required for the post</value>
+    <value>Заголовок сообщения обязателен</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
-    <value>Title and Summary</value>
+    <value>Заголовок и описание</value>
   </data>
   <data name="Now.Text" xml:space="preserve">
-    <value>Now</value>
+    <value>Сейчас</value>
   </data>
 </root>
