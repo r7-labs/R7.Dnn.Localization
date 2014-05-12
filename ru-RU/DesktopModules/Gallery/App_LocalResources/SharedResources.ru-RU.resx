@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Name.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+	<data name="Author.Text" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+	<data name="Client.Text" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+	<data name="Location.Text" xml:space="preserve">
+    <value>Место</value>
+  </data>
+	<data name="CreatedDate.Text" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+	<data name="ApprovedDate.Text" xml:space="preserve">
+    <value>Дата утверждения</value>
+  </data>
+	<data name="Items.Text" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+	<data name="Next.Text" xml:space="preserve">
+    <value>След.</value>
+  </data>
+	<data name="Previous.Text" xml:space="preserve">
+    <value>Пред.</value>
+  </data>
+	<data name="MenuEdit.Text" xml:space="preserve">
+    <value>Редактировать альбом</value>
+  </data>
+	<data name="MenuAddFile.Text" xml:space="preserve">
+    <value>Добавить файлы</value>
+  </data>
+	<data name="MenuAddAlbum.Text" xml:space="preserve">
+    <value>Новый альбом</value>
+  </data>
+	<data name="MenuMaintenance.Text" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+	<data name="Page.Text" xml:space="preserve">
+    <value>Страница:</value>
+  </data>
+	<data name="AlbumEmpty.Text" xml:space="preserve">
+    <value>В альбоме ничего нет!</value>
+  </data>
+	<data name="Voting.Text" xml:space="preserve">
+    <value>Голосовать</value>
+  </data>
+	<data name="Open.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+	<data name="VoteInfo.Text" xml:space="preserve">
+    <value>[VoteValue] из 5, всего [VoteCount] голосов</value>
+  </data>
+	<data name="AlbumSizeInfo.Text" xml:space="preserve">
+    <value>([ItemCount]&amp;#160;элементов)</value>
+  </data>
+	<data name="FileSizeInfo.Text" xml:space="preserve">
+    <value>([FileSize] Кб)</value>
+  </data>
+	<data name="MovePrevious.Text" xml:space="preserve">
+    <value>Показать предыдущее фото в альбоме</value>
+  </data>
+	<data name="MoveNext.Text" xml:space="preserve">
+    <value>Показать следующее фото в альбоме</value>
+  </data>
+	<data name="ZoomOut.Text" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+	<data name="ZoomIn.Text" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+	<data name="RotateLeft.Text" xml:space="preserve">
+    <value>Повернуть влево на 90º</value>
+  </data>
+	<data name="RotateRight.Text" xml:space="preserve">
+    <value>Повернуть вправо на 90º</value>
+  </data>
+	<data name="FlipX.Text" xml:space="preserve">
+    <value>Отразить горизонтально</value>
+  </data>
+	<data name="FlipY.Text" xml:space="preserve">
+    <value>Отразить вертикально</value>
+  </data>
+	<data name="BWMinus.Text" xml:space="preserve">
+    <value>Меньше серого...</value>
+  </data>
+	<data name="Color.Text" xml:space="preserve">
+    <value>Показать в цвете</value>
+  </data>
+	<data name="BWPlus.Text" xml:space="preserve">
+    <value>Показать в оттенках серого</value>
+  </data>
+	<data name="Slideshow.Text" xml:space="preserve">
+    <value>Показ слайдов</value>
+  </data>
+	<data name="EXIFData.Text" xml:space="preserve">
+    <value>Данные EXIF</value>
+  </data>
+	<data name="Download.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+	<data name="Edit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+	<data name="AddSubAlbum.Text" xml:space="preserve">
+    <value>Новый подальбом</value>
+  </data>
+	<data name="AddFile.Text" xml:space="preserve">
+    <value>Добавить файл</value>
+  </data>
+	<data name="Maintenance.Text" xml:space="preserve">
+    <value>Обслуживание</value>
+  </data>
+	<data name="ViewThread.Text" xml:space="preserve">
+    <value>К обсуждению</value>
+  </data>
+	<data name="Flash.Text" xml:space="preserve">
+    <value>Flash:</value>
+  </data>
+	<data name="Movie.Text" xml:space="preserve">
+    <value>Видео:</value>
+  </data>
+	<data name="Image.Text" xml:space="preserve">
+    <value>Изображение:</value>
+  </data>
+	<data name="MaxFileSize.Text" xml:space="preserve">
+    <value>Максимальный размер файла:</value>
+  </data>
+	<data name="ViewListView.Text" xml:space="preserve">
+    <value>Список</value>
+  </data>
+	<data name="ViewCardView.Text" xml:space="preserve">
+    <value>Карточки</value>
+  </data>
+	<data name="ViewStandard.Text" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+	<data name="SortName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+	<data name="SortTitle.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+	<data name="SortSize.Text" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+	<data name="SortAuthor.Text" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+	<data name="SortLocation.Text" xml:space="preserve">
+    <value>Место</value>
+  </data>
+	<data name="SortScore.Text" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+	<data name="SortOwnerID.Text" xml:space="preserve">
+    <value>Ид. владельца</value>
+  </data>
+	<data name="SortCreatedDate.Text" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+	<data name="SortApprovedDate.Text" xml:space="preserve">
+    <value>Дата утверждения</value>
+  </data>
+	<data name="UpdateButton.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+	<data name="UploadFile_InvalidExtension.Text" xml:space="preserve">
+    <value>Файл {0} не относиться к разрешенным типам</value>
+  </data>
+	<data name="UploadFile_InvalidFile.Text" xml:space="preserve">
+    <value>Неверный или не существующий файл</value>
+  </data>
+	<data name="UploadFile_InvalidSize.Text" xml:space="preserve">
+    <value>Размер файла (включая каждый файл в zip-архиве) должен быть меньше {0} Кб</value>
+  </data>
+	<data name="MenuAddAlbum.Tooltip" xml:space="preserve">
+    <value>Добавить новый альбом</value>
+  </data>
+	<data name="MenuAddFile.Tooltip" xml:space="preserve">
+    <value>Добавить новые файлы в альбом</value>
+  </data>
+	<data name="MenuEdit.Tooltip" xml:space="preserve">
+    <value>Редактировать альбом</value>
+  </data>
+	<data name="MenuMaintenance.Tooltip" xml:space="preserve">
+    <value>Управление содержимым альбома</value>
+  </data>
+	<data name="Search_Find.Text" xml:space="preserve">
+    <value>Найти:</value>
+  </data>
+	<data name="Search_Go.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+	<data name="Search_Go_info.Text" xml:space="preserve">
+    <value>Поиск по галерее</value>
+  </data>
+	<data name="Search_Lookup.Text" xml:space="preserve">
+    <value>Искать:</value>
+  </data>
+	<data name="FlashCategories.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+	<data name="ImageCategories.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+	<data name="MovieCategories.Text" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+	<data name="MusicCategories.Text" xml:space="preserve">
+    <value>Музыка</value>
+  </data>
+	<data name="Search.Text" xml:space="preserve">
+    <value>Найти:</value>
+  </data>
+	<data name="NoRecordsFound.Text" xml:space="preserve">
+    <value>Ничего не найдено...</value>
+  </data>
+	<data name="Column_Full Name.Text" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+	<data name="Column_Name.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+	<data name="Popup_Search.Text" xml:space="preserve">
+    <value>Найти: </value>
+  </data>
+	<data name="btnDeleteAll.Help" xml:space="preserve">
+    <value>Удалить выбранные файлы, исходные и эскизы...</value>
+  </data>
+	<data name="btnDeleteAll.ToolTip" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+	<data name="btnSyncAll.Help" xml:space="preserve">
+    <value>Синхронизировать выбранные файлы ...</value>
+  </data>
+	<data name="btnSyncAll.ToolTip" xml:space="preserve">
+    <value>Синхронизировать</value>
+  </data>
+	<data name="Loading.Text" xml:space="preserve">
+    <value>Идет загрузка. . . Подождите немного . . .</value>
+  </data>
+	<data name="MenuEditFile.Text" xml:space="preserve">
+    <value>Редактировать файл</value>
+  </data>
+	<data name="MenuEditFile.Tooltip" xml:space="preserve">
+    <value>Редактировать текущий файл</value>
+  </data>
+	<data name="btnClose.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+	<data name="Save_Confirm.Text" xml:space="preserve">
+    <value>Уверены, что хотите сохранить изменения?</value>
+  </data>
+	<data name="Configuration.Action" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+	<data name="GalleryHome.Action" xml:space="preserve">
+    <value>Начальная страница галереи</value>
+  </data>
+	<data name="Download.Tooltip" xml:space="preserve">
+    <value>Скачать файл</value>
+  </data>
+	<data name="EXIFData.Tooltip" xml:space="preserve">
+    <value>Смотреть данные EXIF</value>
+  </data>
+	<data name="Slideshow.Tooltip" xml:space="preserve">
+    <value>Включить показ слайдов из изобаражений альбома</value>
+  </data>
+	<data name="Uploads_ExceedQuota.Text" xml:space="preserve">
+    <value>Доступное дисковое пространство {0:F} Кб будет исчерпано после подгрузки ожидающих файлов. Удалите один или несколько файлов из очереди и попытайтесь снова.</value>
+  </data>
+	<data name="No_Unauthenticated_Access.Text" xml:space="preserve">
+    <value>Создание альбомов и редактирование альбомов и файлов не разрешено для гостей. Пожалуйста, войдите в систему под своей учетной записью.</value>
+  </data>
+	<data name="Gallery_Quota.Text" xml:space="preserve">
+    <value>Квота:</value>
+  </data>
+	<data name="Space_Used.Text" xml:space="preserve">
+    <value>Использовано:</value>
+  </data>
+	<data name="Space_Available.Text" xml:space="preserve">
+    <value>Доступно:</value>
+  </data>
+	<data name="cmdCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+	<data name="cmdReturn.Text" xml:space="preserve">
+    <value>Вернуться в галерею</value>
+  </data>
+	<data name="No_Gallery_Quota_Imposed.Text" xml:space="preserve">
+    <value>Владелец не установил квоту</value>
+  </data>
+	<data name="Confirm_Cancel.Text" xml:space="preserve">
+    <value>Уверены, что хотите отменить операцию и все изменения?</value>
+  </data>
+	<data name="No_Quota_Imposed.Text" xml:space="preserve">
+    <value>Владелец и хостер не установили квоту</value>
+  </data>
+	<data name="No_Portal_Quota_Imposed.Text" xml:space="preserve">
+    <value>Хостер не установил квоту</value>
+  </data>
+	<data name="Portal_Quota.Text" xml:space="preserve">
+    <value>Квота портала:</value>
+  </data>
+	<data name="Space_Available_Exceeded_By.Text" xml:space="preserve">
+    <value>&lt;span style="color:red"&gt;ПРЕВЫШЕНО&lt;/span&gt; на {0:F} Кб</value>
+  </data>
+	<data name="Insufficient_Delete_Permissions.Text" xml:space="preserve">
+    <value>У вас недостаточно прав, чтобы удалить этот объект из галереи.</value>
+  </data>
+	<data name="Folder_Contains_Objects.Text" xml:space="preserve">
+    <value>Папка не может быть удалена, пока не удалены все ее подпапки и файлы в них.</value>
+  </data>
+	<data name="Insufficient_Edit_Permissions.Text" xml:space="preserve">
+    <value>У вас недостаточно прав, чтобы изменить этот объект галереи.</value>
+  </data>
+	<data name="Insufficient_Maintenance_Permissions.Text" xml:space="preserve">
+    <value>У вас недостаточно прав, чтобы администрировать эту галерею.</value>
+  </data>
+	<data name="Insufficient_Upload_Permissions.Text" xml:space="preserve">
+    <value>У вас недостаточно прав, чтобы подгружать файлы в этот альбом или галерею.</value>
+  </data>
+	<data name="DNNRole.Text" xml:space="preserve">
+    <value>Роль DNN</value>
+  </data>
+	<data name="DNNUser.Text" xml:space="preserve">
+    <value>Пользователь DNN</value>
+  </data>
+	<data name="FamilyCategories.Text" xml:space="preserve">
+    <value>Семья</value>
+  </data>
+	<data name="PetsCategories.Text" xml:space="preserve">
+    <value>Домашние питомцы</value>
+  </data>
+	<data name="ScenicsCategories.Text" xml:space="preserve">
+    <value>Искусство</value>
+  </data>
+	<data name="WorkCategories.Text" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+	<data name="btnBack.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+	<data name="GetWindowsMediaPlayerPlugIn.Text" xml:space="preserve">
+    <value>Установить плагин Windows Media Pleyer</value>
+  </data>
+	<data name="UploadFile_ProcessError.Text" xml:space="preserve">
+    <value>Произошла ошибка при обработке подгруженного файла {0}</value>
+  </data>
+	<data name="UploadFile_OpenZipError.Text" xml:space="preserve">
+    <value>Произошла ошибка при попытке открыть подгруженный zip-архив {0}</value>
+  </data>
+	<data name="UploadFile_UnZipError.Text" xml:space="preserve">
+    <value>Произошла ошибка при попытке распаковать файл {0} из подгруженного архива</value>
+  </data>
+	<data name="UploadFile_ResizeSaveError.Text" xml:space="preserve">
+    <value>Произошла ошибка при попытке изменить размер и/ или сохранить подгруженный файл {0}</value>
+  </data>
+	<data name="Description.Text" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+	<data name="Size.Text" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+	<data name="Title.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+</root>

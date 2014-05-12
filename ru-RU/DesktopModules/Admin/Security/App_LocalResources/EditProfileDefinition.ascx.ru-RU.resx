@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Добавить новое свойство профиля</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Text">
+    <value>Тип данных:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Help">
+    <value>Выберите тип данных для этого поля</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Text">
+    <value>Значение по умолчанию:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Help">
+    <value>Вы можете задать значение по умолчанию для этого свойства</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Text">
+    <value>Категория свойства:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Help">
+    <value>Укажите категорию для этого свойства. Это позволит группировать связанные свойства при отображении пользователю.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Text">
+    <value>Имя свойства:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Help">
+    <value>Введите имя свойства</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Text">
+    <value>Выражение проверки:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Help">
+    <value>Вы можете указать регулярное выражение, с помощью которого можно проверить правильность вводимых в поле свойства данных.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Text">
+    <value>Порядок отображения:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Help">
+    <value>Введите порядок отображения этого свойства</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Text">
+    <value>Показывать:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Help">
+    <value>Если оставить флаг снятым, то данное свойство будет видимо только администраторам - пользователь не сможет его увидеть или отредактировать.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Text">
+    <value>Обязательно:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Help">
+    <value>Укажите, обязательно ли требуется  это свойство.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Text">
+    <value>Длина:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Help">
+    <value>Введите максимальную длину для этого свойства. Это применимо только для некоторых определенных типов данных.</value>
+  </data>
+  <data name="DuplicateName.Text">
+    <value>Это свойство уже существует. Имена свойств должны быть уникальными. Пожалуйста, укажите другое имя для этого свойства.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Required">
+    <value>Требуется категория</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Required">
+    <value>Требуется имя свойства</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>К списку свойств профиля</value>
+  </data>
+  <data name="cmdCreate.Text">
+    <value>Создать новое свойство</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Сохранить свойство</value>
+  </data>
+  <data name="Introduction.Help">
+    <value>Первым шагом при редактировании определений свойства профиля должно быть изменение описания свойства. Сделайте любые необходимые изменения на этой странице, затем нажмите "Далее", чтобы сохранить изменения и перейти к следующему шагу.</value>
+  </data>
+  <data name="Introduction.Title">
+    <value>Редактировать описание свойства</value>
+  </data>
+  <data name="Introduction_Add.Help">
+    <value>Первым шагом при создании определений свойств профиля является задание описание свойства. Введите описание на этой странице и нажмите "Далее" для  создания определения свойства. &lt;b&gt;Примечание:&lt;/b&gt; Поля, помеченные звездочкой требуют обязательного заполнения.</value>
+  </data>
+  <data name="Introduction_Add.Title">
+    <value>Добавление описание свойства</value>
+  </data>
+  <data name="List.Help">
+    <value>Описание свойства было обновлено. Это свойство спискового типа. На следующем шаге нужно будеть задать элементы списка.</value>
+  </data>
+  <data name="List.Title">
+    <value>Управление элементами списка</value>
+  </data>
+  <data name="Localization.Help">
+    <value>Следующий шаг - локализация этого свойства. Выберите язык, который Вы желаете изменить, добавьте текст (или измените существующий), а затем нажмите "Сохранить"</value>
+  </data>
+  <data name="Localization.Title">
+    <value>Локализация</value>
+  </data>
+  <data name="plCategoryName.Help">
+    <value>Введите имя категории на выбранном языке</value>
+  </data>
+  <data name="plCategoryName.Text">
+    <value>Имя категории:</value>
+  </data>
+  <data name="plLocales.Help">
+    <value>Выбор языка</value>
+  </data>
+  <data name="plLocales.Text">
+    <value>Выберите язык:</value>
+  </data>
+  <data name="plPropertyHelp.Help">
+    <value>на выбранном языке</value>
+  </data>
+  <data name="plPropertyHelp.Text">
+    <value>Помощь по свойству:</value>
+  </data>
+  <data name="plPropertyName.Help">
+    <value>Введит имя свойства на выбранном языке</value>
+  </data>
+  <data name="plPropertyName.Text">
+    <value>Имя свойства:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Validation">
+    <value>Имя свойства не должно содержать пробелы</value>
+  </data>
+  <data name="AddProperty.Text">
+    <value>Добавить определение свойства</value>
+  </data>
+  <data name="EditProperty.Text">
+    <value>Изменить определение свойства</value>
+  </data>
+  <data name="plPropertyRequired.Help">
+    <value>Введите  сообщение об ошибке,  отображаемое  для этого поля, если оно указано как обязательное, но не заполнено.</value>
+  </data>
+  <data name="plPropertyRequired.Text">
+    <value>Ошибка для обязательных полей:</value>
+  </data>
+  <data name="plPropertyValidation.Help">
+    <value>Введите сообщение об ошибке, отображаемое  для этого поля, если свойство не прошло проверку регулярным выражением.</value>
+  </data>
+  <data name="plPropertyValidation.Text">
+    <value>Ошибка проверки выражением:</value>
+  </data>
+  <data name="RequiredTextBox.Text">
+    <value>Если сделать текстовое поле обязательным, то длина должна быть больше 0.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultVisibility.Help">
+    <value>Вы можете предоставить установку видимости по умолчанию для этого свойства</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultVisibility.Text">
+    <value>Видимость по умолчанию:</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Отмена</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ReadOnly.Help">
+    <value>Вы можете сделать свойство профиля доступным только для чтения. Такое свойство может редактировать только администратор.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ReadOnly.Text">
+    <value>Только для чтения:</value>
+  </data>
+  <data name="Return.Text">
+    <value>Сохранить</value>
+  </data>
+  <data name="valPropertyName.ErrorMessage">
+    <value>Укажите имя для этого свойства.</value>
+  </data>
+</root>

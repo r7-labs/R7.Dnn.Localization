@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Header">
+    <value>Имя</value>
+  </data>
+  <data name="Description.Header">
+    <value>Описание</value>
+  </data>
+  <data name="Fee.Header">
+    <value>Плата</value>
+  </data>
+  <data name="Every.Header">
+    <value>Каждый</value>
+  </data>
+  <data name="Period.Header">
+    <value>Период</value>
+  </data>
+  <data name="Trial.Header">
+    <value>Плата за пробный режим</value>
+  </data>
+  <data name="ExpiryDate.Header">
+    <value>Дата истечения срока подписки</value>
+  </data>
+  <data name="Subscribe.Text">
+    <value>Подписаться</value>
+  </data>
+  <data name="Unsubscribe.Text">
+    <value>Отписаться</value>
+  </data>
+  <data name="plRSVPCode.Text">
+    <value>Код приглашения:</value>
+  </data>
+  <data name="plRSVPCode.Help">
+    <value>Вы можете подписаться на некоторые роли, введя код приглашения. Если Вы получили такой код, пожалуйста, введите его, и нажмите Подписаться</value>
+  </data>
+  <data name="cmdRSVP.Text">
+    <value>Подписаться</value>
+  </data>
+  <data name="Expired.Text">
+    <value>Истек срок подписки</value>
+  </data>
+  <data name="Fee.Text">
+    <value>{0} каждый {1} {2}</value>
+  </data>
+  <data name="Frequency_D.Text">
+    <value>Дней</value>
+  </data>
+  <data name="Frequency_M.Text">
+    <value>Месяцев</value>
+  </data>
+  <data name="Frequency_W.Text">
+    <value>Недель</value>
+  </data>
+  <data name="Frequency_Y.Text">
+    <value>Лет</value>
+  </data>
+  <data name="NoFee.Text">
+    <value>Бесплатно</value>
+  </data>
+  <data name="Renew.Text">
+    <value>Продлить</value>
+  </data>
+  <data name="RSVPFailure.Text">
+    <value>Введённый код приглашения недопустим или не существует.</value>
+  </data>
+  <data name="RSVPSuccess.Text">
+    <value>Вы были успешно подписаны на роли, связанные с введенным кодом приглашения. Чтобы получить доступ к доступным для Вас новым услугам, нужно выйти из системы, а затем войти снова.</value>
+  </data>
+  <data name="ServicesHelp.Text">
+    <value>Этот раздел позволяет управлять вашими подписками на сайте. Некоторые услуги могут являться платными. В этом случае Вы будете перенаправлены на сайт обработчика платежей. После совершения оплаты, здесь будет отображена Ваша подписка.</value>
+  </data>
+  <data name="TrialFee.Text">
+    <value>{0} для {1} {2}</value>
+  </data>
+  <data name="UseTrial.Text">
+    <value>Пробный режим</value>
+  </data>
+  <data name="RSVPHelp.Text">
+    <value>Если Вам выдали специальный код приглашения, Вы можете подписаться на эти сервисы, введя код в поле "Код приглашения" и нажав на кнопку "Подписаться" рядом с полем.</value>
+  </data>
+</root>

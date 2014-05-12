@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Blog - Edit Blog&lt;/h1&gt;
+&lt;p&gt;These options control the main blog features.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Title&lt;/b&gt;&lt;br /&gt;This is the display title for your blog. It will display at the top of your Post list and in the blog directory.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt;&lt;br /&gt;This is a brief summary description of your blog. It's a good place to describe your intentions with your blog and what information readers can expect.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Make this blog public&lt;/b&gt;&lt;br /&gt;If checked, all the visitors who have view permissions to the page will be able to read the blog. If unchecked, the blog will be visible only to the blog owner.&lt;/p&gt;&lt;p&gt;&lt;b&gt;When displaying your identity use&lt;/b&gt;&lt;br /&gt;This setting controls the name that will be displayed as the author of the content. Two options are available: the DNN user name or the user's full name.&lt;/p&gt;&lt;p&gt;&lt;b&gt;MetaWeblog Options&lt;/b&gt;&lt;br /&gt;The displayed URL is to be used to connect to your blog using a MetaWeblog enabled client such as Windows Live Writer or Word 2007. The tabid parameter may be changed as needed if this blog appears on a different tab.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Comment Options&lt;/b&gt;&lt;br /&gt;These options control the comment related settings. Comments may be added by registered users, Unauthenticated users or from other blogs as Trackback comments. The blog owner has three options: Allow, Disallow or Require Approval. If Allow is checked, the comments will be displayed as soon as they are added. If Disallow is checked, comments will be disabled. If Require Approval is checked, the comments will need to be approved by the blog owner before being displayed.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Send mail notification after comments and trackbacks are posted&lt;/b&gt;&lt;br /&gt;If checked, the blog owner will receive an email whenever a comment is added to a blog post.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Use CAPTCHA for comments&lt;/b&gt;&lt;br /&gt;If checked, this will enable a security check when adding comments to avoid spamming.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Trackback Auto Discovery (Client Mode)&lt;/b&gt;&lt;br /&gt;If checked, the module will scan the Post post when it is added in search of trackback links and attempt to send them a trackback comment.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Syndication Options&lt;/b&gt;&lt;br /&gt;Here the blog owner can decide if make an RSS feed available to the visitors for the blog. If checked, an RSS icon with the corresponding link will be displayed besides the blog title in the blog list. The blog owner may also decide to include an email in the "ManagingEditor" field of the RSS feed.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Date and Time Options&lt;/b&gt;&lt;br /&gt;These options control how date and time are displayed within your blog. This setting effects all categories and Posts within your blog.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Regenerate Blog PermaLinks&lt;/b&gt;&lt;br /&gt;This link can be used after the Friendly URLs setting has been changed for the site. When clicked, the module will scann all the Posts and attempt to regenerate all the permalinks according to any cahnges to the Friendly URLs settings and to the Post titles.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Child Blogs&lt;/b&gt;&lt;br /&gt;If you would like to break your blog up into different categories, this is where you define them. Having Child-Blogs allows you to create sub-blogs within your blog. Each one has its own options for publication and can be syndicated separately from your root blog.&lt;/p&gt;</value>
+  </data>
+  <data name="lblSyndicate.Text" xml:space="preserve">
+    <value>Экспорт в RSS</value>
+  </data>
+  <data name="lblPublic.Text" xml:space="preserve">
+    <value>Публичный</value>
+  </data>
+  <data name="lblTitle.Help" xml:space="preserve">
+    <value>Задает отображаемый заголовок для Вашего блога. Он будет отображаться над списком сообщений и в каталоге блогов.</value>
+  </data>
+  <data name="lblSyndicationEmail.Help" xml:space="preserve">
+    <value>Использовать указанный электронный адрес для поля "Managing Editor" в RSS.</value>
+  </data>
+  <data name="lblDescription.Help" xml:space="preserve">
+    <value>Это краткое описание Вашего блога. Опишите здесь Ваши намерения относительно блога, а также какого типа информацию следует ожидать читателям.</value>
+  </data>
+  <data name="lblMetaWeblogNotAvailable.Text" xml:space="preserve">
+    <value>Интеграция с клиентами MetaWeblog была отключена</value>
+  </data>
+  <data name="lblPublic.Help" xml:space="preserve">
+    <value>Если поле отмечено, посетители сайта будут иметь возможность просматривать сообщения блога (если у них достаточно разрешений для просмотра страницы и модуля блога). </value>
+  </data>
+  <data name="lblSyndicate.Help" xml:space="preserve">
+    <value>Если отмечено, блог будет доступен посетителям сайта в формате RSS.</value>
+  </data>
+  <data name="lblSyndicationEmail.Text" xml:space="preserve">
+    <value>Эл. почта в RSS</value>
+  </data>
+  <data name="ControlTitle_blogedit.Text" xml:space="preserve">
+    <value>Редактировать блог</value>
+  </data>
+  <data name="cmdImageRemove.Text" xml:space="preserve">
+    <value>Удалить изображение</value>
+  </data>
+  <data name="lblImage.Help" xml:space="preserve">
+    <value>Вы можете указать изображение, связанное с эти блогом.</value>
+  </data>
+  <data name="lblImage.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="lblIncludeImagesInFeed.Help" xml:space="preserve">
+    <value>Если поле отмечено, канал RSS модуля будет включать ссылки на изображения, добавленные в блог и сообщения блога. Любой, кто имеет ссылку на данные изображения, может просмотреть и скачать их.</value>
+  </data>
+  <data name="lblIncludeImagesInFeed.Text" xml:space="preserve">
+    <value>Картинки в RSS</value>
+  </data>
+  <data name="lblMustApproveGhostPosts.Help" xml:space="preserve">
+    <value>Если поле отмечено, все сообщения, написанные кем-либо кроме владельца блога, должны быть утверждены владельцем блога, либо пользователем, который имеет права на утверждение.</value>
+  </data>
+  <data name="lblMustApproveGhostPosts.Text" xml:space="preserve">
+    <value>Требовать утверждения сообщений скрытых писателей</value>
+  </data>
+  <data name="lblPermissions.Help" xml:space="preserve">
+    <value>Укажите разрешения, доступные другим ролям и пользователям относительно этого блога</value>
+  </data>
+  <data name="lblPermissions.Text" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
+  <data name="lblPublishAsOwner.Help" xml:space="preserve">
+    <value>Если отмечено, все сообщения, написанные скрытыми писателями, будут опубликованы как если бы они были написаны владельцем блога</value>
+  </data>
+  <data name="lblPublishAsOwner.Text" xml:space="preserve">
+    <value>Публиковать как владелец</value>
+  </data>
+  <data name="lblLocale.Help" xml:space="preserve">
+    <value>Выберите язык, на котором будут составляться сообщения в этом блоге</value>
+  </data>
+  <data name="lblLocale.Text" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="lblCopyright.Help" xml:space="preserve">
+    <value>Вы можете указать строку авторского права для сообщений в этом блоге. Метка [year] будет автоматически заменена на значение текущего года.</value>
+  </data>
+  <data name="lblCopyright.Text" xml:space="preserve">
+    <value>Авторское право</value>
+  </data>
+  <data name="lblIncludeAuthorInFeed.Help" xml:space="preserve">
+    <value>Если поле отмечено, имя и электронный адрес автора сообщения будет добаляться в код канала RSS, содержащего сообщения блога</value>
+  </data>
+  <data name="lblIncludeAuthorInFeed.Text" xml:space="preserve">
+    <value>Авторы в RSS</value>
+  </data>
+  <data name="lblFullLocalization.Help" xml:space="preserve">
+    <value>Если это поле отмечено, каждое сообщение предполагается перевести на все языки сайта и пользователи будут видеть поля ввода для заголовка, описания и тела сообщения на каждом языке. Если оставить не отмеченным, каждое сообщение блога будет помечено своим языком и не будет иметь переводов на другие языки.</value>
+  </data>
+  <data name="lblFullLocalization.Text" xml:space="preserve">
+    <value>Полная локализация</value>
+  </data>
+  <data name="lblPingbacks.Help" xml:space="preserve">
+    <value>Пингбэки (pingbacks) рассылаются автоматически во время публикации или получения блога для оповещения о том, что блог был упомяную. Обычно это более безопасный (менне подверженный спаму) способ, чем трекбэки. Также это отличный способ увеличить видимость блога для поисковых систем.</value>
+  </data>
+  <data name="lblPingbacks.Text" xml:space="preserve">
+    <value>Пингбэки</value>
+  </data>
+  <data name="lblTrackbacks.Help" xml:space="preserve">
+    <value>Как и пингбэки, трекбэки рассылаются автоматически в процессе публикации для оповещения исходных блогов, что они были упомянуты. Трекбэки обычно менее безопасны (в частности, более подвержены спаму), чем пингбэки. Это отличный способ повысить видимость блога для поисковых систем.</value>
+  </data>
+  <data name="lblTrackbacks.Text" xml:space="preserve">
+    <value>Трекбеки</value>
+  </data>
+  <data name="Receive.Text" xml:space="preserve">
+    <value>Получить</value>
+  </data>
+  <data name="Send.Text" xml:space="preserve">
+    <value>Отослать</value>
+  </data>
+  <data name="AutoApprove.Text" xml:space="preserve">
+    <value>Утверждать автоматически</value>
+  </data>
+  <data name="Title.Required" xml:space="preserve">
+    <value>Укажите заголовок блога</value>
+  </data>
+</root>

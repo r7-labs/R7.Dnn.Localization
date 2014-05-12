@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UploadButton.Text">
+    <value>Загрузить</value>
+  </data>
+  <data name="CancelButton.Text">
+    <value>Отмена</value>
+  </data>
+  <data name="DeleteButton.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="ShowEMail.Text">
+    <value>показывать мой e-mail</value>
+  </data>
+  <data name="Title.Text">
+    <value>Имя компании</value>
+  </data>
+  <data name="Title.Help">
+    <value>Имя вашей компании</value>
+  </data>
+  <data name="Categories.Text">
+    <value>Категории</value>
+  </data>
+  <data name="Categories.Help">
+    <value>Отметьте одну или несколько категорий для этого объекта</value>
+  </data>
+  <data name="FileName.Text">
+    <value>Файл</value>
+  </data>
+  <data name="FileName.Help">
+    <value>Выберите  файл, который Вы хотели бы загрузить</value>
+  </data>
+  <data name="Image.Text">
+    <value>Логотип компании</value>
+  </data>
+  <data name="Image.Help">
+    <value>Выберите  изображение, которое Вы хотели бы загрузить в качестве логотипа вашей компании</value>
+  </data>
+  <data name="Description.Text">
+    <value>Адрес компании</value>
+  </data>
+  <data name="Description.Help">
+    <value>Введите адрес вашей компании. Вы можете также включить телефонные номера, адреса электронной почты и сайты</value>
+  </data>
+  <data name="Summary.Text">
+    <value>Девиз компании</value>
+  </data>
+  <data name="Summary.Help">
+    <value>Введите краткое описание или девиз вашей компании</value>
+  </data>
+  <data name="Author.Text">
+    <value>Ваше имя</value>
+  </data>
+  <data name="Author.Help">
+    <value>Введите ваше полное имя</value>
+  </data>
+  <data name="EMail.Text">
+    <value>Ваш E-mail</value>
+  </data>
+  <data name="EMail.Help">
+    <value>Введите ваш допустимый адрес электронной почты, а если Вы не хотите, чтобы  отображался ваш адрес, снимите галочку перед загрузкой</value>
+  </data>
+  <data name="Header.Text">
+    <value>Визитная карточка</value>
+  </data>
+  <data name="Header.Help">
+    <value>Используйте эту страницу, чтобы загрузить бизнес-каталог на сайт</value>
+  </data>
+  <data name="DeleteConfirmation.Text">
+    <value>Вы уверены, что хотите удалить этот объект?</value>
+  </data>
+  <data name="URL.Text">
+    <value>URL для ресурса</value>
+  </data>
+  <data name="URL.Help">
+    <value>Введите URL для ресурса, кторый вы загружаете</value>
+  </data>
+  <data name="UploadedBy.Text">
+    <value>Загрузил</value>
+  </data>
+  <data name="ValidateTitle.Text">
+    <value>&lt;BR&gt;Требуется заголовок </value>
+  </data>
+  <data name="ValidateFile.Text">
+    <value>&lt;BR&gt;Файл обязателен</value>
+  </data>
+  <data name="ValidateName.Text">
+    <value>&lt;BR&gt;Вы должны ввести ваше имя</value>
+  </data>
+  <data name="ValidateEMail.Text">
+    <value>&lt;BR&gt;Вы должны ввести ваш E-Mail адрес</value>
+  </data>
+  <data name="ValidateDescription.Text">
+    <value>&lt;BR&gt;Вы должны ввести имя компании</value>
+  </data>
+  <data name="ValidateSummary.Text">
+    <value>&lt;BR&gt;Вы должны ввести краткое описание или девиз  вашей компании</value>
+  </data>
+  <data name="TheFile.Text">
+    <value>Файл</value>
+  </data>
+  <data name="SaveError.Text">
+    <value>Произошла ошибка  при попытке сохранения файла. Пожалуйста, свяжитесь с Вашим хостинг-провайдером, чтобы убедиться в том, что соответствующие параметры настройки безопасности допустимы на сервере. &lt;br&gt; Фактическая ошибка:</value>
+  </data>
+  <data name="RestrictedFilePrefix.Text">
+    <value>Файл является запрещенным типом файла. Допустимые типы файлов включают в себя</value>
+  </data>
+  <data name="RestrictedFileSuffix.Text">
+    <value>Пожалуйста, свяжитесь с Вашим хостинг-провайдером, если Вам нужно загрузить файл, тип которого не поддерживается</value>
+  </data>
+  <data name="FileTooLarge.Text">
+    <value>Файл превышает доступное вам  в настоящее время количество дискового пространства. Пожалуйста, свяжитесь с Вашим хостинг-провайдером для запроса об увеличении Вашего дискового пространства на портале.</value>
+  </data>
+  <data name="Guidelines.Text">
+    <value>СОГЛАШЕНИЕ: При передаче этого файла и изображения я соглашаюсь на то, что они могут быть скачаны другими посетителями этого сайта. Я также заявляю, что я имею право загрузить эти файлы и, что я не нарушаю никакого закона об авторском праве, загружая их. Я подтверждаю, что не принесу администраторам и владельцам этого сайта  любых убытков, вызванных моей загрузкой этих файлов на этот сервер. &lt;BR&gt;</value>
+  </data>
+  <data name="NoModerationRequired.Text">
+    <value>ПРИМЕЧАНИЕ МОДЕРИРОВАНИЯ: Так как Вы являетесь модератором этого модуля, ваша загрузка НЕ требует модерирования и будет автоматически одобрена.</value>
+  </data>
+  <data name="ModerationRequired.Text">
+    <value>ПРИМЕЧАНИЕ МОДЕРИРОВАНИЯ: Это модерируемая загрузка. Ваша загрузка НЕ появиться на сайте до тех пор, пока Администратор сайта не просмотрит и не утвердит её.</value>
+  </data>
+  <data name="FileSentModerationRequired.Text">
+    <value>Ваша загрузка ДОЛЖНА быть одобрена Администратором\n ПРЕЖДЕ, чем она отобразиться на сайте. Вы получите по электронной почте уведомление, когда ваша загрузка будет одобрена. \n\n Вы хотите теперь загрузить ваш файл?</value>
+  </data>
+</root>

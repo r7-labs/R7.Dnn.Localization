@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plTitle.Text">
+    <value>Заголовок</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Укажите название / заголовок ссылки</value>
+  </data>
+  <data name="valTitle.ErrorMessage">
+    <value>Вы должны указать заголовок</value>
+  </data>
+  <data name="plURL.Text">
+    <value>Ссылка</value>
+  </data>
+  <data name="plURL.Help">
+    <value>Укажите адрес ссылки</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Описание</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Укажите аннотацию к ссылке. Она может быть показана как кнопка (...) рядом со ссылкой.</value>
+  </data>
+  <data name="plViewOrder.Text">
+    <value>Порядок показа</value>
+  </data>
+  <data name="plViewOrder.Help">
+    <value>Укажите порядковый номер для указания положения в списке ссылок</value>
+  </data>
+  <data name="valViewOrder.ErrorMessage">
+    <value>Порядок показа должен быть целым числом или оставаться пустым</value>
+  </data>
+  <data name="plNewWindow.Text">
+    <value>Показыавть в новом окне</value>
+  </data>
+  <data name="plNewWindow.Help">
+    <value>При переходе по ссылке можно открывать новое окно браузера</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ССЫЛКИ&amp;raquo;&lt;/h1&gt;
+
+&lt;p&gt;Модуль предназначен для создания списка ссылок на любые страницы, изображения или файлы на Вашем сайте или на любых других сайтах в Сети. Возможен выбор вариантов показа ссылок в виде вертикального или горизонтального списков, а также в виде выпадающего списка. По-умолчанию ссылки сортируются в алфавитном порядке. Имеется индексное поле для явного указания порядка сортировки. Возможно указание дополнительного описания ссылки, которое может быть показано либо при наведении на ссылку, либо при нажатии на специально указанное место. Имеется возможность учета кликов и ведения журнала.&lt;/p&gt;
+
+&lt;h1&gt;Добавление ссылки&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Добавьте новый модуль &lt;b&gt;Ссылки&lt;/b&gt; или перейдите к существующему модулю.&lt;/li&gt;
+&lt;li&gt;нажмите кнопку &lt;b&gt;Добавить ссылку&lt;/b&gt;. 
+&lt;li&gt;В поле &lt;b&gt;Заголовок&lt;/b&gt; укажите название или заголовок ссылки. 
+&lt;li&gt;В поле &lt;b&gt;Тип ссылки&lt;/b&gt; выберите &lt;b&gt;URL&lt;/b&gt;, &lt;b&gt;Страница&lt;/b&gt; или &lt;b&gt;Файл&lt;/b&gt; и затем в поле &lt;b&gt;Ссылка&lt;/b&gt; выберите из списка или укажите нужный адрес, страницу или файл.
+&lt;li&gt;Отметьте &lt;b&gt;Учитывать число кликов&lt;/b&gt; (необязательно), если необходим такой учет.
+&lt;li&gt;Отметьте &lt;b&gt;Учитывать пользователей, дату и время кликов&lt;/b&gt; (необязательно), если хотите вести журнал.
+&lt;li&gt;В поле &lt;b&gt;Описание&lt;/b&gt; укажите аннотацию к ссылке.
+&lt;li&gt;Используйте поле &lt;b&gt;Порядок показа&lt;/b&gt; (необязательное) для явного указания порядка сортировки ссылок в списке.
+&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/ol&gt;
+</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Свойства ссылки</value>
+  </data>
+</root>

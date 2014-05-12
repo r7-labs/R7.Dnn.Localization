@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentOptions.Action">
+    <value>Управление таблицами</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Добавить запись</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ТАБЛИЦА ПРОИЗВОЛЬНОЙ СТРУКТУРЫ&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;Модуль позволяет вопспроизводить табличные данные произвольной структуры, определяемой пользователем. Возможно использование в таблицах данных следующих типов: текстовые, целочисленные, десятичные, дата и типа истина/ложь. Столбцы таблиц могут быть помечены как видимые только для пользователей, обладающих административными правами. Названия столбцов выводятся как ссылки, при нажатии на которые происходит сортировка данных столбца по воздастанию или убыванию.&lt;/p&gt;
+&lt;h1&gt;Работа с таблицами произвольной структуры&lt;/h1&gt;
+&lt;ul&gt;&lt;li&gt;Нажмите кнопку &lt;b&gt;Управление таблицами&lt;/b&gt; для перехода в режим создания таблицы или изменения структуры.&lt;li&gt;Нажмите кнопку &lt;b&gt;Добавить запись&lt;/b&gt; чтобы заполнить поля таблицы данными.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="NoFieldsDefined.ErrorMessage">
+    <value>Нет ни одного определенного поля. Пожалуйста,  сначала перейдите в &lt;href = "{0}"&gt; Управление таблицей &lt;/a&gt;.</value>
+  </data>
+  <data name="XslFailed.ErrorMessage">
+    <value>При XSL-преобразований произошла ошибка. Переключитесь  назад в режим DataGrid</value>
+  </data>
+  <data name="AllColumns.Text">
+    <value>все столбцы с поиском</value>
+  </data>
+  <data name="cmdResetSearch.Text">
+    <value>Сброс поиска</value>
+  </data>
+  <data name="cmdSearch.Text">
+    <value>Поиск</value>
+  </data>
+  <data name="cmdShowAll.Text">
+    <value>Показать все</value>
+  </data>
+  <data name="DeleteAll.Action">
+    <value>Удалить все записи</value>
+  </data>
+  <data name="DeleteAll.Confirm">
+    <value>Вы действительно хотите удалить все записи из таблицы?</value>
+  </data>
+  <data name="EditXsl.Action">
+    <value>Редактировать текущий XSL сценарий</value>
+  </data>
+  <data name="Filter.ErrorMessage">
+    <value>Некорректное выражение фильтра</value>
+  </data>
+  <data name="lblNoRecordsFound.Text">
+    <value>Не найдено ни одной записи.</value>
+  </data>
+  <data name="plSearch.Help">
+    <value>Введите значение для поиска:&lt;br/&gt;
+- без каких-либо префиксов или суффиксов, чтобы найти все записи, в которых столбец содержит искомое значение, например, Net &lt;br /&gt;
+- с префиксом | для поиска всех записей, в которых значение в столбце начинается с искомого значения, например, |Network&lt;br /&gt;
+- с суффиксом | для поиска всех записей, в которых значения столбца оканчиваются искомым значением, например, Network|&lt;br /&gt;
+- с префиксом и суффиксом &amp;#160;| для поиска всех записей, содержащих в точности введенное вами значение, например, |Network|&lt;/p&gt;</value>
+  </data>
+  <data name="SearchMode.Contain">
+    <value>содержат</value>
+  </data>
+  <data name="SearchMode.EndWith">
+    <value>оканчиваются</value>
+  </data>
+  <data name="SearchMode.Equal">
+    <value>равны</value>
+  </data>
+  <data name="SearchMode.StartWith">
+    <value>начинаются с</value>
+  </data>
+  <data name="SearchSentence.Text">
+    <value>Просмотр записей в {1}, которые {2} {3}</value>
+  </data>
+  <data name="ShowXML.Action">
+    <value>Показывать данные как XML</value>
+  </data>
+</root>

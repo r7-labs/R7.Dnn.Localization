@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Свойства события</value>
+  </data>
+  <data name="Approved.Text" xml:space="preserve">
+    <value>Утверждено</value>
+  </data>
+  <data name="Attachment.Text" xml:space="preserve">
+    <value>Вложение - файл, который может загрузить событие в Microsoft Outlook или другие локальные календарные приложения! </value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ConfirmDeleteSelected.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить ВЫБРАННЫХ зарегистрированных пользователей?</value>
+  </data>
+  <data name="ConfirmEventDelete.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту запись?</value>
+  </data>
+  <data name="ConfirmSendToAllEnrolled.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите послать email всем приглашённым пользователям?</value>
+  </data>
+  <data name="ConfirmSendToAllSelected.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите послать email всем ВЫБРАННЫМ приглашённым пользователям?</value>
+  </data>
+  <data name="Days.Text" xml:space="preserve">
+    <value>Дней</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Enrollee.Text" xml:space="preserve">
+    <value>Участник</value>
+  </data>
+  <data name="EnrollmentSettings.Text" xml:space="preserve">
+    <value>Настройки приглашений</value>
+  </data>
+  <data name="EnrollMessage.Text" xml:space="preserve">
+    <value>Следующее сообщение, относиться  к вашей регистрацией на cобытие: {0} &lt;br&gt; : {1} в {2} &lt;br&gt; &lt;br&gt;</value>
+  </data>
+  <data name="EventSettings.Text" xml:space="preserve">
+    <value>Настройки событий</value>
+  </data>
+  <data name="First.Text" xml:space="preserve">
+    <value>Перв.</value>
+  </data>
+  <data name="Fourth.Text" xml:space="preserve">
+    <value>Четверт.</value>
+  </data>
+  <data name="High.Text" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="Hours.Text" xml:space="preserve">
+    <value>Часов</value>
+  </data>
+  <data name="ImageSettings.Text" xml:space="preserve">
+    <value>Настройки изображений</value>
+  </data>
+  <data name="Last.Text" xml:space="preserve">
+    <value>Последн.</value>
+  </data>
+  <data name="lblBeforeEvent.Text" xml:space="preserve">
+    <value>прежде, чем событие должно произойти</value>
+  </data>
+  <data name="lblBodyMessage.Text" xml:space="preserve">
+    <value>Начало текста сообщения:</value>
+  </data>
+  <data name="lblEmailTo.Text" xml:space="preserve">
+    <value>Кому:</value>
+  </data>
+  <data name="lblEmailToComment.Text" xml:space="preserve">
+    <value>(Разделять адреса электронной почты запятой.)</value>
+  </data>
+  <data name="lblSendReminder.Text" xml:space="preserve">
+    <value>Послать напоминание:</value>
+  </data>
+  <data name="lblTimeZone.Text" xml:space="preserve">
+    <value>Часовой пояс:</value>
+  </data>
+  <data name="lnkEmail.Text" xml:space="preserve">
+    <value>Email всем зарегистрированным пользователям</value>
+  </data>
+  <data name="lnkSelectedDelete.Text" xml:space="preserve">
+    <value>Удаление выбранных зарегистрированных пользователей</value>
+  </data>
+  <data name="lnkSelectedEmail.Text" xml:space="preserve">
+    <value>Email выбранным зарегистрированным пользователям</value>
+  </data>
+  <data name="Low.Text" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="Minutes.Text" xml:space="preserve">
+    <value>Минут</value>
+  </data>
+  <data name="Months.Text" xml:space="preserve">
+    <value>Месяц(ев)</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="NotificationSettings.Text" xml:space="preserve">
+    <value>Настройки напоминаний</value>
+  </data>
+  <data name="Phone.Text" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="RecurringSettings.Text" xml:space="preserve">
+    <value>Настройки повторения</value>
+  </data>
+  <data name="Second.Text" xml:space="preserve">
+    <value>Втор.</value>
+  </data>
+  <data name="Seconds.Text" xml:space="preserve">
+    <value>Секунд</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>Выбор</value>
+  </data>
+  <data name="Third.Text" xml:space="preserve">
+    <value>Трет.</value>
+  </data>
+  <data name="updateButton.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="valBadEndDate.Text" xml:space="preserve">
+    <value>Требуется дата окончания</value>
+  </data>
+  <data name="valBadFee.Text" xml:space="preserve">
+    <value>Требуется плата для платной регистрации</value>
+  </data>
+  <data name="valBadStartDate.Text" xml:space="preserve">
+    <value>Недопустимая дата начала</value>
+  </data>
+  <data name="valConflict.Text" xml:space="preserve">
+    <value>Конфликт с существующим событием! Измените дату/время</value>
+  </data>
+  <data name="valHeight.Text" xml:space="preserve">
+    <value>Высота должна быть допустимым  целым числом или пустым</value>
+  </data>
+  <data name="valInvalidEndDate.Text" xml:space="preserve">
+    <value>Недопустимая дата окончания</value>
+  </data>
+  <data name="valInvalidEndTime.Text" xml:space="preserve">
+    <value>Недопустимое время окончания</value>
+  </data>
+  <data name="valInvalidRecurEndDate" xml:space="preserve">
+    <value>Дата окончания не может быть раньше даты начала </value>
+  </data>
+  <data name="valInvalidStartDate.Text" xml:space="preserve">
+    <value>Требуется начальная дата</value>
+  </data>
+  <data name="valPayPalAccount.Text" xml:space="preserve">
+    <value>Учетная запись PayPal требуется для платной регистрации</value>
+  </data>
+  <data name="valRecurBadEndDate.Text" xml:space="preserve">
+    <value>Недопустимая дата окончания</value>
+  </data>
+  <data name="valRequiredTitle.Text" xml:space="preserve">
+    <value>Необходим заголовок</value>
+  </data>
+  <data name="valW1Day.Text" xml:space="preserve">
+    <value>Пожалуйста, выберите день недели!</value>
+  </data>
+  <data name="valWidth.Text" xml:space="preserve">
+    <value>Ширина должна быть допустимым  целым числом или пустым</value>
+  </data>
+  <data name="Weeks.Text" xml:space="preserve">
+    <value>Неделя</value>
+  </data>
+  <data name="Years.Text" xml:space="preserve">
+    <value>Год </value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value> Да </value>
+  </data>
+  <data name="chkAttachEvent.Text" xml:space="preserve">
+    <value>Прикрепить событие?</value>
+  </data>
+  <data name="lblAllowErollment.Help" xml:space="preserve">
+    <value>Если разрешено, то это позволит пользователям зарегистрироваться на это событие</value>
+  </data>
+  <data name="lblAllowErollment.Text" xml:space="preserve">
+    <value>Разрешить регистрацию?</value>
+  </data>
+  <data name="lblAnnualRepeat.Text" xml:space="preserve">
+    <value>Повторять ежегодно</value>
+  </data>
+  <data name="lblCategory.Help" xml:space="preserve">
+    <value>Выберите категорию для события (для поддержки фильтрация событий)</value>
+  </data>
+  <data name="lblCategory.Text" xml:space="preserve">
+    <value>Категория:</value>
+  </data>
+  <data name="lblCreatedBy.Text" xml:space="preserve">
+    <value>Создано:</value>
+  </data>
+  <data name="lblCurrentlyEnrolled.Text" xml:space="preserve">
+    <value>(неограниченная регистрация = 0) В настоящее время зарегистрировано:</value>
+  </data>
+  <data name="lblDayRepeat.Text" xml:space="preserve">
+    <value>Повторять ежедневно:</value>
+  </data>
+  <data name="lblDisplayImage.Help" xml:space="preserve">
+    <value>Определяет, будет ли изображение связано/отображено с событием</value>
+  </data>
+  <data name="lblDisplayImage.Text" xml:space="preserve">
+    <value>Показывать изображение?</value>
+  </data>
+  <data name="lblEmailEnrolledUsers.Text" xml:space="preserve">
+    <value>Разослать по почте зарегистрированным пользователям</value>
+  </data>
+  <data name="lblEmailFrom.Help" xml:space="preserve">
+    <value>Рассылка примечаний к событию будет проводиться с этого адреса электронной почты.</value>
+  </data>
+  <data name="lblEmailFrom.Text" xml:space="preserve">
+    <value>От кого:</value>
+  </data>
+  <data name="lblEmailMessage.Help" xml:space="preserve">
+    <value>Почтовое сообщение может содержать следующие параметры: {0} = Заголовок, {1} = Начальная дата, {2} = Начальное время, {3} = Время конца, {4} = Часовой пояс</value>
+  </data>
+  <data name="lblEmailMessage.Text" xml:space="preserve">
+    <value>Сообщение Email:</value>
+  </data>
+  <data name="lblEmailSubject.Help" xml:space="preserve">
+    <value>Тема письма может содержать следующие параметры: {0} = Заголовок, {1} = Начальная дата, {2} = Начальное время, {3} = Время конца, {4} = Часовой пояс</value>
+  </data>
+  <data name="lblEmailSubject.Text" xml:space="preserve">
+    <value>Тема Email:</value>
+  </data>
+  <data name="lblEndDate.Help" xml:space="preserve">
+    <value>Дата окончания действия повторяющегося события (должна быть &gt; чем начальная дата для события, чтобы оно сработало, по-крайней мере, один раз), </value>
+  </data>
+  <data name="lblEndDate.Text" xml:space="preserve">
+    <value>Дата окончания повторяющегося события:</value>
+  </data>
+  <data name="lblEndDateTime.Help" xml:space="preserve">
+    <value>Введите дату и время окончания события (может захватывать несколько дней), </value>
+  </data>
+  <data name="lblEndDateTime.Text" xml:space="preserve">
+    <value>Дата и время окончания:</value>
+  </data>
+  <data name="lblEnrolledUsers.Text" xml:space="preserve">
+    <value>Зарегистрированные пользователи:</value>
+  </data>
+  <data name="lblEnrollmentRole.Help" xml:space="preserve">
+    <value>Только пользователям, которые находятся в этой роли, будет разрешено зарегистрироваться на событие</value>
+  </data>
+  <data name="lblEnrollmentRole.Text" xml:space="preserve">
+    <value>Роль регистрации:</value>
+  </data>
+  <data name="lblEnrollRoleNote.Text" xml:space="preserve">
+    <value>(выберите "None" для всех зарегистрированных) </value>
+  </data>
+  <data name="lblEvery1.Text" xml:space="preserve">
+    <value>Повторять каждые</value>
+  </data>
+  <data name="lblEvery2.Text" xml:space="preserve">
+    <value>Повторять каждую</value>
+  </data>
+  <data name="lblForEvery.Text" xml:space="preserve">
+    <value> числа, каждого </value>
+  </data>
+  <data name="lblFree.Text" xml:space="preserve">
+    <value>Свободно</value>
+  </data>
+  <data name="lblHeight.Help" xml:space="preserve">
+    <value>Высота изображения (значения по умолчанию - фактическая высота изображения)</value>
+  </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>Высота:</value>
+  </data>
+  <data name="lblImageURL.Help" xml:space="preserve">
+    <value>Выберите изображение из URL или  файл на Web-сервере</value>
+  </data>
+  <data name="lblImageURL.Text" xml:space="preserve">
+    <value>URL изображения:</value>
+  </data>
+  <data name="lblImportance.Help" xml:space="preserve">
+    <value>Выберите важность для показа в календарном представлении.</value>
+  </data>
+  <data name="lblImportance.Text" xml:space="preserve">
+    <value>Важность:</value>
+  </data>
+  <data name="lblInMonth.Help" xml:space="preserve">
+    <value>Повторять по-месячно, в определенный день месяца</value>
+  </data>
+  <data name="lblInMonth.Text" xml:space="preserve">
+    <value>По месяцам:</value>
+  </data>
+  <data name="lblLocation.Help" xml:space="preserve">
+    <value>Выберите место события</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Место:</value>
+  </data>
+  <data name="lblMaxEnrollment.Help" xml:space="preserve">
+    <value>Максимальное число приглашенных на событие (примечание: 0 = неограниченное)</value>
+  </data>
+  <data name="lblMaxEnrollment.Text" xml:space="preserve">
+    <value>Максимальное число приглашенных:</value>
+  </data>
+  <data name="lblModerated.Text" xml:space="preserve">
+    <value>(Управляемое)</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value> месяца</value>
+  </data>
+  <data name="lblMonthlyEvent.Help" xml:space="preserve">
+    <value>Детализированный образец ежемесячно повторяющегося события (позволяет более детализированную настройку ежемесячно повторяющегося события) </value>
+  </data>
+  <data name="lblMonthlyEvent.Text" xml:space="preserve">
+    <value>События месяца:</value>
+  </data>
+  <data name="lblMonthRepeat.Text" xml:space="preserve">
+    <value>Ежемесячное событие:</value>
+  </data>
+  <data name="lblNotes.Help" xml:space="preserve">
+    <value>Введите более детальное описание для события  (Примечание: Если нужно, она будет отображаться в календарном представлении в виде всплывающей подсказки ) </value>
+  </data>
+  <data name="lblNotes.Text" xml:space="preserve">
+    <value>Замечания:</value>
+  </data>
+  <data name="lblNotifyEmailMessage.Help" xml:space="preserve">
+    <value>Почтовое сообщение с уведомлением может содержать следующие параметры: {0} = Заголовок, {1} = Начальная дата, {2} = Начальное время, {3} = Часовой пояс</value>
+  </data>
+  <data name="lblNotifyEmailMessage.Text" xml:space="preserve">
+    <value>Сообщение:</value>
+  </data>
+  <data name="lblNotifyEmailSubject.Help" xml:space="preserve">
+    <value>Тема письма с уведомлением может содержать следующие параметры: {0} = Заголовок, {1} = Начальная дата, {2} = Начальное время, {3} = Часовой пояс</value>
+  </data>
+  <data name="lblNotifyEmailSubject.Text" xml:space="preserve">
+    <value>Тема Email:</value>
+  </data>
+  <data name="lblOfTheMonth.Text" xml:space="preserve">
+    <value> месяца</value>
+  </data>
+  <data name="lblOn.Text" xml:space="preserve">
+    <value>на </value>
+  </data>
+  <data name="lblOneTime.Help" xml:space="preserve">
+    <value>Это - одноразовое событие (неповторяющееся событие)</value>
+  </data>
+  <data name="lblOneTime.Text" xml:space="preserve">
+    <value>Одноразовое событие:</value>
+  </data>
+  <data name="lblOneTimeEvent.Text" xml:space="preserve">
+    <value>Одноразовое событие</value>
+  </data>
+  <data name="lblPaidFee.Text" xml:space="preserve">
+    <value>Стоимость:</value>
+  </data>
+  <data name="lblPayPalAccount.Text" xml:space="preserve">
+    <value>Учетная запись PayPal:</value>
+  </data>
+  <data name="lblPeriodicEvent.Help" xml:space="preserve">
+    <value>Образец повторяющегося периода (Например. Ежедневно, Еженедельно, Ежемесячно или Ежегодно)
+</value>
+  </data>
+  <data name="lblPeriodicEvent.Text" xml:space="preserve">
+    <value>Периодическое событие:</value>
+  </data>
+  <data name="lblRecurEndDate.Text" xml:space="preserve">
+    <value>Повторять до даты:</value>
+  </data>
+  <data name="lblRepeatedOn1.Text" xml:space="preserve">
+    <value>Повторять: </value>
+  </data>
+  <data name="lblRepeatedOn2.Text" xml:space="preserve">
+    <value>Повторять в  </value>
+  </data>
+  <data name="lblRepeatOnDate.Text" xml:space="preserve">
+    <value>Повторять в каждую годовщину</value>
+  </data>
+  <data name="lblSendReminder.Help" xml:space="preserve">
+    <value>Используется, чтобы разрешить автоматическое почтовое уведомлене о событии ( в фоновом режиме).  Включите и установите за сколько  минут, дней, часов перед событием отправлять примечание. Замечание: Планировщик DNN должен быть разрешен хостинг-провайдером</value>
+  </data>
+  <data name="lblStartDateTime.Help" xml:space="preserve">
+    <value>Введите дату  и  время начала события</value>
+  </data>
+  <data name="lblStartDateTime.Text" xml:space="preserve">
+    <value>Дата и время начала:</value>
+  </data>
+  <data name="lblTimeZone.Help" xml:space="preserve">
+    <value>Часовой пояс события. Примечание: Все события для определенного экземпляра модуля события будут такими же (см. параметры настройки модуля).</value>
+  </data>
+  <data name="lblTitle.Help" xml:space="preserve">
+    <value>Введите краткий заголовок события (используется в календарных представлениях)</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Краткий заголовок:</value>
+  </data>
+  <data name="lblTypeOfEnrollment.Help" xml:space="preserve">
+    <value>Тип регистрации: Бесплатная или Paypal (требует, чтобы учетная запись PayPal была правильно настроена) 
+</value>
+  </data>
+  <data name="lblTypeOfEnrollment.Text" xml:space="preserve">
+    <value>Тип регистрации</value>
+  </data>
+  <data name="lblWeeklyEvent.Help" xml:space="preserve">
+    <value>Детализированный образец еженедельного события (позволяет более детализированную настройку еженедельно повторяющегося события)</value>
+  </data>
+  <data name="lblWeeklyEvent.Text" xml:space="preserve">
+    <value>Еженедельное событие:</value>
+  </data>
+  <data name="lblWeekOn.Text" xml:space="preserve">
+    <value> неделю, в:</value>
+  </data>
+  <data name="lblWeekRepeat.Text" xml:space="preserve">
+    <value>Повторять еженедельно:</value>
+  </data>
+  <data name="lblWidth.Help" xml:space="preserve">
+    <value>Ширина изображения для показа (значение по-умолчанию - фактическая ширина)</value>
+  </data>
+  <data name="lblWidth.Text" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="lblYearlyEvent.Help" xml:space="preserve">
+    <value>Ежегодно повторять событие в определенный день</value>
+  </data>
+  <data name="lblYearlyEvent.Text" xml:space="preserve">
+    <value>Ежегодное событие:</value>
+  </data>
+  <data name="txtMessage.Text" xml:space="preserve">
+    <value>Вы запрашивали уведомление о событии: {0} на {1} {2} к {3}, {4}</value>
+  </data>
+  <data name="txtSubject.Text" xml:space="preserve">
+    <value>Ссылка на уведомления о событии: {0} на {1} {2} к {3}, {4}</value>
+  </data>
+</root>

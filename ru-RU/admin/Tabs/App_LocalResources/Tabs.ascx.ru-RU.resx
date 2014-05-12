@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TabManagement.Text">
+    <value>Управление страницами</value>
+  </data>
+  <data name="cmdUp.Help">
+    <value>Переместить выбранную страницу выше в текущем уровне</value>
+  </data>
+  <data name="cmdDown.Help">
+    <value>Переместить выбранную страницу ниже в текущем уровне</value>
+  </data>
+  <data name="cmdLeft.Help">
+    <value>Переместить выбранную страницу на уровень выше в иерархии</value>
+  </data>
+  <data name="cmdRight.Help">
+    <value>Переместить выбранную страницу на уровень ниже в иерархии</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Добавить новую страницу</value>
+  </data>
+  <data name="cmdEdit.Help">
+    <value>Изменить свойства выбранной страницы</value>
+  </data>
+  <data name="cmdView.Help">
+    <value>Просмотр выбранной страницы</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Добавить новую страницу</value>
+  </data>
+  <data name="MovePage.Text">
+    <value>Переместить</value>
+  </data>
+  <data name="Actions.Text">
+    <value>Действия</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Страницы</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;СТРАНИЦЫ САЙТА&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;При помощи данного модуля администраторы сайта могут управлять страницами, составляющими сайт. Модуль позволит Вам создавать новые страницы, модифицировать или удалять существующие страницы, изменять порядок сортировки страниц, а также перемещать страницы по уровням иерархии.&lt;/p&gt;</value>
+  </data>
+  <data name="ViewTabMessage.Text">
+    <value>Выбранная страница является запрещенной к показу</value>
+  </data>
+  <data name="cmdDelete.Help">
+    <value>Удалить выбранную страницу</value>
+  </data>
+  <data name="DeleteSpecialPage.Text">
+    <value>Недопустимо удалять такие страницы, как Главная, Splash, страница Входа, страница Пользователя, а также последнюю отображаемую страницу портала.</value>
+  </data>
+</root>

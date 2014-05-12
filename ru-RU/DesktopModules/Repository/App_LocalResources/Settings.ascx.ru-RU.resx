@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_settings.Text">
+    <value>Параметры репозитария</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Описание репозитария</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Введите описание для вашего репозитария. Этот текст появится наверху репозитария на вашей странице</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Категории</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Введите категории для этого репозитария. Чтобы добавить новую категорию, введите имя категории и нажмите на ссылку Добавить категорию. Чтобы редактировать категории, выберите нужную и нажмите на значок карандаша. Используйте X и значки стрелки, чтобы удалить и изменить порядок ваших категорий.</value>
+  </data>
+  <data name="plPageSize.Text">
+    <value>Число элементов на стараницу</value>
+  </data>
+  <data name="plRSSFeed.Text">
+    <value>Разрешить RSS подписку</value>
+  </data>
+  <data name="plSecurityRoles.Text">
+    <value>Роли безопасности</value>
+  </data>
+  <data name="plSkin.Text">
+    <value>Шаблон репозитария</value>
+  </data>
+  <data name="plRatingImage.Text">
+    <value>Набор изображений для рейтинга</value>
+  </data>
+  <data name="plFolders.Text">
+    <value>Укажите каталоги, где расположены файлы репозитария</value>
+  </data>
+  <data name="plNoImage.Text">
+    <value>Нет изображения</value>
+  </data>
+  <data name="plPageSize.Help">
+    <value>Введите число файлов, которые будут показываться на странице. Значение по умолчанию - 5</value>
+  </data>
+  <data name="plRSSFeed.Help">
+    <value>Отметьте эту опцию, если Вы хотели бы разрешить  RSS-подписку всех файлов в вашем репозитарии доступной для других сайтов. Вы можете это включить или выключить в любое время</value>
+  </data>
+  <data name="plSecurityRoles.Help">
+    <value>Отметьте роли безопасности, которые Вы хотели бы назначить каждой функции репозитария</value>
+  </data>
+  <data name="plSkin.Help">
+    <value>Выберите шаблон  для вашего репозитария</value>
+  </data>
+  <data name="plRatingImage.Help">
+    <value>Выберите набор изображений, чтобы использовать в рейтингах репозитария</value>
+  </data>
+  <data name="plNoImage.Help">
+    <value>Если нет загруженных изображений для этого элемента, выберите изображение из списка</value>
+  </data>
+  <data name="plApprovedFolder.Text">
+    <value>Каталог для утверждённых файлов</value>
+  </data>
+  <data name="plUnapprovedFolder.Text">
+    <value>Каталог для неутверждённых файлов</value>
+  </data>
+  <data name="plAnonymousFolder.Text">
+    <value>Каталог для аннонимных файлов</value>
+  </data>
+  <data name="plApprovedFolder.Help">
+    <value>Введите полный путь до места, где будут располагаться каталого репозитария. Например: C:\Inetpub\WWWRoot\DNN40\Portals\0\Repository</value>
+  </data>
+  <data name="plUnapprovedFolder.Help">
+    <value>Введите полный путь до места, где будут располагаться файлы, требующие утверждения (Pending). Например: C:\Inetpub\WWWRoot\DNN20\Portals\0\Repository\Pending</value>
+  </data>
+  <data name="plAnonymousFolder.Help">
+    <value>Введите полный путь до места, где будут располагаться файлы, загруженные анонимными пользователями. Например: C:\Inetpub\WWWRoot\DNN40\Portals\0\Repository\Anonymous</value>
+  </data>
+  <data name="plUploadFields.Text">
+    <value>Поля выгрузки</value>
+  </data>
+  <data name="plUploadFields.Help">
+    <value>Выберите, позволяет ли этот репозитарий загружать  только Файлы, только изображения, или файлы с изображениями</value>
+  </data>
+  <data name="plUserFolders.Text">
+    <value>Вы желаете хранить файлы каждого пользователя в их собственной папке?</value>
+  </data>
+  <data name="plUserFolders.Help">
+    <value>Если отмечено, каждый пользовательская загрузка, будет сохранена в их собственной папке в каталоге Approved Files. Если НЕ отмеченно, то всё, что загружают все пользователи, будет сохранено непосредственно в каталоге Approved Files.</value>
+  </data>
+  <data name="plDefaultSort.Text">
+    <value>Сортировка по умолчанию</value>
+  </data>
+  <data name="plDefaultSort.Help">
+    <value>Выберите сортировку по умолчанию</value>
+  </data>
+  <data name="plViewComments.Text">
+    <value>Просмотр комментариев пользователей</value>
+  </data>
+  <data name="plViewComments.Help">
+    <value>Выберите, могут ли только пользователи, с разрешением оставлять комментарии, видеть комментарии, или их может видеть любой пользователь</value>
+  </data>
+  <data name="plViewRatings.Text">
+    <value>Просмотр пользовательского рейтинга</value>
+  </data>
+  <data name="plViewRatings.Help">
+    <value>Выберите, могут ли только пользователи, которым разрешено голосовать, видеть результаты, или их может видеть любой</value>
+  </data>
+  <data name="plAttribute.Text">
+    <value>Атрибуты</value>
+  </data>
+  <data name="plAttribute.Help">
+    <value>Настройка заказных атрибутов модуля репозитария</value>
+  </data>
+  <data name="plValues.Text">
+    <value>Значения атрибута</value>
+  </data>
+  <data name="plValues.Help">
+    <value>Установка возможных значений для выбранного в данный момент атрибута.</value>
+  </data>
+  <data name="DeleteCategory.Text">
+    <value>Вы уверены, что хотите удалить эту категорию?</value>
+  </data>
+  <data name="DeleteAttribute.Text">
+    <value>Вы уверены, что хотите удалить этот атрибут?</value>
+  </data>
+  <data name="DeleteValue.Text">
+    <value>Вы уверены, что хотите удалить это значение?</value>
+  </data>
+  <data name="AddCategory.Text">
+    <value>ДОБАВИТЬ КАТЕГОРИЮ</value>
+  </data>
+  <data name="CancelCategory.Text">
+    <value>ОТМЕНИТЬ</value>
+  </data>
+  <data name="AddAttribute.Text">
+    <value>ДОБАВИТЬ АТРИБУТ</value>
+  </data>
+  <data name="CancelAttribute.Text">
+    <value>ОТМЕНИТЬ</value>
+  </data>
+  <data name="AddValue.Text">
+    <value>ДОБАВИТЬ ЗНАЧЕНИЕ</value>
+  </data>
+  <data name="CancelValue.Text">
+    <value>ОТМЕНИТЬ</value>
+  </data>
+  <data name="SortByDate.Text">
+    <value>Дата</value>
+  </data>
+  <data name="SortByDownloads.Text">
+    <value>Скачивания</value>
+  </data>
+  <data name="SortByUserRating.Text">
+    <value>Рейтинг пользователей</value>
+  </data>
+  <data name="SortByTitle.Text">
+    <value>Название</value>
+  </data>
+  <data name="SortByAuthor.Text">
+    <value>Имя автора</value>
+  </data>
+  <data name="UploadFiles.Text">
+    <value>Файл</value>
+  </data>
+  <data name="UploadLinks.Text">
+    <value>Ссылка (URL)</value>
+  </data>
+  <data name="UploadImageFiles.Text">
+    <value>Файл изображения</value>
+  </data>
+  <data name="UploadImageLinks.Text">
+    <value>Ссылка на изображение(URL)</value>
+  </data>
+  <data name="ViewCommentsAuth.Text">
+    <value>Только авторизованные пользователи</value>
+  </data>
+  <data name="ViewCommentsAll.Text">
+    <value>Все пользователи</value>
+  </data>
+  <data name="ViewRatingsAuth.Text">
+    <value>Только авторизованные пользователи</value>
+  </data>
+  <data name="ViewRatingsAll.Text">
+    <value>Все пользователи</value>
+  </data>
+  <data name="UserFolders.Text">
+    <value>Сохранять загруженые файлы в пользовательские каталоги</value>
+  </data>
+  <data name="ModerationRoles.Text">
+    <value>Роли редакторов</value>
+  </data>
+  <data name="DownloadRoles.Text">
+    <value>Роли для загрузки</value>
+  </data>
+  <data name="UploadRoles.Text">
+    <value>Роли для загрузки на сайт</value>
+  </data>
+  <data name="CommentRoles.Text">
+    <value>Роли комментаторов</value>
+  </data>
+  <data name="RatingRoles.Text">
+    <value>Роли для установки рейтинга</value>
+  </data>
+  <data name="SaveButton.Text">
+    <value>СОХРАНИТЬ</value>
+  </data>
+  <data name="ALL.Text">
+    <value>ВСЕ</value>
+  </data>
+  <data name="AllUsers.Text">
+    <value>Все пользователи</value>
+  </data>
+  <data name="hasItemsCannotDelete.Text">
+    <value>Вы не можете удалить категорию, имеющую элементы, связанные с ней. </value>
+  </data>
+  <data name="plRoot.Text">
+    <value>&lt;корень&gt;</value>
+  </data>
+</root>

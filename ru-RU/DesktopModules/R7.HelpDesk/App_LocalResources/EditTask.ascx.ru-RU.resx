@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ANewHelpDeskTicketHasBeenAssigned.Text" xml:space="preserve">
+    <value>Новая заявка №{0} была назначена '{1}'.</value>
+  </data>
+	<data name="ddlPriorityHigh.Text" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+	<data name="ddlPriorityLow.Text" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+	<data name="ddlPriorityNormal.Text" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+	<data name="ddlStatusAdminActive.Text" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+	<data name="ddlStatusAdminCancelled.Text" xml:space="preserve">
+    <value>Отменена</value>
+  </data>
+	<data name="ddlStatusAdminNew.Text" xml:space="preserve">
+    <value>Новая</value>
+  </data>
+	<data name="ddlStatusAdminOnHold.Text" xml:space="preserve">
+    <value>Приостановлена</value>
+  </data>
+	<data name="ddlStatusAdminResolved.Text" xml:space="preserve">
+    <value>Завершена</value>
+  </data>
+	<data name="DeletedRole.Text" xml:space="preserve">
+    <value>[Deleted Role]</value>
+  </data>
+	<data name="EmailIsRequired.Text" xml:space="preserve">
+    <value>Адрес эл. почты обязателен</value>
+  </data>
+	<data name="HelpDeskTicketAtHasBeenAssigned.Text" xml:space="preserve">
+    <value>Заявка #{0} на http://{1} была назначена '{2}'</value>
+  </data>
+	<data name="lblAssigned.Text" xml:space="preserve">
+    <value>Исполнители:</value>
+  </data>
+	<data name="lblStatus.Text" xml:space="preserve">
+    <value>Состояние:</value>
+  </data>
+	<data name="lbltxtDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+	<data name="lbltxtDueDate.Text" xml:space="preserve">
+    <value>Срок до:</value>
+  </data>
+	<data name="lbltxtEmail.Text" xml:space="preserve">
+    <value>Эл. почта:</value>
+  </data>
+	<data name="lbltxtName.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+	<data name="lbltxtPhone.Text" xml:space="preserve">
+    <value>Телефон:</value>
+  </data>
+	<data name="lbltxtPriority.Text" xml:space="preserve">
+    <value>Приоритет:</value>
+  </data>
+	<data name="lnkAdministratorSettings.Text" xml:space="preserve">
+    <value>Настройки администратора</value>
+  </data>
+	<data name="lnkExistingTickets.Text" xml:space="preserve">
+    <value>Текущие заявки</value>
+  </data>
+	<data name="lnkNewTicket.Text" xml:space="preserve">
+    <value>Новая заявка</value>
+  </data>
+	<data name="MustUseAValidDate.Text" xml:space="preserve">
+    <value>Укажите корректную дату</value>
+  </data>
+	<data name="NameIsRequired.Text" xml:space="preserve">
+    <value>Имя обязательно</value>
+  </data>
+	<data name="Unassigned.Text" xml:space="preserve">
+    <value>Нет исполнителей</value>
+  </data>
+	<data name="YouMaySeeStatusHere.Text" xml:space="preserve">
+    <value>Вы можете узнать состояние заявки здесь: {0}</value>
+  </data>
+	<data name="btnComments.Text" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+	<data name="btnLogs.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+	<data name="btnSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+	<data name="btnWorkItems.Text" xml:space="preserve">
+    <value>Работы</value>
+  </data>
+	<data name="lblTicket.Text" xml:space="preserve">
+    <value>Заявка:</value>
+  </data>
+	<data name="lbltxtComplete.Text" xml:space="preserve">
+    <value>Завершена:</value>
+  </data>
+	<data name="lbltxtEstimateHours.Text" xml:space="preserve">
+    <value>Примерно часов:</value>
+  </data>
+	<data name="lbltxtStart.Text" xml:space="preserve">
+    <value>Начало:</value>
+  </data>
+	<data name="lbltxtTags.Text" xml:space="preserve">
+    <value>Категории:</value>
+  </data>
+	<data name="Created.Text" xml:space="preserve">
+    <value>&lt;b&gt;Создана:&lt;/b&gt; {0} {1}</value>
+  </data>
+	<data name="MustUseAValidEstimateHours.Text" xml:space="preserve">
+    <value>Нужно указать правильное числов в поле "Примерно часов"</value>
+  </data>
+	<data name="Updated.Text" xml:space="preserve">
+    <value>Обновлена</value>
+  </data>
+	<data name="UpdatedTicket.Text" xml:space="preserve">
+    <value>{0} обновил(а) заявку.</value>
+  </data>
+	<data name="AssignedTicketTo.Text" xml:space="preserve">
+    <value>исполнителем заявки {0} назначен(а) {1}.</value>
+  </data>
+  <data name="ViewedTicket.Text" xml:space="preserve">
+  	<value>{0} просмотрел(а) заявку.</value>
+  </data>
+  <data name="Requester.Text" xml:space="preserve">
+  	<value>Заявитель</value>
+  </data>
+</root>

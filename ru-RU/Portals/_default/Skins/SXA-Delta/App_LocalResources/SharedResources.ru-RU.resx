@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Breadcrumb.Text">
+    <value>&lt;&#160;сейчас Вы здесь!</value>
+  </data>
+  <data name="SeeAlso.Text">
+    <value>См. также:</value>
+  </data>
+  <data name="OrphusTip.Text">
+    <value><![CDATA[Если Вы заметили <span style="border-bottom: 3px double #F00; font-style: italic; cursor: pointer;">ошибку</span> в тексте, <span style="background-color: #058; color: #FFF; font-style: italic; cursor: text;">&#160;выделите ее мышкой&#160;</span> и нажмите <span style="font-family: 'Courier New', Courier, monospace; font-weight: bold;"> Ctrl+Enter</span>]]></value>
+  </data>
+<data name="BrowserWarning.Text">
+      <value><![CDATA[<strong>Внимание!</strong><br />Мы определили, что Вы используете устаревшую версию браузера, не поддерживающую в должной мере современные стандарты Интернет. Как следствие, наш сайт [Portal:PortalName] может отображаться в Вашем браузере неправильно, а отдельные его функции могут работать некорректно или будут недоступны. Пожалуйста, обновите Ваш браузер до актуальной версии!]]></value>
+   </data>
+</root>

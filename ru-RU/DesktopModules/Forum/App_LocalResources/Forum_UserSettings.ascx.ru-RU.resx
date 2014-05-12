@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plUserName.Help" xml:space="preserve">
+    <value>Имя пользователя DNN (только для чтения). Для изменения используйте ссылку для редактирования профиля на этом сайте.</value>
+  </data>
+  <data name="plWebsite.Help" xml:space="preserve">
+    <value>Веб-сайт пользователя (только для чтения). Для изменения используйте ссылку для редактирования профиля на этом сайте.</value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>Эл.почта</value>
+  </data>
+  <data name="plEmail.Help" xml:space="preserve">
+    <value>Адрес эл.почты пользователя (только для чтения). Чтобы изменить, используйте ссылку для редактирования вашего профиля на сайте. Если включено &lt;em&gt;Показывать email на странице профиля&lt;/em&gt;, то Ваш эл.адрес будет показываться всем пользователям этого модуля. По умолчанию отключено.</value>
+  </data>
+  <data name="dlSkin.Text" xml:space="preserve">
+    <value>Шаблон оформления</value>
+  </data>
+  <data name="dlCollapseGroups.Help" xml:space="preserve">
+    <value>Этот флаг определяет, будут ли все группы показаны свернутыми или развернутыми.</value>
+  </data>
+  <data name="plOnlineStatus.Help" xml:space="preserve">
+    <value>Другие пользователи будут видеть, когда Вы находитесь на форуме.</value>
+  </data>
+  <data name="plSystemAvatarsLookup.Help" xml:space="preserve">
+    <value>Изображения, которые отображаются ниже аватары пользователя. Поле ввода внизу только напоминает вам, какое изображение вы только что закачали. Это можно использовать, например, как используют разработчики DNN, у которых на форумах ASP.NET одинаковое лого.</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Форум - настройки пользователя&lt;/h1&gt;&lt;p&gt;Вы можете управлять вашими настройками. Эта страница разделена на части.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;em&gt;Общая информация&lt;/em&gt; - Она берется из данных пользователя сайта. Все значения в этом разделе только для чтения, исключая опцию отображения вашего email другим пользователям.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Профиль пользователя&lt;/em&gt; - Этот раздел содержит персональную информацию пользователя. Здесь можно указать контактную информацию и немного рассказать другим пользователям о себе.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Настройки пользователя&lt;/em&gt; - Этот раздел позволяет вам указать как вы будете видеть форумы. Здесь вы также можете указать подпись к вашим сообщениям.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Подписка&lt;/em&gt; - В этом разделе вы можете изменить список форумов на которые вы подписаны. Настройки модуля "что нового" также здесь.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Настройки администратора&lt;/em&gt; - Администраторы могут изменить некоторые настройки пользователя. В частности сделать его администратором, или задать аватару.&lt;/li&gt;</value>
+  </data>
+  <data name="Preview.Text" xml:space="preserve">
+    <value>Препросмотр...</value>
+  </data>
+  <data name="plEnableForumModNotify.Help" xml:space="preserve">
+    <value>Если включено, вы будете получать уведомления на эл.почтовый ящик о новых сообщениях требующих модерирования.</value>
+  </data>
+  <data name="plEmailFormat.Text" xml:space="preserve">
+    <value>Формат писем</value>
+  </data>
+  <data name="btnPreview.Text" xml:space="preserve">
+    <value>Препросмотр</value>
+  </data>
+  <data name="plUserID.Help" xml:space="preserve">
+    <value>DNN UserID (только для чтения)</value>
+  </data>
+</root>

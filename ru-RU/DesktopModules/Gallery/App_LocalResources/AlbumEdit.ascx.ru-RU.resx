@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Configuration.Action" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+	<data name="GalleryHome.Action" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+	<data name="plName.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+	<data name="plName.Help" xml:space="preserve">
+    <value>Имя альбома. Это имя папки, в которой будут храниться файлы альбома. Не используйте специальные символы в имени!</value>
+  </data>
+	<data name="plTitle.Text" xml:space="preserve">
+    <value>Название:</value>
+  </data>
+	<data name="plTitle.Help" xml:space="preserve">
+    <value>Название (заголовок) альбома. </value>
+  </data>
+	<data name="plAuthor.Text" xml:space="preserve">
+    <value>Автор:</value>
+  </data>
+	<data name="plAuthor.Help" xml:space="preserve">
+    <value>Автор альбома (снимков).</value>
+  </data>
+	<data name="plClient.Text" xml:space="preserve">
+    <value>Заметки:</value>
+  </data>
+	<data name="plClient.Help" xml:space="preserve">
+    <value>Поле общего назначения, название которого может быть изменено через файлы локализации.&lt;br /&gt;&lt;storng&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Это поле можно отключить в настройках галереи - в разделе &lt;em&gt;Отображаемая информация&lt;/em&gt;.</value>
+  </data>
+	<data name="plLocation.Text" xml:space="preserve">
+    <value>Место:</value>
+  </data>
+	<data name="plLocation.Help" xml:space="preserve">
+    <value>Место съемки кадров. </value>
+  </data>
+	<data name="plDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+	<data name="plDescription.Help" xml:space="preserve">
+    <value>Краткое описание альбома.</value>
+  </data>
+	<data name="plApprovedDate.Text" xml:space="preserve">
+    <value>Дата утверждения:</value>
+  </data>
+	<data name="plApprovedDate.Help" xml:space="preserve">
+    <value>Дата утверждения (публикации) альбома.</value>
+  </data>
+	<data name="plOwner.Text" xml:space="preserve">
+    <value>Владелец:</value>
+  </data>
+	<data name="plOwner.Help" xml:space="preserve">
+    <value>Владелец альбома.  </value>
+  </data>
+	<data name="plCategories.Text" xml:space="preserve">
+    <value>Категории:</value>
+  </data>
+	<data name="plCategories.Help" xml:space="preserve">
+    <value>Категории материалов данного альбома.</value>
+  </data>
+	<data name="AddFile.Text" xml:space="preserve">
+    <value>Новый альбом</value>
+  </data>
+	<data name="cmdApprovedDate.Help" xml:space="preserve">
+    <value>Дата утверждения (публикации) альбома.</value>
+  </data>
+	<data name="plRefuseTitle.Text" xml:space="preserve">
+    <value>Частная галерея.</value>
+  </data>
+	<data name="plRefuseTitle.Help" xml:space="preserve">
+    <value>Частная галерея.</value>
+  </data>
+	<data name="lblRefuse.Text" xml:space="preserve">
+    <value>У вас недостаточно прав в этой частной галерее.</value>
+  </data>
+	<data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Редактирование альбома&lt;/h1&gt;&lt;p&gt;Настройки уровня альбома.&lt;/p&gt;</value>
+  </data>
+	<data name="AlbumDetails.Text" xml:space="preserve">
+    <value>Свойства альбома</value>
+  </data>
+	<data name="ControlTitle_albumedit.Text" xml:space="preserve">
+    <value>Редактировать альбом</value>
+  </data>
+	<data name="RootFolderDetails.Text" xml:space="preserve">
+    <value>Корневая папка - редактирование возможно только в настройках самой галереи</value>
+  </data>
+	<data name="AddFolders.Text" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+	<data name="cmdApprovedDate.Text" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+	<data name="AddFiles.Text" xml:space="preserve">
+    <value>Добавить файлы</value>
+  </data>
+	<data name="rqdFieldValidatorTxtName.ErrorMessage" xml:space="preserve">
+    <value>Укажите имя альбома.</value>
+  </data>
+	<data name="rqdFieldValidatorTxtTitle.ErrorMessage" xml:space="preserve">
+    <value>Укажите название альбома.</value>
+  </data>
+	<data name="validateCharacters4txtName.ErrorMessage" xml:space="preserve">
+    <value>Недопустимый символ в имени альбома.</value>
+  </data>
+	<data name="valApprovedDate.ErrorMessage" xml:space="preserve">
+    <value>Неверная дата.</value>
+  </data>
+	<data name="CreateChildAlbumFailed.ErrorMessage" xml:space="preserve">
+    <value>Произошла непредвиденная ошибка при попытке создания дочернего альбома.</value>
+  </data>
+	<data name="DuplicateAlbumName.ErrorMessage" xml:space="preserve">
+    <value>Альбом с этим именем уже существует. Выберите другое имя.</value>
+  </data>
+</root>

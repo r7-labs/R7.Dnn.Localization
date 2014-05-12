@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PleaseRegister.Text">
+    <value>&lt;br /&gt;Для того, чтобы воспользоваться преимуществами сервисов для зарегистрированных пользователей, Вы должны зарегистрироваться на нашем сайте. Если Вы уже сделали это когда-либо, пожалуйста выполните &lt;a class=""CommandButton"" href=""{0}?tabid={1}&amp;showlogin=1""&gt;Вход&lt;/a&gt;.Если вы еще не зарегистрированы на этом сайте, пожалуйста, найдите возможность пройти процедуру &lt;a class=""CommandButton"" href=""{0}?tabid={1}&amp;def=Register""&gt;Регистрации&lt;/a&gt; .</value>
+  </data>
+  <data name="RegisterNote.Text">
+    <value>&lt;strong&gt;Внимание:&lt;/strong&gt; Все поля, помеченные звездочкой, являются обязательными для заполнения.</value>
+  </data>
+  <data name="PrivateMembership.Text">
+    <value>&lt;strong&gt;Внимание:&lt;/strong&gt; Регистрация на данном сайте закрытая (приватная). После того, как Вы заполните свои персональные данные и отправите их, администратор сайта получит уведомление об этом, и Ваши данные будут проверены. В случае успешной проверки, Вы получите уведомление об активации Вашей учетной записи.</value>
+  </data>
+  <data name="PublicMembership.Text">
+    <value>&lt;strong&gt;Внимание:&lt;/strong&gt;  Регистрация на данном сайте является открытой. Как только указанные Вами персональные данные будут отправлены на сайт, Вы незамедлительно получите доступ к сайту как зарегистрированный пользователь.</value>
+  </data>
+  <data name="VerifiedMembership.Text">
+    <value>&lt;strong&gt;Внимание:&lt;/strong&gt; Процедура регистрации на данном сайте является двухступенчатой (с подтверждением). Как только Ваши персональные данные будут переданы на сайт, Вы получите уведомление по эл. почте, содержащее Ваш персональный код подтверждения. Данный код потребуется Вам при первой попытке выполнить вход на сайт.</value>
+  </data>
+  <data name="RegistrationFailure.Text">
+    <value>Ошибка регистрации! Имя пользователя &lt;em&gt;{0}&lt;/em&gt; уже занято кем-то другим.&lt;br /&gt;Пожалуйста, выберите другое имя пользователя.</value>
+  </data>
+  <data name="VerifiedConfirmationMessage.Text">
+    <value>&lt;strong&gt;Письмо с кодом подтверждения было отправлено на указанный Вами электронный адрес: {0}&lt;br /&gt;Пожалуйста, получите Ваш код подтверждения, он потребуется Вам во время первого входа на сайт.&lt;/strong&gt;</value>
+  </data>
+  <data name="PrivateConfirmationMessage.Text">
+    <value>&lt;strong&gt;Заявка с Вашими данными была отправлена администратору сайта для проверки. После проверки в случае успешной регистрации Вы получите уведомление на электронный адрес, который Вы указали: {0}.&lt;/strong&gt;</value>
+  </data>
+  <data name="CancelConfirm.Text">
+    <value>Уверены, что хотите отменить свою регистрацию на нашем сайте?</value>
+  </data>
+  <data name="ChangePassword.Text">
+    <value>Сменить пароль</value>
+  </data>
+  <data name="cmdRegister.Text">
+    <value>Зарегистрироваться</value>
+  </data>
+  <data name="cmdRSVP.Text">
+    <value>Подписаться</value>
+  </data>
+  <data name="cmdUnregister.Text">
+    <value>Отменить регистрацию</value>
+  </data>
+  <data name="cmdUpdatePassword.Text">
+    <value>Сохранить пароль</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Учетная запись</value>
+  </data>
+  <data name="ControlTitle_register.Text">
+    <value>Регистрация</value>
+  </data>
+  <data name="Description.Header">
+    <value>Описание</value>
+  </data>
+  <data name="Every.Header">
+    <value>Каждый</value>
+  </data>
+  <data name="ExpiryDate.Header">
+    <value>Дата истечения</value>
+  </data>
+  <data name="Fee.Header">
+    <value>Взнос</value>
+  </data>
+  <data name="MembershipNotOffered.Text">
+    <value>Сервисы членства в настоящее время не предоставляются.</value>
+  </data>
+  <data name="Name.Header">
+    <value>Имя</value>
+  </data>
+  <data name="NewPassword.Text">
+    <value>Вы должны указать новый пароль.</value>
+  </data>
+  <data name="OldPassword.Text">
+    <value>Вы должны указать старый пароль.</value>
+  </data>
+  <data name="PasswordChanged.Text">
+    <value>Ваш пароль изменен.</value>
+  </data>
+  <data name="PasswordMatchFailure.Text">
+    <value>Введенные пароли НЕ совпадают.</value>
+  </data>
+  <data name="PasswordUpdateFailed.Text">
+    <value>Произошла ошибка при установке пароля. Убедитесь, что Вы ввели старый пароль правильно, затем повторите попытку.</value>
+  </data>
+  <data name="Period.Header">
+    <value>Период</value>
+  </data>
+  <data name="plDateFormat.Help">
+    <value>Выберите предпочитаемый формат даты</value>
+  </data>
+  <data name="plDateFormat.Text">
+    <value>Формат даты:</value>
+  </data>
+  <data name="plLocale.Help">
+    <value>Выберите предпочитаемый язык</value>
+  </data>
+  <data name="plLocale.Text">
+    <value>Предпочитаемый язык:</value>
+  </data>
+  <data name="plNewConfirm.Help">
+    <value>Введите новый пароль повторно, чтобы убедиться в том, что в новом пароле не допущены опечатки</value>
+  </data>
+  <data name="plNewConfirm.Text">
+    <value>Новый пароль еще раз:</value>
+  </data>
+  <data name="plNewPassword.Help">
+    <value>Введите новый пароль</value>
+  </data>
+  <data name="plNewPassword.Text">
+    <value>Новый пароль:</value>
+  </data>
+  <data name="plOldPassword.Help">
+    <value>Введите старый пароль</value>
+  </data>
+  <data name="plOldPassword.Text">
+    <value>Старый пароль:</value>
+  </data>
+  <data name="plRSVPCode.Help">
+    <value>Вы можете стать членом некоторых ролей, если введете корректный код приглашения. Если у Вас есть такой код, введите его и нажмите Подписаться</value>
+  </data>
+  <data name="plRSVPCode.Text">
+    <value>Введите код приглашения:</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>Укажите свой часовой пояс</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>Часовой пояс:</value>
+  </data>
+  <data name="Preferences.Text">
+    <value>Настройки</value>
+  </data>
+  <data name="Required.Text">
+    <value>Все поля, помеченные звездочкой, обязательны к заполнению.</value>
+  </data>
+  <data name="Services.Text">
+    <value>Сервисы членства</value>
+  </data>
+  <data name="Subscribe.Text">
+    <value>Подписка</value>
+  </data>
+  <data name="Trial.Header">
+    <value>Пробный период</value>
+  </data>
+  <data name="Unsubscribe.Text">
+    <value>Отменить подписку</value>
+  </data>
+</root>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Редактор текста</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;Текст / HTML&amp;raquo;&lt;/h1&gt;
+&lt;P&gt;Модуль выводит обработанный обычный текст, форматированный текст или HTML. Доступно пять различных режимов редактирования: &lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Простой текстовй редактор / текст&lt;/STRONG&gt;: Обрабатывается простой текст и тэги HTML. Перевод строки обрабатывается как HTML-тэг &amp;lt;br&amp;gt;. Текст выводится с использованием стиля "Normal", как он определен в стилевом файле Вашего сайта. 
+&lt;LI&gt;&lt;STRONG&gt;Простой текстовый редактор / HTML&lt;/STRONG&gt;: Выводит простой текст в формате HTML.
+&lt;LI&gt;&lt;STRONG&gt;Простой текстовый редактор / Необработанный&lt;/STRONG&gt;: Выводит простой текст в формате HTML. Перевод строки НЕ обрабатывается как HTML-тэг &amp;lt;br&amp;gt;.
+&lt;LI&gt;&lt;STRONG&gt;Редактор форматированного текста / HTML&lt;/STRONG&gt;: Позволяет импортировать готовый форматированный текст из других источников.
+&lt;LI&gt;&lt;STRONG&gt;Редактор форматированного текста / Дизайн&lt;/STRONG&gt;: Полнофункциональный WYSIWYG HTML процессор, наполненный такой функциональностью, как работа с гиперссылками, email-ссылками, файловая галерея для изображений и других типов файлов, списки и таблицы, проверка правописания и т.д.</value>
+  </data>
+  <data name="AddContent.Text">
+    <value>Нажмите сюда для ввода вашего текста</value>
+  </data>
+  <data name="AddContentFromActionMenu.Text">
+    <value>Используйте меню модуля для редактирования содержимого</value>
+  </data>
+  <data name="AddContentFromToolBar.Text">
+    <value>Проведите курсором здесь, а затем нажмите на панель для редактирования содержимого</value>
+  </data>
+</root>

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>Основные параметры</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>В этой секции Вы можете установить основные параметры для Вашего сайта</value>
+  </data>
+  <data name="SiteDetails.Text">
+    <value>Параметры сайта</value>
+  </data>
+  <data name="plPortalName.Text">
+    <value>Заголовок:</value>
+  </data>
+  <data name="plPortalName.Help">
+    <value>Заголовок Вашего сайта. Будет выведен в верней заголовочной части окна браузера</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Описание:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Вы можете дать Вашему сайту текстовое описание</value>
+  </data>
+  <data name="plKeyWords.Text">
+    <value>Ключевые слова:</value>
+  </data>
+  <data name="plKeyWords.Help">
+    <value>Укажите одно иили несколько ключевых слов данного сайта (разделенных запятыми).  Эти слова будут использованы поисковыми машинами Интернета для облегчения индексирования Вашего сайта</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>Представление</value>
+  </data>
+  <data name="plLogo.Text">
+    <value>Логотип:</value>
+  </data>
+  <data name="plLogo.Help">
+    <value>Данное изображение будет показано в качестве логотипа сайта, если это поддерживает скин</value>
+  </data>
+  <data name="plPortalSkin.Text">
+    <value>Базовый скин:</value>
+  </data>
+  <data name="plPortalSkin.Help">
+    <value>Выбранный скин будет использован для всех страниц сайта, за исключением явно переопределенных на уровне страниц</value>
+  </data>
+  <data name="plPortalContainer.Text">
+    <value>Базовый контейнер:</value>
+  </data>
+  <data name="plPortalContainer.Help">
+    <value>Выбранный контейнер будет использован для всех модулей сайта, за исключением явно переопределенных на уровне страниц или модулей</value>
+  </data>
+  <data name="plAdminSkin.Text">
+    <value>Служебный скин:</value>
+  </data>
+  <data name="plAdminSkin.Help">
+    <value>Выбранный скин будет использован для административных страниц Вашего сайта</value>
+  </data>
+  <data name="plAdminContainer.Text">
+    <value>Служебный контейнер:</value>
+  </data>
+  <data name="plAdminContainer.Help">
+    <value>Выбранный контейнер будет использован для административных модулей Вашего сайта</value>
+  </data>
+  <data name="plBackground.Text">
+    <value>Фон страниц:</value>
+  </data>
+  <data name="plBackground.Help">
+    <value>Выбранное изображение будет использовано в качестве фона для всех страниц, если это поддерживает скин</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>Дополнительные параметры</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>В этой секции Вы можете установить дополнительные параметры для Вашего сайта</value>
+  </data>
+  <data name="SecuritySettings.Text">
+    <value>Параметры безопасности</value>
+  </data>
+  <data name="plUserRegistration.Text">
+    <value>Регистрация пользователей:</value>
+  </data>
+  <data name="plUserRegistration.Help">
+    <value>Установите порядок регистрации пользователей на данном сайте</value>
+  </data>
+  <data name="None.Text">
+    <value>Нет</value>
+  </data>
+  <data name="Private.Text">
+    <value>Приватная</value>
+  </data>
+  <data name="Public.Text">
+    <value>Публичная</value>
+  </data>
+  <data name="Verified.Text">
+    <value>С подтверждением</value>
+  </data>
+  <data name="Pages.Text">
+    <value>Управление страницами</value>
+  </data>
+  <data name="plSplashTabId.Text">
+    <value>Заставка:</value>
+  </data>
+  <data name="plSplashTabId.Help">
+    <value>Страница заставки для данного сайта</value>
+  </data>
+  <data name="plHomeTabId.Text">
+    <value>Главная страница:</value>
+  </data>
+  <data name="plHomeTabId.Help">
+    <value>Главная страница Вашего сайта</value>
+  </data>
+  <data name="plLoginTabId.Text">
+    <value>Страница входа:</value>
+  </data>
+  <data name="plLoginTabId.Help">
+    <value>Страница входа для пользователей сайта</value>
+  </data>
+  <data name="plUserTabId.Text">
+    <value>Страница пользователя:</value>
+  </data>
+  <data name="plUserTabId.Help">
+    <value>Страница пользователя на данном сайте</value>
+  </data>
+  <data name="Payment.Text">
+    <value>Параметры оплаты</value>
+  </data>
+  <data name="plCurrency.Text">
+    <value>Валюта:</value>
+  </data>
+  <data name="plCurrency.Help">
+    <value>Выберите валюту, используемую на Вашем сайте</value>
+  </data>
+  <data name="plProcessor.Text">
+    <value>Обработчик платежей:</value>
+  </data>
+  <data name="plProcessor.Help">
+    <value>Обработчик платежей, используемый на данном сайте</value>
+  </data>
+  <data name="ProcessorWebSite.Text">
+    <value>Перейти на сайт обработчика</value>
+  </data>
+  <data name="plUserId.Text">
+    <value>Идентификатор пользователя:</value>
+  </data>
+  <data name="plUserId.Help">
+    <value>Идентификатор пользователя для доступа к обработчику платежей</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>Пароль к обработчику:</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>Пароль доступа к обработчику платежей</value>
+  </data>
+  <data name="Other.Text">
+    <value>Другие параметры</value>
+  </data>
+  <data name="plFooterText.Text">
+    <value>Копирайт:</value>
+  </data>
+  <data name="plFooterText.Help">
+    <value>Текст копирайта будет показан на Вашем сайте, если это поддерживает скин</value>
+  </data>
+  <data name="Site.Text">
+    <value>Сайт</value>
+  </data>
+  <data name="Host.Text">
+    <value>Хост</value>
+  </data>
+  <data name="plAdministrator.Text">
+    <value>Администратор:</value>
+  </data>
+  <data name="plAdministrator.Help">
+    <value>Выберите администратора данного сайта</value>
+  </data>
+  <data name="plDefaultLanguage.Text">
+    <value>Базовый язык:</value>
+  </data>
+  <data name="plDefaultLanguage.Help">
+    <value>Выберите язык сайта по-умолчанию</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>Часовой пояс:</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>Выберите часовой пояс, в котором расположен данный сайт</value>
+  </data>
+  <data name="HostSettings.Text">
+    <value>Параметры хоста</value>
+  </data>
+  <data name="plPortalAlias.Text">
+    <value>Псевдоним сайта:</value>
+  </data>
+  <data name="plPortalAlias.Help">
+    <value>Псевдоним сайта - это адрес ссылки, по которому он доступен в сети</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>Конечная дата:</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>Дата истечения хостингового договора для данного сайта</value>
+  </data>
+  <data name="plHostFee.Text">
+    <value>Стоимость хостинга:</value>
+  </data>
+  <data name="plHostFee.Help">
+    <value>Стоимость хостинга, взимаемая ежемесячно</value>
+  </data>
+  <data name="plHostSpace.Text">
+    <value>Дисковое пространство:</value>
+  </data>
+  <data name="plHostSpace.Help">
+    <value>Размер доступного дискового пространства для данного сайта в МБайтах</value>
+  </data>
+  <data name="plSiteLogHistory.Text">
+    <value>Хранение журнала:</value>
+  </data>
+  <data name="plSiteLogHistory.Help">
+    <value>Интервал времени в днях, в течении которого будет сохраняться журнал активности сайта и собираться статистика</value>
+  </data>
+  <data name="plDesktopModules.Text">
+    <value>Локальные модули</value>
+  </data>
+  <data name="plDesktopModules.Help">
+    <value>Локальные модули доступны только отдельным сайтам</value>
+  </data>
+  <data name="StylesheetEditor.Text">
+    <value>Редактор файла стилей</value>
+  </data>
+  <data name="SaveStyleSheet.Text">
+    <value>Сохранить файл стилей</value>
+  </data>
+  <data name="RestoreDefaultStyleSheet.Text">
+    <value>Восстановить исходный файл стилей</value>
+  </data>
+  <data name="LoginInstructions.Text">
+    <value>Инструкции входа</value>
+  </data>
+  <data name="RegistrationInstructions.Text">
+    <value>Инструкции по регистрации</value>
+  </data>
+  <data name="NewUserSignupMessage.Text">
+    <value>Сообщения для новых пользователей</value>
+  </data>
+  <data name="DeleteMessage.Text">
+    <value>Вы уверены, что хотите удалить этот сайт?</value>
+  </data>
+  <data name="SubmitGoogle.Text">
+    <value>Представить сайт в Google</value>
+  </data>
+  <data name="plHomeDirectory.Text">
+    <value>Домашний каталог:</value>
+  </data>
+  <data name="plHomeDirectory.Help">
+    <value>Домашний каталог сайта</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Параметры сайта</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Изменить сайты</value>
+  </data>
+  <data name="SkinUpload.Text">
+    <value>Загрузить скин</value>
+  </data>
+  <data name="ContainerUpload.Text">
+    <value>Загрузить контейнер</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ПАРАМЕТРЫ САЙТА&amp;raquo;&lt;/h1&gt;&lt;p&gt;Модуль позволяет администратору управлять набором свойств конкретного сайта. Эти свойства позволят настроить сайт для наиболее полного соответствия Вашим требованиям.&lt;/p&gt;</value>
+  </data>
+  <data name="RestoreCCSMessage.Text">
+    <value>Вы уверены, что хотиле восстановить файл стилей по-умолчанию (Все изменения в стилевом файле, сделанные к этому моменту, будут утеряны) ? </value>
+  </data>
+  <data name="ControlPanelModeEdit.Text">
+    <value>Изменить</value>
+  </data>
+  <data name="ControlPanelModeView.Text">
+    <value>Просмотр</value>
+  </data>
+  <data name="ControlPanelVisibilityMaximized.Text">
+    <value>Развернуть</value>
+  </data>
+  <data name="ControlPanelVisibilityMinimized.Text">
+    <value>Свернуть</value>
+  </data>
+  <data name="plControlPanelMode.Help">
+    <value>Выберите режим панели управления  по умолчанию для авторизованных пользователей вашего сайта.</value>
+  </data>
+  <data name="plControlPanelMode.Text">
+    <value>Режим панели управления:</value>
+  </data>
+  <data name="plControlPanelVisibility.Help">
+    <value>Выберите доступность панели управления для авторизованных пользователей вашего сайта.</value>
+  </data>
+  <data name="plControlPanelVisibility.Text">
+    <value>Доступность панели управления:</value>
+  </data>
+  <data name="plGUID.Help">
+    <value>Глобальный уникальный идентификатор, который может использоваться для идентификации этого портала.</value>
+  </data>
+  <data name="plGUID.Text">
+    <value>GUID:</value>
+  </data>
+  <data name="plInlineEditor.Help">
+    <value>Выберите эту опцию, если Вы хотите разрешить опцию редактирование на месте  на вашем сайте.</value>
+  </data>
+  <data name="plInlineEditor.Text">
+    <value>Разрешить редактор на месте?</value>
+  </data>
+  <data name="Usability.Text">
+    <value>Настройки удобства использования</value>
+  </data>
+  <data name="valHostFee.Error">
+    <value>Недопустимая оплата, должно быть денежным значением!</value>
+  </data>
+  <data name="Advertising.Text">
+    <value>&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-9770992166002654";
+google_ad_output = "textlink";
+google_ad_format = "ref_text";
+google_cpa_choice = "CAAQ3KfzygIaCNJbQ5r5YiDXKKjntoQBMAA";
+google_ad_channel = "";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;</value>
+  </data>
+  <data name="ControlPanelSecurityModule.Text">
+    <value>Редактор модулей</value>
+  </data>
+  <data name="ControlPanelSecurityTab.Text">
+    <value>Редактор страниц</value>
+  </data>
+  <data name="Marketing.Text">
+    <value>Маркетинг сайта</value>
+  </data>
+  <data name="plAdvertising.Help">
+    <value>Прорекламируйте ваш сайт в Google. Это позволит вашим текстовым баннерам появляться в результатах поиска Google, а так же на связанных сайтах.</value>
+  </data>
+  <data name="plAdvertising.Text">
+    <value>Реклама:</value>
+  </data>
+  <data name="plBanners.Help">
+    <value>Укажите тип баннерной рекламы, которую Вы желаете отображать на вашем сайте.</value>
+  </data>
+  <data name="plBanners.Text">
+    <value>Банеры:</value>
+  </data>
+  <data name="plControlPanelSecurity.Help">
+    <value>Выберите, будет ли отображаться панель управления  для редакторов страниц или модулей.</value>
+  </data>
+  <data name="plControlPanelSecurity.Text">
+    <value>Безопасность панели управления:</value>
+  </data>
+  <data name="plSearchEngine.Help">
+    <value>Представьте ваш сайт выбранному поисковому серверу для индексации.</value>
+  </data>
+  <data name="plSearchEngine.Text">
+    <value>Поисковый механизм:</value>
+  </data>
+  <data name="plSiteMap.Help">
+    <value>Представьте вашу карту сайта в Google для лучшей оптимизации поиска. Щелкните "Предоставить", чтобы получить учётную запись инструментальных средств Web-мастера Google.  Проверьте ваше монопольное использование сайта (используя опцию "Проверка"). После того, как вы завершили проверку, Вы можете выбрать опцию "Add General Web Sitemap" на вкладке Google Sitemaps, и вставить URL карты сайта.</value>
+  </data>
+  <data name="plSiteMap.Text">
+    <value>URL карты сайта:</value>
+  </data>
+  <data name="plVerification.Help">
+    <value>При регистрации в инструментальных средствах Web-мастера Google (Google Webmaster Tools), Вы будете должны проверить ваше монопольное использование сайта. Выберите  "Upload an HTML file" на экране верификации Google. Введите отображенное имя файла (например:. google53c0cef435b2b81e.html) в поле верификации и щелкните "Create". Вернитесь в Google и выберите кнопку “Проверка”.</value>
+  </data>
+  <data name="plVerification.Text">
+    <value>Проверка:</value>
+  </data>
+  <data name="cmdSearchEngine.Text">
+    <value>Submit</value>
+  </data>
+  <data name="cmdSiteMap.Text">
+    <value>Submit</value>
+  </data>
+  <data name="cmdVerification.Text">
+    <value>Create</value>
+  </data>
+  <data name="plPageQuota.Help">
+    <value>Вы можете задать максимальное количество страниц на сайте.</value>
+  </data>
+  <data name="plPageQuota.Text">
+    <value>Количество страниц:</value>
+  </data>
+  <data name="plSSLEnabled.Help">
+    <value>Установите флажок, если для этого сайта установлен SSL-сертификат.</value>
+  </data>
+  <data name="plSSLEnabled.Text">
+    <value>SSL включен?</value>
+  </data>
+  <data name="plSSLEnforced.Help">
+    <value>Если этот флажок установлен, страницы, которые не помечены флагом "защищенная" не будут доступны через SSL (HTTPS).</value>
+  </data>
+  <data name="plSSLEnforced.Text">
+    <value>Принудительный SSL?</value>
+  </data>
+  <data name="plSSLURL.Help">
+    <value>Вы можете определить URL, который будет использоваться для защищенных соединений с этим сайтом. Это необходимо только в случае если SSL сертификат не установлен для обычного URL сайта.
+Например, разделяемый аккаунт хостинга, где хостинг провайдер обеспечивает вас разделяемым SSL URL.</value>
+  </data>
+  <data name="plSSLURL.Text">
+    <value>SSL URL:</value>
+  </data>
+  <data name="plSTDURL.Help">
+    <value>Если вы задали SSL URL выше, вам также необходми задать обычный URL для незащищенных соединений.</value>
+  </data>
+  <data name="plSTDURL.Text">
+    <value>Обычный URL:</value>
+  </data>
+  <data name="plUserQuota.Help">
+    <value>Вы можете задать максимальное количество пользователей на сайте.</value>
+  </data>
+  <data name="plUserQuota.Text">
+    <value>Количество пользователей:</value>
+  </data>
+  <data name="SSLSettings.Text">
+    <value>Параметры SSL</value>
+  </data>
+</root>

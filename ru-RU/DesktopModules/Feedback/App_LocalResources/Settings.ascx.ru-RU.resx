@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plSendTo.Text">
+    <value>Адресат</value>
+  </data>
+  <data name="plSendTo.Help">
+    <value>Укажите Email-адрес, на который будут отправляться сообщения</value>
+  </data>
+  <data name="plWidth.Text">
+    <value>Ширина</value>
+  </data>
+  <data name="plWidth.Help">
+    <value>Укажите ширину текстовых полей в пикселях</value>
+  </data>
+  <data name="plRows.Text">
+    <value>Строки</value>
+  </data>
+  <data name="plRows.Help">
+    <value>Укажите количество строк в поле для ввода текста сообщения</value>
+  </data>
+  <data name="valWidth.ErrorMessage">
+    <value>&lt;br&gt;Ширина должна быть допустимым целым числом</value>
+  </data>
+  <data name="valRows.ErrorMessage">
+    <value>&lt;br&gt;Количество строк должно быть допустимым целым числом</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Параметры отзывов</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Параметры модуля &amp;laquo;ОТЗЫВЫ&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;Модуль позволяет посетителям сайта отправлять свои сообщения прямо с сайта на заранее определенный администратором Email-адрес. Вы можете управлять следующими параметрами модуля:   &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;div align="left"&gt;
+&lt;b&gt;Адресат&lt;/b&gt; – это email-адрес на который будут отправляться все сообщения пользователей. Email-адрес должен быть указан в допустимом формате адресов электронной почты.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;&lt;div align="left"&gt;
+&lt;b&gt;Ширина&lt;/b&gt; – установите размер поля для текста сообщения в ширину (в пикселях). Обратите внимание: осторожно выбирайте значение ширины исходя из размеров панели, на которой расположен модуль, в противном случае для модуля может не хватить свободного пространства.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;&lt;div align="left"&gt;
+&lt;b&gt;Строки&lt;/b&gt; – установите количетсво строк поля для ввода текста сообщения. Обратите внимание: осторожно выбирайте значение высоты исходя из размеров панели, на которой расположен модуль, в противном случае для модуля может не хватить свободного пространства.&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;
+</value>
+  </data>
+  <data name="plAllowPaging.Help">
+    <value>Вы хотите разрешить листание гостевой книги?</value>
+  </data>
+  <data name="plAllowPaging.Text">
+    <value>Разрешить листание</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Категория для этого отзыва</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Категория</value>
+  </data>
+  <data name="plCategorySelectable.Help">
+    <value>Отправитель может выбрать категорию?</value>
+  </data>
+  <data name="plCategorySelectable.Text">
+    <value>Можно выбрать категорию</value>
+  </data>
+  <data name="plModerated.Help">
+    <value>Если включено, то разрешено администратору этого модуля авторизовывать отзыв для гостевой книги</value>
+  </data>
+  <data name="plModerated.Text">
+    <value>Модерирование</value>
+  </data>
+  <data name="plNotify.Help">
+    <value>Хотите получать сообщения при новых отзывах?</value>
+  </data>
+  <data name="plNotify.Text">
+    <value>Получать сообщения</value>
+  </data>
+  <data name="plOptout.Help">
+    <value>Если включено, у отправителя будет возможность, по его выбору, получать электронную почту. Если - отключено, то пользователь не будет иметь возможности выбора  и будет получать электронную почту.</value>
+  </data>
+  <data name="plOptout.Text">
+    <value>Отказ от рассылки</value>
+  </data>
+  <data name="plPageSize.Help">
+    <value>Если Вы разрешили листание, это - размер страницы по умолчанию. </value>
+  </data>
+  <data name="plPageSize.Text">
+    <value>Размер страницы </value>
+  </data>
+  <data name="plSendCopy.Help">
+    <value>Хотели бы Вы отправлять копию этого пользователю</value>
+  </data>
+  <data name="plSendCopy.Text">
+    <value>Отправлять копию </value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Тема этого отзыва</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Тема</value>
+  </data>
+  <data name="plSubjectEditable.Help">
+    <value>Если включено, то пользователь сам может назначать тему.</value>
+  </data>
+  <data name="plSubjectEditable.Text">
+    <value>Можно выбирать тему</value>
+  </data>
+  <data name="valSendTo.ErrorMessage">
+    <value>&lt;br&gt;Email должен быть реальным</value>
+  </data>
+  <data name="plAsync.Help">
+    <value>Если эта опция выбрана, то тогда сайт будет отправляет электронную почту асинхронно.</value>
+  </data>
+  <data name="plAsync.Text">
+    <value>Разослать Email асинхронно</value>
+  </data>
+  <data name="plSubjectHidden.Help">
+    <value>Поле темы скрыто от пользователя.</value>
+  </data>
+  <data name="plSubjectHidden.Text">
+    <value>Поле темы скрыто</value>
+  </data>
+  <data name="plSubjectSelectable.Help">
+    <value>Пользователю предлагают раскрывающийся список тем</value>
+  </data>
+  <data name="plSubjectSelectable.Text">
+    <value>Показывать поле темы </value>
+  </data>
+  <data name="plUseCaptcha.Help">
+    <value>Определяет, использовать ли ловушку для роботов (captcha), при отправке отзыва?</value>
+  </data>
+  <data name="plUseCaptcha.Text">
+    <value>Использовать ловушку</value>
+  </data>
+</root>

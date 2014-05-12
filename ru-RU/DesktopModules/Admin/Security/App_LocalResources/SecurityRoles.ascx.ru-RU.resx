@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserName.Header">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="SecurityRole.Header">
+    <value>Роль безопасности</value>
+  </data>
+  <data name="ExpiryDate.Header">
+    <value>Дата завершения</value>
+  </data>
+  <data name="plUsers.Text">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="plUsers.Help">
+    <value>Введите имя пользователя и нажмите Проверить</value>
+  </data>
+  <data name="plRoles.Text">
+    <value>Роль безопасности</value>
+  </data>
+  <data name="plRoles.Help">
+    <value>Выберите роль</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>Дата окончания</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>Укажите дату, когда назначение роли пользователю должно быть автоматически отменено (необязательное поле). Пустое значение соответствует неограниченному сроку действия роли.</value>
+  </data>
+  <data name="SendNotification.Text">
+    <value>Отправить уведомление?</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Добавить роль</value>
+  </data>
+  <data name="valExpiryDate.Text">
+    <value>Недопустимая дата завершения</value>
+  </data>
+  <data name="RoleRemoveError.Text">
+    <value>Вы не можете удалить роль администратора сайта или общую роль, в которую включены все зарегистрированные пользователи</value>
+  </data>
+  <data name="ControlTitle_user roles.Text">
+    <value>Роли пользователя</value>
+  </data>
+  <data name="UserTitle.Text">
+    <value>Управление ролями пользователя: {0}</value>
+  </data>
+  <data name="RoleTitle.Text">
+    <value>Управление пользователями роли: {0}</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Об управлении ролями&lt;/h1&gt;
+&lt;p&gt;Администраторы при помощи данного модуля могут управлять ролями, определенными на своих сайтах. Модуль дает возможность назначать роли пользователям сайта.&lt;/p&gt;</value>
+  </data>
+  <data name="AddUser.Text">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="AddRole.Text">
+    <value>Добавить роль</value>
+  </data>
+  <data name="cmdValidate.Text">
+    <value>Проверить</value>
+  </data>
+  <data name="EffectiveDate.Header">
+    <value>Дата начала</value>
+  </data>
+  <data name="plEffectiveDate.Help">
+    <value>Укажите дату, начиная с которой назначение роли пользователю вступит в силу (необязательное поле). Если оставить поле пустым - назначение роли вступит в силу немедленно.</value>
+  </data>
+  <data name="plEffectiveDate.Text">
+    <value>Дата начала</value>
+  </data>
+  <data name="valDates.Text">
+    <value>Дата окончания срока действия должна быть больше, чем дата вступления в силу</value>
+  </data>
+  <data name="valEffectiveDate.Text">
+    <value>Недопустимая дата начала</value>
+  </data>
+  <data name="UpdateRole.Text">
+    <value>Изменить роль пользователя</value>
+  </data>
+  <data name="NotAuthorized.Text">
+    <value>Вы не уполномочены редактировать эту роль.</value>
+  </data>
+  <data name="DeleteUsersFromRole.Text">
+    <value>Уверены, что хотите удалить '{0}' из роли '{1}'?</value>
+  </data>
+  <data name="DeleteRoleFromUser.Text">
+    <value>Уверены, что хотите удалить роль '{1}' из '{0}'?</value>
+  </data>
+  <data name="IsOwner.Header">
+    <value>Владелец</value>
+  </data>
+  <data name="lblIsOwner.Help">
+    <value>Сделать данного пользователя владельцем группы.</value>
+  </data>
+  <data name="lblIsOwner.Text">
+    <value>Владелец</value>
+  </data>
+</root>

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plWidth.Text">
+    <value>Ширина</value>
+  </data>
+  <data name="plWidth.Help">
+    <value>Укажите ширину фрейма</value>
+  </data>
+  <data name="plHeight.Text">
+    <value>Высота</value>
+  </data>
+  <data name="plHeight.Help">
+    <value>Укажите высоту фрейма</value>
+  </data>
+  <data name="plScrolling.Text">
+    <value>Прокрутка</value>
+  </data>
+  <data name="plScrolling.Help">
+    <value>Выберите режим полосы прокрутки</value>
+  </data>
+  <data name="plBorder.Text">
+    <value>Рамка</value>
+  </data>
+  <data name="plBorder.Help">
+    <value>Выберите наличие или отсутствие рамки вокруг фрейма</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ФРЕЙМ&amp;raquo;&lt;/h1&gt;
+
+&lt;p&gt;Модуль предназначен для вывода содержимого с другого сайта внутри фрейма на Вашем сайте.&lt;/p&gt;
+
+&lt;h1&gt;Изменение параметров фрейма&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Добавьте новый модуль &lt;b&gt;Фрейм&lt;/b&gt; или перейдите к существующему модулю.&lt;/li&gt;
+&lt;li&gt;Нажмите кнопку &lt;b&gt;Параметры фрейма&lt;/b&gt;.
+&lt;li&gt;В поле &lt;b&gt;Источник&lt;/b&gt; укажите интернет-адрес (Url) той страницы, которую Вы хотите показать внутри фрейма. 
+&lt;li&gt;В поле &lt;b&gt;Ширина&lt;/b&gt; укажите желаемую ширину фрейма.
+&lt;li&gt;В поле &lt;b&gt;Высота&lt;/b&gt; укажите желаемую высоту фрейма.
+&lt;li&gt;В поле &lt;b&gt;Заголовок&lt;/b&gt; можно укзать название /заголовок для фрейма. 
+&lt;li&gt;Параметр &lt;b&gt;Прокрутка&lt;/b&gt;, принимающий значения &lt;b&gt;Авто&lt;/b&gt;, &lt;b&gt;Нет&lt;/b&gt; и &lt;b&gt;Да&lt;/b&gt;, управляет режимом полосы прокрутки.
+&lt;li&gt;Выберите наличие или отсутствие рамки фрейма, установив параметр &lt;b&gt;Рамка&lt;/b&gt; в положение &lt;b&gt;Да&lt;/b&gt; или &lt;b&gt;Нет&lt;/b&gt;. 
+&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;
+</value>
+  </data>
+  <data name="valWidth.Text">
+    <value>&lt;br /&gt;Ширина должна быть целым числом больше нуля</value>
+  </data>
+  <data name="valHeight.Text">
+    <value>&lt;br /&gt;Высота должна быть целым числом больше нуля</value>
+  </data>
+  <data name="valURL.ErrorMessage">
+    <value>&lt;br /&gt;Укажите допустимый сетевой адрес источника</value>
+  </data>
+  <data name="Argument.Header">
+    <value>Аргумент</value>
+  </data>
+  <data name="Auto.Text">
+    <value>Авто</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdAddParam.Text">
+    <value>Добавить параметр строки запроса</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Редактировать IFrame</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="DeleteParamConfirmation.Text">
+    <value>Вы уверены, что Вы хотите удалить этот элемент из хранилища данных? После удаления, этот элемент невозможно будет восстановить.</value>
+  </data>
+  <data name="dshOptions.Text">
+    <value>Опции</value>
+  </data>
+  <data name="dshParams.Text">
+    <value>Параметры строки запроса</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Редактировать</value>
+  </data>
+  <data name="Name.Header">
+    <value>Название</value>
+  </data>
+  <data name="No.Text">
+    <value>Нет</value>
+  </data>
+  <data name="ParameterInvalid.Header">
+    <value>Неправильный параметр</value>
+  </data>
+  <data name="ParameterInvalid.Text">
+    <value>Указанные опции параметра недопустимы. Убедитесь, что введены &lt;b&gt;Имя&lt;/b&gt; и, если требуется, тип аргумента.</value>
+  </data>
+  <data name="PassThrough.Text">
+    <value>Параметр передачи</value>
+  </data>
+  <data name="plName.Help">
+    <value>Определяет уникальное имя iframe (чтобы использовать в сценариях или как адрес для ссылок/iframe)</value>
+  </data>
+  <data name="plName.Text">
+    <value>Название</value>
+  </data>
+  <data name="plSource.Help">
+    <value>URL долкумента, для показа в  iframe</value>
+  </data>
+  <data name="plSource.Text">
+    <value>Исходник</value>
+  </data>
+  <data name="plToolTip.Help">
+    <value>Текст, отображаемый в подсказке, когда пользователь проводит мышью по iframe
+</value>
+  </data>
+  <data name="plToolTip.Text">
+    <value>Подсказка </value>
+  </data>
+  <data name="plUrlParameter.Help">
+    <value>Параметр строки запроса, используется, чтобы динамически установить источник iframe</value>
+  </data>
+  <data name="plUrlParameter.Text">
+    <value>Параметр URL</value>
+  </data>
+  <data name="PortalID.Text">
+    <value>Идентификатор портала</value>
+  </data>
+  <data name="PortalName.Text">
+    <value>Имя портала</value>
+  </data>
+  <data name="Save.Text">
+    <value>Сохранить</value>
+  </data>
+  <data name="StaticValue.Text">
+    <value>Статическое значение</value>
+  </data>
+  <data name="TabID.Text">
+    <value>TabID </value>
+  </data>
+  <data name="Type.Header">
+    <value>Тип</value>
+  </data>
+  <data name="UserCell.Text">
+    <value>Мобильный пользователя</value>
+  </data>
+  <data name="UserCity.Text">
+    <value>Город пользователя</value>
+  </data>
+  <data name="UserCountry.Text">
+    <value>Страна пользователя</value>
+  </data>
+  <data name="UserCustomProperty.Text">
+    <value>Настраиваемое свойство пользователя</value>
+  </data>
+  <data name="UserEmail.Text">
+    <value>Email пользователя</value>
+  </data>
+  <data name="UserFax.Text">
+    <value>Факс пользователя</value>
+  </data>
+  <data name="UserFirstName.Text">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="UserFullName.Text">
+    <value>Полное имя пользователя</value>
+  </data>
+  <data name="UserID.Text">
+    <value>ID пользователя</value>
+  </data>
+  <data name="UserIM.Text">
+    <value>IM пользователя</value>
+  </data>
+  <data name="UserIsAuthorized.Text">
+    <value>Флаг авторизации пользователя</value>
+  </data>
+  <data name="UserIsLockedOut.Text">
+    <value>Флаг разблокировки пользователя</value>
+  </data>
+  <data name="UserIsSuperUser.Text">
+    <value>Флаг суперпользователя</value>
+  </data>
+  <data name="UserLastName.Text">
+    <value>Фамилия пользователя</value>
+  </data>
+  <data name="UserLocale.Text">
+    <value>Региональные настройки пользователя</value>
+  </data>
+  <data name="UserPhone.Text">
+    <value>Телефон пользователя</value>
+  </data>
+  <data name="UserPostalCode.Text">
+    <value>Почтовый индекс пользователя</value>
+  </data>
+  <data name="UserRegion.Text">
+    <value>Регион пользователя</value>
+  </data>
+  <data name="UserStreet.Text">
+    <value>Улица пользователя</value>
+  </data>
+  <data name="UserTimeZone.Text">
+    <value>Часовой пояс пользователя</value>
+  </data>
+  <data name="UserUnit.Text">
+    <value>№ дома(офиса) пользователя</value>
+  </data>
+  <data name="UserUsername.Text">
+    <value>Логин пользователя</value>
+  </data>
+  <data name="UserWebsite.Text">
+    <value>Сайт пользователя</value>
+  </data>
+  <data name="Value.Header">
+    <value>Значение</value>
+  </data>
+  <data name="Yes.Text">
+    <value>Да</value>
+  </data>
+  <data name="FormPassThrough.Text">
+    <value>Пропускать ввод (пост)формы</value>
+  </data>
+  <data name="plCssStyle.Help">
+    <value>Пример:&lt;br\&gt;height:expression(contentWindow.document.body.scrollHeight+50);</value>
+  </data>
+  <data name="plCssStyle.Text">
+    <value>Стиль Css</value>
+  </data>
+  <data name="plOnLoad.Help">
+    <value>Выполнять javascript при загрузке(событие onload). Часто используется для изменения размера фрейма. Может устанавливаться только Администратором.</value>
+  </data>
+  <data name="plOnLoad.Text">
+    <value>При загрузке (onload)(Javascript)</value>
+  </data>
+  <data name="plAllowTransparency.Help">
+    <value>Установить в модуле iframe значение атрибута allowtransparancy=true. Требуется также настройка css.</value>
+  </data>
+  <data name="plAllowTransparency.Text">
+    <value>Разрешить прозрачность</value>
+  </data>
+</root>

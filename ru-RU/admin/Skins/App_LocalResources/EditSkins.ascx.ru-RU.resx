@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblMessage.Text">
+    <value>&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt;&amp;nbsp;&amp;nbsp;Воспользуйтесь модулем "Управление файлами" для загрузки пакетов шаблонов и контейнеров.</value>
+  </data>
+  <data name="Host.Text">
+    <value>Хост</value>
+  </data>
+  <data name="Site.Text">
+    <value>Сайт</value>
+  </data>
+  <data name="plSkins.Text">
+    <value>Шаблоны</value>
+  </data>
+  <data name="plContainers.Text">
+    <value>Контейнеры</value>
+  </data>
+  <data name="cmdRestore.Text">
+    <value>Восстановить исходный шаблон</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Портал</value>
+  </data>
+  <data name="Admin.Text">
+    <value>Служебные</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Удаление пакета шаблона</value>
+  </data>
+  <data name="cmdParse.Text">
+    <value>Разбор пакета шаблона</value>
+  </data>
+  <data name="ApplyTo.Text">
+    <value>Применяется к</value>
+  </data>
+  <data name="ParseOptions.Text">
+    <value>Параметры разбора</value>
+  </data>
+  <data name="Localized.Text">
+    <value>Локализованный</value>
+  </data>
+  <data name="Portable.Text">
+    <value>Переносимый</value>
+  </data>
+  <data name="NoSkin.ErrorMessage">
+    <value>В папке не обнаружено файлов шаблона</value>
+  </data>
+  <data name="cmdPreview.Text">
+    <value>Просмотр</value>
+  </data>
+  <data name="cmdApply.Text">
+    <value>Применить</value>
+  </data>
+  <data name="NoContainer.ErrorMessage">
+    <value>В папке не обнаружено файлов контейнера</value>
+  </data>
+  <data name="plSkins.Help">
+    <value>Выберите пакет шаблона</value>
+  </data>
+  <data name="plContainers.Help">
+    <value>Выберите пакет контейнера</value>
+  </data>
+  <data name="SkinUpload.Action">
+    <value>Загрузить шаблон</value>
+  </data>
+  <data name="ContainerUpload.Action">
+    <value>Загрузить контейнер</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Шаблоны</value>
+  </data>
+  <data name="plType.Text">
+    <value>Тип шаблонов:</value>
+  </data>
+  <data name="plType.Help">
+    <value>Выберите тип шаблонов, которые будут показаны.</value>
+  </data>
+  <data name="About.Text">
+    <value>О шаблоне {0}</value>
+  </data>
+  <data name="SkinDeleteFailure.Text">
+    <value>Только пользователи с правами администраторов хоста имеют право удалять шаблоны хоста</value>
+  </data>
+  <data name="CannotDeleteContainer.ErrorMessage">
+    <value>Этот набор контейнеров не может быть удален, так как он используется</value>
+  </data>
+  <data name="CannotDeleteSkin.ErrorMessage">
+    <value>Этот набор шаблонов не может быть удален, так как он используется</value>
+  </data>
+</root>

@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Listitem1.Text" xml:space="preserve">
+    <value>Множество блогов </value>
+  </data>
+  <data name="cmdGenerateLinks.Text" xml:space="preserve">
+    <value>Обновить все пермалинки</value>
+  </data>
+  <data name="ControlTitle_module_options.Text" xml:space="preserve">
+    <value>Настройки модуля</value>
+  </data>
+  <data name="secBookmarks.Text" xml:space="preserve">
+    <value>Закладки и социальные сети</value>
+  </data>
+  <data name="secCommentSettings.Text" xml:space="preserve">
+    <value>Настройки комментариев</value>
+  </data>
+  <data name="lblShowWebsite.Text" xml:space="preserve">
+    <value>Показывать веб-сайт:</value>
+  </data>
+  <data name="liCustom.Text" xml:space="preserve">
+    <value>Пользовательский</value>
+  </data>
+  <data name="liShowGravatars1.Text" xml:space="preserve">
+    <value>Показывать аватары</value>
+  </data>
+  <data name="liShowGravatars2.Text" xml:space="preserve">
+    <value>Не показывать аватары</value>
+  </data>
+  <data name="tblAdvancedSettings.Text" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="tblSEOSettings.Text" xml:space="preserve">
+    <value>Настройки SEO:</value>
+  </data>
+  <data name="lblAllowCommentAnchors.Text" xml:space="preserve">
+    <value>Гиперссылки в комментариях</value>
+  </data>
+  <data name="lblAllowCommentAnchors.Help" xml:space="preserve">
+    <value>Отметьте эту опцию, чтобы разрешить пользователям использовать гиперссылки в комментариях.</value>
+  </data>
+  <data name="lblAllowCommentImages.Text" xml:space="preserve">
+    <value>Картинки в комментариях</value>
+  </data>
+  <data name="lblAllowCommentImages.Help" xml:space="preserve">
+    <value>Включите эту опцию, чтобы позволить пользователю добавлять изображения в комментарии к блогу.</value>
+  </data>
+  <data name="lblAllowCommentFormatting.Text" xml:space="preserve">
+    <value>Простое форматирование в комментариях</value>
+  </data>
+  <data name="lblAllowCommentFormatting.Help" xml:space="preserve">
+    <value>Отметьте эту опцию, чтобы позволить простое форматирование комментариев - выделение жирным (b, strong), курсивом (i, em), цитаты (blockquote)</value>
+  </data>
+  <data name="rblGravatarRating_g.Text" xml:space="preserve">
+    <value>G - для любой аудитории</value>
+  </data>
+  <data name="rblGravatarRating_pg.Text" xml:space="preserve">
+    <value>PG - возможны сцены насилия, рекомендуется для аудитории от 13 лет и старше</value>
+  </data>
+  <data name="rblGravatarRating_r.Text" xml:space="preserve">
+    <value>R - предназначено для аудитории 17 лет и старше</value>
+  </data>
+  <data name="rblGravatarRating_x.Text" xml:space="preserve">
+    <value>X - для более взрослой аудитории, чем R</value>
+  </data>
+  <data name="secRSSSettings.Text" xml:space="preserve">
+    <value>Настройки RSS</value>
+  </data>
+  <data name="lblAllowSummaryHtml.Help" xml:space="preserve">
+    <value>Включите эту опцию, чтобы позволить пользователям использовать разметку HTML в кратком описании записи.</value>
+  </data>
+  <data name="lblAllowSummaryHtml.Text" xml:space="preserve">
+    <value>Разрешить HTML в резюме</value>
+  </data>
+  <data name="lblAllowChildBlogs.Help" xml:space="preserve">
+    <value>Пользователи могут создавать дочерние блоги. Вместо дочерних блогов лучше использовать категории с версии 4 и далее.</value>
+  </data>
+  <data name="lblAllowChildBlogs.Text" xml:space="preserve">
+    <value>Дочерние блоги</value>
+  </data>
+  <data name="cmdMigrateChildblogs.Text" xml:space="preserve">
+    <value>Переместить дочерние блоги</value>
+  </data>
+  <data name="lblAllowWLW.Help">
+    <value>Если включено, пользователи смогут использовать Windows Live Writer или другие, основанные на MetaWeblog API клиенты, для создания и редактирования записей в блоге.</value>
+  </data>
+  <data name="lblAllowWLW.Text">
+    <value>Разрешить Windows Live Writer</value>
+  </data>
+  <data name="lblBookmarksInfo.Help">
+    <value>Укажите, кнопки какие сайты социальных закладок и сетей Вы хотите подключить к своему блогу. Ниже приведены некоторые из наиболее распространенных и популярных сетей.</value>
+  </data>
+  <data name="lblBookmarksInfo.Text">
+    <value>Укажите, какие сайты социальных закладок и сетей Вы хотите подключить к своему блогу.</value>
+  </data>
+  <data name="lblChildBlogsStatus.Text">
+    <value>Всего {0} дочерних блогов определено на этом портале.</value>
+  </data>
+  <data name="lblEnableBookmarks.Help">
+    <value>Если включена эта опция, в просмотре записей блога будет активирована панель социальных закладок.</value>
+  </data>
+  <data name="lblEnableBookmarks.Text">
+    <value>Включить социальные закладки</value>
+  </data>
+  <data name="lblEnableDNNSearch.Help">
+    <value>Если бы Вы включите эту опцию, содержание этого модуля будет индексировано системой поиска DNN. Пожалуйста, учтите, что включения требует только одна  эта опция в одном модуле (например, на вашей главной странице блогов)! Если Вы будете включать эту опцию более, чем для одного модуля, то Вы получите дублированные результаты в поиске.</value>
+  </data>
+  <data name="lblEnforceSummaryTruncation.Text">
+    <value>Определить предел размеров резюме</value>
+  </data>
+  <data name="lblFeedCacheTime.Help">
+    <value>Каналы RSS могут быть кешированы. Установите предпочительный интервал обновления (в минутах). По умолчанию - 10 минут.</value>
+  </data>
+  <data name="lblFeedCacheTime.Text">
+    <value>Время кеширования RSS</value>
+  </data>
+  <data name="lblGravatarDefaultImageCustomURL.Help">
+    <value>Ссылка на пользовательский аватар (включая "http://"). Используется только в том случае, если выбрана опция "Пользовательский аватар".</value>
+  </data>
+  <data name="lblGravatarDefaultImageCustomURL.Text">
+    <value>Пользовательский аватар:</value>
+  </data>
+  <data name="lblGravatarImageWidth.Text">
+    <value>Ширина картинки:</value>
+  </data>
+  <data name="lblGravatarRating.Text">
+    <value>Рейтинг картинки:</value>
+  </data>
+  <data name="lblIncludeBody.Text">
+    <value>Включить тело</value>
+  </data>
+  <data name="lblIncludeCategoriesInDescription.Text">
+    <value>Категории в описании</value>
+  </data>
+  <data name="lblIncludeTagsInDescription.Text">
+    <value>Теги в описании</value>
+  </data>
+  <data name="lblMigrateChildblogs.Text">
+    <value>Управление дочерними блогами</value>
+  </data>
+  <data name="lblShowGravatars.Text">
+    <value>Показывать аватары:</value>
+  </data>
+  <data name="lblShowSeoFriendlyUrl.Text">
+    <value>Использовать ссылки, дружественные для поисковых систем</value>
+  </data>
+  <data name="lblShowTitle.Text">
+    <value>Показывать заголовок:</value>
+  </data>
+  <data name="lblEnforceSummaryTruncation.Help">
+    <value>Включение данной опции обрезает составленные автоматически и в ручном режиме резюме, по размеру, указанному выше в поле "Ограничить размер резюме".</value>
+  </data>
+  <data name="lblIncludeCategoriesInDescription.Help">
+    <value>Включить список категорий в текст резюме</value>
+  </data>
+  <data name="lblIncludeTagsInDescription.Help">
+    <value>Включить список тегов в текст резюме</value>
+  </data>
+  <data name="lblSearchSummary.Help">
+    <value>Настоятельно советуем  ограничивать в операции поиска размер возвращаемых записей так, чтобы результаты могли сканироваться быстрее.</value>
+  </data>
+  <data name="lblShowGravatars.Help">
+    <value>Отметьте, чтобы показавать картинки Gravatar в комментариях.</value>
+  </data>
+  <data name="lblMigrateChildblogs.Help">
+    <value>Дочерние блоги заменены категориями с 4-й версии модуля блогов. Вы можете переместить существующие дочерние блоги в категории. Работа с существующими дочерними блогами также поддерживается.</value>
+  </data>
+  <data name="lblRegenerateLinks.Help">
+    <value>Обновить пермалинки, сохраненные для записей этого модуля. Это требуется в том случае, если изменился формат ссылок сайта.</value>
+  </data>
+  <data name="lblRegenerateLinks.Text">
+    <value>Управление ссылками</value>
+  </data>
+  <data name="lblShowSeoFriendlyUrl.Help">
+    <value>Если включена эта опция, системные ссылки на записи блога будут заменены заголовками записей, например:  .../Blog-Entry-Title.aspx. Такой формат ссылок дружественнен для поисковых систем. По умолчанию эта опция включена.</value>
+  </data>
+  <data name="lblShowTitle.Help">
+    <value>Отметьте, чтобы позволить пользователям указывать собственные заголовки в комментариях</value>
+  </data>
+  <data name="lblShowWebsite.Help">
+    <value>Отметьте, чтобы включить поле "Веб-сайт" в комментарии.</value>
+  </data>
+  <data name="MigrateConfirm.Text">
+    <value>Уверены, что хотите удалить все дочерние блоги и переместить их содержимое в категории?</value>
+  </data>
+  <data name="lblGravatarDefaultImageUrl.Help">
+    <value>Эти картинки будут использоваться для комментариев, оставленных пользователями без Gravatar'ов. Об Identicon, Wavicon и MonsterID: Gravatar будет отображаться для пользователей, у которых он есть. Иначе, уникальная картинка будет создана для них на основании значений IP-адреса их компьютера или указанного адреса эл.почты. Для указания пользовательской аватары нужно задать ссылку на картинку (включая "http://")</value>
+  </data>
+  <data name="lblGravatarDefaultImageUrl.Text">
+    <value>Картинка по умолчанию:</value>
+  </data>
+  <data name="lblGravatarImageWidth.Help">
+    <value>Укажите ширину картинки Gravatar'а. Значение по умолчанию (48) соответствует стилю оформления комментариев по умолчанию</value>
+  </data>
+  <data name="lblGravatarRating.Help">
+    <value>Картинки Gravatar делятся в зависимости от их содержимого. Картинки G-ранга предназначены для самой широкой аудитории, без исключений. Картинки рангов PG, R и X могут иметь содержимое, неприемлемое для той или иной аудитории.</value>
+  </data>
+  <data name="lblIncludeBody.Help">
+    <value>Включать тело сообщения для запросов с параметром body=true</value>
+  </data>
+</root>

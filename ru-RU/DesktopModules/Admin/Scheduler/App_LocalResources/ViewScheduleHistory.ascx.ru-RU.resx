@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Добавить задачу</value>
+  </data>
+  <data name="ContentOptions.Action">
+    <value>Состояние задач</value>
+  </data>
+  <data name="Started.Header">
+    <value>Началась</value>
+  </data>
+  <data name="Ended.Header">
+    <value>Завершилась</value>
+  </data>
+  <data name="Duration.Header">
+    <value>Длительность&lt;br&gt;(сек.)</value>
+  </data>
+  <data name="Succeeded.Header">
+    <value>Успешно</value>
+  </data>
+  <data name="Notes.Header">
+    <value>Примечания</value>
+  </data>
+  <data name="ControlTitle_history.Text">
+    <value>Журнал выполнения задач</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ПЛАНИРОВЩИК&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;Модуль позволяет управлять периодическими задачами, выполняемыми по расписанию.&lt;/p&gt;</value>
+  </data>
+  <data name="Start/End/Next Start.Header">
+    <value>Старт/Стоп/След. старт</value>
+  </data>
+  <data name="Description.Header">
+    <value>Описание</value>
+  </data>
+  <data name="Start.Header">
+    <value>Старт/Стоп/След.</value>
+  </data>
+  <data name="Server.Header">
+    <value>Выполнялся на сервере</value>
+  </data>
+</root>

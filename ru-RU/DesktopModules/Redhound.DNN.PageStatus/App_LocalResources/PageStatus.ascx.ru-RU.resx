@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<data name="Template.Text">
+		<value><![CDATA[Страница создана: [CREATEDONDATE] [CREATEDBYUSER]<br />
+		Последние изменения: [LASTMODIFIEDDATE] [LASTMODIFIEDBYUSER]<br />
+		Оценка актуальности: [ACTUALITY]<hr />
+		Постоянная ссылка:<br /><input type="text" value="[PERMALINK]" />]]></value>
+	</data>
+  	<data name="SystemUser.Text">
+		<value>система</value>
+	</data>
+</root>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AdminSettings.Text" xml:space="preserve">
+    <value>Установки администратора</value>
+  </data>
+	<data name="GalleryConfiguration.Text" xml:space="preserve">
+    <value>Настройки галереи</value>
+  </data>
+	<data name="plRootURL.Text" xml:space="preserve">
+    <value>Корневой Url:</value>
+  </data>
+	<data name="plRootURL.Help" xml:space="preserve">
+    <value>Url корневой папки галереи относительно корневой папки портала (например /DotNetNuke_2/Portals/0/Gallery/). Осторожно: Изменять корневой Url после того, как в галерею добавлены альбомы и файлы можно только в том случае, если вы действительно понимаете, что делаете. Текущее содержимое галереи НЕ будет автоматически перенесено!</value>
+  </data>
+	<data name="plSkin.Text" xml:space="preserve">
+    <value>Тема:</value>
+  </data>
+	<data name="plSkin.Help" xml:space="preserve">
+    <value>Тема оформления, которая будет использоваться модулем галереи.</value>
+  </data>
+	<data name="plQuota.Text" xml:space="preserve">
+    <value>Квота:</value>
+  </data>
+	<data name="plQuota.Help" xml:space="preserve">
+    <value>Лимит дискового пространства, занимаемого всеми файлами галереи, в Кб.&lt;br/&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Рекомендуется установить этот лимит!</value>
+  </data>
+	<data name="plMaxFileSize.Text" xml:space="preserve">
+    <value>Максимальный размер файла:</value>
+  </data>
+	<data name="plMaxFileSize.Help" xml:space="preserve">
+    <value>Максимальный размер (в Кб) одиночного подгружаемого файла.&lt;br /&gt;Если нужно разрешить подгрузку файлов, больших чем нижний предел значений maxRequestLength или requestLengthDiskThreshold в секции httpRuntime файла web.config, то нужно также увеличить эти значения, и возможно значение executionTimeout.&lt;br /&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br/&gt;Рекофмендуется установить эти значения достаточно малыми, чтобы избежать длительной загрузки изображений.</value>
+  </data>
+	<data name="plAutoApproval.Text" xml:space="preserve">
+    <value>Автоматическое утверждение:</value>
+  </data>
+	<data name="plAutoApproval.Help" xml:space="preserve">
+    <value>Если отмечено, то все вновь добавленные в галерею файлы автоматически утверждаются и становятся доступны для просмотра.&lt;br /&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Неутвержденные файлы доступны только администратору галереи, и их можно утвердить в форме редактирования альбома.</value>
+  </data>
+	<data name="plBuildCacheOnStart.Text" xml:space="preserve">
+    <value>Строить кеш при запуске:</value>
+  </data>
+	<data name="plBuildCacheOnStart.Help" xml:space="preserve">
+    <value>Если отмечено, галерея будет кешировать данные файлов и конфигурации модуля.&lt;br /&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Рекомендуется включить эту функцию для улучшения производительности.</value>
+  </data>
+	<data name="plCategoryValues.Text" xml:space="preserve">
+    <value>Категории:</value>
+  </data>
+	<data name="plCategoryValues.Help" xml:space="preserve">
+    <value>Список категорий этой галереи.</value>
+  </data>
+	<data name="DisplaySettings.Text" xml:space="preserve">
+    <value>Настройки отображения</value>
+  </data>
+	<data name="plGalleryTitle.Text" xml:space="preserve">
+    <value>Название галереи:</value>
+  </data>
+	<data name="plGalleryTitle.Help" xml:space="preserve">
+    <value>Название (заголовок) модуля галереи.</value>
+  </data>
+	<data name="plImageExtensions.Text" xml:space="preserve">
+    <value>Разрешенные изображения:</value>
+  </data>
+	<data name="plImageExtensions.Help" xml:space="preserve">
+    <value>Расширения файлов изображений, разрешенные в этой галерее.&lt;br /&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Ограничьте этот список типами, характерными для сети Интернет.</value>
+  </data>
+	<data name="plMediaExtensions.Text" xml:space="preserve">
+    <value>Разрешенные медиа-файлы:</value>
+  </data>
+	<data name="plMediaExtensions.Help" xml:space="preserve">
+    <value>Расширения аудио- и видео- файлов, разрешенные в этой галерее.&lt;br /&gt;&lt;strong&gt;Tip&lt;/strong&gt;&lt;br /&gt;Ограничьте этот список типами, относительно которых вам известно, что они хорошо подходят для просмотра посредством сети Интернет.</value>
+  </data>
+	<data name="plDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+	<data name="plDescription.Help" xml:space="preserve">
+    <value>Краткое описание модуля галереи.</value>
+  </data>
+	<data name="plFixedWidth.Text" xml:space="preserve">
+    <value>Максимальная ширина:</value>
+  </data>
+	<data name="plFixedWidth.Help" xml:space="preserve">
+    <value>Максимальная ширина изображения (в px). Вы должны будете удалить все альбомы и изображения из галереи, чтобы изменить это значение снова.</value>
+  </data>
+	<data name="plFixedHeight.Text" xml:space="preserve">
+    <value>Максимальная высота:</value>
+  </data>
+	<data name="plFixedHeight.Help" xml:space="preserve">
+    <value>Максимальная высота изображения (в px). Вы должны будете удалить все альбомы и изображения из галереи, чтобы изменить это значение снова.</value>
+  </data>
+	<data name="plStripWidth.Text" xml:space="preserve">
+    <value>Колонок:</value>
+  </data>
+	<data name="plStripWidth.Help" xml:space="preserve">
+    <value>Число колонок в таблице эскизов.</value>
+  </data>
+	<data name="plStripHeight.Text" xml:space="preserve">
+    <value>Строк:</value>
+  </data>
+	<data name="plStripHeight.Help" xml:space="preserve">
+    <value>Число строк в таблице эскизов.</value>
+  </data>
+	<data name="plMaxThumbWidth.Text" xml:space="preserve">
+    <value>Максимальная ширина эскиза:</value>
+  </data>
+	<data name="plMaxThumbWidth.Help" xml:space="preserve">
+    <value>Максимальная ширина эскиза (в px). Вы должны будете удалить все альбомы и изображения из галереи, чтобы изменить это значение снова.</value>
+  </data>
+	<data name="plMaxThumbHeight.Text" xml:space="preserve">
+    <value>Максимальная высота эскиза:</value>
+  </data>
+	<data name="plMaxThumbHeight.Help" xml:space="preserve">
+    <value>Максимальная высота эскиза (в px). Вы должны будете удалить все альбомы и изображения из галереи, чтобы изменить это значение снова.</value>
+  </data>
+	<data name="NumericValue.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым!</value>
+  </data>
+	<data name="plDisplay.Text" xml:space="preserve">
+    <value>Показывать информацию:</value>
+  </data>
+	<data name="plDisplay.Help" xml:space="preserve">
+    <value>Информация о каждом элементе галереи.</value>
+  </data>
+	<data name="plSortProperties.Text" xml:space="preserve">
+    <value>Поля сортировки:</value>
+  </data>
+	<data name="plSortProperties.Help" xml:space="preserve">
+    <value>Поля, по которым пользователь может сортировать содержимое галереи.</value>
+  </data>
+	<data name="plGallerySort.Text" xml:space="preserve">
+    <value>Сортировка по умолчанию:</value>
+  </data>
+	<data name="plGallerySort.Help" xml:space="preserve">
+    <value>Сортировка по умолчанию для элементов галереи. Можно сортирвать по возрастанию и убыванию.</value>
+  </data>
+	<data name="plGalleryView.Text" xml:space="preserve">
+    <value>Режим просмотра по умолчанию:</value>
+  </data>
+	<data name="plGalleryView.Help" xml:space="preserve">
+    <value>Начальный режим просмотра при входе в галерею. Если пользователю разрешено изменять режим просмотра, то он может выбать собственный режим.</value>
+  </data>
+	<data name="VisitorChangeView.Text" xml:space="preserve">
+    <value>Пользователь может изменять режим просмотра</value>
+  </data>
+	<data name="Descending.Text" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+	<data name="FeatureSettings.Text" xml:space="preserve">
+    <value>Возможности</value>
+  </data>
+	<data name="plSlideshowSpeed.Text" xml:space="preserve">
+    <value>Задержка показа слайдов:</value>
+  </data>
+	<data name="plSlideshowSpeed.Help" xml:space="preserve">
+    <value>Задержка между показом двух слайдов с миллисекундах. 1000 миллисекунд= 1 секунде.</value>
+  </data>
+	<data name="plSlideshow.Text" xml:space="preserve">
+    <value>Разрешить показ слайдов?</value>
+  </data>
+	<data name="plSlideshow.Help" xml:space="preserve">
+    <value>Если отмечено, показ слайдов разрешен.</value>
+  </data>
+	<data name="plPopup.Text" xml:space="preserve">
+    <value>Просматривать в отдельном окне?</value>
+  </data>
+	<data name="plPopup.Help" xml:space="preserve">
+    <value>Если отмечено, влючает просмотр в отдельном окне. Если сброшено, просмотр осуществляется в окне галереи. Пока не известны случаи блокировок просмотра в отдельном окне специальными программами.</value>
+  </data>
+	<data name="plMultiLevelMenu.Text" xml:space="preserve">
+    <value>Многоуровневое меню навигации?</value>
+  </data>
+	<data name="plMultiLevelMenu.Help" xml:space="preserve">
+    <value>Вся структура галереи может быть отражена в меню навигации модуля. Если эта возможность выключена, в меню отображается только текущий уровень.</value>
+  </data>
+	<data name="plWatermark.Text" xml:space="preserve">
+    <value>Ставить водяные знаки?</value>
+  </data>
+	<data name="plWatermark.Help" xml:space="preserve">
+    <value>Если отмечено, влючается простановка водяных знаков в каждом альбоме.&lt;br /&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Подгрузите файл, который вы хотите использовать как водяной знак в галерею, назовите его watermark и он будет накладываться на все изображения в альбоме.&lt;br /&gt;Файл watermark должен быть в каждом альбоме, который использует эту возможность.</value>
+  </data>
+	<data name="plExif.Text" xml:space="preserve">
+    <value>Просмотр Exif?</value>
+  </data>
+	<data name="plExif.Help" xml:space="preserve">
+    <value>Если отмечено, пользователи смогут просматривать метаданные снимков, включаемые в них автоматически при съемке (в формате Exif) </value>
+  </data>
+	<data name="plVoting.Text" xml:space="preserve">
+    <value>Разрешить голосование и комментарии?</value>
+  </data>
+	<data name="plVoting.Help" xml:space="preserve">
+    <value>Если отмечено, пользователям позволяется  голосовать и комментировать содержимое галереи.</value>
+  </data>
+	<data name="plDownload.Text" xml:space="preserve">
+    <value>Разрешить загрузку?</value>
+  </data>
+	<data name="plDownload.Help" xml:space="preserve">
+    <value>Если отмечено, пользователи могут загружать файлы галереи себе на компьютер.</value>
+  </data>
+	<data name="plDownloadRoles.Text" xml:space="preserve">
+    <value>Роли, которым разрешена загрузка:</value>
+  </data>
+	<data name="plDownloadRoles.Help" xml:space="preserve">
+    <value>Роли портала, которым разрешена загрузка файлов галереи.</value>
+  </data>
+	<data name="PrivateGallery.Text" xml:space="preserve">
+    <value>Частная галерея</value>
+  </data>
+	<data name="plPrivate.Text" xml:space="preserve">
+    <value>Частная галерея?</value>
+  </data>
+	<data name="plPrivate.Help" xml:space="preserve">
+    <value>Если отмечено, только владелец галереи может добавлять файлы и создавать альбомы. Пользователи с правами на просмотр могут просматривать утвержденный контент.</value>
+  </data>
+	<data name="plOwnerLookup.Text" xml:space="preserve">
+    <value>Владелец:</value>
+  </data>
+	<data name="plOwnerLookup.Help" xml:space="preserve">
+    <value>Владелец галереи.</value>
+  </data>
+	<data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Настройки галереи&lt;/h1&gt;&lt;p&gt;Все настройки модуля доступны отсюда. Читайте подсказки, если что-то неясно.&lt;/p&gt;</value>
+  </data>
+	<data name="ControlTitle_configuration.Text" xml:space="preserve">
+    <value>Настройки галереи</value>
+  </data>
+	<data name="NumericValueGE25LE800.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым &gt;= 25 и &lt;= 800!</value>
+  </data>
+	<data name="NumericValueGT0LE20.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым &gt; 0 и &lt;=20!</value>
+  </data>
+	<data name="NumericValueGT0LE99.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым &gt; 0 и &lt;= 99!</value>
+  </data>
+	<data name="NumericValueGT0LT1950.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым &gt; 0 и &lt;= 1950!</value>
+  </data>
+	<data name="RequiredField.ErrorMessage" xml:space="preserve">
+    <value>Значение не может быть пустым!</value>
+  </data>
+	<data name="MaxPendingUploadsSizeRange.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым &gt;= 0 и &lt;= 20000.</value>
+  </data>
+	<data name="plMaxPendingUploadsSize.Help" xml:space="preserve">
+    <value>Максимальный объем в Кб, до которого может расти очередь ожидающих подгрузки файлов до того момента, пока не начнется подгрузка. Укажите '0' для снятия ограничений. В этом случае, максимальный объем составит 20000 Кб или около 20 Мб.</value>
+  </data>
+	<data name="plMaxPendingUploadsSize.Text" xml:space="preserve">
+    <value>Максимальный объем очереди подгрузки:</value>
+  </data>
+	<data name="plCreatedDate.Help" xml:space="preserve">
+    <value>Дата и время модуля галереи не могут быть изменены вручную.</value>
+  </data>
+	<data name="plCreatedDate.Text" xml:space="preserve">
+    <value>Создано:</value>
+  </data>
+	<data name="RootURL.ErrorMessage" xml:space="preserve">
+    <value>Корневой URL галереи должен быть указан относительно корневому каталоге портала и не должен содержать недопустимых символов. Использование в пути ../ не позволяется.</value>
+  </data>
+	<data name="lblMaxFileSizeWarning.Text" xml:space="preserve">
+    <value>Значение превышает лимиты, установленные в web.config. Нажмите на иконку Справка для получения дополнительной информации!</value>
+  </data>
+	<data name="MaxFileSizeLimits.Text" xml:space="preserve">
+    <value>&lt;br /&gt;Текущие лимимы в web.config следующие:&lt;br /&gt;maxRequestLength - {0} Кб&lt;br /&gt;requestLengthDiskThreshold - {1} Кб&lt;br /&gt;executionTimeout - {2} сек.</value>
+  </data>
+	<data name="NumericValueGE10LE100.ErrorMessage" xml:space="preserve">
+    <value>Должно быть целым &gt;=10 и &lt;=100!</value>
+  </data>
+	<data name="plEncoderQuality.Help" xml:space="preserve">
+    <value>Установите желаемый уровень сжатия (качество) для изображений JPEG. Диапазон: (худшее качествоt) 10-100 (лучшее качество). Рекомендуется: 75-92.</value>
+  </data>
+	<data name="plEncoderQuality.Text" xml:space="preserve">
+    <value>Качество JPEG:</value>
+  </data>
+	<data name="plDefaultAlbum.Help" xml:space="preserve">
+    <value>Укажите альбом, который должен показываться при входе в галерею. Возможно, это должен быть последний интересный альбом?</value>
+  </data>
+	<data name="plDefaultAlbum.Text" xml:space="preserve">
+    <value>Начинать с альбома:</value>
+  </data>
+	<data name="RootAlbum.Text" xml:space="preserve">
+    <value>Корневой альбом ({0})</value>
+  </data>
+</root>

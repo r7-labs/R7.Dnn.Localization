@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_edit.Text">
+    <value>Редактировать элемент репозитария</value>
+  </data>
+  <data name="plModuleHeading.Text" mimetype="">
+    <value>Загружаемый файл (модерируемый)</value>
+  </data>
+  <data name="plModuleHeading.Help" type="" mimetype="">
+    <value>Файлы, которые будут загружены, должны быть одобрены Администратором прежде, чем они будут доступны на этом вебсайте.</value>
+    <comment>
+    </comment>
+  </data>
+  <data name="plWarning.Text">
+    <value>Пожалуйста, удостоверьтесь перед загрузкой, что предлагаемое вами для загрузки удовлетворяет нашим требованиям. ВСЕ ПОЛЯ ОБЯЗАТЕЛЬНО ТРЕБУЮТ ЗАПОЛНЕНИЯ, ЕСЛИ ОНИ НЕ ОСОБО ОТМЕЧЕННЫ КАК  ДОПОЛНИТЕЛЬНЫЕ.</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>Название</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Введите заголовок файла/объекта. Это - имя файла, который появится наверху вашего списка файлов</value>
+  </data>
+  <data name="plFile.Text">
+    <value>Файл для загрузки (Оставьте пустым, чтобы сохранить существующий файл)</value>
+  </data>
+  <data name="plFile.Help">
+    <value>Используйте Кнопку просмотра, чтобы определить местонахождение и выбрать файл, который Вы хотели бы загрузить</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Категории</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Отметьте каждую категорию, с которой вы хотите связать этот файл</value>
+  </data>
+  <data name="plImage.Text">
+    <value>Изображение (Оставьте пустым, чтобы сохранить существующее изображение)</value>
+  </data>
+  <data name="plImage.Help">
+    <value>Используйте Кнопку просмотра, чтобы определить местонахождение и выбрать графическое изображение (JPG,GIF,PNG), которое Вы хотели бы связать с вашим файлом</value>
+  </data>
+  <data name="plAuthorName.Text">
+    <value>Ваше полное имя</value>
+  </data>
+  <data name="plAuthorName.Help">
+    <value>Пожалуйста, введите ваше имя. Ваше имя будет указано в качестве автора этого файла</value>
+  </data>
+  <data name="plAuthorEMail.Text">
+    <value>Ваш адрес E-Mail</value>
+  </data>
+  <data name="plAuthorEMail.Help">
+    <value>Пожалуйста введите ваш адрес электронной почты. Этот адрес электронной почты будет использован Администратором, чтобы связаться с Вами по любым вопрос, связанным с вашей загрузкой. Этот адрес будет также использоваться, чтобы уведомить Вас, когда ваше представление было одобрено или отклонено. Это адрес НЕ будет появляться в списках для вашего файла, ЕСЛИ Вы не дадите разрешение на это, отвечая на вопрос №6</value>
+  </data>
+  <data name="plShowEMail.Text">
+    <value>Показывать адрес E-Mail?</value>
+  </data>
+  <data name="plShowEMail.Help">
+    <value>Отметьте это поле, чтобы показывать ваш адрес электронной почты, как часть файлового листинга 
+</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Детальное описание</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Введите детальное описание элемента, который Вы загружаете</value>
+  </data>
+  <data name="plUploadGuidelines.Text">
+    <value>Правила загрузки файлов</value>
+  </data>
+  <data name="plUploadType.Text">
+    <value>Тип загрузки</value>
+  </data>
+  <data name="plUploadType.Help">
+    <value>Выберите, тип загрузки, которую вы хотели бы осуществить. Если Вы загружаете физический файл на сервер, выберите Файл. Если Вы хотели бы ввести ссылку на ресурс, то выберите Ссылка (URL).</value>
+  </data>
+  <data name="plURL.Text">
+    <value>Введите URL</value>
+  </data>
+  <data name="plURL.Help">
+    <value>Введите правильный URL для ссылки, которую вы хотите загрузить</value>
+  </data>
+  <data name="plImageUploadType.Text">
+    <value>Тип изображения</value>
+  </data>
+  <data name="plImageUploadType.Help">
+    <value>Выберите, тип изображения, которое вы хотели бы загрузить. Если Вы загружаете физический файл на сервер, выберите Файл. Если Вы хотели бы ввести ссылку на изображение, то выберите Ссылка(URL).</value>
+  </data>
+  <data name="plImageURL.Text">
+    <value>URL изображения</value>
+  </data>
+  <data name="plImageURL.Help">
+    <value>Введите URL изображения, которое вы хотели бы связать с вашей загрузкой</value>
+  </data>
+  <data name="plSummary.Text">
+    <value>Аннотация</value>
+  </data>
+  <data name="plSummary.Help">
+    <value>Кратко опишите то, что вы хотите сюда загрузить</value>
+  </data>
+  <data name="NoModerationRequired.Text">
+    <value>ПРИМЕЧАНИЕ: Так, как Вы являетесь модератором для этого модуля, ваша загрузка не требует модерирования и будет автоматически утверждена.</value>
+  </data>
+  <data name="ModerationRequired.Text">
+    <value>ПРИМЕЧАНИЕ: Это - модерируемая загрузка. Загруженая Вами информация, НЕ появиться, пока Администратор сайта не просмотрит и не  утвердит её.</value>
+  </data>
+  <data name="UploadGuidelines.Text">
+    <value>При передаче этого файла и изображения, я соглашаюсь, что они могут быть загружены другими посетителями этого вебсайта. Я также заявляю, что я имею право загрузить эти файлы и, что я не нарушаю никакого закона об авторском праве, загружая их. Я соглашаюсь разделить ответственность с администраторами и владельцами этого вебсайта,  связанную с возмещением  любых убытков, вызванных моей загрузкой этих файлов на этот сервер. &lt;br&gt;</value>
+  </data>
+  <data name="SendFileButton.Text">
+    <value>Обновить</value>
+  </data>
+  <data name="CancelButton.Text">
+    <value>Отмена</value>
+  </data>
+  <data name="FileSentModerationRequired.Text">
+    <value>Ваша загрузка  ДОЛЖНА быть одобрена Администратором\n ПРЕЖДЕ, ЧЕМ это будет отображено на сайте.\n Вы получите по электронной почте сообщение, когда ваша загрузка, будет утверждена.\n\n Вы желаете Загрузить ваш файл теперь?</value>
+  </data>
+  <data name="valTitle.Text">
+    <value>Вы должны ввести название для вашей загрузки</value>
+  </data>
+  <data name="valFile.Text">
+    <value>Вы должны ввести или выбрать файл для загрузки</value>
+  </data>
+  <data name="valURL.Text">
+    <value>Вы должны ввести правильный URL для этой загрузки</value>
+  </data>
+  <data name="valImageURL.Text">
+    <value>Вы должны ввести правильный URL для этого изображения</value>
+  </data>
+  <data name="valName.Text">
+    <value>Вы должны ввести ваше полное имя</value>
+  </data>
+  <data name="valEMail.Text">
+    <value>Вы должны ввести ваш e-mail</value>
+  </data>
+  <data name="CanShowEMail.Text">
+    <value>Да, Вы можете показывать мой   e-mail адрес вместе с моими загрузками</value>
+  </data>
+  <data name="DeleteItem.Text">
+    <value>Вы уверены, что хотите удалить это?</value>
+  </data>
+  <data name="DeleteButton.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="DeleteError.Text">
+    <value>Произошла ошибка , при попытке удалить выбранный файл. Пожалуйста, свяжитесь с вашим хостинг-провайдером, чтобы убедиться, что соответствующие настройки безопасности допустимы на сервере.</value>
+  </data>
+</root>

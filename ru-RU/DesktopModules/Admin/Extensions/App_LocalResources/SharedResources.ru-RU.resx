@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleteCredentials.Text">
+    <value>Изменить описание Магазина</value>
+  </data>
+  <data name="deploy.Text">
+    <value>Развернуть</value>
+  </data>
+  <data name="deploySuccess.Text">
+    <value>Расширение - {0} - успешно развернуто на сайте.  Выберите Установить расширение для установки нового расширения.</value>
+  </data>
+  <data name="Description.Help">
+    <value>Описание пакета</value>
+  </data>
+  <data name="Description.Text">
+    <value>Описание:</value>
+  </data>
+  <data name="download.Text">
+    <value>Загрузка</value>
+  </data>
+  <data name="Email.Help">
+    <value>Электронный адрес автора пакета</value>
+  </data>
+  <data name="Email.Text">
+    <value>Электронный адрес:</value>
+  </data>
+  <data name="Email.Validation">
+    <value>Укажите корректный электронный адрес</value>
+  </data>
+  <data name="extensionDescLabel.Help">
+    <value>Описание развертываемого расширения.</value>
+  </data>
+  <data name="extensionDescLabel.Text">
+    <value>Описание:</value>
+  </data>
+  <data name="extensionNamelabel.Help">
+    <value>Имя развертываемого расширения.</value>
+  </data>
+  <data name="extensionNamelabel.Text">
+    <value>Имя расширения:</value>
+  </data>
+  <data name="extensionTypeLabel.Help">
+    <value>Тип развертываемого расширения.</value>
+  </data>
+  <data name="extensionTypeLabel.Text">
+    <value>Тип расширения:</value>
+  </data>
+  <data name="feedEndpoint.Text">
+    <value>catalog.dotnetnuke.com</value>
+  </data>
+  <data name="fetchExtensions.Text">
+    <value>Получить список расширений</value>
+  </data>
+  <data name="FriendlyName.Help">
+    <value>Дружественное имя пакета</value>
+  </data>
+  <data name="FriendlyName.Required">
+    <value>Укажите дружественное имя для пакета.</value>
+  </data>
+  <data name="FriendlyName.Text">
+    <value>Дружественное имя:</value>
+  </data>
+  <data name="Help.Text">
+    <value>Требуется сделать запрос к внешнему файлу - если Вы не ожидали этого, нажмите Отмена дляя возврата на страницу расширений - или же выберите один из предложенных ниже вариантов.</value>
+  </data>
+  <data name="IconFile.Help">
+    <value>Имя файла значка для этого пакета.</value>
+  </data>
+  <data name="IconFile.Text">
+    <value>Файл значка:</value>
+  </data>
+  <data name="install.Text">
+    <value>Установить расширение</value>
+  </data>
+  <data name="License.Help">
+    <value>Лицензия этого пакета.</value>
+  </data>
+  <data name="License.Text">
+    <value>Лицензия:</value>
+  </data>
+  <data name="Name.Help">
+    <value>Имя пакета (например ИмяКомпании.ИмяПакета)</value>
+  </data>
+  <data name="Name.Required">
+    <value>Укажите имя пакета</value>
+  </data>
+  <data name="Name.Text">
+    <value>Имя:</value>
+  </data>
+  <data name="NoData.Text">
+    <value>Нет данных для отображения</value>
+  </data>
+  <data name="Organization.Help">
+    <value>Организация, ответственная за данный пакет</value>
+  </data>
+  <data name="Organization.Text">
+    <value>Организация:</value>
+  </data>
+  <data name="Owner.Help">
+    <value>Владелец пакета</value>
+  </data>
+  <data name="Owner.Text">
+    <value>Владелец:</value>
+  </data>
+  <data name="PackageErrors.Text">
+    <value>&lt;u&gt;Следующие пакеты не верны:&lt;/u&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="PackageType.Help">
+    <value>Тип пакета</value>
+  </data>
+  <data name="PackageType.Required">
+    <value>Укажите тип пакета.</value>
+  </data>
+  <data name="PackageType.Text">
+    <value>Тип:</value>
+  </data>
+  <data name="PurchasedHelp.Text">
+    <value>Здесь Вы можете просмотреть купленные через Магазин расширения, а также скачать и развернуть их на своем сайте. Вы должны указать учетные данные Магазина для просмотра своих покупок.</value>
+  </data>
+  <data name="PurchasedTitle.Text">
+    <value>Купленные расширения</value>
+  </data>
+  <data name="ReleaseNotes.Help">
+    <value>Заметки к выпуску для данной версии</value>
+  </data>
+  <data name="ReleaseNotes.Text">
+    <value>Заметки к выпуску:</value>
+  </data>
+  <data name="setupCredentials.Text">
+    <value>Введите учетные данные Магазина</value>
+  </data>
+  <data name="StoreFile.Text">
+    <value>https://www.snowcovered.com/Snowcovered2/AppGalleryHandler.ashx?PortalID=0</value>
+  </data>
+  <data name="Title.Text">
+    <value>Развернуть и установить расширение</value>
+  </data>
+  <data name="unexpectedRequest.Text">
+    <value>Попытка доступа к неожиданному внешнему файлу.</value>
+  </data>
+  <data name="updateCredentials.Text">
+    <value>Сохранить учетные данные Магазина</value>
+  </data>
+  <data name="URL.Help">
+    <value>URL автора</value>
+  </data>
+  <data name="URL.Text">
+    <value>URL:</value>
+  </data>
+  <data name="Version.Help">
+    <value>Версия пакета</value>
+  </data>
+  <data name="Version.Required">
+    <value>Укажите версию пакета</value>
+  </data>
+  <data name="Version.Text">
+    <value>Версия:</value>
+  </data>
+  <data name="Version.Validation">
+    <value>Пакет должен иметь номер версии в формате ##.##.##</value>
+  </data>
+  <data name="WebserviceFailure.Text">
+    <value>Невозможно соединиться с веб-службой</value>
+  </data>
+  <data name="WebservicePermission.Text">
+    <value>Настройки этого сайта не позволяют соединения с внешними веб-службами</value>
+  </data>
+</root>

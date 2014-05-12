@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>Основные параметры</value>
+  </data>
+  <data name="BasicSettingsDescription.Text">
+    <value>В этом разделе Вы можете настроить основные параметры сообщений</value>
+  </data>
+  <data name="plRoles.Text">
+    <value>Роль(и)</value>
+  </data>
+  <data name="plRoles.Help">
+    <value>Вы можете выбрать определенные роли - получатели сообщений, например: &amp;laquo;Все Администраторы&amp;raquo; или &amp;laquo;Все Зарегистрированные Пользователи&amp;raquo;</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>Список адресов</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>Вы также можете вручную указать несколько Email-адресов, разделенных знаком &amp;laquo;;&amp;raquo;.</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Тема</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Задайте тему письма</value>
+  </data>
+  <data name="Message.Text">
+    <value>Сообщение</value>
+  </data>
+  <data name="MessageDescription.Text">
+    <value>Используйте редактор для создания текста сообщения</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>Дополнительные параметры</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>В этом разделе Вы можете установить дополнительные настройки для вашего сообщения</value>
+  </data>
+  <data name="plAttachment.Text">
+    <value>Прикрепить</value>
+  </data>
+  <data name="plAttachment.Help">
+    <value>Выберите файл для прикрепления к сообщению</value>
+  </data>
+  <data name="plPriority.Text">
+    <value>Приоритет</value>
+  </data>
+  <data name="plPriority.Help">
+    <value>Выберите приоритет сообщения</value>
+  </data>
+  <data name="Normal.Text">
+    <value>Обычный</value>
+  </data>
+  <data name="High.Text">
+    <value>Высокий</value>
+  </data>
+  <data name="Low.Text">
+    <value>Низкий</value>
+  </data>
+  <data name="plSendMethod.Text">
+    <value>Метод отправки</value>
+  </data>
+  <data name="plSendMethod.Help">
+    <value>Выберите метод отправки сообщений</value>
+  </data>
+  <data name="SendTo.Text">
+    <value>TO: Персонально каждому получателю</value>
+  </data>
+  <data name="SendBCC.Text">
+    <value>BCC: Одно письмо для всех получателей в списке</value>
+  </data>
+  <data name="plSendAction.Text">
+    <value>Отправлять</value>
+  </data>
+  <data name="plSendAction.Help">
+    <value>Выберите механизм отправки сообщений</value>
+  </data>
+  <data name="Synchronous.Text">
+    <value>Синхронно</value>
+  </data>
+  <data name="Asynchronous.Text">
+    <value>Асинхронно</value>
+  </data>
+  <data name="cmdSend.Text">
+    <value>Отправить</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Рассылка новостей</value>
+  </data>
+  <data name="MessageSent.Text">
+    <value>Сообщение отправлено</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;О рассылке&lt;/h1&gt;
+&lt;p&gt;При помощи данного модуля администраторы могут проводить массовую рассылку 
+сообщений пользователям сайта по электронной почте, настраиваемую в зависимости 
+от принадлежности пользователей к ролям, а также могут указывать дополнительные 
+адреса&lt;span lang="en-us"&gt; e-mail &lt;/span&gt;вручную. В мультиязычных порталах 
+используется &lt;strong&gt;языковый фильтр, &lt;/strong&gt;позволяющий посылать сообщения на 
+соответствующем языке.&lt;/p&gt;
+&lt;p&gt;Автор может указать &lt;strong&gt;адрес email отправителя&lt;/strong&gt; (по умолчанию он 
+берется из его профиля)&amp;nbsp;и, если нужно, &lt;strong&gt;&amp;quot;адрес ответа (ReplyTo)&amp;quot;&lt;/strong&gt;. 
+&lt;strong&gt;Формат&lt;/strong&gt; сообщения (plain text или HTML) зависит от настроек 
+редактора, используемого для ввода письма.&lt;/p&gt;
+&lt;p&gt;Текст в &lt;strong&gt;теме&lt;/strong&gt; и &lt;strong&gt;теле&lt;/strong&gt;  письма может содержать 
+специальные тэги (лексемы) внешних объектов, таких как Portal, User и Дата/Время, 
+которые заменяются на конкретные текущие значения если разрешена опция&amp;nbsp; &lt;strong&gt;
+Замена тэгов.&lt;/strong&gt;&amp;nbsp; Также может быть задан файл для&amp;nbsp; &lt;strong&gt;
+вложения&lt;/strong&gt; , а также&amp;nbsp; &lt;strong&gt;приоритет&lt;/strong&gt; и исключение 
+рассылки&amp;nbsp; &lt;strong&gt;нескольких писем по одному адресу&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Есть три метода &lt;strong&gt;рассылки&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;TO&lt;/strong&gt; - письмо шлется по каждому адресу индивидуально, 
+	заменяются все доступные тэги &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;BCC&lt;/strong&gt; - письмо шлется по одному адресу отправителя, 
+	включая все адреса в качестве скрытых. Заменяются все индивидуальные тэги. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;RELAY - &lt;/strong&gt;работает также как и &lt;strong&gt;TO&lt;/strong&gt;, но 
+	все индивидуальные emailы отсылаются на специальный адрес пересылки Вы 
+	должны использовать тэги мобильных телефонов или факсов пользователей, чтобы 
+	это сообщение было доставлено .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Если вы&amp;nbsp; шлете&amp;nbsp;&lt;strong&gt;синхронно&lt;/strong&gt;, то Вам нужно ждать пока все 
+письма не будут разосланы прежде чем продолжить. В асинхронном режиме вы можете 
+продолжить работу немедленно. Отчёт с результами рассылки вы получите по почте 
+на тот адрес, который был указан в поле &amp;quot;FROM&amp;quot;.&lt;/p&gt;
+</value>
+  </data>
+  <data name="Heading.Text">
+    <value>Уважаемый(-ая) </value>
+  </data>
+  <data name="plFrom.Help">
+    <value>Введите е-mail адрес 'От' для почтового сообщения.</value>
+  </data>
+  <data name="plFrom.Text">
+    <value>От</value>
+  </data>
+  <data name="revEmailAddress.ErrorMessage">
+    <value>Адрес email имеет неправильный формат!</value>
+  </data>
+  <data name="MessageValidation.Text">
+    <value>Вы должны включить тему и сообщение</value>
+  </data>
+  <data name="cmdPreview.Text">
+    <value>Предпросмотр почты</value>
+  </data>
+  <data name="MessagesSentCount.Text">
+    <value>Было успешно отослано {0} сообщений</value>
+  </data>
+  <data name="NoMessagesSent.Text">
+    <value>Ни одного сообщения не было отослано. Возможно, это произошло из-за того, что роли пусты.</value>
+  </data>
+  <data name="plReplaceTokens.Help">
+    <value>Текст содержит какие-либо лексемы, которые должны быть заменены текущими настроенными значениями? &lt;br&gt; Примечание: Пользовательские лексемы будут заменены только, если метод отправки - "TO"</value>
+  </data>
+  <data name="plReplaceTokens.Text">
+    <value>Заменить лексемы?</value>
+  </data>
+  <data name="plAddressees.Text">
+    <value>Адреса</value>
+  </data>
+  <data name="plLanguages.Help">
+    <value>Задать фильтр для пользователей, основанный на языках в их профилях.</value>
+  </data>
+  <data name="plLanguages.Text">
+    <value>Фильтр языков</value>
+  </data>
+  <data name="plNoDuplicates.Help">
+    <value>Включить опцию для удаления повторяющихся e-mail адресов из списка адресов.</value>
+  </data>
+  <data name="plNoDuplicates.Text">
+    <value>Без повторных e-mail адресов </value>
+  </data>
+  <data name="plRelayAddress.Text">
+    <value>Адрес ретрансляции</value>
+  </data>
+  <data name="plReplyTo.Help">
+    <value>Введите адрес для ответа 'ReplyTo' для сообщения.</value>
+  </data>
+  <data name="plReplyTo.Text">
+    <value>Отправлять ответы на</value>
+  </data>
+  <data name="SendRelay.Text">
+    <value>Ретрансляция: По одному сообщению на один адрес Email(Персонально) на указанный сервер ретрансляции</value>
+  </data>
+</root>

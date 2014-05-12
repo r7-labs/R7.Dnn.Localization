@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Новый FAQ</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль &amp;laquo;FAQ&amp;raquo;&lt;/h1&gt;
+
+&lt;p&gt;Модуль позволяет зарегистрированным пользователям управлять списками часто задаваемых вопросов (FAQ) и ответами на них. Текст вопроса выводится в качестве ссылки, нажав на которую, пользователь может увидеть ответ.&lt;/p&gt;
+
+&lt;h1&gt;Добавление нового FAQ&lt;/h1&gt;
+&lt;ol&gt;&lt;li&gt;Добавьте новый модуль&lt;b&gt;FAQ&lt;/b&gt; или перейдите к существующему модулю. &lt;/li&gt;
+&lt;li&gt;Нажмите конпку &lt;b&gt;Новый  FAQ&lt;/b&gt;.
+&lt;/li&gt;
+&lt;li&gt;В поле &lt;b&gt;Вопрос&lt;/b&gt; задайте текст часто задаваемого вопроса.&lt;/li&gt;
+&lt;li&gt;В поле &lt;b&gt;Ответ&lt;/b&gt; укажите ответ на данный вопрос.&lt;/li&gt;
+&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="DefaultAnswerTemplate.Text">
+    <value>&lt;div Class="Normal" Style="Background-Color:white; border-style:solid; border-width:1px;padding: 5px;"&gt;
+&lt;b&gt;Ответ:&lt;/b&gt; [ANSWER]
+&lt;p&gt;&lt;b&gt;Категория:&lt;/b&gt; [CATEGORYNAME]&lt;br&gt;
+&lt;b&gt;Ответил:&lt;/b&gt; [USER]&lt;br&gt;
+&lt;b&gt;Дата создания: &lt;/b&gt;[DATECREATED]&lt;br&gt;
+&lt;b&gt;Дата изменения: &lt;/b&gt;[DATEMODIFIED]&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="DefaultLoadingTemplate.Text">
+    <value>&lt;div Class="Normal" Style="Background-Color:white; border-style:solid; border-width:1px;padding: 5px;"&gt;Загрузка...&lt;/div&gt;</value>
+  </data>
+  <data name="DefaultQuestionTemplate.Text">
+    <value>&lt;div Class="Normal"&gt;
+&lt;b&gt;В[INDEX]. [QUESTION]&lt;/b&gt; ([VIEWCOUNT] просмотров)
+&lt;/div&gt;</value>
+  </data>
+  <data name="ManageCategories.Text">
+    <value>Управление категориями</value>
+  </data>
+  <data name="OrderBy.Text">
+    <value>&lt;Сортировать по&gt;</value>
+  </data>
+  <data name="OrderByDateNew.Text">
+    <value>Дате (новые - впереди)</value>
+  </data>
+  <data name="OrderByDateOld.Text">
+    <value>Дате (старые - впереди)</value>
+  </data>
+  <data name="OrderByPopularityHigh.Text">
+    <value>Популярности (более - первыми )</value>
+  </data>
+  <data name="OrderByPopularityLow.Text">
+    <value>Популярности (менее - первыми )</value>
+  </data>
+  <data name="SearchFieldTitle.Text">
+    <value>Поиск</value>
+  </data>
+  <data name="SelectCategory.Text">
+    <value>&lt;Выбор категории&gt;</value>
+  </data>
+</root>

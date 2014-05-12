@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MenuAddEvents.Text">
+    <value>Добавить событие</value>
+  </data>
+  <data name="MenuCategories.Text">
+    <value>Редактировать категории</value>
+  </data>
+  <data name="MenuImport.Text">
+    <value>Импорт событий из AVCalendar</value>
+  </data>
+  <data name="MenuLocations.Text">
+    <value>Редактировать местоположения</value>
+  </data>
+  <data name="MenuModerate.Text">
+    <value>Модерировать события</value>
+  </data>
+  <data name="MenuMonth.Text">
+    <value>По месяцам</value>
+  </data>
+  <data name="MenuMyEnrollments.Text">
+    <value>Мои приглашения</value>
+  </data>
+  <data name="MenuTZUpdate.Text">
+    <value>Обновление часовых поясов (Admin)</value>
+  </data>
+  <data name="MenuWeek.Text">
+    <value>По неделям</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>События</value>
+  </data>
+  <data name="lblBadControl.Text">
+    <value>Недопустимый элемент управления модуля...</value>
+  </data>
+  <data name="lblModuleSettings.Text">
+    <value>Пожалуйста, обновите параметры настройки модуля ...  Свяжитесь  с администратором портала.</value>
+  </data>
+  <data name="MenuDetail.Text">
+    <value>Детали события</value>
+  </data>
+  <data name="MenuList.Text">
+    <value>Список событий</value>
+  </data>
+  <data name="MenuPPEnroll.Text">
+    <value>Регистрация на событие(платная)</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Модуль DotNetNuke «События»&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Добро пожаловать в модуль События для DotNetNuke 3 (пожалуйста, используйте DNN 
+3.0.13 или выше). Календарь - очень мощный модуль, поддерживающий:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt; помесячное, недельное и подробное представление&lt;/li&gt;
+	 &lt;li&gt; Модерируемые или немодерируемые события и регистрация на них &lt;/li&gt;
+	 &lt;li&gt;Повторяющийся события: ежедневно, еженедельно, ежемесячно или ежегодно &lt;/li&gt;
+	&lt;li&gt; Роли безопасности:  анонимные, редакторы (могут создавать и редактировать  собственные события), модераторы (могут редактировать/удалять/модерировать все события), администраторы (все права) &lt;/li&gt;
+	 &lt;li&gt; Несколько календарей на странице или сайте, с возможностью  подключения подкалендарей.&amp;nbsp; 
+	 Это - мощная возможность, которая позволяет поддерживать  виды событий как для отдельного человека, отдела, и департамента. &lt;/li&gt;
+	 &lt;li&gt; Отдельный, связанный с  этим модулем список событий, который позволяет показывать события выбранного календаря в виде списка &lt;/li&gt;
+	 &lt;li&gt; Регистрация на события, включая как платные (Pay Pal) или бесплатные (произвольно  модерируемые) регистрации &lt;/li&gt;
+	 &lt;li&gt; Настройка вида календаря через таблицу стилей  module.css &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;p&gt;После установки модуля Календарь, просто добавьте его на страницу. Затем, 
+выберите &amp;quot;Опции Администратора&amp;quot; для настройки Календаря.&lt;/p&gt;
+&lt;p&gt;После того, как Календарь настроен, просто выберите дату в календаре, нажав 
+число в календаре. Фокус переключится на эту дату. Тогда, если у Вас есть права 
+на редактирование, выберите, &amp;quot;Добавить событие&amp;quot; из меню модуля. В форме 
+&amp;quot;Редактирования события&amp;quot;, Вам достаточно ввести дату и время начала и окончание 
+для события (события могут охватывать несколько дней), краткое описание события 
+и детализированное примечание . Произвольно, если допускается, Вы можете выбрать 
+изображение для события, категорию и местоположение (если установлено), 
+повторяемость для начала и окончания события (ежедневно, еженедельно, и т.д.), а 
+также опционально регистрацию (если разрешено).&lt;/p&gt;
+&lt;p&gt;Чтобы просмотреть событие календаря, просто выберите событие в Календаре, или 
+ссылку в подробном представлении, ниже календаря. Если желаете, Вы можете 
+выбрать &amp;quot;Представление по неделям&amp;quot; сверху календаря, чтобы отобразить события 
+выбранной недели.&lt;/p&gt;
+&lt;p&gt;Если Вы зарегистрированы, Вы можете выбрать опцию &amp;quot;мои приглашения&amp;quot;, чтобы 
+отобразить события, на которые Вы зарегистрировались. Выбор в подробном 
+представлении, позволяет Вам подписываться или зарегистрироваться на события, 
+если Вы зарегистрированы и принадлежите к допустимой роли.&lt;/p&gt;
+&lt;p&gt;Модераторы или Администраторы могут выбрать &amp;quot;Модерирование событий&amp;quot;, чтобы 
+одобрить/не одобрить события и запросы на регистрацию (если допускается). Также 
+Модераторы или Администраторы могут обновлять категории и местоположения выбирая 
+&amp;quot;Редактирование категорий &amp;quot; или &amp;quot;Редактирование местоположений&amp;quot; в меню модуля.&lt;/p&gt;</value>
+  </data>
+</root>
