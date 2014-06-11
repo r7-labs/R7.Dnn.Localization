@@ -27,547 +27,1660 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Accept.Text"><value>Принять</value></data>
-  <data name="AcceptFriend.Text"><value>Принять приглашение дружить</value></data>
-  <data name="Add.Text"><value>Добавить</value></data>
-  <data name="AdminOnly.Text"><value>Только для администратора</value></data>
-  <data name="AdminTemplate.Error"><value>Ошибка при разборе шаблона администратора</value></data>
-  <data name="All.Text"><value>Все</value></data>
-  <data name="AllRoles.Text"><value>&lt; Все роли &gt;</value></data>
-  <data name="AllUsers.Text"><value>Все пользователи</value></data>
-  <data name="ASSEMBLY_Added.Text"><value>Сборка зарегистрирована</value></data>
-  <data name="ASSEMBLY_InUse.Text"><value>Сборка уже используется другим пакетом</value></data>
-  <data name="ASSEMBLY_Registered.Text"><value>Сборка зарегистрирована</value></data>
-  <data name="ASSEMBLY_UnRegistered.Text"><value>Регистрация сборки успешно отменена</value></data>
-  <data name="ASSEMBLY_Updated.Text"><value>Сборка обновлена</value></data>
-  <data name="AUTHENTICATION_LoginSrcMissing.Text"><value>Обязательное поле LoginControlSrc отсутствует в манифесте</value></data>
-  <data name="AUTHENTICATION_ReadSuccess.Text"><value>Манифейс аутентификации прочитан успешно</value></data>
-  <data name="AUTHENTICATION_Registered.Text"><value>Аутентификации успешно зарегистрирована - {0}</value></data>
-  <data name="AUTHENTICATION_SettingsSrcMissing.Text"><value>Обязательное поле SettingsControlSrc отсутствует в манифесте</value></data>
-  <data name="AUTHENTICATION_TypeMissing.Text"><value>Обязательное поле Type отсутствует в манифесте</value></data>
-  <data name="AUTHENTICATION_UnRegistered.Text"><value>Регистрация аутентификации успешно отменена</value></data>
-  <data name="BannedPasswordUsed.Text"><value>Запрошенный пароль недопустим, так как он повторяет имя пользователя или использует одно из слов, запрещенных к использованию в качестве пароля.</value></data>
-  <data name="Basic.Text"><value>Основные настройки профиля</value></data>
-  <data name="BeginSkinFile.Text"><value>Начало обработки файла</value></data>
-  <data name="BeginZip.Text"><value>Начало обработки zip-архива</value></data>
-  <data name="Calendar.Text"><value>Календарь</value></data>
-  <data name="Cancel.Action"><value>Отмена</value></data>
-  <data name="Cancel.Text"><value>Отмена</value></data>
-  <data name="Captcha.Help"><value>Введите код безопасности</value></data>
-  <data name="Captcha.Text"><value>Код безопасности</value></data>
-  <data name="CaptchaAlt.Text"><value>Код безопасности</value></data>
-  <data name="CaptchaText.Text"><value>Введите код с картинки в поле</value></data>
-  <data name="Center.Text"><value>По центру</value></data>
-  <data name="ChildPortal.Error"><value>Ошибка конфигурирования дочернего сайта</value></data>
-  <data name="CLEANUP_ProcessComplete.Text"><value>Завершена обработка Cleanup-файла - {0}</value></data>
-  <data name="CLEANUP_Processing.Text"><value>Обработка Cleanup-файла - {0}</value></data>
-  <data name="CleanWarningTitle.Text"><value>URL очищен</value></data>
-  <data name="Close.Text"><value>Закрыть</value></data>
-  <data name="cmdBack.Help"><value>Нажмите. чтобы вернуться на предыдующую страницу</value></data>
-  <data name="cmdBack.Text"><value>Назад</value></data>
-  <data name="cmdCancel.Text"><value>Отмена</value></data>
-  <data name="cmdDelete.Text"><value>Удалить</value></data>
-  <data name="cmdDisplay.Text"><value>Показать</value></data>
-  <data name="cmdDownLoad.Text"><value>Скачать</value></data>
-  <data name="cmdEdit.Text"><value>Редактировать</value></data>
-  <data name="cmdFinish.Text"><value>Закончить</value></data>
-  <data name="cmdGo.Text"><value>Вперед</value></data>
-  <data name="cmdHelp.Help"><value>Нажмите, чтобы отобразить справку по этой странице</value></data>
-  <data name="cmdHelp.Text"><value>Справка</value></data>
-  <data name="cmdNext.Help"><value>Нажмите, чтобы перейти на следующую страницу</value></data>
-  <data name="cmdNext.Text"><value>След.</value></data>
-  <data name="cmdReturn.Text"><value>Назад</value></data>
-  <data name="cmdUpdate.Text"><value>Сохранить</value></data>
-  <data name="cmdUpload.Text"><value>Подгрузить файл(ы)</value></data>
-  <data name="CollapseAll.Text"><value>Свернуть все</value></data>
-  <data name="CommentProvided.Action"><value>Есть комментарий</value></data>
-  <data name="CommentProvided.Comment"><value>Комментарий к состоянию '[STATE]': [COMMENT]</value></data>
-  <data name="COMPONENT_Installed.Text"><value>Компонент успешно установлен</value></data>
-  <data name="COMPONENT_RolledBack.Text"><value>Откат компонента прошел успешно</value></data>
-  <data name="COMPONENT_RollingBack.Text"><value>Производим откат компонента</value></data>
-  <data name="COMPONENT_Skipped.Text"><value>Компонент пропущен</value></data>
-  <data name="COMPONENT_UnInstalled.Text"><value>Компонент деинсталлирован успешно</value></data>
-  <data name="CONFIG_Committed.Text"><value>Изменения в файле конфигурации записаны</value></data>
-  <data name="CONFIG_RolledBack.Text"><value>Произведен откат изменений в файле конфигурации</value></data>
-  <data name="CONFIG_Updated.Text"><value>Файл конфигурации обновлен</value></data>
-  <data name="Confirm.Text"><value>Подтвердить</value></data>
-  <data name="Contact.Text"><value>Контактная информация</value></data>
-  <data name="ContainerLoad.Error"><value>Невозможно загрузить контейнер: {0}</value></data>
-  <data name="Containers.Text"><value>Контейнеры</value></data>
-  <data name="ContractExpired.Error"><value>Соглашение о хостинге {0} истекает {1}. Свяжитесь с &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; для получения дополнительной информации.</value></data>
-  <data name="ControlDirective.Text"><value>Formatting control directive</value></data>
-  <data name="ControlFormat.Text"><value>Форматирование тега элемента</value></data>
-  <data name="ControlRegister.Text"><value>Форматирование директивы регистрации</value></data>
-  <data name="CopyPermissionsToChildren.Text"><value>Разрешения всех дочерних страниц будут заменены.&lt;br /&gt;&lt;br /&gt;Уверены, что хотите продолжить?</value></data>
-  <data name="CreateAdminUser.Error"><value>Ошибка при создании учетной записи администратора.</value></data>
-  <data name="CreateDir.Text"><value>Создаем каталог</value></data>
-  <data name="CreatePortal.Error"><value>Ошибка при создании сайта</value></data>
-  <data name="CreateProfileDefinitions.Error"><value>Ошибка при создании определений профиля</value></data>
-  <data name="CriticalError.Error"><value>Возникла критическая ошибка.</value></data>
-  <data name="DASHBOARD_KeyMissing.Text"><value>Необходимое поле Key отсутствует в манифесте</value></data>
-  <data name="DASHBOARD_LocalResourcesMissing.Text"><value>Необходимое поле LocalResources отсутствует в манифесте</value></data>
-  <data name="DASHBOARD_ReadSuccess.Text"><value>Манифест Dashboard разобран успешно</value></data>
-  <data name="DASHBOARD_Registered.Text"><value>Dashboard успешно установлен</value></data>
-  <data name="DASHBOARD_SrcMissing.Text"><value>Необходимое поле Src отсутствует в манифесте</value></data>
-  <data name="DASHBOARD_UnRegistered.Text"><value>Dashboard успешно удален</value></data>
-  <data name="Day.Text"><value>День</value></data>
-  <data name="DayAgo.Text"><value>{0} день назад</value></data>
-  <data name="Days.Text"><value>Дней</value></data>
-  <data name="DaysAgo.Text"><value>{0} дней назад</value></data>
-  <data name="DefaultFolderMappings.Error"><value>Ошибка при создании каталогов по умолчанию</value></data>
-  <data name="DefaultWorkflowDescription.Text"><value>Позволяет автору управлять контентом, который затем проверяется другими пользователями, прежде чем публикуется.</value></data>
-  <data name="DefaultWorkflowName.Text"><value>Утверждение контента</value></data>
-  <data name="DefaultWorkflowState1.OnCompleteMessageBody"><value>[DATE]: Файл [FILE] готов к проверке [USER]</value></data>
-  <data name="DefaultWorkflowState1.OnCompleteMessageSubject"><value>Файл готов к проверке</value></data>
-  <data name="DefaultWorkflowState1.StateName"><value>Черновик</value></data>
-  <data name="DefaultWorkflowState2.OnCompleteMessageBody"><value>[DATE]: Файл [FILE] был утвержден [USER]</value></data>
-  <data name="DefaultWorkflowState2.OnCompleteMessageSubject"><value>Файл утвержден</value></data>
-  <data name="DefaultWorkflowState2.OnDiscardMessageBody"><value>[DATE]: Файл [FILE] был отвергнут [USER]</value></data>
-  <data name="DefaultWorkflowState2.OnDiscardMessageSubject"><value>Файл отвергнут</value></data>
-  <data name="DefaultWorkflowState2.StateName"><value>Готово к проверке</value></data>
-  <data name="DefaultWorkflowState3.StateName"><value>Опубликовано</value></data>
-  <data name="Delete.Text"><value>Удалить</value></data>
-  <data name="Deleted.Text"><value>Удалено</value></data>
-  <data name="DeleteItem.Text"><value>Вы уверены, что хотите удалить этот элемент?</value></data>
-  <data name="DeleteItems.Confirm"><value>Вы уверены, что хотите удалить эти элементы?</value></data>
-  <data name="DeleteItems.Text"><value>Вы уверены, что хотите удалить эти элементы?</value></data>
-  <data name="DeleteModule.Confirm"><value>Вы уверены, что хотите удалить этот модуль?</value></data>
-  <data name="DeleteSharedModule.Confirm"><value>Этот модуль используется на других сайтах группы. Его удаление приведет к удалению всех его экземпляров на других сайтах.&amp;nbsp;&amp;nbsp;Чтобы узнать, на каких сайтах используется данный модуль, проверьте Свойства &gt; Свойства модуля Settings &gt; Добавлен на страницу.&amp;nbsp;&amp;nbsp;Уверены, что хотите продолжить и удалить данный модуль и все связанные экземпляры?</value></data>
-  <data name="DeleteUploadFolder.Error"><value>Ошибка при удалении предыдущей папки подгрузки</value></data>
-  <data name="DeLocalizeModule.Confirm"><value>Уверены, что хотите отменить локализацию данного модуля?</value></data>
-  <data name="DiskSpaceExceeded.Text"><value>Файл {0} превысил объем доступного дискового пространства. Свяжитесь с Вашим хостинг-провайдером по поводу увеличения дисковой квоты для Вашего сайта.</value></data>
-  <data name="Dismiss.Text"><value>Отклонить</value></data>
-  <data name="DismissNotification.Text"><value>Отклонить уведомление</value></data>
-  <data name="DisplayEnglish.Text"><value>Отображать имя на английском</value></data>
-  <data name="DisplayNative.Text"><value>Отображать имя на родном языке</value></data>
-  <data name="DNN_Reading.Text"><value>Читаем файл манифеста установки</value></data>
-  <data name="DNN_ReadingComponent.Text"><value>Читаем манифест компонента</value></data>
-  <data name="DNN_ReadingPackage.Text"><value>Читаем манифест пакета</value></data>
-  <data name="DNN_Success.Text"><value>Манифест успешно завершен</value></data>
-  <data name="DNN_Valid.Text"><value>Файл DNN в корректном формате версии {0}.</value></data>
-  <data name="DNN_ValidSkinObject.Text"><value>Файл скин-объекта DNN в корректном формате.</value></data>
-  <data name="DraftCompleted.Action"><value>Черновик готов</value></data>
-  <data name="DraftCompleted.Comment"><value>Состояние чернового варианта завершено. Контент готов к публикации</value></data>
-  <data name="DropDownList.ClearButtonTooltip"><value>Очистить</value></data>
-  <data name="DropDownList.LoadingResultText"><value>...Загружаем результаты</value></data>
-  <data name="DropDownList.Results"><value>Результатыт</value></data>
-  <data name="DropDownList.SearchButtonTooltip"><value>Поиск</value></data>
-  <data name="DropDownList.SearchInputPlaceHolder"><value>Поиск...</value></data>
-  <data name="DropDownList.SelectedItemCollapseTooltip"><value>Нажмите, чтобы свернуть</value></data>
-  <data name="DropDownList.SelectedItemExpandTooltip"><value>Нажмите, чтобы развернуть</value></data>
-  <data name="DropDownList.SelectFolderDefaultText"><value>Выбрать папку</value></data>
-  <data name="DropDownList.SelectUserDefaultText"><value>Выбрать пользователя</value></data>
-  <data name="DropDownList.SelectWebPageDefaultText"><value>Выбрать страницу</value></data>
-  <data name="DropDownList.SortAscendingButtonTitle"><value>А-Я</value></data>
-  <data name="DropDownList.SortAscendingButtonTooltip"><value>Сортировать по возрастанию</value></data>
-  <data name="DropDownList.SortDescendingButtonTooltip"><value>Сортировать по убыванию</value></data>
-  <data name="DropDownList.UnsortedOrderButtonTooltip"><value>Удалить сортировку</value></data>
-  <data name="DuplicateDisplayName.Text"><value>Отображаемое имя уже используется.</value></data>
-  <data name="DuplicateSkinObject.Detail"><value>Любой скин, который ссылается на этот токен, должен сначала зарегистрировать свой скин-объект {0}, вместо того чтобы использовать определенный в дубликате ({1}). Скин может отображаться некорректно.</value></data>
-  <data name="DuplicateSkinObject.Error"><value>Отбрасываем дубликат скин-объекта для токена {0}</value></data>
-  <data name="DuplicateUrlWarningTitle.Text"><value>Повторяющийся URL</value></data>
-  <data name="Edit.Text"><value>Редактировать</value></data>
-  <data name="EndSkinFile.Text"><value>Конец обработки файла</value></data>
-  <data name="EndSkinFiles.Text"><value>Конец обработки файлов скинов/контейнеров</value></data>
-  <data name="EndZip.Text"><value>Окончание обработки zip-архива</value></data>
-  <data name="ErrorOccurred.Text"><value>Произошла ошибка.</value></data>
-  <data name="EVENTMESSAGE_CommandMissing.Text"><value>Команда процессора отсутствует в манифесте</value></data>
-  <data name="EVENTMESSAGE_TypeMissing.Text"><value>Тип процессора отсутствует в манифесте</value></data>
-  <data name="EXCEPTION.DuplicateLocale.Text"><value>Этот набор региональных параметров уже определен</value></data>
-  <data name="EXCEPTION.LangPack.FileMissing"><value>Отсутствует файл {0} в манифесте языкового пакета.</value></data>
-  <data name="EXCEPTION.LangPack.Install"><value>Возникла ошибка при загрузке файла ресурсов языкового пакета. Ошибка: {0}</value></data>
-  <data name="EXCEPTION.LangPack.ManifestLoad"><value>Возникла ошибка при загрузке манифеста языкового пакета. Ошибка: {0}</value></data>
-  <data name="EXCEPTION.LangPack.ManifestZip"><value>Обнаружена ошибка при загрузке манифеста языкового пакета из zip-архива. Ошибка: {0}</value></data>
-  <data name="EXCEPTION.Log"><value>Исключительная ситуация: {0}</value></data>
-  <data name="EXCEPTION.SaveLocale.Text"><value>Сбой при выполнении операции с файлами. Проверьте разрешения ресурсных файлов - они должны позволять редактирование.</value></data>
-  <data name="EXCEPTION.Text"><value>Исключение</value></data>
-  <data name="EXCEPTION_DesktopSrc.Text"><value>Элемент управления модуля должен содержать значение Desktopsrc, исполнение прервано</value></data>
-  <data name="EXCEPTION_DirectoryExists.Text"><value>Каталог уже существует</value></data>
-  <data name="EXCEPTION_FileLoad.Text"><value>Загрузка файла не удалась, исполнение прервано</value></data>
-  <data name="EXCEPTION_FileName.Text"><value>Файл должен иметь имя, исполнение прервано</value></data>
-  <data name="EXCEPTION_FileRead.Text"><value>Невозможно прочитать все данные: </value></data>
-  <data name="EXCEPTION_FolderDesc.Text"><value>Папка должна иметь описание, исполнение прервано</value></data>
-  <data name="EXCEPTION_FolderName.Text"><value>Папка должна иметь имя, исполнение прервано</value></data>
-  <data name="EXCEPTION_FolderProvider.Text"><value>Для папки должен быть указан тип провайдера, исполнение прервано</value></data>
-  <data name="EXCEPTION_FolderVersion.Text"><value>Папка должна иметь версию, исполнение прервано</value></data>
-  <data name="EXCEPTION_Format.Text"><value>Неверный форма Dnn-файла, исполнение прервано</value></data>
-  <data name="EXCEPTION_InstallerCreate.Text"><value>Ошибка при создании установщика компонент.</value></data>
-  <data name="EXCEPTION_InvalidEmailAddress.Text"><value>Адрес эл. почты ({0}) имеет неверный формат.</value></data>
-  <data name="EXCEPTION_LoadFailed.Text"><value>Загрузка файла Dnn не удалась, исполнение прервано</value></data>
-  <data name="EXCEPTION_MissingDnn.Text"><value>Не найдено ни одного файла .dnn</value></data>
-  <data name="EXCEPTION_MissingResource.Text"><value>Файл ресурсов, указанный в файле dnn, не найден в zip-файле: </value></data>
-  <data name="EXCEPTION_ModuleCacheMissing.Text"><value>ModuleCachingProvider неверно сконфигурирован. Убедитесь, что конфигурация &amp;lt;moduleCaching&amp;gt; существует в web.config и указан провайдер по-умолчанию.</value></data>
-  <data name="EXCEPTION_MultipleDnn.Text"><value>В zip-архиве обнаружено несколько файлов сценария .dnn: </value></data>
-  <data name="EXCEPTION_NameMissing.Text"><value>Элемент name обязателен</value></data>
-  <data name="EXCEPTION_Src.Text"><value>Элемент управления модуля должен содержать значение src, исполнение прервано</value></data>
-  <data name="EXCEPTION_Type.Text"><value>Элемент управления модуля должен содержать значение type, исполнение прервано</value></data>
-  <data name="EXCEPTION_TypeMissing.Text"><value>Элемент type обязателен</value></data>
-  <data name="EXCEPTION_VersionMissing.Text"><value>Элемент version обязателен</value></data>
-  <data name="ExpandAll.Text"><value>Развернуть все</value></data>
-  <data name="FailedRecipient.Text"><value>Сообщение не удалось доставить по следующим адресам - {0}</value></data>
-  <data name="False.Text"><value>Ложь</value></data>
-  <data name="FILE_CreateBackup.Text"><value>Создаем резервную копию предыдущей версии - {0}</value></data>
-  <data name="FILE_Created.Text"><value>Создано - {0}</value></data>
-  <data name="FILE_Deleted.Text"><value>Удалено - {0}</value></data>
-  <data name="FILE_Found.Text"><value>Найден верный путь ({0}) для {1}.</value></data>
-  <data name="FILE_Loading.Text"><value>Загрузка</value></data>
-  <data name="FILE_NotAllowed.Text"><value>Данное расширение имени файла недопустимо - {0}</value></data>
-  <data name="FILE_NotFound.Text"><value>Файл, указанный в сценарии dnn, не обнаружен в zip-архиве: </value></data>
-  <data name="FILE_ReadSuccess.Text"><value>Файл {0} прочитан успешно</value></data>
-  <data name="FILE_RestoreBackup.Text"><value>Восстановлена резервная копия предыдущей версии - {0}</value></data>
-  <data name="FileAccess.Error"><value>У Вас недостаточно разрешений для доступа к данному файлу.</value></data>
-  <data name="FileError.Text"><value>Ошибка при обработке файла</value></data>
-  <data name="FileFormat.Detail"><value>{0} не содержит панели ContentPane.</value></data>
-  <data name="FileFormat.Error"><value>Ошибка формата файла</value></data>
-  <data name="FileInUse.Text"><value>Файл - {0} - похоже, используется другим процессом, и не может быть удален немедленно. Повторите попытку через несколько минут.</value></data>
-  <data name="FilePermission.Error"><value>У Вас недостаточно прав для просмотра запрошенного файла</value></data>
-  <data name="FileRestricted.Text"><value>{0} - запрещенный к загрузке тип файлов. Список разрешенных типов файлов включает (*.{1}). Пожалуйста, свяжитесь с Вашим хостинг-провайдером, если Вам необходимо загрузить файлы других типов.</value></data>
-  <data name="Files.Text"><value>Файлы:</value></data>
-  <data name="FILES_Created.Text"><value>Файлы созданы</value></data>
-  <data name="FILES_CreatedResources.Text"><value>Созданы файлы ресурсов</value></data>
-  <data name="FILES_Creating.Text"><value>Создаем файлы</value></data>
-  <data name="FILES_Expanding.Text"><value>Раскрываем файл ресурсов</value></data>
-  <data name="FILES_Loading.Text"><value>Загружаем информацио о файлах</value></data>
-  <data name="FILES_Reading.Text"><value>Чтение файлов</value></data>
-  <data name="FILES_ReadingEnd.Text"><value>Чтение файлов завершено.</value></data>
-  <data name="FileWrite.Text"><value>Записываем в файл</value></data>
-  <data name="First.Text"><value>&lt;&lt;</value></data>
-  <data name="FOLDER_Created.Text"><value>Папка создана - {0}</value></data>
-  <data name="FOLDER_Deleted.Text"><value>Папка удалена - {0}</value></data>
-  <data name="FOLDER_DeletedBackup.Text"><value>Удалена временная папка установщика</value></data>
-  <data name="Folders.Text"><value>Папки:</value></data>
-  <data name="Follow.Text"><value>Подписаться</value></data>
-  <data name="FollowBack.Text"><value>Также подписаться</value></data>
-  <data name="FriendsGroups.Text"><value>Друзья и группы</value></data>
-  <data name="FTB_FolderCreate.Error"><value>Неизвестная ошибка при создании папки.</value></data>
-  <data name="FTB_FolderCreate.Permission"><value>У Вас недостаточно прав для создания папок.</value></data>
-  <data name="FTB_FolderCreated.Text"><value>Папка {0} успешно создана.</value></data>
-  <data name="FTB_FolderDelete.Error"><value>Неизвестная ошибка при удалении папки.</value></data>
-  <data name="FTB_FolderDelete.Permission"><value>У Вас недостаточно прав для удаления папок.</value></data>
-  <data name="FTB_FolderDeleted.Text"><value>Папка {0} успешно удалена.</value></data>
-  <data name="FTB_ImageDelete.Error"><value>Картинка {0} успешно удалена.</value></data>
-  <data name="FTB_ImageDelete.Permission"><value>У Вас недостаточно прав для удаления картинок.</value></data>
-  <data name="FTB_ImageDeleted.Text"><value>Картинка {0} успешно удалена.</value></data>
-  <data name="FTB_ImageUpload.Error"><value>Неизвестная ошибка при подгрузке картинки.</value></data>
-  <data name="FTB_ImageUpload.Permission"><value>У Вас недостаточно прав для подгрузки картинок.</value></data>
-  <data name="FTB_ImageUploaded.Text"><value>Картинка {0} подгружена успешно.</value></data>
-  <data name="FTB_ImageUploadNoFile.Text"><value>Ничего не подгружено.</value></data>
-  <data name="GlobalRoles.Text"><value>&lt; Глобальные роли &gt;</value></data>
-  <data name="GreenSuccess.Text"><value>Успешно</value></data>
-  <data name="Help.Text"><value>Справка</value></data>
-  <data name="Home.Text"><value>Домашняя</value></data>
-  <data name="Hour.Text"><value>Час</value></data>
-  <data name="HourAgo.Text"><value>{0} час назад</value></data>
-  <data name="Hours.Text"><value>Часов</value></data>
-  <data name="HoursAgo.Text"><value>{0} часов назад</value></data>
-  <data name="Ignore.Text"><value>Игнорировать</value></data>
-  <data name="IgnoreFriend.Text"><value>Игнорировать предложение дружить</value></data>
-  <data name="InsecureAdmin.Text"><value>Ваша учетная запись администратора портала все еще использует значение пароля, заданное по-умолчанию. Пожалуйста, обновите пароль и убедитесь, что Вы указали действительный адрес электронной почты.</value></data>
-  <data name="InsecureDefaults.Text"><value>Обе ваши учётные записи (администраторов хоста и портала) по прежнему используют известные значения по умолчанию. Пожалуйста, обновите пароли, и убедитесь в том, что Вы указали действительные адреса электронной почты.</value></data>
-  <data name="InsecureDefaults.Title"><value>Информация о небезопасной учетной записи</value></data>
-  <data name="InsecureHost.Text"><value>Ваша учетная запись администратора хоста все еще использует значение пароля, заданное по-умолчанию. Пожалуйста, обновите пароль и убедитесь, что Вы указали действительный адрес электронной почты.</value></data>
-  <data name="InsertSmileyButton.Text"><value>Вставить смайлик</value></data>
-  <data name="INSTALL_Aborted.Text"><value>Установка пакета прервана</value></data>
-  <data name="INSTALL_Committed.Text"><value>Установка завершена</value></data>
-  <data name="INSTALL_Compatibility.Text"><value>Установка прервана: устанавливаемый модуль не совместим с вашей версией хост-приложения (требуется обновление)</value></data>
-  <data name="INSTALL_Dependencies.Text"><value>Установка прервана - устанавливаемый модуль требует дополнительных компонентов, которые не доступны в вашей среде.</value></data>
-  <data name="INSTALL_Failed.Text"><value>Установка завершилась неудачей</value></data>
-  <data name="INSTALL_Namespace.Text"><value>Зависимый компонент не установлен</value></data>
-  <data name="INSTALL_OlderVersion.Text"><value>Установка прервана - версия устанавливаемого модуля более старая, чем версия модуля, уже установленного в системе</value></data>
-  <data name="INSTALL_Package.Text"><value>Зависимый пакет не установлен</value></data>
-  <data name="INSTALL_Permissions.Text"><value>Установка прервана - устанавливаемый модуль требует, больше прав, чем вам  в настоящий момент доступно.</value></data>
-  <data name="INSTALL_Start.Text"><value>Установка начата.</value></data>
-  <data name="INSTALL_Success.Text"><value>Установка прошла успешно.</value></data>
-  <data name="INSTALL_Version.Text"><value>Более свежая версия этого пакета уже установлена.</value></data>
-  <data name="InsufficientFolderPermission.Text"><value>У Вас нет достаточных прав для записи в папку {0}. Свяжитесь с Вашим хостинг-провайдером для того, чтобы сделать необходимые изменения в настройках безопасности сервера.</value></data>
-  <data name="InvalidAnswer.Text"><value>Ответ неверен. Укажите верный ответ на вопрос.</value></data>
-  <data name="InvalidCaptcha.Text"><value>Неверный код безопасности</value></data>
-  <data name="InvalidDisplayName.Text"><value>Отображаемое имя некорректно.</value></data>
-  <data name="InvalidEmail.Text"><value>Введенные адрес электронной почты не корректен.  Укажите корректный адрес электронной почты.</value></data>
-  <data name="InvalidFileName.Text"><value>Неверное имя файла - имя файла не может содержать '</value></data>
-  <data name="InvalidPassword.Text"><value>Введенный пароль не корректен. Корректный пароль должен состоять как минимум из [PasswordLength] символов и содержать один не алфавитно-цифровой символ ([NoneAlphabet]), и также не должен совпадать с именем пользователя.</value></data>
-  <data name="InvalidPasswordAnswer.Text"><value>Нужно указать ответ на секретный вопрос</value></data>
-  <data name="InvalidPasswordQuestion.Text"><value>Нужно указать секретный вопрос</value></data>
-  <data name="InvalidQuestion.Text"><value>Введенный секретный вопрос не корректен. Укажите корректный секретный вопрос.</value></data>
-  <data name="InvalidUserName.Text"><value>Введенное имя пользователя не корректно. Укажите корректное имя пользователя.</value></data>
-  <data name="jQuery.NotInstalled.Text"><value>jQuery не установлен.</value></data>
-  <data name="jQuery.UI.UnknownVersion.Text"><value>Невозможно определить версию jQuery UI.</value></data>
-  <data name="jQuery.UnknownVersion.Text"><value>Невозможно определить версию jQuery.</value></data>
-  <data name="jQueryUI.NotInstalled.Text"><value>jQuery UI не установлен.</value></data>
-  <data name="LANGUAGE_PortalsEnabled.Text"><value>Язык для всех порталов - {0}</value></data>
-  <data name="LANGUAGE_Registered.Text"><value>Языковой пакет успешно установлен - {0}</value></data>
-  <data name="LANGUAGE_UnRegistered.Text"><value>Языковой пакет успешно удален - {0}</value></data>
-  <data name="LanguageNotSelected.Text"><value>Вы не указали предпочитаемые региональные настройки. Таким образом, в качестве Ваших региональных настроек будут использованы региональные настройки сайта.</value></data>
-  <data name="Last.Text"><value>&gt;&gt;</value></data>
-  <data name="LastPortal.Text"><value>Вы не можете удалить единственный имеющийся портал!</value></data>
-  <data name="Left.Text"><value>Влево</value></data>
-  <data name="LoadingSkinToken.Text"><value>Загружаем скин-объект для токена {0}</value></data>
-  <data name="Localization_NotLocalized.Text"><value>Не локализовано</value></data>
-  <data name="Localization_NotTranslated.Text"><value>Не переведено</value></data>
-  <data name="Localization_OutOfDate.Text"><value>Просрочено</value></data>
-  <data name="Localization_Translated.Text"><value>Переведено</value></data>
-  <data name="LocalizeModule.Confirm"><value>Уверены,, что хотите локализовать данный модуль?</value></data>
-  <data name="Location.Text"><value>Информация о местоположении</value></data>
-  <data name="LOG.LangPack.Admin"><value>администратор</value></data>
-  <data name="LOG.LangPack.ArchiveFiles"><value>Создаем архив с пакетом ресурсов.</value></data>
-  <data name="LOG.LangPack.Control"><value>элемент управления</value></data>
-  <data name="LOG.LangPack.CreateArchive"><value>Добавляем файлы в пакет ресурсов: {0}</value></data>
-  <data name="LOG.LangPack.ERROR.CreatingFile"><value>Возникла ошибка при создании файла с пакетом ресурсов: {0}</value></data>
-  <data name="LOG.LangPack.ERROR.ManifestFile"><value>Возникла ошибка при создании файла манифеста: {0}</value></data>
-  <data name="LOG.LangPack.ERROR.SavingFile"><value>Возникла ошибка при сохранении файла в пакет ресурсов: {0}</value></data>
-  <data name="LOG.LangPack.Global"><value>глобальный</value></data>
-  <data name="LOG.LangPack.Job.CreateLocale"><value>Создание/обновление набора региональных параметров</value></data>
-  <data name="LOG.LangPack.Job.DeserializeManifest"><value>Разбираем файл манифеста.</value></data>
-  <data name="LOG.LangPack.Job.LoadFiles"><value>Распаковываем файлы языка</value></data>
-  <data name="LOG.LangPack.Job.LoadManifest"><value>Загрузка файла манифеста.</value></data>
-  <data name="LOG.LangPack.Job.SaveFiles"><value>Импортируем файлы языка</value></data>
-  <data name="LOG.LangPack.LoadFileName"><value>Загружаем файл ресурсов: {0}</value></data>
-  <data name="LOG.LangPack.LoadFiles"><value>Загрузка {0} файлов ресурсов.</value></data>
-  <data name="LOG.LangPack.LoadFromFolder"><value>Загружаем файлы ресурсов из папки: {0}</value></data>
-  <data name="LOG.LangPack.Module"><value>модуль</value></data>
-  <data name="LOG.LangPack.Provider"><value>поставщик</value></data>
-  <data name="LOG.LangPack.SavedFile"><value>Файл ресурсов {0} сохранен в пакете ресурсов.</value></data>
-  <data name="LOG.LangPack.SerializeManifest"><value>Файл манифеста успешно создан.</value></data>
-  <data name="LOG.LangPackReader.CreateLocale"><value>Создаем набор региональных параметров: {0}</value></data>
-  <data name="LOG.LangPackReader.LoadFiles"><value>Распаковываем языковой файл: {0}</value></data>
-  <data name="LOG.LangPackReader.ModuleWarning"><value>Файл ресурсов {0} не был сохранен, поскольку модуль {1} не установлен</value></data>
-  <data name="LOG.LangPackReader.UnzipFiles"><value>Испортируем файл: {0}</value></data>
-  <data name="LOG.PALogger.EndJob"><value>КонецЗадания</value></data>
-  <data name="LOG.PALogger.Failure"><value>Сбой</value></data>
-  <data name="LOG.PALogger.Info"><value>Сообщение</value></data>
-  <data name="LOG.PALogger.StartJob"><value>СтартЗадания</value></data>
-  <data name="LOG.PALogger.Warning"><value>Предупреждение</value></data>
-  <data name="LOG.PAWriter.CreateArchive"><value>Добавляем файлы в пакет модуля: {0}</value></data>
-  <data name="LOG.PAWriter.CreateManifest"><value>Создаем файл манифеста. {0}</value></data>
-  <data name="LOG.PAWriter.CreateZipFile"><value>Создаем пакет модуля: {0}</value></data>
-  <data name="LOG.PAWriter.ERROR.SavingFile"><value>Ошибка при сохранении файла в пакет модуля: {0}</value></data>
-  <data name="LOG.PAWriter.SavedFile"><value>Файл {0} сохранен в пакет модуля.</value></data>
-  <data name="Maximize.Text"><value>Развернуть</value></data>
-  <data name="Maximized.Text"><value>Развернуто</value></data>
-  <data name="MembersOnly.Text"><value>Только для зарегистрированных пользователей</value></data>
-  <data name="Minimize.Text"><value>Свернуть</value></data>
-  <data name="Minimized.Text"><value>Свернуто</value></data>
-  <data name="Minute.Text"><value>Минута</value></data>
-  <data name="MinuteAgo.Text"><value>{0} минуту назад</value></data>
-  <data name="Minutes.Text"><value>Минут</value></data>
-  <data name="MinutesAgo.Text"><value>{0} минут назад</value></data>
-  <data name="MODULE_ControlKeyMissing.Text"><value>Поле Key отсутствует</value></data>
-  <data name="MODULE_ControlTypeMissing.Text"><value>Поле Type отсутствует</value></data>
-  <data name="MODULE_FriendlyNameMissing.Text"><value>Поле FriendlyName отсутствует</value></data>
-  <data name="MODULE_InvalidVersion.Text"><value>Версия {0} не корректна - не будет добавлена в список UpgradeVersions.</value></data>
-  <data name="MODULE_ReadSuccess.Text"><value>Манифест модуля успешно прочитан</value></data>
-  <data name="MODULE_Registered.Text"><value>Модуль успешно зарегистрирован - {0}</value></data>
-  <data name="MODULE_UnRegistered.Text"><value>Модуль успешно удален - {0}</value></data>
-  <data name="ModuleAccess.Error"><value>У Вас недостаточно прав для просмотра этого модуля.</value></data>
-  <data name="ModuleAdd.Error"><value>Необработанное исключение при добавлении модуля на {0}</value></data>
-  <data name="ModuleEffective.Text"><value>Доступные модули - {0}</value></data>
-  <data name="ModuleExpired.Text"><value>Просроченные модули - {0}</value></data>
-  <data name="ModuleHelp.Text"><value>Справка модуля</value></data>
-  <data name="ModuleLoad.Error"><value>Необработанное исключение при загрузке модуля.</value></data>
-  <data name="ModuleLoadWarning.Error"><value>Предупреждение при загрузке модуля</value></data>
-  <data name="ModuleLoadWarning.Text"><value>Один или несколько модулей на этой странице не были загружены. Это может быть случайным временным явлением.  Пожалуйста, обновите страницу (нажмите F5 в большинстве браузеров). Если эта проблема не исчезнет, то сообщите об этом &lt;a href="mailto:{0}"&gt;Администратору сайта&lt;/a&gt;.</value></data>
-  <data name="ModuleNotIntended.Text"><value>Этот модуль предназначен для использования только на странице профиля пользователя.</value></data>
-  <data name="ModuleUnavailable.Text"><value>Ошибка: модуль {0} в настоящее время недоступен.</value></data>
-  <data name="ModuleVisibleAdministrator.Text"><value>Видно только администраторам.</value></data>
-  <data name="Month.Text"><value>Месяц</value></data>
-  <data name="MonthAgo.Text"><value>{0} месяц назад</value></data>
-  <data name="Months.Text"><value>Месяца</value></data>
-  <data name="MonthsAgo.Text"><value>{0} месяца назад</value></data>
-  <data name="MyFolderName.Text"><value>Моя папка</value></data>
-  <data name="New.Text"><value>Новый</value></data>
-  <data name="Next.Text"><value>след.</value></data>
-  <data name="No.Text"><value>Нет</value></data>
-  <data name="None.Text"><value>Нет</value></data>
-  <data name="None_Specified.Text"><value>Не указано</value></data>
-  <data name="Not_Specified.Text"><value>Не указано</value></data>
-  <data name="OAuthConfigBase_APIKey.Help"><value>Введите значения APP ID/API Key/Consumer Key, которые были указаны при конфигурировании провайдера аутентификации.</value></data>
-  <data name="OAuthConfigBase_APIKey.Text"><value>APP ID</value></data>
-  <data name="OAuthConfigBase_APISecret.Help"><value>Введите значение APP Secret/Consumer Secret, которые были указаны при конфигурировании провайдера аутентификации.</value></data>
-  <data name="OAuthConfigBase_APISecret.Text"><value>APP Secret</value></data>
-  <data name="OAuthConfigBase_Enabled.Help"><value>Отметьте флажок чтобы включить данный вид аутентификации для этого сайта.</value></data>
-  <data name="OAuthConfigBase_Enabled.Text"><value>Включено</value></data>
-  <data name="OAuthConfigBase_LoginURL.Help"><value>Укажите адрес страницы для входа пользователей на сайт.</value></data>
-  <data name="OAuthConfigBase_LoginURL.Text"><value>Страница входа:</value></data>
-  <data name="OAuthConfigBase_RegisterURL.Help"><value>Укажите адрес страницы для регистрации на сайте.</value></data>
-  <data name="OAuthConfigBase_RegisterURL.Text"><value>Страница регистрации:</value></data>
-  <data name="ObjectNotFound.Text"><value>Встроенный объект не найден</value></data>
-  <data name="Ok.Text"><value>Да</value></data>
-  <data name="OnLine.Text"><value>Онлайн</value></data>
-  <data name="PACKAGE_NoLicense.Text"><value>В данный пакет не включено лицензионное соглашение. Пожалуйста, свяжитесь с разработчиком по поводу всех деталей лицензирования.</value></data>
-  <data name="PACKAGE_NoReleaseNotes.Text"><value>В этом пакете отсутствуют заметки о текущем выпуске</value></data>
-  <data name="PACKAGE_UnRecognizable.Text"><value>Невозможно разобрать манифест пакета</value></data>
-  <data name="PackageLoad.Error"><value>Ошибка при загрузке файла атрибутов уровня пакета: ({0})</value></data>
-  <data name="PackageLoad.Text"><value>Загружен файл атрибутов уровня пакета</value></data>
-  <data name="Page.Text"><value>Страница:</value></data>
-  <data name="PageDisabled.Header"><value>Страница отключена</value></data>
-  <data name="PageDisabled.Text"><value>Эта страница была отключена и видима только для пользователей с правами на ее редактирование.</value></data>
-  <data name="Pages.Text"><value>Стр. {0} из {1}&lt;br /&gt;</value></data>
-  <data name="PaneNotFound.Error"><value>Панель ContentPane не найдена в скине</value></data>
-  <data name="PaneObject.Text"><value>Встроенный объект - это панель контента</value></data>
-  <data name="PaneToken.Text"><value>Токен это панель контента</value></data>
-  <data name="Password.Text"><value>Пароль:</value></data>
-  <data name="PasswordChanged.Text"><value>Пароль был сброшен.</value></data>
-  <data name="PasswordInvalid.Text"><value>Нужно указать корректный пароль. Свяжитесь с администратором сайта, если требования к паролям Вам неизвестны.</value></data>
-  <data name="PasswordMailError.Text"><value>Пароль был сброшен, но при отправке оповещения по электронной почте возникла ошибка.</value></data>
-  <data name="PasswordMismatch.Text"><value>Пароли не совпадают</value></data>
-  <data name="PasswordMissing.Text"><value>Нужно ввести текущий пароль для того, чтобы сменить его на новый.</value></data>
-  <data name="PasswordNotDifferent.Text"><value>Новый пароль такой же, как и прежний. Введите другой пароль.</value></data>
-  <data name="PasswordResetFailed.Text"><value>Произошла ошибка при установке нового пароля. Пароль не был изменен.</value></data>
-  <data name="PermissionTypeDeny.Text"><value>Доступ запрещен</value></data>
-  <data name="PermissionTypeGrant.Text"><value>Доступ разрешен</value></data>
-  <data name="PermissionTypeNull.Text"><value>Не указано</value></data>
-  <data name="PortalRoot.Text"><value>&lt; Корневой каталог &gt;</value></data>
-  <data name="PortalTemplate.Error"><value>Ошибка при чтении шаблона веб-сайта</value></data>
-  <data name="Previous.Text"><value>пред.</value></data>
-  <data name="PrivateConfirmationMessage.Text"><value>&lt;strong&gt;Сообщение с вашими данными было отправлено администратору портала для проверки. Как только ваша регистрация будет одобрена, вам будет послано сообщение на адрес эл. почты: {0}.&lt;/strong&gt;</value></data>
-  <data name="PrivateMembership.Text"><value>&lt;strong&gt;Примечание:&lt;/strong&gt; Доступ на данный портал ограничен. По получении Вашей регистрационной информации, администратор портала будет извещен, и Ваша заявка будет рассмотрена. При положительном решении, Вы будете извещены о возможности доступа на портал.</value></data>
-  <data name="ProcessObject.Text"><value>Обработка встроенного объекта</value></data>
-  <data name="ProcessToken.Text"><value>Обрабатываем токен</value></data>
-  <data name="ProfileUrlCleaned.Text"><value>Введенный URL содержал недопустимые символы, которые были удалены. Нажмите Сохранить снова, чтобы принять измененный URL.</value></data>
-  <data name="ProfileUrlNotUnique.Text"><value>Запрошенный URL уже занят. Если Вы хотите принять предложенные альтернативный вариант, нажмите Сохранить.</value></data>
-  <data name="Public.Text"><value>Открытая</value></data>
-  <data name="PublicMembership.Text"><value>&lt;strong&gt;Примечание:&lt;/strong&gt; Членство на данном портале является открытым. Как только указанная Вами информация будет принята, вы незамедлительно получите доступ на портал.</value></data>
-  <data name="PURGE.Log"><value>Журнал сайта успешно очищен</value></data>
-  <data name="PURGEDSCHEDULE.Log"><value>История планировщика успешно очищена</value></data>
-  <data name="PURGEUSERS.Log"><value>Информация о пользователях онлайн успешно очищена </value></data>
-  <data name="ReadError.Text"><value>Невозможно считать данные полностью: {0}/{1}</value></data>
-  <data name="Recordsperpage.Help"><value>Укажите максимальное количество записей для отображения на одной странице.</value></data>
-  <data name="Recordsperpage.Text"><value>Записей на страницу</value></data>
-  <data name="RedError.Text"><value>Ошибка</value></data>
-  <data name="RegError.Text"><value>Произошла неожиданная ошибка в процессе регистрации. Если ошибка повторится, свяжитесь с администратором для решения этой проблемы.</value></data>
-  <data name="Register.Text"><value>Регистрация пользователя</value></data>
-  <data name="REGISTER_Controls.Text"><value>Регистрируем элементы управления</value></data>
-  <data name="REGISTER_Definition.Text"><value>Регистрируем определения</value></data>
-  <data name="REGISTER_End.Text"><value>Регистрация завершена</value></data>
-  <data name="REGISTER_Module.Text"><value>Регистрирует модуль</value></data>
-  <data name="RemoveItem.Text"><value>Уверены, что хотите удалить этот элемент?</value></data>
-  <data name="RemoveItems.Confirm"><value>Уверены, что хотите удалить эти элементы?</value></data>
-  <data name="Required.Text"><value>Все поля, помеченные красной звездочкой, являются обязательными к заполнению.</value></data>
-  <data name="RequiredFields.Text"><value>Обозначены обязательные поля</value></data>
-  <data name="ResourceNotFound.Text"><value>Ресурс не найден</value></data>
-  <data name="RestrictedFileType.Text"><value>Тип файла {0} НЕ разрешен. Разрешены типы файлов: {1}. Свяжитесь со своим хостинг-провайдером, если Вам нужно загружать файлы этого типа.</value></data>
-  <data name="Right.Text"><value>Вправо</value></data>
-  <data name="RoleGroupFilter.Text"><value>Фильтровать по группе:</value></data>
-  <data name="RootFolder.Name"><value>Корень портала</value></data>
-  <data name="Save.Text"><value>Сохранить</value></data>
-  <data name="SaveFileError.Text"><value>Произошла ошибка при попытке сохранения файла {0}. Свяжитесь со своим хостинг-провайдером для того, чтобы удостовериться в правильных настройках безопасности файловой системы.</value></data>
-  <data name="SEARCH_NoLink.Text"><value>[нет ссылки]</value></data>
-  <data name="Second.Text"><value>Секунда</value></data>
-  <data name="Seconds.Text"><value>Секунд</value></data>
-  <data name="SecondsAgo.Text"><value> {0} секунд назад</value></data>
-  <data name="SECURITY_Installer.Text"><value>У Вас недостаточно прав для установки этого компонента</value></data>
-  <data name="SECURITY_NotRegistered.Text"><value>Этот тип пакета не зарегистрирован</value></data>
-  <data name="Select.Text"><value>Выбрать</value></data>
-  <data name="SelectedRole.Text"><value>Выбранная роль</value></data>
-  <data name="SendMail.Error"><value>Регистрация прошла успешно, аккаунт успешно создан.
-Произошла ошибка при отсылке письма с подтверждением - {0}.</value></data>
-  <data name="SKIN_BeginProcessing.Text"><value>Начало обработки файлов скина</value></data>
-  <data name="SKIN_EndProcessing.Text"><value>Конец обработки файлов скина</value></data>
-  <data name="SKIN_Installed.Text"><value>Этот скин уже установлен под другим именем</value></data>
-  <data name="SKIN_Registered.Text"><value>Скин успешно установлен - {0}</value></data>
-  <data name="SKIN_UnRegistered.Text"><value>Скин удален успешно - {0}</value></data>
-  <data name="SkinFileLoad.Error"><value>Ошибка при загрузке файла атрибутов</value></data>
-  <data name="SkinFileLoad.Text"><value>Загружаем файл атрибутов</value></data>
-  <data name="SkinObject.Text"><value>Встроенный объект является скин-объектом</value></data>
-  <data name="SkinObjects.Text"><value>[Скин-объекты]</value></data>
-  <data name="SkinObjectsDescription.Text"><value>Скин-объекты это пользовательские элементы управления, которые могут быть использованы для обеспечения дополнительных функций скинов.</value></data>
-  <data name="Skins.Text"><value>Скины</value></data>
-  <data name="SkinToken.Text"><value>Токен это скин-объект</value></data>
-  <data name="SMTPConfigurationProblem.Text"><value>Не удалось отослать почту из-за неверной конфигурации SMTP-сервера.</value></data>
-  <data name="SQL_Begin.Text"><value>Начало исполнения Sql</value></data>
-  <data name="SQL_BeginFile.Text"><value>Начало исполнения Sql: {0} файл</value></data>
-  <data name="SQL_BeginUnInstall.Text"><value>Начало деинсталляции Sql</value></data>
-  <data name="SQL_Committed.Text"><value>Изменения в скрипте SQL сохранены</value></data>
-  <data name="SQL_End.Text"><value>Исполнение Sql закончено</value></data>
-  <data name="SQL_EndFile.Text"><value>Конец деинсталляции Sql: {0} файл</value></data>
-  <data name="SQL_EndUnInstall.Text"><value>Конец деинсталляции Sql</value></data>
-  <data name="SQL_Exceptions.Text"><value>Исполнение SQL привело к следующим исключениям: {0}{1}</value></data>
-  <data name="SQL_Executing.Text"><value>Исполняем</value></data>
-  <data name="SQL_RolledBack.Text"><value>Откат изменений в скрипте SQL</value></data>
-  <data name="SQL_UnknownFile.Text"><value>Неизвестная кодировка файла {0}, операция прервана</value></data>
-  <data name="StartProcessor.Text"><value>Инициализируем обработчик для файлов скинов/контейнеров</value></data>
-  <data name="StateCompleted.Action"><value>Состоние завершено</value></data>
-  <data name="StateCompleted.Comment"><value>Состояние '[STATE]' утверждено</value></data>
-  <data name="StateDiscarded.Action"><value>Состояние снято</value></data>
-  <data name="StateDiscarded.Comment"><value>Состояние '[STATE]' было снято</value></data>
-  <data name="StateInitiated.Action"><value>Состояние инициировано</value></data>
-  <data name="StateInitiated.Comment"><value>Рабочий процесс в состоянии '[STATE]' </value></data>
-  <data name="Substituting.Detail"><value>{0}&lt;br&gt;С: {1}</value></data>
-  <data name="Substituting.Text"><value>Подстановка</value></data>
-  <data name="Superuser.Text"><value>Суперпользователь</value></data>
-  <data name="System_Default.Text"><value>Системный по-умолчанию</value></data>
-  <data name="TabAccess.Error"><value>У Вас нет прав на просмотр этой страницы сайта.</value></data>
-  <data name="TESTCOMPLETE.Log"><value>Тестирование выполнено. Ожидание составило {0} миллисекунд.</value></data>
-  <data name="Today.Text"><value>Сегодня</value></data>
-  <data name="TokenFormat.Text"><value>Атрибут форматирования токена</value></data>
-  <data name="TokenFound.Text"><value>Токен найден в файле атрибутов</value></data>
-  <data name="TokenNotFound.Text"><value>Токен не найден</value></data>
-  <data name="TokenNotFoundInFile.Text"><value>Токен НЕ найден в файле атрибутов</value></data>
-  <data name="TokenReplaceUnknownObject.Text"><value>Ошибка при доступе к [{0}:{1}], {0} - неизвестный источник данных.</value></data>
-  <data name="TokenReplaceUnknownProperty.Text"><value>Неизвестное свойство</value></data>
-  <data name="TranslateModule.Confirm"><value>Уверены, что хотите отметить данный модуль как переведенный?</value></data>
-  <data name="True.Text"><value>Да</value></data>
-  <data name="UnauthenticatedUsers.Text"><value>Пользователи, не прошедшие проверку</value></data>
-  <data name="Unauthorized.Text"><value>Не авторизован</value></data>
-  <data name="UNINSTALL_Failure.Text"><value>Сбой при удалении компонента</value></data>
-  <data name="UNINSTALL_Start.Text"><value>Начинаем удаление пакета</value></data>
-  <data name="UNINSTALL_StartComp.Text"><value>Начинаем удаление компонента</value></data>
-  <data name="UNINSTALL_Success.Text"><value>Удаление пакета прошло успешно</value></data>
-  <data name="UNINSTALL_SuccessComp.Text"><value>Удаление компонента прошло успешно</value></data>
-  <data name="UNINSTALL_Warnings.Text"><value>Удалено с предупреждениями</value></data>
-  <data name="UNINSTALL_WarningsComp.Text"><value>Компонент удален с предупреждениями</value></data>
-  <data name="Unknown.Text"><value>Неизвестно</value></data>
-  <data name="UnTranslateModule.Confirm"><value>Уверены, что хотите отметить данный модуль как не переведенный?</value></data>
-  <data name="UnverifiedUser.Text"><value>Вы используете неподтвержденную учетную запись. Для подтверждения регистрации, перейдите по ссылке в письме, которое было выслано Вам в процессе регистрации.</value></data>
-  <data name="Upload.Text"><value>Подгрузка</value></data>
-  <data name="URL.Text"><value>URL:</value></data>
-  <data name="URLPROVIDER_NameMissing.Text"><value>Отсутствует имя UrlProvider</value></data>
-  <data name="URLPROVIDER_ReadSuccess.Text"><value>Манифест UrlProvider успешно прочитан</value></data>
-  <data name="URLPROVIDER_Registered.Text"><value>UrlProvider зарегистрирован</value></data>
-  <data name="URLPROVIDER_TypeMissing.Text"><value>Отсутствует тип UrlProvider</value></data>
-  <data name="URLPROVIDER_UnRegistered.Text"><value>Регистрация UrlProvider удалена </value></data>
-  <data name="User.Text"><value>Имя пользователя:</value></data>
-  <data name="UserDeleteError.Text"><value>Ошибка при удалении пользователя</value></data>
-  <data name="UserEmailExists.Text"><value>Пользователь с указанным адресом эл. почты уже существует. Если Вы уже были зарегистрированы, но забыли свое имя пользователя и/или пароль, обратитесь к администратору сайта. Если Вы регистрируетесь в первый раз, укажите другой адрес эл. почты.</value></data>
-  <data name="UserFolderTitle.Text"><value>Мои файлы</value></data>
-  <data name="Username.Text"><value>Имя пользователя:</value></data>
-  <data name="UserNameExists.Text"><value>Пользователь с указанным именем уже существует! Пожалуйста, повторите регистрацию, указав другое имя пользователя.</value></data>
-  <data name="UserRejected.Text"><value>Регистрация пользователя была отвергнута. Свяжитесь с администратором для получения подробной информации.</value></data>
-  <data name="VerificationSuccess.Text"><value>Вашу учетная запись успешно проверена</value></data>
-  <data name="VerifiedMembership.Text"><value>&lt;strong&gt;*Примечание:&lt;/strong&gt; Членство на этом 
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept.Text">
+    <value>Принять</value>
+  </data>
+  <data name="AcceptFriend.Text">
+    <value>Принять приглашение дружить</value>
+  </data>
+  <data name="Add.Text">
+    <value>Добавить</value>
+  </data>
+  <data name="AdminOnly.Text">
+    <value>Только для администратора</value>
+  </data>
+  <data name="AdminTemplate.Error">
+    <value>Ошибка при разборе шаблона администратора</value>
+  </data>
+  <data name="All.Text">
+    <value>Все</value>
+  </data>
+  <data name="AllRoles.Text">
+    <value>&lt; Все роли &gt;</value>
+  </data>
+  <data name="AllUsers.Text">
+    <value>Все пользователи</value>
+  </data>
+  <data name="ASSEMBLY_Added.Text">
+    <value>Сборка зарегистрирована</value>
+  </data>
+  <data name="ASSEMBLY_InUse.Text">
+    <value>Сборка уже используется другим пакетом</value>
+  </data>
+  <data name="ASSEMBLY_Registered.Text">
+    <value>Сборка зарегистрирована</value>
+  </data>
+  <data name="ASSEMBLY_UnRegistered.Text">
+    <value>Регистрация сборки успешно отменена</value>
+  </data>
+  <data name="ASSEMBLY_Updated.Text">
+    <value>Сборка обновлена</value>
+  </data>
+  <data name="AUTHENTICATION_LoginSrcMissing.Text">
+    <value>Обязательное поле LoginControlSrc отсутствует в манифесте</value>
+  </data>
+  <data name="AUTHENTICATION_ReadSuccess.Text">
+    <value>Манифейс аутентификации прочитан успешно</value>
+  </data>
+  <data name="AUTHENTICATION_Registered.Text">
+    <value>Аутентификации успешно зарегистрирована - {0}</value>
+  </data>
+  <data name="AUTHENTICATION_SettingsSrcMissing.Text">
+    <value>Обязательное поле SettingsControlSrc отсутствует в манифесте</value>
+  </data>
+  <data name="AUTHENTICATION_TypeMissing.Text">
+    <value>Обязательное поле Type отсутствует в манифесте</value>
+  </data>
+  <data name="AUTHENTICATION_UnRegistered.Text">
+    <value>Регистрация аутентификации успешно отменена</value>
+  </data>
+  <data name="BannedPasswordUsed.Text">
+    <value>Запрошенный пароль недопустим, так как он повторяет имя пользователя или использует одно из слов, запрещенных к использованию в качестве пароля.</value>
+  </data>
+  <data name="Basic.Text">
+    <value>Основные настройки профиля</value>
+  </data>
+  <data name="BeginSkinFile.Text">
+    <value>Начало обработки файла</value>
+  </data>
+  <data name="BeginZip.Text">
+    <value>Начало обработки zip-архива</value>
+  </data>
+  <data name="Calendar.Text">
+    <value>Календарь</value>
+  </data>
+  <data name="Cancel.Action">
+    <value>Отмена</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Отмена</value>
+  </data>
+  <data name="Captcha.Help">
+    <value>Введите код безопасности</value>
+  </data>
+  <data name="Captcha.Text">
+    <value>Код безопасности</value>
+  </data>
+  <data name="CaptchaAlt.Text">
+    <value>Код безопасности</value>
+  </data>
+  <data name="CaptchaText.Text">
+    <value>Введите код с картинки в поле</value>
+  </data>
+  <data name="Center.Text">
+    <value>По центру</value>
+  </data>
+  <data name="ChildPortal.Error">
+    <value>Ошибка конфигурирования дочернего сайта</value>
+  </data>
+  <data name="CLEANUP_ProcessComplete.Text">
+    <value>Завершена обработка Cleanup-файла - {0}</value>
+  </data>
+  <data name="CLEANUP_Processing.Text">
+    <value>Обработка Cleanup-файла - {0}</value>
+  </data>
+  <data name="CleanWarningTitle.Text">
+    <value>URL очищен</value>
+  </data>
+  <data name="Close.Text">
+    <value>Закрыть</value>
+  </data>
+  <data name="cmdBack.Help">
+    <value>Нажмите. чтобы вернуться на предыдующую страницу</value>
+  </data>
+  <data name="cmdBack.Text">
+    <value>Назад</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="cmdDisplay.Text">
+    <value>Показать</value>
+  </data>
+  <data name="cmdDownLoad.Text">
+    <value>Скачать</value>
+  </data>
+  <data name="cmdEdit.Text">
+    <value>Редактировать</value>
+  </data>
+  <data name="cmdFinish.Text">
+    <value>Закончить</value>
+  </data>
+  <data name="cmdGo.Text">
+    <value>Вперед</value>
+  </data>
+  <data name="cmdHelp.Help">
+    <value>Нажмите, чтобы отобразить справку по этой странице</value>
+  </data>
+  <data name="cmdHelp.Text">
+    <value>Справка</value>
+  </data>
+  <data name="cmdNext.Help">
+    <value>Нажмите, чтобы перейти на следующую страницу</value>
+  </data>
+  <data name="cmdNext.Text">
+    <value>След.</value>
+  </data>
+  <data name="cmdReturn.Text">
+    <value>Назад</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Сохранить</value>
+  </data>
+  <data name="cmdUpload.Text">
+    <value>Подгрузить файл(ы)</value>
+  </data>
+  <data name="CollapseAll.Text">
+    <value>Свернуть все</value>
+  </data>
+  <data name="CommentProvided.Action">
+    <value>Есть комментарий</value>
+  </data>
+  <data name="CommentProvided.Comment">
+    <value>Комментарий к состоянию '[STATE]': [COMMENT]</value>
+  </data>
+  <data name="COMPONENT_Installed.Text">
+    <value>Компонент успешно установлен</value>
+  </data>
+  <data name="COMPONENT_RolledBack.Text">
+    <value>Откат компонента прошел успешно</value>
+  </data>
+  <data name="COMPONENT_RollingBack.Text">
+    <value>Производим откат компонента</value>
+  </data>
+  <data name="COMPONENT_Skipped.Text">
+    <value>Компонент пропущен</value>
+  </data>
+  <data name="COMPONENT_UnInstalled.Text">
+    <value>Компонент деинсталлирован успешно</value>
+  </data>
+  <data name="CONFIG_Committed.Text">
+    <value>Изменения в файле конфигурации записаны</value>
+  </data>
+  <data name="CONFIG_RolledBack.Text">
+    <value>Произведен откат изменений в файле конфигурации</value>
+  </data>
+  <data name="CONFIG_Updated.Text">
+    <value>Файл конфигурации обновлен</value>
+  </data>
+  <data name="Confirm.Text">
+    <value>Подтвердить</value>
+  </data>
+  <data name="Contact.Text">
+    <value>Контактная информация</value>
+  </data>
+  <data name="ContainerLoad.Error">
+    <value>Невозможно загрузить контейнер: {0}</value>
+  </data>
+  <data name="Containers.Text">
+    <value>Контейнеры</value>
+  </data>
+  <data name="ContractExpired.Error">
+    <value>Соглашение о хостинге {0} истекает {1}. Свяжитесь с &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; для получения дополнительной информации.</value>
+  </data>
+  <data name="ControlDirective.Text">
+    <value>Formatting control directive</value>
+  </data>
+  <data name="ControlFormat.Text">
+    <value>Форматирование тега элемента</value>
+  </data>
+  <data name="ControlRegister.Text">
+    <value>Форматирование директивы регистрации</value>
+  </data>
+  <data name="CopyPermissionsToChildren.Text">
+    <value>Разрешения всех дочерних страниц будут заменены.&lt;br /&gt;&lt;br /&gt;Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="CreateAdminUser.Error">
+    <value>Ошибка при создании учетной записи администратора.</value>
+  </data>
+  <data name="CreateDir.Text">
+    <value>Создаем каталог</value>
+  </data>
+  <data name="CreatePortal.Error">
+    <value>Ошибка при создании сайта</value>
+  </data>
+  <data name="CreateProfileDefinitions.Error">
+    <value>Ошибка при создании определений профиля</value>
+  </data>
+  <data name="CriticalError.Error">
+    <value>Возникла критическая ошибка.</value>
+  </data>
+  <data name="DASHBOARD_KeyMissing.Text">
+    <value>Необходимое поле Key отсутствует в манифесте</value>
+  </data>
+  <data name="DASHBOARD_LocalResourcesMissing.Text">
+    <value>Необходимое поле LocalResources отсутствует в манифесте</value>
+  </data>
+  <data name="DASHBOARD_ReadSuccess.Text">
+    <value>Манифест Dashboard разобран успешно</value>
+  </data>
+  <data name="DASHBOARD_Registered.Text">
+    <value>Dashboard успешно установлен</value>
+  </data>
+  <data name="DASHBOARD_SrcMissing.Text">
+    <value>Необходимое поле Src отсутствует в манифесте</value>
+  </data>
+  <data name="DASHBOARD_UnRegistered.Text">
+    <value>Dashboard успешно удален</value>
+  </data>
+  <data name="Day.Text">
+    <value>День</value>
+  </data>
+  <data name="DayAgo.Text">
+    <value>{0} день назад</value>
+  </data>
+  <data name="Days.Text">
+    <value>Дней</value>
+  </data>
+  <data name="DaysAgo.Text">
+    <value>{0} дней назад</value>
+  </data>
+  <data name="DefaultFolderMappings.Error">
+    <value>Ошибка при создании каталогов по умолчанию</value>
+  </data>
+  <data name="DefaultWorkflowDescription.Text">
+    <value>Позволяет автору управлять контентом, который затем проверяется другими пользователями, прежде чем публикуется.</value>
+  </data>
+  <data name="DefaultWorkflowName.Text">
+    <value>Утверждение контента</value>
+  </data>
+  <data name="DefaultWorkflowState1.OnCompleteMessageBody">
+    <value>[DATE]: Файл [FILE] готов к проверке [USER]</value>
+  </data>
+  <data name="DefaultWorkflowState1.OnCompleteMessageSubject">
+    <value>Файл готов к проверке</value>
+  </data>
+  <data name="DefaultWorkflowState1.StateName">
+    <value>Черновик</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnCompleteMessageBody">
+    <value>[DATE]: Файл [FILE] был утвержден [USER]</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnCompleteMessageSubject">
+    <value>Файл утвержден</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnDiscardMessageBody">
+    <value>[DATE]: Файл [FILE] был отвергнут [USER]</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnDiscardMessageSubject">
+    <value>Файл отвергнут</value>
+  </data>
+  <data name="DefaultWorkflowState2.StateName">
+    <value>Готово к проверке</value>
+  </data>
+  <data name="DefaultWorkflowState3.StateName">
+    <value>Опубликовано</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="Deleted.Text">
+    <value>Удалено</value>
+  </data>
+  <data name="DeleteItem.Text">
+    <value>Вы уверены, что хотите удалить этот элемент?</value>
+  </data>
+  <data name="DeleteItems.Confirm">
+    <value>Вы уверены, что хотите удалить эти элементы?</value>
+  </data>
+  <data name="DeleteItems.Text">
+    <value>Вы уверены, что хотите удалить эти элементы?</value>
+  </data>
+  <data name="DeleteModule.Confirm">
+    <value>Вы уверены, что хотите удалить этот модуль?</value>
+  </data>
+  <data name="DeleteSharedModule.Confirm">
+    <value>Этот модуль используется на других сайтах группы. Его удаление приведет к удалению всех его экземпляров на других сайтах.&amp;nbsp;&amp;nbsp;Чтобы узнать, на каких сайтах используется данный модуль, проверьте Свойства &gt; Свойства модуля Settings &gt; Добавлен на страницу.&amp;nbsp;&amp;nbsp;Уверены, что хотите продолжить и удалить данный модуль и все связанные экземпляры?</value>
+  </data>
+  <data name="DeleteUploadFolder.Error">
+    <value>Ошибка при удалении предыдущей папки подгрузки</value>
+  </data>
+  <data name="DeLocalizeModule.Confirm">
+    <value>Уверены, что хотите отменить локализацию данного модуля?</value>
+  </data>
+  <data name="DiskSpaceExceeded.Text">
+    <value>Файл {0} превысил объем доступного дискового пространства. Свяжитесь с Вашим хостинг-провайдером по поводу увеличения дисковой квоты для Вашего сайта.</value>
+  </data>
+  <data name="Dismiss.Text">
+    <value>Отклонить</value>
+  </data>
+  <data name="DismissNotification.Text">
+    <value>Отклонить уведомление</value>
+  </data>
+  <data name="DisplayEnglish.Text">
+    <value>Отображать имя на английском</value>
+  </data>
+  <data name="DisplayNative.Text">
+    <value>Отображать имя на родном языке</value>
+  </data>
+  <data name="DNN_Reading.Text">
+    <value>Читаем файл манифеста установки</value>
+  </data>
+  <data name="DNN_ReadingComponent.Text">
+    <value>Читаем манифест компонента</value>
+  </data>
+  <data name="DNN_ReadingPackage.Text">
+    <value>Читаем манифест пакета</value>
+  </data>
+  <data name="DNN_Success.Text">
+    <value>Манифест успешно завершен</value>
+  </data>
+  <data name="DNN_Valid.Text">
+    <value>Файл DNN в корректном формате версии {0}.</value>
+  </data>
+  <data name="DNN_ValidSkinObject.Text">
+    <value>Файл скин-объекта DNN в корректном формате.</value>
+  </data>
+  <data name="DraftCompleted.Action">
+    <value>Черновик готов</value>
+  </data>
+  <data name="DraftCompleted.Comment">
+    <value>Состояние чернового варианта завершено. Контент готов к публикации</value>
+  </data>
+  <data name="DropDownList.ClearButtonTooltip">
+    <value>Очистить</value>
+  </data>
+  <data name="DropDownList.LoadingResultText">
+    <value>...Загружаем результаты</value>
+  </data>
+  <data name="DropDownList.Results">
+    <value>Результат</value>
+  </data>
+  <data name="DropDownList.SearchButtonTooltip">
+    <value>Поиск</value>
+  </data>
+  <data name="DropDownList.SearchInputPlaceHolder">
+    <value>Поиск...</value>
+  </data>
+  <data name="DropDownList.SelectedItemCollapseTooltip">
+    <value>Нажмите, чтобы свернуть</value>
+  </data>
+  <data name="DropDownList.SelectedItemExpandTooltip">
+    <value>Нажмите, чтобы развернуть</value>
+  </data>
+  <data name="DropDownList.SelectFolderDefaultText">
+    <value>Выбрать папку</value>
+  </data>
+  <data name="DropDownList.SelectUserDefaultText">
+    <value>Выбрать пользователя</value>
+  </data>
+  <data name="DropDownList.SelectWebPageDefaultText">
+    <value>Выбрать страницу</value>
+  </data>
+  <data name="DropDownList.SortAscendingButtonTitle">
+    <value>А-Я</value>
+  </data>
+  <data name="DropDownList.SortAscendingButtonTooltip">
+    <value>Сортировать по возрастанию</value>
+  </data>
+  <data name="DropDownList.SortDescendingButtonTooltip">
+    <value>Сортировать по убыванию</value>
+  </data>
+  <data name="DropDownList.UnsortedOrderButtonTooltip">
+    <value>Удалить сортировку</value>
+  </data>
+  <data name="DuplicateDisplayName.Text">
+    <value>Отображаемое имя уже используется.</value>
+  </data>
+  <data name="DuplicateSkinObject.Detail">
+    <value>Любой скин, который ссылается на этот токен, должен сначала зарегистрировать свой скин-объект {0}, вместо того чтобы использовать определенный в дубликате ({1}). Скин может отображаться некорректно.</value>
+  </data>
+  <data name="DuplicateSkinObject.Error">
+    <value>Отбрасываем дубликат скин-объекта для токена {0}</value>
+  </data>
+  <data name="DuplicateUrlWarningTitle.Text">
+    <value>Повторяющийся URL</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Редактировать</value>
+  </data>
+  <data name="EndSkinFile.Text">
+    <value>Конец обработки файла</value>
+  </data>
+  <data name="EndSkinFiles.Text">
+    <value>Конец обработки файлов скинов/контейнеров</value>
+  </data>
+  <data name="EndZip.Text">
+    <value>Окончание обработки zip-архива</value>
+  </data>
+  <data name="ErrorOccurred.Text">
+    <value>Произошла ошибка.</value>
+  </data>
+  <data name="EVENTMESSAGE_CommandMissing.Text">
+    <value>Команда процессора отсутствует в манифесте</value>
+  </data>
+  <data name="EVENTMESSAGE_TypeMissing.Text">
+    <value>Тип процессора отсутствует в манифесте</value>
+  </data>
+  <data name="EXCEPTION.DuplicateLocale.Text">
+    <value>Этот набор региональных параметров уже определен</value>
+  </data>
+  <data name="EXCEPTION.LangPack.FileMissing">
+    <value>Отсутствует файл {0} в манифесте языкового пакета.</value>
+  </data>
+  <data name="EXCEPTION.LangPack.Install">
+    <value>Возникла ошибка при загрузке файла ресурсов языкового пакета. Ошибка: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestLoad">
+    <value>Возникла ошибка при загрузке манифеста языкового пакета. Ошибка: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestZip">
+    <value>Обнаружена ошибка при загрузке манифеста языкового пакета из zip-архива. Ошибка: {0}</value>
+  </data>
+  <data name="EXCEPTION.Log">
+    <value>Исключительная ситуация: {0}</value>
+  </data>
+  <data name="EXCEPTION.SaveLocale.Text">
+    <value>Сбой при выполнении операции с файлами. Проверьте разрешения ресурсных файлов - они должны позволять редактирование.</value>
+  </data>
+  <data name="EXCEPTION.Text">
+    <value>Исключение</value>
+  </data>
+  <data name="EXCEPTION_DesktopSrc.Text">
+    <value>Элемент управления модуля должен содержать значение Desktopsrc, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_DirectoryExists.Text">
+    <value>Каталог уже существует</value>
+  </data>
+  <data name="EXCEPTION_FileLoad.Text">
+    <value>Загрузка файла не удалась, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_FileName.Text">
+    <value>Файл должен иметь имя, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_FileRead.Text">
+    <value>Невозможно прочитать все данные: </value>
+  </data>
+  <data name="EXCEPTION_FolderDesc.Text">
+    <value>Папка должна иметь описание, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_FolderName.Text">
+    <value>Папка должна иметь имя, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_FolderProvider.Text">
+    <value>Для папки должен быть указан тип провайдера, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_FolderVersion.Text">
+    <value>Папка должна иметь версию, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_Format.Text">
+    <value>Неверный форма Dnn-файла, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_InstallerCreate.Text">
+    <value>Ошибка при создании установщика компонент.</value>
+  </data>
+  <data name="EXCEPTION_InvalidEmailAddress.Text">
+    <value>Адрес эл. почты ({0}) имеет неверный формат.</value>
+  </data>
+  <data name="EXCEPTION_LoadFailed.Text">
+    <value>Загрузка файла Dnn не удалась, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_MissingDnn.Text">
+    <value>Не найдено ни одного файла .dnn</value>
+  </data>
+  <data name="EXCEPTION_MissingResource.Text">
+    <value>Файл ресурсов, указанный в файле dnn, не найден в zip-файле: </value>
+  </data>
+  <data name="EXCEPTION_ModuleCacheMissing.Text">
+    <value>ModuleCachingProvider неверно сконфигурирован. Убедитесь, что конфигурация &amp;lt;moduleCaching&amp;gt; существует в web.config и указан провайдер по-умолчанию.</value>
+  </data>
+  <data name="EXCEPTION_MultipleDnn.Text">
+    <value>В zip-архиве обнаружено несколько файлов сценария .dnn: </value>
+  </data>
+  <data name="EXCEPTION_NameMissing.Text">
+    <value>Элемент name обязателен</value>
+  </data>
+  <data name="EXCEPTION_Src.Text">
+    <value>Элемент управления модуля должен содержать значение src, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_Type.Text">
+    <value>Элемент управления модуля должен содержать значение type, исполнение прервано</value>
+  </data>
+  <data name="EXCEPTION_TypeMissing.Text">
+    <value>Элемент type обязателен</value>
+  </data>
+  <data name="EXCEPTION_VersionMissing.Text">
+    <value>Элемент version обязателен</value>
+  </data>
+  <data name="ExpandAll.Text">
+    <value>Развернуть все</value>
+  </data>
+  <data name="FailedRecipient.Text">
+    <value>Сообщение не удалось доставить по следующим адресам - {0}</value>
+  </data>
+  <data name="False.Text">
+    <value>Ложь</value>
+  </data>
+  <data name="FILE_CreateBackup.Text">
+    <value>Создаем резервную копию предыдущей версии - {0}</value>
+  </data>
+  <data name="FILE_Created.Text">
+    <value>Создано - {0}</value>
+  </data>
+  <data name="FILE_Deleted.Text">
+    <value>Удалено - {0}</value>
+  </data>
+  <data name="FILE_Found.Text">
+    <value>Найден верный путь ({0}) для {1}.</value>
+  </data>
+  <data name="FILE_Loading.Text">
+    <value>Загрузка</value>
+  </data>
+  <data name="FILE_NotAllowed.Text">
+    <value>Данное расширение имени файла недопустимо - {0}</value>
+  </data>
+  <data name="FILE_NotFound.Text">
+    <value>Файл, указанный в сценарии dnn, не обнаружен в zip-архиве: </value>
+  </data>
+  <data name="FILE_ReadSuccess.Text">
+    <value>Файл {0} прочитан успешно</value>
+  </data>
+  <data name="FILE_RestoreBackup.Text">
+    <value>Восстановлена резервная копия предыдущей версии - {0}</value>
+  </data>
+  <data name="FileAccess.Error">
+    <value>У Вас недостаточно разрешений для доступа к данному файлу.</value>
+  </data>
+  <data name="FileError.Text">
+    <value>Ошибка при обработке файла</value>
+  </data>
+  <data name="FileFormat.Detail">
+    <value>{0} не содержит панели ContentPane.</value>
+  </data>
+  <data name="FileFormat.Error">
+    <value>Ошибка формата файла</value>
+  </data>
+  <data name="FileInUse.Text">
+    <value>Файл - {0} - похоже, используется другим процессом, и не может быть удален немедленно. Повторите попытку через несколько минут.</value>
+  </data>
+  <data name="FilePermission.Error">
+    <value>У Вас недостаточно прав для просмотра запрошенного файла</value>
+  </data>
+  <data name="FileRestricted.Text">
+    <value>{0} - запрещенный к загрузке тип файлов. Список разрешенных типов файлов включает (*.{1}). Пожалуйста, свяжитесь с Вашим хостинг-провайдером, если Вам необходимо загрузить файлы других типов.</value>
+  </data>
+  <data name="Files.Text">
+    <value>Файлы:</value>
+  </data>
+  <data name="FILES_Created.Text">
+    <value>Файлы созданы</value>
+  </data>
+  <data name="FILES_CreatedResources.Text">
+    <value>Созданы файлы ресурсов</value>
+  </data>
+  <data name="FILES_Creating.Text">
+    <value>Создаем файлы</value>
+  </data>
+  <data name="FILES_Expanding.Text">
+    <value>Раскрываем файл ресурсов</value>
+  </data>
+  <data name="FILES_Loading.Text">
+    <value>Загружаем информацио о файлах</value>
+  </data>
+  <data name="FILES_Reading.Text">
+    <value>Чтение файлов</value>
+  </data>
+  <data name="FILES_ReadingEnd.Text">
+    <value>Чтение файлов завершено.</value>
+  </data>
+  <data name="FileWrite.Text">
+    <value>Записываем в файл</value>
+  </data>
+  <data name="First.Text">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="FOLDER_Created.Text">
+    <value>Папка создана - {0}</value>
+  </data>
+  <data name="FOLDER_Deleted.Text">
+    <value>Папка удалена - {0}</value>
+  </data>
+  <data name="FOLDER_DeletedBackup.Text">
+    <value>Удалена временная папка установщика</value>
+  </data>
+  <data name="Folders.Text">
+    <value>Папки:</value>
+  </data>
+  <data name="Follow.Text">
+    <value>Подписаться</value>
+  </data>
+  <data name="FollowBack.Text">
+    <value>Также подписаться</value>
+  </data>
+  <data name="FriendsGroups.Text">
+    <value>Друзья и группы</value>
+  </data>
+  <data name="FTB_FolderCreate.Error">
+    <value>Неизвестная ошибка при создании папки.</value>
+  </data>
+  <data name="FTB_FolderCreate.Permission">
+    <value>У Вас недостаточно прав для создания папок.</value>
+  </data>
+  <data name="FTB_FolderCreated.Text">
+    <value>Папка {0} успешно создана.</value>
+  </data>
+  <data name="FTB_FolderDelete.Error">
+    <value>Неизвестная ошибка при удалении папки.</value>
+  </data>
+  <data name="FTB_FolderDelete.Permission">
+    <value>У Вас недостаточно прав для удаления папок.</value>
+  </data>
+  <data name="FTB_FolderDeleted.Text">
+    <value>Папка {0} успешно удалена.</value>
+  </data>
+  <data name="FTB_ImageDelete.Error">
+    <value>Картинка {0} успешно удалена.</value>
+  </data>
+  <data name="FTB_ImageDelete.Permission">
+    <value>У Вас недостаточно прав для удаления картинок.</value>
+  </data>
+  <data name="FTB_ImageDeleted.Text">
+    <value>Картинка {0} успешно удалена.</value>
+  </data>
+  <data name="FTB_ImageUpload.Error">
+    <value>Неизвестная ошибка при подгрузке картинки.</value>
+  </data>
+  <data name="FTB_ImageUpload.Permission">
+    <value>У Вас недостаточно прав для подгрузки картинок.</value>
+  </data>
+  <data name="FTB_ImageUploaded.Text">
+    <value>Картинка {0} подгружена успешно.</value>
+  </data>
+  <data name="FTB_ImageUploadNoFile.Text">
+    <value>Ничего не подгружено.</value>
+  </data>
+  <data name="GlobalRoles.Text">
+    <value>&lt; Глобальные роли &gt;</value>
+  </data>
+  <data name="GreenSuccess.Text">
+    <value>Успешно</value>
+  </data>
+  <data name="Help.Text">
+    <value>Справка</value>
+  </data>
+  <data name="Home.Text">
+    <value>Домашняя</value>
+  </data>
+  <data name="Hour.Text">
+    <value>Час</value>
+  </data>
+  <data name="HourAgo.Text">
+    <value>{0} час назад</value>
+  </data>
+  <data name="Hours.Text">
+    <value>Часов</value>
+  </data>
+  <data name="HoursAgo.Text">
+    <value>{0} часов назад</value>
+  </data>
+  <data name="Ignore.Text">
+    <value>Игнорировать</value>
+  </data>
+  <data name="IgnoreFriend.Text">
+    <value>Игнорировать предложение дружить</value>
+  </data>
+  <data name="InsecureAdmin.Text">
+    <value>Ваша учетная запись администратора портала все еще использует значение пароля, заданное по-умолчанию. Пожалуйста, обновите пароль и убедитесь, что Вы указали действительный адрес электронной почты.</value>
+  </data>
+  <data name="InsecureDefaults.Text">
+    <value>Обе ваши учётные записи (администраторов хоста и портала) по прежнему используют известные значения по умолчанию. Пожалуйста, обновите пароли, и убедитесь в том, что Вы указали действительные адреса электронной почты.</value>
+  </data>
+  <data name="InsecureDefaults.Title">
+    <value>Информация о небезопасной учетной записи</value>
+  </data>
+  <data name="InsecureHost.Text">
+    <value>Ваша учетная запись администратора хоста все еще использует значение пароля, заданное по-умолчанию. Пожалуйста, обновите пароль и убедитесь, что Вы указали действительный адрес электронной почты.</value>
+  </data>
+  <data name="InsertSmileyButton.Text">
+    <value>Вставить смайлик</value>
+  </data>
+  <data name="INSTALL_Aborted.Text">
+    <value>Установка пакета прервана</value>
+  </data>
+  <data name="INSTALL_Committed.Text">
+    <value>Установка завершена</value>
+  </data>
+  <data name="INSTALL_Compatibility.Text">
+    <value>Установка прервана: устанавливаемый модуль не совместим с вашей версией хост-приложения (требуется обновление)</value>
+  </data>
+  <data name="INSTALL_Dependencies.Text">
+    <value>Установка прервана - устанавливаемый модуль требует дополнительных компонентов, которые не доступны в вашей среде.</value>
+  </data>
+  <data name="INSTALL_Failed.Text">
+    <value>Установка завершилась неудачей</value>
+  </data>
+  <data name="INSTALL_Namespace.Text">
+    <value>Зависимый компонент не установлен</value>
+  </data>
+  <data name="INSTALL_OlderVersion.Text">
+    <value>Установка прервана - версия устанавливаемого модуля более старая, чем версия модуля, уже установленного в системе</value>
+  </data>
+  <data name="INSTALL_Package.Text">
+    <value>Зависимый пакет не установлен</value>
+  </data>
+  <data name="INSTALL_Permissions.Text">
+    <value>Установка прервана - устанавливаемый модуль требует, больше прав, чем вам  в настоящий момент доступно.</value>
+  </data>
+  <data name="INSTALL_Start.Text">
+    <value>Установка начата.</value>
+  </data>
+  <data name="INSTALL_Success.Text">
+    <value>Установка прошла успешно.</value>
+  </data>
+  <data name="INSTALL_Version.Text">
+    <value>Более свежая версия этого пакета уже установлена.</value>
+  </data>
+  <data name="InsufficientFolderPermission.Text">
+    <value>У Вас нет достаточных прав для записи в папку {0}. Свяжитесь с Вашим хостинг-провайдером для того, чтобы сделать необходимые изменения в настройках безопасности сервера.</value>
+  </data>
+  <data name="InvalidAnswer.Text">
+    <value>Ответ неверен. Укажите верный ответ на вопрос.</value>
+  </data>
+  <data name="InvalidCaptcha.Text">
+    <value>Неверный код безопасности</value>
+  </data>
+  <data name="InvalidDisplayName.Text">
+    <value>Отображаемое имя некорректно.</value>
+  </data>
+  <data name="InvalidEmail.Text">
+    <value>Введенные адрес электронной почты не корректен.  Укажите корректный адрес электронной почты.</value>
+  </data>
+  <data name="InvalidFileName.Text">
+    <value>Неверное имя файла - имя файла не может содержать '</value>
+  </data>
+  <data name="InvalidPassword.Text">
+    <value>Введенный пароль не корректен. Корректный пароль должен состоять как минимум из [PasswordLength] символов и содержать один не алфавитно-цифровой символ ([NoneAlphabet]), и также не должен совпадать с именем пользователя.</value>
+  </data>
+  <data name="InvalidPasswordAnswer.Text">
+    <value>Нужно указать ответ на секретный вопрос</value>
+  </data>
+  <data name="InvalidPasswordQuestion.Text">
+    <value>Нужно указать секретный вопрос</value>
+  </data>
+  <data name="InvalidQuestion.Text">
+    <value>Введенный секретный вопрос не корректен. Укажите корректный секретный вопрос.</value>
+  </data>
+  <data name="InvalidUserName.Text">
+    <value>Введенное имя пользователя не корректно. Укажите корректное имя пользователя.</value>
+  </data>
+  <data name="jQuery.NotInstalled.Text">
+    <value>jQuery не установлен.</value>
+  </data>
+  <data name="jQuery.UI.UnknownVersion.Text">
+    <value>Невозможно определить версию jQuery UI.</value>
+  </data>
+  <data name="jQuery.UnknownVersion.Text">
+    <value>Невозможно определить версию jQuery.</value>
+  </data>
+  <data name="jQueryUI.NotInstalled.Text">
+    <value>jQuery UI не установлен.</value>
+  </data>
+  <data name="LANGUAGE_PortalsEnabled.Text">
+    <value>Язык для всех порталов - {0}</value>
+  </data>
+  <data name="LANGUAGE_Registered.Text">
+    <value>Языковой пакет успешно установлен - {0}</value>
+  </data>
+  <data name="LANGUAGE_UnRegistered.Text">
+    <value>Языковой пакет успешно удален - {0}</value>
+  </data>
+  <data name="LanguageNotSelected.Text">
+    <value>Вы не указали предпочитаемые региональные настройки. Таким образом, в качестве Ваших региональных настроек будут использованы региональные настройки сайта.</value>
+  </data>
+  <data name="Last.Text">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="LastPortal.Text">
+    <value>Вы не можете удалить единственный имеющийся портал!</value>
+  </data>
+  <data name="Left.Text">
+    <value>Влево</value>
+  </data>
+  <data name="LoadingSkinToken.Text">
+    <value>Загружаем скин-объект для токена {0}</value>
+  </data>
+  <data name="Localization_NotLocalized.Text">
+    <value>Не локализовано</value>
+  </data>
+  <data name="Localization_NotTranslated.Text">
+    <value>Не переведено</value>
+  </data>
+  <data name="Localization_OutOfDate.Text">
+    <value>Просрочено</value>
+  </data>
+  <data name="Localization_Translated.Text">
+    <value>Переведено</value>
+  </data>
+  <data name="LocalizeModule.Confirm">
+    <value>Уверены,, что хотите локализовать данный модуль?</value>
+  </data>
+  <data name="Location.Text">
+    <value>Информация о местоположении</value>
+  </data>
+  <data name="LOG.LangPack.Admin">
+    <value>администратор</value>
+  </data>
+  <data name="LOG.LangPack.ArchiveFiles">
+    <value>Создаем архив с пакетом ресурсов.</value>
+  </data>
+  <data name="LOG.LangPack.Control">
+    <value>элемент управления</value>
+  </data>
+  <data name="LOG.LangPack.CreateArchive">
+    <value>Добавляем файлы в пакет ресурсов: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.CreatingFile">
+    <value>Возникла ошибка при создании файла с пакетом ресурсов: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.ManifestFile">
+    <value>Возникла ошибка при создании файла манифеста: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.SavingFile">
+    <value>Возникла ошибка при сохранении файла в пакет ресурсов: {0}</value>
+  </data>
+  <data name="LOG.LangPack.Global">
+    <value>глобальный</value>
+  </data>
+  <data name="LOG.LangPack.Job.CreateLocale">
+    <value>Создание/обновление набора региональных параметров</value>
+  </data>
+  <data name="LOG.LangPack.Job.DeserializeManifest">
+    <value>Разбираем файл манифеста.</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadFiles">
+    <value>Распаковываем файлы языка</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadManifest">
+    <value>Загрузка файла манифеста.</value>
+  </data>
+  <data name="LOG.LangPack.Job.SaveFiles">
+    <value>Импортируем файлы языка</value>
+  </data>
+  <data name="LOG.LangPack.LoadFileName">
+    <value>Загружаем файл ресурсов: {0}</value>
+  </data>
+  <data name="LOG.LangPack.LoadFiles">
+    <value>Загрузка {0} файлов ресурсов.</value>
+  </data>
+  <data name="LOG.LangPack.LoadFromFolder">
+    <value>Загружаем файлы ресурсов из папки: {0}</value>
+  </data>
+  <data name="LOG.LangPack.Module">
+    <value>модуль</value>
+  </data>
+  <data name="LOG.LangPack.Provider">
+    <value>поставщик</value>
+  </data>
+  <data name="LOG.LangPack.SavedFile">
+    <value>Файл ресурсов {0} сохранен в пакете ресурсов.</value>
+  </data>
+  <data name="LOG.LangPack.SerializeManifest">
+    <value>Файл манифеста успешно создан.</value>
+  </data>
+  <data name="LOG.LangPackReader.CreateLocale">
+    <value>Создаем набор региональных параметров: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.LoadFiles">
+    <value>Распаковываем языковой файл: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.ModuleWarning">
+    <value>Файл ресурсов {0} не был сохранен, поскольку модуль {1} не установлен</value>
+  </data>
+  <data name="LOG.LangPackReader.UnzipFiles">
+    <value>Испортируем файл: {0}</value>
+  </data>
+  <data name="LOG.PALogger.EndJob">
+    <value>КонецЗадания</value>
+  </data>
+  <data name="LOG.PALogger.Failure">
+    <value>Сбой</value>
+  </data>
+  <data name="LOG.PALogger.Info">
+    <value>Сообщение</value>
+  </data>
+  <data name="LOG.PALogger.StartJob">
+    <value>СтартЗадания</value>
+  </data>
+  <data name="LOG.PALogger.Warning">
+    <value>Предупреждение</value>
+  </data>
+  <data name="LOG.PAWriter.CreateArchive">
+    <value>Добавляем файлы в пакет модуля: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateManifest">
+    <value>Создаем файл манифеста. {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateZipFile">
+    <value>Создаем пакет модуля: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.ERROR.SavingFile">
+    <value>Ошибка при сохранении файла в пакет модуля: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.SavedFile">
+    <value>Файл {0} сохранен в пакет модуля.</value>
+  </data>
+  <data name="Maximize.Text">
+    <value>Развернуть</value>
+  </data>
+  <data name="Maximized.Text">
+    <value>Развернуто</value>
+  </data>
+  <data name="MembersOnly.Text">
+    <value>Только для зарегистрированных пользователей</value>
+  </data>
+  <data name="Minimize.Text">
+    <value>Свернуть</value>
+  </data>
+  <data name="Minimized.Text">
+    <value>Свернуто</value>
+  </data>
+  <data name="Minute.Text">
+    <value>Минута</value>
+  </data>
+  <data name="MinuteAgo.Text">
+    <value>{0} минуту назад</value>
+  </data>
+  <data name="Minutes.Text">
+    <value>Минут</value>
+  </data>
+  <data name="MinutesAgo.Text">
+    <value>{0} минут назад</value>
+  </data>
+  <data name="MODULE_ControlKeyMissing.Text">
+    <value>Поле Key отсутствует</value>
+  </data>
+  <data name="MODULE_ControlTypeMissing.Text">
+    <value>Поле Type отсутствует</value>
+  </data>
+  <data name="MODULE_FriendlyNameMissing.Text">
+    <value>Поле FriendlyName отсутствует</value>
+  </data>
+  <data name="MODULE_InvalidVersion.Text">
+    <value>Версия {0} не корректна - не будет добавлена в список UpgradeVersions.</value>
+  </data>
+  <data name="MODULE_ReadSuccess.Text">
+    <value>Манифест модуля успешно прочитан</value>
+  </data>
+  <data name="MODULE_Registered.Text">
+    <value>Модуль успешно зарегистрирован - {0}</value>
+  </data>
+  <data name="MODULE_UnRegistered.Text">
+    <value>Модуль успешно удален - {0}</value>
+  </data>
+  <data name="ModuleAccess.Error">
+    <value>У Вас недостаточно прав для просмотра этого модуля.</value>
+  </data>
+  <data name="ModuleAdd.Error">
+    <value>Необработанное исключение при добавлении модуля на {0}</value>
+  </data>
+  <data name="ModuleEffective.Text">
+    <value>Доступные модули - {0}</value>
+  </data>
+  <data name="ModuleExpired.Text">
+    <value>Просроченные модули - {0}</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>Справка модуля</value>
+  </data>
+  <data name="ModuleLoad.Error">
+    <value>Необработанное исключение при загрузке модуля.</value>
+  </data>
+  <data name="ModuleLoadWarning.Error">
+    <value>Предупреждение при загрузке модуля</value>
+  </data>
+  <data name="ModuleLoadWarning.Text">
+    <value>Один или несколько модулей на этой странице не были загружены. Это может быть случайным временным явлением.  Пожалуйста, обновите страницу (нажмите F5 в большинстве браузеров). Если эта проблема не исчезнет, то сообщите об этом &lt;a href="mailto:{0}"&gt;Администратору сайта&lt;/a&gt;.</value>
+  </data>
+  <data name="ModuleNotIntended.Text">
+    <value>Этот модуль предназначен для использования только на странице профиля пользователя.</value>
+  </data>
+  <data name="ModuleUnavailable.Text">
+    <value>Ошибка: модуль {0} в настоящее время недоступен.</value>
+  </data>
+  <data name="ModuleVisibleAdministrator.Text">
+    <value>Видно только администраторам.</value>
+  </data>
+  <data name="Month.Text">
+    <value>Месяц</value>
+  </data>
+  <data name="MonthAgo.Text">
+    <value>{0} месяц назад</value>
+  </data>
+  <data name="Months.Text">
+    <value>Месяца</value>
+  </data>
+  <data name="MonthsAgo.Text">
+    <value>{0} месяца назад</value>
+  </data>
+  <data name="MyFolderName.Text">
+    <value>Моя папка</value>
+  </data>
+  <data name="New.Text">
+    <value>Новый</value>
+  </data>
+  <data name="Next.Text">
+    <value>след.</value>
+  </data>
+  <data name="No.Text">
+    <value>Нет</value>
+  </data>
+  <data name="None.Text">
+    <value>Нет</value>
+  </data>
+  <data name="None_Specified.Text">
+    <value>Не указано</value>
+  </data>
+  <data name="Not_Specified.Text">
+    <value>Не указано</value>
+  </data>
+  <data name="OAuthConfigBase_APIKey.Help">
+    <value>Введите значения APP ID/API Key/Consumer Key, которые были указаны при конфигурировании провайдера аутентификации.</value>
+  </data>
+  <data name="OAuthConfigBase_APIKey.Text">
+    <value>APP ID</value>
+  </data>
+  <data name="OAuthConfigBase_APISecret.Help">
+    <value>Введите значение APP Secret/Consumer Secret, которые были указаны при конфигурировании провайдера аутентификации.</value>
+  </data>
+  <data name="OAuthConfigBase_APISecret.Text">
+    <value>APP Secret</value>
+  </data>
+  <data name="OAuthConfigBase_Enabled.Help">
+    <value>Отметьте флажок чтобы включить данный вид аутентификации для этого сайта.</value>
+  </data>
+  <data name="OAuthConfigBase_Enabled.Text">
+    <value>Включено</value>
+  </data>
+  <data name="OAuthConfigBase_LoginURL.Help">
+    <value>Укажите адрес страницы для входа пользователей на сайт.</value>
+  </data>
+  <data name="OAuthConfigBase_LoginURL.Text">
+    <value>Страница входа:</value>
+  </data>
+  <data name="OAuthConfigBase_RegisterURL.Help">
+    <value>Укажите адрес страницы для регистрации на сайте.</value>
+  </data>
+  <data name="OAuthConfigBase_RegisterURL.Text">
+    <value>Страница регистрации:</value>
+  </data>
+  <data name="ObjectNotFound.Text">
+    <value>Встроенный объект не найден</value>
+  </data>
+  <data name="Ok.Text">
+    <value>Да</value>
+  </data>
+  <data name="OnLine.Text">
+    <value>Онлайн</value>
+  </data>
+  <data name="PACKAGE_NoLicense.Text">
+    <value>В данный пакет не включено лицензионное соглашение. Пожалуйста, свяжитесь с разработчиком по поводу всех деталей лицензирования.</value>
+  </data>
+  <data name="PACKAGE_NoReleaseNotes.Text">
+    <value>В этом пакете отсутствуют заметки о текущем выпуске</value>
+  </data>
+  <data name="PACKAGE_UnRecognizable.Text">
+    <value>Невозможно разобрать манифест пакета</value>
+  </data>
+  <data name="PackageLoad.Error">
+    <value>Ошибка при загрузке файла атрибутов уровня пакета: ({0})</value>
+  </data>
+  <data name="PackageLoad.Text">
+    <value>Загружен файл атрибутов уровня пакета</value>
+  </data>
+  <data name="Page.Text">
+    <value>Страница:</value>
+  </data>
+  <data name="PageDisabled.Header">
+    <value>Страница отключена</value>
+  </data>
+  <data name="PageDisabled.Text">
+    <value>Эта страница была отключена и видима только для пользователей с правами на ее редактирование.</value>
+  </data>
+  <data name="Pages.Text">
+    <value>Стр. {0} из {1}&lt;br /&gt;</value>
+  </data>
+  <data name="PaneNotFound.Error">
+    <value>Панель ContentPane не найдена в скине</value>
+  </data>
+  <data name="PaneObject.Text">
+    <value>Встроенный объект - это панель контента</value>
+  </data>
+  <data name="PaneToken.Text">
+    <value>Токен это панель контента</value>
+  </data>
+  <data name="Password.Text">
+    <value>Пароль:</value>
+  </data>
+  <data name="PasswordChanged.Text">
+    <value>Пароль был сброшен.</value>
+  </data>
+  <data name="PasswordInvalid.Text">
+    <value>Нужно указать корректный пароль. Свяжитесь с администратором сайта, если требования к паролям Вам неизвестны.</value>
+  </data>
+  <data name="PasswordMailError.Text">
+    <value>Пароль был сброшен, но при отправке оповещения по электронной почте возникла ошибка.</value>
+  </data>
+  <data name="PasswordMismatch.Text">
+    <value>Пароли не совпадают</value>
+  </data>
+  <data name="PasswordMissing.Text">
+    <value>Нужно ввести текущий пароль для того, чтобы сменить его на новый.</value>
+  </data>
+  <data name="PasswordNotDifferent.Text">
+    <value>Новый пароль такой же, как и прежний. Введите другой пароль.</value>
+  </data>
+  <data name="PasswordResetFailed.Text">
+    <value>Произошла ошибка при установке нового пароля. Пароль не был изменен.</value>
+  </data>
+  <data name="PermissionTypeDeny.Text">
+    <value>Доступ запрещен</value>
+  </data>
+  <data name="PermissionTypeGrant.Text">
+    <value>Доступ разрешен</value>
+  </data>
+  <data name="PermissionTypeNull.Text">
+    <value>Не указано</value>
+  </data>
+  <data name="PortalRoot.Text">
+    <value>&lt; Корневой каталог &gt;</value>
+  </data>
+  <data name="PortalTemplate.Error">
+    <value>Ошибка при чтении шаблона веб-сайта</value>
+  </data>
+  <data name="Previous.Text">
+    <value>пред.</value>
+  </data>
+  <data name="PrivateConfirmationMessage.Text">
+    <value>&lt;strong&gt;Сообщение с вашими данными было отправлено администратору портала для проверки. Как только ваша регистрация будет одобрена, вам будет послано сообщение на адрес эл. почты: {0}.&lt;/strong&gt;</value>
+  </data>
+  <data name="PrivateMembership.Text">
+    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Доступ на данный портал ограничен. По получении Вашей регистрационной информации, администратор портала будет извещен, и Ваша заявка будет рассмотрена. При положительном решении, Вы будете извещены о возможности доступа на портал.</value>
+  </data>
+  <data name="ProcessObject.Text">
+    <value>Обработка встроенного объекта</value>
+  </data>
+  <data name="ProcessToken.Text">
+    <value>Обрабатываем токен</value>
+  </data>
+  <data name="ProfileUrlCleaned.Text">
+    <value>Введенный URL содержал недопустимые символы, которые были удалены. Нажмите Сохранить снова, чтобы принять измененный URL.</value>
+  </data>
+  <data name="ProfileUrlNotUnique.Text">
+    <value>Запрошенный URL уже занят. Если Вы хотите принять предложенные альтернативный вариант, нажмите Сохранить.</value>
+  </data>
+  <data name="Public.Text">
+    <value>Открытая</value>
+  </data>
+  <data name="PublicMembership.Text">
+    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Членство на данном портале является открытым. Как только указанная Вами информация будет принята, вы незамедлительно получите доступ на портал.</value>
+  </data>
+  <data name="PURGE.Log">
+    <value>Журнал сайта успешно очищен</value>
+  </data>
+  <data name="PURGEDSCHEDULE.Log">
+    <value>История планировщика успешно очищена</value>
+  </data>
+  <data name="PURGEUSERS.Log">
+    <value>Информация о пользователях онлайн успешно очищена </value>
+  </data>
+  <data name="ReadError.Text">
+    <value>Невозможно считать данные полностью: {0}/{1}</value>
+  </data>
+  <data name="Recordsperpage.Help">
+    <value>Укажите максимальное количество записей для отображения на одной странице.</value>
+  </data>
+  <data name="Recordsperpage.Text">
+    <value>Записей на страницу</value>
+  </data>
+  <data name="RedError.Text">
+    <value>Ошибка</value>
+  </data>
+  <data name="RegError.Text">
+    <value>Произошла неожиданная ошибка в процессе регистрации. Если ошибка повторится, свяжитесь с администратором для решения этой проблемы.</value>
+  </data>
+  <data name="Register.Text">
+    <value>Регистрация пользователя</value>
+  </data>
+  <data name="REGISTER_Controls.Text">
+    <value>Регистрируем элементы управления</value>
+  </data>
+  <data name="REGISTER_Definition.Text">
+    <value>Регистрируем определения</value>
+  </data>
+  <data name="REGISTER_End.Text">
+    <value>Регистрация завершена</value>
+  </data>
+  <data name="REGISTER_Module.Text">
+    <value>Регистрирует модуль</value>
+  </data>
+  <data name="RemoveItem.Text">
+    <value>Уверены, что хотите удалить этот элемент?</value>
+  </data>
+  <data name="RemoveItems.Confirm">
+    <value>Уверены, что хотите удалить эти элементы?</value>
+  </data>
+  <data name="Required.Text">
+    <value>Все поля, помеченные красной звездочкой, являются обязательными к заполнению.</value>
+  </data>
+  <data name="RequiredFields.Text">
+    <value>Обозначены обязательные поля</value>
+  </data>
+  <data name="ResourceNotFound.Text">
+    <value>Ресурс не найден</value>
+  </data>
+  <data name="RestrictedFileType.Text">
+    <value>Тип файла {0} НЕ разрешен. Разрешены типы файлов: {1}. Свяжитесь со своим хостинг-провайдером, если Вам нужно загружать файлы этого типа.</value>
+  </data>
+  <data name="Right.Text">
+    <value>Вправо</value>
+  </data>
+  <data name="RoleGroupFilter.Text">
+    <value>Фильтровать по группе:</value>
+  </data>
+  <data name="RootFolder.Name">
+    <value>Корень портала</value>
+  </data>
+  <data name="Save.Text">
+    <value>Сохранить</value>
+  </data>
+  <data name="SaveFileError.Text">
+    <value>Произошла ошибка при попытке сохранения файла {0}. Свяжитесь со своим хостинг-провайдером для того, чтобы удостовериться в правильных настройках безопасности файловой системы.</value>
+  </data>
+  <data name="SEARCH_NoLink.Text">
+    <value>[нет ссылки]</value>
+  </data>
+  <data name="Second.Text">
+    <value>Секунда</value>
+  </data>
+  <data name="Seconds.Text">
+    <value>Секунд</value>
+  </data>
+  <data name="SecondsAgo.Text">
+    <value> {0} секунд назад</value>
+  </data>
+  <data name="SECURITY_Installer.Text">
+    <value>У Вас недостаточно прав для установки этого компонента</value>
+  </data>
+  <data name="SECURITY_NotRegistered.Text">
+    <value>Этот тип пакета не зарегистрирован</value>
+  </data>
+  <data name="Select.Text">
+    <value>Выбрать</value>
+  </data>
+  <data name="SelectedRole.Text">
+    <value>Выбранная роль</value>
+  </data>
+  <data name="SendMail.Error">
+    <value>Регистрация прошла успешно, аккаунт успешно создан.
+Произошла ошибка при отсылке письма с подтверждением - {0}.</value>
+  </data>
+  <data name="SKIN_BeginProcessing.Text">
+    <value>Начало обработки файлов скина</value>
+  </data>
+  <data name="SKIN_EndProcessing.Text">
+    <value>Конец обработки файлов скина</value>
+  </data>
+  <data name="SKIN_Installed.Text">
+    <value>Этот скин уже установлен под другим именем</value>
+  </data>
+  <data name="SKIN_Registered.Text">
+    <value>Скин успешно установлен - {0}</value>
+  </data>
+  <data name="SKIN_UnRegistered.Text">
+    <value>Скин удален успешно - {0}</value>
+  </data>
+  <data name="SkinFileLoad.Error">
+    <value>Ошибка при загрузке файла атрибутов</value>
+  </data>
+  <data name="SkinFileLoad.Text">
+    <value>Загружаем файл атрибутов</value>
+  </data>
+  <data name="SkinObject.Text">
+    <value>Встроенный объект является скин-объектом</value>
+  </data>
+  <data name="SkinObjects.Text">
+    <value>[Скин-объекты]</value>
+  </data>
+  <data name="SkinObjectsDescription.Text">
+    <value>Скин-объекты это пользовательские элементы управления, которые могут быть использованы для обеспечения дополнительных функций скинов.</value>
+  </data>
+  <data name="Skins.Text">
+    <value>Скины</value>
+  </data>
+  <data name="SkinToken.Text">
+    <value>Токен это скин-объект</value>
+  </data>
+  <data name="SMTPConfigurationProblem.Text">
+    <value>Не удалось отослать почту из-за неверной конфигурации SMTP-сервера.</value>
+  </data>
+  <data name="SQL_Begin.Text">
+    <value>Начало исполнения Sql</value>
+  </data>
+  <data name="SQL_BeginFile.Text">
+    <value>Начало исполнения Sql: {0} файл</value>
+  </data>
+  <data name="SQL_BeginUnInstall.Text">
+    <value>Начало деинсталляции Sql</value>
+  </data>
+  <data name="SQL_Committed.Text">
+    <value>Изменения в скрипте SQL сохранены</value>
+  </data>
+  <data name="SQL_End.Text">
+    <value>Исполнение Sql закончено</value>
+  </data>
+  <data name="SQL_EndFile.Text">
+    <value>Конец деинсталляции Sql: {0} файл</value>
+  </data>
+  <data name="SQL_EndUnInstall.Text">
+    <value>Конец деинсталляции Sql</value>
+  </data>
+  <data name="SQL_Exceptions.Text">
+    <value>Исполнение SQL привело к следующим исключениям: {0}{1}</value>
+  </data>
+  <data name="SQL_Executing.Text">
+    <value>Исполняем</value>
+  </data>
+  <data name="SQL_RolledBack.Text">
+    <value>Откат изменений в скрипте SQL</value>
+  </data>
+  <data name="SQL_UnknownFile.Text">
+    <value>Неизвестная кодировка файла {0}, операция прервана</value>
+  </data>
+  <data name="StartProcessor.Text">
+    <value>Инициализируем обработчик для файлов скинов/контейнеров</value>
+  </data>
+  <data name="StateCompleted.Action">
+    <value>Состоние завершено</value>
+  </data>
+  <data name="StateCompleted.Comment">
+    <value>Состояние '[STATE]' утверждено</value>
+  </data>
+  <data name="StateDiscarded.Action">
+    <value>Состояние снято</value>
+  </data>
+  <data name="StateDiscarded.Comment">
+    <value>Состояние '[STATE]' было снято</value>
+  </data>
+  <data name="StateInitiated.Action">
+    <value>Состояние инициировано</value>
+  </data>
+  <data name="StateInitiated.Comment">
+    <value>Рабочий процесс в состоянии '[STATE]' </value>
+  </data>
+  <data name="Substituting.Detail">
+    <value>{0}&lt;br&gt;С: {1}</value>
+  </data>
+  <data name="Substituting.Text">
+    <value>Подстановка</value>
+  </data>
+  <data name="Superuser.Text">
+    <value>Суперпользователь</value>
+  </data>
+  <data name="System_Default.Text">
+    <value>Системный по-умолчанию</value>
+  </data>
+  <data name="TabAccess.Error">
+    <value>У Вас нет прав на просмотр этой страницы сайта.</value>
+  </data>
+  <data name="TESTCOMPLETE.Log">
+    <value>Тестирование выполнено. Ожидание составило {0} миллисекунд.</value>
+  </data>
+  <data name="Today.Text">
+    <value>Сегодня</value>
+  </data>
+  <data name="TokenFormat.Text">
+    <value>Атрибут форматирования токена</value>
+  </data>
+  <data name="TokenFound.Text">
+    <value>Токен найден в файле атрибутов</value>
+  </data>
+  <data name="TokenNotFound.Text">
+    <value>Токен не найден</value>
+  </data>
+  <data name="TokenNotFoundInFile.Text">
+    <value>Токен НЕ найден в файле атрибутов</value>
+  </data>
+  <data name="TokenReplaceUnknownObject.Text">
+    <value>Ошибка при доступе к [{0}:{1}], {0} - неизвестный источник данных.</value>
+  </data>
+  <data name="TokenReplaceUnknownProperty.Text">
+    <value>Неизвестное свойство</value>
+  </data>
+  <data name="TranslateModule.Confirm">
+    <value>Уверены, что хотите отметить данный модуль как переведенный?</value>
+  </data>
+  <data name="True.Text">
+    <value>Да</value>
+  </data>
+  <data name="UnauthenticatedUsers.Text">
+    <value>Пользователи, не прошедшие проверку</value>
+  </data>
+  <data name="Unauthorized.Text">
+    <value>Не авторизован</value>
+  </data>
+  <data name="UNINSTALL_Failure.Text">
+    <value>Сбой при удалении компонента</value>
+  </data>
+  <data name="UNINSTALL_Start.Text">
+    <value>Начинаем удаление пакета</value>
+  </data>
+  <data name="UNINSTALL_StartComp.Text">
+    <value>Начинаем удаление компонента</value>
+  </data>
+  <data name="UNINSTALL_Success.Text">
+    <value>Удаление пакета прошло успешно</value>
+  </data>
+  <data name="UNINSTALL_SuccessComp.Text">
+    <value>Удаление компонента прошло успешно</value>
+  </data>
+  <data name="UNINSTALL_Warnings.Text">
+    <value>Удалено с предупреждениями</value>
+  </data>
+  <data name="UNINSTALL_WarningsComp.Text">
+    <value>Компонент удален с предупреждениями</value>
+  </data>
+  <data name="Unknown.Text">
+    <value>Неизвестно</value>
+  </data>
+  <data name="UnTranslateModule.Confirm">
+    <value>Уверены, что хотите отметить данный модуль как не переведенный?</value>
+  </data>
+  <data name="UnverifiedUser.Text">
+    <value>Вы используете неподтвержденную учетную запись. Для подтверждения регистрации, перейдите по ссылке в письме, которое было выслано Вам в процессе регистрации.</value>
+  </data>
+  <data name="Upload.Text">
+    <value>Подгрузка</value>
+  </data>
+  <data name="URL.Text">
+    <value>URL:</value>
+  </data>
+  <data name="URLPROVIDER_NameMissing.Text">
+    <value>Отсутствует имя поставщика URL </value>
+  </data>
+  <data name="URLPROVIDER_ReadSuccess.Text">
+    <value>Манифест поставщика URL успешно прочитан</value>
+  </data>
+  <data name="URLPROVIDER_Registered.Text">
+    <value>Поставщик URL зарегистрирован</value>
+  </data>
+  <data name="URLPROVIDER_TypeMissing.Text">
+    <value>Отсутствует тип поставщика URL</value>
+  </data>
+  <data name="URLPROVIDER_UnRegistered.Text">
+    <value>Регистрация поставщика URL отменена</value>
+  </data>
+  <data name="User.Text">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="UserDeleteError.Text">
+    <value>Ошибка при удалении пользователя</value>
+  </data>
+  <data name="UserEmailExists.Text">
+    <value>Пользователь с указанным адресом эл. почты уже существует. Если Вы уже были зарегистрированы, но забыли свое имя пользователя и/или пароль, обратитесь к администратору сайта. Если Вы регистрируетесь в первый раз, укажите другой адрес эл. почты.</value>
+  </data>
+  <data name="UserFolderTitle.Text">
+    <value>Мои файлы</value>
+  </data>
+  <data name="Username.Text">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="UserNameExists.Text">
+    <value>Пользователь с указанным именем уже существует! Пожалуйста, повторите регистрацию, указав другое имя пользователя.</value>
+  </data>
+  <data name="UserRejected.Text">
+    <value>Регистрация пользователя была отвергнута. Свяжитесь с администратором для получения подробной информации.</value>
+  </data>
+  <data name="VerificationSuccess.Text">
+    <value>Ваша учетная запись успешно проверена</value>
+  </data>
+  <data name="VerifiedMembership.Text">
+    <value>&lt;strong&gt;*Примечание:&lt;/strong&gt; Членство на этом 
 портале выдается после проверки. 
-Как только ваши данные будут получены, вам будет послано электронное письмо с вашим уникальным Кодом Подтверждения, который необходимо ввести при первом входе на портал.</value></data>
-  <data name="Visibility.Text"><value>Видимость:</value></data>
-  <data name="Week.Text"><value>Неделя</value></data>
-  <data name="WeekAgo.Text"><value>{0} неделю назад</value></data>
-  <data name="Weeks.Text"><value>Недель</value></data>
-  <data name="WeeksAgo.Text"><value>{0} недель назад</value></data>
-  <data name="Wizard.Success.FailureDetail"><value>&lt;p&gt;К сожалению произошла ошибка в этом Мастере. Пожалуйста,  внимательно ознакомьтесь с нижеприведенным сообщением, и свяжитесь с вашим Провайдером.&lt;/p&gt;</value></data>
-  <data name="Wizard.Success.FailureTitle"><value>Произошел сбой в работе Мастера:</value></data>
-  <data name="Wizard.Success.SuccessDetail"><value>&lt;p&gt;Поздравляем, Мастер успешно завершил свою работу.&lt;/p&gt;</value></data>
-  <data name="Wizard.Success.SuccessTitle"><value>Поздравляем:</value></data>
-  <data name="WordCleanButton.Text"><value>Очистка Word HTML</value></data>
-  <data name="WorkflowApproved.Action"><value>Рабочий процесс завершен</value></data>
-  <data name="WorkflowApproved.Comment"><value>Рабочий процесс '[WORKFLOW]' завершен. Контент проверен</value></data>
-  <data name="WorkflowDiscarded.Action"><value>Рабочий процесс отменен</value></data>
-  <data name="WorkflowDiscarded.Comment"><value>Рабочий процесс '[WORKFLOW]' был отменен, когда находился в состоянии '[STATE]'</value></data>
-  <data name="WorkflowError.Action"><value>Ошибка в рабочем процессе</value></data>
-  <data name="WorkflowError.Comment"><value>Рабочий процесс '[WORKFLOW]' вызвал ошибку</value></data>
-  <data name="WorkflowStarted.Action"><value>Рабочий процесс запущен</value></data>
-  <data name="WorkflowStarted.Comment"><value>Рабочий процесс '[WORKFLOW]' запущен</value></data>
-  <data name="WriteFile.Text"><value>Пишем в файл</value></data>
-  <data name="WRITER_AddFileToManifest.Text"><value>Добавлен файл в манифест - {0}</value></data>
-  <data name="WRITER_CreateArchive.Text"><value>Создаем zip-архив - {0}</value></data>
-  <data name="WRITER_CreatedManifest.Text"><value>Создан манифест</value></data>
-  <data name="WRITER_CreatedPackage.Text"><value>Создан пакет</value></data>
-  <data name="WRITER_CreatingManifest.Text"><value>Создаем манифест</value></data>
-  <data name="WRITER_CreatingPackage.Text"><value>Создаем пакет</value></data>
-  <data name="WRITER_SavedFile.Text"><value>Файл сохранен в архиве - {0}</value></data>
-  <data name="WRITER_SaveFileError.Text"><value>Ошибка при сохранении файла в архив - {0}</value></data>
-  <data name="XML_Loaded.Text"><value>XML загружен.</value></data>
-  <data name="XMLMERGE_Upgrade.Text"><value>Обновлено {1} версия {2} - Дата: {3}</value></data>
-  <data name="Year.Text"><value>Год</value></data>
-  <data name="Years.Text"><value>Лет</value></data>
-  <data name="YellowWarning.Text"><value>Предупреждение</value></data>
-  <data name="Yes.Text"><value>Да</value></data>
-  </root>
+Как только ваши данные будут получены, вам будет послано электронное письмо с вашим уникальным Кодом Подтверждения, который необходимо ввести при первом входе на портал.</value>
+  </data>
+  <data name="Visibility.Text">
+    <value>Видимость:</value>
+  </data>
+  <data name="Week.Text">
+    <value>Неделя</value>
+  </data>
+  <data name="WeekAgo.Text">
+    <value>{0} неделю назад</value>
+  </data>
+  <data name="Weeks.Text">
+    <value>Недель</value>
+  </data>
+  <data name="WeeksAgo.Text">
+    <value>{0} недель назад</value>
+  </data>
+  <data name="Wizard.Success.FailureDetail">
+    <value>&lt;p&gt;К сожалению произошла ошибка в этом Мастере. Пожалуйста,  внимательно ознакомьтесь с нижеприведенным сообщением, и свяжитесь с вашим Провайдером.&lt;/p&gt;</value>
+  </data>
+  <data name="Wizard.Success.FailureTitle">
+    <value>Произошел сбой в работе Мастера:</value>
+  </data>
+  <data name="Wizard.Success.SuccessDetail">
+    <value>&lt;p&gt;Поздравляем, работа Мастера успешно завершена.&lt;/p&gt;</value>
+  </data>
+  <data name="Wizard.Success.SuccessTitle">
+    <value>Поздравляем:</value>
+  </data>
+  <data name="WordCleanButton.Text">
+    <value>Очистка Word HTML</value>
+  </data>
+  <data name="WorkflowApproved.Action">
+    <value>Рабочий процесс завершен</value>
+  </data>
+  <data name="WorkflowApproved.Comment">
+    <value>Рабочий процесс '[WORKFLOW]' завершен. Контент проверен</value>
+  </data>
+  <data name="WorkflowDiscarded.Action">
+    <value>Рабочий процесс отменен</value>
+  </data>
+  <data name="WorkflowDiscarded.Comment">
+    <value>Рабочий процесс '[WORKFLOW]' был отменен, когда находился в состоянии '[STATE]'</value>
+  </data>
+  <data name="WorkflowError.Action">
+    <value>Ошибка в рабочем процессе</value>
+  </data>
+  <data name="WorkflowError.Comment">
+    <value>Рабочий процесс '[WORKFLOW]' вызвал ошибку</value>
+  </data>
+  <data name="WorkflowStarted.Action">
+    <value>Рабочий процесс запущен</value>
+  </data>
+  <data name="WorkflowStarted.Comment">
+    <value>Рабочий процесс '[WORKFLOW]' запущен</value>
+  </data>
+  <data name="WriteFile.Text">
+    <value>Пишем в файл</value>
+  </data>
+  <data name="WRITER_AddFileToManifest.Text">
+    <value>Добавлен файл в манифест - {0}</value>
+  </data>
+  <data name="WRITER_CreateArchive.Text">
+    <value>Создаем zip-архив - {0}</value>
+  </data>
+  <data name="WRITER_CreatedManifest.Text">
+    <value>Создан манифест</value>
+  </data>
+  <data name="WRITER_CreatedPackage.Text">
+    <value>Создан пакет</value>
+  </data>
+  <data name="WRITER_CreatingManifest.Text">
+    <value>Создаем манифест</value>
+  </data>
+  <data name="WRITER_CreatingPackage.Text">
+    <value>Создаем пакет</value>
+  </data>
+  <data name="WRITER_SavedFile.Text">
+    <value>Файл сохранен в архиве - {0}</value>
+  </data>
+  <data name="WRITER_SaveFileError.Text">
+    <value>Ошибка при сохранении файла в архив - {0}</value>
+  </data>
+  <data name="XML_Loaded.Text">
+    <value>XML загружен.</value>
+  </data>
+  <data name="XMLMERGE_Upgrade.Text">
+    <value>Обновлено {1} версия {2} - Дата: {3}</value>
+  </data>
+  <data name="Year.Text">
+    <value>Год</value>
+  </data>
+  <data name="Years.Text">
+    <value>Лет</value>
+  </data>
+  <data name="YellowWarning.Text">
+    <value>Предупреждение</value>
+  </data>
+  <data name="Yes.Text">
+    <value>Да</value>
+  </data>
+  <data name="DefaultWorkflowState1.OnDiscardMessageBody">
+    <value />
+  </data>
+  <data name="DefaultWorkflowState1.OnDiscardMessageSubject">
+    <value />
+  </data>
+  <data name="DefaultWorkflowState3.OnCompleteMessageBody">
+    <value />
+  </data>
+  <data name="DefaultWorkflowState3.OnCompleteMessageSubject">
+    <value />
+  </data>
+  <data name="DefaultWorkflowState3.OnDiscardMessageBody">
+    <value />
+  </data>
+  <data name="DefaultWorkflowState3.OnDiscardMessageSubject">
+    <value />
+  </data>
+  <data name="File.Text">
+    <value />
+  </data>
+</root>

@@ -3,6 +3,9 @@
 	<data name="NotSelected.Text" xml:space="preserve">
     <value>-- не выбрано --</value>
   </data>
+	<data name="System.Text" xml:space="preserve">
+    <value>Система</value>
+  </data>
 	<data name="AddEmployee.Action" xml:space="preserve">
     <value>Добавить сотрудника</value>
   </data>
@@ -15,4 +18,7 @@
 	<data name="Details.Action" xml:space="preserve">
     <value>Подробнее о сотруднике</value>
   </data>
+	<data name="VisitProfile.Text" xml:space="preserve">
+    	<value>Профайл</value>
+  	</data>
 </root>

@@ -39,40 +39,73 @@
   <resheader name="Writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Archive.Text">
-    <value>Архив</value>
-  </data>
   <data name="cmdReturn.Text">
-    <value>Вернуться в модуль</value>
+    <value>Назад</value>
   </data>
   <data name="plArchiveMessages.Help">
-    <value>Таблица, показывающая сообщения, которые были заархивированы</value>
-  </data>
-  <data name="plArchiveMessages.Text">
-    <value>Архивные отзывы</value>
+    <value>Таблица, в которой отображаются помещенные в архив сообщения</value>
   </data>
   <data name="plPendingMessages.Help">
-    <value>Таблица, показывающая сообщения, которые находятся на рассмотрении</value>
-  </data>
-  <data name="plPendingMessages.Text">
-    <value>Рассматриваемые отзывы</value>
+    <value>Таблица, в которой отображаются ожидающие проверки сообщения</value>
   </data>
   <data name="plPrivateMessages.Help">
-    <value>Таблица, показывающая сообщения, которые помечены как частные.</value>
-  </data>
-  <data name="plPrivateMessages.Text">
-    <value>Частные отзывы</value>
+    <value>Таблица, в которой отображаются сообщения, помеченные как личные</value>
   </data>
   <data name="plPublicMessages.Help">
-    <value>Таблица, показывающая сообщения, которые были опубликованы</value>
+    <value>Таблица, в которой отображаются опубликованные сообщения</value>
   </data>
-  <data name="plPublicMessages.Text">
-    <value>Опубликованные отзывы</value>
+  <data name="Cancel.AlternateText">
+    <value>Отмена</value>
   </data>
-  <data name="Publish.Text">
-    <value>Опубликовать</value>
+  <data name="Cancel.Tooltip">
+    <value>Отменить редактирование данного сообщения</value>
   </data>
-  <data name="SetPrivate.Text">
-    <value>Частное</value>
+  <data name="cbShowOnlyModeratedCategories.Text">
+    <value>Показывать сообщения только из немодерируемых категорий</value>
+  </data>
+  <data name="ControlTitle_feedback moderation.Text">
+    <value>Модерирование / управление сообщениями</value>
+  </data>
+  <data name="Delete.AlternateText">
+    <value>Удалить</value>
+  </data>
+  <data name="Delete.Tooltip">
+    <value>Удалить это сообщение</value>
+  </data>
+  <data name="DeleteItem.Text">
+    <value>Уверены, что хотите удалить данное сообщение?</value>
+  </data>
+  <data name="Edit.AlternateText">
+    <value>Редактировать</value>
+  </data>
+  <data name="Edit.Tooltip">
+    <value>Редактировать тему или сообщение</value>
+  </data>
+  <data name="Print.AlternateText">
+    <value>Печать</value>
+  </data>
+  <data name="Print.Tooltip">
+    <value>Распечатать данное сообщение</value>
+  </data>
+  <data name="scnArchivedFeedback.Text">
+    <value>Архив</value>
+  </data>
+  <data name="scnPendingFeedback.Text">
+    <value>Ожидающие проверки</value>
+  </data>
+  <data name="scnPrivateFeedback.Text">
+    <value>Личные</value>
+  </data>
+  <data name="scnPublishedFeedback.Text">
+    <value>Опубликованные</value>
+  </data>
+  <data name="scnSpamFeedback.Text">
+    <value>Спам</value>
+  </data>
+  <data name="Update.AlternateText">
+    <value>Сохранить</value>
+  </data>
+  <data name="Update.Tooltip">
+    <value>Сохранить изменения в данном сообщении</value>
   </data>
 </root>

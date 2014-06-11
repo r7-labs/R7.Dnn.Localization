@@ -39,10 +39,97 @@
   <resheader name="Writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plCategory.Text">
-    <value>Категория</value>
+  <data name="ControlTitle_settings.Text">
+    <value>Comments View Settings</value>
   </data>
-  <data name="plCategory.Help">
-    <value>Категория</value>
+  <data name="Feedback_AltItemTemplate.Text">
+    <value />
+  </data>
+  <data name="Feedback_FooterTemplate.Text">
+    <value>&lt;/div&gt;</value>
+  </data>
+  <data name="Feedback_HeaderTemplate.Text">
+    <value>&lt;div&gt;</value>
+  </data>
+  <data name="Feedback_ItemTemplate.Text">
+    <value>&lt;div&gt;&lt;div style="clear: both; font-weight: bold"&gt;[Feedback:SenderName]&amp;nbsp;&amp;nbsp;&amp;nbsp;[Feedback:CategoryName]&amp;nbsp;&amp;nbsp;&amp;nbsp;[Feedback:PublishedOnDate]&lt;br /&gt;[Feedback:Subject]&lt;/div&gt;&lt;div style="margin-top: 10px"&gt;[Feedback:Message]&lt;/div&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="Feedback_SeparatorTemplate.Text">
+    <value>&lt;div style="padding-top: 6px; padding-bottom: 6px"&gt;&lt;hr style="width:100%; size: 1" /&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="lblAvailableTokens.Text">
+    <value>[Feedback:CategoryID], [Feedback:Category], [Feedback:CategoryName], [Feedback:Subject], [Feedback:Message], [Feedback:CreatedOnDate], [Feedback:PublishedOnDate], [Feedback:FeedbackID], [Feedback:SenderName], [Feedback:SenderStreet], [Feedback:SenderCity], [Feedback:SenderRegion], [Feedback:SenderCountry], [Feedback:SenderPostalCode], [Feedback:SenderEmail], [Feedback:SenderTelephone], [Feedback:SenderRemoteAddr], [Feedback:TotalRecords]</value>
+  </data>
+  <data name="plAltItemTemplate.Help">
+    <value>The alternating item template specifes what is displayed for each even numbered comment. If an alternating item template is not specified, the iItem template is used for both odd and even numbered comments.</value>
+  </data>
+  <data name="plAltItemTemplate.Text">
+    <value>Alternating Item Template</value>
+  </data>
+  <data name="plAvailableTokens.Help">
+    <value>A list of the available tokens which may be used in the Item and AlternatingItem templates above. In addition, may of the portal and environmental tokens available in the HTML module may also be used in any of the templates.</value>
+  </data>
+  <data name="plAvailableTokens.Text">
+    <value>Available Tokens</value>
+  </data>
+  <data name="plCategories.Help">
+    <value>Category or categories to be displayed. Note: Selecting no categories is the same as selecting all categories.</value>
+  </data>
+  <data name="plCategories.Text">
+    <value>Categories</value>
+  </data>
+  <data name="plDefaultPageSize.Help">
+    <value>If you have paging enabled, this is the default pagesize of the guestbook pages</value>
+  </data>
+  <data name="plDefaultPageSize.Text">
+    <value>Default Page Size</value>
+  </data>
+  <data name="plEnablePager.Help">
+    <value>Would you like to enable paging of the guestbook/comments?</value>
+  </data>
+  <data name="plEnablePager.Text">
+    <value>Allow Paging</value>
+  </data>
+  <data name="plFeedbackModules.Help">
+    <value>Select one or modules from this list of Feedback modules found in the portal to supply this instance of the feedback viewer/guestbook with published items.</value>
+  </data>
+  <data name="plFeedbackModules.Text">
+    <value>Feedback Modules</value>
+  </data>
+  <data name="plFooterTemplate.Help">
+    <value>The footer template specifies what is displayed at the bottom of the comments.</value>
+  </data>
+  <data name="plFooterTemplate.Text">
+    <value>Footer Template</value>
+  </data>
+  <data name="plHeaderTemplate.Help">
+    <value>The header template specifies what is displayed at the top of the comments.</value>
+  </data>
+  <data name="plHeaderTemplate.Text">
+    <value>Header Template</value>
+  </data>
+  <data name="plItemTemplate.Help">
+    <value>The item template specifies what is displayed for each odd numbered comment.</value>
+  </data>
+  <data name="plItemTemplate.Text">
+    <value>Item Template</value>
+  </data>
+  <data name="plScope.Help">
+    <value>Selects whether the source of the feedback items displayed is an aggregate of feedback from all Feedback modules of the portal or from selected modules only. Legacy behavior prior to this version was to aggregate feedback from ALL modules.</value>
+  </data>
+  <data name="plScope.Text">
+    <value>Scope</value>
+  </data>
+  <data name="plSeparatorTemplate.Help">
+    <value>The separator template specifies what displays between each comment.</value>
+  </data>
+  <data name="plSeparatorTemplate.Text">
+    <value>Separator Template</value>
+  </data>
+  <data name="Portal.Text">
+    <value>Portal (from all Feedback Modules)</value>
+  </data>
+  <data name="SelectedModules.Text">
+    <value>Selected Modules Only</value>
   </data>
 </root>
