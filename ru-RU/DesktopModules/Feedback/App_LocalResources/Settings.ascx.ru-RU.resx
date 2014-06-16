@@ -40,22 +40,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plSendTo.Text">
-    <value>Адресат</value>
+    <value>Кому</value>
   </data>
   <data name="plSendTo.Help">
-    <value>Укажите Email-адрес, на который будут отправляться сообщения</value>
+    <value>Укажите адрес электронной почты, на который будут отправляться сообщения</value>
   </data>
   <data name="plWidth.Text">
-    <value>Ширина</value>
+    <value>Ширина формы</value>
   </data>
   <data name="plWidth.Help">
-    <value>Укажите ширину текстовых полей в пикселях</value>
+    <value>Значение ширины может быть задано в пикселях или процентах. Добавите '%' на конце, чтобы обозначить проценты, или просто укажите целочисленное значение (без 'px') для задания ширины в пикселях.</value>
   </data>
   <data name="plRows.Text">
-    <value>Строки</value>
+    <value>Строк в сообщении</value>
   </data>
   <data name="plRows.Help">
-    <value>Укажите количество строк в поле для ввода текста сообщения</value>
+    <value>Укажите количество строк в поле для ввода текста сообщения.</value>
   </data>
   <data name="valWidth.ErrorMessage">
     <value>&lt;br /&gt;Ширину можно указать в процентах или в пикселах. Введенное значение неверно.</value>
@@ -110,16 +110,16 @@ Send Copy &lt;/strong&gt;&amp;ndash; Enabling this option allows a copy of the f
     <value>Модерируемый</value>
   </data>
   <data name="plOptout.Help">
-    <value>Если включено, у отправителя будет возможность, по его выбору, получать электронную почту. Если - отключено, то пользователь не будет иметь возможности выбора  и будет получать электронную почту.</value>
+    <value>Если включено, у отправителя будет возможность отказаться от получения копии сообщения на его адрес электронной почты. Если отключено, то у пользователя не будет возможности такого выбора и ему в любом случае будет оправляться копия сообщения на указанный адрес электронной почты.</value>
   </data>
   <data name="plOptout.Text">
-    <value>Отказ от рассылки</value>
+    <value>Отказ от отправки копии</value>
   </data>
   <data name="plSendCopy.Help">
-    <value>Хотели бы Вы отправлять копию этого пользователю</value>
+    <value>Укажите, хотели бы Вы отправлять копию этого сообщения пользователю</value>
   </data>
   <data name="plSendCopy.Text">
-    <value>Отправлять копию </value>
+    <value>Отправлять копию</value>
   </data>
   <data name="plSubject.Help">
     <value>Тема этого сообщения обратной связи</value>
@@ -155,7 +155,7 @@ Send Copy &lt;/strong&gt;&amp;ndash; Enabling this option allows a copy of the f
     <value>Отключено</value>
   </data>
   <data name="InLine.Text">
-    <value>В линию (существующая страница)</value>
+    <value>На той же странице</value>
   </data>
   <data name="Instance.Text">
     <value>Экземпляр (только для этого модуля обратной связи)</value>
@@ -251,7 +251,7 @@ Send Copy &lt;/strong&gt;&amp;ndash; Enabling this option allows a copy of the f
     <value>В архиве</value>
   </data>
   <data name="plCleanupDaysBefore.Help">
-    <value>Сообщения обратной связи, которые старше текущей даты минут "Дней до" будут удалены.</value>
+    <value>Сообщения обратной связи, которые старше текущей даты минут 'Дней до' будут удалены.</value>
   </data>
   <data name="plCleanupDaysBefore.Text">
     <value>Дней до</value>
@@ -290,253 +290,253 @@ Send Copy &lt;/strong&gt;&amp;ndash; Enabling this option allows a copy of the f
     <value>Указывает на то, является ли поле страны обязательным, необязательным или скрытым</value>
   </data>
   <data name="plCountryField.Text">
-    <value>Country Field</value>
+    <value>Страна</value>
   </data>
   <data name="plDuplicateSubmission.Help">
-    <value>When ticked, duplicate messages cannot be submitted by the same email address.</value>
+    <value>Если отмечено, нельзя будет отсылать одинаковые сообщения с одного и того же адреса электронной почты.</value>
   </data>
   <data name="plDuplicateSubmission.Text">
-    <value>Restrict Duplicate Submission</value>
+    <value>Ограничить отправку одинаковых сообщений</value>
   </data>
   <data name="plEmailConfirmField.Help">
     <value>Указывает на то, является ли поле подтверждения адреса электронной почты обязательным или скрытым</value>
   </data>
   <data name="plEmailConfirmField.Text">
-    <value>Confirm Email Field</value>
+    <value>Подтверждение эл. почты</value>
   </data>
   <data name="plEmailField.Help">
     <value>Указывает на то, является ли поле адреса электронной почты обязательным, необязательным или скрытым</value>
   </data>
   <data name="plEmailField.Text">
-    <value>Email Field</value>
+    <value>Эл. почта</value>
   </data>
   <data name="plEmailOnly.Help">
-    <value>When checked only an email will be sent, the feedback will not be stored in the database</value>
+    <value>Если отмечено, отправленное сообщение будет отправлено адресату, но не будет сохраняться в базе данных.</value>
   </data>
   <data name="plEmailOnly.Text">
-    <value>Email Only</value>
+    <value>Только отправить</value>
   </data>
   <data name="plEmailRegex.Help">
-    <value>Enter a .NET regular expression to validate email addresses. The email validation regex defined in User Settings/Host Settings is used as the default.</value>
+    <value>Введите регулярное выражение .NET для проверки адреса электронной почты. По умолчанию будет использовано выражение, определенное в настройках пользователя уровня хоста.</value>
   </data>
   <data name="plEmailRegex.Text">
-    <value>Email Validation</value>
+    <value>Проверка эл. почты</value>
   </data>
   <data name="plLabelDisplay.Help">
-    <value>Select how the label for each form field should be displayed. "Above Field" works best when placing the Feedback form in a narrow column.</value>
+    <value>Выберите вариант расположения метки относительно соответствующего ей поля. Вариант 'Выше поля' лучше всего использовать в том случае, если модуль обратной связи размещается в узкой колонке.</value>
   </data>
   <data name="plLabelDisplay.Text">
-    <value>Field Label Position</value>
+    <value>Положение метки</value>
   </data>
   <data name="plListRoles.Help">
-    <value>Select the roles which will be allowed to add/edit Feedback Lists</value>
+    <value>Выберите роли, которым будет позволено создавать / редактировать записи в списках тем и категорий</value>
   </data>
   <data name="plListRoles.Text">
-    <value>List Roles</value>
+    <value>Роли редакторов списков</value>
   </data>
   <data name="plMaxMessage.Help">
-    <value>Sets the maximum length of the message that can be entered.</value>
+    <value>Установите максимально допустимую длину сообщения в символах.</value>
   </data>
   <data name="plMaxMessage.Text">
-    <value>Max Message Length</value>
+    <value>Длина сообщения</value>
   </data>
   <data name="plMessageField.Help">
     <value>Указывает на то, является ли поле сообщения обязательным, необязательным или скрытым</value>
   </data>
   <data name="plMessageField.Text">
-    <value>Message Field</value>
+    <value>Сообщение</value>
   </data>
   <data name="plMinSubmissionInteval.Help">
-    <value>When a Repeat Submission Filter is enabled, sets the time (in minutes) the same user must wait before submitting additional feedback.</value>
+    <value>При включении фильтра повторной оправки, устанавливается время в минутах, в течение которого пользователь не сможет отправлять новые сообщения обратной связи.</value>
   </data>
   <data name="plMinSubmissionInteval.Text">
-    <value>Minimum Submission Interval (Minutes)</value>
+    <value>Мин. интервал между отправками (минут)</value>
   </data>
   <data name="plModerationAdminEmails.Help">
-    <value>If checked, administrators will receive moderation emails as specified in the permissions grid. Unchecking this will stop admins receiving moderation emails.</value>
+    <value>Если отмечено, администраторы будут получать сообщения о модерации по электронной почте в соответствии с заданными разрешениями. Сброс данного флага приведет к тому, что администраторы не будут получать сообщения о модерации по электронной почте.</value>
   </data>
   <data name="plModerationAdminEmails.Text">
-    <value>Send Emails to Admins</value>
+    <value>Оповещать администраторов</value>
   </data>
   <data name="plModerationCategory.Help">
-    <value>If you want to moderate only specific categories, select one or more categories here, otherwise all categories will be moderated.</value>
+    <value>Если требуется модерировать только отдельные категории, выберите их здесь. В противном случае, все категории будут считаться модерируемыми.</value>
   </data>
   <data name="plModerationCategory.Text">
-    <value>Moderation Categories</value>
+    <value>Модерируемые категории</value>
   </data>
   <data name="plModerationPageSize.Help">
-    <value>Sets the page size for the Moderation/Management view</value>
+    <value>Устанавливает размер страницы списков сообщений, представленных в интерфейсе модерации / управления сообщениями</value>
   </data>
   <data name="plModerationPageSize.Text">
-    <value>Page Size</value>
+    <value>Размер страницы</value>
   </data>
   <data name="plModerationRoles.Help">
-    <value>Select the roles which will be allowed to moderate feedback posts</value>
+    <value>Выберите роли, которым будет позволено модерирование сообщений обратной связи</value>
   </data>
   <data name="plModerationRoles.Text">
-    <value>Moderation Roles</value>
+    <value>Роли модераторов</value>
   </data>
   <data name="plNameField.Help">
     <value>Указывает на то, является ли поле имени обязательным, необязательным или скрытым</value>
   </data>
   <data name="plNameField.Text">
-    <value>Name Field</value>
+    <value>Имя</value>
   </data>
   <data name="plOrphanedData.Help">
-    <value>Earlier versions of the Feedback Module did not store feedback items by module instance thus aggregating all feedback items across an entire portal. When a module instance was deleted, its data remained visible on the Feedback Moderation/Management page and in the comments viewer/guestbook. It could not be deleted, leaving it "orphaned". You may delete such orphaned feedback data associated with deleted modules by clicking the button.</value>
+    <value>Ранние версии модуля обратной связи не хранили сообщения обратной связи с привязкой к экземплярам модулей, собирая сообщения со всего портала. При удалении экземпляра модуля, его данные оставались видимыми из других экземпляров модулей. Возможно, удалять эти сообщения не требуется - поэтому они отмечены как 'сообщения удаленных модулей'. Вы можете удалить такие сообщения, которые связаны с удаленными модулями, нажав эту кпопку.</value>
   </data>
   <data name="plOrphanedData.Text">
-    <value>Orphaned Feedback Data</value>
+    <value>Сообщения удаленных модулей</value>
   </data>
   <data name="plPostalCodeField.Help">
     <value>Указывает на то, является ли поле почтового индекса обязательным, необязательным или скрытым</value>
   </data>
   <data name="plPostalCodeField.Text">
-    <value>Postal Code Field</value>
+    <value>Почтовый индекс</value>
   </data>
   <data name="plPostalCodeRegex.Help">
-    <value>Enter a .NET regular expression to validate postal codes. Leave the expression blank to disable postal code validation.</value>
+    <value>Введите регулярное выражение .NET для проверки значений почтовых индексов. Оставьте поле пустым, чтобы отключить проверку почтовых индексов.</value>
   </data>
   <data name="plPostalCodeRegex.Text">
-    <value>Postal Code Validation</value>
+    <value>Проверка почтового индекса</value>
   </data>
   <data name="plPrintAction.Help">
-    <value>Selects whether the print command displays the results in-line (i.e. on the same page) or as a popup.</value>
+    <value>Выберите, как команда печати должна отображать результат (на той же странице или во всплывающем окне).</value>
   </data>
   <data name="plPrintAction.Text">
-    <value>Print Action</value>
+    <value>Вывод печати</value>
   </data>
   <data name="plPrintTemplate.Help">
-    <value>Designs an html template used from printing a single feedback item from the moderation/management control. You may use the same field value tokens as those available in the guest book settings. For example, the token [Feedback:Subject] will be replaced with the feedback Subject field value.</value>
+    <value>Составьте шаблон HTML для печати отдельного сообщения из интерфейса модератора. Можно использовать те же метки, что и для шаблонов списка сообщений. Например, метка [Feedback:Subject] будет заменена на значение темы сообщения.</value>
   </data>
   <data name="plPrintTemplate.Text">
-    <value>Print Template</value>
+    <value>Шаблон печати</value>
   </data>
   <data name="plRedirectTabOnSubmission.Help">
-    <value>Selects a page on the site to which the user is automatically redirected following submission of the feedback.</value>
+    <value>Выберите страницу сайта, на которую пользователь будет автоматически перенаправляться после успешной отправки сообщения.</value>
   </data>
   <data name="plRedirectTabOnSubmission.Text">
-    <value>Redirect To Page</value>
+    <value>Перенаправлять на страницу</value>
   </data>
   <data name="plRegionField.Help">
     <value>Указывает на то, является ли поле региона обязательным, необязательным или скрытым</value>
   </data>
   <data name="plRegionField.Text">
-    <value>Region or State Field</value>
+    <value>Регион</value>
   </data>
   <data name="plRepeatSubmissionFilter.Help">
-    <value>Sets the type of filtering used to limit repeat submissions by the same user. Note: Do not filter by DotNetNuke UserID if anonymous users will be allowed to submit feedback. Filtering by User IP Address may block legitimate uses behind proxy or firewall sharing same IP.</value>
+    <value>Устанавливает тип фильтрации, используемый для ограничения повторной отправки сообщений одним и тем же пользователем. Примечание: не используйте фильтрацию по  ид. пользователя DNN если гостям сайта позволено отправлять сообщения обратной связи. Фильтрация по адресу IP пользователя может блокировать других пользователей, использующих тот же самый адрес IP.</value>
   </data>
   <data name="plRepeatSubmissionFilter.Text">
-    <value>Repeat Submission Filter</value>
+    <value>Фильтр повторной отправки</value>
   </data>
   <data name="plScope.Help">
-    <value>Selects whether feedback moderators are able to view and manage feedback associated with this instance of the Feedback module only or across all instances of the Feedback module on this portal. Portal scope (which is the legacy behavior prior to this version) should be used with caution. </value>
+    <value>Укажите, смогут ли модераторы просматривать и управлять сообщениями только этого модуля, или же всех модулей портала. Область портала в целом (используется предыдущими версиями модуля обратной связи) нужно использовать с осторожностью.</value>
   </data>
   <data name="plScope.Text">
-    <value>Scope</value>
+    <value>Область модерации</value>
   </data>
   <data name="plSendFrom.Help">
-    <value>If you enter a value here, this is used as the default From email address instead of whatever the user enters on the form. This is useful when Spam filters are blocking emails.</value>
+    <value>Если в это поле введено значение, оно будет использовано в качестве адреса электронной почты отправителя вместо любого значения, которое пользователь укажет при заполнении формы. Это полезно в том случае, если фильтры спама блокируют сообщения электронной почты.</value>
   </data>
   <data name="plSendFrom.Text">
-    <value>Send From</value>
+    <value>От</value>
   </data>
   <data name="plSendToRoles.Help">
-    <value>Select the user security roles whose users are to be recipients of the feedback.</value>
+    <value>Выберите роли безопасности, члены которых будут получателями сообщений обратной связи.</value>
   </data>
   <data name="plSendToRoles.Text">
-    <value>Send To User Roles</value>
+    <value>Роли получателей</value>
   </data>
   <data name="plSendWhenPublished.Help">
-    <value>When unticked, emails are sent to the recipient as soon as the feedback is submitted. When ticked, emails are sent for Pending and Spam items when the feedback is Published.</value>
+    <value>Если сброшено, сообщения электронной почты будут посылаться получателю как только будут отправлены отправителем. Если отмечено, сообщения электронной почты будут посылаться получателю как только сообщения пройдут модерацию и будут опубликованы.</value>
   </data>
   <data name="plSendWhenPublished.Text">
-    <value>Send when Published</value>
+    <value>Отсылать опубликованные</value>
   </data>
   <data name="plStreetField.Help">
     <value>Указывает на то, является ли поле адреса улицы обязательным, необязательным или скрытым</value>
   </data>
   <data name="plStreetField.Text">
-    <value>Street Field</value>
+    <value>Улица</value>
   </data>
   <data name="plSubjectEditField.Help">
-    <value>User may be presented with a drop-down list or editable textbox for the Subject or the Subject may be hidden from the user. If hidden from the user, a Subject must be entered or selected above.</value>
+    <value>Поле темы может быть представлено выпадающим списком, редактируемым текстовым полем, а также быть скрыто от пользователя. Если Вы хотите скрыть поле темы, введите или выберите тему в поле ниже.</value>
   </data>
   <data name="plSubjectEditField.Text">
-    <value>Subject Field Type</value>
+    <value>Тема</value>
   </data>
   <data name="plTelephoneField.Help">
     <value>Указывает на то, является ли поле номера телефона обязательным, необязательным или скрытым</value>
   </data>
   <data name="plTelephoneField.Text">
-    <value>Telephone Field</value>
+    <value>Телефон</value>
   </data>
   <data name="plTelephoneRegex.Help">
-    <value>Enter a .NET regular expression to validate telephone numbers. Leave the expression blank to disable telephone number validation.</value>
+    <value>Введите регулярное выражение .NET для проверки формата телефонных номеров. Оставьте поле пустым для того, чтобы отключить проверку телефонных номеров.</value>
   </data>
   <data name="plTelephoneRegex.Text">
-    <value>Telephone Validation</value>
+    <value>Проверка телефона</value>
   </data>
   <data name="plUnmoderatedStatus.Help">
-    <value>When not all categories are moderated, you may select the status (Archived, Pending, Private, Published, or Deleted) to apply to unmoderated posts.</value>
+    <value>Если не все категории являются модерируемыми, Вы можете указать статус немодерированных сообщений (В архиве, Ожидающее проверки, Личное, Опубликовано или Удалено).</value>
   </data>
   <data name="plUnmoderatedStatus.Text">
-    <value>Unmoderated Category Status</value>
+    <value>Состояние немодерируемых категорий</value>
   </data>
   <data name="plUseCategoryAsEmail.Help">
-    <value>If the category value contains a valid email address (multiple email addresses may be seperated by semi-colon), it is used as the email address of the recipient of this message, otherwise the value of "Send to" will be used.</value>
+    <value>Если значение категории содержит адрес электронной почты в правильном формате (можно указать несколько адресов, разделяя их точкой с запятой), то оно может быть использовано как адрес получателя сообщения. Иначе будет использовано значение поля 'Кому'.</value>
   </data>
   <data name="plUseCategoryAsEmail.Text">
-    <value>Use Category Value as Send To</value>
+    <value>Значение категории как получатель</value>
   </data>
   <data name="Popup.Text">
-    <value>Popup (New Window)</value>
+    <value>Во всплывающем окне</value>
   </data>
   <data name="Portal.Text">
-    <value>Portal (across all Feedback modules of portal)</value>
+    <value>Портал (все модули обратной связи)</value>
   </data>
   <data name="scnCategories.Text">
-    <value>Feedback Category Settings</value>
+    <value>Настройки категорий</value>
   </data>
   <data name="scnCleanup.Text">
-    <value>Cleanup Settings</value>
+    <value>Настройки очистки</value>
   </data>
   <data name="scnEmail.Text">
-    <value>Email Address and Options</value>
+    <value>Адрес эл. почты и параметры</value>
   </data>
   <data name="scnFields.Text">
-    <value>Form and Fields Settings</value>
+    <value>Настройки формы и полей</value>
   </data>
   <data name="scnModeration.Text">
-    <value>Moderation and Feedback Management Settings</value>
+    <value>Настройки модерации и управления сообщениями</value>
   </data>
   <data name="scnSubmission.Text">
-    <value>Submission and Security Settings</value>
+    <value>Настройки отправки и безопасности</value>
   </data>
   <data name="UserEmailFilter.Text">
-    <value>User Email Address</value>
+    <value>Эл. почта пользователя</value>
   </data>
   <data name="UserIDFilter.Text">
-    <value>DotNetNuke User ID</value>
+    <value>Ид. пользователя DNN</value>
   </data>
   <data name="UserIPFilter.Text">
-    <value>User IP Address</value>
+    <value>Адрес IP пользователя</value>
   </data>
   <data name="valCleanupDaysBefore.ErrorMessage">
-    <value>Days Before must be a valid integer</value>
+    <value>Значение, указанное в поле 'Дней до', должно быть целым числом</value>
   </data>
   <data name="valCleanupMaxEntries.ErrorMessage">
-    <value>Max  Entries must be a valid integer</value>
+    <value>Значение, указанное в поле 'Максимум записей', должно быть целым числом</value>
   </data>
   <data name="valEmailRegex.ErrorMessage">
-    <value>&lt;br /&gt;Email validation expression (.Net regular expression) is required.</value>
+    <value>&lt;br /&gt;Укажите регулярное выражение .NET для проверки адреса электронной почты.</value>
   </data>
   <data name="valEmptyCategoryListMsg.ErrorMessage">
-    <value>You must setup a category list if you allow the user to select a category or use the category value as a send to address</value>
+    <value>Вы должны настроить список категорий, если хотите, чтобы пользователь мог выбирать категорию из списка или нужно использовать значение категории в качестве адреса получателя.</value>
   </data>
   <data name="valEmptyCategoryMsg.ErrorMessage">
-    <value>If you use the category value as a send to address you must either allow the user to select a category or you must select a category in the Feedback module settings</value>
+    <value>Если Вы используете значение категории в качестве адреса получателя, Вы также должны либо разрешить пользователю выбирать категорию из списка, либо задать категорию модуля обратной связи в настройках.</value>
   </data>
   <data name="valInvalidAkismetKey.ErrorMessage">
     <value>&lt;br /&gt;Неверный ключ Akismet</value>
