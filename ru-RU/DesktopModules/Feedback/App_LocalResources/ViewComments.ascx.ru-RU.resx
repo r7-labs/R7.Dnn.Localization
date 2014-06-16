@@ -39,7 +39,13 @@
   <resheader name="Writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RecordsPage.Text">
-    <value>Записей на страницу</value>
+  <data name="ControlTitle_commentviewsettings.Text">
+    <value>Настройки списка сообщений</value>
+  </data>
+  <data name="lblPageSize.Text">
+    <value>Сообщений на страницу:</value>
+  </data>
+  <data name="NoFeedback.Text">
+    <value>Нет опубликованных сообщений для отображения.</value>
   </data>
 </root>

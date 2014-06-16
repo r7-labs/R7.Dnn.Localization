@@ -40,16 +40,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plListType.Text">
-    <value>Тип списка</value>
+    <value>Тип значения</value>
   </data>
   <data name="plListType.Help">
     <value>Выберите тип списка, который Вы хотите создать</value>
   </data>
   <data name="MoveUp.Text">
-    <value>Пеместить вверх</value>
+    <value>Выше</value>
   </data>
   <data name="MoveDown.Text">
-    <value>Пеместить вниз</value>
+    <value>Ниже</value>
   </data>
   <data name="Delete.Text">
     <value>Удалить</value>
@@ -79,12 +79,48 @@
     <value>Сохранить</value>
   </data>
   <data name="cmdReturn.Text">
-    <value>Вернуться в модуль</value>
+    <value>Назад</value>
   </data>
   <data name="valtxtBoxListName.Text">
-    <value>Имя списка обязательно</value>
+    <value>Укажите имя элемента списка</value>
   </data>
   <data name="valtxtBoxListValue.Text">
-    <value>Значение списка обязательно</value>
+    <value>Укаже значение элемента списка</value>
+  </data>
+  <data name="Categories.Text">
+    <value>Категории</value>
+  </data>
+  <data name="ControlTitle_feedback lists.Text">
+    <value>Управление списками</value>
+  </data>
+  <data name="IsActive.Header">
+    <value>Активен</value>
+  </data>
+  <data name="ListValue.Header">
+    <value>Значение</value>
+  </data>
+  <data name="Name.Header">
+    <value>Имя</value>
+  </data>
+  <data name="No.Text">
+    <value>Нет</value>
+  </data>
+  <data name="plErrorMsg.Text">
+    <value>Невозможно сохранить элемент списка. Убедитесь, что элемента с таким именем не существует.</value>
+  </data>
+  <data name="plPortal.Help">
+    <value>Устанавливает, будет ли созданный элемент доступен для всего портала или только этого модуля. Эта настройка может быть сброшена на уровень модуля только в том случае, если элемент не используется другим модулем. Значение может быть изменено на "Уровня портала" только из модуля, с которым оно ассоциировано.</value>
+  </data>
+  <data name="plPortal.Text">
+    <value>Уровня портала</value>
+  </data>
+  <data name="Portal.Header">
+    <value>Уровня портала</value>
+  </data>
+  <data name="Subjects.Text">
+    <value>Темы</value>
+  </data>
+  <data name="Yes.Text">
+    <value>Да</value>
   </data>
 </root>

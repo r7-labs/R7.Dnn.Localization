@@ -198,7 +198,7 @@
     <value>Укажите тему.</value>
   </data>
   <data name="plContactInfo.Text" xml:space="preserve">
-    <value>Ваша контакты</value>
+    <value>Ваши контакты</value>
   </data>
   <data name="plMessage.Text" xml:space="preserve">
     <value>Сообщение</value>
@@ -267,7 +267,7 @@
     <value />
   </data>
   <data name="plEmailConfirm.Text">
-    <value>Подтвердите адрес эл. почтыl:</value>
+    <value>Подтвердите адрес эл. почты:</value>
   </data>
   <data name="RefreshCaptcha.Text">
     <value>Обновить код</value>

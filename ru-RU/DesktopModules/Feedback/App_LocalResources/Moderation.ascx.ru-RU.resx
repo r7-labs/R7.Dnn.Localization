@@ -64,7 +64,7 @@
     <value>Показывать сообщения только из немодерируемых категорий</value>
   </data>
   <data name="ControlTitle_feedback moderation.Text">
-    <value>Модерирование / управление сообщениями</value>
+    <value>Модерирование сообщений</value>
   </data>
   <data name="Delete.AlternateText">
     <value>Удалить</value>
