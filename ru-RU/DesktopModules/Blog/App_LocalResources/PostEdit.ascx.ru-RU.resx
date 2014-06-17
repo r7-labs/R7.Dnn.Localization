@@ -161,7 +161,7 @@
     <value>Редактировать</value>
   </data>
   <data name="Publishing.Text" xml:space="preserve">
-    <value>Датали публикации</value>
+    <value>Детали публикации</value>
   </data>
   <data name="lblPublished.Help" xml:space="preserve">
     <value>Отметьте, чтобы опубликовать сообщение. Снимите отметку, чтобы снять сообщение с публикации (т.е. сделать его невидимым для других).</value>
