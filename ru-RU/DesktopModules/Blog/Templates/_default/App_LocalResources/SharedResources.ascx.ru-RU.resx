@@ -117,70 +117,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Approve.Text" xml:space="preserve">
-    <value>Утвердить</value>
+  <data name="Allposts.Text" xml:space="preserve">
+    <value>Все сообщения</value>
   </data>
-  <data name="cmdAdd.Text" xml:space="preserve">
-    <value>Новый блог</value>
-  </data>
-  <data name="Delete.Text" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="Edit.Text" xml:space="preserve">
-    <value>Редактировать</value>
-  </data>
-  <data name="ServerError.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе обработки запроса. Пожалуйста, повторите попытку позже.</value>
-  </data>
-  <data name="ServerErrorWithDescription.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе обработки запроса: </value>
-  </data>
-  <data name="Blog.Header" xml:space="preserve">
-    <value>Блог</value>
-  </data>
-  <data name="Date.Header" xml:space="preserve">
-    <value>Дата публикации</value>
-  </data>
-  <data name="Published.Header" xml:space="preserve">
-    <value>Опубликован</value>
-  </data>
-  <data name="Title.Header" xml:space="preserve">
-    <value>Заголовок</value>
-  </data>
-  <data name="Actions.Header" xml:space="preserve">
-    <value>Действия</value>
-  </data>
-  <data name="ApprovePost.Text" xml:space="preserve">
-    <value>Утвердить это сообщение?</value>
-  </data>
-  <data name="DeletePost.Text" xml:space="preserve">
-    <value>Удалить это сообщение?</value>
-  </data>
-  <data name="Export.Text" xml:space="preserve">
-    <value>Экспорт</value>
-  </data>
-  <data name="Download.Text" xml:space="preserve">
-    <value>Скачать в формате BlogML</value>
-  </data>
-  <data name="Export.Help" xml:space="preserve">
-    <value>При нажатии на кнопку Экспорт, модуль попытается представить все сообщения блога в виде файла XML в формате BlogML, которые затем можно скачать по ссылке, которая появится ниже.</value>
-  </data>
-  <data name="Blogs.Text" xml:space="preserve">
-    <value>Блоги</value>
-  </data>
-  <data name="Cancel.Text" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="cmdReturn.Text" xml:space="preserve">
+  <data name="Back.Text" xml:space="preserve">
     <value>Назад</value>
   </data>
+  <data name="By.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Comment.Text" xml:space="preserve">
+    <value>Комментировать</value>
+  </data>
+  <data name="Comments.Text" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="Contents.Text" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="DeleteComment.Confirm" xml:space="preserve">
+    <value>Удалить комментарий? Это действие нельзя отменить.</value>
+  </data>
+  <data name="DeleteComment.Text" xml:space="preserve">
+    <value>удалить</value>
+  </data>
+  <data name="DislikeComment.Text" xml:space="preserve">
+    <value>понизить комментарий</value>
+  </data>
+  <data name="In.Text" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="LikeComment.Text" xml:space="preserve">
+    <value>Поднять комментарий</value>
+  </data>
+  <data name="pagesize.Help" xml:space="preserve">
+    <value>Укажите количество сообщений на страницу или -1 чтобы отключить разбивку на страницы. </value>
+  </data>
+  <data name="pagesize.Text" xml:space="preserve">
+    <value>Размер страницы</value>
+  </data>
   <data name="Posts.Text" xml:space="preserve">
-    <value>Сообщения</value>
+    <value>сообщений</value>
   </data>
-  <data name="Blog.Text" xml:space="preserve">
-    <value>Блог</value>
+  <data name="Reply.Text" xml:space="preserve">
+    <value>ответить</value>
   </data>
-  <data name="Owner.Text" xml:space="preserve">
-    <value>Владелец</value>
+  <data name="ReportComment.Confirm" xml:space="preserve">
+    <value>Вы хотете пожаловаться на этот комментарий как недопустимый?</value>
+  </data>
+  <data name="ReportComment.Text" xml:space="preserve">
+    <value>Пожаловаться</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="Total.Text" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="ReadMore.Text" xml:space="preserve">
+    <value>Подробнее &gt;&gt;</value>
+  </data>
+  <data name="Approve.Text" xml:space="preserve">
+    <value>утвердить</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>удалить</value>
+  </data>
+  <data name="Dislike.Text" xml:space="preserve">
+    <value>понизить</value>
+  </data>
+  <data name="Like.Text" xml:space="preserve">
+    <value>поднять</value>
+  </data>
+  <data name="Report.Text" xml:space="preserve">
+    <value>пожаловаться</value>
+  </data>
+  <data name="Unpublished.Text" xml:space="preserve">
+    <value>Неопубликованых</value>
   </data>
 </root>

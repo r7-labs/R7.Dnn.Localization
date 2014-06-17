@@ -117,70 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Approve.Text" xml:space="preserve">
-    <value>Утвердить</value>
+  <data name="lblTemplate.Help" xml:space="preserve">
+    <value>Выберите шаблон для отображения этим модулем</value>
   </data>
-  <data name="cmdAdd.Text" xml:space="preserve">
-    <value>Новый блог</value>
+  <data name="lblTemplate.Text" xml:space="preserve">
+    <value>Шаблон</value>
   </data>
-  <data name="Delete.Text" xml:space="preserve">
-    <value>Удалить</value>
+  <data name="lblBlogModuleId.Help" xml:space="preserve">
+    <value>Выберите блоги для отображения в этом модуле из списка модулей блогов на сайте. Если не выбрано, этот модуль будет управлять своими собственными блогами.</value>
   </data>
-  <data name="Edit.Text" xml:space="preserve">
-    <value>Редактировать</value>
+  <data name="lblBlogModuleId.Text" xml:space="preserve">
+    <value>Модуль блогов</value>
   </data>
-  <data name="ServerError.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе обработки запроса. Пожалуйста, повторите попытку позже.</value>
+  <data name="NoParent.Text" xml:space="preserve">
+    <value>&lt; У этого модуля собственные блоги &gt;</value>
   </data>
-  <data name="ServerErrorWithDescription.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе обработки запроса: </value>
+  <data name="lblShowAllLocales.Help" xml:space="preserve">
+    <value>Если выбрано, то модуль будет отображать сообщения на всех языках, независимо от языковых настроек пользователя</value>
   </data>
-  <data name="Blog.Header" xml:space="preserve">
+  <data name="lblShowAllLocales.Text" xml:space="preserve">
+    <value>Все языки</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>&lt; Все &gt;</value>
+  </data>
+  <data name="lblAuthorId.Help" xml:space="preserve">
+    <value>При выборе автора из списка будут отображаться только сообщения этого автора</value>
+  </data>
+  <data name="lblAuthorId.Text" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="lblBlogId.Help" xml:space="preserve">
+    <value>При выборе блога из списка будут отображаться только сообщения из выбранного блога</value>
+  </data>
+  <data name="lblBlogId.Text" xml:space="preserve">
     <value>Блог</value>
   </data>
-  <data name="Date.Header" xml:space="preserve">
-    <value>Дата публикации</value>
+  <data name="lblCategories.Help" xml:space="preserve">
+    <value>Если выбрана одна или несколько категорий, то будут отображаться сообщения только из этих категорий. Если категория не выбрана, будут отображаться все сообщения.</value>
   </data>
-  <data name="Published.Header" xml:space="preserve">
-    <value>Опубликован</value>
+  <data name="lblCategories.Text" xml:space="preserve">
+    <value>Категории</value>
   </data>
-  <data name="Title.Header" xml:space="preserve">
-    <value>Заголовок</value>
+  <data name="lblModifyPageDetails.Help" xml:space="preserve">
+    <value>Если выбрано, модуль будет пытаться изменять заголовок страницы в зависимости от контекста блога - заголовка блога, заголовка сообщения и др.</value>
   </data>
-  <data name="Actions.Header" xml:space="preserve">
-    <value>Действия</value>
+  <data name="lblModifyPageDetails.Text" xml:space="preserve">
+    <value>Изменять свойства страницы</value>
   </data>
-  <data name="ApprovePost.Text" xml:space="preserve">
-    <value>Утвердить это сообщение?</value>
+  <data name="lblShowManagementPanel.Help" xml:space="preserve">
+    <value>Если выбрано, в модуле будет отображаться панель управления</value>
   </data>
-  <data name="DeletePost.Text" xml:space="preserve">
-    <value>Удалить это сообщение?</value>
-  </data>
-  <data name="Export.Text" xml:space="preserve">
-    <value>Экспорт</value>
-  </data>
-  <data name="Download.Text" xml:space="preserve">
-    <value>Скачать в формате BlogML</value>
-  </data>
-  <data name="Export.Help" xml:space="preserve">
-    <value>При нажатии на кнопку Экспорт, модуль попытается представить все сообщения блога в виде файла XML в формате BlogML, которые затем можно скачать по ссылке, которая появится ниже.</value>
-  </data>
-  <data name="Blogs.Text" xml:space="preserve">
-    <value>Блоги</value>
-  </data>
-  <data name="Cancel.Text" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="cmdReturn.Text" xml:space="preserve">
-    <value>Назад</value>
-  </data>
-  <data name="Posts.Text" xml:space="preserve">
-    <value>Сообщения</value>
-  </data>
-  <data name="Blog.Text" xml:space="preserve">
-    <value>Блог</value>
-  </data>
-  <data name="Owner.Text" xml:space="preserve">
-    <value>Владелец</value>
+  <data name="lblShowManagementPanel.Text" xml:space="preserve">
+    <value>Панель управления</value>
   </data>
 </root>

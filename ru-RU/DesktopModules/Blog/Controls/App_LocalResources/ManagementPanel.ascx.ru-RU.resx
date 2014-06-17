@@ -117,70 +117,88 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Approve.Text" xml:space="preserve">
-    <value>Утвердить</value>
-  </data>
-  <data name="cmdAdd.Text" xml:space="preserve">
-    <value>Новый блог</value>
-  </data>
-  <data name="Delete.Text" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="Edit.Text" xml:space="preserve">
-    <value>Редактировать</value>
-  </data>
-  <data name="ServerError.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе обработки запроса. Пожалуйста, повторите попытку позже.</value>
-  </data>
-  <data name="ServerErrorWithDescription.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе обработки запроса: </value>
-  </data>
-  <data name="Blog.Header" xml:space="preserve">
-    <value>Блог</value>
-  </data>
-  <data name="Date.Header" xml:space="preserve">
-    <value>Дата публикации</value>
-  </data>
-  <data name="Published.Header" xml:space="preserve">
-    <value>Опубликован</value>
-  </data>
-  <data name="Title.Header" xml:space="preserve">
-    <value>Заголовок</value>
-  </data>
-  <data name="Actions.Header" xml:space="preserve">
-    <value>Действия</value>
-  </data>
-  <data name="ApprovePost.Text" xml:space="preserve">
-    <value>Утвердить это сообщение?</value>
-  </data>
-  <data name="DeletePost.Text" xml:space="preserve">
-    <value>Удалить это сообщение?</value>
-  </data>
-  <data name="Export.Text" xml:space="preserve">
-    <value>Экспорт</value>
-  </data>
-  <data name="Download.Text" xml:space="preserve">
-    <value>Скачать в формате BlogML</value>
-  </data>
-  <data name="Export.Help" xml:space="preserve">
-    <value>При нажатии на кнопку Экспорт, модуль попытается представить все сообщения блога в виде файла XML в формате BlogML, которые затем можно скачать по ссылке, которая появится ниже.</value>
-  </data>
-  <data name="Blogs.Text" xml:space="preserve">
-    <value>Блоги</value>
-  </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
-  <data name="cmdReturn.Text" xml:space="preserve">
-    <value>Назад</value>
+  <data name="cmdBlog.Text" xml:space="preserve">
+    <value>Сообщение</value>
   </data>
-  <data name="Posts.Text" xml:space="preserve">
-    <value>Сообщения</value>
+  <data name="cmdCopyModule.Text" xml:space="preserve">
+    <value>Копировать модуль</value>
   </data>
-  <data name="Blog.Text" xml:space="preserve">
-    <value>Блог</value>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>Редактирование</value>
   </data>
-  <data name="Owner.Text" xml:space="preserve">
-    <value>Владелец</value>
+  <data name="cmdEditPost.Text" xml:space="preserve">
+    <value>Редактировать сообщение</value>
+  </data>
+  <data name="cmdManageBlogs.Text" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="Contents.Text" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="RSS.Text" xml:space="preserve">
+    <value>RSS</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="SearchIn.Text" xml:space="preserve">
+    <value>Искать в: </value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="WLW.Help" xml:space="preserve">
+    <value>Используйте эту ссылку в программе Windows Live Writer для подключения к этому блогу</value>
+  </data>
+  <data name="WLW.Text" xml:space="preserve">
+    <value>Ссылка для Windows Live Writer</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="lblInsert.Help" xml:space="preserve">
+    <value>Выберите место для добавления модуля на выбранной панели</value>
+  </data>
+  <data name="lblInsert.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="lblPane.Help" xml:space="preserve">
+    <value>Выберите панель, на которую нужно добавить модуль</value>
+  </data>
+  <data name="lblPane.Text" xml:space="preserve">
+    <value>Панель</value>
+  </data>
+  <data name="lblTemplate.Help" xml:space="preserve">
+    <value>Выберите шаблон отображения для этого модуля</value>
+  </data>
+  <data name="lblTemplate.Text" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="lblTitle.Help" xml:space="preserve">
+    <value>Заголовок для новых модулей</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="Unpublished.Text" xml:space="preserve">
+    <value>Также в неопубликованных</value>
+  </data>
+  <data name="cmdAdmin.Text" xml:space="preserve">
+    <value>Администрирование</value>
+  </data>
+  <data name="BlogChoose.Text" xml:space="preserve">
+    <value>Выберите блог</value>
+  </data>
+  <data name="SearchAll.Text" xml:space="preserve">
+    <value>По всему содержимому</value>
+  </data>
+  <data name="Home.Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Documentation.Text" xml:space="preserve">
+    <value>Документация</value>
   </data>
 </root>

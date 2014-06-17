@@ -181,7 +181,7 @@
     <value>&lt; Не указано &gt;</value>
   </data>
   <data name="HtmlIndependent.Opt" xml:space="preserve">
-    <value>HTML, независимый от тела сообщения</value>
+    <value>HTML, независящий от тела сообщения</value>
   </data>
   <data name="HtmlPrecedesPost.Opt" xml:space="preserve">
     <value>HTML перед сообщением</value>
