@@ -124,60 +124,429 @@
     <value>Очередь модерации</value>
   </data>
   <data name="ModeratorPMBlock.Text" xml:space="preserve">
-    <value>Уведомить о блокировании ЛС модератором</value>
+    <value>Уведомление о блокировании ЛС модератором</value>
   </data>
   <data name="ModeratorPostAbuse.Text" xml:space="preserve">
-    <value>Уведомить об оскорбительном сообщении</value>
+    <value>Уведомление модератора об оскорбительном сообщении</value>
   </data>
   <data name="ModeratorPostDeleted.Text" xml:space="preserve">
-    <value>Уведомить об удалении сообщения</value>
+    <value>Уведомление модератора об удалении сообщения</value>
   </data>
   <data name="ModeratorPostToModerate.Text" xml:space="preserve">
-    <value>Уведомить о наличии сообщения для модерирования</value>
+    <value>Уведомление модератора о наличии сообщений для модерирования</value>
   </data>
   <data name="ModeratorUserBaned.Text" xml:space="preserve">
-    <value>Уведомить о блокировании пользователя</value>
+    <value>Уведомление модератора о блокировании пользователя</value>
   </data>
   <data name="ModeratorWarnUser.Text" xml:space="preserve">
-    <value>Уведомить модератора о предупреждении пользователя</value>
+    <value>Уведомление модератора о предупреждениях</value>
   </data>
   <data name="UserBanedNotice.Text" xml:space="preserve">
-    <value>Уведомить пользователя о его блокировании</value>
+    <value>Уведомление о блокировке учетной записи</value>
   </data>
   <data name="UserForumAdded.Text" xml:space="preserve">
-    <value>Уведомить пользователю о добавлении форума</value>
+    <value>Уведомление о добавлении форума</value>
   </data>
   <data name="UserModeratorWarning.Text" xml:space="preserve">
     <value>Отправить пользователю предупреждение от модератора</value>
   </data>
   <data name="UserNewThread.Text" xml:space="preserve">
-    <value>Уведомить пользователя о новой теме</value>
+    <value>Уведомление о новой теме</value>
   </data>
   <data name="UserPMReceived.Text" xml:space="preserve">
     <value>Уведомить пользователя о получении ЛС</value>
   </data>
   <data name="UserPostAbuse.Text" xml:space="preserve">
-    <value>Отправить пользователю предупреждение о нарушении правил общения на форуме</value>
+    <value>Предупреждение о нарушении правил</value>
   </data>
   <data name="UserPostApproved.Text" xml:space="preserve">
-    <value>Уведомить пользователя об одобрении сообщения</value>
+    <value>Уведомление об одобрении сообщения</value>
   </data>
   <data name="UserPostDeleted.Text" xml:space="preserve">
-    <value>Уведомить пользователя об удалении сообщения</value>
+    <value>Уведомление об удалении сообщения</value>
   </data>
   <data name="UserPostEdited.Text" xml:space="preserve">
-    <value>Уведомить пользователя об изменении сообщения</value>
+    <value>Уведомление об изменении сообщения</value>
   </data>
   <data name="UserPostRejected.Text" xml:space="preserve">
-    <value>Уведомить пользователя об отклонении сообщения</value>
+    <value>Уведомление об отклонении сообщения</value>
   </data>
   <data name="UserThreadMoved.Text" xml:space="preserve">
-    <value>Уведомить пользователей о перемещении темы</value>
+    <value>Уведомление о перемещении темы</value>
   </data>
   <data name="UserThreadSplit.Text" xml:space="preserve">
-    <value>Уведомить пользователей о разделении темы</value>
+    <value>Увемление о разделении темы</value>
   </data>
   <data name="PolicyPost.Text" xml:space="preserve">
-    <value>Сообщение нарушает &lt;a href="http://www.vgsha.ru/tabid/53/forumid/6/threadid/23/scope/posts/Default.aspx"&gt;Правила форума&lt;/a&gt;</value>
+    <value>Сообщение нарушает правила форума</value>
+  </data>
+  <data name="AbuseReports.Text">
+    <value>Отчеты</value>
+  </data>
+  <data name="AcceptedAnswer.Text">
+    <value>Допустимый ответ</value>
+  </data>
+  <data name="AcceptedFileType.Text">
+    <value>Допустимые расширения имен файлов</value>
+  </data>
+  <data name="Add Attachments.Permission">
+    <value>Прикрепить</value>
+  </data>
+  <data name="Administration.Text">
+    <value>Админ</value>
+  </data>
+  <data name="AdvertisingPost.Text">
+    <value>Сообщение содержит слишком много рекламы</value>
+  </data>
+  <data name="Aggregate.Text">
+    <value>Аггрегированный форум</value>
+  </data>
+  <data name="AggregatedForumDescription.Text">
+    <value>Аггрегированное представление всех обсуждений открытых форумов</value>
+  </data>
+  <data name="AggregatedForumName.Text">
+    <value>Все открытые форумы</value>
+  </data>
+  <data name="AggregatedGroupName.Text">
+    <value>Аггрегированный</value>
+  </data>
+  <data name="AllCollapsed.Text">
+    <value>Свернуть все</value>
+  </data>
+  <data name="AllDays.Text">
+    <value>За все дни</value>
+  </data>
+  <data name="AllExpanded.Text">
+    <value>Развернуть все</value>
+  </data>
+  <data name="AllGroups.Text">
+    <value>Все группы</value>
+  </data>
+  <data name="AlreadyTrackingForum.Text">
+    <value>Отслеживание уже включено на уровне форума.</value>
+  </data>
+  <data name="AlreadyTrackingModule.Text">
+    <value>Этот модуль уже отслеживается.</value>
+  </data>
+  <data name="Answered.Text">
+    <value>Есть ответ</value>
+  </data>
+  <data name="AsLastViewed.Text">
+    <value>As Last Viewed</value>
+  </data>
+  <data name="DefaultForumGroupName.Text">
+    <value>Обсуждения</value>
+  </data>
+  <data name="DefaultForumName.Text">
+    <value>Общий</value>
+  </data>
+  <data name="DisplayName.Text">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="DuplicatePost.Text">
+    <value>Сообщение дублирует ранее созданное</value>
+  </data>
+  <data name="Flash.Text">
+    <value>Flash:</value>
+  </data>
+  <data name="Forum Administrator.Permission">
+    <value>Администрирование форума</value>
+  </data>
+  <data name="Forum.Text">
+    <value>Форум</value>
+  </data>
+  <data name="ForumCount.Text">
+    <value>Форум(ы)</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Главная</value>
+  </data>
+  <data name="ForumTextWrote.Text">
+    <value> написал</value>
+  </data>
+  <data name="ForumUtilToday.Text">
+    <value>Сегодня в</value>
+  </data>
+  <data name="ForumUtilYesterday.Text">
+    <value>Вчера в</value>
+  </data>
+  <data name="Global Moderator.Permission">
+    <value>Глобальный модератор</value>
+  </data>
+  <data name="HasContributed.Text">
+    <value>добавил</value>
+  </data>
+  <data name="HostTemplates.Text">
+    <value>Шаблоны хоста</value>
+  </data>
+  <data name="HTML.Text">
+    <value>HTML</value>
+  </data>
+  <data name="Image.Text">
+    <value>Изображение:</value>
+  </data>
+  <data name="Inbox.Text">
+    <value>Входящие</value>
+  </data>
+  <data name="Informative.Text">
+    <value>Информативное</value>
+  </data>
+  <data name="LastVisit.Text">
+    <value>Последний визит</value>
+  </data>
+  <data name="Link.Text">
+    <value>Связать форум</value>
+  </data>
+  <data name="Lock Thread.Permission">
+    <value>Заблокировать темы</value>
+  </data>
+  <data name="MarkAnswer.Text">
+    <value>Принять ответ</value>
+  </data>
+  <data name="MaxFileSize.Text">
+    <value>Максимальный размер файла:</value>
+  </data>
+  <data name="MemberList.Text">
+    <value>Список членов</value>
+  </data>
+  <data name="Moderate.Text">
+    <value>Модерировать</value>
+  </data>
+  <data name="Moderator.Permission">
+    <value>Модераторы</value>
+  </data>
+  <data name="ModuleTemplates.Text">
+    <value>Шаблоны модулей</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Мои сообщения</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Мои настройки</value>
+  </data>
+  <data name="NewPost.Text">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="NoAnonDownloads.Text">
+    <value>Войдите в систему чтобы скачать вложенный файл</value>
+  </data>
+  <data name="None.Text">
+    <value>Нет</value>
+  </data>
+  <data name="NoneSpecified.Text">
+    <value>&lt;Не указано&gt;</value>
+  </data>
+  <data name="NoPostsToModerate.Text">
+    <value>Нет сообщений для модерации</value>
+  </data>
+  <data name="Normal.Text">
+    <value>Обычный форум</value>
+  </data>
+  <data name="Notification.Text">
+    <value>Форум с оповещениями</value>
+  </data>
+  <data name="Notifications.Permission">
+    <value>Оповещения</value>
+  </data>
+  <data name="NotSpecified.Text">
+    <value>Не указано</value>
+  </data>
+  <data name="OffTopicPost.Text">
+    <value>Содержание сообщения не соответствует теме</value>
+  </data>
+  <data name="PastMonth.Text">
+    <value>За прошлый месяц</value>
+  </data>
+  <data name="PastThreeDays.Text">
+    <value>За прошлые три дня</value>
+  </data>
+  <data name="PastThreeMonth.Text">
+    <value>За прошлые три месяца</value>
+  </data>
+  <data name="PastTwoWeek.Text">
+    <value>За прошлые две недели</value>
+  </data>
+  <data name="PastWeek.Text">
+    <value>За прошлую неделю</value>
+  </data>
+  <data name="PastYear.Text">
+    <value>За прошлый год</value>
+  </data>
+  <data name="Pin Thread.Permission">
+    <value>Закрепить темы</value>
+  </data>
+  <data name="Poll.Text">
+    <value>Опрос</value>
+  </data>
+  <data name="Post Replies.Permission">
+    <value>Отвечать на сообщения</value>
+  </data>
+  <data name="Post Reply.Permission">
+    <value>Отвечать на сообщения</value>
+  </data>
+  <data name="PrivateModerated.Text">
+    <value>Открытый модерируемый</value>
+  </data>
+  <data name="PrivateModeratedPostRestricted.Text">
+    <value>Закрытый модерируемый с ограничениями</value>
+  </data>
+  <data name="PrivateUnModerated.Text">
+    <value>Закрытый без модерации</value>
+  </data>
+  <data name="PrivateUnModeratedPostRestricted.Text">
+    <value>Закрытый без модерации с ограничениями</value>
+  </data>
+  <data name="ProfanePost.Text">
+    <value>Сообщение содержит оскорбления</value>
+  </data>
+  <data name="PublicModerated.Text">
+    <value>Открытый модерируемый</value>
+  </data>
+  <data name="PublicModeratedPostRestricted.Text">
+    <value>Открытый модерируемыйй с ограничениями</value>
+  </data>
+  <data name="PublicUnModerated.Text">
+    <value>Открытый без модерации</value>
+  </data>
+  <data name="PublicUnModeratedPostRestricted.Text">
+    <value>Открытый без модерации с ограничениями</value>
+  </data>
+  <data name="Rank_0.Text">
+    <value>Новичок</value>
+  </data>
+  <data name="Rank_1.Text">
+    <value>1st Level Poster</value>
+  </data>
+  <data name="Rank_10.Text">
+    <value>10th Level Poster</value>
+  </data>
+  <data name="Rank_2.Text">
+    <value>2nd Level Poster</value>
+  </data>
+  <data name="Rank_3.Text">
+    <value>3rd Level Poster</value>
+  </data>
+  <data name="Rank_4.Text">
+    <value>4th Level Poster</value>
+  </data>
+  <data name="Rank_5.Text">
+    <value>5th Level Poster</value>
+  </data>
+  <data name="Rank_6.Text">
+    <value>6th Level Poster</value>
+  </data>
+  <data name="Rank_7.Text">
+    <value>7th Level Poster</value>
+  </data>
+  <data name="Rank_8.Text">
+    <value>8th Level Poster</value>
+  </data>
+  <data name="Rank_9.Text">
+    <value>9th Level Poster</value>
+  </data>
+  <data name="Rate0.Text">
+    <value>Оцените сообщение</value>
+  </data>
+  <data name="Rate1.Text">
+    <value>Rating of 1</value>
+  </data>
+  <data name="Rate10.Text">
+    <value>Rating of 10</value>
+  </data>
+  <data name="Rate2.Text">
+    <value>Rating of 2</value>
+  </data>
+  <data name="Rate3.Text">
+    <value>Rating of 3</value>
+  </data>
+  <data name="Rate4.Text">
+    <value>Rating of 4</value>
+  </data>
+  <data name="Rate5.Text">
+    <value>Rating of 5</value>
+  </data>
+  <data name="Rate6.Text">
+    <value>Rating of 6</value>
+  </data>
+  <data name="Rate7.Text">
+    <value>Rating of 7</value>
+  </data>
+  <data name="Rate8.Text">
+    <value>Rating of 8</value>
+  </data>
+  <data name="Rate9.Text">
+    <value>Rating of 9</value>
+  </data>
+  <data name="RatingHaveRating.Text">
+    <value>{0} out of 10 - based on {1} ratings</value>
+  </data>
+  <data name="RatingNoRating.Text">
+    <value>Нет оценки</value>
+  </data>
+  <data name="Search.Text">
+    <value>Поиск</value>
+  </data>
+  <data name="SpamPost.Text">
+    <value>Сообщение определено как спам</value>
+  </data>
+  <data name="Start Thread.Permission">
+    <value>Создание тем</value>
+  </data>
+  <data name="StatusAnswered.Text">
+    <value>Есть ответ</value>
+  </data>
+  <data name="StatusInfo.Text">
+    <value>Информативное</value>
+  </data>
+  <data name="StatusPoll.Text">
+    <value>Опрос</value>
+  </data>
+  <data name="StatusUnanswered.Text">
+    <value>Нет решения</value>
+  </data>
+  <data name="subscribe.Text">
+    <value>Получать оповещения</value>
+  </data>
+  <data name="Text.Text">
+    <value>Текст</value>
+  </data>
+  <data name="ToAdmin.Text">
+    <value>Администраторам</value>
+  </data>
+  <data name="ToAll.Text">
+    <value>Всем пользователям</value>
+  </data>
+  <data name="Today.Text">
+    <value>Сегодня</value>
+  </data>
+  <data name="TotalVotes.Text">
+    <value>Всего голосов:</value>
+  </data>
+  <data name="Unanswered.Text">
+    <value>Нет решения</value>
+  </data>
+  <data name="Unmoderated.Permission">
+    <value>Без модерации</value>
+  </data>
+  <data name="User.Text">
+    <value>Пользователь:</value>
+  </data>
+  <data name="Username.Text">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="UserPostAdded.Text">
+    <value>Уведомление о новом сообщении</value>
+  </data>
+  <data name="View.Permission">
+    <value>Просмотр форума</value>
+  </data>
+  <data name="Votes.Text">
+    <value>Голосов</value>
+  </data>
+  <data name="Yesterday.Text">
+    <value>Вчера</value>
+  </data>
+  <data name="YourPost.Text">
+    <value>Ваше сообщение</value>
   </data>
 </root>

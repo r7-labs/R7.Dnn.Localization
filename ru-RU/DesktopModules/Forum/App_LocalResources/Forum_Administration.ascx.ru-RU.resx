@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblGeneralSettings.Text" xml:space="preserve">
-    <value>Управление настройками форума, которые используются для всего форума.</value>
+    <value>Управление настройками форума, общими для всего модуля.</value>
   </data>
   <data name="lblWordFilter.Text" xml:space="preserve">
     <value>Управление фильтром запрещенных слов для тем и сообщений.</value>
   </data>
   <data name="lblManageForums.Text" xml:space="preserve">
-    <value>Создание, изменение и изменение способа отображения подфорумов и групп.</value>
+    <value>Создание, изменение и изменение способа отображения форумов и групп.</value>
   </data>
   <data name="lblGallerySmile.Text" xml:space="preserve">
-    <value>Управление внутренней галереей. &lt;br /&gt; Управление смайликами.</value>
+    <value>Управление аватарами, включая включение / выключение пользовательских аватаров и установку системных аватаров.</value>
   </data>
   <data name="cmdStatsRanks.Text" xml:space="preserve">
     <value>Статистика и ранги</value>
@@ -149,5 +149,59 @@
   </data>
   <data name="lblTemplates.Text" xml:space="preserve">
     <value>Настройка всех шаблонов, включая шаблоны электронной почты.</value>
+  </data>
+  <data name="cmdForumHome.Text">
+    <value>Главная</value>
+  </data>
+  <data name="cmdGallery.Text">
+    <value>Аватары</value>
+  </data>
+  <data name="cmdManageForums.Text">
+    <value>Управление форумами и группами</value>
+  </data>
+  <data name="cmdManageSettings.Text">
+    <value>Общие настройки</value>
+  </data>
+  <data name="cmdManageUsers.Text">
+    <value>Пользователи</value>
+  </data>
+  <data name="cmdTemplates.Text">
+    <value>Шаблоны</value>
+  </data>
+  <data name="cmdWordFilter.Text">
+    <value>Фильтр слов</value>
+  </data>
+  <data name="ControlTitle_forumadministration.Text">
+    <value>Администрирование</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Главная</value>
+  </data>
+  <data name="imgForumHome.Text">
+    <value>Главная</value>
+  </data>
+  <data name="imgGallery.Text">
+    <value>Аватары</value>
+  </data>
+  <data name="imgGeneralSettings.Text">
+    <value>Общие настройки</value>
+  </data>
+  <data name="imgManageForums.Text">
+    <value>Управление форумами</value>
+  </data>
+  <data name="imgManageUsers.Text">
+    <value>Управление пользователями</value>
+  </data>
+  <data name="imgTemplates.Text">
+    <value>Шаблоны</value>
+  </data>
+  <data name="imgWordFilter.Text">
+    <value>Фильтр слов</value>
+  </data>
+  <data name="lblForumAdministration.Text">
+    <value>Администрирование</value>
+  </data>
+  <data name="lblManageUsers.Text">
+    <value>Изменение настроек профилей пользователей.&lt;br /&gt;Вы также можете осуществлять дополнительные административные действия относительно пользователей.</value>
   </data>
 </root>
