@@ -118,6 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Справка фильтра слов&lt;/h1&gt;&lt;p&gt;Добавьте слова для поиска и замены в публикуемых сообщениях. Если фильтр включен, слова заменяются прежде чем попадут в базу данных. Правила фильтра уникальны для каждого портала, но действуют на все форумы и блоги на одном портала.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;Управление фильтром слов&lt;/h1&gt;&lt;p&gt;Добавьте слова для поиска и замены в публикуемых сообщениях. Если фильтр включен, слова заменяются прежде чем попадут в базу данных. Правила фильтра уникальны для каждого портала, но действуют на все форумы в пределах портала.&lt;/p&gt;</value>
+  </data>
+  <data name="BadWordFilter.Text">
+    <value>Управление фильтром слов</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Добавить слово</value>
+  </data>
+  <data name="ControlTitle_badwords.Text">
+    <value>Управление фильтром слов</value>
+  </data>
+  <data name="Created By.Header">
+    <value>Создал</value>
+  </data>
+  <data name="Created Date.Header">
+    <value>Создано</value>
+  </data>
+  <data name="lblManageFilteredWords.Text">
+    <value>Управление фильтром слов</value>
+  </data>
+  <data name="plBadWord.Help">
+    <value>Если отмечено, к тексту сообщения будут применяться правила замены слов, определенные фильтром.</value>
+  </data>
+  <data name="plBadWord.Text">
+    <value>Включить фильтр слов</value>
+  </data>
+  <data name="plFilterSubject.Help">
+    <value>Если отмечено, фильтр слов применяется также к темам сообщений.</value>
+  </data>
+  <data name="plFilterSubject.Text">
+    <value>Применять к названиям тем</value>
+  </data>
+  <data name="Replacement For Filtered Word.Header">
+    <value>Замена</value>
+  </data>
+  <data name="Word To Filter.Header">
+    <value>Слово</value>
   </data>
 </root>

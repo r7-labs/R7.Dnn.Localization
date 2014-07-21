@@ -121,6 +121,30 @@
     <value>Слово, которое должно быть заменено</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Добавить/изменить слово фильтра&lt;/h1&gt;&lt;p&gt;Здесь вы можете добавить новые слова фильтра и изменить существующие слова. Существует только один набор правил фильтра для одного портала, и если в форуме или блоге используется фильтр, этот список слов будет использоваться для поиска и замены на одном портале.&lt;p&gt;</value>
+    <value>&lt;h1&gt;Редактирование фильтра слов&lt;/h1&gt;&lt;p&gt;Здесь вы можете добавить новые и изменить существующие слова фильтра. Существует только один набор правил фильтра для одного портала, и если в форуме используется фильтр, список слов этого фильтра будет использоваться на всем портале.&lt;p&gt;</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Конфигурация</value>
+  </data>
+  <data name="ControlTitle_badwordedit.Text">
+    <value>Редактирование фильтра слов</value>
+  </data>
+  <data name="lblFilteredWordEdit.Text">
+    <value>Добавить/изменить фильтры слов</value>
+  </data>
+  <data name="ManageCategory.Text">
+    <value>Управление категориями</value>
+  </data>
+  <data name="plBadWord.Text">
+    <value>Слово</value>
+  </data>
+  <data name="plReplacedWord.Help">
+    <value>Слово, которым будет заменяться отфильтрованное слово.</value>
+  </data>
+  <data name="plReplacedWord.Text">
+    <value>Замена</value>
+  </data>
+  <data name="valRequired.Text">
+    <value>Обязательно</value>
   </data>
 </root>

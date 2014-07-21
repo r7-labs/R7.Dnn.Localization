@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plEnableSystemAvatar.Help" xml:space="preserve">
-    <value>Администраторам сайта или форума будет разрешено менять аватары выбранным ими пользователям. Операция осуществляется для каждого пользователя, а не для роли.</value>
+    <value>Администраторам сайта или форума будет разрешено менять аватары выбранным пользователям. Операция осуществляется для каждого пользователя, а не для роли.</value>
   </data>
   <data name="plEnableUserAvatarPool.Help" xml:space="preserve">
-    <value>Если включено, вы сможете загрузить набор изображений, из которого пользователи смогут выбирать аватары для себя. Для включения этой функции предварительно необходимо разрешить использование аватар.&lt;br /&gt;
-&lt;em&gt;ПРИМЕЧАНИЕ&lt;/em&gt;&lt;br /&gt;Пользователи не смогут загружать свои изображения для использования их в качестве аватар.</value>
+    <value>Если включено, вы сможете загрузить набор изображений, из которого пользователи смогут выбирать аватары. Для включения этой функции предварительно необходимо разрешить использование пользовательских аватар.&lt;br /&gt;
+&lt;em&gt;ПРИМЕЧАНИЕ&lt;/em&gt;&lt;br /&gt;Пользователи не смогут загружать свои изображения для использования в качестве аватар.</value>
   </data>
   <data name="plSystemAvatarPath.Help" xml:space="preserve">
     <value>Путь к системным аватарам соответствует &lt;strong&gt;корневому каталогу портала&lt;/strong&gt;.
@@ -137,5 +137,62 @@
   </data>
   <data name="plUserAvatarSizeLimit.Help" xml:space="preserve">
     <value>Ограничение размера загружаемого файла пользовательской аватары (в Кб).</value>
+  </data>
+  <data name="ControlTitle_avatarmanager.Text">
+    <value>Управление аватарами</value>
+  </data>
+  <data name="plEnableSystemAvatar.Text">
+    <value>Включить системный аватар</value>
+  </data>
+  <data name="plEnableUserAvatar.Help">
+    <value>Если отмечено, пользователям будет разрешено подгружать изображение для своего профиля, которое будет использоваться в сообщении и личном кабинете. </value>
+  </data>
+  <data name="plEnableUserAvatar.Text">
+    <value>Включить пользовательские аватары</value>
+  </data>
+  <data name="plEnableUserAvatarPool.Text">
+    <value>Включить набор аватар</value>
+  </data>
+  <data name="plSystemAvatarDimensions.Help">
+    <value>Ширина и высота создаваемых миниатюр для использования в качестве системных аватар. </value>
+  </data>
+  <data name="plSystemAvatarDimensions.Text">
+    <value>Размеры системных аватар</value>
+  </data>
+  <data name="plSystemAvatarPath.Text">
+    <value>Путь к системным аватарам</value>
+  </data>
+  <data name="plSystemAvatarSizeLimit.Text">
+    <value>Ограничение размера системных аватар</value>
+  </data>
+  <data name="plUserAvatarDimensions.Help">
+    <value>Ширина и высота создаваемых миниатюр для использования в качестве пользовательских аватар. </value>
+  </data>
+  <data name="plUserAvatarDimensions.Text">
+    <value>Размеры системных аватар</value>
+  </data>
+  <data name="plUserAvatarPath.Text">
+    <value>Путь к пользоватеским аватарам</value>
+  </data>
+  <data name="plUserAvatarSizeLimit.Text">
+    <value>Ограничение размера пользовательских аватар</value>
+  </data>
+  <data name="validSystemDimHeight.Text">
+    <value>Неверное значение высоты системных аватар.</value>
+  </data>
+  <data name="validSystemDimWidth.Text">
+    <value>Неверное значение ширины системных аватар.</value>
+  </data>
+  <data name="validSystemSize.Text">
+    <value>Неверное значение максимального размера системных аватар.</value>
+  </data>
+  <data name="validUserDimHeight.Text">
+    <value>Неверное значение высоты пользовательских аватар.</value>
+  </data>
+  <data name="validUserDimWidth.Text">
+    <value>Неверное значение ширины пользовательских аватар.</value>
+  </data>
+  <data name="validUserSize.Text">
+    <value>Неверное значение максимального размера пользовательских аватар.</value>
   </data>
 </root>

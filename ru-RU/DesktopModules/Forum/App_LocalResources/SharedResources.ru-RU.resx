@@ -232,7 +232,7 @@
     <value>Есть ответ</value>
   </data>
   <data name="AsLastViewed.Text">
-    <value>As Last Viewed</value>
+    <value>Как последний просмотренный</value>
   </data>
   <data name="DefaultForumGroupName.Text">
     <value>Обсуждения</value>
@@ -415,70 +415,70 @@
     <value>Новичок</value>
   </data>
   <data name="Rank_1.Text">
-    <value>1st Level Poster</value>
+    <value>Пользователь 1-го уровня</value>
   </data>
   <data name="Rank_10.Text">
-    <value>10th Level Poster</value>
+    <value>Пользователь 10-го уровня</value>
   </data>
   <data name="Rank_2.Text">
-    <value>2nd Level Poster</value>
+    <value>Пользователь 2-го уровня</value>
   </data>
   <data name="Rank_3.Text">
-    <value>3rd Level Poster</value>
+    <value>Пользователь 3-го уровня</value>
   </data>
   <data name="Rank_4.Text">
-    <value>4th Level Poster</value>
+    <value>Пользователь 4-го уровня</value>
   </data>
   <data name="Rank_5.Text">
-    <value>5th Level Poster</value>
+    <value>Пользователь 5-го уровня</value>
   </data>
   <data name="Rank_6.Text">
-    <value>6th Level Poster</value>
+    <value>Пользователь 6-го уровня</value>
   </data>
   <data name="Rank_7.Text">
-    <value>7th Level Poster</value>
+    <value>Пользователь 7-го уровня</value>
   </data>
   <data name="Rank_8.Text">
-    <value>8th Level Poster</value>
+    <value>Пользователь 8-го уровня</value>
   </data>
   <data name="Rank_9.Text">
-    <value>9th Level Poster</value>
+    <value>Пользователь 9-го уровня</value>
   </data>
   <data name="Rate0.Text">
     <value>Оцените сообщение</value>
   </data>
   <data name="Rate1.Text">
-    <value>Rating of 1</value>
+    <value>Рейтинг 1</value>
   </data>
   <data name="Rate10.Text">
-    <value>Rating of 10</value>
+    <value>Рейтинг 10</value>
   </data>
   <data name="Rate2.Text">
-    <value>Rating of 2</value>
+    <value>Рейтинг 2</value>
   </data>
   <data name="Rate3.Text">
-    <value>Rating of 3</value>
+    <value>Рейтинг 3</value>
   </data>
   <data name="Rate4.Text">
-    <value>Rating of 4</value>
+    <value>Рейтинг 4</value>
   </data>
   <data name="Rate5.Text">
-    <value>Rating of 5</value>
+    <value>Рейтинг 5</value>
   </data>
   <data name="Rate6.Text">
-    <value>Rating of 6</value>
+    <value>Рейтинг 6</value>
   </data>
   <data name="Rate7.Text">
-    <value>Rating of 7</value>
+    <value>Рейтинг 7</value>
   </data>
   <data name="Rate8.Text">
-    <value>Rating of 8</value>
+    <value>Рейтинг 8</value>
   </data>
   <data name="Rate9.Text">
-    <value>Rating of 9</value>
+    <value>Рейтинг 9</value>
   </data>
   <data name="RatingHaveRating.Text">
-    <value>{0} out of 10 - based on {1} ratings</value>
+    <value>{0} из 10 - основано на {1} оценках</value>
   </data>
   <data name="RatingNoRating.Text">
     <value>Нет оценки</value>

@@ -127,12 +127,294 @@
     <value>[PostCount] сообщение(ий) с [DateTime] </value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Модуль форума&lt;/h1&gt;&lt;p&gt;Основной модуль форума DNN.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;Форум&lt;/h1&gt;&lt;p&gt;Модуль форума - поддерживаемый сообществом модуль, используемый для взаимодействия пользователей.&lt;/p&gt;</value>
   </data>
   <data name="by.Text" xml:space="preserve">
-    <value>Автор:</value>
+    <value> </value>
   </data>
   <data name="imgNewPinnedLockedThread.Text" xml:space="preserve">
-    <value>Закрытая прикрепленная тема с новыми сообщениями</value>
+    <value>Закрепленная заблокированная тема с новыми сообщениями</value>
+  </data>
+  <data name="Collapse.Text">
+    <value>Свернуть</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Мои сообщения</value>
+  </data>
+  <data name="Date.Text">
+    <value>Дата публикации</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>Отключено</value>
+  </data>
+  <data name="Expand.Text">
+    <value>Развернуть</value>
+  </data>
+  <data name="FlatView.Text">
+    <value>Плоский</value>
+  </data>
+  <data name="ForumContainsNothing.Text">
+    <value>Форум не содержит групп!</value>
+  </data>
+  <data name="ForumManageInstruction.Text">
+    <value>Выберите "Управление форумом" в меню для создания форумов или групп.</value>
+  </data>
+  <data name="Forums.Text">
+    <value>Форумы</value>
+  </data>
+  <data name="HasContributed.Text">
+    <value>участвовал</value>
+  </data>
+  <data name="imgAggregated.Text">
+    <value>Все открытые форумы</value>
+  </data>
+  <data name="imgHotLockedPinnedThread.Text">
+    <value>Горячее закрепленное заблокированное обсуждение</value>
+  </data>
+  <data name="imgHotNewLockedPinnedThread.Text">
+    <value>Горячее закрепленное заблокированное обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgHotPinnedThread.Text">
+    <value>Горячее закрепленное обсуждение</value>
+  </data>
+  <data name="imgLinkType.Text">
+    <value>Ссылка:</value>
+  </data>
+  <data name="imgLockedThread.Text">
+    <value>Заблокированное обсуждение</value>
+  </data>
+  <data name="imgModerated.Text">
+    <value>Открытый модерируемый форум</value>
+  </data>
+  <data name="imgNewHotPinnedThread.Text">
+    <value>Горячее закрепленное обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgNewLockedThread.Text">
+    <value>Заблокированное обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgNewModerated.Text">
+    <value>Открытый модерирумый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPinnedThread.Text">
+    <value>Закрепленная тема с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPopLockedThread.Text">
+    <value>Горячая заблокированная тема с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPopThread.Text">
+    <value>Горячая тема с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPrivate.Text">
+    <value>Закрытый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPrivateModerated.Text">
+    <value>Закрытый модерируемый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgNewSearch.Text">
+    <value>Новый поиск...</value>
+  </data>
+  <data name="imgNewThread.Text">
+    <value>Обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgNewUnmoderated.Text">
+    <value>Открытый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgOffline.Text">
+    <value>В системе</value>
+  </data>
+  <data name="imgOnline.Text">
+    <value>Сейчас в системе...</value>
+  </data>
+  <data name="imgPinnedLockedThread.Text">
+    <value>Закрепленное заблокированное обсуждение</value>
+  </data>
+  <data name="imgPinnedThread.Text">
+    <value>Закрепленное обсуждение</value>
+  </data>
+  <data name="imgPopLockedThread.Text">
+    <value>Горячее заблокированное обсуждение</value>
+  </data>
+  <data name="imgPopThread.Text">
+    <value>Горячее обсуждение</value>
+  </data>
+  <data name="imgPrivate.Text">
+    <value>Закрытый форум</value>
+  </data>
+  <data name="imgPrivateModerated.Text">
+    <value>Закрытый модерируемый форум</value>
+  </data>
+  <data name="imgRSS.Text">
+    <value>Смотреть в формате канала RSS...</value>
+  </data>
+  <data name="imgThread.Text">
+    <value>Обсуждение</value>
+  </data>
+  <data name="imgUnmoderated.Text">
+    <value>Открытый форум</value>
+  </data>
+  <data name="in.Text">
+    <value>в</value>
+  </data>
+  <data name="InForum.Text">
+    <value>На форуме</value>
+  </data>
+  <data name="Joined.Text">
+    <value>Объединены</value>
+  </data>
+  <data name="LastPost.Text">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="LatestThreads.Text">
+    <value>Показывать обсуждения из:</value>
+  </data>
+  <data name="MailWhenNewThread.Text">
+    <value>Оповещать меня при появлении нового обсуждения.</value>
+  </data>
+  <data name="MailWhenReply.Text">
+    <value>Оповещать меня при появлении сообщений в этом обсуждении.</value>
+  </data>
+  <data name="MarkThreadAsRead.Text">
+    <value>Пометить как прочитанное</value>
+  </data>
+  <data name="Moderate.Text">
+    <value>Модерировать</value>
+  </data>
+  <data name="ModifiedBy.Text">
+    <value>Изменил</value>
+  </data>
+  <data name="Move.Text">
+    <value>Переместить</value>
+  </data>
+  <data name="NewestToOldest.Text">
+    <value>Сначала новые</value>
+  </data>
+  <data name="NewSearch.Text">
+    <value>Поиск</value>
+  </data>
+  <data name="NewThread.Text">
+    <value>Новое обсуждение</value>
+  </data>
+  <data name="Next.Text">
+    <value>След.</value>
+  </data>
+  <data name="NoneSpecified.Text">
+    <value>&lt;Не указано&gt;</value>
+  </data>
+  <data name="NoNewPostFromDateTime.Text">
+    <value>Нет новых сообщений с [DateTime]</value>
+  </data>
+  <data name="NoNewPostToday.Text">
+    <value>Нет новых сообщений сегодня</value>
+  </data>
+  <data name="NoPost.Text">
+    <value>Нет сообщений</value>
+  </data>
+  <data name="NoThread.Text">
+    <value>Нет обсуждений</value>
+  </data>
+  <data name="OldestToNewest.Text">
+    <value>Сначала старые</value>
+  </data>
+  <data name="on.Text">
+    <value>на</value>
+  </data>
+  <data name="PageCountInfo.Text">
+    <value>Страница [PageNumber] из [PageCount]</value>
+  </data>
+  <data name="PostCount.Text">
+    <value>[PostCount] сообщений</value>
+  </data>
+  <data name="PostedDateTime.Text">
+    <value>Опубликовано: [CreatedDate] [PostTime]</value>
+  </data>
+  <data name="Posts.Text">
+    <value>Сообщения</value>
+  </data>
+  <data name="PostsToModerated.Text">
+    <value>Сообщения, ожидающие модерации</value>
+  </data>
+  <data name="Previous.Text">
+    <value>Пред.</value>
+  </data>
+  <data name="Quote.Text">
+    <value>Цитировать</value>
+  </data>
+  <data name="Rate.Text">
+    <value>Оценка:</value>
+  </data>
+  <data name="ReadPost.Text">
+    <value>Старое сообщение</value>
+  </data>
+  <data name="Replies.Text">
+    <value>Ответов</value>
+  </data>
+  <data name="Reply.Text">
+    <value>Ответить</value>
+  </data>
+  <data name="ReportAbuse.Text">
+    <value>Пожаловаться</value>
+  </data>
+  <data name="SearchResults.Text">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Split.Text">
+    <value>Разделить</value>
+  </data>
+  <data name="Started.Text">
+    <value>Начато</value>
+  </data>
+  <data name="Statistics.Text">
+    <value>Статистика</value>
+  </data>
+  <data name="Statistics24HoursSummary.Text">
+    <value>В течение последних суток было создано [ThreadCount] обсуждений и опубликовано [PostCount] новых сообщений.</value>
+  </data>
+  <data name="StatisticsMostActiveThread.Text">
+    <value>Наиболее активное обсуждение [ThreadURL]</value>
+  </data>
+  <data name="StatisticsMostActiveUsers.Text">
+    <value>Наиболее активные пользователи:</value>
+  </data>
+  <data name="StatisticsMostPopularThread.Text">
+    <value>Самое популярное обсуждение [ThreadURL]</value>
+  </data>
+  <data name="StatisticsSummary.Text">
+    <value>[UserCount] пользователей участвовали в  [ThreadCount] обсуждениях и создали [PostCount] сообщений.</value>
+  </data>
+  <data name="StatisticsUpdateInfo.Text">
+    <value>Статистика обновлена [DateTime] </value>
+  </data>
+  <data name="Status.Text">
+    <value>Состояние:</value>
+  </data>
+  <data name="Threads.Text">
+    <value>Обсуждения</value>
+  </data>
+  <data name="ThreadStartedBy.Text">
+    <value>Обсуждение начато</value>
+  </data>
+  <data name="TreeView.Text">
+    <value>В виде дерева</value>
+  </data>
+  <data name="UnreadPost.Text">
+    <value>Новый</value>
+  </data>
+  <data name="Unresolved.Text">
+    <value>Без ответа</value>
+  </data>
+  <data name="ViewFullSize.Text">
+    <value>Подробнее...</value>
+  </data>
+  <data name="Views.Text">
+    <value>Просмотров</value>
+  </data>
+  <data name="Vote.Text">
+    <value>Голосовать</value>
+  </data>
+  <data name="WhatsNew.Text">
+    <value>Что нового</value>
   </data>
 </root>
