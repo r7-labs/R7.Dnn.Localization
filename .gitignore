@@ -1,0 +1,10 @@
+# R7 extensions
+ru-RU/DesktopModules/R7.*
+ru-RU/DesktopModules/Redhound.*
+
+# Other uncommon extensions
+ru-RU/DesktopModules/BTBRatings
+ru-RU/DesktopModules/SampleModule
+ru-RU/DesktopModules/MiniGallery
+ru-RU/DesktopModules/DocumRoller
+ru-RU/Portals/_default/Skins/SXA-Delta
