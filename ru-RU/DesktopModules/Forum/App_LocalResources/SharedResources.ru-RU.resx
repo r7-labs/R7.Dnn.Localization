@@ -123,9 +123,6 @@
   <data name="ModerationQueue.Text" xml:space="preserve">
     <value>Очередь модерации</value>
   </data>
-  <data name="ModeratorPMBlock.Text" xml:space="preserve">
-    <value>Уведомление о блокировании ЛС модератором</value>
-  </data>
   <data name="ModeratorPostAbuse.Text" xml:space="preserve">
     <value>Уведомление модератора об оскорбительном сообщении</value>
   </data>
@@ -148,19 +145,16 @@
     <value>Уведомление о добавлении форума</value>
   </data>
   <data name="UserModeratorWarning.Text" xml:space="preserve">
-    <value>Отправить пользователю предупреждение от модератора</value>
+    <value>Уведомление о предупреждении от модератора</value>
   </data>
   <data name="UserNewThread.Text" xml:space="preserve">
     <value>Уведомление о новой теме</value>
-  </data>
-  <data name="UserPMReceived.Text" xml:space="preserve">
-    <value>Уведомить пользователя о получении ЛС</value>
   </data>
   <data name="UserPostAbuse.Text" xml:space="preserve">
     <value>Предупреждение о нарушении правил</value>
   </data>
   <data name="UserPostApproved.Text" xml:space="preserve">
-    <value>Уведомление об одобрении сообщения</value>
+    <value>Уведомление об утверждении сообщения</value>
   </data>
   <data name="UserPostDeleted.Text" xml:space="preserve">
     <value>Уведомление об удалении сообщения</value>
@@ -190,22 +184,22 @@
     <value>Допустимые расширения имен файлов</value>
   </data>
   <data name="Add Attachments.Permission">
-    <value>Прикрепить</value>
+    <value>Вложить</value>
   </data>
   <data name="Administration.Text">
     <value>Админ</value>
   </data>
   <data name="AdvertisingPost.Text">
-    <value>Сообщение содержит слишком много рекламы</value>
+    <value>Сообщение содержит чрезмерное количество рекламы</value>
   </data>
   <data name="Aggregate.Text">
-    <value>Аггрегированный форум</value>
+    <value>Все форумы</value>
   </data>
   <data name="AggregatedForumDescription.Text">
-    <value>Аггрегированное представление всех обсуждений открытых форумов</value>
+    <value>Аггрегированное представление всех тем открытых форумов</value>
   </data>
   <data name="AggregatedForumName.Text">
-    <value>Все открытые форумы</value>
+    <value>Все форумы</value>
   </data>
   <data name="AggregatedGroupName.Text">
     <value>Аггрегированный</value>
@@ -274,7 +268,7 @@
     <value>Глобальный модератор</value>
   </data>
   <data name="HasContributed.Text">
-    <value>добавил</value>
+    <value>участвовал</value>
   </data>
   <data name="HostTemplates.Text">
     <value>Шаблоны хоста</value>
@@ -307,7 +301,7 @@
     <value>Максимальный размер файла:</value>
   </data>
   <data name="MemberList.Text">
-    <value>Список членов</value>
+    <value>Список участников</value>
   </data>
   <data name="Moderate.Text">
     <value>Модерировать</value>
@@ -334,7 +328,7 @@
     <value>Нет</value>
   </data>
   <data name="NoneSpecified.Text">
-    <value>&lt;Не указано&gt;</value>
+    <value>-- Не указано --</value>
   </data>
   <data name="NoPostsToModerate.Text">
     <value>Нет сообщений для модерации</value>
@@ -444,39 +438,6 @@
   <data name="Rank_9.Text">
     <value>Пользователь 9-го уровня</value>
   </data>
-  <data name="Rate0.Text">
-    <value>Оцените сообщение</value>
-  </data>
-  <data name="Rate1.Text">
-    <value>Рейтинг 1</value>
-  </data>
-  <data name="Rate10.Text">
-    <value>Рейтинг 10</value>
-  </data>
-  <data name="Rate2.Text">
-    <value>Рейтинг 2</value>
-  </data>
-  <data name="Rate3.Text">
-    <value>Рейтинг 3</value>
-  </data>
-  <data name="Rate4.Text">
-    <value>Рейтинг 4</value>
-  </data>
-  <data name="Rate5.Text">
-    <value>Рейтинг 5</value>
-  </data>
-  <data name="Rate6.Text">
-    <value>Рейтинг 6</value>
-  </data>
-  <data name="Rate7.Text">
-    <value>Рейтинг 7</value>
-  </data>
-  <data name="Rate8.Text">
-    <value>Рейтинг 8</value>
-  </data>
-  <data name="Rate9.Text">
-    <value>Рейтинг 9</value>
-  </data>
   <data name="RatingHaveRating.Text">
     <value>{0} из 10 - основано на {1} оценках</value>
   </data>
@@ -493,7 +454,7 @@
     <value>Создание тем</value>
   </data>
   <data name="StatusAnswered.Text">
-    <value>Есть ответ</value>
+    <value>Есть решение</value>
   </data>
   <data name="StatusInfo.Text">
     <value>Информативное</value>
@@ -548,5 +509,99 @@
   </data>
   <data name="YourPost.Text">
     <value>Ваше сообщение</value>
+  </data>
+  <data name="12.Text">
+    <value>12</value>
+  </data>
+  <data name="24.Text">
+    <value>24</value>
+  </data>
+  <data name="48.Text">
+    <value>48</value>
+  </data>
+  <data name="6.Text">
+    <value>6</value>
+  </data>
+  <data name="Avatar.Text">
+    <value>Аватар</value>
+  </data>
+  <data name="cmdSubmit.Text">
+    <value>Отправить</value>
+  </data>
+  <data name="DeleteThread.Text">
+    <value>Удалить тему</value>
+  </data>
+  <data name="DownloadAttachment.Text">
+    <value>Загрузить вложение</value>
+  </data>
+  <data name="ForumTextCode.Text">
+    <value>Код</value>
+  </data>
+  <data name="ForumTextQuote.Text">
+    <value>Цитата</value>
+  </data>
+  <data name="Hits.Text">
+    <value>Кликов</value>
+  </data>
+  <data name="Home.Text">
+    <value>Главная</value>
+  </data>
+  <data name="Hours.Text">
+    <value>часов</value>
+  </data>
+  <data name="ImageTag.Text">
+    <value>[image]</value>
+  </data>
+  <data name="In.Text">
+    <value>в</value>
+  </data>
+  <data name="MyThreads.Text">
+    <value>Мои темы</value>
+  </data>
+  <data name="NoUnreadThreads.Text">
+    <value>Нет непрочитанных сообщений!</value>
+  </data>
+  <data name="of.Text">
+    <value>из</value>
+  </data>
+  <data name="Page.Text">
+    <value>Page</value>
+  </data>
+  <data name="Quote.Text">
+    <value>Цитата</value>
+  </data>
+  <data name="Results.Text">
+    <value>Результаты</value>
+  </data>
+  <data name="SearchNoResult.Text">
+    <value>К сожалению, ничего не было найдено.</value>
+  </data>
+  <data name="SearchResult.Text">
+    <value>Найдено {0} записей.</value>
+  </data>
+  <data name="ShowAll.Text">
+    <value>С ответами</value>
+  </data>
+  <data name="ShowNoReplies.Text">
+    <value>Без ответов</value>
+  </data>
+  <data name="SubForums.Text">
+    <value>Подфорумы</value>
+  </data>
+  <data name="Title.Text">
+    <value>Заголовок</value>
+  </data>
+  <data name="to.Text">
+    <value>
+    </value>
+  </data>
+  <data name="UnreadThreads.Text">
+    <value>Непрочитанные</value>
+  </data>
+  <data name="ViewLatest.Text">
+    <value>Последние</value>
+  </data>
+  <data name="ViewUnreadThreads.Text">
+    <value>Непрочитанные</value>
   </data>
 </root>

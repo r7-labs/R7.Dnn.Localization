@@ -121,9 +121,78 @@
     <value>Причина</value>
   </data>
   <data name="plReason.Help" xml:space="preserve">
-    <value>Это ответ, который отправляется на адрес эл.почты автора удаленного сообщения, для объяснения причины удаления.</value>
+    <value>Ответ, который отправляется на адрес эл.почты автора проблемного сообщения, для объяснения причины удаления или правки.</value>
   </data>
   <data name="plDeleteTemplate.Text" xml:space="preserve">
-    <value>Шаблон эл.почты</value>
+    <value>Шаблон сообщения</value>
+  </data>
+  <data name="AdvertisingPost.Text">
+    <value>Сообщение содержит рекламу</value>
+  </data>
+  <data name="ConfirmMessage.Text">
+    <value>Уверены, что хотите удалить это сообщение?</value>
+  </data>
+  <data name="ControlTitle_postdelete.Text">
+    <value>Удаление сообщения</value>
+  </data>
+  <data name="DeleteThread.Text">
+    <value>Будет удалена вся тема целиком. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="DuplicatePost.Text">
+    <value>Сообщение дублирует уже существующее</value>
+  </data>
+  <data name="lblTitleSubject.Text">
+    <value>Тема: </value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Удаление сообщения форума&lt;/h1&gt;&lt;p&gt;Здесь модераторы могут удалить сообщение из темы или исправить его текст.&lt;/p&gt;</value>
+  </data>
+  <data name="ModuleTitle.Text">
+    <value>Удаление темы</value>
+  </data>
+  <data name="OffTopicPost.Text">
+    <value>Сообщение не соответствует теме</value>
+  </data>
+  <data name="plAuthor.Help">
+    <value>Автор и время публикации сообщения</value>
+  </data>
+  <data name="plAuthor.Text">
+    <value>Автор и время:</value>
+  </data>
+  <data name="plBody.Help">
+    <value>Текст сообщения (основное содержание). </value>
+  </data>
+  <data name="plBody.Text">
+    <value>Текст</value>
+  </data>
+  <data name="plDeleteTemplate.Help">
+    <value>При выборе шаблона сообщения автоматически заполняется поле причины удаления и формируется шаблон ответа.</value>
+  </data>
+  <data name="plEmailUser.Help">
+    <value>Отметьте, чтобы пользователь получил оповещение по эл. почте о том, что его сообщение было удалено. </value>
+  </data>
+  <data name="plEmailUser.Text">
+    <value>Оповестить пользователя</value>
+  </data>
+  <data name="PolicyPost.Text">
+    <value>Ваше сообщение нарушает правила форума</value>
+  </data>
+  <data name="PostClearedSubject.Text">
+    <value>Текст Вашего сообщения был исправлен.</value>
+  </data>
+  <data name="PostDeletedSubject.Text">
+    <value>Ваше сообщение было удалено.</value>
+  </data>
+  <data name="PostedBy.Text">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="ProfanePost.Text">
+    <value>Ваше сообщение имеет оскорбительный характер</value>
+  </data>
+  <data name="SpamPost.Text">
+    <value>Ваше сообщение определено как спам</value>
+  </data>
+  <data name="valEmailedResponse.Text">
+    <value>Укажите ответ</value>
   </data>
 </root>

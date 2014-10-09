@@ -117,23 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plGroup.Help" xml:space="preserve">
-    <value>Группа форумов, откуда будет браться контент. &lt;br /&gt;&lt;strong&gt;Совет&lt;/strong&gt;&lt;br /&gt;Вы должны использовать пункт "Добавить существующий модуль" панели управления, чтобы брать контент из "родительского" форума.&lt;strong&gt;Совет 2&lt;/strong&gt;&lt;br /&gt;При выборе аггрегированной группы пользователи будут автоматически перенаправлены на просмотр аггрегированных сообщений, поскольку в этой группе возможно наличие только одного форума.&lt;strong&gt;Примечание&lt;/strong&gt;&lt;br /&gt;Эти настройки относятся к модулю на странице, т.е. копия модуля может иметь другую группу по-умолчанию</value>
+  <data name="cmdAvatar.Text" xml:space="preserve">
+    <value>Аватар</value>
   </data>
-  <data name="chkEnableFooter.Text" xml:space="preserve">
-    <value>Включить подвал</value>
+  <data name="cmdBookmark.Text" xml:space="preserve">
+    <value>Закладки</value>
   </data>
-  <data name="plDefaultForum.Help" xml:space="preserve">
-    <value>Выбор форума по-умолчанию позволяет отображать его в качестве первого, что увидит пользователь, впервые зайдя на страницу с этим модулем.&lt;br /&gt;&lt;em&gt;ПРИМЕЧАНИЕ&lt;/em&gt;&lt;br /&gt;
-Эти настройки хранятся на уровне страницы/модуля, поэтому даже копия модуля может иметь другой форум по-умолчанию.</value>
+  <data name="cmdOverview.Text" xml:space="preserve">
+    <value>Обзор</value>
   </data>
-  <data name="ControlTitle_settings.Text">
+  <data name="cmdProfile.Text" xml:space="preserve">
+    <value>Профайл</value>
+  </data>
+  <data name="cmdSignature.Text" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="cmdTracking.Text" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="cmdUserSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ForumSettings.Text" xml:space="preserve">
     <value>Настройки форума</value>
   </data>
-  <data name="plDefaultForum.Text">
-    <value>Форум по-умолчанию</value>
+  <data name="GeneralSettings.Text" xml:space="preserve">
+    <value>Панель управления</value>
   </data>
-  <data name="plGroup.Text">
-    <value>Группа форумов</value>
+  <data name="New.Text" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="ProfileSettings.Text" xml:space="preserve">
+    <value>Профайл</value>
+  </data>
+  <data name="Selected.Text" xml:space="preserve">
+    <value>Выбранный пункт меню</value>
+  </data>
+  <data name="Sent.Text" xml:space="preserve">
+    <value>Отправлено</value>
   </data>
 </root>

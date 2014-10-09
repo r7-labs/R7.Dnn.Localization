@@ -117,23 +117,79 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plGroup.Help" xml:space="preserve">
-    <value>Группа форумов, откуда будет браться контент. &lt;br /&gt;&lt;strong&gt;Совет&lt;/strong&gt;&lt;br /&gt;Вы должны использовать пункт "Добавить существующий модуль" панели управления, чтобы брать контент из "родительского" форума.&lt;strong&gt;Совет 2&lt;/strong&gt;&lt;br /&gt;При выборе аггрегированной группы пользователи будут автоматически перенаправлены на просмотр аггрегированных сообщений, поскольку в этой группе возможно наличие только одного форума.&lt;strong&gt;Примечание&lt;/strong&gt;&lt;br /&gt;Эти настройки относятся к модулю на странице, т.е. копия модуля может иметь другую группу по-умолчанию</value>
+  <data name="plThreadsPerPage.Text" xml:space="preserve">
+    <value>Тем на страницу</value>
   </data>
-  <data name="chkEnableFooter.Text" xml:space="preserve">
-    <value>Включить подвал</value>
+  <data name="plThreadsPerPage.Help" xml:space="preserve">
+    <value>Количество тем, отображаемых на одной странице.</value>
   </data>
-  <data name="plDefaultForum.Help" xml:space="preserve">
-    <value>Выбор форума по-умолчанию позволяет отображать его в качестве первого, что увидит пользователь, впервые зайдя на страницу с этим модулем.&lt;br /&gt;&lt;em&gt;ПРИМЕЧАНИЕ&lt;/em&gt;&lt;br /&gt;
-Эти настройки хранятся на уровне страницы/модуля, поэтому даже копия модуля может иметь другой форум по-умолчанию.</value>
+  <data name="plPostsPerPage.Text" xml:space="preserve">
+    <value>Сообщений на страницу</value>
   </data>
-  <data name="ControlTitle_settings.Text">
-    <value>Настройки форума</value>
+  <data name="plPostsPerPage.Help" xml:space="preserve">
+    <value>Количество сообщений, отображаемых на одной странице.</value>
   </data>
-  <data name="plDefaultForum.Text">
-    <value>Форум по-умолчанию</value>
+  <data name="plOnlineStatus.Text" xml:space="preserve">
+    <value>Показывать онлайн</value>
   </data>
-  <data name="plGroup.Text">
-    <value>Группа форумов</value>
+  <data name="plOnlineStatus.Help" xml:space="preserve">
+    <value>Если отмечено, состояние пользователя (онлайн или офлайн) будет показано другим пользователям.</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>Должно быть числом!</value>
+  </data>
+  <data name="AllExpanded.Text" xml:space="preserve">
+    <value>Развернуть все</value>
+  </data>
+  <data name="AllCollapsed.Text" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="plEnableForumModNotify.Text" xml:space="preserve">
+    <value>Уведомлять при модерации</value>
+  </data>
+  <data name="plEnableForumModNotify.Help" xml:space="preserve">
+    <value>Если отмечено, Вы будете получать уведомления по эл. почте относительно сообщений, проходящих модерацию.</value>
+  </data>
+  <data name="plClearReads.Text" xml:space="preserve">
+    <value>Отметить все как непрочитанные</value>
+  </data>
+  <data name="plClearReads.Help" xml:space="preserve">
+    <value>Отметьте, чтобы пометить все форумы и темы как непрочитанные.</value>
+  </data>
+  <data name="cmdClearReads.Text" xml:space="preserve">
+    <value>Отметить как непрочитанные</value>
+  </data>
+  <data name="plEmailFormat.Text" xml:space="preserve">
+    <value>Формат уведомления</value>
+  </data>
+  <data name="plEnableDefaultPostNotify.Help" xml:space="preserve">
+    <value>Если отмечено, пользователи будут получать уведомления об ответах в темах, в которых они оставляли сообщения. Они могут отключить это уведомление при публикации сообщения на форуме.</value>
+  </data>
+  <data name="plEnableDefaultPostNotify.Text" xml:space="preserve">
+    <value>Уведомлять при ответе</value>
+  </data>
+  <data name="plEnableSelfNotifications.Help" xml:space="preserve">
+    <value>Если отмечено, пользователи будут получать уведомления о своих сообщениях по эл.  почте.</value>
+  </data>
+  <data name="plEnableSelfNotifications.Text" xml:space="preserve">
+    <value>Уведомлять о своих сообщениях</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Успешно обновлено!</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Пользовательская панель управления: редактирование настроек форума</value>
+  </data>
+  <data name="plEmailFormat.Help" xml:space="preserve">
+    <value>Формат уведомления, отправляемого по эл. почте, HTML или текст.</value>
+  </data>
+  <data name="HTML.Text" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="Text.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="ClearedReads.Text" xml:space="preserve">
+    <value>Все форумы и темы помечены как непрочитанные.</value>
   </data>
 </root>

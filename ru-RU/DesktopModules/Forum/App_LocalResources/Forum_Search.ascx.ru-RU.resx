@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plFromDate.Text" xml:space="preserve">
-    <value>От даты</value>
-  </data>
-  <data name="plFromDate.Help" xml:space="preserve">
-    <value>Производить поиск в сообщениях, которые опубликованы после указанной даты</value>
-  </data>
-  <data name="plToDate.Text" xml:space="preserve">
-    <value>До даты</value>
-  </data>
-  <data name="plToDate.Help" xml:space="preserve">
-    <value>Производить поиск в сообщениях, опубликованных до этой даты включительно</value>
-  </data>
   <data name="plForums.Text" xml:space="preserve">
     <value>Искать в</value>
   </data>
@@ -139,39 +127,48 @@
     <value>Тема содержит</value>
   </data>
   <data name="plSubject.Help" xml:space="preserve">
-    <value>Производить поиск в сообщениях тема которых содержит указанную фразу</value>
+    <value>Ограничивает поиск в сообщениях, тема которых содержит указанную поисковую фразу</value>
   </data>
   <data name="plBody.Text" xml:space="preserve">
     <value>Текст содержит</value>
   </data>
   <data name="plBody.Help" xml:space="preserve">
-    <value>Производить поиск в сообщениях, которые содержат указанную фразу</value>
+    <value>Ограничивает поиск сообщениями, которые содержат указанную поисковую фразу. Также можно указать одновременно несколько поисковых фраз, разделив их запятыми (например: слово1, слово2, слово3)</value>
   </data>
   <data name="cmdSearch.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
   <data name="ControlTitle_forumsearch.Text" xml:space="preserve">
-    <value>Поиск в форуме</value>
-  </data>
-  <data name="cmdCalFrom.Text" xml:space="preserve">
-    <value>Календарь</value>
-  </data>
-  <data name="cmdCalTo.Text" xml:space="preserve">
-    <value>Календарь</value>
+    <value>Поиск на форуме</value>
   </data>
   <data name="AnyStatus.Text">
-    <value>Любой статус</value>
+    <value>Любое состояние</value>
   </data>
   <data name="plThreadStatus.Help">
-    <value>Статус темы, сообщения с которым вы ищете. Если у форума отключена поддержка статусов темы, то этот пункт будет проигнорирован.</value>
+    <value>Укажите состояние темы, сообщения с которой Вы ищете. Если у форума отключена поддержка состояний тем темы, то это значение будет просто проигнорировано.</value>
   </data>
   <data name="plThreadStatus.Text">
-    <value>Статус темы</value>
+    <value>Состояние темы</value>
   </data>
   <data name="plUserSuggest.Help">
     <value>Пользователи, создавшие исходные сообщения.</value>
   </data>
   <data name="plUserSuggest.Text">
     <value>Авторы сообщений</value>
+  </data>
+  <data name="lblEndDate.Text">
+    <value>Конечная дата</value>
+  </data>
+  <data name="lblStartDate.Text">
+    <value>Начальная дата</value>
+  </data>
+  <data name="plPostDates.Help">
+    <value>Ограничивает поиск сообщениями, созданными в указанный период</value>
+  </data>
+  <data name="plPostDates.Text">
+    <value>Даты сообщений</value>
+  </data>
+  <data name="valCompareDates.Text">
+    <value>Конечная дата должна быть больше начальной даты.</value>
   </data>
 </root>

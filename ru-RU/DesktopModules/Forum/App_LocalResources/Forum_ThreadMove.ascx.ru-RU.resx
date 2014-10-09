@@ -120,38 +120,32 @@
   <data name="ManageCategory.Text" xml:space="preserve">
     <value>Управление категориями</value>
   </data>
-  <data name="plSubject.Text" xml:space="preserve">
-    <value>Тема</value>
-  </data>
-  <data name="plSubject.Help" xml:space="preserve">
-    <value>Тема, которую вы перемещаете.&lt;br&gt;(Только для чтения)</value>
-  </data>
   <data name="plOldForum.Text" xml:space="preserve">
     <value>Исходный форум</value>
   </data>
   <data name="plOldForum.Help" xml:space="preserve">
-    <value>Форум, откуда вы перемещаете тему.&lt;br&gt;(Только для чтения)</value>
+    <value>Форум, из которого перемещается тема.&lt;br /&gt;(Только для чтения)</value>
   </data>
   <data name="plNewForum.Text" xml:space="preserve">
     <value>Новый форум</value>
   </data>
   <data name="plNewForum.Help" xml:space="preserve">
-    <value>Форум, в который переместить тему.</value>
+    <value>Форум, в который перемещается тема.</value>
   </data>
   <data name="NoForumSeleted.Text" xml:space="preserve">
-    <value>Вы должны выбрать куда переместить тему.</value>
+    <value>Укажите форум, в который требуется переместить тему.</value>
   </data>
   <data name="OldForumSeleted.Text" xml:space="preserve">
-    <value>Вы должны выбрать новый форум для темы.</value>
+    <value>Укажите другой форум, в который требуется переместить тему.</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Форум - переместить тему&lt;/h1&gt;&lt;p&gt;Из этого окна модератор форума может переместить тему в другой форум.&lt;br&gt;Это используется в случае, когда пользователь создал тему в неподходящем форуме, однако существует форум, для которого эта тема подходит.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;Перемещение темы форума&lt;/h1&gt;&lt;p&gt;Отсюада модератор форума может переместить тему в другой форум.&lt;br /&gt;Это полезно в том случае, когда пользователь создал тему в неподходящем форуме, однако существует форум, для которого эта тема подходит.&lt;/p&gt;</value>
   </data>
   <data name="lblInfo.Text" xml:space="preserve">
-    <value>Вы должны выбрать форум, в который переместить тему</value>
+    <value>Укажите форум, в который требуется переместить тему.</value>
   </data>
   <data name="ControlTitle_threadmove.Text" xml:space="preserve">
-    <value>Переместить тему</value>
+    <value>Перемещение темы</value>
   </data>
   <data name="cmdMove.Text" xml:space="preserve">
     <value>Переместить тему</value>
@@ -160,9 +154,12 @@
     <value>Переместить тему</value>
   </data>
   <data name="plEmailUsers.Text" xml:space="preserve">
-    <value>Уведомлять при перемещении</value>
+    <value>Уведомить участников</value>
   </data>
   <data name="plEmailUsers.Help" xml:space="preserve">
-    <value>Если включено, все участники темы получат уведомление о перемещении темы.</value>
+    <value>Если включено, всем пользователям, участвующим в обсуждении темы, будет отправлено уведомление по эл. почте о перемещении темы.</value>
+  </data>
+  <data name="lblSubjectTitle.Text">
+    <value>Тема: </value>
   </data>
 </root>

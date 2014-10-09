@@ -121,12 +121,69 @@
     <value>Название перемещаемой темы.&lt;br /&gt;(только для чтения)</value>
   </data>
   <data name="plOldForum.Help" xml:space="preserve">
-    <value>Форум, из которого перемещаетcя тема.&lt;br /&gt; (только для чтения)</value>
+    <value>Форум, из которого перемещается тема.&lt;br /&gt;(Только для чтения)</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Форум - Переместить тему&lt;/h1&gt;&lt;p&gt;Здесь модератор форума может переместить тему в другой форум.&lt;br /&gt;Это бывает полезно, когда пользователи создают тему в форуме (категории), тематика которого меньше соответствует новой теме, чем тематика других существующих форумов.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;Перемещение темы форума&lt;/h1&gt;&lt;p&gt;Отсюада модератор форума может переместить тему в другой форум.&lt;br /&gt;Это полезно в том случае, когда пользователь создал тему в неподходящем форуме, однако существует форум, для которого эта тема подходит.&lt;/p&gt;</value>
   </data>
   <data name="plEmailUsers.Help" xml:space="preserve">
-    <value>Если включено, все пользователи, участвующие в этой теме, получат уведомление по эл.почте о том, что тема была перемещена.</value>
+    <value>Если включено, всем пользователям, участвующим в обсуждении темы, будет отправлено уведомление по эл. почте о перемещении темы.</value>
+  </data>
+  <data name="cmdMove.Text">
+    <value>Разделить тему</value>
+  </data>
+  <data name="ControlTitle_threadsplit.Text">
+    <value>Разделение темы</value>
+  </data>
+  <data name="IncludePostSplit.Text">
+    <value>Сообщение в новой теме?</value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>Укажите форум, в который требуется переместить тему.</value>
+  </data>
+  <data name="lblMemberSince.Text">
+    <value>Участник с</value>
+  </data>
+  <data name="lblMoveThread.Text">
+    <value>Переместить тему</value>
+  </data>
+  <data name="ManageCategory.Text">
+    <value>Управление категориями</value>
+  </data>
+  <data name="NoForumSeleted.Text">
+    <value>Укажите форум, в который требуется переместить тему.</value>
+  </data>
+  <data name="OldForumSeleted.Text">
+    <value>Укажите другой форум, в который требуется переместить тему.</value>
+  </data>
+  <data name="plEmailUsers.Text">
+    <value>Уведомить участников</value>
+  </data>
+  <data name="plNewForum.Help">
+    <value>Форум, в который перемещается тема.</value>
+  </data>
+  <data name="plNewForum.Text">
+    <value>Новый форум</value>
+  </data>
+  <data name="plOldForum.Text">
+    <value>Исходный форум</value>
+  </data>
+  <data name="plPost.Help">
+    <value>Это сообщение будет первым в новой теме, созданной в результате разделения исходной.</value>
+  </data>
+  <data name="plPost.Text">
+    <value>Сообщение о разделении</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Тема</value>
+  </data>
+  <data name="PostApproved.Text">
+    <value>Сообщение ожидает проверки модератором.</value>
+  </data>
+  <data name="PostReported.Text">
+    <value>На это сообщение были жалобы.</value>
+  </data>
+  <data name="ThreadSplitPostApprove.Text">
+    <value>Все сообщения, перемещаемые в новую тему, которые не были утверждены модератором, будут автоматически утверждены в результате разделения!</value>
   </data>
 </root>

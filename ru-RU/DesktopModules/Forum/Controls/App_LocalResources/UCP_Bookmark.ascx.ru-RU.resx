@@ -117,23 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plGroup.Help" xml:space="preserve">
-    <value>Группа форумов, откуда будет браться контент. &lt;br /&gt;&lt;strong&gt;Совет&lt;/strong&gt;&lt;br /&gt;Вы должны использовать пункт "Добавить существующий модуль" панели управления, чтобы брать контент из "родительского" форума.&lt;strong&gt;Совет 2&lt;/strong&gt;&lt;br /&gt;При выборе аггрегированной группы пользователи будут автоматически перенаправлены на просмотр аггрегированных сообщений, поскольку в этой группе возможно наличие только одного форума.&lt;strong&gt;Примечание&lt;/strong&gt;&lt;br /&gt;Эти настройки относятся к модулю на странице, т.е. копия модуля может иметь другую группу по-умолчанию</value>
+  <data name="by.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="chkEnableFooter.Text" xml:space="preserve">
-    <value>Включить подвал</value>
+  <data name="NoThreads.Text" xml:space="preserve">
+    <value>У Вас нет тем, добавленных в закладки.</value>
   </data>
-  <data name="plDefaultForum.Help" xml:space="preserve">
-    <value>Выбор форума по-умолчанию позволяет отображать его в качестве первого, что увидит пользователь, впервые зайдя на страницу с этим модулем.&lt;br /&gt;&lt;em&gt;ПРИМЕЧАНИЕ&lt;/em&gt;&lt;br /&gt;
-Эти настройки хранятся на уровне страницы/модуля, поэтому даже копия модуля может иметь другой форум по-умолчанию.</value>
+  <data name="PostInfo.Text" xml:space="preserve">
+    <value>Последнее сообщение</value>
   </data>
-  <data name="ControlTitle_settings.Text">
-    <value>Настройки форума</value>
+  <data name="UserInfo.Text" xml:space="preserve">
+    <value>Профайл</value>
   </data>
-  <data name="plDefaultForum.Text">
-    <value>Форум по-умолчанию</value>
+  <data name="cmdRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
   </data>
-  <data name="plGroup.Text">
-    <value>Группа форумов</value>
+  <data name="LastPost.Header" xml:space="preserve">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="ReadPost.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="RemoveItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить выбранные элементы из Вашего списка закладок? </value>
+  </data>
+  <data name="Subject.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Bookmark.Text" xml:space="preserve">
+    <value>Пользовательская панель управления: закладки</value>
+  </data>
+  <data name="UnreadPost.Text" xml:space="preserve">
+    <value>Тема с непрочитанными сообщениями</value>
+  </data>
+  <data name="TotalPosts.Header" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="Delete.Header" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>У Вас нет тем, добавленных в закладки.</value>
   </data>
 </root>

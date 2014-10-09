@@ -117,23 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plGroup.Help" xml:space="preserve">
-    <value>Группа форумов, откуда будет браться контент. &lt;br /&gt;&lt;strong&gt;Совет&lt;/strong&gt;&lt;br /&gt;Вы должны использовать пункт "Добавить существующий модуль" панели управления, чтобы брать контент из "родительского" форума.&lt;strong&gt;Совет 2&lt;/strong&gt;&lt;br /&gt;При выборе аггрегированной группы пользователи будут автоматически перенаправлены на просмотр аггрегированных сообщений, поскольку в этой группе возможно наличие только одного форума.&lt;strong&gt;Примечание&lt;/strong&gt;&lt;br /&gt;Эти настройки относятся к модулю на странице, т.е. копия модуля может иметь другую группу по-умолчанию</value>
+  <data name="cmdHome.Text" xml:space="preserve">
+    <value>Назад</value>
   </data>
-  <data name="chkEnableFooter.Text" xml:space="preserve">
-    <value>Включить подвал</value>
-  </data>
-  <data name="plDefaultForum.Help" xml:space="preserve">
-    <value>Выбор форума по-умолчанию позволяет отображать его в качестве первого, что увидит пользователь, впервые зайдя на страницу с этим модулем.&lt;br /&gt;&lt;em&gt;ПРИМЕЧАНИЕ&lt;/em&gt;&lt;br /&gt;
-Эти настройки хранятся на уровне страницы/модуля, поэтому даже копия модуля может иметь другой форум по-умолчанию.</value>
-  </data>
-  <data name="ControlTitle_settings.Text">
-    <value>Настройки форума</value>
-  </data>
-  <data name="plDefaultForum.Text">
-    <value>Форум по-умолчанию</value>
-  </data>
-  <data name="plGroup.Text">
-    <value>Группа форумов</value>
+  <data name="ControlTitle_mcp.Text" xml:space="preserve">
+    <value>Панель управления модератора</value>
   </data>
 </root>

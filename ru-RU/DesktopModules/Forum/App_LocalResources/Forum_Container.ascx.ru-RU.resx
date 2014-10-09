@@ -121,13 +121,13 @@
     <value>[ForumCount] форумов в [GroupCount] группах</value>
   </data>
   <data name="NewPostsToday.Text" xml:space="preserve">
-    <value>[PostCount] сообщение(ий) сегодня</value>
+    <value>[PostCount] сообщений сегодня</value>
   </data>
   <data name="NewPostsFromDateTime.Text" xml:space="preserve">
-    <value>[PostCount] сообщение(ий) с [DateTime] </value>
+    <value>[PostCount] сообщений от [DateTime] </value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Форум&lt;/h1&gt;&lt;p&gt;Модуль форума - поддерживаемый сообществом модуль, используемый для взаимодействия пользователей.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;Модуль форума&lt;/h1&gt;&lt;p&gt;Модуль форума - поддерживаемый сообществом модуль, используемый для взаимодействия пользователей.&lt;/p&gt;</value>
   </data>
   <data name="by.Text" xml:space="preserve">
     <value> </value>
@@ -301,10 +301,10 @@
     <value>След.</value>
   </data>
   <data name="NoneSpecified.Text">
-    <value>&lt;Не указано&gt;</value>
+    <value>-- Не указано --</value>
   </data>
   <data name="NoNewPostFromDateTime.Text">
-    <value>Нет новых сообщений с [DateTime]</value>
+    <value>Нет новых сообщений от [DateTime]</value>
   </data>
   <data name="NoNewPostToday.Text">
     <value>Нет новых сообщений сегодня</value>
@@ -322,7 +322,7 @@
     <value>на</value>
   </data>
   <data name="PageCountInfo.Text">
-    <value>Страница [PageNumber] из [PageCount]</value>
+    <value>Стр. [PageNumber] из [PageCount]</value>
   </data>
   <data name="PostCount.Text">
     <value>[PostCount] сообщений</value>
@@ -414,7 +414,28 @@
   <data name="Vote.Text">
     <value>Голосовать</value>
   </data>
-  <data name="WhatsNew.Text">
-    <value>Что нового</value>
+  <data name="AddBookmark.Text">
+    <value>Добавить в закладки</value>
+  </data>
+  <data name="cmdForumSubscribers.Text">
+    <value>Подписчики</value>
+  </data>
+  <data name="cmdThreadSubscribers.Text">
+    <value>Подписчики</value>
+  </data>
+  <data name="imgThreadNewest.Text">
+    <value>Первое непрочитанное сообщение</value>
+  </data>
+  <data name="Page.Text">
+    <value>Страница</value>
+  </data>
+  <data name="Poll.Text">
+    <value>Опрос</value>
+  </data>
+  <data name="RemoveBookmark.Text">
+    <value>Удалить из закладок</value>
+  </data>
+  <data name="ViewProfile.Text">
+    <value>Профайл</value>
   </data>
 </root>
