@@ -166,13 +166,13 @@
     <value>Выберите фото:</value>
   </data>
   <data name="ServerError.Text" xml:space="preserve">
-    <value>Неожиданная ошибка. Обычно так бывает, когда файл слишком большой.</value>
+    <value>Неожиданная ошибка. Обычно такое происходит, если подгружаемый файл слишком большой.</value>
   </data>
   <data name="Share.Text" xml:space="preserve">
     <value>Поделиться</value>
   </data>
   <data name="SharePlaceHolder.Text" xml:space="preserve">
-    <value>Расскажите миру о чем-нибудь...</value>
+    <value>Расскажите что-нибудь...</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
     <value>Выберите файл</value>
