@@ -130,7 +130,7 @@
     <value>Продолжить</value>
   </data>
   <data name="PermissionEdit.Text" xml:space="preserve">
-    <value>Только редакторам страницы</value>
+    <value>Только редакторам</value>
   </data>
   <data name="PermissionView.Text" xml:space="preserve">
     <value>Как у страницы</value>

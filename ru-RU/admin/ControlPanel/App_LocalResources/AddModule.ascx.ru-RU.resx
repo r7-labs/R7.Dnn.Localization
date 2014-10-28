@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Above.Text" xml:space="preserve">
-    <value>Над</value>
+    <value>Выше</value>
   </data>
   <data name="AddModule.Text" xml:space="preserve">
     <value>Новый модуль</value>
   </data>
   <data name="Below.Text" xml:space="preserve">
-    <value>Под</value>
+    <value>Ниже</value>
   </data>
   <data name="Bottom.Text" xml:space="preserve">
     <value>Последним</value>
@@ -154,7 +154,7 @@
     <value>Страница</value>
   </data>
   <data name="PermissionEdit.Text" xml:space="preserve">
-    <value>Только редакторы страниц</value>
+    <value>Только редакторам</value>
   </data>
   <data name="PermissionView.Text" xml:space="preserve">
     <value>Как у страницы</value>
