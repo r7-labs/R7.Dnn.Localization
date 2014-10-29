@@ -1,3 +1,7 @@
+# Files
+*.zip
+*.dnn
+
 # R7 extensions
 ru-RU/DesktopModules/R7.*
 ru-RU/DesktopModules/Redhound.*
