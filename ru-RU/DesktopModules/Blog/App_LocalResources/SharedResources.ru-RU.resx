@@ -205,13 +205,13 @@
     <value>Утвердить сообщение</value>
   </data>
   <data name="EDIT.Permission" xml:space="preserve">
-    <value>Редактирование сообщений</value>
+    <value>Редактировать сообщение</value>
   </data>
   <data name="ADDCOMMENT.Permission" xml:space="preserve">
     <value>Комментировать</value>
   </data>
   <data name="APPROVECOMMENT.Permission" xml:space="preserve">
-    <value>Утвержить комментарий</value>
+    <value>Утвердить комментарий</value>
   </data>
   <data name="ServerError.Text" xml:space="preserve">
     <value>Произошла ошибка при обработке запроса. Пожалуйста, повторите попытку позже.</value>
@@ -220,7 +220,7 @@
     <value>Произошла ошибка при обработке запроса: </value>
   </data>
   <data name="VIEWCOMMENT.Permission" xml:space="preserve">
-    <value>Комментарии</value>
+    <value>Просмотр комментариев</value>
   </data>
   <data name="CommentReportedNotify.Body" xml:space="preserve">
     <value>По сообщению {0}, {1} написал недопустимый комментарий:&lt;br/&gt;{2}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
@@ -239,6 +239,6 @@
     <value>Трекбэк от {0}&lt;br/&gt;&lt;br/&gt;&lt;a href="{1}"&gt;{2}&lt;/a&gt;</value>
   </data>
   <data name="AUTOAPPROVECOMMENT.Permission" xml:space="preserve">
-    <value>Утверждать комментарии</value>
+    <value>Комментарии утверждаются автоматически</value>
   </data>
 </root>
