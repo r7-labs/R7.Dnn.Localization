@@ -312,4 +312,10 @@
   <data name="lblAutoGenerateMissingSummary.Text" xml:space="preserve">
     <value>Генерировать отсутствующие описания</value>
   </data>
+  <data name="lblIncrementViewCount.Help">
+    <value>Увеличивать счетчик просмотров сообщения после указанного количества секунд</value>
+  </data>
+  <data name="lblIncrementViewCount.Text">
+    <value>Увеличивать счетчик просмотров после (секунд)</value>
+  </data>
 </root>
