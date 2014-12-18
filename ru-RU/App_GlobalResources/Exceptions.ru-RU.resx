@@ -127,174 +127,174 @@
     <value>Недостаточно прав. Файл не был добавлен.</value>
   </data>
   <data name="AddFileUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The file has not been added.</value>
+    <value>Подлежащая система выдала исключение. Файл не был добавлен.</value>
   </data>
   <data name="AddFolderAlreadyExists.Text" xml:space="preserve">
-    <value>The provided folder path already exists. The folder has not been added.</value>
+    <value>Указанная папка уже существует. Папка не была добавлена.</value>
   </data>
   <data name="AddFolderParentCannotBeFound.Text" xml:space="preserve">
-    <value>Parent folder cannot be found.</value>
+    <value>Невозможно найти родительскую папку.</value>
   </data>
   <data name="AddFolderUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The folder has not been added.</value>
+    <value>Подлежащая система выдала исключение. Папка не была добавлена.</value>
   </data>
   <data name="ArgumentCannotBeNullOrEmpty.Text" xml:space="preserve">
-    <value>The argument '{0}' cannot be null or empty.</value>
+    <value>Параметр '{0}' не может быть пустым или нулевой ссылкой.</value>
   </data>
   <data name="CopyFileNoSpaceAvailable.Text" xml:space="preserve">
-    <value>The website has no space available to store the specified file. The file has not been copied.</value>
+    <value>У этого сайта недостаточно свободного места для хранения указанного файла. Файл не был скопирован.</value>
   </data>
   <data name="CopyFilePermissionsNotMet.Text" xml:space="preserve">
-    <value>Permissions are not met. The file has not been copied.</value>
+    <value>Недостаточно полномочий. Файл не был скопирован.</value>
   </data>
   <data name="CopyFileUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system throw an exception. The file has not been copied.</value>
+    <value>Подлежащая система выдала исключение. Файл на был скопирован.</value>
   </data>
   <data name="DeleteFileUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The file has not been deleted.</value>
+    <value>Подлежащая система выдала исключение. Файл не был удален.</value>
   </data>
   <data name="DeleteFolderUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The folder has not been deleted.</value>
+    <value>Подлежащая система выдала исключение. Папка не была удалена.</value>
   </data>
   <data name="InvalidZipFile.Text" xml:space="preserve">
-    <value>The file specified is not a zip compressed file.</value>
+    <value>Указанный файл не является архивом формата zip.</value>
   </data>
   <data name="MoveFolderCannotComplete.Text" xml:space="preserve">
-    <value>The operation cannot be completed.</value>
+    <value>Операция не может быть завершена.</value>
   </data>
   <data name="MoveFolderUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The move operation cannot be completed. A manual folder synchronization may be necessary.</value>
+    <value>Подлежащая система выдала исключение. Операция перемещения не может быть завершена. Возможно, требуется ручная синхронизация папки.</value>
   </data>
   <data name="NoNetworkAvailableError.Text" xml:space="preserve">
-    <value>Network connectivity is needed but there is no network available.</value>
+    <value>Требуется подключение к сети, но доступных сетей не обнаружено.</value>
   </data>
   <data name="PropertyCannotBeNegative.Text" xml:space="preserve">
-    <value>The property '{1}' in object '{0}' cannot be negative.</value>
+    <value>Свойство '{1}' объекта '{0}' не может быть отрицательным числом.</value>
   </data>
   <data name="PropertyCannotBeNull.Text" xml:space="preserve">
-    <value>The property '{1}' in object '{0}' cannot be null.</value>
+    <value>Свойство '{1}' объекта '{0}' не может быть нулевой ссылкой.</value>
   </data>
   <data name="PropertyCannotBeNullOrEmpty.Text" xml:space="preserve">
-    <value>The property '{1}' in object '{0}' cannot be null or empty.</value>
+    <value>Свойство '{1}' объекта '{0}' не может быть пустым значением или нулевой ссылкой.</value>
   </data>
   <data name="RenameFileAlreadyExists.Text" xml:space="preserve">
-    <value>This folder already contains a file with the same name. The file has not been renamed.</value>
+    <value>Указанный файл не может быть переименован, поскольку в папке уже есть файл с таким именем.</value>
   </data>
   <data name="RenameFileUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The file has not been renamed.</value>
+    <value>Подлежащая система выдала исключение. Файл не может быть переименован.</value>
   </data>
   <data name="RenameFolderAlreadyExists.Text" xml:space="preserve">
-    <value>The destination folder already exists. The folder has not been renamed.</value>
+    <value>Указанная папка не может быть переименована, поскольку папка с таким именем уже существует.</value>
   </data>
   <data name="RenameFolderUnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception. The folder has not been renamed.</value>
+    <value>Подлежащая система выдала исключение. Папка не может быть переименована.</value>
   </data>
   <data name="UnderlyingSystemError.Text" xml:space="preserve">
-    <value>The underlying system threw an exception.</value>
+    <value>Подлежащая система выдала исключение.</value>
   </data>
   <data name="ValueCannotBeNegative.Text" xml:space="preserve">
-    <value>The argument '{0}' cannot be negative.</value>
+    <value>Параметр '{0}' не может быть отрицательным числом.</value>
   </data>
   <data name="ValueMustBeOfType.Text" xml:space="preserve">
-    <value>The argument '{0}' must be of type '{1}'.</value>
+    <value>Параметр '{0}' должен иметь тип '{1}'.</value>
   </data>
   <data name="WriteFileToResponsePermissionsNotMet.Text" xml:space="preserve">
-    <value>Permissions are not met. The file cannot be downloaded.</value>
+    <value>Недостаточно полномочий. Файл не может быть загружен.</value>
   </data>
   <data name="UserRelationshipForSameUsersError.Text" xml:space="preserve">
-    <value>Initiating and Target Users cannot have same UserID '{0}'.</value>
+    <value>В отношении могут принимать участие только разные пользователи, но не один пользователь с ид. '{0}'.</value>
   </data>
   <data name="UserRelationshipForDifferentPortalError.Text" xml:space="preserve">
-    <value>Website ID '{0}' of Initiating User is different from Website ID '{1}' of Target  User.</value>
+    <value>Ид. портала '{0}' пользователя, инициирующего отношение, отличается от ид. портала '{1}' целевого пользователя.</value>
   </data>
   <data name="UserRelationshipBlockedError.Text" xml:space="preserve">
-    <value>Target User '{0}' has Blocked Relationship '{1}' from Target User '{2}'.</value>
+    <value>Пользователь '{0}' заблокировал отношение '{1}' от пользователя '{2}'.</value>
   </data>
   <data name="UserRelationshipExistsError.Text" xml:space="preserve">
-    <value>Relationship already exists for Initiating User '{0}' Target User '{1}' RelationshipID '{2}'.</value>
+    <value>Отношение с ид. '{2}' уже существует от инициирующего пользователя '{0}' к целевому пользователю '{1}'.</value>
   </data>
   <data name="UserRelationshipDoesNotExistError.Text" xml:space="preserve">
-    <value>UserRelationshipID '{0}' does not exist.</value>
+    <value>Отношения с ид. '{0}' не существует.</value>
   </data>
   <data name="MsgSubjectOrBodyRequiredError.Text" xml:space="preserve">
-    <value>Both Subject and Body cannot be null or empty.</value>
+    <value>Поля темы и тела сообщения не могут быть пустыми или нулевыми ссылками.</value>
   </data>
   <data name="MsgBodyRequiredError.Text" xml:space="preserve">
-    <value>Body cannot be null or empty.</value>
+    <value>Тело не может быть пустым или нулевой ссылкой.</value>
   </data>
   <data name="MsgRolesOrUsersRequiredError.Text" xml:space="preserve">
-    <value>Both Roles and Users cannot be null or empty-lists.</value>
+    <value>Списки ролей и пользователей не могут быть пустыми или нулевыми сслыками.</value>
   </data>
   <data name="MsgSubjectTooBigError.Text" xml:space="preserve">
-    <value>Subject supplied is too big. Maximum {0}, Actual {1}.</value>
+    <value>Введенная тема сообщения слишком длинная - {1} символов. Допустимая длина - {0} символов.</value>
   </data>
   <data name="MsgToListTooBigError.Text" xml:space="preserve">
-    <value>To List supplied is too big. Maximum {0}, Actual {1}.</value>
+    <value>Слишком много получателей в списке - {1}. Допустимый максимум - {0}.</value>
   </data>
   <data name="MsgEmptyToListFoundError.Text" xml:space="preserve">
-    <value>Empty To List found while analyzing User and Roles List.</value>
+    <value>При анализе списка пользователей и ролей обнаружено, что список получателей пуст.</value>
   </data>
   <data name="MsgSenderRequiredError.Text" xml:space="preserve">
-    <value>Either Sender is null or Sender.UserID is negative.</value>
+    <value>Не указан отправитель или его ид. пользователя отрицательный.</value>
   </data>
   <data name="MsgOnlyHostOrAdminOrUserInGroupCanSendToRoleError.Text" xml:space="preserve">
-    <value>Only SuperUsers, Site Administrators or Users in the Group can send message to Role.</value>
+    <value>Только администраторы хоста, сайта или пользователи в той же группе могут отправлять сообщения роли целиком.</value>
   </data>
   <data name="MsgThrottlingIntervalNotMet.Text" xml:space="preserve">
-    <value>The message cannot be sent at this time, as the site administrator requires a minimum of {0} minute(s) between messages from the same user.</value>
+    <value>Сообщение не может быть отправлено в настоящий момент, так как установлено ограничение в {0} минут(ы) между отправкой сообщений от одного и того же пользователя.</value>
   </data>
   <data name="MsgAttachmentsNotAllowed.Text" xml:space="preserve">
-    <value>Attachments are not allowed.</value>
+    <value>Вложения запрещены.</value>
   </data>
   <data name="MsgMessageOrRecipientNotFound.Text" xml:space="preserve">
-    <value>Either Message is not found or Recipient is not present for the Message.</value>
+    <value>Не найдено сообщение, либо получатель недоступен для отправки сообщения.</value>
   </data>
   <data name="MsgRecipientLimitExceeded.Text" xml:space="preserve">
-    <value>Maximum Recipient Limit Reached. To send the message, please remove some recipients from the To List.</value>
+    <value>Достигнут предел количества получателей. Чтобы отправить сообщение, удалите некоторых получателей из списка.</value>
   </data>
   <data name="MsgMessageRequiredError.Text" xml:space="preserve">
-    <value>The message object supplied cannot be null.</value>
+    <value>Предоставленный объект сообщения не может быть нулевой ссылкой.</value>
   </data>
   <data name="TabNotInPortal.Text" xml:space="preserve">
-    <value>Specified Page is not in this Site.</value>
+    <value>Указанная страница не относится к этому сайту.</value>
   </data>
   <data name="TabModuleNotExist.Text" xml:space="preserve">
-    <value>Specified Module Instance does not exist.</value>
+    <value>Указанный экземпляр модуля не существует.</value>
   </data>
   <data name="ControllerNotFound.Text" xml:space="preserve">
-    <value>Unable to locate a controller for {0}.  Searched in namespaces: {1}.</value>
+    <value>Невозможно найти контроллер для {0} в пространствах имен: {1}.</value>
   </data>
   <data name="AmbiguousController.Text" xml:space="preserve">
-    <value>Multiple types were found that match the controller named '{0}' in namespaces {1}.</value>
+    <value>Было найдено несколько типов, соответствующих контроллеру с именем '{0}' в пространствах имен {1}.</value>
   </data>
   <data name="MaxLengthExceeded.Text" xml:space="preserve">
-    <value>The maximum length of the Field {0} has been exceeded</value>
+    <value>Превышена максимальная длина поля {0}</value>
   </data>
   <data name="InvalidPublishPeriod.Text" xml:space="preserve">
-    <value>The End Date must be after the Start Date</value>
+    <value>Конечная дата должна быть больше начальной</value>
   </data>
   <data name="ProfileService_UpdateVanityUrl.Error" xml:space="preserve">
-    <value>There was an error updating the Profile URL.  If you continue to see this message, please check with the site administrator.</value>
+    <value>Произошла ошибка при сохранении URL профайла. Если данное сообщение появляется постоянно, оповестите об этом администратора сайта.</value>
   </data>
   <data name="StartDateMustNotBeInThePast.Text" xml:space="preserve">
-    <value>The Start Date must not be in the past</value>
+    <value>Начальная дата не может быть в прошлом.</value>
   </data>
   <data name="StartDateRequired.Text" xml:space="preserve">
-    <value>The Start Date is required</value>
+    <value>Укажите начальную дату</value>
   </data>
   <data name="FileLockedRunningWorkflowError.Text" xml:space="preserve">
-    <value>File locked. The file cannot be updated because it is currently part of a workflow.</value>
+    <value>Файл заблокирован. Файл не может быть обновлен вследствие того, что в настоящее время он является частью рабочего процесса.</value>
   </data>
   <data name="InstallPackageError.Text" xml:space="preserve">
-    <value>Package {0} Installed failed because '{1}'.</value>
+    <value>Установка пакета {0} завершилась неудачей вследствие '{1}'.</value>
   </data>
   <data name="FileLockedOutOfPublishPeriodError.Text" xml:space="preserve">
-    <value>File locked. The file cannot be updated because it is not within a valid start and end date for publication.</value>
+    <value>Файл заблокирован. Файл не может быть обновлен вследствие того, что он еще не опубликован или уже снят с публикации.</value>
   </data>
   <data name="CannotMoveFolderAlreadyExists.Text" xml:space="preserve">
-    <value>The folder '{0}' cannot be moved. A folder with that name already exists under the folder '{1}'.</value>
+    <value>Папка '{0}' не может быть перемещена. Папка с таким же именем уже существует внутри папки '{1}'.</value>
   </data>
   <data name="CannotMoveFolderBetweenFolderType.Text" xml:space="preserve">
-    <value>The folder with name '{0}' cannot be moved. Move Folder operation between this two folder types is not allowed</value>
+    <value>Папка '{0}' не может быть перемещена. Операция перемещения между двумя этими типами папок не позволяется</value>
   </data>
 </root>

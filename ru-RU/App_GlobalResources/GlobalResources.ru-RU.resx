@@ -651,7 +651,7 @@ Sincerely,
 [Portal:PortalName]</value>
   </data>
   <data name="ViewSource.Action" xml:space="preserve">
-    <value>Исходный код</value>
+    <value>Разработка</value>
   </data>
   <data name="//Admin//Newsletters.String">
     <value>Рассылки</value>
@@ -810,7 +810,7 @@ Sincerely,
     <value>Мои заявки на техподдержку</value>
   </data>
   <data name="//Host//ProfessionalFeatures//SearchCrawlerAdmin.String">
-    <value>Управление кравлером поиска</value>
+    <value>Управление поиском</value>
   </data>
   <data name="//Host//ProfessionalFeatures//SecurityCenter.String">
     <value>Центр безопасности</value>
@@ -846,7 +846,7 @@ Sincerely,
     <value>Модули</value>
   </data>
   <data name="//NewsPromotions.String">
-    <value>Новости и промо</value>
+    <value>Новости и реклама</value>
   </data>
   <data name="//OurServices.String">
     <value>Наши услуги</value>
@@ -900,7 +900,7 @@ Sincerely,
     <value>Выполняем общее обновление</value>
   </data>
   <data name="LogClicks.Text">
-    <value>Отслеживать пользователя, дату и время каждого клика</value>
+    <value>Отслеживать пользователя, дату и время клика</value>
   </data>
   <data name="LogEnd.Text">
     <value>Конец</value>
@@ -921,7 +921,7 @@ Sincerely,
     <value>Ссылки на порталы</value>
   </data>
   <data name="SearchCrawler Admin.String">
-    <value>Администрирование краулера поиска</value>
+    <value>Управления поиском</value>
   </data>
   <data name="TrackClicks.Text">
     <value>Отслеживать количество кликов</value>
@@ -1039,15 +1039,15 @@ Sincerely,
     <value>Редактировать модуль</value>
   </data>
   <data name="EMAIL_BANNER_NOTIFICATION_BODY.Text">
-    <value>Banner: [Custom:0]
-Description: [Custom:1]
-Image: [Custom:2]
-CPM/Cost: [Custom:3]
-Impressions: [Custom:4]
-StartDate: [Custom:5]
-EndDate: [Custom:6]
-Views: [Custom:7]
-Click Throughs: [Custom:8]</value>
+    <value>Баннер: [Custom:0]
+Описание: [Custom:1]
+Изображение: [Custom:2]
+Цена за тысячу показов/Цена: [Custom:3]
+Впечатления: [Custom:4]
+Начало: [Custom:5]
+Окончание: [Custom:6]
+Показов: [Custom:7]
+Переходов: [Custom:8]</value>
   </data>
   <data name="EMAIL_BANNER_NOTIFICATION_SUBJECT.Text">
     <value>[Custom:0]</value>
@@ -1137,7 +1137,7 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
     <value>Последним</value>
   </data>
   <data name="MoveDown.Action">
-    <value>Вниз</value>
+    <value>Ниже</value>
   </data>
   <data name="MovePane.Action">
     <value>На</value>
@@ -1149,7 +1149,7 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
     <value>Первым</value>
   </data>
   <data name="MoveUp.Action">
-    <value>Вверх</value>
+    <value>Выше</value>
   </data>
   <data name="NoErrorsSending.Text">
     <value>Ошибок при посылке не произошло. </value>
@@ -1167,13 +1167,13 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
     <value>Экспорт в RSS</value>
   </data>
   <data name="TokenReplaceRestrictedProperty.Text">
-    <value>Error accessing [{0}:{1}], access to {1} is restricted for datasource {0}.</value>
+    <value>Ошибка доступа к [{0}:{1}], доступ к {1} ограничен источником данных {0}.</value>
   </data>
   <data name="TokenReplaceUnknownObject.Text">
-    <value>Error accessing [{0}:{1}], {0} is an unknown object source token.</value>
+    <value>Ошибка доступа к [{0}:{1}], {0} неизвестный признак объектного источника.</value>
   </data>
   <data name="TokenReplaceUnknownProperty.Text">
-    <value>Error accessing [{0}:{1}], {1} is unknown for datasource {0}.</value>
+    <value>Ошибка доступа к [{0}:{1}], {1} неизвестнен в источнике данных {0}.</value>
   </data>
   <data name="UnhandledError.Text">
     <value>Произошла непредвиденная ошибка.</value>
@@ -1188,6 +1188,6 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
     <value>Просмотр модуля</value>
   </data>
   <data name="Write to Folder.Permission">
-    <value>Писать в папку</value>
+    <value>Запись в папку</value>
   </data>
 </root>
