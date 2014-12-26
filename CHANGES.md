@@ -3,7 +3,7 @@
 ## Version 7.1.2-2
 
 * Updated and finished HTML module l10n
-* Added DigitalAssets (file manager) module 110n
+* Added DigitalAssets (file manager) module l10n
 * Update Blog module l10n for 6.1.0 version
 * Update global resources, mostly exceptions
 

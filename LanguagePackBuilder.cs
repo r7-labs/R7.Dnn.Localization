@@ -96,9 +96,22 @@ class LanguagePackBuilder
 	{
 		try
 		{ 
-			Directory.SetCurrentDirectory (CultureCode);
-			
 			var packFileName = ReplaceTags (PackFileNameTemplate);
+
+			// delete old tmp folder
+			if (Directory.Exists ("tmp"))
+				Directory.Delete (packFileName, true);	
+
+			// clone repository to local folder
+			// to get rid of untracked files
+			var git = new Process ();
+			git.StartInfo.FileName = "git";
+			git.StartInfo.Arguments = "clone . tmp";
+			git.Start ();
+			git.WaitForExit ();
+
+			// switch to tmp folder
+			Directory.SetCurrentDirectory (Path.Combine ("tmp", CultureCode));
 		
 			// delete old package
 			if (File.Exists (packFileName))
@@ -106,13 +119,15 @@ class LanguagePackBuilder
 
 			var zip = new Process ();
 			zip.StartInfo.FileName = "zip";
-			zip.StartInfo.Arguments = string.Format (
-				@"-q -r -9 -i \*.resx \*.dnn -UN=UTF8 ""{0}"" .", packFileName);
-
+			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn -UN=UTF8 ""{0}"" .", packFileName);
 			zip.Start ();
 			zip.WaitForExit ();
 
-			Directory.SetCurrentDirectory ("..");
+			// copy package file to original folder
+			File.Copy (packFileName, Path.Combine ("..", "..", packFileName), true);
+			
+			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
+			Directory.Delete ("tmp", true);
 		}
 		catch (Exception ex)
 		{
