@@ -40,25 +40,74 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddContent.Action">
-    <value>Редактор текста</value>
+    <value>Редактировать</value>
   </data>
   <data name="ModuleHelp.Text">
-    <value>&lt;h1&gt;Модуль &amp;laquo;Текст / HTML&amp;raquo;&lt;/h1&gt;
-&lt;P&gt;Модуль выводит обработанный обычный текст, форматированный текст или HTML. Доступно пять различных режимов редактирования: &lt;/P&gt;
-&lt;OL&gt;
-&lt;LI&gt;&lt;STRONG&gt;Простой текстовй редактор / текст&lt;/STRONG&gt;: Обрабатывается простой текст и тэги HTML. Перевод строки обрабатывается как HTML-тэг &amp;lt;br&amp;gt;. Текст выводится с использованием стиля "Normal", как он определен в стилевом файле Вашего сайта. 
-&lt;LI&gt;&lt;STRONG&gt;Простой текстовый редактор / HTML&lt;/STRONG&gt;: Выводит простой текст в формате HTML.
-&lt;LI&gt;&lt;STRONG&gt;Простой текстовый редактор / Необработанный&lt;/STRONG&gt;: Выводит простой текст в формате HTML. Перевод строки НЕ обрабатывается как HTML-тэг &amp;lt;br&amp;gt;.
-&lt;LI&gt;&lt;STRONG&gt;Редактор форматированного текста / HTML&lt;/STRONG&gt;: Позволяет импортировать готовый форматированный текст из других источников.
-&lt;LI&gt;&lt;STRONG&gt;Редактор форматированного текста / Дизайн&lt;/STRONG&gt;: Полнофункциональный WYSIWYG HTML процессор, наполненный такой функциональностью, как работа с гиперссылками, email-ссылками, файловая галерея для изображений и других типов файлов, списки и таблицы, проверка правописания и т.д.</value>
+    <value>&lt;p&gt;The Text/HTML Module renders plain text, rich text or HTML. Five different editing views are available: &lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;Basic Text Box / Text&lt;/strong&gt;: Renders basic text and HTML tags.  Text entered on a new line is rendered as a line break. The text style is the Normal style, as set in your style sheet.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Basic Text Box / HTML&lt;/strong&gt;: Displays basic text in HTML format.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Basic Text Box / Raw&lt;/strong&gt;: Displays basic text in HTML format. Text entered on a new line is not rendered as a line break.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Rich Text Editor / HTML&lt;/strong&gt;: Allows you to paste HTML from other sources.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Rich Text Editor / Design&lt;/strong&gt;: A full word processor or WYSIWYG (What You See is What You Get) editor with functionality such as hyperlinks, email links, File Manager image gallery, bullet points, spell check and more.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;p&gt;In addition the module also supports version management and workflow.  In  Community Edition two modes of workflow are available - Direct Publish and Content Staging.&lt;/p&gt;</value>
   </data>
   <data name="AddContent.Text">
-    <value>Нажмите сюда для ввода вашего текста</value>
+    <value>Нажмите здесь для изменения содержимого</value>
   </data>
   <data name="AddContentFromActionMenu.Text">
-    <value>Используйте меню модуля для редактирования содержимого</value>
+    <value>Чтобы изменить содержимое модуля, включите режим редактирования на панели инструментов. Затем можно использовать меню или кнопки действий модуля для управления содержимым</value>
   </data>
   <data name="AddContentFromToolBar.Text">
-    <value>Проведите курсором здесь, а затем нажмите на панель для редактирования содержимого</value>
+    <value>Выберите команду "Редактировать" в меню действий модуля.</value>
+  </data>
+  <data name="Bold.ToolTip">
+    <value>Полужирный</value>
+  </data>
+  <data name="Cancel.ToolTip">
+    <value>Отмена</value>
+  </data>
+  <data name="CreateLink.ToolTip">
+    <value>Создать ссылку</value>
+  </data>
+  <data name="Edit.ToolTip">
+    <value>Редактировать</value>
+  </data>
+  <data name="Indent.ToolTip">
+    <value>Увеличить отступ</value>
+  </data>
+  <data name="Italic.ToolTip">
+    <value>Курсив</value>
+  </data>
+  <data name="JustifyCenter.ToolTip">
+    <value>По центру</value>
+  </data>
+  <data name="JustifyLeft.ToolTip">
+    <value>По левому краю</value>
+  </data>
+  <data name="JustifyRight.ToolTip">
+    <value>По правому краю</value>
+  </data>
+  <data name="MyWork.Action">
+    <value>Управление содержимым</value>
+  </data>
+  <data name="OrderedList.ToolTip">
+    <value>Нумерованный список</value>
+  </data>
+  <data name="Outdent.ToolTip">
+    <value>Уменьшить отступ</value>
+  </data>
+  <data name="Save.ToolTip">
+    <value>Сохранить</value>
+  </data>
+  <data name="Underline.ToolTip">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="UnorderedList.ToolTip">
+    <value>Маркированный список</value>
+  </data>
+  <data name="Workflow.Action">
+    <value>Рабочий процесс</value>
   </data>
 </root>
