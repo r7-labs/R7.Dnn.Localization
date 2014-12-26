@@ -17,7 +17,7 @@ class LanguagePackBuilder
 	public const string PackType = "Core"; // DNN supports "Core" and "Extension", but not "Full" anymore
 	public const string PlatformType = "DNNCE";
 	public const string Version = "07.01.02";
-	public const string PackVersion = "1";
+	public const string PackVersion = "2";
 	public const string ManifestFileNameTemplate = "R7_${PlatformType}_${CultureCode}.dnn";
 	public const string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackType}.${Version}-${PackVersion}.${CultureCode}.zip";
 
