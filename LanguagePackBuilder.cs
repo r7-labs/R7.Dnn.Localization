@@ -12,14 +12,15 @@ class LanguagePackBuilder
 {
 	#region Parameters
 
-	public const string CultureCode = "ru-RU";
-	public const string CultureNameNative = "Русский (Россия)";
-	public const string PackType = "Core"; // DNN supports "Core" and "Extension", but not "Full" anymore
-	public const string PlatformType = "DNNCE";
-	public const string Version = "07.01.02";
-	public const string PackVersion = "2";
-	public const string ManifestFileNameTemplate = "R7_${PlatformType}_${CultureCode}.dnn";
-	public const string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackType}.${Version}-${PackVersion}.${CultureCode}.zip";
+	public string PackVersion = SafeGetEnvironmentVariable ("LPB_PACKVERSION", "0");
+
+	public string CultureCode = "ru-RU";
+	public string CultureNameNative = "Русский (Россия)";
+	public string PackType = "Core"; // DNN supports "Core" and "Extension", but not "Full" anymore
+	public string PlatformType = "DNNCE";
+	public string Version = "07.01.02";
+	public string ManifestFileNameTemplate = "R7_${PlatformType}_${CultureCode}.dnn";
+	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackType}.${Version}-${PackVersion}.${CultureCode}.zip";
 
 	#endregion
 
@@ -27,8 +28,7 @@ class LanguagePackBuilder
 	{
 		try 
 		{
-			GenerateManifest ();
-			CreatePackage ();
+			CreatePackage (GenerateManifest ());
 		}
 		catch (Exception ex)
 		{
@@ -36,7 +36,7 @@ class LanguagePackBuilder
 		}
 	}
 
-	private void GenerateManifest ()
+	private string GenerateManifest ()
 	{
 		try 
 		{
@@ -82,9 +82,11 @@ class LanguagePackBuilder
 
 			manifest = ReplaceTags (manifest);
 
-			var manifestFileName = ReplaceTags (ManifestFileNameTemplate);
+			var manifestFileName = Path.Combine (CultureCode, ReplaceTags (ManifestFileNameTemplate));
 		
-			File.WriteAllText (Path.Combine (CultureCode, manifestFileName), manifest);
+			File.WriteAllText (manifestFileName, manifest);
+
+			return manifestFileName;
 		}
 		catch (Exception ex)
 		{
@@ -92,7 +94,7 @@ class LanguagePackBuilder
 		}
 	}
 
-	private void CreatePackage ()
+	private void CreatePackage (string manifestFileName)
 	{
 		try
 		{ 
@@ -100,7 +102,7 @@ class LanguagePackBuilder
 
 			// delete old tmp folder
 			if (Directory.Exists ("tmp"))
-				Directory.Delete (packFileName, true);	
+				Directory.Delete ("tmp", true);	
 
 			// clone repository to local folder
 			// to get rid of untracked files
@@ -110,6 +112,9 @@ class LanguagePackBuilder
 			git.Start ();
 			git.WaitForExit ();
 
+			// copy manifest to tmp folder
+			File.Copy (manifestFileName, Path.Combine ("tmp", manifestFileName));
+
 			// switch to tmp folder
 			Directory.SetCurrentDirectory (Path.Combine ("tmp", CultureCode));
 		
@@ -117,6 +122,7 @@ class LanguagePackBuilder
 			if (File.Exists (packFileName))
 				File.Delete (packFileName);	
 
+			// create package
 			var zip = new Process ();
 			zip.StartInfo.FileName = "zip";
 			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn -UN=UTF8 ""{0}"" .", packFileName);
@@ -177,6 +183,13 @@ class LanguagePackBuilder
 		}
 
 		return result;
+	}
+
+	private static string SafeGetEnvironmentVariable (string variableName, string defaultValue)
+	{
+		var variableValue = Environment.GetEnvironmentVariable (variableName);
+
+		return !string.IsNullOrWhiteSpace (variableValue)? variableValue : defaultValue;
 	}
 }
 
