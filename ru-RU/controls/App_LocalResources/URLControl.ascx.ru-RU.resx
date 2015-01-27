@@ -148,10 +148,10 @@
     <value>Регистрировать число кликов?&lt;br/&gt;</value>
   </data>
   <data name="Log.Text" xml:space="preserve">
-    <value>Регистрировать пользователя, дату и время каждого клика?&lt;br/&gt;</value>
+    <value>Регистрировать пользователей и время?&lt;br/&gt;</value>
   </data>
   <data name="NewWindow.Text" xml:space="preserve">
-    <value>Открывать новом окне?&lt;br/&gt;</value>
+    <value>В новом окне?&lt;br/&gt;</value>
   </data>
   <data name="User.Text" xml:space="preserve">
     <value>Введите имя пользователя на сайте:&lt;br/&gt;</value>
