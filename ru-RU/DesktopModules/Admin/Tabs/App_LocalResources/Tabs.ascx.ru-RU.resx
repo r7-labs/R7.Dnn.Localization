@@ -117,64 +117,328 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TabManagement.Text" xml:space="preserve">
-    <value>Управление страницами</value>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О модуле "Управление страницами"&lt;/h1&gt;&lt;p&gt;С помощью этого модуля администратор может управлять страницами сайта.&lt;/p&gt;</value>
   </data>
-  <data name="cmdUp.Help" xml:space="preserve">
-    <value>Выше</value>
+  <data name="AddPage.Text">
+    <value>Добавить</value>
   </data>
-  <data name="cmdDown.Help" xml:space="preserve">
+  <data name="Appearance.Tabname">
+    <value>Оформление</value>
+  </data>
+  <data name="btnBulkCreate.Text">
+    <value>Создать страницы</value>
+  </data>
+  <data name="BulkCreateIntro.Text">
+    <value>Позволяет создать несколько страниц (по одной на каждую строку текста), подчиненных текущей. Для создания структуры из вложенных страниц, вставляйте нужное количество знаков "&gt;" перед именем вложенной страницы.</value>
+  </data>
+  <data name="bulkPagesLabel.Text">
+    <value>Страницы:</value>
+  </data>
+  <data name="CanNotDeleteHomeTab.Text">
+    <value>Нельзя удалить главную страницу сайта!</value>
+  </data>
+  <data name="CanNotDeleteSpecialTab.Text">
+    <value>Это специальная страница, и ее нельзя удалить!</value>
+  </data>
+  <data name="cmdCopySkin.Text">
+    <value>Копировать оформление для подчиненных</value>
+  </data>
+  <data name="cmdMore.Text">
+    <value>Дополнительные настройки</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Сохранить страницу</value>
+  </data>
+  <data name="Collapse.Text">
+    <value>Свернуть все</value>
+  </data>
+  <data name="Common.Tabname">
+    <value>Общие</value>
+  </data>
+  <data name="ConfirmDelete.Text">
+    <value>Будут удалены выбранная страница и все подчинненные. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="DefaultContainer.Text">
+    <value>&lt; По-умолчанию &gt;</value>
+  </data>
+  <data name="DefaultSkin.Text">
+    <value>&lt; По-умолчанию &gt;</value>
+  </data>
+  <data name="DeletePage.Text">
+    <value>Удалить страницу</value>
+  </data>
+  <data name="DesignCopied.Text">
+    <value>Шаблон оформления страницы применен ко всем подчиненным страницам</value>
+  </data>
+  <data name="DesignCopyError.Text">
+    <value>Произошла ошибка при применении выбранного шаблона оформления к подчиненным страницам</value>
+  </data>
+  <data name="DisablePage.Text">
+    <value>Отключить ссылку в меню</value>
+  </data>
+  <data name="EditPage.Text">
+    <value>Настройки страницы</value>
+  </data>
+  <data name="EmptyTabName.Text">
+    <value>Укажите имя страницы</value>
+  </data>
+  <data name="EnablePage.Text">
+    <value>Включить ссылку в меню</value>
+  </data>
+  <data name="ExceededQuota.Text">
+    <value>Нельзя добавить эту страницу, поскольку будет превышена установленная квота на количество страниц для данного сайта. Свяжитесь с администратором хостинга относительно увеличения квоты на количество страниц.</value>
+  </data>
+  <data name="Expand.Text">
+    <value>Раскрыть все</value>
+  </data>
+  <data name="HidePage.Text">
+    <value>Скрыть в меню</value>
+  </data>
+  <data name="Host.Text">
+    <value>Хост</value>
+  </data>
+  <data name="InvalidTabName.Text">
+    <value>Недопустимый заголовок страницы {0}!</value>
+  </data>
+  <data name="lblAdminOnly.Text">
+    <value>Для администраторов</value>
+  </data>
+  <data name="lblAllowIndex.Help">
+    <value>Данная настройка определяет, должна ли страница индексироваться поисковыми роботами. Для это используется значения INDEX/NOINDEX мета-тега ROBOTS.</value>
+  </data>
+  <data name="lblAllowIndex.Text">
+    <value>Разрешить индексирование:</value>
+  </data>
+  <data name="lblContainer.Help">
+    <value>Выбранный шаблон оформления модулей будет применен ко всем модулям на этой странице.</value>
+  </data>
+  <data name="lblContainer.Text">
+    <value>Шаблон оформления модулей</value>
+  </data>
+  <data name="lblDescription.Help">
+    <value>Введите описание страницы.</value>
+  </data>
+  <data name="lblDescription.Text">
+    <value>Описание страницы</value>
+  </data>
+  <data name="lblDisabled.Text">
+    <value>Отключена</value>
+  </data>
+  <data name="lblDisabledPage.Help">
+    <value>Если страница отключена, она не будет доступна для пользователей сайта. Это свойство можно использовать для скрытия содержимого, который может быть опубликован позднее.</value>
+  </data>
+  <data name="lblDisabledPage.Text">
+    <value>Отключена</value>
+  </data>
+  <data name="lblEveryone.Text">
+    <value>Общедоступна</value>
+  </data>
+  <data name="lblHidden.Text">
+    <value>Скрыта в меню</value>
+  </data>
+  <data name="lblHome.Text">
+    <value>Главная страница</value>
+  </data>
+  <data name="lblHostOnly.Text">
+    <value>Управлять:</value>
+  </data>
+  <data name="lblIconLarge.Help">
+    <value>Здесь можно выбрать большой значок для использования в модуле консоли.</value>
+  </data>
+  <data name="lblIconLarge.Text">
+    <value>Значок в консоли</value>
+  </data>
+  <data name="lblIconSmall.Help">
+    <value>Здесь можно значок для использования в меню.</value>
+  </data>
+  <data name="lblIconSmall.Text">
+    <value>Значок в меню</value>
+  </data>
+  <data name="lblKeywords.Help">
+    <value>Введите ключевые слова страницы, разделяя запятой. Эти слова используются поисковыми системами в процессе индексирования содержимого страниц сайта.</value>
+  </data>
+  <data name="lblKeywords.Text">
+    <value>Ключевые слова</value>
+  </data>
+  <data name="lblLegend.Text">
+    <value>Легенда</value>
+  </data>
+  <data name="lblMetaHead.Help">
+    <value>Введите любые теги "META", которые нужно включить в тег "HEAD" кода HTML этой страницы.</value>
+  </data>
+  <data name="lblMetaHead.Text">
+    <value>Мета-теги заголовка</value>
+  </data>
+  <data name="lblMetaRefresh.Help">
+    <value>Введите интервал времени между автоматическими обновлениями страницы. Пример: Введите "60" для указания интервала в 1 минуту, или оставьте поле пустым, чтобы отключить автоматическое обновление страницы.</value>
+  </data>
+  <data name="lblMetaRefresh.Text">
+    <value>Интервал обновления (секунд)</value>
+  </data>
+  <data name="lblName.Help">
+    <value>Введите имя страницы. Обычно этот текст отображается в меню.</value>
+  </data>
+  <data name="lblName.Text">
+    <value>Имя страницы</value>
+  </data>
+  <data name="lblNoRecords.Text">
+    <value>На выбранной странице нет модулей.</value>
+  </data>
+  <data name="lblPageSSL.Help">
+    <value>Укажите, необходимо ли использовать защищенное соединение (SSL) для этой страницы. Эта возможность будет включена только в том случае, если поддержка SSL включена на уровне сайта.</value>
+  </data>
+  <data name="lblPageSSL.Text">
+    <value>Защищенное соединение</value>
+  </data>
+  <data name="lblPermanentRedirect.Help">
+    <value>Отметьте, если Вы хотите оповестить веб-клиентов о том, что данная страница перемещена навсегда (HTTP 301). Это позволит поисковым системам ссылаться на целевой ресурс напрямую. В противном случае, будет использоваться временное перенаправление (HTTP 302). Значение игнорируется, если ничего не указано в поле Ссылка.</value>
+  </data>
+  <data name="lblPermanentRedirect.Text">
+    <value>Постоянное перенаправление</value>
+  </data>
+  <data name="lblRegistered.Text">
+    <value>Для зарегистрированных пользователей</value>
+  </data>
+  <data name="lblSecure.Text">
+    <value>Для отдельных ролей</value>
+  </data>
+  <data name="lblSitemapPriority.Help">
+    <value>Укажите степень важности страницы от (0 до 1.0) в карте сайта. Это значение поможет поисковой системе определить положение этой страницы относительно других страниц. Значение по-умолчанию: 0.5.</value>
+  </data>
+  <data name="lblSitemapPriority.Text">
+    <value>Важность</value>
+  </data>
+  <data name="lblSkin.Help">
+    <value>Шаблон оформления, применяемый к странице.</value>
+  </data>
+  <data name="lblSkin.Text">
+    <value>Шаблон оформления</value>
+  </data>
+  <data name="lblTags.Help">
+    <value>Отметьте элементы в выпадающем списке, чтобы задать метки этой страницы.</value>
+  </data>
+  <data name="lblTags.Text">
+    <value>Метки</value>
+  </data>
+  <data name="lblTitle.Help">
+    <value>Введите заголовок страницы. Этот текст будет показан в заголовке окна браузера.</value>
+  </data>
+  <data name="lblTitle.Text">
+    <value>Заголовок</value>
+  </data>
+  <data name="lblUrl.Help">
+    <value>Если Вы хотите, чтобы при открытии этой страницы производился переход на какой-либо другой ресурс, укажите значение поля Ссылка. Обратите внимание, что данное поле не является обязательным.</value>
+  </data>
+  <data name="lblUrl.Text">
+    <value>Ссылка</value>
+  </data>
+  <data name="lblVisible.Help">
+    <value>Вы можете выбрать, следует ли показывать страницу в меню сайта или нет. Если страница не включена в меню, попасть на нее по-прежнему можно, указав URL страницы в адресной строке браузера.</value>
+  </data>
+  <data name="lblVisible.Text">
+    <value>Включить в меню</value>
+  </data>
+  <data name="Link.Tabname">
+    <value>Ссылка</value>
+  </data>
+  <data name="MakeHome.Text">
+    <value>Сделать главной</value>
+  </data>
+  <data name="Metatags.Tabname">
+    <value>Мета-теги</value>
+  </data>
+  <data name="Module.Header">
+    <value>Модуль</value>
+  </data>
+  <data name="Modules.Tabname">
+    <value>Модули</value>
+  </data>
+  <data name="ModuleTitle.Header">
+    <value>Заголовок</value>
+  </data>
+  <data name="MovePageDown.Text">
     <value>Ниже</value>
   </data>
-  <data name="cmdLeft.Help" xml:space="preserve">
-    <value>На уровень выше</value>
+  <data name="MovePageUp.Text">
+    <value>Выше</value>
   </data>
-  <data name="cmdRight.Help" xml:space="preserve">
-    <value>На уровень ниже</value>
+  <data name="Options.Header">
+    <value>Настройки</value>
   </data>
-  <data name="cmdAdd.Text" xml:space="preserve">
-    <value>Новая страница</value>
+  <data name="PathDuplicateWithAlias.Text">
+    <value>Существует доменное имя сайте, совпадающее с именем страницы.</value>
   </data>
-  <data name="cmdEdit.Help" xml:space="preserve">
-    <value>Свойства</value>
+  <data name="Permissions.Tabname">
+    <value>Разрешения</value>
   </data>
-  <data name="cmdView.Help" xml:space="preserve">
-    <value>Просмотр</value>
+  <data name="root.Text">
+    <value>Корень сайта</value>
   </data>
-  <data name="AddContent.Action" xml:space="preserve">
-    <value>Новая страница</value>
+  <data name="Search.Text">
+    <value>Поиск</value>
   </data>
-  <data name="MovePage.Text" xml:space="preserve">
-    <value>Переместить</value>
+  <data name="SEO.Tabname">
+    <value>Поисковая оптимизация</value>
   </data>
-  <data name="Actions.Text" xml:space="preserve">
-    <value>Действия</value>
+  <data name="ShowHostTabs.Text">
+    <value>Страницы хоста</value>
   </data>
-  <data name="ControlTitle_.Text" xml:space="preserve">
-    <value>Страницы</value>
+  <data name="ShowPage.Text">
+    <value>Показать в меню</value>
   </data>
-  <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;О модуле "Управление страницами"&lt;/h1&gt;&lt;p&gt;С помощью этого модуля, администраторы могут управлять страницами портала. Модуль позволяет создавать новые страницы, изменять свойства уже существующих, удалять страницы, изменять порядок страниц и их положение в иерархии.&lt;/p&gt;</value>
+  <data name="ShowPortalTabs.Text">
+    <value>Страницы сайта</value>
   </data>
-  <data name="ViewTabMessage.Text" xml:space="preserve">
-    <value>Выбранная страница отключена, и поэтому не может быть показана</value>
+  <data name="Site.Text">
+    <value>Сайт</value>
   </data>
-  <data name="cmdDelete.Help" xml:space="preserve">
-    <value>Удалить</value>
+  <data name="TabCreated.Text">
+    <value>Создана страница {0}</value>
   </data>
-  <data name="DeleteSpecialPage.Text" xml:space="preserve">
-    <value>Не могут быть удалены страницы: Главная, Заставка, Вход в систему, Профиль пользователя, Админ, Хост. Также, нельзя удалить последнюю видимую страницу портала.</value>
+  <data name="TabDeleted.Text">
+    <value>Удалена страница {0}</value>
   </data>
-  <data name="cmdTop.Help" xml:space="preserve">
-    <value>Сделать первой</value>
+  <data name="TabDisabled.Text">
+    <value>Отключена страница {0}</value>
   </data>
-  <data name="cmdBottom.Help" xml:space="preserve">
-    <value>Сделать последней</value>
+  <data name="TabEnabled.Text">
+    <value>Включена страница {0}</value>
   </data>
-  <data name="HostTabs.Text" xml:space="preserve">
-    <value>Страницы хоста:</value>
+  <data name="TabExists.Text">
+    <value>Выбранное имя страницы уже используется другой страницей на том же уровне в этом разделе.</value>
   </data>
-  <data name="cmdAdd.Help" xml:space="preserve">
-    <value>Новая страница</value>
+  <data name="TabHidden.Text">
+    <value>Страница {0} скрыта в меню</value>
+  </data>
+  <data name="TabMadeHome.Text">
+    <value>Страница {0} сделана главной</value>
+  </data>
+  <data name="TabMoved.Text">
+    <value>Страница {0} перемещена</value>
+  </data>
+  <data name="TabRecycled.Text">
+    <value>Страница с таким именем уже существует в Корзине. Используйте Корзину для того, чтобы восстановить эту страницу (или удалить ее навсегда).</value>
+  </data>
+  <data name="TabShown.Text">
+    <value>Страница {0} показана в меню</value>
+  </data>
+  <data name="TabUpdated.Text">
+    <value>Страница {0} сохранена</value>
+  </data>
+  <data name="valName.ErrorMessage">
+    <value>Укажите имя страницы</value>
+  </data>
+  <data name="valPriority.ErrorMessage">
+    <value>Неверное значение важности страницы</value>
+  </data>
+  <data name="valPriorityRequired.ErrorMessage">
+    <value>Укажите важность страницы</value>
+  </data>
+  <data name="valRefresh.ErrorMessage">
+    <value>Неверное число</value>
+  </data>
+  <data name="ViewPage.Text">
+    <value>Просмотр страницы</value>
   </data>
 </root>
