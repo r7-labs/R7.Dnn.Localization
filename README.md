@@ -1,7 +1,7 @@
 # About R7.DnnLocalization
 
 *R7.DnnLocalization* project goal is to provide complete *Russian* localization 
-of (DNN Plaftorm)[http://www.dnnsoftware.com/] static resource files (the UI messages).
+of [DNN Plaftorm](http://www.dnnsoftware.com/) static resource files (the UI messages).
 
 Currently localization is based on 7.1.2 version of *DNN Platform*, but it could be 
 used with more recent versions. Note that then I finally switch to the new version, 
@@ -13,7 +13,7 @@ all helper scripts are customizable.
 
 ## Install
 
-Get the latest resource pack from (releases)[https://github.com/roman-yagodin/R7.DnnLocalization/releases],
+Get the latest resource pack from [releases](https://github.com/roman-yagodin/R7.DnnLocalization/releases),
 go to DNN &gt; Host &gt; Extensions and install as any other extension. After that, you should see *Russian*
 language available to select in Admin &gt; Languages.
 
