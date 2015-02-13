@@ -117,105 +117,124 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblEnablePaging.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Разрешить разбивку на старницы</value>
-  </data>
-  <data name="lblEnablePaging.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Разрешить листание</value>
-  </data>
-  <data name="lblItemCount.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Счетчик содержимого</value>
-  </data>
-  <data name="lblItemCount.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Счетчик содержимого</value>
-  </data>
-  <data name="lblRepeatDirection.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Направление повтора </value>
-  </data>
-  <data name="lblRepeatDirection.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Направление повтора</value>
-  </data>
-  <data name="lblRepeatColumns.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Повтор колонок</value>
-  </data>
-  <data name="lblRepeatColumns.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Повтор колонок</value>
-  </data>
   <data name="lblDefaultSorting.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Сортировка по-умолчанию</value>
+    <value>Выберите тип сортировки для использования по-умолчанию.</value>
   </data>
   <data name="lblDefaultSorting.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
     <value>Сортировка по-умолчанию</value>
   </data>
-  <data name="dshHTMLTemplate.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Шаблоны FAQ</value>
-  </data>
-  <data name="dshHTMLTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Шаблоны FAQ</value>
-  </data>
   <data name="lblAnswerTemplate.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Шаблон ответа</value>
+    <value>Шаблон, используемый для отображения ответов.</value>
   </data>
   <data name="lblAnswerTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
     <value>Шаблон ответа</value>
   </data>
   <data name="lblAvailableTokens.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Доступные тэги</value>
+    <value>Метки, доступные для использования в шаблонах</value>
   </data>
   <data name="lblAvailableTokens.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Доступные тэги</value>
+    <value>Доступные метки</value>
   </data>
   <data name="lblQuestionTemplate.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Шаблон вопроса</value>
+    <value>Шаблон, используемый для отображения вопросов.</value>
   </data>
   <data name="lblQuestionTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
     <value>Шаблон вопроса</value>
   </data>
   <data name="OrderByDateNew.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Дате (более новые - первыми)</value>
+    <value>Дате изменения (от новых к старым)</value>
   </data>
   <data name="OrderByDateOld.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Дате (более старые - первыми)</value>
+    <value>Дате изменения (от старых к новым)</value>
   </data>
   <data name="OrderByPopularityLow.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Популярности (менее - первыми)</value>
+    <value>По возрастанию популярности</value>
   </data>
   <data name="OrderByPopularityHigh.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Популярности (более - первыми)</value>
-  </data>
-  <data name="lblActivateSearchPanel.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Активировать поисковую панель</value>
-  </data>
-  <data name="lblActivateSearchPanel.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Активировать поисковую панель</value>
+    <value>По убыванию популярности</value>
   </data>
   <data name="DefaultQuestionTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>&lt;div Class="Normal"&gt;
-&lt;b&gt;В[INDEX]. [QUESTION]&lt;/b&gt; ([VIEWCOUNT] просмотров)
+    <value>&lt;div class="Normal" style="width: 100%;"&gt;
+   &lt;div style="float: left;background-color:#e8e8e8;padding-top:2px;padding-bottom:2px;"&gt;
+      &lt;img src="[Portal:HomeDirectory]../../images/action.gif" /&gt;&amp;nbsp;
+   &lt;/div&gt;
+   &lt;div style="background-color:#e8e8e8;padding-top:2px;padding-bottom:2px;"&gt;
+      [FAQ:QUESTION]
+   &lt;/div&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="DefaultAnswerTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>&lt;div Class="Normal" Style="Background-Color:white; border-style:solid; border-width:1px;padding: 5px;"&gt;
-&lt;b&gt;Ответ:&lt;/b&gt; [ANSWER]
-&lt;p&gt;&lt;b&gt;Категория:&lt;/b&gt; [CATEGORYNAME]&lt;br&gt;
-&lt;b&gt;Отвечал:&lt;/b&gt; [USER]&lt;br&gt;
-&lt;b&gt;Дата создания: &lt;/b&gt;[DATECREATED]&lt;br&gt;
-&lt;b&gt;Дата изменения: &lt;/b&gt;[DATEMODIFIED]&lt;/p&gt;
+    <value>&lt;div class="Normal" style="width: 100%; margin-left: 12pt;padding-top:6px;"&gt;
+&lt;div style="margin-right: 12pt;"&gt;[FAQ:ANSWER]&lt;/div&gt;
+   &lt;div style="margin-right: 12pt; padding-top: 6pt;font-size:x-small;"&gt;
+   &lt;strong&gt;Просмотров:&lt;/strong&gt;&amp;nbsp;[FAQ:VIEWCOUNT]&amp;emsp; &lt;strong&gt;Создано:&lt;/strong&gt;&amp;nbsp;[FAQ:DATECREATED]&amp;emsp; &lt;strong&gt;Изменено:&lt;/strong&gt;&amp;nbsp;[FAQ:DATEMODIFIED]
+&lt;/div&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="lblUseAjax.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Разрешить AJAX</value>
-  </data>
-  <data name="lblUseAjax.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Включите это, для использования AJAX вместо PostBack</value>
-  </data>
   <data name="DefaultLoadingTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>&lt;div Class="Normal" Style="Background-Color:white; border-style:solid; border-width:1px;padding: 5px;"&gt;Загружается...&lt;/div&gt;</value>
+    <value>&lt;div class="Normal" Style="padding: 5px;"&gt;Загрузка...&lt;/div&gt;</value>
   </data>
   <data name="lblLoadingTemplate.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Шаблон загрузки будет показан на то время, пока Ответ полностью не загрузиться и не отобразиться (в режиме AJAX) </value>
+    <value>Шаблон загрузки отображается лишь на то время, пока ответ полностью не загрузиться и не отобразиться.</value>
   </data>
   <data name="lblLoadingTemplate.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
     <value>Шаблон загрузки</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Настройки ЧаВо</value>
+  </data>
+  <data name="lblShowCatagories.Help">
+    <value>Если отмечено, будет отображаться список выбора категорий.</value>
+  </data>
+  <data name="lblShowCatagories.Text">
+    <value>Показать список категорий</value>
+  </data>
+  <data name="lblShowCategoryType.Help">
+    <value>Выберите тип элемента управления для списка категорий.</value>
+  </data>
+  <data name="lblShowCategoryType.Text">
+    <value>Вид списка категорий</value>
+  </data>
+  <data name="lblShowEmptyCategories.Help">
+    <value>Если отмечено, будут показаны все категории, включая те, с которыми не были связаны вопросы.</value>
+  </data>
+  <data name="lblShowEmptyCategories.Text">
+    <value>Показать пустые категории</value>
+  </data>
+  <data name="lblShowToolTips.Help">
+    <value>Если отмечено, описание категории будет отображаться во всплывающей подсказке</value>
+  </data>
+  <data name="lblShowToolTips.Text">
+    <value>Всплывающие подсказки</value>
+  </data>
+  <data name="lblUserSort.Help">
+    <value>Отметьте этот флажок, если нужно разрешить пользователям сортировать список вопросов по своему усмотрению.</value>
+  </data>
+  <data name="lblUserSort.Text">
+    <value>Разрешить пользователям сортировать</value>
+  </data>
+  <data name="OrderByDateCreatedOriginal.Text">
+    <value>Дате создания (от старых к новым)</value>
+  </data>
+  <data name="OrderByDateCreatedReverse.Text">
+    <value>Дате создания (от новых к старым)</value>
+  </data>
+  <data name="OrderByViewOrder.Text">
+    <value>В установленном порядке</value>
+  </data>
+  <data name="shCategories.Text">
+    <value>Категории</value>
+  </data>
+  <data name="shFaqs.Text">
+    <value>Настройки ЧаВо</value>
+  </data>
+  <data name="ShowCategoryTypeDropDown.Text">
+    <value>Выпадающий список</value>
+  </data>
+  <data name="ShowCategoryTypeList.Text">
+    <value>Список с флажками</value>
+  </data>
+  <data name="ShowCategoryTypeTree.Text">
+    <value>Древовидный список</value>
   </data>
 </root>

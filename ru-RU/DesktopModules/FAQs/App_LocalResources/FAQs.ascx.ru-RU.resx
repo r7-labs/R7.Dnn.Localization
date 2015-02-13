@@ -40,60 +40,84 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddContent.Action">
-    <value>Новый FAQ</value>
+    <value>Новый вопрос</value>
   </data>
   <data name="ModuleHelp.Text">
-    <value>&lt;h1&gt;Модуль &amp;laquo;FAQ&amp;raquo;&lt;/h1&gt;
+    <value>&lt;h1&gt;About The FAQs Module&lt;/h1&gt;
 
-&lt;p&gt;Модуль позволяет зарегистрированным пользователям управлять списками часто задаваемых вопросов (FAQ) и ответами на них. Текст вопроса выводится в качестве ссылки, нажав на которую, пользователь может увидеть ответ.&lt;/p&gt;
-
-&lt;h1&gt;Добавление нового FAQ&lt;/h1&gt;
-&lt;ol&gt;&lt;li&gt;Добавьте новый модуль&lt;b&gt;FAQ&lt;/b&gt; или перейдите к существующему модулю. &lt;/li&gt;
-&lt;li&gt;Нажмите конпку &lt;b&gt;Новый  FAQ&lt;/b&gt;.
-&lt;/li&gt;
-&lt;li&gt;В поле &lt;b&gt;Вопрос&lt;/b&gt; задайте текст часто задаваемого вопроса.&lt;/li&gt;
-&lt;li&gt;В поле &lt;b&gt;Ответ&lt;/b&gt; укажите ответ на данный вопрос.&lt;/li&gt;
-&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;</value>
-  </data>
-  <data name="DefaultAnswerTemplate.Text">
-    <value>&lt;div Class="Normal" Style="Background-Color:white; border-style:solid; border-width:1px;padding: 5px;"&gt;
-&lt;b&gt;Ответ:&lt;/b&gt; [ANSWER]
-&lt;p&gt;&lt;b&gt;Категория:&lt;/b&gt; [CATEGORYNAME]&lt;br&gt;
-&lt;b&gt;Ответил:&lt;/b&gt; [USER]&lt;br&gt;
-&lt;b&gt;Дата создания: &lt;/b&gt;[DATECREATED]&lt;br&gt;
-&lt;b&gt;Дата изменения: &lt;/b&gt;[DATEMODIFIED]&lt;/p&gt;
-&lt;/div&gt;</value>
-  </data>
-  <data name="DefaultLoadingTemplate.Text">
-    <value>&lt;div Class="Normal" Style="Background-Color:white; border-style:solid; border-width:1px;padding: 5px;"&gt;Загрузка...&lt;/div&gt;</value>
-  </data>
-  <data name="DefaultQuestionTemplate.Text">
-    <value>&lt;div Class="Normal"&gt;
-&lt;b&gt;В[INDEX]. [QUESTION]&lt;/b&gt; ([VIEWCOUNT] просмотров)
-&lt;/div&gt;</value>
+&lt;p&gt;The FAQs Module allows Authorized Users to manage a list of Frequently Asked Questions and their corresponding answers. The question is displayed as a link, requiring the user to click on a question to view the corresponding answer.&lt;/p&gt; 
+&lt;p&gt;The FAQs Module also supports organizing Frequently Asked Questions into Categories. But you can still add Frequently Asked Questions without specifying categories if you want.&lt;/p&gt;
+&lt;p&gt;FAQs also supports AJAX functionality to display the answer when
+the user clicks on a question. The old functionality of using Post back is still supported as well. &lt;/p&gt;
+&lt;p&gt;Frequently Asked Questions can be displayed to the user in a sorted order (Ascending or Descending) based on popularity or date, also specifiable from the Module Settings.&lt;/p&gt; 
+&lt;p&gt;A template for both the Question and the Answer can also be specified in Module Settings in order to have a customizable look and feel for the Frequently Asked Questions (default templates are provided).&lt;/p&gt; 
+&lt;p&gt;A number of available tokens (like question, answer, category, date added, date modified, view count, etc...) can be used when creating the templates.&lt;/p&gt;
+&lt;p&gt;Also a Loading Template is used to display something like "Loading..." when the user clicks on a Question (in AJAX mode) until the Answer is fully loaded and displayed (a default template is also provided).&lt;/p&gt; 
+&lt;p&gt;This version of FAQs Module (03.03.03) can smoothly upgrade the older core FAQs Module (version 03.01.00) all you need to do is to upload the new Module Definition.&lt;/p&gt;
+&lt;h1&gt;Add a Category&lt;/h1&gt;
+&lt;ol&gt;&lt;li&gt;Add an &lt;b&gt;FAQs&lt;/b&gt; module, or go to an existing &lt;b&gt;FAQs&lt;/b&gt; module. &lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Manage Categories&lt;/b&gt;. &lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Add New&lt;/b&gt;. &lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Category Name&lt;/b&gt;, enter the category name.&lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Category Description&lt;/b&gt;, enter a category description.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h1&gt;Add an FAQ&lt;/h1&gt;
+&lt;ol&gt;&lt;li&gt;Add an &lt;b&gt;FAQs&lt;/b&gt; module, or go to an existing &lt;b&gt;FAQs&lt;/b&gt; module. &lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Add New FAQ&lt;/b&gt;. &lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Category&lt;/b&gt;, choose a category (optional).&lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Question&lt;/b&gt;, enter the question.&lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Answer&lt;/b&gt;, enter an answer to the question.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;</value>
   </data>
   <data name="ManageCategories.Text">
-    <value>Управление категориями</value>
+    <value>Категории</value>
   </data>
   <data name="OrderBy.Text">
     <value>&lt;Сортировать по&gt;</value>
   </data>
   <data name="OrderByDateNew.Text">
-    <value>Дате (новые - впереди)</value>
+    <value>Дате изменения (от новых к старым)</value>
   </data>
   <data name="OrderByDateOld.Text">
-    <value>Дате (старые - впереди)</value>
+    <value>Дате изменения (от старых к новым)</value>
   </data>
   <data name="OrderByPopularityHigh.Text">
-    <value>Популярности (более - первыми )</value>
+    <value>По убыванию популярности</value>
   </data>
   <data name="OrderByPopularityLow.Text">
-    <value>Популярности (менее - первыми )</value>
+    <value>По возрастанию популярности</value>
   </data>
   <data name="SearchFieldTitle.Text">
     <value>Поиск</value>
   </data>
   <data name="SelectCategory.Text">
-    <value>&lt;Выбор категории&gt;</value>
+    <value>&lt;Выберите категорию&gt;</value>
+  </data>
+  <data name="AllCategory.Text">
+    <value>Все вопросы</value>
+  </data>
+  <data name="EmptyCategory.Text">
+    <value>Без категории</value>
+  </data>
+  <data name="lblSelectCategory.Help">
+    <value>Выберите категорию для отображения.</value>
+  </data>
+  <data name="lblSelectCategory.Text">
+    <value>Категория</value>
+  </data>
+  <data name="lblSort.Help">
+    <value>Укажите порядок сортировки</value>
+  </data>
+  <data name="lblSort.Text">
+    <value>Порядок сортировки</value>
+  </data>
+  <data name="OrderByDateCreatedOriginal.Text">
+    <value>Дате создания (от старых к новым)</value>
+  </data>
+  <data name="OrderByDateCreatedReverse.Text">
+    <value>Дате создания (от новых к старым)</value>
+  </data>
+  <data name="OrderByViewOrder.Text">
+    <value>В установленном порядке</value>
   </data>
 </root>

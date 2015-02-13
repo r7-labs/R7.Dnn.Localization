@@ -117,56 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plEdit.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Изменить</value>
-  </data>
-  <data name="plEdit.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Изменить</value>
-  </data>
-  <data name="plDelete.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Удалить</value>
-  </data>
-  <data name="plDelete.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Удалить</value>
-  </data>
-  <data name="plName.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Наименование</value>
-  </data>
-  <data name="plName.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Наименование</value>
-  </data>
-  <data name="plDescription.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Описание</value>
-  </data>
-  <data name="plDescription.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Описание</value>
-  </data>
   <data name="plCategoryId.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Код категории</value>
+    <value>Ид. категории</value>
   </data>
   <data name="plCategoryId.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Код категории</value>
+    <value>Идентификатор категории.</value>
   </data>
   <data name="plCategoryName.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Наименование категории</value>
+    <value>Название</value>
   </data>
   <data name="plCategoryName.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Наименование категории</value>
+    <value>Введите название категории.</value>
   </data>
   <data name="plCategoryDescription.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Описание категории</value>
+    <value>Описание</value>
   </data>
   <data name="plCategoryDescription.Help" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Описание категории</value>
+    <value>Введите описание категории.</value>
   </data>
   <data name="rqdCategoryName.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>&lt;b&gt;Наименование - обязательно!&lt;/b&gt;</value>
+    <value>Название категории является обязательным.</value>
   </data>
   <data name="rqdCategoryDescription.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>&lt;b&gt;Описание - обязательно!&lt;/b&gt;</value>
+    <value>Описание категории является обязательным</value>
   </data>
   <data name="cmdAddNew.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
-    <value>Добавить новую</value>
+    <value>Новая категория</value>
   </data>
   <data name="cmdGoBack.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
     <value>Назад</value>
@@ -176,5 +152,20 @@
   </data>
   <data name="cmdCancel.Text" d2p1:space="preserve" xmlns:d2p1="http://www.w3.org/XML/1998/namespace">
     <value>Отмена</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Удалить</value>
+  </data>
+  <data name="ControlTitle_editcategories.Text">
+    <value>Управление категориями</value>
+  </data>
+  <data name="plParentCategoryField.Help">
+    <value>Выберите категорию верхнего уровня, к которой должна относится редактируемая категория. </value>
+  </data>
+  <data name="plParentCategoryField.Text">
+    <value>Подчинить</value>
+  </data>
+  <data name="SelectParentCategory.Text">
+    <value>&lt;Выберите категорию&gt;</value>
   </data>
 </root>
