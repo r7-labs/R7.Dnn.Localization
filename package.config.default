@@ -1,0 +1,9 @@
+PROJECT_SLUG="dnn-platform-integration"
+SOURCE_LANG="en"
+TX_CONFIG=".tx/config"
+DISTRO_DIR="_$1"
+PACKAGE_NAME="$1"
+PACKAGE_DIR="$PACKAGE_NAME"
+PACKAGE_LIST="../$PACKAGE_NAME.list"
+
+# PROJECT_SLUG="dnnplatform712"

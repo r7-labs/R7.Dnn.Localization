@@ -1,12 +1,16 @@
-# Files
+# temporary files
 *.zip
 *.dnn
+*.list
+
+# distribution sources
+_*/*
 
 # R7 extensions
 ru-RU/DesktopModules/R7.*
 ru-RU/DesktopModules/Redhound.*
 
-# Other uncommon extensions
+# other uncommon extensions
 ru-RU/DesktopModules/BTBRatings
 ru-RU/DesktopModules/SampleModule
 ru-RU/DesktopModules/MiniGallery
