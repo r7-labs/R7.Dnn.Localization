@@ -3,8 +3,8 @@
 # configs
 source common.config
 
-if [ ! $PACKAGE_NAME ]; then
-    echo "Error: Specify package name."
+if [ ! $1 ]; then
+    echo "Error: Specify package name as an argument."
     exit
 fi
 
@@ -22,7 +22,7 @@ fi
     
 if [ ! -f "$PACKAGE_CONFIG" ]; then
     echo "Copy default config to the package directory."
-    echo "Please open '$PACKAGE_CONFIG' in the text editor to make package-specific changes."
+    echo "Please edit '$PACKAGE_CONFIG' manually to make package-specific changes."
     cp "package.config.default" "$PACKAGE_CONFIG"
 else
     echo "Package config file '$PACKAGE_CONFIG' already exists."

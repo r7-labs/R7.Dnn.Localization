@@ -1,13 +1,18 @@
 #!/bin/bash
 
 if [ ! $1 ]; then
-    echo "Error: Specify package name."
+    echo "Error: Specify package name as an argument."
     exit
 fi
 
 # configs
 source common.config
 source $PACKAGE_CONFIG
+
+if [ ! $TX_PROJECT_SLUG ]; then
+    echo "Error: Please set TX_PROJECT_SLUG value in the '$PACKAGE_CONFIG' file."
+    exit
+fi
 
 echo "(Re)create '${PACKAGE_NAME}' package sub-directories."
 
@@ -17,11 +22,11 @@ mkdir ${PACKAGE_NAME}/${TX_SOURCE_LANG}
 rm -r -f ${PACKAGE_NAME}/.tx
 mkdir ${PACKAGE_NAME}/.tx
 
-echo "List all source files in the '$DISTRO_DIR' distribution to the '${PACKAGE_FILES}' file."
+echo "List all source files in the '$DISTRO_DIR' distribution to the '$SOURCE_FILES' file."
 pushd . > /dev/null
 cd ${DISTRO_DIR}
 
-find . -name '*.as?x.resx' -or -name '*Resources.resx' -or -name '*.en-US.resx' | sed 's/\.\///g' > "../${PACKAGE_FILES}"
+find . -name '*.as?x.resx' -or -name '*Resources.resx' -or -name '*.en-US.resx' | sed 's/\.\///g' > "../$SOURCE_FILES"
 
 popd > /dev/null
 
@@ -31,7 +36,7 @@ cd ${DISTRO_DIR}
 
 while read FILE; do
     cp -f -r --parents "${FILE}" "../${PACKAGE_NAME}/${TX_SOURCE_LANG}/"
-done < "../${PACKAGE_FILES}"
+done < "../${SOURCE_FILES}"
 
 popd > /dev/null
 
@@ -61,7 +66,7 @@ source_lang = $TX_SOURCE_LANG
 type = RESX
 " >> $TX_CONFIG
 
-done < "../${PACKAGE_FILES}"
+done < "../$SOURCE_FILES"
 
 echo "Done."
 

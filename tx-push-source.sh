@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! $1 ]; then
-    echo "Error: Specify package name."
+    echo "Error: Specify package name as an argument."
     exit
 fi
 
