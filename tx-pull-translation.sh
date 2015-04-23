@@ -1,13 +1,17 @@
 #!/bin/bash
 
-# include package config
-source $1/package.config
+if [ ! $1 ]; then
+    echo "Error: Specify package name."
+    exit
+fi
 
-pushd .
-cd ${PACKAGE_DIR}
+# configs
+source common.config
+source $PACKAGE_CONFIG
+
+pushd . > /dev/null
+cd $PACKAGE_NAME
 
 tx3 pull -l ru_RU
 
-# TODO: fix file names (ru_RU => ru-RU) when packaging?
-
-popd
+popd > /dev/null

@@ -1,11 +1,17 @@
 #!/bin/bash
 
-# include package config
-source $1/package.config
+if [ ! $1 ]; then
+    echo "Error: Specify package name."
+    exit
+fi
 
-pushd .
-cd ${PACKAGE_DIR}
+# configs
+source common.config
+source $PACKAGE_CONFIG
+
+pushd . > /dev/null
+cd $PACKAGE_NAME
 
 tx push --source --skip
 
-popd
+popd > /dev/null
