@@ -5,18 +5,15 @@ if [ ! $1 ]; then
     exit
 fi
 
-if [ ! $2 ]; then
-    echo "Error: Specify culture 'xx_XX' code as second argument."
-    exit
-fi
-
 # configs
 source common.config
 source $PACKAGE_CONFIG
 
+# TODO: Add confirmation prompt
+
 pushd . > /dev/null
 cd $PACKAGE_NAME
 
-tx3 pull -l $2 --mode=reviewed
+tx push --translations --force --no-interactive --skip
 
 popd > /dev/null
