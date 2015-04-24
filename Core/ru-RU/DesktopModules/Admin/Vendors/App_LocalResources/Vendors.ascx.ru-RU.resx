@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Name.Header">
+		<value>Наименование</value>
+	</data>
+	<data name="Address.Header">
+		<value>Адрес</value>
+	</data>
+	<data name="Telephone.Header">
+		<value>Телефон</value>
+	</data>
+	<data name="Fax.Header">
+		<value>Факс</value>
+	</data>
+	<data name="Email.Header">
+		<value>Email-адрес</value>
+	</data>
+	<data name="Authorized.Header">
+		<value>Авториз.</value>
+	</data>
+	<data name="Banners.Header">
+		<value>Баннеры</value>
+	</data>
+	<data name="cmdDelete.Text">
+		<value>Удалить неавторизованных поставщиков</value>
+	</data>
+	<data name="AddContent.Action">
+		<value>Новый поставщик</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>Поставщики</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;Модуль &amp;laquo;Поставщики&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;При помощи данного модуля администраторы могут управлять учетными данными поставщиков и баннерной рекламой на сайте. Модуль позволяет создавать, модифицировать и удалять учетные записи поставщиков.&lt;/p&gt;</value>
+	</data>
+	<data name="Search.Text">
+		<value>Поиск</value>
+	</data>
+	<data name="RecordsPage.Text">
+		<value>Записей на странице</value>
+	</data>
+</root>

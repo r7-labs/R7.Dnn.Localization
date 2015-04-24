@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Добавить блог</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ServerError.Text" xml:space="preserve">
+    <value>Произошла ошибка при обработке запроса. Пожалуйста, повторите попытку позже.</value>
+  </data>
+  <data name="ServerErrorWithDescription.Text" xml:space="preserve">
+    <value>Произошла ошибка при обработке запроса:</value>
+  </data>
+  <data name="Published.Header" xml:space="preserve">
+    <value>Опубликован</value>
+  </data>
+  <data name="DeletePost.Text" xml:space="preserve">
+    <value>Удалить это сообщение?</value>
+  </data>
+  <data name="lblAllowAllLocales.Help" xml:space="preserve">
+    <value>Если отмечено, пользователи могут указать, что их блог ведется на языке, отличном от языков портала. В противном случае, в качестве языка блога можно указать только один из установленных на портале языков.</value>
+  </data>
+  <data name="lblAllowAllLocales.Text" xml:space="preserve">
+    <value>Разрешить все языки</value>
+  </data>
+  <data name="lblAllowAttachments.Help" xml:space="preserve">
+    <value>Если отмечено, блоггеры могут подгружать файлы для сообщений в блогах, используя Windows Live Writer. В противном случае, подгрузка будет заблокирована.</value>
+  </data>
+  <data name="lblAllowAttachments.Text" xml:space="preserve">
+    <value>Разрешить вложения</value>
+  </data>
+  <data name="lblAllowMultipleCategories.Help" xml:space="preserve">
+    <value>Разрешить блоггерам выбирать более одной категории для своих сообщений</value>
+  </data>
+  <data name="lblAllowMultipleCategories.Text" xml:space="preserve">
+    <value>Разрешить несколько категорий</value>
+  </data>
+  <data name="lblAllowWLW.Help" xml:space="preserve">
+    <value>Если отмечено, блоггеры могут вести блог при помощи Windows Live Writer</value>
+  </data>
+  <data name="lblAllowWLW.Text" xml:space="preserve">
+    <value>Разрешить Windows Live Writer</value>
+  </data>
+  <data name="lblEmail.Help" xml:space="preserve">
+    <value>Этот адрес электронной почты будет указан в канале RSS в поле &apos;managing editor&apos; для всех блогов этого модуля</value>
+  </data>
+  <data name="lblEmail.Text" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="lblVocabularyId.Help" xml:space="preserve">
+    <value>Выберите словарь для хранения категорий этого модуля и всех его блогов</value>
+  </data>
+  <data name="lblVocabularyId.Text" xml:space="preserve">
+    <value>Словарь категорий</value>
+  </data>
+  <data name="lblWLWRecentPostsMax.Help" xml:space="preserve">
+    <value>Определяет максимальное количество (последних) сообщений, которые могут быть загружены в Windows Live Writer для редактирования.</value>
+  </data>
+  <data name="lblWLWRecentPostsMax.Text" xml:space="preserve">
+    <value>Макс. последних сообщений WLW </value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>&lt; Не указано &gt;</value>
+  </data>
+  <data name="HtmlIndependent.Opt" xml:space="preserve">
+    <value>HTML, независящий от тела сообщения</value>
+  </data>
+  <data name="HtmlPrecedesPost.Opt" xml:space="preserve">
+    <value>HTML перед сообщением</value>
+  </data>
+  <data name="PlainTextIndependent.Opt" xml:space="preserve">
+    <value>Текст, независящий от тела сообщения</value>
+  </data>
+  <data name="lblSummaryModel.Help" xml:space="preserve">
+    <value>Выберите вариант поведения и формата описаний.</value>
+  </data>
+  <data name="lblSummaryModel.Text" xml:space="preserve">
+    <value>Модель описаний</value>
+  </data>
+  <data name="General.Text" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="lblRssAllowContentInFeed.Help" xml:space="preserve">
+    <value>Если отмечено, по запросу RSS можно дополнительно получить полный текст сообщений блога, указав аргумент &apos;body=true&apos; в строке запроса</value>
+  </data>
+  <data name="lblRssAllowContentInFeed.Text" xml:space="preserve">
+    <value>Разрешить полный текст в RSS</value>
+  </data>
+  <data name="lblRssDefaultCopyright.Help" xml:space="preserve">
+    <value>Если указана строка авторского права по-умолчанию, она будет использоваться для каналов RSS модуля. Эта строка может быть переопределена в настройках авторского права каждого блога.</value>
+  </data>
+  <data name="lblRssDefaultCopyright.Text" xml:space="preserve">
+    <value>Авторское право по-умолчанию</value>
+  </data>
+  <data name="lblRssDefaultNrItems.Help" xml:space="preserve">
+    <value>Количество сообщений, передаваемых по запросу RSS, если конкретное значение не указано</value>
+  </data>
+  <data name="lblRssDefaultNrItems.Text" xml:space="preserve">
+    <value>Количество сообщений по-умолчанию</value>
+  </data>
+  <data name="lblRssImageHeight.Help" xml:space="preserve">
+    <value>Канал RSS может содержать изображения (как для канала в целом, так и для отдельных сообщений). Если так, укажите здесь высоту включаемых в канал изображений.</value>
+  </data>
+  <data name="lblRssImageHeight.Text" xml:space="preserve">
+    <value>Высота изображений</value>
+  </data>
+  <data name="lblRssImageSizeAllowOverride.Help" xml:space="preserve">
+    <value>Позволяет запросу RSS переопределить размеры изображений, используя параметры &apos;w&apos; и &apos;h&apos; строки запроса.</value>
+  </data>
+  <data name="lblRssImageSizeAllowOverride.Text" xml:space="preserve">
+    <value>Разрешить изменение размера изображений</value>
+  </data>
+  <data name="lblRssImageWidth.Help" xml:space="preserve">
+    <value>Канал RSS может содержать изображения (как для канала в целом, так и для отдельных сообщений). Если так, укажите здесь ширину включаемых в канал изображений.</value>
+  </data>
+  <data name="lblRssImageWidth.Text" xml:space="preserve">
+    <value>Ширина изображений</value>
+  </data>
+  <data name="lblRssMaxNrItems.Help" xml:space="preserve">
+    <value>Максимальное количество сообщений канала RSS, получаемое с помощью агрумента &apos;recs&apos; в строке запроса. Если указать отрицательное значение, количество сообщений нельзя изменить.</value>
+  </data>
+  <data name="lblRssMaxNrItems.Text" xml:space="preserve">
+    <value>Макс. сообщений</value>
+  </data>
+  <data name="lblRssTtl.Help" xml:space="preserve">
+    <value>Время (в минутах) кеширования сообщений канала RSS на стороне сервера</value>
+  </data>
+  <data name="lblRssTtl.Text" xml:space="preserve">
+    <value>Время жизни RSS</value>
+  </data>
+  <data name="RSS.Text" xml:space="preserve">
+    <value>Настройки RSS </value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Localization.Text" xml:space="preserve">
+    <value>Локализация</value>
+  </data>
+  <data name="cmdEditTagsML.Text" xml:space="preserve">
+    <value>Локализация меток</value>
+  </data>
+  <data name="Categories.Text" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="cmdEditCategoriesML.Text" xml:space="preserve">
+    <value>Локализация категорий</value>
+  </data>
+  <data name="LeavePage.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите покинуть эту страницу и сохранить изменения?</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="DeleteSelected.Text" xml:space="preserve">
+    <value>Удалить выбранные</value>
+  </data>
+  <data name="lblModifyPageDetails.Help" xml:space="preserve">
+    <value>Если отмечено, модуль будет пытаться изменить заголовок страницы на основе содержимого блога: заголовка блога, заголовка сообщения и др.</value>
+  </data>
+  <data name="lblModifyPageDetails.Text" xml:space="preserve">
+    <value>Изменить заголовок страницы</value>
+  </data>
+  <data name="AddCategories.Help" xml:space="preserve">
+    <value>Добавить следующие категории (по одной на строку):</value>
+  </data>
+  <data name="AddCategories.Title" xml:space="preserve">
+    <value>Добавить категории</value>
+  </data>
+  <data name="cmdCreateVocabulary.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="NoVocabulary.Text" xml:space="preserve">
+    <value>В настоящее время нет словарей, определенных для данного модуля. Выберите один на предыдущей вкладке или создайте новый.</value>
+  </data>
+  <data name="lblAutoGeneratedSummaryLength.Help" xml:space="preserve">
+    <value>Длина фрагмента текста, которая берется в качестве описания сообщения, если автоматическая генерация описаний включена</value>
+  </data>
+  <data name="lblAutoGeneratedSummaryLength.Text" xml:space="preserve">
+    <value>Длина фрагмента описания</value>
+  </data>
+  <data name="lblAutoGenerateMissingSummary.Help" xml:space="preserve">
+    <value>Если отмечено, описание сообщения будет сгенерировано автоматически, если оно не было предоставлено автором. В качестве описания будут взяты первые x символов основного сообщения.</value>
+  </data>
+  <data name="lblAutoGenerateMissingSummary.Text" xml:space="preserve">
+    <value>Генерировать отсутствующие описания</value>
+  </data>
+  <data name="lblIncrementViewCount.Help" xml:space="preserve">
+    <value>Увеличивать счетчик просмотров сообщения после указанного количества секунд</value>
+  </data>
+  <data name="lblIncrementViewCount.Text" xml:space="preserve">
+    <value>Увеличивать счетчик просмотров после (секунд)</value>
+  </data>
+</root>

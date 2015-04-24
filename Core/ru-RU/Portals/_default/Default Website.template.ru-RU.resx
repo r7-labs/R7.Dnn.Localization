@@ -1,0 +1,1836 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LocalizedTemplateName.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Setting.DefaultLanguage.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Setting.FooterText.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.ContentPane.AboutUsModule.Title.Text" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Tab.About.ContentPane.OurTeamModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Content.Text" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Tab.About.Name.Text" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Tab.About.RightPane.OtherModule.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.Actions.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.Actions.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Title.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.Name.Text" xml:space="preserve">
+    <value>Начиная работу</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.Name.Text" xml:space="preserve">
+    <value>Домашняя</value>
+  </data>
+  <data name="Tab.Products.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.Name.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.ContactUs.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.RightPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.Content.Text" xml:space="preserve">
+    <value>Журнал активности</value>
+  </data>
+  <data name="Tab.ActivityFeed.Name.Text" xml:space="preserve">
+    <value>Журнал активности</value>
+  </data>
+  <data name="Tab.ActivityFeed.Title.Text" xml:space="preserve">
+    <value>Журнал активности</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.RightPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.CenterPane.ProfileModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.CenterPane.JournalModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.Content.Text" xml:space="preserve">
+    <value>Мой профиль</value>
+  </data>
+  <data name="Tab.MyProfile.Name.Text" xml:space="preserve">
+    <value>Мой профиль</value>
+  </data>
+  <data name="Tab.MyProfile.Title.Text" xml:space="preserve">
+    <value>Мой профиль</value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.RightPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.RightPane.NavigationModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.CenterPane.ViewProfileModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.Name.Text" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="Tab.MyFriends.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.RightPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.RightPane.NavigationModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.CenterPane.ViewProfileModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.CenterPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.Name.Text" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="Tab.MyMessages.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.RightPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.RightPane.NavigationModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.CenterPane.ViewProfileModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.CenterPane.MessageCenterModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.PortalAdministration.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.PortalAdministration.Name.Text" xml:space="preserve">
+    <value>Админ</value>
+  </data>
+  <data name="Tab.PortalAdministration.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.PortalAdministration.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.AdvancedSettings.Description.Text" xml:space="preserve">
+    <value>Расширенные настройки конфигурации</value>
+  </data>
+  <data name="Tab.AdvancedSettings.Name.Text" xml:space="preserve">
+    <value>Расширенные настройки конфигурации</value>
+  </data>
+  <data name="Tab.AdvancedSettings.Title.Text" xml:space="preserve">
+    <value>Расширенные настройки конфигурации</value>
+  </data>
+  <data name="Tab.AdvancedSettings.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Расширенные настройки конфигурации</value>
+  </data>
+  <data name="Tab.SiteSettings.Content.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.SiteSettings.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteSettings.Name.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.SiteSettings.Title.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.SiteSettings.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.PageManagement.Content.Text" xml:space="preserve">
+    <value>Управление страницами</value>
+  </data>
+  <data name="Tab.PageManagement.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.PageManagement.Name.Text" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="Tab.PageManagement.Title.Text" xml:space="preserve">
+    <value>Управление страницами</value>
+  </data>
+  <data name="Tab.PageManagement.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление страницами</value>
+  </data>
+  <data name="Tab.Extensions.Content.Text" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Tab.Extensions.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Extensions.Name.Text" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Tab.Extensions.Title.Text" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Tab.Extensions.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Tab.Skins.Content.Text" xml:space="preserve">
+    <value>Скины</value>
+  </data>
+  <data name="Tab.Skins.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Skins.Name.Text" xml:space="preserve">
+    <value>Скины</value>
+  </data>
+  <data name="Tab.Skins.Title.Text" xml:space="preserve">
+    <value>Скины</value>
+  </data>
+  <data name="Tab.Skins.ContentPane.SkinEditorModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Skins.ContentPane.SkinDesignerModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Languages.Content.Text" xml:space="preserve">
+    <value>Языки</value>
+  </data>
+  <data name="Tab.Languages.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Languages.Name.Text" xml:space="preserve">
+    <value>Языки</value>
+  </data>
+  <data name="Tab.Languages.Title.Text" xml:space="preserve">
+    <value>Языки</value>
+  </data>
+  <data name="Tab.Languages.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SecurityRoles.Content.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.SecurityRoles.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SecurityRoles.Name.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.SecurityRoles.Title.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.SecurityRoles.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.UserAccounts.Content.Text" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Tab.UserAccounts.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.UserAccounts.Name.Text" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Tab.UserAccounts.Title.Text" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Tab.UserAccounts.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Tab.Vendors.Content.Text" xml:space="preserve">
+    <value>Поставщики</value>
+  </data>
+  <data name="Tab.Vendors.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Vendors.Name.Text" xml:space="preserve">
+    <value>Поставщики</value>
+  </data>
+  <data name="Tab.Vendors.Title.Text" xml:space="preserve">
+    <value>Поставщики</value>
+  </data>
+  <data name="Tab.Vendors.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Поставщики</value>
+  </data>
+  <data name="Tab.SiteLog.Content.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteLog.Name.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.Title.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.Newsletters.Content.Text" xml:space="preserve">
+    <value>Рассылки</value>
+  </data>
+  <data name="Tab.Newsletters.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Newsletters.Name.Text" xml:space="preserve">
+    <value>Рассылки</value>
+  </data>
+  <data name="Tab.Newsletters.Title.Text" xml:space="preserve">
+    <value>Рассылки</value>
+  </data>
+  <data name="Tab.Newsletters.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Рассылки</value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.Content.Text" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.Name.Text" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.Title.Text" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="Tab.RecycleBin.Content.Text" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Tab.RecycleBin.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.RecycleBin.Name.Text" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Tab.RecycleBin.Title.Text" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Tab.RecycleBin.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Tab.LogViewer.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.LogViewer.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.LogViewer.Name.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.LogViewer.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.LogViewer.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteWizard.Content.Text" xml:space="preserve">
+    <value>Мастер сайта</value>
+  </data>
+  <data name="Tab.SiteWizard.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteWizard.Name.Text" xml:space="preserve">
+    <value>Мастер сайта</value>
+  </data>
+  <data name="Tab.SiteWizard.Title.Text" xml:space="preserve">
+    <value>Мастер сайта</value>
+  </data>
+  <data name="Tab.SiteWizard.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Мастер сайта</value>
+  </data>
+  <data name="Tab.Taxonomy.Content.Text" xml:space="preserve">
+    <value>Таксономия</value>
+  </data>
+  <data name="Tab.Taxonomy.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Taxonomy.Name.Text" xml:space="preserve">
+    <value>Таксономия</value>
+  </data>
+  <data name="Tab.Taxonomy.Title.Text" xml:space="preserve">
+    <value>Таксономия</value>
+  </data>
+  <data name="Tab.Taxonomy.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteMapSettings.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteMapSettings.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteMapSettings.Name.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteMapSettings.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteMapSettings.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Lists.Content.Text" xml:space="preserve">
+    <value>Списки</value>
+  </data>
+  <data name="Tab.Lists.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Lists.Name.Text" xml:space="preserve">
+    <value>Списки</value>
+  </data>
+  <data name="Tab.Lists.Title.Text" xml:space="preserve">
+    <value>Списки</value>
+  </data>
+  <data name="Tab.Lists.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Списки</value>
+  </data>
+  <data name="Tab.SiteRedirection.Content.Text" xml:space="preserve">
+    <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.SiteRedirection.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.SiteRedirection.Name.Text" xml:space="preserve">
+    <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.SiteRedirection.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.DevicePreview.Content.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств</value>
+  </data>
+  <data name="Tab.DevicePreview.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.DevicePreview.Name.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств</value>
+  </data>
+  <data name="Tab.DevicePreview.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Content.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Name.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.ContentPane.SearchResultsModule.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.ContentPane.ResultsModule.Title.Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Tab.GoogleAnalytics.Content.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
+  </data>
+  <data name="Tab.GoogleAnalytics.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GoogleAnalytics.Name.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
+  </data>
+  <data name="Tab.GoogleAnalytics.Title.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
+  </data>
+  <data name="Tab.GoogleAnalytics.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
+  </data>
+  <data name="Tab.GoogleAnalyticsPro.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GoogleAnalyticsPro.Name.Text" xml:space="preserve">
+    <value>Аналитика Google Pro</value>
+  </data>
+  <data name="Tab.GoogleAnalyticsPro.Title.Text" xml:space="preserve">
+    <value>Аналитика Google Pro</value>
+  </data>
+  <data name="Tab.GoogleAnalyticsPro.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Аналитика Google Pro</value>
+  </data>
+  <data name="Tab.SearchResultsPro.Name.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsPro.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsPro.ContentPane.SearchResultsModule.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsPro.ContentPane.ResultsModule.Title.Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Tab.ContentStaging.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContentStaging.Name.Text" xml:space="preserve">
+    <value>Стадии контента</value>
+  </data>
+  <data name="Tab.ContentStaging.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Стадии контента</value>
+  </data>
+  <data name="Tab.Sharepoint.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Sharepoint.Name.Text" xml:space="preserve">
+    <value>Коннектор SharePoint</value>
+  </data>
+  <data name="Tab.Sharepoint.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Коннектор SharePoint</value>
+  </data>
+  <data name="Tab.SearchAdmin.Description.Text" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.SearchAdmin.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.StyleGuide.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.Name.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ButtonsModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Title.Text" xml:space="preserve">
+    <value>Списки</value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.RightPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.Name.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="PortalDescription.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="RoleGroup.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Title.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.Header.Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.SidebarPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.SidebarPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.SidebarPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.SidebarPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.LeftPane.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.ContentpaneLower.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.ContentpaneLower.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.ContentpaneLower.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.ContentpaneLower.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.ContentpaneLower.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.ContentpaneLower.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.Contentpane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.Contentpane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.Contentpane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.Contentpane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.Contentpane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Home.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.AboutUsModule.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.10.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.11.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.12.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.13.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.14.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.15.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.16.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.17.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.18.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.19.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.20.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.21.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.22.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.23.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.24.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.25.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.26.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.27.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.28.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.29.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.30.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.About.Contentpane.OurTeamModule.Content.31.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.10.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.11.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.12.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.ContentPane.Module.Content.13.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.Products.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.10.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.11.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.12.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.13.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.CenterPane.Module.Content.14.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.RightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.RightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.RightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.RightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.10.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.11.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.12.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.13.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ContactUs.LeftPane.Module.Content.14.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerLeft.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ButtonsModule.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ButtonsModule.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ButtonsModule.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ButtonsModule.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ButtonsModule.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.LeftPaneBottom.ImageAlignmentModule.Content.10.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.RightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.RightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.RightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.StyleGuide.RightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.10.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.11.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.12.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.13.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.7.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.8.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.9.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.404ErrorPage.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.AdvUrlManagement.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Расширенное управление URL</value>
+  </data>
+  <data name="Tab.AdvUrlManagement.Description.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Content.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Title.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

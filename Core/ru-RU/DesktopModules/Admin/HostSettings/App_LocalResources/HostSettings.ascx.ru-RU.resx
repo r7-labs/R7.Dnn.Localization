@@ -1,0 +1,1198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configuration.Text" xml:space="preserve">
+    <value>Конфигурация сайта</value>
+  </data>
+  <data name="plServerTime.Text" xml:space="preserve">
+    <value>Время сервера</value>
+  </data>
+  <data name="plServerTime.Help" xml:space="preserve">
+    <value>Текущая дата и время для веб-сервера</value>
+  </data>
+  <data name="plebFarm.Text" xml:space="preserve">
+    <value>Веб-ферма?</value>
+  </data>
+  <data name="plWebFarm.Help" xml:space="preserve">
+    <value>Указывает, работает ли сайт в конфигурации фермы. Эта установка может быть разрешена в корневом файле конфигурации для Вашего сайта.</value>
+  </data>
+  <data name="plVersion.Text" xml:space="preserve">
+    <value>Версия DotNetNuke:</value>
+  </data>
+  <data name="plVersion.Help" xml:space="preserve">
+    <value>Версия приложения DotNetNuke, работающая в настоящее время на сервере</value>
+  </data>
+  <data name="plDataProvider.Text" xml:space="preserve">
+    <value>Провайдер данных:</value>
+  </data>
+  <data name="plDataProvider.Help" xml:space="preserve">
+    <value>Наименование провайдера доступа к данным по-умолчанию, указанное в файле конфигурации web.config</value>
+  </data>
+  <data name="plFramework.Text" xml:space="preserve">
+    <value>Версия .NET Framework:</value>
+  </data>
+  <data name="plFramework.Help" xml:space="preserve">
+    <value>Версия .NET Framework, установленная и работающая на данном сервере - предоставлена IIS</value>
+  </data>
+  <data name="plIdentity.Text" xml:space="preserve">
+    <value>Контекст ASP.NET:</value>
+  </data>
+  <data name="plIdentity.Help" xml:space="preserve">
+    <value>Имя учётной записи Windows, в контексте безопасности которой выполняется приложение. Данный пользователь должен обладать правами на изменение всех подпапок и файлов в корневой папке приложения</value>
+  </data>
+  <data name="plHostName.Text" xml:space="preserve">
+    <value>Имя хоста:</value>
+  </data>
+  <data name="plHostName.Help" xml:space="preserve">
+    <value>Имя хостинг-сервера</value>
+  </data>
+  <data name="plIPAddress.Text" xml:space="preserve">
+    <value>IP адрес:</value>
+  </data>
+  <data name="plIPAddress.Help" xml:space="preserve">
+    <value>Адрес IP сервера.</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>Разрешения:</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Разрешения на доступ кода, доступные в окружении хоста.</value>
+  </data>
+  <data name="plApplicationPath.Text" xml:space="preserve">
+    <value>Относительный путь:</value>
+  </data>
+  <data name="plApplicationPath.Help" xml:space="preserve">
+    <value>Относительное местоположение приложения относительно корня сайта.</value>
+  </data>
+  <data name="plApplicationMapPath.Text" xml:space="preserve">
+    <value>Физический путь:</value>
+  </data>
+  <data name="plApplicationMapPath.Help" xml:space="preserve">
+    <value>Физическое местоположение корня сайта на сервере.</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>GUID :</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>Глобальный уникальный идентификатор, который может использоваться, чтобы идентифицировать это приложение.</value>
+  </data>
+  <data name="plHostPortal.Text" xml:space="preserve">
+    <value>Сайт по умолчанию:</value>
+  </data>
+  <data name="plHostTitle.Text" xml:space="preserve">
+    <value>Название хоста:</value>
+  </data>
+  <data name="plHostURL.Text" xml:space="preserve">
+    <value>URL хоста:</value>
+  </data>
+  <data name="plHostEmail.Text" xml:space="preserve">
+    <value>Email хоста:</value>
+  </data>
+  <data name="plHostSkin.Text" xml:space="preserve">
+    <value>Шаблон:</value>
+  </data>
+  <data name="plHostContainer.Text" xml:space="preserve">
+    <value>Контейнер:</value>
+  </data>
+  <data name="plProcessor.Text" xml:space="preserve">
+    <value>Обработчик платежей:</value>
+  </data>
+  <data name="plUserId.Text" xml:space="preserve">
+    <value>Идентификатор процессора:</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>Пароль обработчика:</value>
+  </data>
+  <data name="plHostFee.Text" xml:space="preserve">
+    <value>Стоимость хостинга:</value>
+  </data>
+  <data name="plHostCurrency.Text" xml:space="preserve">
+    <value>Валюта:</value>
+  </data>
+  <data name="plHostSpace.Text" xml:space="preserve">
+    <value>Дисковое пространство (Mбайт):</value>
+  </data>
+  <data name="plDemoPeriod.Text" xml:space="preserve">
+    <value>Демо-период (дней):</value>
+  </data>
+  <data name="plDemoSignup.Text" xml:space="preserve">
+    <value>Анонимный пробный хостинг?</value>
+  </data>
+  <data name="plSiteLogBuffer.Text" xml:space="preserve">
+    <value>Буфер журнала:</value>
+  </data>
+  <data name="plSiteLogHistory.Text" xml:space="preserve">
+    <value>Глубина журнала(дней):</value>
+  </data>
+  <data name="plUsersOnline.Text" xml:space="preserve">
+    <value>Запрет отслеживания пользователей?</value>
+  </data>
+  <data name="plUsersOnlineTime.Text" xml:space="preserve">
+    <value>Время отслеживания:</value>
+  </data>
+  <data name="plProxyServer.Text" xml:space="preserve">
+    <value>Прокси-сервер:</value>
+  </data>
+  <data name="plProxyPort.Text" xml:space="preserve">
+    <value>Порт прокси:</value>
+  </data>
+  <data name="plProxyUsername.Text" xml:space="preserve">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="plProxyPassword.Text" xml:space="preserve">
+    <value>Пароль к прокси-серверу:</value>
+  </data>
+  <data name="plWebRequestTimeout.Text" xml:space="preserve">
+    <value>Таймаут веб-запросов:</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>Адрес SMTP:</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>Тест</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>Проверка подлинности SMTP:</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>Пользователь SMTP:</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>Пароль SMTP:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>Разрешить SSL для SMTP:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>Используется для службы SMTP, которая требует безопасного подключения (обычно не нужно)</value>
+  </data>
+  <data name="plFileExtensions.Text" xml:space="preserve">
+    <value>Типы файлов для загрузки:</value>
+  </data>
+  <data name="plSkinUpload.Text" xml:space="preserve">
+    <value>Разрешение загрузки скинов:</value>
+  </data>
+  <data name="plCache.Text" xml:space="preserve">
+    <value>Время кэширования (сек):</value>
+  </data>
+  <data name="ClearCache.Text" xml:space="preserve">
+    <value>Очистка кэша</value>
+  </data>
+  <data name="plCopyright.Text" xml:space="preserve">
+    <value>Показывать копирайт?</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text" xml:space="preserve">
+    <value>Расширенные сообщения об ошибках?</value>
+  </data>
+  <data name="UpgradeLog.Text" xml:space="preserve">
+    <value>Журнал обновления для версии</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>Сообщение успешно отправлено</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
+    <value>Вы должны указать email-адрес хоста</value>
+  </data>
+  <data name="plSchedulerMode.Text" xml:space="preserve">
+    <value>Запуск планировщика:</value>
+  </data>
+  <data name="plSchedulerMode.Help" xml:space="preserve">
+    <value>Метод &quot;По таймеру&quot; порождает отдельный поток для работы планировщика, работающий параллельно и независимо от основного рабочего процесса. Метод &quot;По запросу&quot; запускает планировщик при выполнении HTTP-запросов. Также Вы можете запретить работу планировщика задач.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Запрещено</value>
+  </data>
+  <data name="TimerMethod.Text" xml:space="preserve">
+    <value>По таймеру</value>
+  </data>
+  <data name="RequestMethod.Text" xml:space="preserve">
+    <value>Метод запроса</value>
+  </data>
+  <data name="15Seconds.Text" xml:space="preserve">
+    <value>15 секунд</value>
+  </data>
+  <data name="30Seconds.Text" xml:space="preserve">
+    <value>30 секунд</value>
+  </data>
+  <data name="45Seconds.Text" xml:space="preserve">
+    <value>45 секунд</value>
+  </data>
+  <data name="60Seconds.Text" xml:space="preserve">
+    <value>60 секунд</value>
+  </data>
+  <data name="plPerformance.Text" xml:space="preserve">
+    <value>Производительность:</value>
+  </data>
+  <data name="HeavyCaching.Text" xml:space="preserve">
+    <value>Полное кэширование</value>
+  </data>
+  <data name="ModerateCaching.Text" xml:space="preserve">
+    <value>Умеренное кэширование</value>
+  </data>
+  <data name="LightCaching.Text" xml:space="preserve">
+    <value>Легкое кэширование</value>
+  </data>
+  <data name="NoCaching.Text" xml:space="preserve">
+    <value>Без кэширования</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>Основные параметры Вашего хоста</value>
+  </data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Основные параметры</value>
+  </data>
+  <data name="HostDetails.Text" xml:space="preserve">
+    <value>Параметры хоста</value>
+  </data>
+  <data name="plHostTitle.Help" xml:space="preserve">
+    <value>Укажите название хоста</value>
+  </data>
+  <data name="plHostURL.Help" xml:space="preserve">
+    <value>Укажите URL хоста</value>
+  </data>
+  <data name="plHostEmail.Help" xml:space="preserve">
+    <value>Укажите email-адрес службы поддержки хостинга</value>
+  </data>
+  <data name="plHostSkin.Help" xml:space="preserve">
+    <value>Выберите шаблон по умолчанию для всех сайтов этого хоста</value>
+  </data>
+  <data name="plHostContainer.Help" xml:space="preserve">
+    <value>Выберите контейнер по умолчанию для всех сайтов этого хоста</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Payment.Text" xml:space="preserve">
+    <value>Свойства оплат</value>
+  </data>
+  <data name="Proxy.Text" xml:space="preserve">
+    <value>Параметры прокси-сервера</value>
+  </data>
+  <data name="SMTP.Text" xml:space="preserve">
+    <value>Параметры SMTP-сервера</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>Дополнительные параметры</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>Дополнительные параметры Вашего хоста</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Другие параметры</value>
+  </data>
+  <data name="plCopyright.Help" xml:space="preserve">
+    <value>Включить показ копирайта DotNetNuke</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help" xml:space="preserve">
+    <value>Отметьте для использования расширенных сообщений об ошибках</value>
+  </data>
+  <data name="plProcessor.Help" xml:space="preserve">
+    <value>Выберите систему обработки платежей для сайтов клиентов</value>
+  </data>
+  <data name="plUserId.Help" xml:space="preserve">
+    <value>Укажите идентификатор пользователя для доступа к системе обработки платежей</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>Укажите пароль к системе обработки платежей</value>
+  </data>
+  <data name="plHostFee.Help" xml:space="preserve">
+    <value>Укажите базовую стоимость услуги  хостинга сайтов</value>
+  </data>
+  <data name="plHostCurrency.Help" xml:space="preserve">
+    <value>Выберите валюту для оплаты хостинга</value>
+  </data>
+  <data name="plDemoPeriod.Help" xml:space="preserve">
+    <value>Укажите период времени действия пробного хостинга</value>
+  </data>
+  <data name="plDemoSignup.Help" xml:space="preserve">
+    <value>Укажите способ подписания пользователей на пробный хостинг</value>
+  </data>
+  <data name="plHostSpace.Help" xml:space="preserve">
+    <value>Укажите размер дискового пространства для хостинга сайта</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>Укажите адрес SMTP-сервера</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>Укажите метод проверки подлинности пользователя SMTP-сервера (по-умолчанию анонимный)</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>Анонимный пользователь</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Простая проверка</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM-проверка</value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>Укажите имя пользователя для доступа к SMTP-серверу</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>Укажите пароль к SMTP-серверу</value>
+  </data>
+  <data name="plControlPanel.Text" xml:space="preserve">
+    <value>Панель управления:</value>
+  </data>
+  <data name="plControlPanel.Help" xml:space="preserve">
+    <value>Вы можете указать альтернативную панель управления страницами</value>
+  </data>
+  <data name="plFileExtensions.Help" xml:space="preserve">
+    <value>Укажите доступные для загрузки типы файлов(через запятую)</value>
+  </data>
+  <data name="plSkinUpload.Help" xml:space="preserve">
+    <value>Ограничена ли загрузка шаблонов для учетной записи хоста, или разрешена для администраторов сайта</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Хост</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Портал</value>
+  </data>
+  <data name="plCache.Help" xml:space="preserve">
+    <value>Выберите период времени, в течении которого объекты будут находиться в кэше</value>
+  </data>
+  <data name="plPerformance.Help" xml:space="preserve">
+    <value>Выберите способ оптимизации производительности.</value>
+  </data>
+  <data name="plProxyServer.Help" xml:space="preserve">
+    <value>Укажите адрес прокси-сервера</value>
+  </data>
+  <data name="plProxyPort.Help" xml:space="preserve">
+    <value>Укажите порт прокси-сервера</value>
+  </data>
+  <data name="plProxyUsername.Help" xml:space="preserve">
+    <value>Укажите имя пользователя прокси-сервера</value>
+  </data>
+  <data name="plProxyPassword.Help" xml:space="preserve">
+    <value>Укажите пароль к прокси-серверу</value>
+  </data>
+  <data name="plWebRequestTimeout.Help" xml:space="preserve">
+    <value>Укажите таймаут для веб-запросов</value>
+  </data>
+  <data name="plSiteLogBuffer.Help" xml:space="preserve">
+    <value>Укажите количество записей в буфере журнала сайта</value>
+  </data>
+  <data name="plSiteLogHistory.Help" xml:space="preserve">
+    <value>Укажите период времени хранения записей в журнале сайта (в днях)</value>
+  </data>
+  <data name="plUsersOnline.Help" xml:space="preserve">
+    <value>Вы можете запретить функцию &quot;кто сейчас на сайте&quot;</value>
+  </data>
+  <data name="plUsersOnlineTime.Help" xml:space="preserve">
+    <value>Укажите размер буфера для функции &quot;кто сейчас на сайте&quot; ( в минутах)</value>
+  </data>
+  <data name="FriendlyUrl.Text" xml:space="preserve">
+    <value>Настройка дружественных Url </value>
+  </data>
+  <data name="RequestFilter.Text" xml:space="preserve">
+    <value>Настройки фильтра запросов</value>
+  </data>
+  <data name="plEnableRequestFilters.Text" xml:space="preserve">
+    <value>Включить фильтры запросов?</value>
+  </data>
+  <data name="plEnableRequestFilters.Help" xml:space="preserve">
+    <value>Включить фильтры запросов.</value>
+  </data>
+  <data name="plHostPortal.Help" xml:space="preserve">
+    <value>Выберите сайт по умолчанию</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Параметры хоста</value>
+  </data>
+  <data name="SkinUpload.Text" xml:space="preserve">
+    <value>Загрузить скин</value>
+  </data>
+  <data name="ContainerUpload.Text" xml:space="preserve">
+    <value>Загрузить контейнер</value>
+  </data>
+  <data name="plSiteLogStorage.Text" xml:space="preserve">
+    <value>Хранилище журнала:</value>
+  </data>
+  <data name="plSiteLogStorage.Help" xml:space="preserve">
+    <value>Выберите вариант хранения журнала сайта</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>База данных</value>
+  </data>
+  <data name="FileSystem.Text" xml:space="preserve">
+    <value>Файловая система</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ПАРАМЕТРЫ ХОСТА&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;Администратор хоста с помощью данного модуля может настроить все необходимые параметры хоста, применяемые ко всем сайтам.&lt;/p&gt;</value>
+  </data>
+  <data name="plLogBuffer.Text" xml:space="preserve">
+    <value>Буферизация журнала?</value>
+  </data>
+  <data name="plLogBuffer.Help" xml:space="preserve">
+    <value>Отметьте, если хотите, чтобы новые записи журнала сначала помещались в буфер памяти, а затем по расписанию сохранялись в базе данных. В противном случае новые записи журнала будут сохраняться в базу данных немедленно.</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text" xml:space="preserve">
+    <value>Разблокировать учетные записи после(мин):</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help" xml:space="preserve">
+    <value>После того, как учетная запись пользователя блокируется при достижении максимального числа попыток неудачного входа, она может быть автоматически разблокирована по истечении определенного интервала времени.  Укажите интервал времени в минутах, по истечении которого учетные записи будут разблокированы автоматически.  Укажите &quot;0&quot; для отключения возможности авто-разблокировки.</value>
+  </data>
+  <data name="plCacheMethod.Text" xml:space="preserve">
+    <value>Метод кэширования модулей:</value>
+  </data>
+  <data name="plCacheMethod.Help" xml:space="preserve">
+    <value>Метод кэширования в памяти является самым быстрым и предоставляет максимальную гибкость, однако требует несколько больших ситсемных ресурсов. Метод кэширования на диске менее требователен к ресурсам, но не предоставляет всех возможностей механизма кэширования.</value>
+  </data>
+  <data name="Memory.Text" xml:space="preserve">
+    <value>В памяти</value>
+  </data>
+  <data name="Disk.Text" xml:space="preserve">
+    <value>На диске</value>
+  </data>
+  <data name="ProcessorWebSite.Text" xml:space="preserve">
+    <value>На веб-сайт обработчика платежей</value>
+  </data>
+  <data name="plHelpUrl.Text" xml:space="preserve">
+    <value>URL справки:</value>
+  </data>
+  <data name="plHelpUrl.Help" xml:space="preserve">
+    <value>Укажите интернет-адрес (URL) предоставляемой Вами онлайн-справки.  Если Вы оставите данное поле пустым, в разделах для администраторов сайтов и хоста онлайн-справка не будет доступна.</value>
+  </data>
+  <data name="plEnableHelp.Text" xml:space="preserve">
+    <value>Онлайн-справка для модулей:</value>
+  </data>
+  <data name="plEnableHelp.Help" xml:space="preserve">
+    <value>Вы можете разрешить или запретить пункт онлайн-справки в локальном меню модулей. Если разрешено, Вы должны обеспечить корректный интернет-адрес (URL) справки для модуля в разделе &amp;quot;Управление модулями&amp;quot;, несмотря на то, что он может быть уже указан производителем модуля.</value>
+  </data>
+  <data name="plCacheability.Text" xml:space="preserve">
+    <value>Кэширование аутентифицированных</value>
+  </data>
+  <data name="plCacheability.Help" xml:space="preserve">
+    <value>Установить управление кэшированием заголовков HTTP для аутентифицированных пользователей.</value>
+  </data>
+  <data name="NoCache.Text" xml:space="preserve">
+    <value>Без кэширования</value>
+  </data>
+  <data name="Private.Text" xml:space="preserve">
+    <value>Приватный</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Общедоступный</value>
+  </data>
+  <data name="Server.Text" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="ServerAndNoCache.Text" xml:space="preserve">
+    <value>ServerAndNoCache </value>
+  </data>
+  <data name="ServerAndPrivate.Text" xml:space="preserve">
+    <value>ServerAndPrivate </value>
+  </data>
+  <data name="plUpgrade.Text" xml:space="preserve">
+    <value>Проверить обновления?</value>
+  </data>
+  <data name="plUpgrade.Help" xml:space="preserve">
+    <value>Вы можете просмотреть журнал апгрейда до версии программного обеспечения, выбранной из списка.</value>
+  </data>
+  <data name="UpgradeNever.Text" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="plAvailable.Text" xml:space="preserve">
+    <value>Возможно обновление?</value>
+  </data>
+  <data name="plAvailable.Help" xml:space="preserve">
+    <value>Показывать этот значок, если вышла новая версия приложения</value>
+  </data>
+  <data name="plLog.Text" xml:space="preserve">
+    <value>Журнал обновлений для версии:</value>
+  </data>
+  <data name="plLog.Help" xml:space="preserve">
+    <value>Возможность показывать Вам журнал обновления базы данных для конкретной версии</value>
+  </data>
+  <data name="cmdRestart.Text" xml:space="preserve">
+    <value>Перестартовать приложение</value>
+  </data>
+  <data name="plAutoSync.Text" xml:space="preserve">
+    <value>Автоматически синхронизировать файловую систему?</value>
+  </data>
+  <data name="plAutoSync.Help" xml:space="preserve">
+    <value>Включите это для автоматической синхронизации файловой системы.</value>
+  </data>
+  <data name="plPageQuota.Help" xml:space="preserve">
+    <value>Вы можете определить максимальное число страниц на портале.</value>
+  </data>
+  <data name="plPageQuota.Text" xml:space="preserve">
+    <value>Квота страниц:</value>
+  </data>
+  <data name="plUserQuota.Help" xml:space="preserve">
+    <value>Вы можете определить максимальное число пользователей на портале.</value>
+  </data>
+  <data name="plUserQuota.Text" xml:space="preserve">
+    <value>Квота на пользователей:</value>
+  </data>
+  <data name="Deflate.Text" xml:space="preserve">
+    <value>Метод сжатия-deflate</value>
+  </data>
+  <data name="NoCompression.Text" xml:space="preserve">
+    <value>Без сжатия данных</value>
+  </data>
+  <data name="plCompression.Help" xml:space="preserve">
+    <value>Выберите метод сжатия http</value>
+  </data>
+  <data name="plCompression.Text" xml:space="preserve">
+    <value>Настройки сжатия:</value>
+  </data>
+  <data name="Performance.Text" xml:space="preserve">
+    <value>Настройки производительности</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="plPageState.Help" xml:space="preserve">
+    <value>Выберите режим использования сохранения состояний страниц. Это может, или быть скрытым полем на странице (Значение по умолчанию), или в памяти (Кэш).</value>
+  </data>
+  <data name="plPageState.Text" xml:space="preserve">
+    <value>Сохранение состояний страниц:</value>
+  </data>
+  <data name="plWhitespace.Help" xml:space="preserve">
+    <value>Выберите эту опцию, чтобы удалить лишние пустые и пробельные символы из ответа, отправляемого клиенту. Это приведет к меньшей загрузке (на 10-15 %), но это сделает html менее читаемым.</value>
+  </data>
+  <data name="plWhitespace.Text" xml:space="preserve">
+    <value>Использовать фильтр пробелов:</value>
+  </data>
+  <data name="Compression.Text" xml:space="preserve">
+    <value>Настройки сжатия данных</value>
+  </data>
+  <data name="plExcludedPaths.Text" xml:space="preserve">
+    <value>Исключенные пути:</value>
+  </data>
+  <data name="plExcludedPaths.Help" xml:space="preserve">
+    <value>Введите список исключенных путей.</value>
+  </data>
+  <data name="plWhitespaceFilter.Text" xml:space="preserve">
+    <value>Фильтр пробелов:</value>
+  </data>
+  <data name="plWhitespaceFilter.Help" xml:space="preserve">
+    <value>Введите регулярное выражение для того, чтобы удалять пробельные символы.</value>
+  </data>
+  <data name="valHostFee.Error" xml:space="preserve">
+    <value>Недопустимая оплата! Должно быть денежным значением!</value>
+  </data>
+  <data name="LogEmpty.Text" xml:space="preserve">
+    <value>Журнал пуст для указанной версии сценария. Это означает, что сценарий выполнился успешно.</value>
+  </data>
+  <data name="NoLog.Text" xml:space="preserve">
+    <value>Журнал не существует для указанной версии сценария. Это означает, что сценарий никогда не выполнялся.</value>
+  </data>
+  <data name="Authentication.Text" xml:space="preserve">
+    <value>Параметры аутентификации</value>
+  </data>
+  <data name="EmailErrorMessage.Text" xml:space="preserve">
+    <value>Произошла ошибка при попытке отправить тестовое сообщение по электронной почте. Ошибка:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="plAJAX.Help" xml:space="preserve">
+    <value>Включить поддержку AJAX.</value>
+  </data>
+  <data name="plAJAX.Text" xml:space="preserve">
+    <value>Разрешить AJAX?</value>
+  </data>
+  <data name="UserRestart.Text" xml:space="preserve">
+    <value>Пользователь вызвал перезапуск приложения</value>
+  </data>
+  <data name="NoPermissions.Text" xml:space="preserve">
+    <value>Нет прав доступа</value>
+  </data>
+  <data name="Items.Text" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+  <data name="plHostDefaultDocType.Text" xml:space="preserve">
+    <value>Резервный шаблон Doctype:</value>
+  </data>
+  <data name="plHostDefaultDocType.Help" xml:space="preserve">
+    <value>Устанавливает резервный шаблон оформления Doctype для интернет страниц. Это используется, если шаблон не определяет DocType.</value>
+  </data>
+  <data name="LegacyDoctype.Text" xml:space="preserve">
+    <value>HTML 4 (устарело)</value>
+  </data>
+  <data name="TransDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 transitional</value>
+  </data>
+  <data name="StrictDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 strict</value>
+  </data>
+  <data name="plRememberMe.Text" xml:space="preserve">
+    <value>Разрешить &quot;запомнить меня&quot; при входе пользователя?</value>
+  </data>
+  <data name="plRememberMe.Help" xml:space="preserve">
+    <value>&lt;p&gt;Разрешает флажок &quot;запомнить меня&quot; на элементах управления при регистрации пользователя. Если &quot;запомнить меня&quot; разрешен, то пользователи могут создать cookies, которые будут сохранены для множества посещений.&lt;/p&gt;</value>
+  </data>
+  <data name="plWebFarm.Text" xml:space="preserve">
+    <value>Это Web-ферма?</value>
+  </data>
+  <data name="valFileExtensions.Error" xml:space="preserve">
+    <value>&lt;br/&gt;Расширения имен файлов могут включать только буквы, числа и подчеркивание, разделенные запятыми.</value>
+  </data>
+  <data name="UpgradeFramework.Text" xml:space="preserve">
+    <value>Обновите версию .NET Framework</value>
+  </data>
+  <data name="plNotifyUpgrade.Help" xml:space="preserve">
+    <value>Если отмечено, то пользователь хоста будет уведомлен об обновлении по электронной почте.</value>
+  </data>
+  <data name="plNotifyUpgrade.Text" xml:space="preserve">
+    <value>Уведомлять хост?</value>
+  </data>
+  <data name="plAdminContainer.Help" xml:space="preserve">
+    <value>Выберите служебный контейнер по-умолчанию для всех сайтов этого хоста</value>
+  </data>
+  <data name="plAdminContainer.Text" xml:space="preserve">
+    <value>Служебный контейнер:</value>
+  </data>
+  <data name="plAdminSkin.Help" xml:space="preserve">
+    <value>Выберите служебный скин по-умолчанию для всех сайтов этого хоста</value>
+  </data>
+  <data name="plAdminSkin.Text" xml:space="preserve">
+    <value>Служебный скин:</value>
+  </data>
+  <data name="plJQueryDebugVersion.Help" xml:space="preserve">
+    <value>Если отмечено, то используется стандартный файл сценария jQuery. Если выключено, то используется уменьшенная версия, который значительно уменьшает размер javascript файла, но ухудшает удобочитаемость javascript.</value>
+  </data>
+  <data name="plJQueryDebugVersion.Text" xml:space="preserve">
+    <value>Использовать версию для отладки jQuery?</value>
+  </data>
+  <data name="plJQueryHostUrl.Help" xml:space="preserve">
+    <value>Это - полный URL для сценария jQuery. По умолчанию,- это установлено на уменьшенный сценарий последней версии jQuery, который расположен на серверах CDN Google для оптимальной производительности.</value>
+  </data>
+  <data name="plJQueryHostUrl.Text" xml:space="preserve">
+    <value>URL хоста jQuery:</value>
+  </data>
+  <data name="plJQueryUseHosted.Help" xml:space="preserve">
+    <value>Если отмечено, то будет использоваться  ассоциированный URL для файла jQuery. Если - нет, то тогда будут использоваться локальные копии файла.</value>
+  </data>
+  <data name="plJQueryUseHosted.Text" xml:space="preserve">
+    <value>Использовать хост-версию jQuery?</value>
+  </data>
+  <data name="plJQueryVersion.Help" xml:space="preserve">
+    <value>Идентифицирует строку версии, встроенную в локальный сценарий jQuery.</value>
+  </data>
+  <data name="plJQueryVersion.Text" xml:space="preserve">
+    <value>Установленная версия jQuery:</value>
+  </data>
+  <data name="plEnableCDN.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableCDN.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="HostEmail.Error" xml:space="preserve">
+    <value>Недопустимый адрес Email</value>
+  </data>
+  <data name="JQuery.Text" xml:space="preserve">
+    <value>Настройки JQuery</value>
+  </data>
+  <data name="plProduct.Text" xml:space="preserve">
+    <value>Продукт DotNetNuke:</value>
+  </data>
+  <data name="plProduct.Help" xml:space="preserve">
+    <value>Используемое Вами приложение DotNetNuke </value>
+  </data>
+  <data name="FrameworkDownLevel.Text" xml:space="preserve">
+    <value>Примечание: Вы используете старую версию .NET Framework. Будущие обновления платформы DotNetNuke потребуют .NET 3.5 SP1 или выше. Если Вы считаете, что Вы уже испольуете .NET 3.5 SP1, пожалуйста, проверьте свой файл web.config  и удостоверьтесь в том,  что ссылки на сборки System.Core и  System.Data.Linq имеют версию 3.5 или выше в узле assemblies.</value>
+  </data>
+  <data name="plBetaNotice.Help" xml:space="preserve">
+    <value>Поставьте этот флажок, чтобы отобразить сообщение, указывающее, что выполняющаяся версия - Бета-версия.</value>
+  </data>
+  <data name="plBetaNotice.Text" xml:space="preserve">
+    <value>Сообщать о Бета-версии?</value>
+  </data>
+  <data name="plThrowExceptions.Help" xml:space="preserve">
+    <value>Отметьте это, чтобы разрешить  перезапуск для исключений ядра, которые происходят из-за недостающих полей в данных, возвращенных из базы данных. Если это не включено, то ошибка будет зарегистрирована в журнале регистрации событий. Если это отмечено, то ошибка будет передана пользователю. Эта установка прежде всего используется для разработчиков, чтобы диагностировать проблемы.</value>
+  </data>
+  <data name="plThrowExceptions.Text" xml:space="preserve">
+    <value>Перезапуск CBO исключений:</value>
+  </data>
+  <data name="plPsWarning.Text" xml:space="preserve">
+    <value>** Предупреждение: состояние постоянного нахождения страницы в памяти может причинить проблемы Ajax**</value>
+  </data>
+  <data name="ModuleCacheProvider.Help" xml:space="preserve">
+    <value>Выберите  поставщик кэширования модуля по умолчанию. Эта установка может быть переопределена каждым отдельным модулем.</value>
+  </data>
+  <data name="ModuleCacheProvider.Text" xml:space="preserve">
+    <value>Провайдер кэширования модуля</value>
+  </data>
+  <data name="plContentLocalization.Help" xml:space="preserve">
+    <value>Отметьте это, чтобы разрешить переход пользователей с текущим языком, позволяя динамическую локализацию портала и контента.</value>
+  </data>
+  <data name="plContentLocalization.Text" xml:space="preserve">
+    <value>Разрешить локализацию контента?</value>
+  </data>
+  <data name="PageCacheProvider.Help" xml:space="preserve">
+    <value>Выберите поставщика кэширования страниц по умолчанию. Поставщика кэширования нужно включить, устанавливая таймаут кэша на каждой странице.</value>
+  </data>
+  <data name="PageCacheProvider.Text" xml:space="preserve">
+    <value>Провайдер  вывода кэша страницы</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Help" xml:space="preserve">
+    <value>Отметьте эту опцию, чтобы разрешить использование пользовательского css класса, основанному на определении модуля. Это может использоваться  дизайнерами шаблонов, чтобы применить специфичные стили css к специфичным типам модуля.</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
+    <value>Использовать класс CSS пользовательских модулей?</value>
+  </data>
+  <data name="plEnableContentLocalization.Help" xml:space="preserve">
+    <value>Поставьте этот флажок, чтобы разрешить  администраторам сайта локализацию контента для своего сайта.</value>
+  </data>
+  <data name="plEnableContentLocalization.Text" xml:space="preserve">
+    <value>Разрешить локализацию контента?</value>
+  </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="EditSkinPreview.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plJQueryUIHostUrl.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plJQueryUIVersion.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plJQueryUIVersion.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DeprecateGzip.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ClientResourceManagement.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmVersion.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmVersion.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmMinifyCss.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmMinifyCss.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmMinifyJs.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCrmMinifyJs.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IncrementCrmVersionButton.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IncrementCrmVersionConfirm.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IncrementCrmVersionError.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DebugEnabled.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DebugEnabled.Title" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MinificationSettingsInfo.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MinificationSettingsInfo.Title" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IPFiltersDisabled.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IPFiltersDisabled.Title" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IPFiltersInfo.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IPFiltersInfo.Title" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="txtBatch.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="txtBatch.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SmtpServerWarning.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LogSettings.Text" xml:space="preserve">
+    <value>Журналы</value>
+  </data>
+  <data name="LogSettingsHelp.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Html5Doctype.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="LogLocations.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plLogs.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plLogs.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SelectLog.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plBatch.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plBatch.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MembershipManagement.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plResetLinkValidity.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plNumberPasswords.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plNumberPasswords.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableBannedList.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableBannedList.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableStrengthMeter.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableStrengthMeter.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableIPChecking.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnableIPChecking.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CdnSettings.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plMsAjaxCdn.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plMsAjaxCdn.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plTelerikBasicUrl.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plTelerikBasicUrl.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plTelerikCdn.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plTelerikCdn.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plTelerikSecureUrl.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plTelerikSecureUrl.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plAsyncTimeout.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plAsyncTimeout.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnablePasswordHistory.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plEnablePasswordHistory.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plResetLinkValidity.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="valResetLink.Error" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AlwaysUse.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CharacterSubListLabel.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CharacterSubListLabel.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ExtensionLabel.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ExtensionLabel.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="PageOnly.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="EmptyString.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Never.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="IPFilters.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexPath.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexPath.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SearchIndex.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="btnCompactSearchIndex.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MessageIndexWarning.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="btnHostSearchReindex.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CompactIndexConfirmationYes.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblGetMoreInformation.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblIndexWordMaxLength.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblIndexWordMaxLength.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblIndexWordMinLength.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblIndexWordMinLength.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ReIndexConfirmationTitle.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="valIndexWordMaxLengthCompare.Error" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="valIndexWordMinLengthCompare.Error" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plDebugMode.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plDebugMode.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plShowCriticalErrors.Help" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plShowCriticalErrors.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

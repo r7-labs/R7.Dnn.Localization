@@ -1,0 +1,106 @@
+[main]
+host = https://www.transifex.com
+lang_map = lang_map = en_US: en-US, ru_RU: ru-RU
+
+[r7-dnn-blog.DesktopModules_Blog_PostEdit_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/PostEdit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/PostEdit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Blog_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/Blog.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/Blog.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_TermsEditML_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/TermsEditML.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/TermsEditML.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Admin_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/Admin.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/Admin.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_SharedResources]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Manage_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/Manage.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/Manage.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_BlogImport_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/BlogImport.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/BlogImport.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_BlogEdit_ascx]
+file_filter = <lang>/DesktopModules/Blog/App_LocalResources/BlogEdit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/App_LocalResources/BlogEdit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Controls_TemplateSettings_ascx]
+file_filter = <lang>/DesktopModules/Blog/Controls/App_LocalResources/TemplateSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Controls/App_LocalResources/TemplateSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Controls_ViewSettings_ascx]
+file_filter = <lang>/DesktopModules/Blog/Controls/App_LocalResources/ViewSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Controls/App_LocalResources/ViewSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Controls_Comments_ascx]
+file_filter = <lang>/DesktopModules/Blog/Controls/App_LocalResources/Comments.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Controls/App_LocalResources/Comments.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Controls_ManagementPanel_ascx]
+file_filter = <lang>/DesktopModules/Blog/Controls/App_LocalResources/ManagementPanel.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Controls/App_LocalResources/ManagementPanel.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Templates_default_SharedResources_ascx]
+file_filter = <lang>/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Templates_commentList_SharedResources_ascx]
+file_filter = <lang>/DesktopModules/Blog/Templates/commentList/App_LocalResources/SharedResources.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Templates/commentList/App_LocalResources/SharedResources.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Templates_classicBlog_SharedResources_ascx]
+file_filter = <lang>/DesktopModules/Blog/Templates/classicBlog/App_LocalResources/SharedResources.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Templates/classicBlog/App_LocalResources/SharedResources.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Templates_latestPosts_SharedResources_ascx]
+file_filter = <lang>/DesktopModules/Blog/Templates/latestPosts/App_LocalResources/SharedResources.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Templates/latestPosts/App_LocalResources/SharedResources.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-blog.DesktopModules_Blog_Templates_timelineJS_SharedResources_ascx]
+file_filter = <lang>/DesktopModules/Blog/Templates/timelineJS/App_LocalResources/SharedResources.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Blog/Templates/timelineJS/App_LocalResources/SharedResources.ascx.resx
+source_lang = en-US
+type = RESX
+

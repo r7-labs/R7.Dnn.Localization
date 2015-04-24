@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plBannerName.Text" xml:space="preserve">
+    <value>Название баннера</value>
+  </data>
+  <data name="plBannerName.Help" xml:space="preserve">
+    <value>Укажите название баннера. Это название будет показано в качестве всплывающего текста к изображению баннера</value>
+  </data>
+  <data name="BannerName.ErrorMessage" xml:space="preserve">
+    <value>Название баннера является обязательным</value>
+  </data>
+  <data name="plBannerType.Text" xml:space="preserve">
+    <value>Тип баннера</value>
+  </data>
+  <data name="plBannerType.Help" xml:space="preserve">
+    <value>Выберите тип баннера</value>
+  </data>
+  <data name="plBannerGroup.Text" xml:space="preserve">
+    <value>Группа баннеров</value>
+  </data>
+  <data name="plBannerGroup.Help" xml:space="preserve">
+    <value>Укажите группу баннеров, если хотите выделить некоторое подмножестао баннеров</value>
+  </data>
+  <data name="plImage.Text" xml:space="preserve">
+    <value>Изображение/Ссылка</value>
+  </data>
+  <data name="plImage.Help" xml:space="preserve">
+    <value>Выберите файл изображения для графического баннера. Вы можете  загрузить новый файл изображения или указать URL удаленного изображения. Для текстовых баннеров, вы должны указать URL рекламного текста.</value>
+  </data>
+  <data name="plWidth.Text" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="plWidth.Help" xml:space="preserve">
+    <value>Укажите ширину баннера. Этот параметр является необязательным для графических баннеров, но необходим для флэш-баннеров.</value>
+  </data>
+  <data name="plHeight.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="plHeight.Help" xml:space="preserve">
+    <value>Укажите высоту баннера. Этот параметр является необязательным для графических баннеров, но необходим для флэш-баннеров.</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Текст / Скрипт</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Укажите текстовое описание баннера. Оно будет использовано как всплывающий текст к графическим баннерам или как собственно текст в случае текстовых баннеров</value>
+  </data>
+  <data name="plURL.Text" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="plURL.Help" xml:space="preserve">
+    <value>Укажите интернет-адрес сайта (URL), на который будет перенаправлен пользователь, нажавший на баннер. Если это поле будет оставлено пустым, будет использован адрес сайта поставщика</value>
+  </data>
+  <data name="plImpressions.Text" xml:space="preserve">
+    <value>Число показов</value>
+  </data>
+  <data name="plImpressions.Help" xml:space="preserve">
+    <value>Укажите количество показов баннера. Используйте ноль (0) для указания нелимитированного числа показов.</value>
+  </data>
+  <data name="Impressions.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Вы должны указать допустимое количество показов</value>
+  </data>
+  <data name="plCPM.Text" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="plCPM.Help" xml:space="preserve">
+    <value>Цена за 1000 показов. Таже это может быть разовая стоимость всей рекламной кампании</value>
+  </data>
+  <data name="CPM.ErrorMessage" xml:space="preserve">
+    <value>Вы должны указать допустимую стоимость (CPM)</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>Укажите дату начала рекламной кампании</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>Укажите дату окончания рекламной кампании</value>
+  </data>
+  <data name="plCriteria.Text" xml:space="preserve">
+    <value>Критерий</value>
+  </data>
+  <data name="plCriteria.Help" xml:space="preserve">
+    <value>Укажите метод определения окончания рекламной кампании: исчерпание числа показов И/ИЛИ окончание срока кампании</value>
+  </data>
+  <data name="cmdEmail.Text" xml:space="preserve">
+    <value>Отправить отчет продавцу</value>
+  </data>
+  <data name="ControlTitle_banner.Text" xml:space="preserve">
+    <value>Баннер</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Модуль &amp;laquo;БАННЕРЫ&amp;raquo;&lt;/h1&gt;
+
+&lt;p&gt;Модуль баннерной рекламы выполняет показ чередующихся баннеров, рекламирующих продавцов в масштабах определенного сайта или всего хост-сервера.  &lt;/p&gt;
+
+&lt;h1&gt;Установка параметров баннеров&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Добавьте модуль &lt;b&gt;Баннеры&lt;/b&gt;, или перейдите к существующему модулю &lt;b&gt;Баннеры&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;Выберите пункт &lt;b&gt;Свойства баннеров&lt;/b&gt;. 
+&lt;li&gt;В качестве источника баннеров выберите &lt;b&gt;Сайт&lt;/b&gt; или &lt;b&gt;Хост&lt;/b&gt;. 
+&lt;li&gt;Выберите один из &lt;b&gt;типов баннеров&lt;/b&gt;.
+&lt;li&gt;Укажите максимальное &lt;b&gt;количество баннеров&lt;/b&gt;, одновременно показываемых в данном модуле. 
+&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="EmailSuccess.Text" xml:space="preserve">
+    <value>Сообщение отправлено</value>
+  </data>
+  <data name="EmailFailure.Text" xml:space="preserve">
+    <value>Сообщение не отправлено: {0}</value>
+  </data>
+  <data name="cmdCopy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="and.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="or.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

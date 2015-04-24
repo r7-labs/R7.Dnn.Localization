@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogTitle.Text" xml:space="preserve">
+    <value>Журнал установки пакета</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="InvalidExt.Text" xml:space="preserve">
+    <value>Недопустимое расширение файла - {0}</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О модуле Установка пакета&lt;/h1&gt;&lt;p&gt;Позволяет Вам загружать и устанавливать пакеты на портале.&lt;/p&gt;</value>
+  </data>
+  <data name="NoFile.Text" xml:space="preserve">
+    <value>Вы должны сначала выбрать файл для загрузки. Нажмите кнопку просмотра, чтобы выбрать местонахождение файла в вашей локальной файловой системе.</value>
+  </data>
+  <data name="InstallCustomPackage.Text" xml:space="preserve">
+    <value>Установка нового расширения {0}</value>
+  </data>
+  <data name="InstallPackage.Text" xml:space="preserve">
+    <value>Установка расширения</value>
+  </data>
+  <data name="UploadPackage.Text" xml:space="preserve">
+    <value>Подгрузить пакет</value>
+  </data>
+  <data name="AcceptLicense.Text" xml:space="preserve">
+    <value>Принять условия лицензии?</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>Возможности системы управления контентом DNN могут быть расширены множеством способов. Этот мастер поможет Вам подгрузить и установить пакеты расширений для DNN.</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>Установка нового пакета расширения</value>
+  </data>
+  <data name="ZipCriticalError.Text" xml:space="preserve">
+    <value>Критическая ошибка при чтении zip пакета </value>
+  </data>
+  <data name="ZipError.Text" xml:space="preserve">
+    <value>Ошибка при чтении zip пакета - см. ниже</value>
+  </data>
+  <data name="AcceptTerms.Text" xml:space="preserve">
+    <value>Вы должны принять условия лицензии, чтобы установить этот пакет.</value>
+  </data>
+  <data name="InstallError.Text" xml:space="preserve">
+    <value>Ошибка при загрузке файлов из временного каталога - см. ниже</value>
+  </data>
+  <data name="InstallResults.Help" xml:space="preserve">
+    <value>Результаты установки пакета см. ниже</value>
+  </data>
+  <data name="InstallResults.Title" xml:space="preserve">
+    <value>Отчет об установке пакета</value>
+  </data>
+  <data name="PackageInfo.Help" xml:space="preserve">
+    <value>Следующая информация была найдена в манифесте пакета.</value>
+  </data>
+  <data name="PackageInfo.Title" xml:space="preserve">
+    <value>Информация пакета</value>
+  </data>
+  <data name="License.Help" xml:space="preserve">
+    <value>Прежде, чем продолжить Вы должны принять условия лицензии для этого расширения. Пожалуйста, прочитайте лицензию и подпишите, нажав &quot;Принять условия&quot;</value>
+  </data>
+  <data name="License.Title" xml:space="preserve">
+    <value>Просмотр лицензии</value>
+  </data>
+  <data name="ReleaseNotes.Help" xml:space="preserve">
+    <value>Вы можете прочитать заметки к выпуску для этого пакета.</value>
+  </data>
+  <data name="ReleaseNotes.Title" xml:space="preserve">
+    <value>Заметки к выпуску</value>
+  </data>
+  <data name="IgnoreWhiteList.Text" xml:space="preserve">
+    <value>Не проверять типы файлов?</value>
+  </data>
+  <data name="IgnoreRestrictedFilesWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Предупреждение:&lt;/b&gt; Вы выбрали игнорировать проверку на запрещенные типы файлов. Это действие потенциально угрожает безопасности Вашего сайта, поэтому Вы должны  делать это только в том случае, если пакет, который устанавливается, получен из доверенного источника.</value>
+  </data>
+  <data name="RepairInstall.Text" xml:space="preserve">
+    <value>Восстановить установку?</value>
+  </data>
+  <data name="InvalidFiles.Text" xml:space="preserve">
+    <value>Пакет содержит файлы с недопустимыми расширениями ({0})</value>
+  </data>
+  <data name="PackageInstalled.Text" xml:space="preserve">
+    <value>Этот пакет уже установлен.</value>
+  </data>
+  <data name="RepairInstallWarning.Text" xml:space="preserve">
+    <value>ПРЕДУПРЕЖДЕНИЕ: Вы выбрали исправить установку этого пакета. Это приведет к тому, что все  файлы в пакете будут перезаписаны поверх всех  ранее установленых.</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>Возврат</value>
+  </data>
+  <data name="LegacySkin.Text" xml:space="preserve">
+    <value>Устаревший шаблон/контейнер:</value>
+  </data>
+  <data name="NoManifest.Text" xml:space="preserve">
+    <value>У этого пакета нет манифеста. Старые шаблоны и контейнеры не содержат манифестов. Если это -  пакет с устаревшим шаблоном  или уонтейнером, пожалуйста включите флажок ниже и повторно загрузите пакет.</value>
+  </data>
+  <data name="Container.Text" xml:space="preserve">
+    <value>Контейнер</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Это - не шаблон или контейнер</value>
+  </data>
+  <data name="Skin.Text" xml:space="preserve">
+    <value>Шаблон оформления</value>
+  </data>
+  <data name="CoreLanguageError.Text" xml:space="preserve">
+    <value>Язык для ядра системы, для которого создан этот языковой пакет, не установлен. Установите языковой пакет для ядра системы прежде, чем устанавливать любые другие языковые пакеты для этого языка.</value>
+  </data>
+  <data name="DependencyError.Text" xml:space="preserve">
+    <value>Этот языковой пакет создан для расширения, которое еще не установленно.</value>
+  </data>
+  <data name="IgnoreWhiteListHelp.Text" xml:space="preserve">
+    <value>Установщик поддерживает список допустимых расширений имен файлов (т.н. &quot;белый список&quot;), которые могут быть установлены на Ваш сайт. Если Вы уверены, что пакет, который устанавливается, получен из надежного источника, то можете выбрать игнорировать этот список.</value>
+  </data>
+  <data name="LegacySkinHelp.Text" xml:space="preserve">
+    <value>Устаревшие шаблоны оформления и контейнеры могут быть установлены c помощью данного установщик. Но, поскольку у них нет манифестов, Вы должны самостоятельно этот пакет как пакет шаблона, либо пакет контейнера (если Вы не уверены, что этот шаблон/контейнер - устаревший, то можно выбрать подходящий вариант и в этом случае).</value>
+  </data>
+  <data name="RepairInstallHelp.Text" xml:space="preserve">
+    <value>По умолчанию инсталлятор не  перезаписывает тот же пакет и версию. Если Вам это надо, чтобы инсталлятор исправил текущую установленную версию, то тогда включите этот флажок.</value>
+  </data>
+  <data name="BrowseFile.Text" xml:space="preserve">
+    <value>Выбрать файл:</value>
+  </data>
+  <data name="BrowseFileHelp.Text" xml:space="preserve">
+    <value>Используйте эту кнопку, чтобы выбрать на Вашем компьютере пакет расширения, который Вы желаете установить, затем нажмите Далее чтобы продолжить.</value>
+  </data>
+  <data name="Warnings.Help" xml:space="preserve">
+    <value>Если Вы дошли до этой страницы, то это означает, что установщик должен собрать еще немного информации перед тем, как начать установку.</value>
+  </data>
+  <data name="Warnings.Title" xml:space="preserve">
+    <value>Результаты подгрузки</value>
+  </data>
+  <data name="AcceptLicense.Help" xml:space="preserve">
+    <value>Отметьте этот флаг, чтобы принять условия лицензии.</value>
+  </data>
+  <data name="ControlTitle_install.Text" xml:space="preserve">
+    <value>Установка расширения</value>
+  </data>
+  <data name="FileSizeRestriction.Text" xml:space="preserve">
+    <value>Максимальный размер подгружаемого файла {0} Мб. </value>
+  </data>
+  <data name="AzureCompact.Text" xml:space="preserve">
+    <value>Установить без проверки на совместимость с Sql Azure?</value>
+  </data>
+  <data name="AzureCompactHelp.Text" xml:space="preserve">
+    <value>Данный сайт использует SQL Azure в качестве сервера БД. Пакет, который Вы пытаетесь установить, не проверен на совместимость с SQL Azure. Если установить несовместимый  модуль, это может привести к невозможности проведения резервного копирования и восстановления БД, а также к появлению исключений во время работы модулей, который не могут быть обнаружены в процессе установки.</value>
+  </data>
+  <data name="AzureCompactMessage.Text" xml:space="preserve">
+    <value>Совместимость пакета с Sql Azure не подтверждена.</value>
+  </data>
+  <data name="AzureCompactWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Предупреждение:&lt;/b&gt; Вы приняли решение установить пакет, совместимость которого с Sql Azure не подтверждена.</value>
+  </data>
+  <data name="NoAzureCompactHelp.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="NoAzureCompactMessage.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

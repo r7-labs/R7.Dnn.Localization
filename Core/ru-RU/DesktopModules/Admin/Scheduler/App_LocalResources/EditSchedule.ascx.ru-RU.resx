@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentOptions.Action" xml:space="preserve">
+    <value>Состояние задач</value>
+  </data>
+  <data name="ScheduleHistory.Action" xml:space="preserve">
+    <value>Просмотр журнала</value>
+  </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>Полное имя класса и сборки</value>
+  </data>
+  <data name="plEnabled.Text" xml:space="preserve">
+    <value>Разрешено:</value>
+  </data>
+  <data name="plTimeLapse.Text" xml:space="preserve">
+    <value>Таймер запуска:</value>
+  </data>
+  <data name="plTimeLapse.Help" xml:space="preserve">
+    <value>Пример: укажите &quot;5&quot; и выберите &quot;минут&quot;, чтобы запускать задачу каждые 5 минут. Оставьте поле пустым для запрещения таймера запуска этой задачи.</value>
+  </data>
+  <data name="Minutes.Text" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="Days.Text" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="Hours.Text" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="plRetryTimeLapse.Text" xml:space="preserve">
+    <value>Таймер повтора</value>
+  </data>
+  <data name="plRetryTimeLapse.Help" xml:space="preserve">
+    <value>Пример: укажите &quot;5&quot; и выберите &quot;минут&quot;, чтобы перезапускать задачу каждые 5 минут после сбоя. Оставьте поле пустым для запрещения таймера повтора.</value>
+  </data>
+  <data name="plRetainHistoryNum.Text" xml:space="preserve">
+    <value>Сохранять в истории:</value>
+  </data>
+  <data name="plRetainHistoryNum.Help" xml:space="preserve">
+    <value>Пример: Выберите &quot;10&quot; для сохранения в истории десяти последних записей.</value>
+  </data>
+  <data name="plAttachToEvent.Text" xml:space="preserve">
+    <value>Старт по событию:</value>
+  </data>
+  <data name="plAttachToEvent.Help" xml:space="preserve">
+    <value>Пример: Выберите &quot;СТАРТ ПРИЛОЖЕНИЯ&quot;, чтобы запускать эту задачу при старте веб-приложения. Обратите внимание, что задачи, назначенные на &quot;ЗАВЕРШЕНИЕ ПРИЛОЖЕНИЯ&quot; могут не запускаться со 100%-ной надежностью на некоторых хостах.</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="APPLICATION_START.Text" xml:space="preserve">
+    <value>СТАРТ ПРИЛОЖЕНИЯ</value>
+  </data>
+  <data name="plCatchUpEnabled.Text" xml:space="preserve">
+    <value>Нагонять:</value>
+  </data>
+  <data name="plCatchUpEnabled.Help" xml:space="preserve">
+    <value>Отметьте, если желаете, чтобы задача выполнилась столько раз, сколько раз она могла быть пропущена в результате временной неработоспособности сервера.</value>
+  </data>
+  <data name="plObjectDependencies.Text" xml:space="preserve">
+    <value>Зависимости объектов:</value>
+  </data>
+  <data name="plObjectDependencies.Help" xml:space="preserve">
+    <value>Укажите таблицы БД или иные объекты, от которых зависит данная задача. Например: &quot;SiteLog,Users,UsersOnline&quot;</value>
+  </data>
+  <data name="UpdateSuccess.Text" xml:space="preserve">
+    <value>Изменения сохранены.</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>Задача была удалена из расписания.</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Редактировать задачи</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Модуль &amp;laquo;ПЛАНИРОВЩИК&amp;raquo;&lt;/h1&gt;
+&lt;p&gt;Модуль позволяет управлять периодическими задачами, выполняемыми по расписанию.&lt;/p&gt;</value>
+  </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>Это полное имя класса с присоединенным к нему именем сборки.  Например: &quot;DotNetNuke.Entities.Users.PurgeUsersOnline, DOTNETNUKE&quot;</value>
+  </data>
+  <data name="plServers.Text" xml:space="preserve">
+    <value>Выполнять на серверах:</value>
+  </data>
+  <data name="plServers.Help" xml:space="preserve">
+    <value>Укажите список серверов, разделенных запятыми, на которых должна выполняться данная задача.</value>
+  </data>
+  <data name="Seconds.Text" xml:space="preserve">
+    <value>Секунд</value>
+  </data>
+  <data name="plEnabled.Help" xml:space="preserve">
+    <value>Отметьте, чтобы разрешить расписание.</value>
+  </data>
+  <data name="plFriendlyName.Help" xml:space="preserve">
+    <value>Введите имя для запланированного задания.</value>
+  </data>
+  <data name="plFriendlyName.Text" xml:space="preserve">
+    <value>Дружественное имя:</value>
+  </data>
+  <data name="cmdRun.Text" xml:space="preserve">
+    <value>Выполнить сейчас</value>
+  </data>
+  <data name="RunNow.Text" xml:space="preserve">
+    <value>Добавленный элемент, намеченый для немедленного выполнения</value>
+  </data>
+  <data name="TypeRequired.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>
