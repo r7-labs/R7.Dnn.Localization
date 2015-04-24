@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllCategories.Text" xml:space="preserve">
+    <value>Все категории</value>
+  </data>
+  <data name="Category.Text" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="cmdCancelAdd.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdConfirmAdd.Text" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="PermissionEdit.Text" xml:space="preserve">
+    <value>Только редакторам</value>
+  </data>
+  <data name="PermissionView.Text" xml:space="preserve">
+    <value>Как у страницы</value>
+  </data>
+  <data name="ShareableWarningAlternate.Text" xml:space="preserve">
+    <value>Если Вы обеспокоены данным сообщением или работает над сайтом, в работе которого совершенно недопустимы ошибки, нажмите Отмена и свяжитесь со &lt;a href=&quot;mailto:support@dotnetnuke.com&quot;&gt;Службой поддержки DotNetNuke&lt;/a&gt;.</value>
+  </data>
+  <data name="ShareableWarningContent.Text" xml:space="preserve">
+    <value>Вы пытаетесь добавить ссылку на модуль, который располагается на другом сайте. Этот модуль, возможно, не поддерживает одновременное  совместное использование на разных сайтах - его разработчиком явно не указано ни то, ни другое. &lt;br/&gt;&lt;br/&gt;Если Вы уверены, что модуль поддерживает совместное использование, или просто хотите проверить это, то продолжайте - но знайте, что определенная функциональность (или весь модуль целиком) может работать направильно (или же не работать совсем) в данной конфигурации.</value>
+  </data>
+  <data name="ShareableWarningHeader.Text" xml:space="preserve">
+    <value>&lt;span style=&quot;color: red;&quot;&gt;Предупреждение&lt;/span&gt;: Этот модуль может не поддерживать совместное использование несколькими сайтами</value>
+  </data>
+  <data name="ShareableWarningTitle.Text" xml:space="preserve">
+    <value>Может не работать</value>
+  </data>
+  <data name="Tool.ClearCache.Text" xml:space="preserve">
+    <value>Очистка кеша</value>
+  </data>
+  <data name="Tool.DeletePage.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите удалить эту страницу?</value>
+  </data>
+  <data name="Tool.DeletePage.Special.ToolTip" xml:space="preserve">
+    <value>Невозможно удалить эту страницу, так как это системная страница, либо она используется. Используйте возможности, представленные в меню Настройки сайта &gt; Расширенные настройки &gt; Управление страницами или свяжитесь с администратором сайта.</value>
+  </data>
+  <data name="Tool.Help.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="Tool.Help.ToolTip" xml:space="preserve">
+    <value>Справка онлайн</value>
+  </data>
+  <data name="Tool.RecycleApp.Text" xml:space="preserve">
+    <value>Перезапуск пула приложения</value>
+  </data>
+  <data name="Tool.UploadFile.Text" xml:space="preserve">
+    <value>Подгрузить файл</value>
+  </data>
+  <data name="Pane.AddBottom.Text" xml:space="preserve">
+    <value>На {0} последним</value>
+  </data>
+  <data name="Pane.AddTop.Text" xml:space="preserve">
+    <value>На {0} первым</value>
+  </data>
+  <data name="Tool.AddExistingModule.Text" xml:space="preserve">
+    <value>Существующий модуль</value>
+  </data>
+  <data name="Tool.AddNewModule.Text" xml:space="preserve">
+    <value>Новый модуль</value>
+  </data>
+  <data name="Tool.AddNewPage.Text" xml:space="preserve">
+    <value>Новая страница</value>
+  </data>
+  <data name="Tool.AddToBookmarks.ToolTip" xml:space="preserve">
+    <value>Добавить закладку</value>
+  </data>
+  <data name="Tool.Admin.Text" xml:space="preserve">
+    <value>Админ</value>
+  </data>
+  <data name="Tool.CopyPage.Text" xml:space="preserve">
+    <value>Копировать страницу</value>
+  </data>
+  <data name="Tool.DeletePage.Text" xml:space="preserve">
+    <value>Удалить страницу</value>
+  </data>
+  <data name="Tool.EditPage.Text" xml:space="preserve">
+    <value>Редактор</value>
+  </data>
+  <data name="Tool.EditThisPage.Text" xml:space="preserve">
+    <value>Включить редактор</value>
+  </data>
+  <data name="Tool.ExportPage.Text" xml:space="preserve">
+    <value>Экспорт страницы</value>
+  </data>
+  <data name="Tool.FindModules.Text" xml:space="preserve">
+    <value>Больше модулей</value>
+  </data>
+  <data name="Tool.Host.Text" xml:space="preserve">
+    <value>Хост</value>
+  </data>
+  <data name="Tool.ImportPage.Text" xml:space="preserve">
+    <value>Импортировать страницу</value>
+  </data>
+  <data name="Tool.GettingStarted.Text" xml:space="preserve">
+    <value>Начиная работу</value>
+  </data>
+  <data name="Tool.LayoutMode.Text" xml:space="preserve">
+    <value>Режим макета</value>
+  </data>
+  <data name="Tool.MakeCopy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Tool.ManageRoles.Text" xml:space="preserve">
+    <value>Управления ролями</value>
+  </data>
+  <data name="Tool.ManageTemplate.Text" xml:space="preserve">
+    <value>Внешний вид страницы</value>
+  </data>
+  <data name="Tool.ManageUsers.Text" xml:space="preserve">
+    <value>Управление пользователями</value>
+  </data>
+  <data name="Tool.MobilePreview.Text" xml:space="preserve">
+    <value>Мобильная версия</value>
+  </data>
+  <data name="Tool.Modules.Text" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="Tool.NewUser.Text" xml:space="preserve">
+    <value>Новый пользователь</value>
+  </data>
+  <data name="Tool.PagePermissions.Text" xml:space="preserve">
+    <value>Разрешения страницы</value>
+  </data>
+  <data name="Tool.Pages.Text" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="Tool.PageSettings.Text" xml:space="preserve">
+    <value>Свойства страницы</value>
+  </data>
+  <data name="Tool.RemoveFromBookmarks.ToolTip" xml:space="preserve">
+    <value>Удалить закладку</value>
+  </data>
+  <data name="Tool.SwitchSites.Button" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="Tool.SwitchSites.Text" xml:space="preserve">
+    <value>Переключить сайт:</value>
+  </data>
+  <data name="Tool.Tools.Text" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="Tool.Users.Text" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Tool.CloseEditMode.Text" xml:space="preserve">
+    <value>Выключить редактор</value>
+  </data>
+  <data name="LoadingModule.Text" xml:space="preserve">
+    <value>Загружаем модули</value>
+  </data>
+  <data name="LoadingTabModule.Text" xml:space="preserve">
+    <value>Выберите сайт и страницу</value>
+  </data>
+  <data name="SelectPage.Text" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="SelectSite.Text" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="Pane.Add.Text" xml:space="preserve">
+    <value>На {0}</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildren.Text" xml:space="preserve">
+    <value>Копировать разрешения для подчиненных</value>
+  </data>
+  <data name="Tool.StayInEditMode.Text" xml:space="preserve">
+    <value>Оставить включенным</value>
+  </data>
+  <data name="DragModuleToolTip.Text" xml:space="preserve">
+    <value>Перетащите модуль на страницу</value>
+  </data>
+  <data name="Upgrade.Text" xml:space="preserve">
+    <value>Обновление</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildrenPageEditor.Confirm" xml:space="preserve">
+    <value>Разрешения всех подчинненных страниц будут заменены разрешениями этой страницы.&lt;br /&gt;&lt;br /&gt;Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="Tool.AdvancedSettings.Text" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="Tool.BookmarkedSettings.Text" xml:space="preserve">
+    <value>Закладки</value>
+  </data>
+  <data name="Tool.CommonSettings.Text" xml:space="preserve">
+    <value>Основные настройки</value>
+  </data>
+  <data name="Tool.SwitchLanguages.Text" xml:space="preserve">
+    <value>Переключить языки</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Upgrade.ToolTip" xml:space="preserve">
+    <value>Нажмите здесь для получения последней версии</value>
+  </data>
+  <data name="LoadingTabModuleCE.Text" xml:space="preserve">
+    <value>Выберите страницу</value>
+  </data>
+  <data name="NoModule.Text" xml:space="preserve">
+    <value>Нет доступных модулей</value>
+  </data>
+  <data name="Tool.ManageLocalization.Text" xml:space="preserve">
+    <value>Локализация страницы</value>
+  </data>
+  <data name="Tool.CreateModule.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

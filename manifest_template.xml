@@ -1,7 +1,7 @@
 ﻿<dotnetnuke type="Package" version="5.0">
 	<packages>
-		<package name="R7.${PlatformType}.${PackType}.${Version}.${CultureCode}" type="${PackType}LanguagePack" version="${Version}">
-			<friendlyName>${CultureNameNative}</friendlyName>
+		<package name="R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}.${CultureCode}" type="${PackageType}LanguagePack" version="${SourceVersion}">
+			<friendlyName>${ExtensionName}${CultureNameNative}</friendlyName>
 			<description />
 			<iconFile />
 			<owner>
@@ -15,7 +15,7 @@
 			<!-- <license src="License.txt" />
 			<releaseNotes src="ReleaseNotes.txt" /> -->
 			<components>
-				<component type="${PackType}Language">
+				<component type="${PackageType}Language">
 					<languageFiles>
 						<code>${CultureCode}</code>
 						<displayName>${CultureNameNative}</displayName>

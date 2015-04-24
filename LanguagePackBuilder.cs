@@ -12,15 +12,16 @@ class LanguagePackBuilder
 {
 	#region Parameters
 
-	public string PackVersion = SafeGetEnvironmentVariable ("LPB_PACKVERSION", "0");
-
-	public string CultureCode = "ru-RU";
-	public string CultureNameNative = "Русский (Россия)";
-	public string PackType = "Core"; // DNN supports "Core" and "Extension", but not "Full" anymore
-	public string PlatformType = "DNNCE";
-	public string Version = "07.01.02";
-	public string ManifestFileNameTemplate = "R7_${PlatformType}_${CultureCode}.dnn";
-	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackType}.${Version}-${PackVersion}.${CultureCode}.zip";
+	public string PackageVersion = Environment.GetEnvironmentVariable ("LPB_PACKAGE_VERSION");
+	public string CultureCode = Environment.GetEnvironmentVariable ("LPB_CULTURE_CODE");
+	public string CultureNameNative = Environment.GetEnvironmentVariable ("LPB_CULTURE_NAME_NATIVE");
+	public string PackageType = Environment.GetEnvironmentVariable ("LPB_PACKAGE_TYPE");
+	public string PackageName = Environment.GetEnvironmentVariable ("LPB_PACKAGE_NAME");
+	public string SourceVersion = Environment.GetEnvironmentVariable ("LPB_SOURCE_VERSION");	
+	public string PlatformType = Environment.GetEnvironmentVariable ("LBP_PLATFORM_TYPE");
+	
+	public string ManifestFileNameTemplate = "R7_${PlatformType}_${PackageType}_${PackageName}_${CultureCode}.dnn";
+	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}-${PackageVersion}.${CultureCode}.zip";
 
 	#endregion
 
@@ -38,7 +39,7 @@ class LanguagePackBuilder
 
 	private string GenerateManifest ()
 	{
-		try 
+		try
 		{
 			var manifestTemplate = File.ReadAllText ("manifest_template.xml");
 
@@ -50,28 +51,26 @@ class LanguagePackBuilder
 
 			// get template for languageFile entries
 			var langFileTemplate = manifestTemplate.Substring (begin, end - begin);
-
-			// run git ls-files
-			var gitFiles = RunToLines ("git", "ls-files");
-
+			
+			// get translation files
+			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
+			var files = Directory.GetFiles (".", "*.ru-RU.resx", SearchOption.AllDirectories);
+			
 			// for better formatting
 			var line = 0;
 
-			var langFiles = new StringBuilder (gitFiles.Count);
-			foreach (var file in gitFiles)
+			var langFiles = new StringBuilder (files.Length);
+			foreach (var file in files)
 			{
-				if (Path.GetExtension (file).ToLowerInvariant () == ".resx")
-				{
-					if (line++ > 0)
-						langFiles.Append ("\n\t\t\t\t\t\t");
+				if (line++ > 0)
+					langFiles.Append ("\n\t\t\t\t\t\t");
 
-					var langEntry =	langFileTemplate
-						.Replace ("${FilePath}", Path.GetDirectoryName(file)
-						 	.Remove (0, CultureCode.Length + 1)) // remove "xx-YY/" prefix
-						.Replace ("${FileName}", Path.GetFileName (file));
+				var langEntry =	langFileTemplate
+					.Replace ("${FilePath}", Path.GetDirectoryName(file)
+					 	.Remove (0, 2)) // remove "./" prefix
+					.Replace ("${FileName}", Path.GetFileName (file));
 
-					langFiles.Append (langEntry);
-				}
+				langFiles.Append (langEntry);
 			}
 
 			var manifest = manifestTemplate;
@@ -82,9 +81,11 @@ class LanguagePackBuilder
 
 			manifest = ReplaceTags (manifest);
 
-			var manifestFileName = Path.Combine (CultureCode, ReplaceTags (ManifestFileNameTemplate));
+			var manifestFileName = ReplaceTags (ManifestFileNameTemplate);
 		
 			File.WriteAllText (manifestFileName, manifest);
+			
+			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
 
 			return manifestFileName;
 		}
@@ -98,25 +99,13 @@ class LanguagePackBuilder
 	{
 		try
 		{ 
-			var packFileName = ReplaceTags (PackFileNameTemplate);
+			var packFileName = Path.Combine ("..", ReplaceTags (PackFileNameTemplate));
 
-			// delete old tmp folder
-			if (Directory.Exists ("tmp"))
-				Directory.Delete ("tmp", true);	
-
-			// clone repository to local folder
-			// to get rid of untracked files
-			var git = new Process ();
-			git.StartInfo.FileName = "git";
-			git.StartInfo.Arguments = "clone . tmp";
-			git.Start ();
-			git.WaitForExit ();
-
-			// copy manifest to tmp folder
-			File.Copy (manifestFileName, Path.Combine ("tmp", manifestFileName));
-
-			// switch to tmp folder
-			Directory.SetCurrentDirectory (Path.Combine ("tmp", CultureCode));
+			// copy translations to tmp folder
+			
+			Console.WriteLine (Directory.GetCurrentDirectory());
+			
+			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
 		
 			// delete old package
 			if (File.Exists (packFileName))
@@ -128,12 +117,11 @@ class LanguagePackBuilder
 			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn -UN=UTF8 ""{0}"" .", packFileName);
 			zip.Start ();
 			zip.WaitForExit ();
-
-			// copy package file to original folder
-			File.Copy (packFileName, Path.Combine ("..", "..", packFileName), true);
+			
+			// delete manifest file
+			File.Delete (manifestFileName);
 			
 			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
-			Directory.Delete ("tmp", true);
 		}
 		catch (Exception ex)
 		{
@@ -145,12 +133,24 @@ class LanguagePackBuilder
 	{
 		var result = template;
 
+		// "Core[\._]Core" => "Core"
+		if (PackageType == PackageName)
+		{
+			result = result.Replace ("${PackageType}.${PackageName}", PackageName);
+			result = result.Replace ("${PackageType}_${PackageName}", PackageName);
+		}
+
+		// Extension language pack name
+		result = result.Replace ("${ExtensionName}", 
+			(PackageType == "Extension")? PackageName + " " : string.Empty);
+			
 		result = result.Replace ("${CultureCode}", CultureCode);
 		result = result.Replace ("${CultureNameNative}", CultureNameNative);
-		result = result.Replace ("${PackType}", PackType);
+		result = result.Replace ("${PackageType}", PackageType);
+		result = result.Replace ("${PackageName}", PackageName);
 		result = result.Replace ("${PlatformType}", PlatformType);
-		result = result.Replace ("${Version}", Version);
-		result = result.Replace ("${PackVersion}", PackVersion);
+		result = result.Replace ("${SourceVersion}", SourceVersion);
+		result = result.Replace ("${PackageVersion}", PackageVersion);
 	
 		return result;
 	}
