@@ -4,19 +4,28 @@
 of [DNN Plaftorm](http://www.dnnsoftware.com/) static resource files (the UI messages).
 
 Currently localization is based on 7.1.2 version of *DNN Platform*, but it could be
-used with more recent versions. Note that then I finally switch to the new version,
-all 7.1.2-related stuff will remain in the separate Git branch.
-
-Feel free to extend the project to provide localization for other cultures!
-Though I have no plans to translate *DNN* to any other language than *Russian*,
-all helper scripts are customizable.
+used with more recent versions. Note that when I finally switch to the new version,
+all 7.1.2-related stuff will remain in the separate git branch.
 
 ## Install
 
 Get the latest resource pack from [releases](https://github.com/roman-yagodin/R7.DnnLocalization/releases),
-go to DNN &gt; Host &gt; Extensions and install as any other extension. After that, you should see *Russian*
+go to *DNN &gt; Host &gt; Extensions and install*, like any other extension. After that, you should see *Russian*
 language available to select in Admin &gt; Languages.
 
-## Contributions
+## Contribute
 
-If you want to contribute your translations or fixes, it can be done directly via git pull requests, or via [Transifex](https://www.transifex.com/projects/p/dnnplatform712/).
+If you want to contribute your translations or fixes, it can be done via 
+[Transifex](https://www.transifex.com/organization/r7solutions) 
+or directly via git pull requests.
+
+## Customize
+
+Though currently I not have plans to translate *DNN* to any other language than 
+*russian*, all helper scripts are configurable and customizable.
+
+Feel free to extend the project by providing localization for other cultures! 
+The easiest way to start is to request new translation language for one of 
+DNN-related [Transifex projects](https://www.transifex.com/projects/p/r7-dnn-core/) 
+and (optionally) fork *R7.DnnLocalization* project on GitHub. 
+From that point we could work together to support new language.
