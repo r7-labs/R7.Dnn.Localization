@@ -1,0 +1,334 @@
+[main]
+host = https://www.transifex.com
+lang_map = lang_map = en_US: en-US, ru_RU: ru-RU
+
+[r7-dnn-forum.DesktopModules_Forum_UCP_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/UCP.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/UCP.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_ModuleSettings_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_ModuleSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_ModuleSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_Container_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_Container.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_Container.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_ContentRemoved_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_ContentRemoved.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_ContentRemoved.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_MCP_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/MCP.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/MCP.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_Search_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_Search.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_Search.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_SharedResources]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_PostModerate_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_PostModerate.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_PostModerate.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_ThreadMove_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_ThreadMove.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_ThreadMove.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_ACP_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/ACP.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/ACP.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_PostDelete_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_PostDelete.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_PostDelete.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_PostEdit_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_PostEdit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_PostEdit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_ThreadSplit_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_ThreadSplit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_ThreadSplit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Forum_PostReport_ascx]
+file_filter = <lang>/DesktopModules/Forum/App_LocalResources/Forum_PostReport.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/App_LocalResources/Forum_PostReport.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_ForumEdit_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_ForumEdit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_ForumEdit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Avatar_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Avatar.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Avatar.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Advertisement_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Advertisement.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Advertisement.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Settings_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_SEO_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_SEO.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_SEO.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Ranking_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Ranking.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Ranking.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Attachment_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Attachment.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Attachment.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Menu_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Menu.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Menu.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_EmailSubscribers_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailSubscribers.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailSubscribers.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_RoleAvatar_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_RoleAvatar.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_RoleAvatar.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Signature_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Signature.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Signature.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Main_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Main.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Main.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_UI_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_UI.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_UI.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Avatar_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Avatar.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Avatar.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_FilterWord_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_FilterWord.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_FilterWord.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_User_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_User.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_User.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Tracking_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Tracking.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Tracking.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_EmailQueue_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailQueue.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailQueue.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Bookmark_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Bookmark.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Bookmark.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Main_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Main.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Main.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_AttachmentControl_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/AttachmentControl.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/AttachmentControl.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_EmailTemplate_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailTemplate.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailTemplate.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_MCP_BannedUsers_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/MCP_BannedUsers.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/MCP_BannedUsers.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_MCP_Menu_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/MCP_Menu.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/MCP_Menu.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_UserSettings_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_UserSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_UserSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_MCP_ReportedUsers_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/MCP_ReportedUsers.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/MCP_ReportedUsers.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_EmailQueueTaskDetail_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailQueueTaskDetail.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_EmailQueueTaskDetail.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Community_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Community.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Community.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Filter_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Filter.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Filter.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_MCP_Main_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/MCP_Main.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/MCP_Main.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_General_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_General.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_General.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Email_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Email.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Email.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_AvatarControl_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/AvatarControl.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/AvatarControl.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Menu_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Menu.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Menu.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_MCP_ReportedPost_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/MCP_ReportedPost.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/MCP_ReportedPost.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_ForumManage_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_ForumManage.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_ForumManage.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_PopStatus_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_PopStatus.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_PopStatus.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_MCP_ModQueue_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/MCP_ModQueue.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/MCP_ModQueue.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_Rating_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_Rating.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_Rating.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_ACP_RSS_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/ACP_RSS.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/ACP_RSS.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-forum.DesktopModules_Forum_Controls_UCP_Profile_ascx]
+file_filter = <lang>/DesktopModules/Forum/Controls/App_LocalResources/UCP_Profile.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Forum/Controls/App_LocalResources/UCP_Profile.ascx.resx
+source_lang = en-US
+type = RESX
+
