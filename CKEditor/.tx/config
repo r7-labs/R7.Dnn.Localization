@@ -1,0 +1,22 @@
+[main]
+host = https://www.transifex.com
+lang_map = lang_map = en_US: en-US, ru_RU: ru-RU
+
+[r7-dnn-ckeditor.Providers_HtmlEditorProviders_CKEditor_Options_aspx]
+file_filter = <lang>/Providers/HtmlEditorProviders/CKEditor/App_LocalResources/Options.aspx.<lang>.resx
+source_file = en-US/Providers/HtmlEditorProviders/CKEditor/App_LocalResources/Options.aspx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-ckeditor.Providers_HtmlEditorProviders_CKEditor_Browser_Browser_aspx]
+file_filter = <lang>/Providers/HtmlEditorProviders/CKEditor/Browser/App_LocalResources/Browser.aspx.<lang>.resx
+source_file = en-US/Providers/HtmlEditorProviders/CKEditor/Browser/App_LocalResources/Browser.aspx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-ckeditor.Providers_HtmlEditorProviders_CKEditor_Module_EditorConfigManager_ascx]
+file_filter = <lang>/Providers/HtmlEditorProviders/CKEditor/Module/App_LocalResources/EditorConfigManager.ascx.<lang>.resx
+source_file = en-US/Providers/HtmlEditorProviders/CKEditor/Module/App_LocalResources/EditorConfigManager.ascx.resx
+source_lang = en-US
+type = RESX
+
