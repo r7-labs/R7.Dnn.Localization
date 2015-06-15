@@ -1459,7 +1459,7 @@
     <value></value>
   </data>
   <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Маркированный список</value>
   </data>
   <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1474,7 +1474,7 @@
     <value></value>
   </data>
   <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.5.Text" xml:space="preserve">
-    <value></value>
+    <value>Нумерованный список</value>
   </data>
   <data name="Tab.StyleGuide.LeftPaneBottom.TableModule.Content.0.Text" xml:space="preserve">
     <value></value>
