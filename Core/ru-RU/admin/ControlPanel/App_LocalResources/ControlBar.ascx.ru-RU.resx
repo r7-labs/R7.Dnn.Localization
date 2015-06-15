@@ -136,7 +136,7 @@
     <value>Как у страницы</value>
   </data>
   <data name="ShareableWarningAlternate.Text" xml:space="preserve">
-    <value>Если Вы обеспокоены данным сообщением или работает над сайтом, в работе которого совершенно недопустимы ошибки, нажмите Отмена и свяжитесь со &lt;a href=&quot;mailto:support@dotnetnuke.com&quot;&gt;Службой поддержки DotNetNuke&lt;/a&gt;.</value>
+    <value></value>
   </data>
   <data name="ShareableWarningContent.Text" xml:space="preserve">
     <value>Вы пытаетесь добавить ссылку на модуль, который располагается на другом сайте. Этот модуль, возможно, не поддерживает одновременное  совместное использование на разных сайтах - его разработчиком явно не указано ни то, ни другое. &lt;br/&gt;&lt;br/&gt;Если Вы уверены, что модуль поддерживает совместное использование, или просто хотите проверить это, то продолжайте - но знайте, что определенная функциональность (или весь модуль целиком) может работать направильно (или же не работать совсем) в данной конфигурации.</value>
@@ -163,7 +163,7 @@
     <value>Справка онлайн</value>
   </data>
   <data name="Tool.RecycleApp.Text" xml:space="preserve">
-    <value>Перезапуск пула приложения</value>
+    <value></value>
   </data>
   <data name="Tool.UploadFile.Text" xml:space="preserve">
     <value>Подгрузить файл</value>
@@ -307,7 +307,7 @@
     <value>Основные настройки</value>
   </data>
   <data name="Tool.SwitchLanguages.Text" xml:space="preserve">
-    <value>Переключить языки</value>
+    <value></value>
   </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Закрыть</value>
@@ -323,8 +323,5 @@
   </data>
   <data name="Tool.ManageLocalization.Text" xml:space="preserve">
     <value>Локализация страницы</value>
-  </data>
-  <data name="Tool.CreateModule.Text" xml:space="preserve">
-    <value></value>
   </data>
 </root>

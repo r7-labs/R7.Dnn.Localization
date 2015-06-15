@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BasicSettings.Text" xml:space="preserve">
     <value>Основные параметры</value>
@@ -124,10 +124,10 @@
     <value>Адреса</value>
   </data>
   <data name="plRoles.Text" xml:space="preserve">
-    <value>Роль(и)</value>
+    <value></value>
   </data>
   <data name="plRoles.Help" xml:space="preserve">
-    <value>Вы можете выбрать определенные роли - получатели сообщений, например: &amp;laquo;Все Администраторы&amp;raquo; или &amp;laquo;Все Зарегистрированные Пользователи&amp;raquo;</value>
+    <value></value>
   </data>
   <data name="plLanguages.Text" xml:space="preserve">
     <value>Фильтр языков</value>

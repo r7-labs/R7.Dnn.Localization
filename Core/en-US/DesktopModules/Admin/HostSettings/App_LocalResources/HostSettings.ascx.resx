@@ -304,7 +304,7 @@
     <value>Upgrade Log For Version</value>
   </data>
   <data name="EmailSentMessage.Text" xml:space="preserve">
-    <value>Email Sent Successfully from {0} to {0}</value>
+    <value>Email Sent Successfully</value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>You Must Specify The Host Email Address</value>
@@ -792,12 +792,6 @@
   <data name="plJQueryVersion.Text" xml:space="preserve">
     <value>Installed jQuery Version:</value>
   </data>
-  <data name="plEnableCDN.Help" xml:space="preserve">
-    <value>If checked, then the associated URL will be used for javascript libraries.  If unchecked then local copies of the file will be used.</value>
-  </data>
-  <data name="plEnableCDN.Text" xml:space="preserve">
-    <value>Use javascript libraries CDN?</value>
-  </data>
   <data name="HostEmail.Error" xml:space="preserve">
     <value>Email Address is invalid</value>
   </data>
@@ -922,7 +916,7 @@
     <value>There was an error incrementing the Client Resource version.</value>
   </data>
   <data name="DebugEnabled.Text" xml:space="preserve">
-    <value>Debug mode is currently enabled at the application level (this is specified in the web.config file). This means that files will not be combined, even if file combining is enabled here or at the site level.</value>
+    <value>Debug mode is currently enabled at the application level (this is specified in the web.config file). This means that files will not be combined, even if file combining is enabled here or at the host level.</value>
   </data>
   <data name="DebugEnabled.Title" xml:space="preserve">
     <value>Important note regarding application debug mode</value>
@@ -1096,7 +1090,7 @@
     <value>Search Index Path:</value>
   </data>
   <data name="SearchIndex.Text" xml:space="preserve">
-    <value>Search Settings</value>
+    <value>Search</value>
   </data>
   <data name="btnCompactSearchIndex.Text" xml:space="preserve">
     <value>Compact Index</value>
@@ -1115,7 +1109,7 @@ Both Compacting and Re-Indexing are done by Site Search Crawler scheduled job.
     <value>Cancel</value>
   </data>
   <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
-    <value>Compacting Index can be CPU consuming and may require twice the space of the current Index Store for processing. Compacting is done by site search crawler and depends on it's scheduling frequency. Are you sure you want to continue?</value>
+    <value>Compacting Index can by CPU consuming and may require twice the space of the current Index Store for processing. Compacting is done by site search crawler and depends on it's scheduling frequency. Are you sure you want to continue?</value>
   </data>
   <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
     <value>Confirm Compacting</value>
@@ -1185,17 +1179,5 @@ Both Compacting and Re-Indexing are done by Site Search Crawler scheduled job.
   </data>
   <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
     <value>Search Index Size:</value>
-  </data>
-  <data name="plDebugMode.Help" xml:space="preserve">
-    <value>If checked the installation runs in "debug mode", meaning that various parts of the application will write more verbose error logs etc. Note this may lead to performance degradation.</value>
-  </data>
-  <data name="plDebugMode.Text" xml:space="preserve">
-    <value>Debug Mode</value>
-  </data>
-  <data name="plShowCriticalErrors.Help" xml:space="preserve">
-    <value>This setting determines if error messages sent via the error querystring parameter should be shown inline in the page.</value>
-  </data>
-  <data name="plShowCriticalErrors.Text" xml:space="preserve">
-    <value>Show Critical Errors on screen?</value>
   </data>
 </root>

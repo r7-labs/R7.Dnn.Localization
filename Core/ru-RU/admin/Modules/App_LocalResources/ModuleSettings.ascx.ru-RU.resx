@@ -435,9 +435,6 @@
   <data name="Page.Header" xml:space="preserve">
     <value>Страница</value>
   </data>
-  <data name="Site.Header" xml:space="preserve">
-    <value>Сайт</value>
-  </data>
   <data name="ControlTitle_settings.Text" xml:space="preserve">
     <value>{0} настройки</value>
   </data>

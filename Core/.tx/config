@@ -170,12 +170,6 @@ source_file = en-US/admin/Skins/App_LocalResources/Copyright.ascx.resx
 source_lang = en-US
 type = RESX
 
-[r7-dnn-core.admin_Skins_Toast_ascx]
-file_filter = <lang>/admin/Skins/App_LocalResources/Toast.ascx.<lang>.resx
-source_file = en-US/admin/Skins/App_LocalResources/Toast.ascx.resx
-source_lang = en-US
-type = RESX
-
 [r7-dnn-core.admin_Skins_LinkToTabletSite_ascx]
 file_filter = <lang>/admin/Skins/App_LocalResources/LinkToTabletSite.ascx.<lang>.resx
 source_file = en-US/admin/Skins/App_LocalResources/LinkToTabletSite.ascx.resx
@@ -428,54 +422,6 @@ source_file = en-US/DesktopModules/Admin/Portals/App_LocalResources/Signup.ascx.
 source_lang = en-US
 type = RESX
 
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_CreateModule_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/App_LocalResources/CreateModule.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/CreateModule.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_ViewSource_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/App_LocalResources/ViewSource.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/ViewSource.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_VB_Module_Inline_Script_template_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - Inline Script/template.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - Inline Script/template.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_VB_Settings_User_Control_Settings_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/VB/Settings - User Control/Settings.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Settings - User Control/Settings.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_VB_Module_User_Control_template_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - User Control/template.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - User Control/template.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_C#_Module_Inline_Script_template_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/C#/Module - Inline Script/template.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/C#/Module - Inline Script/template.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_C#_Settings_User_Control_Settings_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/C#/Settings - User Control/Settings.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/C#/Settings - User Control/Settings.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_C#_Module_User_Control_template_ascx]
-file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/C#/Module - User Control/template.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/C#/Module - User Control/template.ascx.resx
-source_lang = en-US
-type = RESX
-
 [r7-dnn-core.DesktopModules_Admin_ProfessionalPreview_ProfessionalPreview_ascx]
 file_filter = <lang>/DesktopModules/Admin/ProfessionalPreview/App_LocalResources/ProfessionalPreview.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/ProfessionalPreview/App_LocalResources/ProfessionalPreview.ascx.resx
@@ -581,12 +527,6 @@ type = RESX
 [r7-dnn-core.DesktopModules_Admin_Extensions_Editors_ModuleEditor_ascx]
 file_filter = <lang>/DesktopModules/Admin/Extensions/Editors/App_LocalResources/ModuleEditor.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/ModuleEditor.ascx.resx
-source_lang = en-US
-type = RESX
-
-[r7-dnn-core.DesktopModules_Admin_Extensions_Editors_JavaScriptLibraryEditor_ascx]
-file_filter = <lang>/DesktopModules/Admin/Extensions/Editors/App_LocalResources/JavaScriptLibraryEditor.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/JavaScriptLibraryEditor.ascx.resx
 source_lang = en-US
 type = RESX
 

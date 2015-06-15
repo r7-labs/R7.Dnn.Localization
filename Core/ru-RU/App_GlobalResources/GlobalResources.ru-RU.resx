@@ -822,6 +822,9 @@ Simple File Sharing&lt;/a&gt; прежде, чем эти опции будут 
   <data name="//Admin//Skins.String" xml:space="preserve">
     <value>Скины</value>
   </data>
+  <data name="//Host//FileManager.String" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="//Host//Vendors.String" xml:space="preserve">
     <value>Поставщики</value>
   </data>
@@ -829,20 +832,7 @@ Simple File Sharing&lt;/a&gt; прежде, чем эти опции будут 
     <value>Аутентификация</value>
   </data>
   <data name="License.Text" xml:space="preserve">
-    <value>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
-Copyright (c) 2002-2013&lt;br/&gt;
-    by DotNetNuke Corporation&lt;/p&gt;
-    &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
-documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation 
-the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
-    to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
-    &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions 
-    of the Software.&lt;/p&gt;
-    &lt;p&gt;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
-    DEALINGS IN THE SOFTWARE.&lt;/p&gt;</value>
+    <value></value>
   </data>
   <data name="//Admin//Extensions.String" xml:space="preserve">
     <value>Расширения</value>
@@ -961,7 +951,7 @@ Sincerely,
   <data name="//Host//ProfessionalFeatures.String" xml:space="preserve">
     <value>Возможности Pro-версии</value>
   </data>
-  <data name="//Host//ProfessionalFeatures//ActivateyourLicense.String" xml:space="preserve">
+  <data name="//Host//ProfessionalFeatures//ActivateYourLicense.String" xml:space="preserve">
     <value></value>
   </data>
   <data name="//Host//ProfessionalFeatures//ApplicationIntegrity.String" xml:space="preserve">
@@ -1186,29 +1176,5 @@ Sincerely,
   </data>
   <data name="UrlPathNotUnique.Error" xml:space="preserve">
     <value>Выбранный URL уже занят. Если Вы хотите принять предложенную альтернативу, нажмите Сохранить.</value>
-  </data>
-  <data name="EMAIL_MESSAGING_DISPATCH_BODY.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="EMAIL_MESSAGING_DISPATCH_ITEM.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="EMAIL_PASSWORD_UPDATED_BODY.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="EMAIL_PASSWORD_UPDATED_SUBJECT.Text" xml:space="preserve">
-    <value>[Portal:PortalName] Пароль обновлен</value>
-  </data>
-  <data name="//Admin//SearchAdmin.String" xml:space="preserve">
-    <value>Администрирование поиска</value>
-  </data>
-  <data name="//Host//FileManagement.String" xml:space="preserve">
-    <value>Управление файлами</value>
-  </data>
-  <data name="//Host//ProfessionalFeatures//AdvancedURLManagement.String" xml:space="preserve">
-    <value>Расширенное управление URL</value>
-  </data>
-  <data name="//Admin//UserSwitcher.String" xml:space="preserve">
-    <value>Переключатель пользователей</value>
   </data>
 </root>

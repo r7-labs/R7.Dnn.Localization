@@ -181,10 +181,4 @@
   <data name="TabDeleted.ErrorMessage" xml:space="preserve">
     <value></value>
   </data>
-  <data name="NoTabSelected.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="RestoreTab.Text" xml:space="preserve">
-    <value></value>
-  </data>
 </root>

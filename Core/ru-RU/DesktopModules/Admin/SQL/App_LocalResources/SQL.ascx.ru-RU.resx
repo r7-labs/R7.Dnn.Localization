@@ -121,7 +121,7 @@
     <value>Выполнить</value>
   </data>
   <data name="cmdExecute.ToolTip" xml:space="preserve">
-    <value>может сожержать {директивы} и /*комментарии*/</value>
+    <value></value>
   </data>
   <data name="QueryError.Text" xml:space="preserve">
     <value>Данный запрос содержит ошибку!</value>
@@ -157,129 +157,15 @@
     <value>Запрос не вернут данных</value>
   </data>
   <data name="scriptLabel.Text" xml:space="preserve">
-    <value>Запрос:</value>
+    <value></value>
   </data>
   <data name="scriptLabel.Help" xml:space="preserve">
-    <value>Введите код SQL, который необходимо исполнить.</value>
-  </data>
-  <data name="errorLabel.Help" xml:space="preserve">
     <value></value>
   </data>
-  <data name="errorLabel.Text" xml:space="preserve">
+  <data name="runasLabel.Text" xml:space="preserve">
     <value></value>
   </data>
-  <data name="CnnStringNotFound.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Deleted.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSavedQuery.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSavedQuery.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="btDelete.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lnkLoad.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="btSaveQuery.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="NewQuery.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="NoScript.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="SaveDialogTitle.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblName.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblName.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lnkSave.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="NoName.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Saved.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CopyToClipboard.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CopyText.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="NumRowsReturned.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="ResultTitle.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="AllRows.Text" xml:space="preserve">
-    <value>Все</value>
-  </data>
-  <data name="CopyButtonAlt.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CSVButtonAlt.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="PDFButtonAlt.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Placeholder.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="PopupButtonAlt.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="XLSButtonAlt.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CopyTitle.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sFirst.Text" xml:space="preserve">
-    <value>&lt;&lt;</value>
-  </data>
-  <data name="sInfo.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sInfoFiltered.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sLast.Text" xml:space="preserve">
-    <value>&gt;&gt;</value>
-  </data>
-  <data name="sLengthMenu.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sLoadingRecords.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sNext.Text" xml:space="preserve">
-    <value>след.</value>
-  </data>
-  <data name="sPrevious.Text" xml:space="preserve">
-    <value>пред.</value>
-  </data>
-  <data name="sProcessing.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sSearch.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="sInfoEmpty.Text" xml:space="preserve">
+  <data name="runasLabel.Help" xml:space="preserve">
     <value></value>
   </data>
 </root>

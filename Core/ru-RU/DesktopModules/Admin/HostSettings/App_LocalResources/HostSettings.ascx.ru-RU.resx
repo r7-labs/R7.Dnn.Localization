@@ -304,7 +304,7 @@
     <value>Журнал обновления для версии</value>
   </data>
   <data name="EmailSentMessage.Text" xml:space="preserve">
-    <value>Сообщение успешно отправлено</value>
+    <value></value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>Вы должны указать email-адрес хоста</value>
@@ -793,12 +793,6 @@
   <data name="plJQueryVersion.Text" xml:space="preserve">
     <value>Установленная версия jQuery:</value>
   </data>
-  <data name="plEnableCDN.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableCDN.Text" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="HostEmail.Error" xml:space="preserve">
     <value>Недопустимый адрес Email</value>
   </data>
@@ -1181,18 +1175,6 @@
     <value></value>
   </data>
   <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plDebugMode.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plDebugMode.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plShowCriticalErrors.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plShowCriticalErrors.Text" xml:space="preserve">
     <value></value>
   </data>
 </root>

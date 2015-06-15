@@ -441,7 +441,4 @@
   <data name="Search.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
-  <data name="lblRedirect.Text" xml:space="preserve">
-    <value></value>
-  </data>
 </root>

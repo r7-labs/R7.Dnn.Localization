@@ -393,7 +393,4 @@
   <data name="ListExtensions.Text" xml:space="preserve">
     <value>Узнайте о том, как Вы можете предолжить свои расширения &lt;a href=&quot;http://www.dotnetnuke.com/App-Gallery.aspx &quot; target=&quot;_blank&quot; class=&quot;info&quot;&gt;здесь&lt;/a&gt;.</value>
   </data>
-  <data name="JavaScript_Library.Type" xml:space="preserve">
-    <value></value>
-  </data>
 </root>

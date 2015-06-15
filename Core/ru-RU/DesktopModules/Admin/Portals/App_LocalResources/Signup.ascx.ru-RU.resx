@@ -327,7 +327,4 @@
   <data name="DuplicateWithTab.Text" xml:space="preserve">
     <value></value>
   </data>
-    <data name="DisallowedExtension.Warning" xml:space="preserve">
-    <value></value>
-  </data>
 </root>

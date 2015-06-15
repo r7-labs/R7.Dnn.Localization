@@ -258,16 +258,4 @@
   <data name="Tab.SearchAdmin.Description.Text" xml:space="preserve">
     <value>Администрирование поиска</value>
   </data>
-  <data name="Tab.404ErrorPage..Module.Content.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Tab.404ErrorPage..Module.Title.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Tab.404ErrorPage.Content.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
-    <value></value>
-  </data>
 </root>
