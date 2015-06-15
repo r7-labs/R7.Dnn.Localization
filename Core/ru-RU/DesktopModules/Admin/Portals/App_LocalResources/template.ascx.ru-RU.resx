@@ -164,7 +164,7 @@
     <value>Возврат</value>
   </data>
   <data name="PortalSetup.Text" xml:space="preserve">
-    <value></value>
+    <value>Настройки сайта.</value>
   </data>
   <data name="ErrorPages.Text" xml:space="preserve">
     <value></value>
@@ -224,25 +224,25 @@
     <value></value>
   </data>
   <data name="lblAdminOnly.Text" xml:space="preserve">
-    <value></value>
+    <value>Для администраторов</value>
   </data>
   <data name="lblDisabled.Text" xml:space="preserve">
-    <value></value>
+    <value>Отключена</value>
   </data>
   <data name="lblEveryone.Text" xml:space="preserve">
-    <value></value>
+    <value>Общедоступна</value>
   </data>
   <data name="lblHidden.Text" xml:space="preserve">
-    <value></value>
+    <value>Скрыта в меню</value>
   </data>
   <data name="lblHome.Text" xml:space="preserve">
-    <value></value>
+    <value>Главная страница</value>
   </data>
   <data name="lblRegistered.Text" xml:space="preserve">
-    <value></value>
+    <value>Для зарегистрированных пользователей</value>
   </data>
   <data name="lblSecure.Text" xml:space="preserve">
-    <value></value>
+    <value>Для отдельных ролей</value>
   </data>
   <data name="DefaultLanguage.Text" xml:space="preserve">
     <value></value>

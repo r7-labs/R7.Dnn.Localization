@@ -154,7 +154,7 @@
     <value></value>
   </data>
   <data name="DatabaseSecurity.Text" xml:space="preserve">
-    <value></value>
+    <value>Безопасность</value>
   </data>
   <data name="DatabaseServer.Text" xml:space="preserve">
     <value></value>
@@ -163,7 +163,7 @@
     <value></value>
   </data>
   <data name="DatabaseStandard.Text" xml:space="preserve">
-    <value></value>
+    <value>По умолчанию</value>
   </data>
   <data name="DatabaseType.Text" xml:space="preserve">
     <value></value>

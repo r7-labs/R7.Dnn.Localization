@@ -166,13 +166,13 @@
     <value></value>
   </data>
   <data name="System.Text" xml:space="preserve">
-    <value></value>
+    <value>Система</value>
   </data>
   <data name="Culture.Header" xml:space="preserve">
     <value>Культура</value>
   </data>
   <data name="Active.Header" xml:space="preserve">
-    <value></value>
+    <value>Активное</value>
   </data>
   <data name="Enabled.Header" xml:space="preserve">
     <value>Включено</value>
@@ -187,10 +187,10 @@
     <value></value>
   </data>
   <data name="Available.Text" xml:space="preserve">
-    <value></value>
+    <value>Доступные языки</value>
   </data>
   <data name="AddLanguage.Text" xml:space="preserve">
-    <value></value>
+    <value>Добавить новый язык</value>
   </data>
   <data name="Update.Text" xml:space="preserve">
     <value>Сохранить</value>
@@ -199,7 +199,7 @@
     <value></value>
   </data>
   <data name="CreateLanguage.Text" xml:space="preserve">
-    <value></value>
+    <value>Создать языковый пакет</value>
   </data>
   <data name="EnabledPublishedMessage.Text" xml:space="preserve">
     <value></value>
@@ -253,7 +253,7 @@
     <value></value>
   </data>
   <data name="Publish.Header" xml:space="preserve">
-    <value></value>
+    <value>Опубликовать</value>
   </data>
   <data name="PublishTranslatedPages.Text" xml:space="preserve">
     <value></value>
@@ -292,16 +292,16 @@
     <value></value>
   </data>
   <data name="MakeNeutral.Text" xml:space="preserve">
-    <value></value>
+    <value>Сделать страницу непереводимой</value>
   </data>
   <data name="MakeTranslatable.Text" xml:space="preserve">
-    <value></value>
+    <value>Сделать страницу переводимой</value>
   </data>
   <data name="ChildrenExistWhenConvertingToNeutral.Text" xml:space="preserve">
     <value></value>
   </data>
   <data name="AddMissingLanguages.Text" xml:space="preserve">
-    <value></value>
+    <value>Добавить недостающие языки</value>
   </data>
   <data name="Page.Help" xml:space="preserve">
     <value></value>

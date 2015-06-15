@@ -160,7 +160,7 @@
     <value>Представьте ваш сайт выбранному поисковому серверу для индексации.</value>
   </data>
   <data name="Submit.Text" xml:space="preserve">
-    <value></value>
+    <value>Принять</value>
   </data>
   <data name="plSiteMap.Text" xml:space="preserve">
     <value>URL карты сайта:</value>
@@ -646,10 +646,10 @@
     <value>Развернуть все</value>
   </data>
   <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value></value>
+    <value>Для предпросмотра необходимо выбрать шаблоны оформления страницы и модулей.</value>
   </data>
   <data name="valExpiryDate.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>Недопустимая дата завершения</value>
   </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value></value>
@@ -818,10 +818,10 @@
     <value></value>
   </data>
   <data name="Security_DisplayNameFormat.Help" xml:space="preserve">
-    <value></value>
+    <value>Вы можете, если нужно, определить формат отображения имени пользователей. Формат может включать теги для динамической замены, типа [FIRSTNAME] [LASTNAME]. Если формат отображения имени будет определен, то отображение имени больше не будет доступно для редактирования через пользовательский интерфейс.</value>
   </data>
   <data name="Security_DisplayNameFormat.Text" xml:space="preserve">
-    <value></value>
+    <value>Формат отображения имени:</value>
   </data>
   <data name="Security_EmailValidation.Help" xml:space="preserve">
     <value></value>
@@ -839,7 +839,7 @@
     <value></value>
   </data>
   <data name="Standard.Text" xml:space="preserve">
-    <value></value>
+    <value>Встроенная</value>
   </data>
   <data name="MaxInvalidPasswordAttempts.Help" xml:space="preserve">
     <value></value>

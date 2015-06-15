@@ -121,7 +121,7 @@
     <value>Выполнить</value>
   </data>
   <data name="cmdExecute.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>может сожержать {директивы} и /*комментарии*/</value>
   </data>
   <data name="QueryError.Text" xml:space="preserve">
     <value>Данный запрос содержит ошибку!</value>
@@ -157,10 +157,10 @@
     <value>Запрос не вернут данных</value>
   </data>
   <data name="scriptLabel.Text" xml:space="preserve">
-    <value></value>
+    <value>Запрос:</value>
   </data>
   <data name="scriptLabel.Help" xml:space="preserve">
-    <value></value>
+    <value>Введите код SQL, который необходимо исполнить.</value>
   </data>
   <data name="runasLabel.Text" xml:space="preserve">
     <value></value>

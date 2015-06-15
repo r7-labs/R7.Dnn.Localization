@@ -136,10 +136,10 @@
     <value></value>
   </data>
   <data name="CannotDeleteContainer.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>This set of containers cannot be deleted because it is being used</value>
   </data>
   <data name="CannotDeleteSkin.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>This set of skins cannot be deleted because it is being used</value>
   </data>
   <data name="CannotDeleteProvider.ErrorMessage" xml:space="preserve">
     <value></value>

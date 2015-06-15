@@ -223,7 +223,7 @@
     <value>Указанный секретный вопрос недопустим.</value>
   </data>
   <data name="PasswordMismatch.Text" xml:space="preserve">
-    <value></value>
+    <value>Пароли не совпадают</value>
   </data>
   <data name="PasswordMismatch_Detail.Text" xml:space="preserve">
     <value>Введеный пароль не совпадает с подтверждением пароля. Введите пароль и подтверждение еще раз.</value>

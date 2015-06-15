@@ -193,7 +193,7 @@
     <value>Админ</value>
   </data>
   <data name="Anonymous.Text" xml:space="preserve">
-    <value></value>
+    <value>Анонимный пользователь</value>
   </data>
   <data name="cmdCreateDefinition.Text" xml:space="preserve">
     <value></value>
@@ -220,13 +220,13 @@
     <value></value>
   </data>
   <data name="ModuleControlInfo_HelpURL.Text" xml:space="preserve">
-    <value></value>
+    <value>URL справки:</value>
   </data>
   <data name="ModuleControlInfo_IconFile.Help" xml:space="preserve">
     <value></value>
   </data>
   <data name="ModuleControlInfo_IconFile.Text" xml:space="preserve">
-    <value></value>
+    <value>Файл значка:</value>
   </data>
   <data name="ModuleControlInfo_SupportsPartialRendering.Help" xml:space="preserve">
     <value></value>
@@ -238,7 +238,7 @@
     <value></value>
   </data>
   <data name="ModuleControlInfo_ViewOrder.Text" xml:space="preserve">
-    <value></value>
+    <value>Порядок отображения:</value>
   </data>
   <data name="DefaultCacheTime.Help" xml:space="preserve">
     <value></value>
@@ -250,7 +250,7 @@
     <value></value>
   </data>
   <data name="FriendlyName.Text" xml:space="preserve">
-    <value></value>
+    <value>Дружественное имя:</value>
   </data>
   <data name="plSelectDefinition.Help" xml:space="preserve">
     <value></value>
@@ -289,7 +289,7 @@
     <value></value>
   </data>
   <data name="ctlPortals_Selected.Text" xml:space="preserve">
-    <value></value>
+    <value>Выбранные</value>
   </data>
   <data name="FolderName.Help" xml:space="preserve">
     <value></value>
@@ -352,7 +352,7 @@
     <value></value>
   </data>
   <data name="FriendlyName.Required" xml:space="preserve">
-    <value></value>
+    <value>Укажите дружественное имя для пакета.</value>
   </data>
   <data name="Shareable.Help" xml:space="preserve">
     <value></value>

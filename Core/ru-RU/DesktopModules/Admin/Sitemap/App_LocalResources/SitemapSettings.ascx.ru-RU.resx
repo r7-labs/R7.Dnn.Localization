@@ -130,7 +130,7 @@
     <value></value>
   </data>
   <data name="Priority.Header" xml:space="preserve">
-    <value></value>
+    <value>Приоритет</value>
   </data>
   <data name="lblMinPagePriority.Help" xml:space="preserve">
     <value></value>
@@ -163,10 +163,10 @@
     <value></value>
   </data>
   <data name="Description.Header" xml:space="preserve">
-    <value></value>
+    <value>Описание</value>
   </data>
   <data name="Keywords.Header" xml:space="preserve">
-    <value></value>
+    <value>Ключевые слова</value>
   </data>
   <data name="Level.Header" xml:space="preserve">
     <value></value>
@@ -181,10 +181,10 @@
     <value></value>
   </data>
   <data name="ProviderDescription.Header" xml:space="preserve">
-    <value></value>
+    <value>Описание</value>
   </data>
   <data name="ProviderEnabled.Header" xml:space="preserve">
-    <value></value>
+    <value>Включить?</value>
   </data>
   <data name="ProviderName.Header" xml:space="preserve">
     <value></value>
@@ -205,13 +205,13 @@
     <value></value>
   </data>
   <data name="cmdVerification.Text" xml:space="preserve">
-    <value></value>
+    <value>Создать</value>
   </data>
   <data name="lblSearchEngine.Help" xml:space="preserve">
-    <value></value>
+    <value>Представьте ваш сайт выбранному поисковому серверу для индексации.</value>
   </data>
   <data name="lblSearchEngine.Text" xml:space="preserve">
-    <value></value>
+    <value>Поисковый механизм:</value>
   </data>
   <data name="lblSiteMap.Help" xml:space="preserve">
     <value></value>
@@ -223,13 +223,13 @@
     <value></value>
   </data>
   <data name="lblVerification.Text" xml:space="preserve">
-    <value></value>
+    <value>Проверка:</value>
   </data>
   <data name="lnkTestSitemap.Text" xml:space="preserve">
     <value></value>
   </data>
   <data name="SectionSubmissionSettings.Text" xml:space="preserve">
-    <value></value>
+    <value>Представление сайта</value>
   </data>
   <data name="NoCacheToReset.Text" xml:space="preserve">
     <value></value>
@@ -238,7 +238,7 @@
     <value>Имя</value>
   </data>
   <data name="cmdSubmitToSearch.Text" xml:space="preserve">
-    <value></value>
+    <value>Принять</value>
   </data>
   <data name="SectionCoreSettingsLbl.Text" xml:space="preserve">
     <value></value>
@@ -250,7 +250,7 @@
     <value></value>
   </data>
   <data name="cmdSubmitToSearch.ToolTip" xml:space="preserve">
-    <value></value>
+    <value>Принять</value>
   </data>
   <data name="Edit.Cancel" xml:space="preserve">
     <value>Отмена</value>

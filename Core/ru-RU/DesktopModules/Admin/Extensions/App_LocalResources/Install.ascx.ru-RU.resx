@@ -259,15 +259,15 @@
     <value>Максимальный размер подгружаемого файла {0} Мб. </value>
   </data>
   <data name="AzureCompact.Text" xml:space="preserve">
-    <value></value>
+    <value>Установить без проверки на совместимость с Sql Azure?</value>
   </data>
   <data name="AzureCompactHelp.Text" xml:space="preserve">
-    <value></value>
+    <value>Данный сайт использует SQL Azure в качестве сервера БД. Пакет, который Вы пытаетесь установить, не проверен на совместимость с SQL Azure. Если установить несовместимый  модуль, это может привести к невозможности проведения резервного копирования и восстановления БД, а также к появлению исключений во время работы модулей, который не могут быть обнаружены в процессе установки.</value>
   </data>
   <data name="AzureCompactMessage.Text" xml:space="preserve">
-    <value></value>
+    <value>Совместимость пакета с Sql Azure не подтверждена.</value>
   </data>
   <data name="AzureCompactWarning.Text" xml:space="preserve">
-    <value></value>
+    <value>&lt;b&gt;Предупреждение:&lt;/b&gt; Вы приняли решение установить пакет, совместимость которого с Sql Azure не подтверждена.</value>
   </data>
 </root>

@@ -136,10 +136,10 @@
     <value>Restore Default Skin</value>
   </data>
   <data name="Portal.Text" xml:space="preserve">
-    <value></value>
+    <value>Portal</value>
   </data>
   <data name="Admin.Text" xml:space="preserve">
-    <value></value>
+    <value>Админ</value>
   </data>
   <data name="cmdDelete.Text" xml:space="preserve">
     <value>Delete Skin Package</value>

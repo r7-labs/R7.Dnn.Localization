@@ -136,7 +136,7 @@
     <value></value>
   </data>
   <data name="Tab.About.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.About.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контактная информация</value>
@@ -217,7 +217,7 @@
     <value></value>
   </data>
   <data name="Tab.Products.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.Products.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
     <value></value>
@@ -244,7 +244,7 @@
     <value></value>
   </data>
   <data name="Tab.ContactUs.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.ContactUs.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
     <value></value>
@@ -274,7 +274,7 @@
     <value></value>
   </data>
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.ActivityFeed.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
     <value></value>
@@ -316,7 +316,7 @@
     <value></value>
   </data>
   <data name="Tab.MyProfile.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.MyProfile.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
     <value></value>
@@ -355,7 +355,7 @@
     <value></value>
   </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.MyFriends.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
     <value></value>
@@ -394,7 +394,7 @@
     <value></value>
   </data>
   <data name="Tab.MyMessages.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Компания</value>
   </data>
   <data name="Tab.MyMessages.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
     <value></value>
@@ -484,7 +484,7 @@
     <value></value>
   </data>
   <data name="Tab.Skins.ContentPane.SkinDesignerModule.Title.Text" xml:space="preserve">
-    <value></value>
+    <value>Дизайнер скина</value>
   </data>
   <data name="Tab.Languages.Content.Text" xml:space="preserve">
     <value>Языки</value>
@@ -895,7 +895,7 @@
     <value></value>
   </data>
   <data name="Tab.Home.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.Home.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -958,7 +958,7 @@
     <value></value>
   </data>
   <data name="Tab.Home.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.Home.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -988,7 +988,7 @@
     <value></value>
   </data>
   <data name="Tab.About.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.About.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1018,7 +1018,7 @@
     <value></value>
   </data>
   <data name="Tab.About.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.About.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1174,7 +1174,7 @@
     <value></value>
   </data>
   <data name="Tab.Products.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.Products.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1246,7 +1246,7 @@
     <value></value>
   </data>
   <data name="Tab.Products.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.Products.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1276,7 +1276,7 @@
     <value></value>
   </data>
   <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1339,7 +1339,7 @@
     <value></value>
   </data>
   <data name="Tab.ContactUs.RightPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Отправить</value>
   </data>
   <data name="Tab.ContactUs.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
     <value></value>
@@ -1363,7 +1363,7 @@
     <value></value>
   </data>
   <data name="Tab.ContactUs.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.ContactUs.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1411,7 +1411,7 @@
     <value></value>
   </data>
   <data name="Tab.ContactUs.LeftPane.Module.Content.13.Text" xml:space="preserve">
-    <value></value>
+    <value>Принять</value>
   </data>
   <data name="Tab.ContactUs.LeftPane.Module.Content.14.Text" xml:space="preserve">
     <value></value>
@@ -1567,7 +1567,7 @@
     <value></value>
   </data>
   <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1597,7 +1597,7 @@
     <value></value>
   </data>
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1627,7 +1627,7 @@
     <value></value>
   </data>
   <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1657,7 +1657,7 @@
     <value></value>
   </data>
   <data name="Tab.MyProfile.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.MyProfile.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1687,7 +1687,7 @@
     <value></value>
   </data>
   <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1717,7 +1717,7 @@
     <value></value>
   </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>
@@ -1747,7 +1747,7 @@
     <value></value>
   </data>
   <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value></value>
+    <value>Город</value>
   </data>
   <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
     <value></value>
@@ -1777,7 +1777,7 @@
     <value></value>
   </data>
   <data name="Tab.MyMessages.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
   <data name="Tab.MyMessages.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value></value>

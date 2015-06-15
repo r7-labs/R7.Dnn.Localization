@@ -176,7 +176,7 @@
     <value></value>
   </data>
   <data name="cmdRestoreModule.Text" xml:space="preserve">
-    <value></value>
+    <value>Восстановить выбранные модули на указанную страницу</value>
   </data>
   <data name="TabDeleted.ErrorMessage" xml:space="preserve">
     <value></value>

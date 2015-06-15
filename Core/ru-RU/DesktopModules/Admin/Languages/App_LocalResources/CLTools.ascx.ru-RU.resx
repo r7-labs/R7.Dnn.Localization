@@ -166,13 +166,13 @@
     <value></value>
   </data>
   <data name="PageDescription.Text" xml:space="preserve">
-    <value></value>
+    <value>Описание страницы</value>
   </data>
   <data name="PageName.Text" xml:space="preserve">
-    <value></value>
+    <value>Имя страницы</value>
   </data>
   <data name="PageTitle.Text" xml:space="preserve">
-    <value></value>
+    <value>Заголовок</value>
   </data>
   <data name="PublishedPageTooltip.Text" xml:space="preserve">
     <value></value>

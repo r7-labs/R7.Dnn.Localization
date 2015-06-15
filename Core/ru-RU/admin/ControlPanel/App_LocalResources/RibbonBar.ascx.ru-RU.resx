@@ -424,7 +424,7 @@
     <value>Очистка кеша</value>
   </data>
   <data name="Tool.RecycleApp.Text" xml:space="preserve">
-    <value></value>
+    <value>Перезапуск пула приложения</value>
   </data>
   <data name="Tool.ClearCache.ToolTip" xml:space="preserve">
     <value>Принудительно очищает кеш приложения.</value>

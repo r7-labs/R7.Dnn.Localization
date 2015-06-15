@@ -130,7 +130,7 @@
     <value>Заголовок модуля</value>
   </data>
   <data name="PageName.Header" xml:space="preserve">
-    <value></value>
+    <value>Имя страницы</value>
   </data>
   <data name="Path.Header" xml:space="preserve">
     <value></value>

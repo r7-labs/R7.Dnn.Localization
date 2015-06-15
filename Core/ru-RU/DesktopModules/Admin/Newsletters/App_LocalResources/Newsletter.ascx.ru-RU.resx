@@ -124,10 +124,10 @@
     <value>Адреса</value>
   </data>
   <data name="plRoles.Text" xml:space="preserve">
-    <value></value>
+    <value>Роль(и)</value>
   </data>
   <data name="plRoles.Help" xml:space="preserve">
-    <value></value>
+    <value>Вы можете выбрать определенные роли - получатели сообщений, например: &amp;laquo;Все Администраторы&amp;raquo; или &amp;laquo;Все Зарегистрированные Пользователи&amp;raquo;</value>
   </data>
   <data name="plLanguages.Text" xml:space="preserve">
     <value>Фильтр языков</value>

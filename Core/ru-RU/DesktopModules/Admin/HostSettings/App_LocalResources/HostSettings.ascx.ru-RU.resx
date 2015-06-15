@@ -304,7 +304,7 @@
     <value>Журнал обновления для версии</value>
   </data>
   <data name="EmailSentMessage.Text" xml:space="preserve">
-    <value></value>
+    <value>Сообщение успешно отправлено</value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>Вы должны указать email-адрес хоста</value>
@@ -388,7 +388,7 @@
     <value>Параметры SMTP-сервера</value>
   </data>
   <data name="OtherSettings.Text" xml:space="preserve">
-    <value></value>
+    <value>Другие параметры</value>
   </data>
   <data name="AdvancedSettings.Text" xml:space="preserve">
     <value>Дополнительные параметры</value>
@@ -872,7 +872,7 @@
     <value></value>
   </data>
   <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value></value>
+    <value>Для предпросмотра необходимо выбрать шаблоны оформления страницы и модулей.</value>
   </data>
   <data name="DeprecateGzip.Text" xml:space="preserve">
     <value></value>
@@ -947,7 +947,7 @@
     <value></value>
   </data>
   <data name="SmtpServerWarning.Text" xml:space="preserve">
-    <value></value>
+    <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работет в режиме &apos;medium trust&apos;. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
   </data>
   <data name="LogSettings.Text" xml:space="preserve">
     <value>Журналы</value>
@@ -1073,7 +1073,7 @@
     <value></value>
   </data>
   <data name="Never.Text" xml:space="preserve">
-    <value></value>
+    <value>Никогда</value>
   </data>
   <data name="IPFilters.Text" xml:space="preserve">
     <value></value>
@@ -1091,7 +1091,7 @@
     <value></value>
   </data>
   <data name="SearchIndex.Text" xml:space="preserve">
-    <value></value>
+    <value>Поиск:</value>
   </data>
   <data name="btnCompactSearchIndex.Text" xml:space="preserve">
     <value></value>

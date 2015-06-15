@@ -970,7 +970,7 @@
     <value>Нужно указать секретный вопрос</value>
   </data>
   <data name="PasswordChanged.Text" xml:space="preserve">
-    <value></value>
+    <value>Пароль был сброшен.</value>
   </data>
   <data name="PasswordInvalid.Text" xml:space="preserve">
     <value>Нужно указать корректный пароль. Свяжитесь с администратором сайта, если требования к паролям Вам неизвестны.</value>

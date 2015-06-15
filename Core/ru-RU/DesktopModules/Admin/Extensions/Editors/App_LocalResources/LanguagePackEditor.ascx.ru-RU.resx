@@ -124,13 +124,13 @@
     <value></value>
   </data>
   <data name="Locale_Code.Text" xml:space="preserve">
-    <value></value>
+    <value>Язык:</value>
   </data>
   <data name="Locale_Fallback.Help" xml:space="preserve">
     <value></value>
   </data>
   <data name="Locale_Fallback.Text" xml:space="preserve">
-    <value></value>
+    <value>Резервный язык:</value>
   </data>
   <data name="Locale_Text.Help" xml:space="preserve">
     <value></value>
@@ -142,13 +142,13 @@
     <value></value>
   </data>
   <data name="cmdEdit.Text" xml:space="preserve">
-    <value></value>
+    <value>Редактировать языковые файлы</value>
   </data>
   <data name="plPackage.Text" xml:space="preserve">
     <value></value>
   </data>
   <data name="plPackageLanguage.Text" xml:space="preserve">
-    <value></value>
+    <value>Язык:</value>
   </data>
   <data name="plEnabled.Help" xml:space="preserve">
     <value></value>

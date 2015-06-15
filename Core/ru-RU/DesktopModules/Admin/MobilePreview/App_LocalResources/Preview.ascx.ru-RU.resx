@@ -130,13 +130,13 @@
     <value></value>
   </data>
   <data name="lblOrientation.Text" xml:space="preserve">
-    <value></value>
+    <value>Расположение</value>
   </data>
   <data name="lblProfile.Help" xml:space="preserve">
     <value></value>
   </data>
   <data name="lblProfile.Text" xml:space="preserve">
-    <value></value>
+    <value>Профиль</value>
   </data>
   <data name="PageTitle.Text" xml:space="preserve">
     <value></value>

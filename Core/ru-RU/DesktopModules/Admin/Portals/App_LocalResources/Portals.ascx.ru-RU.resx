@@ -121,7 +121,7 @@
     <value>Заголовок</value>
   </data>
   <data name="Portal Aliases.Header" xml:space="preserve">
-    <value></value>
+    <value>Псевдонимы портала</value>
   </data>
   <data name="Users.Header" xml:space="preserve">
     <value>Пользователей</value>
@@ -136,7 +136,7 @@
     <value></value>
   </data>
   <data name="AddContent.Action" xml:space="preserve">
-    <value></value>
+    <value>Добавить новый портал</value>
   </data>
   <data name="Edit.Text" xml:space="preserve">
     <value></value>
@@ -151,7 +151,7 @@
     <value></value>
   </data>
   <data name="Filter.Text" xml:space="preserve">
-    <value></value>
+    <value>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ы,Э,Ю,Я</value>
   </data>
   <data name="Pages.Header" xml:space="preserve">
     <value>Страницы</value>
@@ -160,7 +160,7 @@
     <value></value>
   </data>
   <data name="Expired.Text" xml:space="preserve">
-    <value></value>
+    <value>Истек срок подписки</value>
   </data>
   <data name="DeleteExpired.Action" xml:space="preserve">
     <value></value>

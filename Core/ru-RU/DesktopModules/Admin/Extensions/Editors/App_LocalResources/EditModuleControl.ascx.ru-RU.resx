@@ -136,13 +136,13 @@
     <value></value>
   </data>
   <data name="plSource.Text" xml:space="preserve">
-    <value></value>
+    <value>Источник:</value>
   </data>
   <data name="plSource.Help" xml:space="preserve">
     <value></value>
   </data>
   <data name="plType.Text" xml:space="preserve">
-    <value></value>
+    <value>Тип:</value>
   </data>
   <data name="plType.Help" xml:space="preserve">
     <value></value>
@@ -151,7 +151,7 @@
     <value></value>
   </data>
   <data name="Anonymous.Text" xml:space="preserve">
-    <value></value>
+    <value>Анонимный пользователь</value>
   </data>
   <data name="View.Text" xml:space="preserve">
     <value>Просмотр</value>
@@ -166,7 +166,7 @@
     <value>Хост</value>
   </data>
   <data name="plViewOrder.Text" xml:space="preserve">
-    <value></value>
+    <value>Порядок отображения:</value>
   </data>
   <data name="plViewOrder.Help" xml:space="preserve">
     <value></value>
@@ -178,7 +178,7 @@
     <value></value>
   </data>
   <data name="plHelpURL.Text" xml:space="preserve">
-    <value></value>
+    <value>URL справки:</value>
   </data>
   <data name="plHelpURL.Help" xml:space="preserve">
     <value></value>

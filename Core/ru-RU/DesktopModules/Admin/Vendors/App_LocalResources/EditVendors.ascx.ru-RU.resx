@@ -224,7 +224,7 @@
     <value></value>
   </data>
   <data name="eMailInvalid.Text" xml:space="preserve">
-    <value></value>
+    <value>Недопустимый адрес Email</value>
   </data>
   <data name="eMailRequired.Text" xml:space="preserve">
     <value></value>
@@ -233,6 +233,6 @@
     <value></value>
   </data>
   <data name="lastNameRequired.Text" xml:space="preserve">
-    <value></value>
+    <value>Фамилия обязательна</value>
   </data>
 </root>

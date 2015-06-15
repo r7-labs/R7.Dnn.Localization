@@ -127,7 +127,7 @@
     <value></value>
   </data>
   <data name="IsEnabled.Text" xml:space="preserve">
-    <value></value>
+    <value>Включить?</value>
   </data>
   <data name="LoginControlSrc.Help" xml:space="preserve">
     <value></value>
@@ -148,7 +148,7 @@
     <value></value>
   </data>
   <data name="AuthenticationSettings.Text" xml:space="preserve">
-    <value></value>
+    <value>Параметры аутентификации</value>
   </data>
   <data name="cmdUpdate.Text" xml:space="preserve">
     <value></value>

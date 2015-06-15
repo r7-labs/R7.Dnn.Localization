@@ -136,13 +136,13 @@
     <value></value>
   </data>
   <data name="HelpURL.Text" xml:space="preserve">
-    <value></value>
+    <value>URL справки:</value>
   </data>
   <data name="IconFile.Help" xml:space="preserve">
     <value></value>
   </data>
   <data name="IconFile.Text" xml:space="preserve">
-    <value></value>
+    <value>Файл значка:</value>
   </data>
   <data name="SupportsPartialRendering.Help" xml:space="preserve">
     <value></value>

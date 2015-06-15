@@ -220,6 +220,6 @@
     <value>Текст</value>
   </data>
   <data name="Value.Header" xml:space="preserve">
-    <value></value>
+    <value>Значение</value>
   </data>
 </root>
