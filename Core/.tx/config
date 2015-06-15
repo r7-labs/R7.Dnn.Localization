@@ -332,6 +332,126 @@ source_file = en-US/controls/App_LocalResources/URLControl.ascx.resx
 source_lang = en-US
 type = RESX
 
+[r7-dnn-core.DesktopModules_DDRMenu_MenuSettings_ascx]
+file_filter = <lang>/DesktopModules/DDRMenu/App_LocalResources/MenuSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DDRMenu/App_LocalResources/MenuSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DDRMenu_MenuView_ascx]
+file_filter = <lang>/DesktopModules/DDRMenu/App_LocalResources/MenuView.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DDRMenu/App_LocalResources/MenuView.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_HTML_EditHtml_ascx]
+file_filter = <lang>/DesktopModules/HTML/App_LocalResources/EditHtml.ascx.<lang>.resx
+source_file = en-US/DesktopModules/HTML/App_LocalResources/EditHtml.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_HTML_MyWork_ascx]
+file_filter = <lang>/DesktopModules/HTML/App_LocalResources/MyWork.ascx.<lang>.resx
+source_file = en-US/DesktopModules/HTML/App_LocalResources/MyWork.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_HTML_SharedResources]
+file_filter = <lang>/DesktopModules/HTML/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/HTML/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_HTML_Workflow_ascx]
+file_filter = <lang>/DesktopModules/HTML/App_LocalResources/Workflow.ascx.<lang>.resx
+source_file = en-US/DesktopModules/HTML/App_LocalResources/Workflow.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_HTML_Settings_ascx]
+file_filter = <lang>/DesktopModules/HTML/App_LocalResources/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/HTML/App_LocalResources/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_HTML_HtmlModule_ascx]
+file_filter = <lang>/DesktopModules/HTML/App_LocalResources/HtmlModule.ascx.<lang>.resx
+source_file = en-US/DesktopModules/HTML/App_LocalResources/HtmlModule.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_RazorModules_RazorHost_CreateModule_ascx]
+file_filter = <lang>/DesktopModules/RazorModules/RazorHost/App_LocalResources/CreateModule.ascx.<lang>.resx
+source_file = en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/CreateModule.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_RazorModules_RazorHost_AddScript_ascx]
+file_filter = <lang>/DesktopModules/RazorModules/RazorHost/App_LocalResources/AddScript.ascx.<lang>.resx
+source_file = en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/AddScript.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_RazorModules_RazorHost_Settings_ascx]
+file_filter = <lang>/DesktopModules/RazorModules/RazorHost/App_LocalResources/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_RazorModules_RazorHost_EditScript_ascx]
+file_filter = <lang>/DesktopModules/RazorModules/RazorHost/App_LocalResources/EditScript.ascx.<lang>.resx
+source_file = en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/EditScript.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_RazorModules_RazorHost_RazorHost_ascx]
+file_filter = <lang>/DesktopModules/RazorModules/RazorHost/App_LocalResources/RazorHost.ascx.<lang>.resx
+source_file = en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/RazorHost.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_MobileManagement_SharedResources]
+file_filter = <lang>/DesktopModules/MobileManagement/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/MobileManagement/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_SocialGroups_View_ascx]
+file_filter = <lang>/DesktopModules/SocialGroups/App_LocalResources/View.ascx.<lang>.resx
+source_file = en-US/DesktopModules/SocialGroups/App_LocalResources/View.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_SocialGroups_SharedResources]
+file_filter = <lang>/DesktopModules/SocialGroups/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_SocialGroups_CreateSettings_ascx]
+file_filter = <lang>/DesktopModules/SocialGroups/App_LocalResources/CreateSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/SocialGroups/App_LocalResources/CreateSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_SocialGroups_ListSettings_ascx]
+file_filter = <lang>/DesktopModules/SocialGroups/App_LocalResources/ListSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/SocialGroups/App_LocalResources/ListSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_SocialGroups_Edit_ascx]
+file_filter = <lang>/DesktopModules/SocialGroups/App_LocalResources/Edit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/SocialGroups/App_LocalResources/Edit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_CoreMessaging_View_ascx]
+file_filter = <lang>/DesktopModules/CoreMessaging/App_LocalResources/View.ascx.<lang>.resx
+source_file = en-US/DesktopModules/CoreMessaging/App_LocalResources/View.ascx.resx
+source_lang = en-US
+type = RESX
+
 [r7-dnn-core.DesktopModules_AuthenticationServices_DNN_Settings_ascx]
 file_filter = <lang>/DesktopModules/AuthenticationServices/DNN/App_LocalResources/Settings.ascx.<lang>.resx
 source_file = en-US/DesktopModules/AuthenticationServices/DNN/App_LocalResources/Settings.ascx.resx
@@ -542,6 +662,12 @@ source_file = en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/E
 source_lang = en-US
 type = RESX
 
+[r7-dnn-core.DesktopModules_Admin_RadEditorProvider_ProviderConfig_ascx]
+file_filter = <lang>/DesktopModules/Admin/RadEditorProvider/App_LocalResources/ProviderConfig.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/RadEditorProvider/App_LocalResources/ProviderConfig.ascx.resx
+source_lang = en-US
+type = RESX
+
 [r7-dnn-core.DesktopModules_Admin_Console_ViewConsole_ascx]
 file_filter = <lang>/DesktopModules/Admin/Console/App_LocalResources/ViewConsole.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/Console/App_LocalResources/ViewConsole.ascx.resx
@@ -551,6 +677,18 @@ type = RESX
 [r7-dnn-core.DesktopModules_Admin_Console_Settings_ascx]
 file_filter = <lang>/DesktopModules/Admin/Console/App_LocalResources/Settings.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/Console/App_LocalResources/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_FiftyOneClientCapabilityProvider_SharedResources]
+file_filter = <lang>/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_FiftyOneClientCapabilityProvider_Administration_ascx]
+file_filter = <lang>/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/Administration.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/Administration.ascx.resx
 source_lang = en-US
 type = RESX
 
@@ -653,6 +791,30 @@ type = RESX
 [r7-dnn-core.DesktopModules_Admin_MobilePreview_Preview_ascx]
 file_filter = <lang>/DesktopModules/Admin/MobilePreview/App_LocalResources/Preview.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/MobilePreview/App_LocalResources/Preview.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_Taxonomy_EditVocabulary_ascx]
+file_filter = <lang>/DesktopModules/Admin/Taxonomy/App_LocalResources/EditVocabulary.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/Taxonomy/App_LocalResources/EditVocabulary.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_Taxonomy_VocabularyList_ascx]
+file_filter = <lang>/DesktopModules/Admin/Taxonomy/App_LocalResources/VocabularyList.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/Taxonomy/App_LocalResources/VocabularyList.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_Taxonomy_SharedResources]
+file_filter = <lang>/DesktopModules/Admin/Taxonomy/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Admin/Taxonomy/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_Taxonomy_CreateVocabulary_ascx]
+file_filter = <lang>/DesktopModules/Admin/Taxonomy/App_LocalResources/CreateVocabulary.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/Taxonomy/App_LocalResources/CreateVocabulary.ascx.resx
 source_lang = en-US
 type = RESX
 
@@ -962,6 +1124,24 @@ source_file = en-US/DesktopModules/Admin/Security/App_LocalResources/EditProfile
 source_lang = en-US
 type = RESX
 
+[r7-dnn-core.DesktopModules_Admin_UrlManagement_SharedResources]
+file_filter = <lang>/DesktopModules/Admin/UrlManagement/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Admin/UrlManagement/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_UrlManagement_AdvancedUrlSettings_ascx]
+file_filter = <lang>/DesktopModules/Admin/UrlManagement/App_LocalResources/AdvancedUrlSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/UrlManagement/App_LocalResources/AdvancedUrlSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_UrlManagement_FriendlyUrls_ascx]
+file_filter = <lang>/DesktopModules/Admin/UrlManagement/App_LocalResources/FriendlyUrls.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/UrlManagement/App_LocalResources/FriendlyUrls.ascx.resx
+source_lang = en-US
+type = RESX
+
 [r7-dnn-core.DesktopModules_Admin_Skins_EditSkins_ascx]
 file_filter = <lang>/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx
@@ -1013,6 +1193,96 @@ type = RESX
 [r7-dnn-core.DesktopModules_Admin_ContentList_ContentList_ascx]
 file_filter = <lang>/DesktopModules/Admin/ContentList/App_LocalResources/ContentList.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/ContentList/App_LocalResources/ContentList.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_View_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_EditFolder_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/EditFolder.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/EditFolder.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_FileFieldsControl_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/FileFieldsControl.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/FileFieldsControl.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_FileProperties_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/FileProperties.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/FileProperties.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_SharedResources]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_EditFolderMapping_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/EditFolderMapping.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/EditFolderMapping.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_Settings_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DigitalAssets_FolderMappings_ascx]
+file_filter = <lang>/DesktopModules/DigitalAssets/App_LocalResources/FolderMappings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/DigitalAssets/App_LocalResources/FolderMappings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Journal_View_ascx]
+file_filter = <lang>/DesktopModules/Journal/App_LocalResources/View.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Journal/App_LocalResources/View.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Journal_SharedResources]
+file_filter = <lang>/DesktopModules/Journal/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Journal_Settings_ascx]
+file_filter = <lang>/DesktopModules/Journal/App_LocalResources/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Journal/App_LocalResources/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Journal_Edit_ascx]
+file_filter = <lang>/DesktopModules/Journal/App_LocalResources/Edit.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Journal/App_LocalResources/Edit.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_DevicePreviewManagement_SharedResources]
+file_filter = <lang>/DesktopModules/DevicePreviewManagement/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/DevicePreviewManagement/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_MemberDirectory_View_ascx]
+file_filter = <lang>/DesktopModules/MemberDirectory/App_LocalResources/View.ascx.<lang>.resx
+source_file = en-US/DesktopModules/MemberDirectory/App_LocalResources/View.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_MemberDirectory_Settings_ascx]
+file_filter = <lang>/DesktopModules/MemberDirectory/App_LocalResources/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/MemberDirectory/App_LocalResources/Settings.ascx.resx
 source_lang = en-US
 type = RESX
 
