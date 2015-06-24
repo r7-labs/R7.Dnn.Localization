@@ -234,9 +234,9 @@
     <value>Копировать</value>
   </data>
   <data name="and.Text" xml:space="preserve">
-    <value></value>
+    <value>И</value>
   </data>
   <data name="or.Text" xml:space="preserve">
-    <value></value>
+    <value>ИЛИ</value>
   </data>
 </root>

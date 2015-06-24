@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ControlTitle_translationstatus.Text" xml:space="preserve">
-    <value></value>
+    <value>Состояние перевода</value>
   </data>
   <data name="markModuleTranslated.Text" xml:space="preserve">
     <value>Отметить как переведенное</value>
@@ -133,12 +133,12 @@
     <value>Имя страницы</value>
   </data>
   <data name="Path.Header" xml:space="preserve">
-    <value></value>
+    <value>Путь</value>
   </data>
   <data name="bindModule.Text" xml:space="preserve">
-    <value></value>
+    <value>Связать с языком по-умолчанию</value>
   </data>
   <data name="unbindModule.Text" xml:space="preserve">
-    <value></value>
+    <value>Отвязать от языка по-умолчанию</value>
   </data>
 </root>

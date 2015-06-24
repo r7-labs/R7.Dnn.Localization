@@ -173,12 +173,12 @@
     <value>Показывать страницы и модули только на текущем языке</value>
   </data>
   <data name="cmdDeleteModule.Text" xml:space="preserve">
-    <value></value>
+    <value>Удалить выбранный модуль(и)</value>
   </data>
   <data name="cmdRestoreModule.Text" xml:space="preserve">
     <value>Восстановить выбранные модули на указанную страницу</value>
   </data>
   <data name="TabDeleted.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>&lt;b&gt;{0}&lt;/b&gt; модуль не может быть восстановлен до тех пор, пока страница, на которой он размещен, также не будет восстановлена.</value>
   </data>
 </root>

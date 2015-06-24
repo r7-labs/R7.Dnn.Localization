@@ -221,16 +221,16 @@
     <value>Ошибка при добавлении поставщика.  Посмотрите EventViewer для более подробной информации.</value>
   </data>
   <data name="companyRequired.Text" xml:space="preserve">
-    <value></value>
+    <value>Укажите название компании</value>
   </data>
   <data name="eMailInvalid.Text" xml:space="preserve">
     <value>Недопустимый адрес Email</value>
   </data>
   <data name="eMailRequired.Text" xml:space="preserve">
-    <value></value>
+    <value>Укажите адрес эл. почты</value>
   </data>
   <data name="firstNameRequired.Text" xml:space="preserve">
-    <value></value>
+    <value>Укажите имя контактного лица.</value>
   </data>
   <data name="lastNameRequired.Text" xml:space="preserve">
     <value>Фамилия обязательна</value>

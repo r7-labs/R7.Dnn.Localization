@@ -163,9 +163,9 @@
     <value>Введите код SQL, который необходимо исполнить.</value>
   </data>
   <data name="runasLabel.Text" xml:space="preserve">
-    <value></value>
+    <value>Не возвращает данных:</value>
   </data>
   <data name="runasLabel.Help" xml:space="preserve">
-    <value></value>
+    <value>Отметьте этот флаг, если запрос языка SQL не возвращает значений, а только изменяет содержимое базы данных</value>
   </data>
 </root>

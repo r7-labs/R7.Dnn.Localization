@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ModuleTitle.Text" xml:space="preserve">
-    <value></value>
+    <value>Обнаружение устройств</value>
   </data>
   <data name="PageDescription.Text" xml:space="preserve">
-    <value></value>
+    <value>Обнаружение мобильных устройств и службы перенаправления.</value>
   </data>
   <data name="PageName.Text" xml:space="preserve">
     <value>Управление определением устройств</value>
   </data>
   <data name="SuccessMessage.Text" xml:space="preserve">
-    <value></value>
+    <value>Сведения об устройстве успешно обновлены</value>
   </data>
 </root>

@@ -170,12 +170,12 @@
     <value>Имя</value>
   </data>
   <data name="History.Text" xml:space="preserve">
-    <value></value>
+    <value>История</value>
   </data>
   <data name="Status.Text" xml:space="preserve">
-    <value></value>
+    <value>Состояние</value>
   </data>
   <data name="ViewLog.Header" xml:space="preserve">
-    <value></value>
+    <value>Журнал</value>
   </data>
 </root>

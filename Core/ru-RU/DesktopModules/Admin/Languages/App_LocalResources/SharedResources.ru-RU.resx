@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CreateLanguage.Action" xml:space="preserve">
-    <value>Добавить новый язык</value>
+    <value>Новый язык</value>
   </data>
   <data name="CreateLanguagePack.Action" xml:space="preserve">
     <value>Создать языковый пакет</value>
@@ -130,10 +130,10 @@
     <value>Установить языковой пакет</value>
   </data>
   <data name="LanguageSettings.Action" xml:space="preserve">
-    <value></value>
+    <value>Настройки языка</value>
   </data>
   <data name="ResourceVerifier.Action" xml:space="preserve">
-    <value></value>
+    <value>Проверка ресурсов</value>
   </data>
   <data name="Return.Action" xml:space="preserve">
     <value>Назад</value>

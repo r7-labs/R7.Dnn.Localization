@@ -148,7 +148,7 @@
     <value>Parse Skin Package</value>
   </data>
   <data name="lblApply.Text" xml:space="preserve">
-    <value></value>
+    <value>Применить к</value>
   </data>
   <data name="ParseOptions.Text" xml:space="preserve">
     <value>Parse Options</value>
@@ -214,6 +214,6 @@
     <value/>
   </data>
   <data name="ParseOptions.Help" xml:space="preserve">
-    <value></value>
+    <value>Переносимость требует использования относительных ссылок на графику, но может потребовать больше ресурсов в процессе работы сайта.</value>
   </data>
 </root>

@@ -291,12 +291,12 @@
     <value>Предпросмотр почты</value>
   </data>
   <data name="NoMessagesSentPlusError.Text" xml:space="preserve">
-    <value></value>
+    <value>Произошла ошибка при отправке эл. почты: {0}</value>
   </data>
   <data name="NoRecipients.Text" xml:space="preserve">
-    <value></value>
+    <value>Сообщения не были отправлены, поскольку не были указаны получатели.</value>
   </data>
   <data name="cmdCancelPreview.Text" xml:space="preserve">
-    <value></value>
+    <value>Закрыть предпросмотр</value>
   </data>
 </root>

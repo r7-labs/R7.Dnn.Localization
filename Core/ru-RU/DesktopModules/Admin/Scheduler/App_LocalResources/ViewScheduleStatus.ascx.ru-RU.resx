@@ -206,6 +206,6 @@
     <value>Просмотр истории планировщика</value>
   </data>
   <data name="Name.Header" xml:space="preserve">
-    <value></value>
+    <value>Имя задачи</value>
   </data>
 </root>

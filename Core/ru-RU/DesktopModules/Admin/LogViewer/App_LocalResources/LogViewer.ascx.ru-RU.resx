@@ -271,12 +271,12 @@
     <value>&apos;{0}&apos; не допустимый адрес электронной почты.</value>
   </data>
   <data name="Viewer.Text" xml:space="preserve">
-    <value></value>
+    <value>Просмотр</value>
   </data>
   <data name="ClearLog.Text" xml:space="preserve">
-    <value></value>
+    <value>Уверены, что хотите удалить все записи журнала?</value>
   </data>
   <data name="SelectException.Text" xml:space="preserve">
-    <value></value>
+    <value>Выберите хотя бы одну запись в журнале.</value>
   </data>
 </root>

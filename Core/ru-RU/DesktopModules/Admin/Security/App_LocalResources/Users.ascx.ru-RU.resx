@@ -185,7 +185,7 @@
     <value>Удалить неавторизованных пользователей</value>
   </data>
   <data name="RemoveDeleted.Action" xml:space="preserve">
-    <value></value>
+    <value>Очистить удаленных пользователей</value>
   </data>
   <data name="UserSettings.Action" xml:space="preserve">
     <value>Настройки пользователя</value>
@@ -281,16 +281,16 @@
     <value>Онлайн</value>
   </data>
   <data name="Delete.Confirm" xml:space="preserve">
-    <value></value>
+    <value>Уверены, что хотите удалить этого пользователя?</value>
   </data>
   <data name="Remove.Confirm" xml:space="preserve">
-    <value></value>
+    <value>Уверены, что хотите навсегда удалить этого пользователя?</value>
   </data>
   <data name="PreferredTimeZone.Text" xml:space="preserve">
-    <value></value>
+    <value>Предпочитаемый часовой пояс</value>
   </data>
   <data name="Restore.Confirm" xml:space="preserve">
-    <value></value>
+    <value>Уверены, что хотите восстановить этого пользователя?</value>
   </data>
   <data name="DisplayName.Text" xml:space="preserve">
     <value>Имя</value>

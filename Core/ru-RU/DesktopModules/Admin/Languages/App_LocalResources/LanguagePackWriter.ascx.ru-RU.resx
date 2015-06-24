@@ -127,7 +127,7 @@
     <value>Создать</value>
   </data>
     <data name="LogTitle.Text" xml:space="preserve">
-    <value>Журнал языкового пакета</value>
+    <value>Журнал создания языкового пакета</value>
   </data>
     <data name="LOG.MESSAGE.Success" xml:space="preserve">
     <value>&lt;p&gt;Успешно созданный пакет ресурса:  {0}&lt;/p&gt;</value>
@@ -154,28 +154,28 @@
     <value>Полный</value>
   </data>
     <data name="lblType.Text" xml:space="preserve">
-    <value>Тип пакета ресурса:</value>
+    <value>Тип пакета ресурсов:</value>
   </data>
     <data name="lblType.Help" xml:space="preserve">
-    <value>Выберите тип пакета ресурса для создания</value>
+    <value>Выберите тип пакета ресурсов для создания</value>
   </data>
     <data name="SelectModules.Text" xml:space="preserve">
-    <value>Выберите модуль(и), который(е) Вы хотели бы включить в пакет ресурса:</value>
+    <value>Выберите модули, который Вы хотели бы включить в пакет ресурсов:</value>
   </data>
     <data name="SelectProviders.Text" xml:space="preserve">
-    <value>Выберите провайдера (ов), которого(ых) Вы хотели бы включить в пакет ресурса:</value>
+    <value>Выберите провайдеры, которые Вы хотели бы включить в пакет ресурсов:</value>
   </data>
     <data name="lblName.Text" xml:space="preserve">
-    <value>Имя пакета ресурса:</value>
+    <value>Имя пакета ресурсов:</value>
   </data>
     <data name="lblName.Help" xml:space="preserve">
-    <value>Вы можете переименовать созданный пакет ресурса. Заметьте, что часть имени фиксируется.</value>
+    <value>Вы можете переименовать созданный пакет ресурсов. Заметьте, что часть имени будет задана автоматически.</value>
   </data>
     <data name="Success.Text" xml:space="preserve">
-    <value>Языковой пакет (ы) был создан и может быть найден в каталоге {0}/Install/Language</value>
+    <value>Языковой пакет (или пакеты) был создан и помещен в каталог {0}/Install/Language</value>
   </data>
     <data name="Failure.Text" xml:space="preserve">
-    <value></value>
+    <value>Вы должны создать файлы ресурсов прежде, чем сможете создать языковой пакет</value>
   </data>
     <data name="AuthSystem.LangPackType" xml:space="preserve">
     <value>Система аутентификации</value>

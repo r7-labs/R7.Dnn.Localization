@@ -211,10 +211,10 @@
     <value>вхождений</value>
   </data>
   <data name="ItemAlreadyPresent.Text" xml:space="preserve">
-    <value></value>
+    <value>Элемент уже существует</value>
   </data>
   <data name="valEntryName.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>&lt;br /&gt;Укажите имя</value>
   </data>
   <data name="Text.Header" xml:space="preserve">
     <value>Текст</value>
