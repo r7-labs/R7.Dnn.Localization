@@ -124,67 +124,67 @@
     <value>Отмена редактирования</value>
   </data>
   <data name="Delete.Text" xml:space="preserve">
-    <value></value>
+    <value>Удалить фильтр</value>
   </data>
   <data name="Edit.Text" xml:space="preserve">
-    <value></value>
+    <value>Изменить фильтр</value>
   </data>
   <data name="saveRule.Text" xml:space="preserve">
-    <value></value>
+    <value>Сохранить фильтр</value>
   </data>
   <data name="Actions.Header" xml:space="preserve">
     <value>Действия</value>
   </data>
   <data name="IPFilter.Header" xml:space="preserve">
-    <value></value>
+    <value>Фильтр IP адресов</value>
   </data>
   <data name="plFirstIP.Text" xml:space="preserve">
-    <value></value>
+    <value>Начальный IP</value>
   </data>
    <data name="plFirstIP.Help" xml:space="preserve">
-    <value></value>
+    <value>Может использоваться как отдельный адрес IP, так и адрес совместно с маской подсети для вычисления диапазона IP адресов.</value>
   </data>
   <data name="CannotDeleteIPInUse.Text" xml:space="preserve">
-    <value></value>
+    <value>Нельзя удалить этот фильтр, так как это приведет к блокировке текущего адреса IP</value>
   </data>
   <data name="plSubnet.Text" xml:space="preserve">
-    <value></value>
+    <value>Маска</value>
   </data>
   <data name="plSubnet.Help" xml:space="preserve">
-    <value></value>
+    <value>Маска подсети будет использована совместно с начальным адресом IP для вычисления диапазона IP адресов фильтра.</value>
   </data>
     <data name="valFirstIP.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>Требуется начальный адрес IP</value>
   </data>
   <data name="CannotDeleteLocalhost.Text" xml:space="preserve">
-    <value></value>
+    <value>Нельзя создать запрещающее правило для localhost (127.0.0.1)</value>
   </data>
   <data name="IPAllow.Text" xml:space="preserve">
-    <value></value>
+    <value>Разрешить</value>
   </data>
   <data name="IPDeny.Text" xml:space="preserve">
-    <value></value>
+    <value>Запретить</value>
   </data>
   <data name="IPRange.Text" xml:space="preserve">
-    <value></value>
+    <value>Диапазон IP адресов</value>
   </data>
   <data name="IPSingle.Text" xml:space="preserve">
-    <value></value>
+    <value>Отдельный адрес IP</value>
   </data>
   <data name="plRuleSpecifity.Help" xml:space="preserve">
-    <value></value>
+    <value>Определяет,  будет ли применяться правило фильтра к отдельному адресу IP или диапазону IP адресов</value>
   </data>
   <data name="plRuleSpecifity.Text" xml:space="preserve">
-    <value></value>
+    <value>Применять к</value>
   </data>
   <data name="plRuleType.Help" xml:space="preserve">
-    <value></value>
+    <value>Определяет, является ли правило фильтра разрешающим или запрещающим</value>
   </data>
   <data name="plRuleType.Text" xml:space="preserve">
-    <value></value>
+    <value>Действие</value>
   </data>
   <data name="IPValidation.ErrorMessage" xml:space="preserve">
-    <value></value>
+    <value>Укажите адрес IP / маску в правильном формате</value>
   </data>
 
 </root>

@@ -878,7 +878,7 @@
     <value></value>
   </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
-    <value></value>
+    <value>Управление клиенскими ресурсами</value>
   </data>
   <data name="plCrmVersion.Help" xml:space="preserve">
     <value></value>
@@ -896,13 +896,13 @@
     <value></value>
   </data>
   <data name="plCrmMinifyCss.Text" xml:space="preserve">
-    <value></value>
+    <value>Сжимать CSS</value>
   </data>
   <data name="plCrmMinifyJs.Help" xml:space="preserve">
     <value></value>
   </data>
   <data name="plCrmMinifyJs.Text" xml:space="preserve">
-    <value></value>
+    <value>Сжимать JS</value>
   </data>
   <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
     <value></value>
