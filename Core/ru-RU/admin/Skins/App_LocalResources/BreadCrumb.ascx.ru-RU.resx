@@ -40,6 +40,6 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
     <data name="Root.Text">
-        <value>&lt;a href=&quot;&quot;{0}&quot;&quot; class=&quot;&quot;{1}&quot;&quot;&gt;Главная&lt;/a&gt;</value>
+        <value>&lt;a href=&apos;{0}&apos; class=&apos;{1}&apos;&gt;Главная&lt;/a&gt;</value>
     </data>
 </root>
