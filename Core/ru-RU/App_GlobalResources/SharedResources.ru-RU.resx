@@ -1,110 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -310,7 +205,7 @@
     <value>Панель ContentPane не найдена в скине</value>
   </data>
   <data name="ContractExpired.Error" xml:space="preserve">
-    <value>Соглашение о хостинге {0} истекает {1}. Свяжитесь с &lt;a href=&quot;mailto:{2}&quot;&gt;{2}&lt;/a&gt; для получения дополнительной информации.</value>
+    <value>Соглашение о хостинге {0} истекает {1}. Свяжитесь с &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; для получения дополнительной информации.</value>
   </data>
   <data name="TabAccess.Error" xml:space="preserve">
     <value>У Вас нет прав на просмотр этой страницы сайта.</value>
@@ -835,7 +730,7 @@
     <value>поставщик</value>
   </data>
   <data name="InvalidFileName.Text" xml:space="preserve">
-    <value>Неверное имя файла - имя файла не может содержать &apos;</value>
+    <value>Неверное имя файла - имя файла не может содержать '</value>
   </data>
   <data name="AllRoles.Text" xml:space="preserve">
     <value>&lt; Все роли &gt;</value>
@@ -910,7 +805,7 @@
     <value>Предупреждение при загрузке модуля</value>
   </data>
   <data name="ModuleLoadWarning.Text" xml:space="preserve">
-    <value>Один или несколько модулей на этой странице не были загружены. Это может быть случайным временным явлением.  Пожалуйста, обновите страницу (нажмите F5 в большинстве браузеров). Если эта проблема не исчезнет, то сообщите об этом &lt;a href=&quot;mailto:{0}&quot;&gt;Администратору сайта&lt;/a&gt;.</value>
+    <value>Один или несколько модулей на этой странице не были загружены. Это может быть случайным временным явлением.  Пожалуйста, обновите страницу (нажмите F5 в большинстве браузеров). Если эта проблема не исчезнет, то сообщите об этом &lt;a href="mailto:{0}"&gt;Администратору сайта&lt;/a&gt;.</value>
   </data>
   <data name="FTB_FolderCreated.Text" xml:space="preserve">
     <value>Папка {0} успешно создана.</value>
@@ -1371,9 +1266,6 @@
   <data name="EXCEPTION_ModuleCacheMissing.Text" xml:space="preserve">
     <value>ModuleCachingProvider неверно сконфигурирован. Убедитесь, что конфигурация &amp;lt;moduleCaching&amp;gt; существует в web.config и указан провайдер по-умолчанию.</value>
   </data>
-  <data name="File.Text" xml:space="preserve">
-    <value/>
-  </data>
   <data name="Localization_NotLocalized.Text" xml:space="preserve">
     <value>Не локализовано</value>
   </data>
@@ -1594,37 +1486,37 @@
     <value>Состоние завершено</value>
   </data>
   <data name="StateCompleted.Comment" xml:space="preserve">
-    <value>Состояние &apos;[STATE]&apos; утверждено</value>
+    <value>Состояние '[STATE]' утверждено</value>
   </data>
   <data name="StateDiscarded.Action" xml:space="preserve">
     <value>Состояние снято</value>
   </data>
   <data name="StateDiscarded.Comment" xml:space="preserve">
-    <value>Состояние &apos;[STATE]&apos; было снято</value>
+    <value>Состояние '[STATE]' было снято</value>
   </data>
   <data name="StateInitiated.Action" xml:space="preserve">
     <value>Состояние инициировано</value>
   </data>
   <data name="StateInitiated.Comment" xml:space="preserve">
-    <value>Рабочий процесс в состоянии &apos;[STATE]&apos; </value>
+    <value>Рабочий процесс в состоянии '[STATE]' </value>
   </data>
   <data name="WorkflowApproved.Action" xml:space="preserve">
     <value>Рабочий процесс завершен</value>
   </data>
   <data name="WorkflowApproved.Comment" xml:space="preserve">
-    <value>Рабочий процесс &apos;[WORKFLOW]&apos; завершен. Контент проверен</value>
+    <value>Рабочий процесс '[WORKFLOW]' завершен. Контент проверен</value>
   </data>
   <data name="WorkflowError.Action" xml:space="preserve">
     <value>Ошибка в рабочем процессе</value>
   </data>
   <data name="WorkflowError.Comment" xml:space="preserve">
-    <value>Рабочий процесс &apos;[WORKFLOW]&apos; вызвал ошибку</value>
+    <value>Рабочий процесс '[WORKFLOW]' вызвал ошибку</value>
   </data>
   <data name="WorkflowStarted.Action" xml:space="preserve">
     <value>Рабочий процесс запущен</value>
   </data>
   <data name="WorkflowStarted.Comment" xml:space="preserve">
-    <value>Рабочий процесс &apos;[WORKFLOW]&apos; запущен</value>
+    <value>Рабочий процесс '[WORKFLOW]' запущен</value>
   </data>
   <data name="URLPROVIDER_NameMissing.Text" xml:space="preserve">
     <value>Отсутствует имя поставщика URL </value>
@@ -1653,12 +1545,6 @@
   <data name="DefaultWorkflowState1.OnCompleteMessageSubject" xml:space="preserve">
     <value>Файл готов к проверке</value>
   </data>
-  <data name="DefaultWorkflowState1.OnDiscardMessageBody" xml:space="preserve">
-    <value/>
-  </data>
-  <data name="DefaultWorkflowState1.OnDiscardMessageSubject" xml:space="preserve">
-    <value/>
-  </data>
   <data name="DefaultWorkflowState1.StateName" xml:space="preserve">
     <value>Черновик</value>
   </data>
@@ -1677,18 +1563,6 @@
   <data name="DefaultWorkflowState2.StateName" xml:space="preserve">
     <value>Готово к проверке</value>
   </data>
-  <data name="DefaultWorkflowState3.OnCompleteMessageBody" xml:space="preserve">
-    <value/>
-  </data>
-  <data name="DefaultWorkflowState3.OnCompleteMessageSubject" xml:space="preserve">
-    <value/>
-  </data>
-  <data name="DefaultWorkflowState3.OnDiscardMessageBody" xml:space="preserve">
-    <value/>
-  </data>
-  <data name="DefaultWorkflowState3.OnDiscardMessageSubject" xml:space="preserve">
-    <value/>
-  </data>
   <data name="DefaultWorkflowState3.StateName" xml:space="preserve">
     <value>Опубликовано</value>
   </data>
@@ -1702,13 +1576,13 @@
     <value>Есть комментарий</value>
   </data>
   <data name="CommentProvided.Comment" xml:space="preserve">
-    <value>Комментарий к состоянию &apos;[STATE]&apos;: [COMMENT]</value>
+    <value>Комментарий к состоянию '[STATE]': [COMMENT]</value>
   </data>
   <data name="WorkflowDiscarded.Action" xml:space="preserve">
     <value>Рабочий процесс отменен</value>
   </data>
   <data name="WorkflowDiscarded.Comment" xml:space="preserve">
-    <value>Рабочий процесс &apos;[WORKFLOW]&apos; был отменен, когда находился в состоянии &apos;[STATE]&apos;</value>
+    <value>Рабочий процесс '[WORKFLOW]' был отменен, когда находился в состоянии '[STATE]'</value>
   </data>
   <data name="DropDownList.SearchInputPlaceHolder" xml:space="preserve">
     <value>Поиск...</value>

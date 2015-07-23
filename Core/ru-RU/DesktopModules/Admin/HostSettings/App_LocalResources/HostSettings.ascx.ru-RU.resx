@@ -1,110 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -313,7 +208,7 @@
     <value>Запуск планировщика:</value>
   </data>
   <data name="plSchedulerMode.Help" xml:space="preserve">
-    <value>Метод &quot;По таймеру&quot; порождает отдельный поток для работы планировщика, работающий параллельно и независимо от основного рабочего процесса. Метод &quot;По запросу&quot; запускает планировщик при выполнении HTTP-запросов. Также Вы можете запретить работу планировщика задач.</value>
+    <value>Метод "По таймеру" порождает отдельный поток для работы планировщика, работающий параллельно и независимо от основного рабочего процесса. Метод "По запросу" запускает планировщик при выполнении HTTP-запросов. Также Вы можете запретить работу планировщика задач.</value>
   </data>
   <data name="Disabled.Text" xml:space="preserve">
     <value>Запрещено</value>
@@ -496,10 +391,10 @@
     <value>Укажите период времени хранения записей в журнале сайта (в днях)</value>
   </data>
   <data name="plUsersOnline.Help" xml:space="preserve">
-    <value>Вы можете запретить функцию &quot;кто сейчас на сайте&quot;</value>
+    <value>Вы можете запретить функцию "кто сейчас на сайте"</value>
   </data>
   <data name="plUsersOnlineTime.Help" xml:space="preserve">
-    <value>Укажите размер буфера для функции &quot;кто сейчас на сайте&quot; ( в минутах)</value>
+    <value>Укажите размер буфера для функции "кто сейчас на сайте" ( в минутах)</value>
   </data>
   <data name="FriendlyUrl.Text" xml:space="preserve">
     <value>Настройка дружественных Url </value>
@@ -551,7 +446,7 @@
     <value>Разблокировать учетные записи после(мин):</value>
   </data>
   <data name="plAutoAccountUnlock.Help" xml:space="preserve">
-    <value>После того, как учетная запись пользователя блокируется при достижении максимального числа попыток неудачного входа, она может быть автоматически разблокирована по истечении определенного интервала времени.  Укажите интервал времени в минутах, по истечении которого учетные записи будут разблокированы автоматически.  Укажите &quot;0&quot; для отключения возможности авто-разблокировки.</value>
+    <value>После того, как учетная запись пользователя блокируется при достижении максимального числа попыток неудачного входа, она может быть автоматически разблокирована по истечении определенного интервала времени.  Укажите интервал времени в минутах, по истечении которого учетные записи будут разблокированы автоматически.  Укажите "0" для отключения возможности авто-разблокировки.</value>
   </data>
   <data name="plCacheMethod.Text" xml:space="preserve">
     <value>Метод кэширования модулей:</value>
@@ -737,10 +632,10 @@
     <value>XHTML 1.0 strict</value>
   </data>
   <data name="plRememberMe.Text" xml:space="preserve">
-    <value>Разрешить &quot;запомнить меня&quot; при входе пользователя?</value>
+    <value>Разрешить "запомнить меня" при входе пользователя?</value>
   </data>
   <data name="plRememberMe.Help" xml:space="preserve">
-    <value>&lt;p&gt;Разрешает флажок &quot;запомнить меня&quot; на элементах управления при регистрации пользователя. Если &quot;запомнить меня&quot; разрешен, то пользователи могут создать cookies, которые будут сохранены для множества посещений.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Разрешает флажок "запомнить меня" на элементах управления при регистрации пользователя. Если "запомнить меня" разрешен, то пользователи могут создать cookies, которые будут сохранены для множества посещений.&lt;/p&gt;</value>
   </data>
   <data name="plWebFarm.Text" xml:space="preserve">
     <value>Это Web-ферма?</value>
@@ -853,328 +748,34 @@
   <data name="plEnableContentLocalization.Text" xml:space="preserve">
     <value>Разрешить локализацию контента?</value>
   </data>
-  <data name="SkinPreview.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="EditSkinPreview.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plJQueryUIHostUrl.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plJQueryUIVersion.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plJQueryUIVersion.Text" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
     <value>Для предпросмотра необходимо выбрать шаблоны оформления страницы и модулей.</value>
-  </data>
-  <data name="DeprecateGzip.Text" xml:space="preserve">
-    <value></value>
   </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value>Управление клиенскими ресурсами</value>
   </data>
-  <data name="plCrmVersion.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plCrmVersion.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plCrmEnableCompositeFiles.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plCrmMinifyCss.Help" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="plCrmMinifyCss.Text" xml:space="preserve">
     <value>Сжимать CSS</value>
-  </data>
-  <data name="plCrmMinifyJs.Help" xml:space="preserve">
-    <value></value>
   </data>
   <data name="plCrmMinifyJs.Text" xml:space="preserve">
     <value>Сжимать JS</value>
   </data>
-  <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IncrementCrmVersionButton.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IncrementCrmVersionConfirm.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IncrementCrmVersionError.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="DebugEnabled.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="DebugEnabled.Title" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="MinificationSettingsInfo.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="MinificationSettingsInfo.Title" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IPFiltersDisabled.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IPFiltersDisabled.Title" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IPFiltersInfo.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="IPFiltersInfo.Title" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="txtBatch.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="txtBatch.Help" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="SmtpServerWarning.Text" xml:space="preserve">
-    <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работет в режиме &apos;medium trust&apos;. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
+    <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работет в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
   </data>
   <data name="LogSettings.Text" xml:space="preserve">
     <value>Журналы</value>
   </data>
-  <data name="LogSettingsHelp.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="Html5Doctype.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="LogLocations.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plLogs.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plLogs.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="SelectLog.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plBatch.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plBatch.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="MembershipManagement.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plResetLinkValidity.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plNumberPasswords.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plNumberPasswords.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableBannedList.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableBannedList.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableStrengthMeter.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableStrengthMeter.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableIPChecking.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnableIPChecking.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CdnSettings.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plMsAjaxCdn.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plMsAjaxCdn.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plTelerikBasicUrl.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plTelerikBasicUrl.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plTelerikCdn.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plTelerikCdn.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plTelerikSecureUrl.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plTelerikSecureUrl.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plAsyncTimeout.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plAsyncTimeout.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnablePasswordHistory.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plEnablePasswordHistory.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plResetLinkValidity.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="valResetLink.Error" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="AlwaysUse.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CharacterSubListLabel.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CharacterSubListLabel.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="ExtensionLabel.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="ExtensionLabel.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="PageOnly.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="EmptyString.Text" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="Never.Text" xml:space="preserve">
     <value>Никогда</value>
-  </data>
-  <data name="IPFilters.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plJQueryMigrateHostUrl.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="plJQueryMigrateHostUrl.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexPath.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexPath.Text" xml:space="preserve">
-    <value></value>
   </data>
   <data name="SearchIndex.Text" xml:space="preserve">
     <value>Поиск:</value>
   </data>
-  <data name="btnCompactSearchIndex.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="MessageIndexWarning.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="btnHostSearchReindex.Text" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
-  <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="CompactIndexConfirmationYes.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblGetMoreInformation.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblIndexWordMaxLength.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblIndexWordMaxLength.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblIndexWordMinLength.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblIndexWordMinLength.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexActiveDocuments.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexActiveDocuments.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexDeletedDocuments.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexDeletedDocuments.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
-  </data>
-  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="ReIndexConfirmationTitle.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="valIndexWordMaxLengthCompare.Error" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="valIndexWordMinLengthCompare.Error" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
-    <value></value>
   </data>
 </root>
