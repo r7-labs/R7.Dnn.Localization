@@ -12,4 +12,487 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Flash.Text" xml:space="preserve">
+    <value>Flash:</value>
+  </data>
+  <data name="Image.Text" xml:space="preserve">
+    <value>Изображение:</value>
+  </data>
+  <data name="MaxFileSize.Text" xml:space="preserve">
+    <value>Максимальный размер файла:</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="AllDays.Text" xml:space="preserve">
+    <value>За все дни</value>
+  </data>
+  <data name="Today.Text" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="PastThreeDays.Text" xml:space="preserve">
+    <value>За прошлые три дня</value>
+  </data>
+  <data name="PastWeek.Text" xml:space="preserve">
+    <value>За прошлую неделю</value>
+  </data>
+  <data name="PastTwoWeek.Text" xml:space="preserve">
+    <value>За прошлые две недели</value>
+  </data>
+  <data name="PastMonth.Text" xml:space="preserve">
+    <value>За прошлый месяц</value>
+  </data>
+  <data name="PastThreeMonth.Text" xml:space="preserve">
+    <value>За прошлые три месяца</value>
+  </data>
+  <data name="PastYear.Text" xml:space="preserve">
+    <value>За прошлый год</value>
+  </data>
+  <data name="LastVisit.Text" xml:space="preserve">
+    <value>Последний визит</value>
+  </data>
+  <data name="HasContributed.Text" xml:space="preserve">
+    <value>участвовал</value>
+  </data>
+  <data name="ToAll.Text" xml:space="preserve">
+    <value>Всем пользователям</value>
+  </data>
+  <data name="ToAdmin.Text" xml:space="preserve">
+    <value>Администраторам</value>
+  </data>
+  <data name="DefaultForumGroupName.Text" xml:space="preserve">
+    <value>Обсуждения</value>
+  </data>
+  <data name="DefaultForumName.Text" xml:space="preserve">
+    <value>Общий</value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>-- Не указано --</value>
+  </data>
+  <data name="EmailForumEmail.Text" xml:space="preserve">
+    <value>Эл. адрес форума: </value>
+  </data>
+  <data name="RatingNoRating.Text" xml:space="preserve">
+    <value>Нет оценки</value>
+  </data>
+  <data name="RatingHaveRating.Text" xml:space="preserve">
+    <value>{0} из 10 - основано на {1} оценках</value>
+  </data>
+  <data name="ForumTextWrote.Text" xml:space="preserve">
+    <value> написал</value>
+  </data>
+  <data name="ForumUtilToday.Text" xml:space="preserve">
+    <value>Сегодня в</value>
+  </data>
+  <data name="ForumUtilYesterday.Text" xml:space="preserve">
+    <value>Вчера в</value>
+  </data>
+  <data name="ForumCount.Text" xml:space="preserve">
+    <value>Форум(ы)</value>
+  </data>
+  <data name="subscribe.Text" xml:space="preserve">
+    <value>Получать оповещения</value>
+  </data>
+  <data name="Rank_0.Text" xml:space="preserve">
+    <value>Новичок</value>
+  </data>
+  <data name="Rank_1.Text" xml:space="preserve">
+    <value>Пользователь 1-го уровня</value>
+  </data>
+  <data name="Rank_2.Text" xml:space="preserve">
+    <value>Пользователь 2-го уровня</value>
+  </data>
+  <data name="Rank_3.Text" xml:space="preserve">
+    <value>Пользователь 3-го уровня</value>
+  </data>
+  <data name="Rank_4.Text" xml:space="preserve">
+    <value>Пользователь 4-го уровня</value>
+  </data>
+  <data name="Rank_5.Text" xml:space="preserve">
+    <value>Пользователь 5-го уровня</value>
+  </data>
+  <data name="AcceptedFileType.Text" xml:space="preserve">
+    <value>Допустимые расширения имен файлов</value>
+  </data>
+  <data name="Yesterday.Text" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="NewPost.Text" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="YourPost.Text" xml:space="preserve">
+    <value>Ваше сообщение</value>
+  </data>
+  <data name="NoAnonDownloads.Text" xml:space="preserve">
+    <value>Войдите в систему чтобы скачать вложенный файл</value>
+  </data>
+  <data name="AggregatedGroupName.Text" xml:space="preserve">
+    <value>Аггрегированный</value>
+  </data>
+  <data name="AggregatedForumName.Text" xml:space="preserve">
+    <value>Все форумы</value>
+  </data>
+  <data name="AggregatedForumDescription.Text" xml:space="preserve">
+    <value>Аггрегированное представление всех тем открытых форумов</value>
+  </data>
+  <data name="Post Replies.Permission" xml:space="preserve">
+    <value>Отвечать на сообщения</value>
+  </data>
+  <data name="Global Moderator.Permission" xml:space="preserve">
+    <value>Глобальный модератор</value>
+  </data>
+  <data name="Forum Administrator.Permission" xml:space="preserve">
+    <value>Администрирование форума</value>
+  </data>
+  <data name="Start Thread.Permission" xml:space="preserve">
+    <value>Создание тем</value>
+  </data>
+  <data name="Post Reply.Permission" xml:space="preserve">
+    <value>Отвечать на сообщения</value>
+  </data>
+  <data name="Moderator.Permission" xml:space="preserve">
+    <value>Модераторы</value>
+  </data>
+  <data name="View.Permission" xml:space="preserve">
+    <value>Просмотр форума</value>
+  </data>
+  <data name="Notifications.Permission" xml:space="preserve">
+    <value>Оповещения</value>
+  </data>
+  <data name="Answered.Text" xml:space="preserve">
+    <value>Есть ответ</value>
+  </data>
+  <data name="Unanswered.Text" xml:space="preserve">
+    <value>Нет решения</value>
+  </data>
+  <data name="Informative.Text" xml:space="preserve">
+    <value>Информативное</value>
+  </data>
+  <data name="NotSpecified.Text" xml:space="preserve">
+    <value>Не указано</value>
+  </data>
+  <data name="MarkAnswer.Text" xml:space="preserve">
+    <value>Принять ответ</value>
+  </data>
+  <data name="StatusInfo.Text" xml:space="preserve">
+    <value>Информативное</value>
+  </data>
+  <data name="StatusUnanswered.Text" xml:space="preserve">
+    <value>Нет решения</value>
+  </data>
+  <data name="StatusAnswered.Text" xml:space="preserve">
+    <value>Есть решение</value>
+  </data>
+  <data name="AlreadyTrackingForum.Text" xml:space="preserve">
+    <value>Отслеживание уже включено на уровне форума.</value>
+  </data>
+  <data name="AlreadyTrackingModule.Text" xml:space="preserve">
+    <value>Этот модуль уже отслеживается.</value>
+  </data>
+  <data name="AcceptedAnswer.Text" xml:space="preserve">
+    <value>Допустимый ответ</value>
+  </data>
+  <data name="HTML.Text" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="Text.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="AllCollapsed.Text" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="AllExpanded.Text" xml:space="preserve">
+    <value>Развернуть все</value>
+  </data>
+  <data name="AsLastViewed.Text" xml:space="preserve">
+    <value>Как последний просмотренный</value>
+  </data>
+  <data name="AllGroups.Text" xml:space="preserve">
+    <value>Все группы</value>
+  </data>
+  <data name="MemberList.Text" xml:space="preserve">
+    <value>Список участников</value>
+  </data>
+  <data name="DisplayName.Text" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Inbox.Text" xml:space="preserve">
+    <value>Входящие</value>
+  </data>
+  <data name="MyPosts.Text" xml:space="preserve">
+    <value>Мои сообщения</value>
+  </data>
+  <data name="MySettings.Text" xml:space="preserve">
+    <value>Мои настройки</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Rank_10.Text" xml:space="preserve">
+    <value>Пользователь 10-го уровня</value>
+  </data>
+  <data name="Rank_6.Text" xml:space="preserve">
+    <value>Пользователь 6-го уровня</value>
+  </data>
+  <data name="Rank_7.Text" xml:space="preserve">
+    <value>Пользователь 7-го уровня</value>
+  </data>
+  <data name="Rank_8.Text" xml:space="preserve">
+    <value>Пользователь 8-го уровня</value>
+  </data>
+  <data name="Rank_9.Text" xml:space="preserve">
+    <value>Пользователь 9-го уровня</value>
+  </data>
+  <data name="Add Attachments.Permission" xml:space="preserve">
+    <value>Вложить</value>
+  </data>
+  <data name="Lock Thread.Permission" xml:space="preserve">
+    <value>Заблокировать темы</value>
+  </data>
+  <data name="Pin Thread.Permission" xml:space="preserve">
+    <value>Закрепить темы</value>
+  </data>
+  <data name="ModerationQueue.Text" xml:space="preserve">
+    <value>Очередь модерации</value>
+  </data>
+  <data name="NoPostsToModerate.Text" xml:space="preserve">
+    <value>Нет сообщений для модерации</value>
+  </data>
+  <data name="Administration.Text" xml:space="preserve">
+    <value>Админ</value>
+  </data>
+  <data name="Moderate.Text" xml:space="preserve">
+    <value>Модерировать</value>
+  </data>
+  <data name="HostTemplates.Text" xml:space="preserve">
+    <value>Шаблоны хоста</value>
+  </data>
+  <data name="ModeratorPostAbuse.Text" xml:space="preserve">
+    <value>Уведомление модератора об оскорбительном сообщении</value>
+  </data>
+  <data name="ModeratorPostDeleted.Text" xml:space="preserve">
+    <value>Уведомление модератора об удалении сообщения</value>
+  </data>
+  <data name="ModeratorPostToModerate.Text" xml:space="preserve">
+    <value>Уведомление модератора о наличии сообщений для модерирования</value>
+  </data>
+  <data name="ModeratorUserBaned.Text" xml:space="preserve">
+    <value>Уведомление модератора о блокировании пользователя</value>
+  </data>
+  <data name="ModeratorWarnUser.Text" xml:space="preserve">
+    <value>Уведомление модератора о предупреждениях</value>
+  </data>
+  <data name="ModuleTemplates.Text" xml:space="preserve">
+    <value>Шаблоны модулей</value>
+  </data>
+  <data name="UserBanedNotice.Text" xml:space="preserve">
+    <value>Уведомление о блокировке учетной записи</value>
+  </data>
+  <data name="UserForumAdded.Text" xml:space="preserve">
+    <value>Уведомление о добавлении форума</value>
+  </data>
+  <data name="UserModeratorWarning.Text" xml:space="preserve">
+    <value>Уведомление о предупреждении от модератора</value>
+  </data>
+  <data name="UserNewThread.Text" xml:space="preserve">
+    <value>Уведомление о новой теме</value>
+  </data>
+  <data name="UserPostAbuse.Text" xml:space="preserve">
+    <value>Предупреждение о нарушении правил</value>
+  </data>
+  <data name="UserPostAdded.Text" xml:space="preserve">
+    <value>Уведомление о новом сообщении</value>
+  </data>
+  <data name="UserPostApproved.Text" xml:space="preserve">
+    <value>Уведомление об утверждении сообщения</value>
+  </data>
+  <data name="UserPostDeleted.Text" xml:space="preserve">
+    <value>Уведомление об удалении сообщения</value>
+  </data>
+  <data name="UserPostEdited.Text" xml:space="preserve">
+    <value>Уведомление об изменении сообщения</value>
+  </data>
+  <data name="UserPostRejected.Text" xml:space="preserve">
+    <value>Уведомление об отклонении сообщения</value>
+  </data>
+  <data name="UserThreadMoved.Text" xml:space="preserve">
+    <value>Уведомление о перемещении темы</value>
+  </data>
+  <data name="UserThreadSplit.Text" xml:space="preserve">
+    <value>Увемление о разделении темы</value>
+  </data>
+  <data name="AdvertisingPost.Text" xml:space="preserve">
+    <value>Сообщение содержит чрезмерное количество рекламы</value>
+  </data>
+  <data name="DuplicatePost.Text" xml:space="preserve">
+    <value>Сообщение дублирует ранее созданное</value>
+  </data>
+  <data name="OffTopicPost.Text" xml:space="preserve">
+    <value>Содержание сообщения не соответствует теме</value>
+  </data>
+  <data name="PolicyPost.Text" xml:space="preserve">
+    <value>Сообщение нарушает правила форума</value>
+  </data>
+  <data name="ProfanePost.Text" xml:space="preserve">
+    <value>Сообщение содержит оскорбления</value>
+  </data>
+  <data name="SpamPost.Text" xml:space="preserve">
+    <value>Сообщение определено как спам</value>
+  </data>
+  <data name="AbuseReports.Text" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="Forum.Text" xml:space="preserve">
+    <value>Форум</value>
+  </data>
+  <data name="Aggregate.Text" xml:space="preserve">
+    <value>Все форумы</value>
+  </data>
+  <data name="Link.Text" xml:space="preserve">
+    <value>Связать форум</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>Обычный форум</value>
+  </data>
+  <data name="Notification.Text" xml:space="preserve">
+    <value>Форум с оповещениями</value>
+  </data>
+  <data name="PrivateModerated.Text" xml:space="preserve">
+    <value>Открытый модерируемый</value>
+  </data>
+  <data name="PrivateModeratedPostRestricted.Text" xml:space="preserve">
+    <value>Закрытый модерируемый с ограничениями</value>
+  </data>
+  <data name="PrivateUnModerated.Text" xml:space="preserve">
+    <value>Закрытый без модерации</value>
+  </data>
+  <data name="PrivateUnModeratedPostRestricted.Text" xml:space="preserve">
+    <value>Закрытый без модерации с ограничениями</value>
+  </data>
+  <data name="PublicModerated.Text" xml:space="preserve">
+    <value>Открытый модерируемый</value>
+  </data>
+  <data name="PublicModeratedPostRestricted.Text" xml:space="preserve">
+    <value>Открытый модерируемыйй с ограничениями</value>
+  </data>
+  <data name="PublicUnModerated.Text" xml:space="preserve">
+    <value>Открытый без модерации</value>
+  </data>
+  <data name="PublicUnModeratedPostRestricted.Text" xml:space="preserve">
+    <value>Открытый без модерации с ограничениями</value>
+  </data>
+  <data name="Unmoderated.Permission" xml:space="preserve">
+    <value>Без модерации</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Пользователь:</value>
+  </data>
+  <data name="Poll.Text" xml:space="preserve">
+    <value>Опрос</value>
+  </data>
+  <data name="StatusPoll.Text" xml:space="preserve">
+    <value>Опрос</value>
+  </data>
+  <data name="TotalVotes.Text" xml:space="preserve">
+    <value>Всего голосов:</value>
+  </data>
+  <data name="Votes.Text" xml:space="preserve">
+    <value>Голосов</value>
+  </data>
+  <data name="ShowAll.Text" xml:space="preserve">
+    <value>С ответами</value>
+  </data>
+  <data name="ShowNoReplies.Text" xml:space="preserve">
+    <value>Без ответов</value>
+  </data>
+  <data name="Avatar.Text" xml:space="preserve">
+    <value>Аватар</value>
+  </data>
+  <data name="of.Text" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="DeleteThread.Text" xml:space="preserve">
+    <value>Удалить тему</value>
+  </data>
+  <data name="SubForums.Text" xml:space="preserve">
+    <value>Подфорумы</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="Hits.Text" xml:space="preserve">
+    <value>Кликов</value>
+  </data>
+  <data name="SearchNoResult.Text" xml:space="preserve">
+    <value>К сожалению, ничего не было найдено.</value>
+  </data>
+  <data name="Results.Text" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="SearchResult.Text" xml:space="preserve">
+    <value>Найдено {0} записей.</value>
+  </data>
+  <data name="In.Text" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="NoUnreadThreads.Text" xml:space="preserve">
+    <value>Нет непрочитанных сообщений!</value>
+  </data>
+  <data name="UnreadThreads.Text" xml:space="preserve">
+    <value>Непрочитанные</value>
+  </data>
+  <data name="ViewUnreadThreads.Text" xml:space="preserve">
+    <value>Непрочитанные</value>
+  </data>
+  <data name="MyThreads.Text" xml:space="preserve">
+    <value>Мои темы</value>
+  </data>
+  <data name="12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="24.Text" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="48.Text" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Hours.Text" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="ViewLatest.Text" xml:space="preserve">
+    <value>Последние</value>
+  </data>
+  <data name="Quote.Text" xml:space="preserve">
+    <value>Цитата</value>
+  </data>
+  <data name="ForumTextCode.Text" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="ForumTextQuote.Text" xml:space="preserve">
+    <value>Цитата</value>
+  </data>
+  <data name="DownloadAttachment.Text" xml:space="preserve">
+    <value>Загрузить вложение</value>
+  </data>
+  <data name="ImageTag.Text" xml:space="preserve">
+    <value>[image]</value>
+  </data>
+  <data name="cmdSubmit.Text" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="Home.Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="ForumHome.Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
 </root>

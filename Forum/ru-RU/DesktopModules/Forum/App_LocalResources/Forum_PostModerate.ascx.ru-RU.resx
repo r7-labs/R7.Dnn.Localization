@@ -12,4 +12,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ControlTitle_postmoderate.Text" xml:space="preserve">
+    <value>Модерировать сообщения</value>
+  </data>
+  <data name="lblMemberSince.Text" xml:space="preserve">
+    <value>Зарегистрирован</value>
+  </data>
+  <data name="cmdApprove.Text" xml:space="preserve">
+    <value>Одобрить</value>
+  </data>
+  <data name="cmdApproveEdit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="cmdApproveReply.Text" xml:space="preserve">
+    <value>Ответить</value>
+  </data>
+  <data name="cmdMove.Text" xml:space="preserve">
+    <value>Переместить</value>
+  </data>
+  <data name="cmdSplit.Text" xml:space="preserve">
+    <value>Разделить</value>
+  </data>
+  <data name="Posts.Text" xml:space="preserve">
+    <value>Сообщений</value>
+  </data>
 </root>

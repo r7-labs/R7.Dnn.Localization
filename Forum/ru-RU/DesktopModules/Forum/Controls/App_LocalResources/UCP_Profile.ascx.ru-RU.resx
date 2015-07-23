@@ -12,4 +12,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plUserName.Text" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="plUserName.Help" xml:space="preserve">
+    <value>Имя пользователя DNN.&lt;br /&gt;(Только для чтения)&lt;br /&gt;Для изменения необходимо отредактровать свой профиль на сайте.
+ </value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>Показывать адрес эл. почты</value>
+  </data>
+  <data name="plEmail.Help" xml:space="preserve">
+    <value>Если отмечено, другие пользователи смогут видеть адрес электронной почты пользователя на странице профайла.</value>
+  </data>
+  <data name="plOnlineStatus.Text" xml:space="preserve">
+    <value>Показывать онлайн</value>
+  </data>
+  <data name="plOnlineStatus.Help" xml:space="preserve">
+    <value>Если отмечено, другие пользователи могут видеть Ваш статус в системе (онлайн или оффлайн).</value>
+  </data>
+  <data name="plIsTrusted.Text" xml:space="preserve">
+    <value>Проверенный пользователь</value>
+  </data>
+  <data name="plIsTrusted.Help" xml:space="preserve">
+    <value>Если отмечено, сообщения пользователя будут публиковаться сразу, без модерации</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Forum - User Settings&lt;/h1&gt;&lt;p&gt;You can manage your forum preference details.  This area is broken down into sections.&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;These are taken from site user data. All properties in this section are read only except the abililty to toggle on/off the option of showing your email address to other users of these forums.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;User Profile&lt;/b&gt;&lt;br&gt;This area holds more personal details about the user.  This is available for users to extend contact information and inform other users a little bit about them.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;User Settings&lt;/b&gt;&lt;br&gt;This section allows you to change how you view these forums and a place to add a signature to all your posts.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Tracking/Subscription&lt;/b&gt;&lt;br&gt;This section allows you to change what forums you are subscribed to.  Your What's New options are also controlled here.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Admin Settings&lt;/b&gt;&lt;br&gt;Administrators can change options specific to a user here, such as making them a moderator or attaching an avatar to their profile.&lt;/li&gt;&lt;br&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="plDisplayName.Help" xml:space="preserve">
+    <value>Псевдоним, используемый в качестве имени пользователя. Это может быть отбражаемое имя или имя пользователя, в зависимости от настроек модуля.</value>
+  </data>
+  <data name="plDisplayName.Text" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="plIsBanned.Help" xml:space="preserve">
+    <value>Если отмечено, пользователь заблокирован (забанен) и не может создавать и редактировать сообщения.</value>
+  </data>
+  <data name="plIsBanned.Text" xml:space="preserve">
+    <value>Заблокировать пользователя</value>
+  </data>
+  <data name="plLockTrust.Help" xml:space="preserve">
+    <value>Если отмечено, состояние проверки пользователя может быть изменено только администратором модуля.</value>
+  </data>
+  <data name="plLockTrust.Text" xml:space="preserve">
+    <value>Блокировка проверки пользователя</value>
+  </data>
+  <data name="plUserID.Help" xml:space="preserve">
+    <value>Уникальный идентификатор пользователя.</value>
+  </data>
+  <data name="plUserID.Text" xml:space="preserve">
+    <value>Ид. пользователя</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Пользовательская панель управления: редактирование профайла</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Успешно обновлено!</value>
+  </data>
+  <data name="plLiftBanDate.Help" xml:space="preserve">
+    <value>Дата завершения периода блокировки учетной записи пользователя на форумах этого портала.</value>
+  </data>
+  <data name="plLiftBanDate.Text" xml:space="preserve">
+    <value>Окончание блокировки</value>
+  </data>
 </root>

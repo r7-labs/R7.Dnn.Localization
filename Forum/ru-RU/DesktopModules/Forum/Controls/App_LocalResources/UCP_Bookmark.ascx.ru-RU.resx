@@ -12,4 +12,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="NoThreads.Text" xml:space="preserve">
+    <value>У Вас нет тем, добавленных в закладки.</value>
+  </data>
+  <data name="PostInfo.Text" xml:space="preserve">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="UserInfo.Text" xml:space="preserve">
+    <value>Профайл</value>
+  </data>
+  <data name="cmdRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="LastPost.Header" xml:space="preserve">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="ReadPost.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="RemoveItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить выбранные элементы из Вашего списка закладок? </value>
+  </data>
+  <data name="Subject.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Bookmark.Text" xml:space="preserve">
+    <value>Пользовательская панель управления: закладки</value>
+  </data>
+  <data name="UnreadPost.Text" xml:space="preserve">
+    <value>Тема с непрочитанными сообщениями</value>
+  </data>
+  <data name="TotalPosts.Header" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
 </root>

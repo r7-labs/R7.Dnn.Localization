@@ -12,4 +12,209 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plAuthor.Text" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="plAuthor.Help" xml:space="preserve">
+    <value>Автор исходного сообщения форума.</value>
+  </data>
+  <data name="plOriginalMessage.Text" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="plOriginalMessage.Help" xml:space="preserve">
+    <value>Сообщение, на которое Вы отвечаете.</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>Тема сообщения на форуме.</value>
+  </data>
+  <data name="plMessage.Text" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="plMessage.Help" xml:space="preserve">
+    <value>Основной текст сообщения на форуме.</value>
+  </data>
+  <data name="plAttachments.Text" xml:space="preserve">
+    <value>Вложения</value>
+  </data>
+  <data name="plAttachments.Help" xml:space="preserve">
+    <value>Вы можете прикрепить вложения (файлы) к сообщению.</value>
+  </data>
+  <data name="plPinned.Text" xml:space="preserve">
+    <value>Закреплено</value>
+  </data>
+  <data name="plPinned.Help" xml:space="preserve">
+    <value>Закрепляет сообщение сверху группы.</value>
+  </data>
+  <data name="plNotify.Text" xml:space="preserve">
+    <value>Оповещать</value>
+  </data>
+  <data name="plNotify.Help" xml:space="preserve">
+    <value>Отметьте, чтобы получать оповещения по эл. почте об ответах на Ваше сообщение.</value>
+  </data>
+  <data name="plClose.Text" xml:space="preserve">
+    <value>Заброкировано</value>
+  </data>
+  <data name="plClose.Help" xml:space="preserve">
+    <value>Отметьте, чтобы заблокировать сообщение, запретив ответы.</value>
+  </data>
+  <data name="plPreview.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="plPreview.Help" xml:space="preserve">
+    <value>Предварительный просмотр того, как будет выглядеть новое сообщение.</value>
+  </data>
+  <data name="lblPreview.Help" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="lblModerate.Text" xml:space="preserve">
+    <value>Поскольку вы публикуется сообщение в модерируемом форуме, администратор должен одобрить ваше сообщение, прежде чем оно станет видимым. Пожалуйста, будьте терпеливы, это может занять как несколько минут, так и несколько часов. Вы получите уведомление по эл.почте, когда ваш сообщение будет одобрено.</value>
+  </data>
+  <data name="Configuration.Text" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="valSubject.Text" xml:space="preserve">
+    <value>Укажите тему сообщения</value>
+  </data>
+  <data name="OriginalPost.Text" xml:space="preserve">
+    <value>Исходное сообщение</value>
+  </data>
+  <data name="ControlTitle_postedit.Text" xml:space="preserve">
+    <value>Редактирование сообщения</value>
+  </data>
+  <data name="cmdPreview.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Добавить/редактировать сообщение&lt;/h1&gt;&lt;p&gt;Здесь Вы можете добавить или изменить сообщение. Задайте тему для каждой ветки форума. Если администратор разрешил добавление изображений и смайлов, Вы увидите соответствующие кнопки.&lt;/p&gt;</value>
+  </data>
+  <data name="lblPreviewHead.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="cmdBackToForum.Text" xml:space="preserve">
+    <value>Вернуться на форум</value>
+  </data>
+  <data name="plForum.Help" xml:space="preserve">
+    <value>Форум, в котором будет размещено Ваше сообщение.</value>
+  </data>
+  <data name="plForum.Text" xml:space="preserve">
+    <value>Форум</value>
+  </data>
+  <data name="SubjectRequired.Text" xml:space="preserve">
+    <value>Укажите тему сообщения</value>
+  </data>
+  <data name="ForumRequired.Text" xml:space="preserve">
+    <value>Выберите форум для отправки сообщения</value>
+  </data>
+  <data name="ForumDenied.Text" xml:space="preserve">
+    <value>Вам не разрешено оставлять сообщения на этом форуме</value>
+  </data>
+  <data name="plThreadStatus.Help" xml:space="preserve">
+    <value>Выберите состояние темы. Например, указание состояние темы как не имеющей ответа позволит в последствии пометить какое-либо сообщение как ответ. Это полезно в сообществах, где много тем связаны с задаваемыми вопросами.</value>
+  </data>
+  <data name="plThreadStatus.Text" xml:space="preserve">
+    <value>Состояние темы</value>
+  </data>
+  <data name="cmdReturnToEdit.Text" xml:space="preserve">
+    <value>Вернуться в редактор</value>
+  </data>
+  <data name="cmdSubmit.Text" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="cmdAddAnswer.Text" xml:space="preserve">
+    <value>Ответить</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>Дата, при наступлении которой опрос будет закрыт.&lt;br /&gt;&lt;strong&gt;Примечание&lt;/strong&gt;&lt;br /&gt;Создание "вечного" опроса не предусмотрено.</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="plQuestion.Help" xml:space="preserve">
+    <value>Тема опроса</value>
+  </data>
+  <data name="plQuestion.Text" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="plShowResults.Help" xml:space="preserve">
+    <value>Отметьте, чтобы разрешить пользователям просмотр результатов опроса после того, как они примут в нем участие.</value>
+  </data>
+  <data name="plShowResults.Text" xml:space="preserve">
+    <value>Разрешить просмотр результатов</value>
+  </data>
+  <data name="plTakenMessage.Help" xml:space="preserve">
+    <value>Это сообщение будет показано пользователям, которые уже участвовали в опросе.</value>
+  </data>
+  <data name="plTakenMessage.Text" xml:space="preserve">
+    <value>Благодарственное сообщение</value>
+  </data>
+  <data name="shPoll.Text" xml:space="preserve">
+    <value>Опрос</value>
+  </data>
+  <data name="Answer.Header" xml:space="preserve">
+    <value>Ответ</value>
+  </data>
+  <data name="cmdCalEndDate.Text" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+  <data name="Dn.Header" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="Up.Header" xml:space="preserve">
+    <value>Выше</value>
+  </data>
+  <data name="plAnswers.Help" xml:space="preserve">
+    <value>Варианты ответов для опроса.</value>
+  </data>
+  <data name="plAnswers.Text" xml:space="preserve">
+    <value>Ответы</value>
+  </data>
+  <data name="Del.Header" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="plNewAnswer.Help" xml:space="preserve">
+    <value>Впишите ответ в поле справа и нажмите кнопку "Добавить", чтобы добавить этот вариант в ваш опрос.
+&lt;br /&gt;&lt;strong&gt;Примечание&lt;/strong&gt;&lt;br /&gt;Все опросы должны иметь как минимум два варианта ответа, чтобы считаться корректными. Кроме того, если вы желаете удалить опрос, то просто измените тип темы или удалите ответы.</value>
+  </data>
+  <data name="plNewAnswer.Text" xml:space="preserve">
+    <value>Добавить ответы</value>
+  </data>
+  <data name="lblNoAnswer.Text" xml:space="preserve">
+    <value>Неверный ответ</value>
+  </data>
+  <data name="lblMoreAnswers.Text" xml:space="preserve">
+    <value>Требуется несколько вариантов ответа.</value>
+  </data>
+  <data name="DefaultNewPoll.Text" xml:space="preserve">
+    <value>Новый опрос</value>
+  </data>
+  <data name="DefaultTakenMsg.Text" xml:space="preserve">
+    <value>Спасибо за участие!</value>
+  </data>
+  <data name="BodyRequired.Text" xml:space="preserve">
+    <value>Укажите текст сообщения.</value>
+  </data>
+  <data name="PostEditWindowError.Text" xml:space="preserve">
+    <value>Редактирование сообщений возможно только в течении {0} минут после создания. В настоящее время сообщение может быть отредактировано только администратором или модераторами форума.</value>
+  </data>
+  <data name="lblPostHeader.Text" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="lblPostReplyHeader.Text" xml:space="preserve">
+    <value>Ответ на</value>
+  </data>
+  <data name="lblPostPollHeader.Text" xml:space="preserve">
+    <value>Опрос</value>
+  </data>
+  <data name="ReplyToToolTip.Text" xml:space="preserve">
+    <value>Автор сообщения, на которое Вы отвечаете</value>
+  </data>
+  <data name="plTerms.Help" xml:space="preserve">
+    <value>Метки, связанные с темой</value>
+  </data>
+  <data name="plTerms.Text" xml:space="preserve">
+    <value>Метки</value>
+  </data>
 </root>

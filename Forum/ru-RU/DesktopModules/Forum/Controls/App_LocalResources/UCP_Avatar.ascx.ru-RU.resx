@@ -12,4 +12,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="plAvatar.Help" xml:space="preserve">
+    <value>Изображение, которое будет отображаться в заголовке всех Ваших сообщений.</value>
+  </data>
+  <data name="plAvatar.Text" xml:space="preserve">
+    <value>Аватар</value>
+  </data>
+  <data name="plSystemAvatarsLookup.Help" xml:space="preserve">
+    <value>Изображения, показываемые ниже аватара пользователя.&lt;br /&gt;Текстовое поле ниже просто напоминает, какое изображение было только что загружено.&lt;br /&gt;&lt;strong&gt;Подсказка&lt;/strong&gt;&lt;br /&gt;Типичный вариант использования дополнительных аватар -  у членов команды DNN отображается один и тот же логотип под их именем на форумах ASP.NET.</value>
+  </data>
+  <data name="plSystemAvatarsLookup.Text" xml:space="preserve">
+    <value>Дополнительные аватары</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Редактировать аватар</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Успешно обновлено!</value>
+  </data>
 </root>

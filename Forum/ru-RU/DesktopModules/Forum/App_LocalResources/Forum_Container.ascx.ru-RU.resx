@@ -12,4 +12,322 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Expand.Text" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="Collapse.Text" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="Forums.Text" xml:space="preserve">
+    <value>Форумы</value>
+  </data>
+  <data name="ForumContainsNothing.Text" xml:space="preserve">
+    <value>Форум не содержит групп!</value>
+  </data>
+  <data name="ForumManageInstruction.Text" xml:space="preserve">
+    <value>Выберите "Управление форумом" в меню для создания форумов или групп.</value>
+  </data>
+  <data name="Threads.Text" xml:space="preserve">
+    <value>Обсуждения</value>
+  </data>
+  <data name="Posts.Text" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="LastPost.Text" xml:space="preserve">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="ForumsCountInfoPosts.Text" xml:space="preserve">
+    <value>[ForumCount] форумов в [GroupCount] группах</value>
+  </data>
+  <data name="Statistics.Text" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="StatisticsUpdateInfo.Text" xml:space="preserve">
+    <value>Статистика обновлена [DateTime] </value>
+  </data>
+  <data name="NoThread.Text" xml:space="preserve">
+    <value>Нет обсуждений</value>
+  </data>
+  <data name="NoPost.Text" xml:space="preserve">
+    <value>Нет сообщений</value>
+  </data>
+  <data name="NoNewPostToday.Text" xml:space="preserve">
+    <value>Нет новых сообщений сегодня</value>
+  </data>
+  <data name="NoNewPostFromDateTime.Text" xml:space="preserve">
+    <value>Нет новых сообщений от [DateTime]</value>
+  </data>
+  <data name="NewPostsToday.Text" xml:space="preserve">
+    <value>[PostCount] сообщений сегодня</value>
+  </data>
+  <data name="NewPostsFromDateTime.Text" xml:space="preserve">
+    <value>[PostCount] сообщений от [DateTime] </value>
+  </data>
+  <data name="StatisticsSummary.Text" xml:space="preserve">
+    <value>[UserCount] пользователей участвовали в  [ThreadCount] обсуждениях и создали [PostCount] сообщений.</value>
+  </data>
+  <data name="Statistics24HoursSummary.Text" xml:space="preserve">
+    <value>В течение последних суток было создано [ThreadCount] обсуждений и опубликовано [PostCount] новых сообщений.</value>
+  </data>
+  <data name="StatisticsMostPopularThread.Text" xml:space="preserve">
+    <value>Самое популярное обсуждение [ThreadURL]</value>
+  </data>
+  <data name="StatisticsMostActiveThread.Text" xml:space="preserve">
+    <value>Наиболее активное обсуждение [ThreadURL]</value>
+  </data>
+  <data name="StatisticsMostActiveUsers.Text" xml:space="preserve">
+    <value>Наиболее активные пользователи:</value>
+  </data>
+  <data name="imgOnline.Text" xml:space="preserve">
+    <value>Сейчас в системе...</value>
+  </data>
+  <data name="MarkThreadAsRead.Text" xml:space="preserve">
+    <value>Пометить как прочитанное</value>
+  </data>
+  <data name="MailWhenNewThread.Text" xml:space="preserve">
+    <value>Оповещать меня при появлении нового обсуждения.</value>
+  </data>
+  <data name="MailWhenReply.Text" xml:space="preserve">
+    <value>Оповещать меня при появлении сообщений в этом обсуждении.</value>
+  </data>
+  <data name="Started.Text" xml:space="preserve">
+    <value>Начато</value>
+  </data>
+  <data name="Views.Text" xml:space="preserve">
+    <value>Просмотров</value>
+  </data>
+  <data name="Replies.Text" xml:space="preserve">
+    <value>Ответов</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>Пред.</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>След.</value>
+  </data>
+  <data name="imgRSS.Text" xml:space="preserve">
+    <value>Смотреть в формате канала RSS...</value>
+  </data>
+  <data name="PageCountInfo.Text" xml:space="preserve">
+    <value>Стр. [PageNumber] из [PageCount]</value>
+  </data>
+  <data name="Rate.Text" xml:space="preserve">
+    <value>Оценка:</value>
+  </data>
+  <data name="ViewFullSize.Text" xml:space="preserve">
+    <value>Подробнее...</value>
+  </data>
+  <data name="FlatView.Text" xml:space="preserve">
+    <value>Плоский</value>
+  </data>
+  <data name="TreeView.Text" xml:space="preserve">
+    <value>В виде дерева</value>
+  </data>
+  <data name="NewestToOldest.Text" xml:space="preserve">
+    <value>Сначала новые</value>
+  </data>
+  <data name="OldestToNewest.Text" xml:space="preserve">
+    <value>Сначала старые</value>
+  </data>
+  <data name="PostCount.Text" xml:space="preserve">
+    <value>[PostCount] сообщений</value>
+  </data>
+  <data name="PostedDateTime.Text" xml:space="preserve">
+    <value>Опубликовано: [CreatedDate] [PostTime]</value>
+  </data>
+  <data name="imgNewSearch.Text" xml:space="preserve">
+    <value>Новый поиск...</value>
+  </data>
+  <data name="SearchResults.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="InForum.Text" xml:space="preserve">
+    <value>На форуме</value>
+  </data>
+  <data name="ThreadStartedBy.Text" xml:space="preserve">
+    <value>Обсуждение начато</value>
+  </data>
+  <data name="PostsToModerated.Text" xml:space="preserve">
+    <value>Сообщения, ожидающие модерации</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Модуль форума&lt;/h1&gt;&lt;p&gt;Модуль форума - поддерживаемый сообществом модуль, используемый для взаимодействия пользователей.&lt;/p&gt;</value>
+  </data>
+  <data name="Moderate.Text" xml:space="preserve">
+    <value>Модерировать</value>
+  </data>
+  <data name="NewThread.Text" xml:space="preserve">
+    <value>Новое обсуждение</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Quote.Text" xml:space="preserve">
+    <value>Цитировать</value>
+  </data>
+  <data name="Reply.Text" xml:space="preserve">
+    <value>Ответить</value>
+  </data>
+  <data name="Move.Text" xml:space="preserve">
+    <value>Переместить</value>
+  </data>
+  <data name="NewSearch.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Дата публикации</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Мои сообщения</value>
+  </data>
+  <data name="LatestThreads.Text" xml:space="preserve">
+    <value>Показывать обсуждения из:</value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>-- Не указано --</value>
+  </data>
+  <data name="HasContributed.Text" xml:space="preserve">
+    <value>участвовал</value>
+  </data>
+  <data name="in.Text" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="ModifiedBy.Text" xml:space="preserve">
+    <value>Изменил</value>
+  </data>
+  <data name="Joined.Text" xml:space="preserve">
+    <value>Объединены</value>
+  </data>
+  <data name="on.Text" xml:space="preserve">
+    <value>на</value>
+  </data>
+  <data name="ReadPost.Text" xml:space="preserve">
+    <value>Старое сообщение</value>
+  </data>
+  <data name="UnreadPost.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="imgOffline.Text" xml:space="preserve">
+    <value>В системе</value>
+  </data>
+  <data name="imgNewPrivate.Text" xml:space="preserve">
+    <value>Закрытый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgPrivate.Text" xml:space="preserve">
+    <value>Закрытый форум</value>
+  </data>
+  <data name="imgNewModerated.Text" xml:space="preserve">
+    <value>Открытый модерирумый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgModerated.Text" xml:space="preserve">
+    <value>Открытый модерируемый форум</value>
+  </data>
+  <data name="imgNewUnmoderated.Text" xml:space="preserve">
+    <value>Открытый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgUnmoderated.Text" xml:space="preserve">
+    <value>Открытый форум</value>
+  </data>
+  <data name="imgNewPopLockedThread.Text" xml:space="preserve">
+    <value>Горячая заблокированная тема с новыми сообщениями</value>
+  </data>
+  <data name="imgPopLockedThread.Text" xml:space="preserve">
+    <value>Горячее заблокированное обсуждение</value>
+  </data>
+  <data name="imgNewLockedThread.Text" xml:space="preserve">
+    <value>Заблокированное обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgLockedThread.Text" xml:space="preserve">
+    <value>Заблокированное обсуждение</value>
+  </data>
+  <data name="imgNewPopThread.Text" xml:space="preserve">
+    <value>Горячая тема с новыми сообщениями</value>
+  </data>
+  <data name="imgPopThread.Text" xml:space="preserve">
+    <value>Горячее обсуждение</value>
+  </data>
+  <data name="imgNewThread.Text" xml:space="preserve">
+    <value>Обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgThread.Text" xml:space="preserve">
+    <value>Обсуждение</value>
+  </data>
+  <data name="imgNewPinnedThread.Text" xml:space="preserve">
+    <value>Закрепленная тема с новыми сообщениями</value>
+  </data>
+  <data name="imgPinnedThread.Text" xml:space="preserve">
+    <value>Закрепленное обсуждение</value>
+  </data>
+  <data name="Status.Text" xml:space="preserve">
+    <value>Состояние:</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="Unresolved.Text" xml:space="preserve">
+    <value>Без ответа</value>
+  </data>
+  <data name="ReportAbuse.Text" xml:space="preserve">
+    <value>Пожаловаться</value>
+  </data>
+  <data name="Split.Text" xml:space="preserve">
+    <value>Разделить</value>
+  </data>
+  <data name="imgAggregated.Text" xml:space="preserve">
+    <value>Все открытые форумы</value>
+  </data>
+  <data name="imgHotLockedPinnedThread.Text" xml:space="preserve">
+    <value>Горячее закрепленное заблокированное обсуждение</value>
+  </data>
+  <data name="imgHotNewLockedPinnedThread.Text" xml:space="preserve">
+    <value>Горячее закрепленное заблокированное обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgHotPinnedThread.Text" xml:space="preserve">
+    <value>Горячее закрепленное обсуждение</value>
+  </data>
+  <data name="imgNewHotPinnedThread.Text" xml:space="preserve">
+    <value>Горячее закрепленное обсуждение с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPinnedLockedThread.Text" xml:space="preserve">
+    <value>Закрепленная заблокированная тема с новыми сообщениями</value>
+  </data>
+  <data name="imgNewPrivateModerated.Text" xml:space="preserve">
+    <value>Закрытый модерируемый форум с новыми сообщениями</value>
+  </data>
+  <data name="imgPinnedLockedThread.Text" xml:space="preserve">
+    <value>Закрепленное заблокированное обсуждение</value>
+  </data>
+  <data name="imgPrivateModerated.Text" xml:space="preserve">
+    <value>Закрытый модерируемый форум</value>
+  </data>
+  <data name="Vote.Text" xml:space="preserve">
+    <value>Голосовать</value>
+  </data>
+  <data name="imgLinkType.Text" xml:space="preserve">
+    <value>Ссылка:</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="imgThreadNewest.Text" xml:space="preserve">
+    <value>Первое непрочитанное сообщение</value>
+  </data>
+  <data name="AddBookmark.Text" xml:space="preserve">
+    <value>Добавить в закладки</value>
+  </data>
+  <data name="RemoveBookmark.Text" xml:space="preserve">
+    <value>Удалить из закладок</value>
+  </data>
+  <data name="Poll.Text" xml:space="preserve">
+    <value>Опрос</value>
+  </data>
+  <data name="ViewProfile.Text" xml:space="preserve">
+    <value>Профайл</value>
+  </data>
+  <data name="cmdForumSubscribers.Text" xml:space="preserve">
+    <value>Подписчики</value>
+  </data>
+  <data name="cmdThreadSubscribers.Text" xml:space="preserve">
+    <value>Подписчики</value>
+  </data>
 </root>

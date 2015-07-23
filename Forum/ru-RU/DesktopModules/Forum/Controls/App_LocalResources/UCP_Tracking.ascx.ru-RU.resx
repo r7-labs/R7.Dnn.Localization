@@ -12,4 +12,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="NoForums.Text" xml:space="preserve">
+    <value>В настоящее время Вы не отслеживаете форумы.</value>
+  </data>
+  <data name="NoThreads.Text" xml:space="preserve">
+    <value>В настоящее время Вы не отслеживаете темы.</value>
+  </data>
+  <data name="PostInfo.Text" xml:space="preserve">
+    <value>К последнему сообщению</value>
+  </data>
+  <data name="UserInfo.Text" xml:space="preserve">
+    <value>Профайл</value>
+  </data>
+  <data name="cmdForumRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="cmdThreadRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="LastPost.Header" xml:space="preserve">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="ReadPost.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="RemoveItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить выбранные элементы из своего списка отслеживания?</value>
+  </data>
+  <data name="Subject.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="TotalPosts.Header" xml:space="preserve">
+    <value>Сообщений</value>
+  </data>
+  <data name="TotalThreads.Header" xml:space="preserve">
+    <value>Тем</value>
+  </data>
+  <data name="Tracking.Text" xml:space="preserve">
+    <value>Пользовательская панель управления: отслеживаемые форумы и темы</value>
+  </data>
+  <data name="UnreadPost.Text" xml:space="preserve">
+    <value>Тема с непрочитанными сообщениями</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Успешно обновлено!</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Форум</value>
+  </data>
+  <data name="TabForums.Text" xml:space="preserve">
+    <value>Форумы</value>
+  </data>
+  <data name="TabThreads.Text" xml:space="preserve">
+    <value>Темы</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
 </root>

@@ -12,4 +12,34 @@
   <resheader name="Writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
+  <data name="Configuration.Text">
+		<value>Конфигурация</value>
+	</data>
+  <data name="MySettings.Text">
+		<value>Мои настройки</value>
+	</data>
+  <data name="Search.Text">
+		<value>Поиск</value>
+	</data>
+  <data name="ForumHome.Text">
+		<value>Главная страница</value>
+	</data>
+  <data name="MyPosts.Text">
+		<value>Мои сообщения</value>
+	</data>
+  <data name="lblContentRemoved.Text">
+		<value>Содержимое форума, к которому Вы пытаетесь обратиться, в настоящее время не доступно или было удалено.</value>
+	</data>
+  <data name="lblTitleContentRemoved.Text">
+		<value>Содержимое форума не доступно</value>
+	</data>
+  <data name="cmdForumHome.Text">
+		<value>Начальная страница</value>
+	</data>
+  <data name="ControlTitle_contentremoved.Text">
+		<value>Содержимое форума недоступно</value>
+	</data>
+  <data name="Administration.Text">
+		<value>Администрирование форума</value>
+	</data>
 </root>

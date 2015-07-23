@@ -12,4 +12,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plSignature.Text" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="plSignature.Help" xml:space="preserve">
+    <value>Текст (код) для отображения внизу всех Ваших сообщений.</value>
+  </data>
+  <data name="cmdPreview.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Пользовательская панель управления: редактирование подписи</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Успешно обновлено!</value>
+  </data>
 </root>

@@ -12,4 +12,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ManageCategory.Text" xml:space="preserve">
+    <value>Управление категориями</value>
+  </data>
+  <data name="plOldForum.Text" xml:space="preserve">
+    <value>Исходный форум</value>
+  </data>
+  <data name="plOldForum.Help" xml:space="preserve">
+    <value>Форум, из которого перемещается тема.&lt;br /&gt;(Только для чтения)</value>
+  </data>
+  <data name="plNewForum.Text" xml:space="preserve">
+    <value>Новый форум</value>
+  </data>
+  <data name="plNewForum.Help" xml:space="preserve">
+    <value>Форум, в который перемещается тема.</value>
+  </data>
+  <data name="NoForumSeleted.Text" xml:space="preserve">
+    <value>Укажите форум, в который требуется переместить тему.</value>
+  </data>
+  <data name="OldForumSeleted.Text" xml:space="preserve">
+    <value>Укажите другой форум, в который требуется переместить тему.</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Перемещение темы форума&lt;/h1&gt;&lt;p&gt;Отсюада модератор форума может переместить тему в другой форум.&lt;br /&gt;Это полезно в том случае, когда пользователь создал тему в неподходящем форуме, однако существует форум, для которого эта тема подходит.&lt;/p&gt;</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>Укажите форум, в который требуется переместить тему.</value>
+  </data>
+  <data name="ControlTitle_threadmove.Text" xml:space="preserve">
+    <value>Перемещение темы</value>
+  </data>
+  <data name="cmdMove.Text" xml:space="preserve">
+    <value>Переместить тему</value>
+  </data>
+  <data name="lblMoveThread.Text" xml:space="preserve">
+    <value>Переместить тему</value>
+  </data>
+  <data name="plEmailUsers.Text" xml:space="preserve">
+    <value>Уведомить участников</value>
+  </data>
+  <data name="plEmailUsers.Help" xml:space="preserve">
+    <value>Если включено, всем пользователям, участвующим в обсуждении темы, будет отправлено уведомление по эл. почте о перемещении темы.</value>
+  </data>
 </root>
