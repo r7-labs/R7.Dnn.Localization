@@ -2,6 +2,7 @@
 *.zip
 *.dnn
 source.files
+csexec.log
 
 # distribution sources
 _*/*
