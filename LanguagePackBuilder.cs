@@ -12,7 +12,11 @@ public static class Program
 	{
 		try
 		{
-			var script = new LanguagePackBuilder ();
+			var script = new LanguagePackBuilder () {
+				PackageName = args [1],
+				CultureCode = args [2].Replace ("_", "-")
+			};
+
 			script.Run ();
 		}
 		catch (Exception ex)
@@ -24,13 +28,13 @@ public static class Program
 
 internal class LanguagePackBuilder
 {
-	#region Parameters
+ 	#region Parameters
+
+	public string PackageName { get; set; }
+	public string CultureCode { get; set; }
 
 	public string PackageVersion = Environment.GetEnvironmentVariable ("LPB_PACKAGE_VERSION");
-	public string CultureCode = Environment.GetEnvironmentVariable ("LPB_CULTURE_CODE");
-	public string CultureNameNative = Environment.GetEnvironmentVariable ("LPB_CULTURE_NAME_NATIVE");
 	public string PackageType = Environment.GetEnvironmentVariable ("LPB_PACKAGE_TYPE");
-	public string PackageName = Environment.GetEnvironmentVariable ("LPB_PACKAGE_NAME");
 	public string SourceVersion = Environment.GetEnvironmentVariable ("LPB_SOURCE_VERSION");
 	public string PlatformType = Environment.GetEnvironmentVariable ("LBP_PLATFORM_TYPE");
 
@@ -38,6 +42,15 @@ internal class LanguagePackBuilder
 	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}-${PackageVersion}.${CultureCode}.zip";
 
 	#endregion
+
+	private Dictionary<string,string> NativeCultureNames;
+
+	public LanguagePackBuilder ()
+	{
+		NativeCultureNames = new Dictionary<string,string> ();
+		NativeCultureNames.Add ("en-US", "English (United States)");
+		NativeCultureNames.Add ("ru-RU", "Русский (Россия)");
+	}
 
 	public void Run ()
 	{
@@ -159,7 +172,7 @@ internal class LanguagePackBuilder
 			(PackageType == "Extension")? PackageName + " " : string.Empty);
 
 		result = result.Replace ("${CultureCode}", CultureCode);
-		result = result.Replace ("${CultureNameNative}", CultureNameNative);
+		result = result.Replace ("${CultureNameNative}", NativeCultureNames [CultureCode]);
 		result = result.Replace ("${PackageType}", PackageType);
 		result = result.Replace ("${PackageName}", PackageName);
 		result = result.Replace ("${PlatformType}", PlatformType);
@@ -197,12 +210,5 @@ internal class LanguagePackBuilder
 		}
 
 		return result;
-	}
-
-	private static string SafeGetEnvironmentVariable (string variableName, string defaultValue)
-	{
-		var variableValue = Environment.GetEnvironmentVariable (variableName);
-
-		return !string.IsNullOrWhiteSpace (variableValue)? variableValue : defaultValue;
 	}
 }
