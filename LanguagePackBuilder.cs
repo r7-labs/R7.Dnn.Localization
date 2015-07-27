@@ -1,14 +1,28 @@
-#!/usr/bin/csharp
+#!/usr/bin/csexec
 
-// already defined:
-// using System;
-// using System.Collections.Generic;
-
+using System;
 using System.IO;
 using System.Text;
 using System.Diagnostics;
+using System.Collections.Generic;
 
-class LanguagePackBuilder
+public static class Program
+{
+	public static void Main (string [] args)
+	{
+		try
+		{
+			var script = new LanguagePackBuilder ();
+			script.Run ();
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine (ex.Message);
+		}
+	}
+}
+
+internal class LanguagePackBuilder
 {
 	#region Parameters
 
@@ -17,23 +31,23 @@ class LanguagePackBuilder
 	public string CultureNameNative = Environment.GetEnvironmentVariable ("LPB_CULTURE_NAME_NATIVE");
 	public string PackageType = Environment.GetEnvironmentVariable ("LPB_PACKAGE_TYPE");
 	public string PackageName = Environment.GetEnvironmentVariable ("LPB_PACKAGE_NAME");
-	public string SourceVersion = Environment.GetEnvironmentVariable ("LPB_SOURCE_VERSION");	
+	public string SourceVersion = Environment.GetEnvironmentVariable ("LPB_SOURCE_VERSION");
 	public string PlatformType = Environment.GetEnvironmentVariable ("LBP_PLATFORM_TYPE");
-	
+
 	public string ManifestFileNameTemplate = "R7_${PlatformType}_${PackageType}_${PackageName}_${CultureCode}.dnn";
 	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}-${PackageVersion}.${CultureCode}.zip";
 
 	#endregion
 
-	public void Main ()
+	public void Run ()
 	{
-		try 
+		try
 		{
 			CreatePackage (GenerateManifest ());
 		}
 		catch (Exception ex)
 		{
-			Console.WriteLine (ex.Message);
+			throw ex;
 		}
 	}
 
@@ -46,16 +60,16 @@ class LanguagePackBuilder
 			var startTag = "<languageFile>";
 			var endTag = "</languageFile>";
 
-			var begin = manifestTemplate.IndexOf (startTag); 
+			var begin = manifestTemplate.IndexOf (startTag);
 			var end = manifestTemplate.IndexOf (endTag) + endTag.Length;
 
 			// get template for languageFile entries
 			var langFileTemplate = manifestTemplate.Substring (begin, end - begin);
-			
+
 			// get translation files
 			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
 			var files = Directory.GetFiles (".", "*.ru-RU.resx", SearchOption.AllDirectories);
-			
+
 			// for better formatting
 			var line = 0;
 
@@ -82,9 +96,9 @@ class LanguagePackBuilder
 			manifest = ReplaceTags (manifest);
 
 			var manifestFileName = ReplaceTags (ManifestFileNameTemplate);
-		
+
 			File.WriteAllText (manifestFileName, manifest);
-			
+
 			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
 
 			return manifestFileName;
@@ -98,18 +112,18 @@ class LanguagePackBuilder
 	private void CreatePackage (string manifestFileName)
 	{
 		try
-		{ 
+		{
 			var packFileName = Path.Combine ("..", ReplaceTags (PackFileNameTemplate));
 
 			// copy translations to tmp folder
-			
+
 			Console.WriteLine (Directory.GetCurrentDirectory());
-			
+
 			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
-		
+
 			// delete old package
 			if (File.Exists (packFileName))
-				File.Delete (packFileName);	
+				File.Delete (packFileName);
 
 			// create package
 			var zip = new Process ();
@@ -117,10 +131,10 @@ class LanguagePackBuilder
 			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn -UN=UTF8 ""{0}"" .", packFileName);
 			zip.Start ();
 			zip.WaitForExit ();
-			
+
 			// delete manifest file
 			File.Delete (manifestFileName);
-			
+
 			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
 		}
 		catch (Exception ex)
@@ -141,9 +155,9 @@ class LanguagePackBuilder
 		}
 
 		// Extension language pack name
-		result = result.Replace ("${ExtensionName}", 
+		result = result.Replace ("${ExtensionName}",
 			(PackageType == "Extension")? PackageName + " " : string.Empty);
-			
+
 		result = result.Replace ("${CultureCode}", CultureCode);
 		result = result.Replace ("${CultureNameNative}", CultureNameNative);
 		result = result.Replace ("${PackageType}", PackageType);
@@ -151,12 +165,12 @@ class LanguagePackBuilder
 		result = result.Replace ("${PlatformType}", PlatformType);
 		result = result.Replace ("${SourceVersion}", SourceVersion);
 		result = result.Replace ("${PackageVersion}", PackageVersion);
-	
+
 		return result;
 	}
 
 	private List<string> RunToLines (string command, string arguments)
-	{	
+	{
 		var result = new List<string> ();
 
 		var process = new Process ();
@@ -165,7 +179,7 @@ class LanguagePackBuilder
 		process.StartInfo.UseShellExecute = false;
 		process.StartInfo.RedirectStandardOutput = true;
 
-		try 
+		try
 		{
 			process.Start ();
 			process.WaitForExit ();
@@ -192,10 +206,3 @@ class LanguagePackBuilder
 		return !string.IsNullOrWhiteSpace (variableValue)? variableValue : defaultValue;
 	}
 }
-
-new LanguagePackBuilder().Main();
-
-
-
-
-
