@@ -492,6 +492,9 @@
   <data name="valExpiryDate.ErrorMessage" xml:space="preserve">
     <value>Недопустимая дата завершения</value>
   </data>
+  <data name="ClientResourceManagement.Text" xml:space="preserve">
+    <value>Управление клиенскими ресурсами</value>
+  </data>
   <data name="MsgProfanityFiltersYes.Text" xml:space="preserve">
     <value>Да</value>
   </data>
@@ -503,6 +506,15 @@
   </data>
   <data name="MsgAllowAttachmentsNo.Text" xml:space="preserve">
     <value>Нет</value>
+  </data>
+  <data name="plMinifyCss.Text" xml:space="preserve">
+    <value>Сжимать CSS</value>
+  </data>
+  <data name="plMinifyJs.Text" xml:space="preserve">
+    <value>Сжимать JS</value>
+  </data>
+  <data name="UserAccountSettings.Text" xml:space="preserve">
+    <value>Настройки учетной записи</value>
   </data>
   <data name="Security_DisplayNameFormat.Help" xml:space="preserve">
     <value>Вы можете, если нужно, определить формат отображения имени пользователей. Формат может включать теги для динамической замены, типа [FIRSTNAME] [LASTNAME]. Если формат отображения имени будет определен, то отображение имени больше не будет доступно для редактирования через пользовательский интерфейс.</value>

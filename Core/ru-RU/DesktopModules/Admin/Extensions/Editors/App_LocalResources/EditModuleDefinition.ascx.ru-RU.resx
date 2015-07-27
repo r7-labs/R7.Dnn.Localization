@@ -18,11 +18,26 @@
   <data name="Edit.Title" xml:space="preserve">
     <value>Редактировать модуль</value>
   </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать модуль</value>
+  </data>
   <data name="New.Text" xml:space="preserve">
     <value>Новый</value>
   </data>
+  <data name="plAddPage.Text" xml:space="preserve">
+    <value>Проверочная страница?</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Здесь можно задать описание создаваемого модуля.</value>
+  </data>
   <data name="plDescription.Text" xml:space="preserve">
     <value>Описание:</value>
+  </data>
+  <data name="plName.Help" xml:space="preserve">
+    <value>Введите дружественное имя для создаваемого модуля.</value>
+  </data>
+  <data name="plName.Text" xml:space="preserve">
+    <value>Имя модуля</value>
   </data>
   <data name="Template.Text" xml:space="preserve">
     <value>Шаблон</value>
@@ -36,7 +51,13 @@
   <data name="plFile2.Text" xml:space="preserve">
     <value>Имя файла:</value>
   </data>
+  <data name="TabExists.Text" xml:space="preserve">
+    <value>Уже существует страница с именем, совпадающим с именем создаваемого модуля. Модуль был успешно создан, но проверочная страница не была добавлена.</value>
+  </data>
   <data name="plLang.Text" xml:space="preserve">
     <value>Язык:</value>
+  </data>
+  <data name="ImportControl.ErrorMessage" xml:space="preserve">
+    <value>Возникла непредвиденная ошибка при импорте элемента управления модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
   </data>
 </root>

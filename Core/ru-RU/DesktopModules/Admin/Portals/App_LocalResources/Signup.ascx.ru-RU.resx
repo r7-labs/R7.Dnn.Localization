@@ -210,4 +210,16 @@
   <data name="valEmail2.ErrorMessage" xml:space="preserve">
     <value>Адрес электронной почты недопустим</value>
   </data>
+  <data name="useCurrentLabel.Help" xml:space="preserve">
+    <value>Отметьте, если нужно назначить текущего администратора хоста администратором сайта. Если не отмечено, Вы сможете указать учетные данные администратора.</value>
+  </data>
+  <data name="useCurrentLabel.Text" xml:space="preserve">
+    <value>Назначить администратором:</value>
+  </data>
+  <data name="valPortalAlias.ErrorMessage" xml:space="preserve">
+    <value>Укажите псевдоним сайта.</value>
+  </data>
+  <data name="DuplicateWithTab.Text" xml:space="preserve">
+    <value>Уже существует страница с именем, совпадающим с псевдонимом сайта. Пожалуйста, измените псевдоним сайта.</value>
+  </data>
 </root>

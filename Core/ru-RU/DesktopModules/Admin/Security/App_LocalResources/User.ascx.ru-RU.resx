@@ -15,6 +15,9 @@
   <data name="cmdAdd.Text" xml:space="preserve">
     <value>Добавить пользователя</value>
   </data>
+  <data name="plAuthorize.Text" xml:space="preserve">
+    <value>Авторизовать:</value>
+  </data>
   <data name="plAuthorize.Help" xml:space="preserve">
     <value>Авторизовать</value>
   </data>
@@ -24,8 +27,14 @@
   <data name="plNotify.Help" xml:space="preserve">
     <value>Послать почту пользователю(ям)</value>
   </data>
+  <data name="CreateUser.Text" xml:space="preserve">
+    <value>Создать пользователя</value>
+  </data>
   <data name="plPassword.Text" xml:space="preserve">
     <value>Пароль:</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>Введите пароль для этого пользователя</value>
   </data>
   <data name="plConfirm.Text" xml:space="preserve">
     <value>Новый пароль еще раз:</value>
@@ -36,8 +45,17 @@
   <data name="Password.Text" xml:space="preserve">
     <value>Пароль:</value>
   </data>
+  <data name="PasswordHelpUser.Text" xml:space="preserve">
+    <value>Введите пароль.</value>
+  </data>
+  <data name="PasswordHelpAdmin.Text" xml:space="preserve">
+    <value>Введите пароль для данного пользователя. Если пароль не будет указан, система создаст случайный пароль</value>
+  </data>
   <data name="plRandom.Text" xml:space="preserve">
     <value>Случайный пароль</value>
+  </data>
+  <data name="plRandom.Help" xml:space="preserve">
+    <value>Отметьте чтобы создать случайный пароль</value>
   </data>
   <data name="InvalidCaptcha.Text" xml:space="preserve">
     <value>Неверный код безопасности</value>
@@ -71,6 +89,9 @@
   </data>
   <data name="plAnswer.Help" xml:space="preserve">
     <value>Укажите ответ на секретный вопрос.</value>
+  </data>
+  <data name="ComparePasswordsValidator.ErrorMessage" xml:space="preserve">
+    <value>Пароли должны совпадать</value>
   </data>
   <data name="UpdateUserName.Text" xml:space="preserve">
     <value>Примечание: Этот пользователь зарегистрирован на {0} сайтах</value>

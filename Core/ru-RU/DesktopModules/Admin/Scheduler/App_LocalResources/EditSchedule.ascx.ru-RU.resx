@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ContentOptions.Action" xml:space="preserve">
-    <value>Состояние задач</value>
+    <value>Состояние заданий</value>
   </data>
   <data name="ScheduleHistory.Action" xml:space="preserve">
     <value>Просмотр журнала</value>
@@ -22,13 +22,13 @@
     <value>Полное имя класса и сборки</value>
   </data>
   <data name="plEnabled.Text" xml:space="preserve">
-    <value>Разрешено:</value>
+    <value>Выполнять по расписанию:</value>
   </data>
   <data name="plTimeLapse.Text" xml:space="preserve">
     <value>Таймер запуска:</value>
   </data>
   <data name="plTimeLapse.Help" xml:space="preserve">
-    <value>Пример: укажите "5" и выберите "минут", чтобы запускать задачу каждые 5 минут. Оставьте поле пустым для запрещения таймера запуска этой задачи.</value>
+    <value>Пример: укажите "5" и выберите "минут", чтобы запускать задание каждые 5 минут. Оставьте поле пустым для запрещения таймера запуска этого задания.</value>
   </data>
   <data name="Minutes.Text" xml:space="preserve">
     <value>минут</value>
@@ -43,65 +43,64 @@
     <value>Таймер повтора</value>
   </data>
   <data name="plRetryTimeLapse.Help" xml:space="preserve">
-    <value>Пример: укажите "5" и выберите "минут", чтобы перезапускать задачу каждые 5 минут после сбоя. Оставьте поле пустым для запрещения таймера повтора.</value>
+    <value>Пример: укажите "5" и выберите "минут", чтобы перезапускать задание каждые 5 минут после сбоя. Оставьте поле пустым, чтобы выключить перезапуск.</value>
   </data>
   <data name="plRetainHistoryNum.Text" xml:space="preserve">
-    <value>Сохранять в истории:</value>
+    <value>Сохранять историю:</value>
   </data>
   <data name="plRetainHistoryNum.Help" xml:space="preserve">
     <value>Пример: Выберите "10" для сохранения в истории десяти последних записей.</value>
   </data>
   <data name="plAttachToEvent.Text" xml:space="preserve">
-    <value>Старт по событию:</value>
+    <value>Запуск по событию:</value>
   </data>
   <data name="plAttachToEvent.Help" xml:space="preserve">
-    <value>Пример: Выберите "СТАРТ ПРИЛОЖЕНИЯ", чтобы запускать эту задачу при старте веб-приложения. Обратите внимание, что задачи, назначенные на "ЗАВЕРШЕНИЕ ПРИЛОЖЕНИЯ" могут не запускаться со 100%-ной надежностью на некоторых хостах.</value>
+    <value>Пример: Выберите "ЗАПУСК_ПРИЛОЖЕНИЯ", чтобы запускать это задание при старте веб-приложения. Обратите внимание, что задания, назначенные на "ЗАВЕРШЕНИЕ_ПРИЛОЖЕНИЯ" могут не запускаться со 100%-ной надежностью на некоторых хостах.</value>
   </data>
   <data name="None.Text" xml:space="preserve">
     <value>Нет</value>
   </data>
   <data name="APPLICATION_START.Text" xml:space="preserve">
-    <value>СТАРТ ПРИЛОЖЕНИЯ</value>
+    <value>ЗАПУСК_ПРИЛОЖЕНИЯ</value>
   </data>
   <data name="plCatchUpEnabled.Text" xml:space="preserve">
     <value>Нагонять:</value>
   </data>
   <data name="plCatchUpEnabled.Help" xml:space="preserve">
-    <value>Отметьте, если желаете, чтобы задача выполнилась столько раз, сколько раз она могла быть пропущена в результате временной неработоспособности сервера.</value>
+    <value>Отметьте, если желаете, чтобы задание выполнилось столько раз, сколько раз оно могло быть пропущено в результате временной неработоспособности сервера.</value>
   </data>
   <data name="plObjectDependencies.Text" xml:space="preserve">
     <value>Зависимости объектов:</value>
   </data>
   <data name="plObjectDependencies.Help" xml:space="preserve">
-    <value>Укажите таблицы БД или иные объекты, от которых зависит данная задача. Например: "SiteLog,Users,UsersOnline"</value>
+    <value>Укажите таблицы БД или иные объекты, от которых зависит данное задание. Например: "SiteLog,Users,UsersOnline"</value>
   </data>
   <data name="UpdateSuccess.Text" xml:space="preserve">
     <value>Изменения сохранены.</value>
   </data>
   <data name="DeleteSuccess.Text" xml:space="preserve">
-    <value>Задача была удалена из расписания.</value>
+    <value>Задание было удалено из расписания.</value>
   </data>
   <data name="ControlTitle_edit.Text" xml:space="preserve">
-    <value>Редактировать задачи</value>
+    <value>Редактировать задания</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Модуль &amp;laquo;ПЛАНИРОВЩИК&amp;raquo;&lt;/h1&gt;
-&lt;p&gt;Модуль позволяет управлять периодическими задачами, выполняемыми по расписанию.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;О модуле "Планировщик заданий"&lt;/h1&gt;&lt;p&gt;Модуль позволяет управлять заданиями, выполняемыми по расписанию.&lt;/p&gt;</value>
   </data>
   <data name="plType.Help" xml:space="preserve">
-    <value>Это полное имя класса с присоединенным к нему именем сборки.  Например: "DotNetNuke.Entities.Users.PurgeUsersOnline, DOTNETNUKE"</value>
+    <value>Это полное имя класса с указанием имени сборки.  Например: "DotNetNuke.Entities.Users.PurgeUsersOnline, DOTNETNUKE"</value>
   </data>
   <data name="plServers.Text" xml:space="preserve">
     <value>Выполнять на серверах:</value>
   </data>
   <data name="plServers.Help" xml:space="preserve">
-    <value>Укажите список серверов, разделенных запятыми, на которых должна выполняться данная задача.</value>
+    <value>Укажите сервер(а), на которых должна выполняться данное задание. Используейте запятую для разделения имен серверов.</value>
   </data>
   <data name="Seconds.Text" xml:space="preserve">
     <value>Секунд</value>
   </data>
   <data name="plEnabled.Help" xml:space="preserve">
-    <value>Отметьте, чтобы разрешить расписание.</value>
+    <value>Отметьте, чтобы разрешить выполнение заданий по расписанию.</value>
   </data>
   <data name="plFriendlyName.Help" xml:space="preserve">
     <value>Введите имя для запланированного задания.</value>
@@ -114,5 +113,8 @@
   </data>
   <data name="RunNow.Text" xml:space="preserve">
     <value>Добавленный элемент, намеченый для немедленного выполнения</value>
+  </data>
+  <data name="TypeRequired.Text" xml:space="preserve">
+    <value>Укажите вид задания.</value>
   </data>
 </root>

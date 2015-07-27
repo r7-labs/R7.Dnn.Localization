@@ -12,10 +12,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Новый фильтр</value>
+  </data>
   <data name="cmdCancel.Text" xml:space="preserve">
     <value>Отмена редактирования</value>
   </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить правило</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Изменить фильтр</value>
+  </data>
+  <data name="saveRule.Text" xml:space="preserve">
+    <value>Сохранить фильтр</value>
+  </data>
   <data name="Actions.Header" xml:space="preserve">
     <value>Действия</value>
+  </data>
+  <data name="IPFilter.Header" xml:space="preserve">
+    <value>Фильтр IP адресов</value>
+  </data>
+  <data name="plFirstIP.Text" xml:space="preserve">
+    <value>Начальный IP</value>
+  </data>
+  <data name="AllowIP.Text" xml:space="preserve">
+    <value>Разрешить IP</value>
+  </data>
+  <data name="DenyIP.Text" xml:space="preserve">
+    <value>Запретить IP</value>
+  </data>
+  <data name="CannotDelete.Text" xml:space="preserve">
+    <value>Невозможно удалить данное правило, поскольку это приведет к блокировке IP адреса текущего сеанса.</value>
   </data>
 </root>

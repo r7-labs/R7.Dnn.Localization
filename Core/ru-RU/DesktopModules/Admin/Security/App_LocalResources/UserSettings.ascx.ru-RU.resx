@@ -132,4 +132,13 @@
   <data name="Security_DisplayNameFormat.Text" xml:space="preserve">
     <value>Формат отображения имени:</value>
   </data>
+  <data name="InvalidRegex.Text" xml:space="preserve">
+    <value>Значение {0} не является корректным регулярным выражением.</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Настройки учетной записи</value>
+  </data>
+  <data name="CannotChangeSettings.Text" xml:space="preserve">
+    <value>Этот сайт состоит в группе сайтов. Данные настройки можно изменить только на главном сайте группы.</value>
+  </data>
 </root>
