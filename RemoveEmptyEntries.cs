@@ -1,4 +1,4 @@
-#!/usr/bin/csexec -r:R7.Scripting.dll
+#!/usr/bin/csexec
 
 using System;
 using System.IO;
@@ -28,7 +28,7 @@ public static class Program
 	}
 }
 
-public class RemoveEmptyEntries
+internal class RemoveEmptyEntries
 {
 	#region Parameters
 
