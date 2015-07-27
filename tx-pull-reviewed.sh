@@ -17,7 +17,7 @@ source $PACKAGE_CONFIG
 pushd . > /dev/null
 cd $PACKAGE_NAME
 
-tx3 pull -f -l $2 --mode=reviewed
+tx3 pull -l $2 --mode=reviewed
 
 popd > /dev/null
 
