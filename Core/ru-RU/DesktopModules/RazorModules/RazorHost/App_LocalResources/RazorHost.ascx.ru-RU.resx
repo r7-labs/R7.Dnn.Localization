@@ -12,7 +12,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CreateModule.Action" xml:space="preserve">
+    <value>Создать модуль</value>
+  </data>
+  <data name="EditContent.Action" xml:space="preserve">
+    <value>Редактировать сценарий</value>
+  </data>
+  <data name="scriptListLabel.Help" xml:space="preserve">
+    <value>Выберите серверный сценарий для использования в этом экземпляре модуля Razor Host</value>
+  </data>
   <data name="scriptListLabel.Text" xml:space="preserve">
-    <value>Запрос:</value>
+    <value>Сценарий:</value>
   </data>
 </root>

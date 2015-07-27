@@ -12,10 +12,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ControlTitle_createmodule.Text" xml:space="preserve">
+    <value>Создать модуль</value>
+  </data>
+  <data name="SourceFile.Text" xml:space="preserve">
+    <value>Исходный файл сценария - {0}</value>
+  </data>
+  <data name="plSource.Text" xml:space="preserve">
+    <value>Исходный файл сценария:</value>
+  </data>
+  <data name="scriptsLabel.Help" xml:space="preserve">
+    <value>Выберите сценарий, который нужно использовать, из выпадающего списка.</value>
+  </data>
+  <data name="scriptsLabel.Text" xml:space="preserve">
+    <value>Выберите сценарий:</value>
+  </data>
+  <data name="plAddPage.Help" xml:space="preserve">
+    <value>Отметьте, чтобы создать проверочную страницу для создаваемого модуля.</value>
+  </data>
+  <data name="plAddPage.Text" xml:space="preserve">
+    <value>Проверочная страница?</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Здесь можно задать описание создаваемого модуля.</value>
+  </data>
   <data name="plDescription.Text" xml:space="preserve">
     <value>Описание:</value>
   </data>
+  <data name="plFolder.Help" xml:space="preserve">
+    <value>Введите имя папки создаваемого модуля. Она будет добавлена в папку "DesktopModules/RazorModules"</value>
+  </data>
   <data name="plFolder.Text" xml:space="preserve">
     <value>Папка:</value>
+  </data>
+  <data name="plName.Help" xml:space="preserve">
+    <value>Введите дружественное имя для создаваемого модуля.</value>
+  </data>
+  <data name="plName.Text" xml:space="preserve">
+    <value>Имя модуля:</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать модуль</value>
+  </data>
+  <data name="SourceControl.Text" xml:space="preserve">
+    <value>Элемент управления модуля - {0}</value>
+  </data>
+  <data name="valFolder.Text" xml:space="preserve">
+    <value>Укажите папку.&lt;br/&gt;</value>
+  </data>
+  <data name="valName.Text" xml:space="preserve">
+    <value>Укажите имя.&lt;br/&gt;</value>
+  </data>
+  <data name="FolderExists.Text" xml:space="preserve">
+    <value>Папка с таким именем уже существует. Пожалуйста, выберите другое имя.</value>
+  </data>
+  <data name="ManifestCreationError.Text" xml:space="preserve">
+    <value>Возникла непредвиденная ошибка при создании манифеста нового модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
+  </data>
+  <data name="ModuleControlCreationError.Text" xml:space="preserve">
+    <value>Возникла непредвиденная ошибка при элемента управления нового модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
+  </data>
+  <data name="ScriptCopyError.Text" xml:space="preserve">
+    <value>Возникла непредвиденная ошибка при копировании сценария в папку назначения. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
+  </data>
+  <data name="ImportControl.ErrorMessage" xml:space="preserve">
+    <value>Возникла непредвиденная ошибка при импорте элемента управления модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
+  </data>
+  <data name="TabExists.Text" xml:space="preserve">
+    <value>Уже существует страница с именем, совпадающим с именем создаваемого модуля. Модуль был успешно создан, но проверочная страница не была добавлена.</value>
   </data>
 </root>
