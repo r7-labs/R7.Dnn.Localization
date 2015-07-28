@@ -1,5 +1,7 @@
 # About R7.DnnLocalization
 
+[![Join the chat at https://gitter.im/roman-yagodin/R7.DnnLocalization](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/roman-yagodin/R7.DnnLocalization?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 *R7.DnnLocalization* project goal is to provide complete *Russian* localization
 of [DNN Plaftorm](http://www.dnnsoftware.com/) static resource files (the UI messages).
 
