@@ -6,12 +6,14 @@ if [ ! $1 ]; then
 fi
 
 if [ ! $2 ]; then
-    echo "Error: Specify culture 'xx-XX' code as second argument."
+    echo "Error: Specify culture code 'xx-XX' or 'xx_XX' as the second argument."
     exit
 fi
 
 source common.config
 source $PACKAGE_CONFIG
+
+CULTURE_CODE=$2
 
 # pass args to environment variables
 export LPB_PACKAGE_TYPE="$PACKAGE_TYPE"
@@ -20,4 +22,4 @@ export LPB_SOURCE_VERSION="$SOURCE_VERSION"
 export LBP_PLATFORM_TYPE="$PLATFORM_TYPE"
 
 # run script
-./LanguagePackBuilder.cs $1 $2
+./LanguagePackBuilder.cs $PACKAGE_NAME $CULTURE_CODE
