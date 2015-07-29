@@ -15,4 +15,10 @@
   <data name="FriendlyUrl.Text" xml:space="preserve">
     <value>Настройка дружественных Url </value>
   </data>
+  <data name="plUseFriendlyUrls.Help" xml:space="preserve">
+    <value>Отметьте, чтобы использовать формат URL, дружественный для поисковых систем.</value>
+  </data>
+  <data name="plUseFriendlyUrls.Text" xml:space="preserve">
+    <value>Дружественные URL?</value>
+  </data>
 </root>
