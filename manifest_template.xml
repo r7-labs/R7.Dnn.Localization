@@ -18,6 +18,7 @@
 				<component type="${PackageType}Language">
 					<languageFiles>
 						<code>${CultureCode}</code>
+						${ExtensionAssembly}
 						<displayName>${CultureNameNative}</displayName>
 						<fallback>en-US</fallback>
 						<languageFile>
