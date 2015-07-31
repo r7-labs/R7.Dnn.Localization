@@ -61,6 +61,63 @@
   <data name="PortalSetup.Text" xml:space="preserve">
     <value>Настройки сайта.</value>
   </data>
+  <data name="ErrorPages.Text" xml:space="preserve">
+    <value>Нужно выбрать как минимум одну страницу для экспорта.</value>
+  </data>
+  <data name="lblFiles.Help" xml:space="preserve">
+    <value>Отметьте, если Вы хотите экспортировать все файлы и папки сайта при создании шаблона.</value>
+  </data>
+  <data name="lblFiles.Text" xml:space="preserve">
+    <value>Включить файлы?</value>
+  </data>
+  <data name="lblMultilanguage.Help" xml:space="preserve">
+    <value>Если для экспортируемого сайта включена локализация содержимого, Вы можете выбрать, нужно ли создать шаблон мультиязычного сайта, или же создать шаблон, содержащий материалы на одном из языков.</value>
+  </data>
+  <data name="lblMultilanguage.Text" xml:space="preserve">
+    <value>Экспортировать сайт как мультиязычный?</value>
+  </data>
+  <data name="lblPages.Help" xml:space="preserve">
+    <value>Выберите страницы, которые требуется включить в шаблон при экспорте. &lt;br /&gt;&lt;b&gt;Подсказка: &lt;/b&gt;Если Вы планируете использовать экспортируемый шаблон для создания нового сайта, убедитесь что выбраны все, или хотя бы некоторые страницы администратора. Если страницы администратора не будут включены в шаблон, то созданный на основе его сайт не будет содержать меню администратора.</value>
+  </data>
+  <data name="lblPages.Text" xml:space="preserve">
+    <value>Экспортировать страницы</value>
+  </data>
+  <data name="lblProfile.Help" xml:space="preserve">
+    <value>Отметьте, если Вы хотите экспортировать определения свойств профиля пользователя во вновь создаваемый шаблон.</value>
+  </data>
+  <data name="lblProfile.Text" xml:space="preserve">
+    <value>Включить определения свойств профиля?</value>
+  </data>
+  <data name="lblRoles.Help" xml:space="preserve">
+    <value>Отметьте, если Вы хотите экспортировать роли пользователей во вновь создаваемый шаблон.</value>
+  </data>
+  <data name="lblRoles.Text" xml:space="preserve">
+    <value>Включить роли?</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="lblLanguages.Help" xml:space="preserve">
+    <value>Позволяет выбрать, какие языки будут включены в шаблон при экспорте страниц.</value>
+  </data>
+  <data name="lblLanguages.Text" xml:space="preserve">
+    <value>Языки экспортируемых страниц:</value>
+  </data>
+  <data name="ErrorAncestorPages.Text" xml:space="preserve">
+    <value>Вы должны отметить также все страницы-предки данной страницы, начиная с корневого узла, чтобы экспортировать эту страницу в шаблон.</value>
+  </data>
+  <data name="lblModules.Help" xml:space="preserve">
+    <value>Отметьте, чтобы включить разрешения модулей во вновь создаваемый шаблон. Обратите внимание, что это может потребовать также экспортировать роли.</value>
+  </data>
+  <data name="lblModules.Text" xml:space="preserve">
+    <value>Включить разрешения модулей?</value>
+  </data>
+  <data name="lblNote.Text" xml:space="preserve">
+    <value>Подсказка: язык по-умолчанию ({0}) будет экспортирован в любом случае</value>
+  </data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Основные настройки</value>
+  </data>
   <data name="lblAdminOnly.Text" xml:space="preserve">
     <value>Для администраторов</value>
   </data>
@@ -81,5 +138,11 @@
   </data>
   <data name="lblSecure.Text" xml:space="preserve">
     <value>Для отдельных ролей</value>
+  </data>
+  <data name="DefaultLanguage.Text" xml:space="preserve">
+    <value>язык {0} установлен в качестве языка по-умолчанию для выбранного сайта</value>
+  </data>
+  <data name="lblNoteSingleLanguage.Text" xml:space="preserve">
+    <value>Подсказка: язык по-умолчанию &lt;b&gt;{0}&lt;/b&gt;</value>
   </data>
 </root>

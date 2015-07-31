@@ -12,8 +12,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="HTTPAlias.Header" xml:space="preserve">
+    <value>Псевдоним сайта</value>
+  </data>
   <data name="Action.Header" xml:space="preserve">
     <value>Действие</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Новый псевдоним</value>
+  </data>
+  <data name="Primary.Header" xml:space="preserve">
+    <value>Основной</value>
+  </data>
+  <data name="currentAliasHelp.Text" xml:space="preserve">
+    <value>Этот псевдоми нельзя изменить сейчас. Сначала войдите на эту страницу, используя один из других псевдонимов.</value>
   </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отменить</value>

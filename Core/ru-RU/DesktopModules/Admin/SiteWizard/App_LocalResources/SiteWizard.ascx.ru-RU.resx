@@ -45,6 +45,9 @@
 уже имеющихся на Вашем сайте).
 &lt;/p&gt;</value>
   </data>
+  <data name="lblMergeModule.Help" xml:space="preserve">
+    <value>Выберите, как нужно поступить с дублирующимися модулями (модулями, которые есть в шаблоне и также уже присутствуют на сайте).</value>
+  </data>
   <data name="Ignore.Text" xml:space="preserve">
     <value>Игнорировать</value>
   </data>
@@ -159,5 +162,23 @@
   </data>
   <data name="EditOnly.Text" xml:space="preserve">
     <value>Этот модуль  доступен только для пользователей, которым были даны права доступа для редактирования. Пожалуйста, свяжитесь с администратором сайта, если Вы думаете, что у Вас должны быть эти права доступа.</value>
+  </data>
+  <data name="lblMergeModule.Text" xml:space="preserve">
+    <value>Дублирующиеся модули</value>
+  </data>
+  <data name="lblTemplateList.Help" xml:space="preserve">
+    <value>Вы можете выбрать шаблон, на основе которого нужно создать сайт.</value>
+  </data>
+  <data name="lblTemplateList.Text" xml:space="preserve">
+    <value>Список шаблонов</value>
+  </data>
+  <data name="lblTemplateMessage.Help" xml:space="preserve">
+    <value>Отметьте, если Вы хотите пересоздать сайт на основе выбранного шаблона.</value>
+  </data>
+  <data name="lblTemplateMessage.Text" xml:space="preserve">
+    <value>Создать сайт из шаблона</value>
+  </data>
+  <data name="ModulesNotInstalled.Text" xml:space="preserve">
+    <value>Выбранный шаблон содержит следующие модули, которые в настоящее время не установлены.&lt;br /&gt;{0}</value>
   </data>
 </root>

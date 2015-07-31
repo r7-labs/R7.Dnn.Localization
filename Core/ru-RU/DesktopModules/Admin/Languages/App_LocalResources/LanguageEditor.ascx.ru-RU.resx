@@ -54,6 +54,9 @@
   <data name="DuplicateEntry.Text" xml:space="preserve">
     <value>Этот файл содержит более чем один элемент для: &lt;b&gt;{0}&lt;/b&gt;. Вы должны отредактировать файл и удалить дубликаты.</value>
   </data>
+  <data name="highlightLabel.Text" xml:space="preserve">
+    <value>Подсветить ожидающие перевода</value>
+  </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;h1&gt;О Языках&lt;/h1&gt;&lt;p&gt;Суперпользователь может управлять поддерживаемыми языками, установленными в системе.&lt;/p&gt;</value>
   </data>
@@ -129,10 +132,34 @@
   <data name="plFolder.Text" xml:space="preserve">
     <value>Выбранный каталог</value>
   </data>
+  <data name="highlightLabel.Help" xml:space="preserve">
+    <value>Отметьте, чтобы подсветить все строки, ожидающие перевода.</value>
+  </data>
+  <data name="NoRecords.Text" xml:space="preserve">
+    <value>Нечего отображать.</value>
+  </data>
+  <data name="GlobalResources.Text" xml:space="preserve">
+    <value>Глобальные ресурсы</value>
+  </data>
+  <data name="LocalResources.Text" xml:space="preserve">
+    <value>Локальные ресурсы</value>
+  </data>
+  <data name="SiteTemplates.Text" xml:space="preserve">
+    <value>Шаблоны сайта</value>
+  </data>
+  <data name="Exceptions.Text" xml:space="preserve">
+    <value>Исключения</value>
+  </data>
   <data name="HostSkins.Text" xml:space="preserve">
     <value>Скины хоста</value>
   </data>
+  <data name="PortalSkins.Text" xml:space="preserve">
+    <value>Шаблоны оформления сайта</value>
+  </data>
   <data name="Template.Text" xml:space="preserve">
     <value>Шаблон</value>
+  </data>
+  <data name="WebControls.Text" xml:space="preserve">
+    <value>Элементы управления</value>
   </data>
 </root>
