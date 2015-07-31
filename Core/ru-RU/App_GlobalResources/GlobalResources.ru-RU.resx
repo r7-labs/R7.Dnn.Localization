@@ -853,6 +853,9 @@ Sincerely,
   <data name="//Host//ProfessionalFeatures.String" xml:space="preserve">
     <value>Возможности Pro-версии</value>
   </data>
+  <data name="//Host//ProfessionalFeatures//ActivateYourLicense.String" xml:space="preserve">
+    <value>Активируйте Вашу лицензию</value>
+  </data>
   <data name="//Host//ProfessionalFeatures//ApplicationIntegrity.String" xml:space="preserve">
     <value>Целостность приложения</value>
   </data>
