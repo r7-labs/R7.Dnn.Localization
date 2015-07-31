@@ -12,4 +12,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CreateGroup.Text" xml:space="preserve">
+    <value>Новая группа</value>
+  </data>
+  <data name="GroupName.Help" xml:space="preserve">
+    <value>Введите имя группы, которую Вы бы хотели создать.</value>
+  </data>
+  <data name="GroupName.Text" xml:space="preserve">
+    <value>Имя группы</value>
+  </data>
 </root>

@@ -12,4 +12,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DefaultRoleGroup.Help" xml:space="preserve">
+    <value>Укажите группу ролей, в которой Вы бы хотели создать новые группы. Это должна быть та же группа ролей, которая выбрана для списка главных ролей.</value>
+  </data>
+  <data name="GroupListPage.Help" xml:space="preserve">
+    <value>Выберите страницу, на которой пользователи будут просматривать список групп.</value>
+  </data>
+  <data name="GroupModeration.Help" xml:space="preserve">
+    <value>Отметьте, если Вы хотите, чтобы группы утверждались прежде, чем будут опубликованы.</value>
+  </data>
+  <data name="GroupModeration.Text" xml:space="preserve">
+    <value>Требовать утверждения групп</value>
+  </data>
+  <data name="GroupViewPage.Help" xml:space="preserve">
+    <value>Выберите страницу, на которой пользователи будут просматривать конкретную группу.</value>
+  </data>
 </root>
