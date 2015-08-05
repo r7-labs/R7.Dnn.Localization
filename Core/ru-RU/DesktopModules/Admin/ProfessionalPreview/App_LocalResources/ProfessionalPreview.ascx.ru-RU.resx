@@ -12,4 +12,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Activate Your License.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - активация лицензии</value>
+  </data>
+  <data name="Application Integrity.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - целостность приложения</value>
+  </data>
+  <data name="FeatureNotAvailable.Text" xml:space="preserve">
+    <value>Данная функция недоступна в общедоступной версии, Вы можете попробовать данную функцию бесплатно &lt;a href="http://www.dotnetnuke.com/Products/Professional-Edition-Trial.aspx"&gt;здесь&lt;/a&gt;.&lt;br /&gt;Полный список функций в наших платных версиях представлен ниже.</value>
+  </data>
+  <data name="Health Monitoring.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - мониторинг состояния</value>
+  </data>
+  <data name="Manage Web Servers.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - управление веб-сервисами</value>
+  </data>
+  <data name="SearchCrawler Admin.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - администрирование поискового обходчика</value>
+  </data>
+  <data name="Security Center.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - центр безопасности</value>
+  </data>
+  <data name="User Switcher.Text" xml:space="preserve">
+    <value>Предпросмотр проф. версии - переключатель пользователей</value>
+  </data>
 </root>
