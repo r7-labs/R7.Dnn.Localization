@@ -16,9 +16,9 @@
     <value>Подгрузка</value>
   </data>
   <data name="Configuration.Text" xml:space="preserve">
-    <value>Файлы</value>
+    <value>Файлы конфигурации</value>
   </data>
   <data name="scriptLabel.Text" xml:space="preserve">
-    <value>Запрос:</value>
+    <value>Сценарий:</value>
   </data>
 </root>
