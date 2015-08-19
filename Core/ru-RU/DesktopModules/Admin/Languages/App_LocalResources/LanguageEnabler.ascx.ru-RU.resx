@@ -16,7 +16,7 @@
     <value>Включено</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
-    <value>Хост</value>
+    <value>Хостинг</value>
   </data>
   <data name="Portal.Text" xml:space="preserve">
     <value>Сайт</value>
@@ -28,7 +28,7 @@
     <value>Культура</value>
   </data>
   <data name="Active.Header" xml:space="preserve">
-    <value>Активное</value>
+    <value>Активен</value>
   </data>
   <data name="Enabled.Header" xml:space="preserve">
     <value>Включено</value>
@@ -43,7 +43,7 @@
     <value>Сохранить</value>
   </data>
   <data name="CreateLanguage.Text" xml:space="preserve">
-    <value>Создать языковый пакет</value>
+    <value>Создать языковой пакет</value>
   </data>
   <data name="InstallLanguage.Text" xml:space="preserve">
     <value>Установить языковой пакет</value>
