@@ -12,10 +12,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ControlKey.Help" xml:space="preserve">
+    <value>Введите ключ для скин-объекта. Ключ должен быть уникальным.</value>
+  </data>
+  <data name="ControlKey.Text" xml:space="preserve">
+    <value>Ключ элемента управления:</value>
+  </data>
+  <data name="ControlSrc.Help" xml:space="preserve">
+    <value>Укажите файл исходного кода для данного элемента управления. Если это пользовательский элемент управления, укажите путь к файлу исходного кода относительно корневого каталога сайта.</value>
+  </data>
+  <data name="ControlSrc.Text" xml:space="preserve">
+    <value>Исходный файл:</value>
+  </data>
+  <data name="Help.Text" xml:space="preserve">
+    <value>Данный редактор позволяет изменять настройки скин-объекта.</value>
+  </data>
+  <data name="HelpURL.Help" xml:space="preserve">
+    <value>Введите URL справки для данного элемента управления</value>
+  </data>
   <data name="HelpURL.Text" xml:space="preserve">
     <value>URL справки:</value>
   </data>
+  <data name="IconFile.Help" xml:space="preserve">
+    <value>Введите URL значка для данного элемента управления.</value>
+  </data>
   <data name="IconFile.Text" xml:space="preserve">
     <value>Файл значка:</value>
+  </data>
+  <data name="SupportsPartialRendering.Help" xml:space="preserve">
+    <value>Этот флаг указывает, поддерживает ли модуль частичную отрисовку с использованием AJAX. </value>
+  </data>
+  <data name="SupportsPartialRendering.Text" xml:space="preserve">
+    <value>Поддерживает частичную отрисовку?</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Настройки скин-объекта</value>
   </data>
 </root>
