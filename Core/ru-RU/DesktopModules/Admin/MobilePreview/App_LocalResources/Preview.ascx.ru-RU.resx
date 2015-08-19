@@ -12,10 +12,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Horizontal.Text" xml:space="preserve">
+    <value>Альбомная</value>
+  </data>
+  <data name="lblDimensions.Help" xml:space="preserve">
+    <value>Показать размеры.</value>
+  </data>
+  <data name="lblDimensions.Text" xml:space="preserve">
+    <value>Показать размеры</value>
+  </data>
+  <data name="lblOrientation.Help" xml:space="preserve">
+    <value>Ориентация экрана устройства</value>
+  </data>
   <data name="lblOrientation.Text" xml:space="preserve">
-    <value>Расположение</value>
+    <value>Ориентация</value>
+  </data>
+  <data name="lblProfile.Help" xml:space="preserve">
+    <value>Выберите профиль для предпросмотра.</value>
   </data>
   <data name="lblProfile.Text" xml:space="preserve">
     <value>Профиль</value>
+  </data>
+  <data name="PageTitle.Text" xml:space="preserve">
+    <value>Предпросмотр текущей страницы</value>
+  </data>
+  <data name="Vertical.Text" xml:space="preserve">
+    <value>Портретная</value>
+  </data>
+  <data name="lblSendAgent.Help" xml:space="preserve">
+    <value>Включение этой настройки позволяет провести симуляцию реального устройства. Любой модуль, использующий возможности устройства, будет отбражать соответствующее устройству содержимое. Если пользователь обращается к содержимому при помощи реального устройства, он также будет перенаправлен на соответствующую версию. </value>
+  </data>
+  <data name="lblSendAgent.Text" xml:space="preserve">
+    <value>Включить определение устройств</value>
+  </data>
+  <data name="lblPreviewInfo.Text" xml:space="preserve">
+    <value>Функция предварительного просмотра позволяет визуально оценить размер контента в отношении к разрешению экрана устройства. Шаблоны оформления, ориентированные на мобильные устройства, должны адаптироваться к размеру экран.&lt;br/&gt;Если Вы видите горизонтальную полосу прокрутки, это означает, что содержимое страницы больше, чем позволяет разрешение устройства, при этом Ваше содержимое будет масштабировано, если это поддерживает браузер.</value>
   </data>
 </root>
