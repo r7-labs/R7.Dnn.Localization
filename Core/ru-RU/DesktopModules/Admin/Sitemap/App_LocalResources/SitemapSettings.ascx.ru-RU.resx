@@ -13,13 +13,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Priority.Header" xml:space="preserve">
-    <value>Приоритет</value>
+    <value>Важность</value>
   </data>
   <data name="Description.Header" xml:space="preserve">
     <value>Описание</value>
   </data>
   <data name="Keywords.Header" xml:space="preserve">
-    <value>Ключевые слова</value>
+    <value>Ключевые слова страницы</value>
   </data>
   <data name="ProviderDescription.Header" xml:space="preserve">
     <value>Описание</value>
@@ -34,25 +34,25 @@
     <value>Создать</value>
   </data>
   <data name="lblSearchEngine.Help" xml:space="preserve">
-    <value>Представьте ваш сайт выбранному поисковому серверу для индексации.</value>
+    <value>Отправьте Ваш сайт выбранной поисковой системе для индексации.</value>
   </data>
   <data name="lblSearchEngine.Text" xml:space="preserve">
-    <value>Поисковый механизм:</value>
+    <value>Поисковая система:</value>
   </data>
   <data name="lblVerification.Text" xml:space="preserve">
     <value>Проверка:</value>
   </data>
   <data name="SectionSubmissionSettings.Text" xml:space="preserve">
-    <value>Представление сайта</value>
+    <value>Отправка сайта </value>
   </data>
   <data name="Name.Header" xml:space="preserve">
     <value>Имя</value>
   </data>
   <data name="cmdSubmitToSearch.Text" xml:space="preserve">
-    <value>Принять</value>
+    <value>Отправить</value>
   </data>
   <data name="cmdSubmitToSearch.ToolTip" xml:space="preserve">
-    <value>Принять</value>
+    <value>Отправить</value>
   </data>
   <data name="Edit.Cancel" xml:space="preserve">
     <value>Отмена</value>
