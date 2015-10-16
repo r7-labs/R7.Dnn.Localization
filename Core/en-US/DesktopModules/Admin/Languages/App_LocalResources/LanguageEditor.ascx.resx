@@ -181,7 +181,7 @@
     <value>Select System to edit the base file for a given language; Host will create a custom version of the localized file for this installation.</value>
   </data>
   <data name="Deleted.Text" xml:space="preserve">
-    <value>File {0} was correctly deleted</value>
+    <value>File {0} has been deleted</value>
   </data>
   <data name="Obsolete.Text" xml:space="preserve">
     <value>This files contains obsolete resources which are no more needed. Click save to remove these items permanently.</value>
@@ -256,10 +256,10 @@
     <value>Exceptions</value>
   </data>
   <data name="HostSkins.Text" xml:space="preserve">
-    <value>Host Skins</value>
+    <value>Host Themes</value>
   </data>
   <data name="PortalSkins.Text" xml:space="preserve">
-    <value>Site Skins</value>
+    <value>Site Themes</value>
   </data>
   <data name="Template.Text" xml:space="preserve">
     <value>Template</value>
@@ -267,4 +267,10 @@
   <data name="WebControls.Text" xml:space="preserve">
     <value>WebControls</value>
   </data>
+  <data name="Updated.Text" xml:space="preserve">
+    <value>File {0} has been saved</value>
+  </data>
+  <data name="ResourceUpdated.Text" xml:space="preserve">
+    <value>Rersource file has been updated</value>
+  </data> 
 </root>

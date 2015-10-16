@@ -193,13 +193,13 @@
     <value>Logo:</value>
   </data>
   <data name="plLogo.Help" xml:space="preserve">
-    <value>Depending on the skin chosen, this image will appear in the top left corner of the page.</value>
+    <value>Depending on the theme chosen, this image will appear in the top left corner of the page.</value>
   </data>
   <data name="plPortalSkin.Text" xml:space="preserve">
-    <value>Site Skin:</value>
+    <value>Site Theme:</value>
   </data>
   <data name="plPortalSkin.Help" xml:space="preserve">
-    <value>The selected skin will be applied to all pages on the site, unless overridden at the Page level.</value>
+    <value>The selected theme will be applied to all pages on the site, unless overridden at the Page level.</value>
   </data>
   <data name="plPortalContainer.Text" xml:space="preserve">
     <value>Site Container:</value>
@@ -208,10 +208,10 @@
     <value>The selected container will be applied to all modules on the site, unless overridden at the Page or Module level.</value>
   </data>
   <data name="plAdminSkin.Text" xml:space="preserve">
-    <value>Edit Skin:</value>
+    <value>Edit Theme:</value>
   </data>
   <data name="plAdminSkin.Help" xml:space="preserve">
-    <value>The selected skin will be applied to all edit mode (ctl=) pages on the site.</value>
+    <value>The selected theme will be applied to all edit mode (ctl=) pages on the site.</value>
   </data>
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Edit Container:</value>
@@ -219,11 +219,17 @@
   <data name="plAdminContainer.Help" xml:space="preserve">
     <value>The selected container will be applied to all edit mode (ctl=) modules on the site.</value>
   </data>
+  <data name="plIconSet.Text" xml:space="preserve">
+    <value>Icon Set:</value>
+  </data>
+  <data name="plIconSet.Help" xml:space="preserve">
+    <value>The selected iconset will be applied to all icons on the site.</value>
+  </data>
   <data name="plBackground.Text" xml:space="preserve">
     <value>Body Background:</value>
   </data>
   <data name="plBackground.Help" xml:space="preserve">
-    <value>Depending on the skin, if selected, an image will display in the background of all pages.</value>
+    <value>Depending on the theme, if selected, an image will display in the background of all pages.</value>
   </data>
   <data name="plFavIcon.Text" xml:space="preserve">
     <value>Favicon.ico:</value>
@@ -367,7 +373,7 @@
     <value>Copyright:</value>
   </data>
   <data name="plFooterText.Help" xml:space="preserve">
-    <value>If supported by the skin this Copyright text is displayed on your site.</value>
+    <value>If supported by the theme this Copyright text is displayed on your site.</value>
   </data>
   <data name="Site.Text" xml:space="preserve">
     <value>Site</value>
@@ -469,7 +475,7 @@
     <value>Edit Site Settings</value>
   </data>
   <data name="SkinUpload.Text" xml:space="preserve">
-    <value>Upload Skin/Container</value>
+    <value>Upload Theme/Container</value>
   </data>
   <data name="ContainerUpload.Text" xml:space="preserve">
     <value>Upload Container</value>
@@ -544,10 +550,10 @@
     <value>Remove Module</value>
   </data>
   <data name="plSkinWidgestEnabled.Help" xml:space="preserve">
-    <value>Check this box to enable Skin Widgets for this site.</value>
+    <value>Check this box to enable Theme Widgets for this site.</value>
   </data>
   <data name="plSkinWidgestEnabled.Text" xml:space="preserve">
-    <value>Enable Skin Widgets:</value>
+    <value>Enable Theme Widgets:</value>
   </data>
   <data name="PortalAliases.Text" xml:space="preserve">
     <value>Site Aliases</value>
@@ -637,16 +643,16 @@
     <value>Site Marketing</value>
   </data>
   <data name="EditSkinPreview.Text" xml:space="preserve">
-    <value>Preview Edit Skin and Container</value>
+    <value>Preview Edit Theme and Container</value>
   </data>
   <data name="SkinPreview.Text" xml:space="preserve">
-    <value>Preview Site Skin and Container</value>
+    <value>Preview Site Theme and Container</value>
   </data>
   <data name="ExpandAll.Text" xml:space="preserve">
     <value>Expand All</value>
   </data>
   <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value>Please select a skin and/or container to preview.</value>
+    <value>Please select a theme and/or container to preview.</value>
   </data>
   <data name="valExpiryDate.ErrorMessage" xml:space="preserve">
     <value>Invalid expiry date</value>
@@ -698,6 +704,12 @@
   </data>
   <data name="plMsgAllowAttachments.Help" xml:space="preserve">
     <value>Select if attachments are allowed or not.</value>
+  </data>
+  <data name="plIncludeAttachments.Text" xml:space="preserve">
+    <value>Include Attachments:</value>
+  </data>
+  <data name="plIncludeAttachments.Help" xml:space="preserve">
+    <value>Select if attachments are to be included with outgoing email.</value>
   </data>
   <data name="MsgAllowAttachmentsYes.Text" xml:space="preserve">
     <value>Yes</value>
@@ -872,18 +884,6 @@ The host-level settings are currently set as follows:
   <data name="PasswordAttemptWindow.Text" xml:space="preserve">
     <value>Invalid Attempt Window (in mins):</value>
   </data>
-  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
-    <value>The number of days before a User must change their password (value of 0 means the password never expires)</value>
-  </data>
-  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
-    <value>Password Expiry (in days):</value>
-  </data>
-  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
-    <value>The number of days warning the user will recieve that their password is about to expire.</value>
-  </data>
-  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
-    <value>Password Expiry Reminder (in days):</value>
-  </data>
   <data name="PasswordFormat.Help" xml:space="preserve">
     <value>The password format</value>
   </data>
@@ -979,6 +979,12 @@ The host-level settings are currently set as follows:
   </data>
   <data name="Security_CaptchaRetrivePassword.Text" xml:space="preserve">
     <value>Use CAPTCHA to Retrieve Password</value>
+  </data>
+  <data name="Security_CaptchaChangePassword.Help" xml:space="preserve">
+    <value>Select to add a CAPTCHA control to Password Change</value>
+  </data>
+  <data name="Security_CaptchaChangePassword.Text" xml:space="preserve">
+    <value>Use CAPTCHA to Change Password</value>
   </data>
   <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
     <value>You can optionally require a user to update their Profile before be logged in, if their Profile is no longer Valid.</value>
@@ -1143,9 +1149,142 @@ The host-level settings are currently set as follows:
     <value>Vanity URL Prefix:</value>
   </data>
   <data name="VanityUrlExample.Text" xml:space="preserve">
-    <value>myVanityUrl</value>
+    <value>myVanityURL</value>
   </data>
   <data name="VanityUrlPrefixHeader.Text" xml:space="preserve">
     <value>Enter a prefix for Vanity URLs</value>
+  </data>
+  <data name="DefaultAuthProvider.Text" xml:space="preserve">
+    <value>Default Authentication Provider</value>
+  </data>
+  <data name="DefaultAuthProvider.Help" xml:space="preserve">
+    <value>You can select a default auth provider for user login. Only providers that support forms authentication can be selected.</value>
+  </data>
+  <data name="EmailErrorMessage.Text" xml:space="preserve">
+    <value>There has been an error trying to send the test email. The error is:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>Email Sent Successfully from {0} to {1}</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>Test SMTP Settings</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>SMTP Authentication:</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>Enter the SMTP Server Authentication method ( default = Anonymous )</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>Used for SMTP services that require secure connection (usually not needed)</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>SMTP Enable SSL:</value>
+  </data>
+  <data name="plSMTPMode.Text" xml:space="preserve">
+    <value>SMTP Mode:</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>SMTP Password:</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>Enter the Password for the SMTP Server</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>Please enter name (address) and port of the SMTP server to be used for sending mails from this website.</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>SMTP Server and port:</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>SMTP Username:</value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>Enter the Username for the SMTP Server</value>
+  </data>
+  <data name="SMTP.Text" xml:space="preserve">
+    <value>SMTP Server Settings</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM</value>
+  </data>
+  <data name="SmtpServerWarning.Text" xml:space="preserve">
+    <value>You are try to use a custom SMTP port with your install instance running under medium trust, you need contact your host provider to make sure this setting can work correctly on the server.</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
+    <value>You Must Specify The Host Email Address</value>
+  </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Max Idle Time:</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>The length of time, in milliseconds, that a connection associated with the ServicePoint object can remain idle before it is closed and reused for another connection. Max value is 2147483647. Default is 0. 
+</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Connection Limit:</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>The maximum number of connections allowed on this ServicePoint object. Max value is 2147483647. Default is 1. </value>
+  </data>
+  <data name="ConnectionLimitValidation.Text" xml:space="preserve">
+    <value>Numbers from 1 to 2147483647 only!</value>
+  </data>
+  <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
+    <value>Numbers from 1 to 2147483647 only!</value>
+  </data>
+  <data name="pl404TabId.Help" xml:space="preserve">
+    <value>The 404 Error Page for your site.  Users will be redirected to this page if the URL they are navigating to results in a "Page Not Found" error.</value>
+  </data>
+  <data name="pl404TabId.Text" xml:space="preserve">
+    <value>404 Error Page</value>
+  </data>
+  <data name="pl500TabId.Help" xml:space="preserve">
+    <value>The 500 Error Page for your site.  Users will be redirected to this page if the URL they are navigating to results in an unexpected error.</value>
+  </data>
+  <data name="pl500TabId.Text" xml:space="preserve">
+    <value>500 Error Page</value>
+  </data>
+  <data name="ContainsDuplicateAddresses.Text" xml:space="preserve">
+    <value>The user base of this portal contains duplicate e-mail addresses. If you would like to use e-mail addresses as usernames you must fix those entries first.</value>
+  </data>
+  <data name="PageHeaders.Text" xml:space="preserve">
+    <value>Page Output Settings</value>
+  </data>
+  <data name="plPageHeadText.Help" xml:space="preserve">
+    <value>Enter any tags (i.e. META tags) that should be rendered in the "HEAD" tag of the HTML for this page.</value>
+  </data>
+  <data name="plPageHeadText.Text" xml:space="preserve">
+    <value>Html Page Header Tags</value>
+  </data>
+  <data name="plInjectModuleHyperLink.Help" xml:space="preserve">
+    <value>Inject a empty hyperlink on the top of the module with name equals moduleid.</value>
+  </data>
+  <data name="plInjectModuleHyperLink.Text" xml:space="preserve">
+    <value>Inject Module Hyperlinks</value>
+  </data>
+  <data name="plAddCompatibleHttpHeader.Help" xml:space="preserve">
+    <value>Add X-UA-Compatible to the hhtp response headers (ex. : IE=edge)</value>
+  </data>
+  <data name="plAddCompatibleHttpHeader.Text" xml:space="preserve">
+    <value>X-UA-Compatible Http Header</value>
+  </data>
+  <data name="plAddCachebusterToResourceUris.Help" xml:space="preserve">
+    <value>Add a cache buster parameter (ver=[file timestamp]) to file resource URIs.</value>
+  </data>
+  <data name="plAddCachebusterToResourceUris.Text" xml:space="preserve">
+    <value>Cachebust resource URIs</value>
+  </data>
+  <data name="plDisablePrivateMessage.Help" xml:space="preserve">
+    <value>When this option is set, regular users can't send message to specific user or group anymore.</value>
+  </data>
+  <data name="plDisablePrivateMessage.Text" xml:space="preserve">
+    <value>Disable Private Message</value>
   </data>
 </root>

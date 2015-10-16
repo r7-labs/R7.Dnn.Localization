@@ -196,7 +196,7 @@
     <value>Event Viewer</value>
   </data>
   <data name="//Host//Skins.String" xml:space="preserve">
-    <value>Skins</value>
+    <value>Themes</value>
   </data>
   <data name="//Host.String" xml:space="preserve">
     <value>Host</value>
@@ -852,7 +852,7 @@ Thank you,
                     &lt;br /&gt;
                     &lt;br /&gt;
                     Note: If there are multiple URLs which correspond to the same website then the website alias
-                    field must contain each valid Domain Name in a comma seperated list.
+                    field must contain each valid Domain Name in a comma separated list.
                     &lt;br /&gt;
                     &lt;br /&gt;
                     Example:
@@ -881,7 +881,7 @@ Thank you,
         &lt;p&gt;{0}&lt;/p&gt;
         &lt;p&gt;Your DotNetNuke installation appears to have a security settings problem (most likely
         permissions). DotNetNuke has extensive file upload capabilities for content, modules,
-        and skins. These features require custom security settings so that the application
+        and themes. These features require custom security settings so that the application
         is able to create and remove files in your website.&lt;/p&gt;
         &lt;p&gt;Using Windows Explorer, browse to the root folder of the website ( C:\DotNetNuke
         by default ). Right-click the folder and select Sharing and Security from the popup
@@ -964,10 +964,7 @@ Operation Completed:  [Custom:3]
     <value>Languages</value>
   </data>
   <data name="//Admin//Skins.String" xml:space="preserve">
-    <value>Skins</value>
-  </data>
-  <data name="//Host//FileManager.String" xml:space="preserve">
-    <value>File Manager</value>
+    <value>Themes</value>
   </data>
   <data name="//Host//Vendors.String" xml:space="preserve">
     <value>Vendors</value>
@@ -977,7 +974,7 @@ Operation Completed:  [Custom:3]
   </data>
   <data name="License.Text" xml:space="preserve">
     <value>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
-Copyright (c) 2002-2013&lt;br/&gt;
+Copyright (c) 2002-2014&lt;br/&gt;
     by DotNetNuke Corporation&lt;/p&gt;
     &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
@@ -998,7 +995,7 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
     <value>Extensions</value>
   </data>
   <data name="SkinLoadError.Text" xml:space="preserve">
-    <value>Could Not Load Skin: {0},  Error: {1}&lt;br/&gt;</value>
+    <value>Could Not Load Theme: {0},  Error: {1}&lt;br/&gt;</value>
   </data>
   <data name="EMAIL_ROLE_UPDATE_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] User Account Update</value>
@@ -1114,7 +1111,7 @@ Sincerely,
   <data name="//Host//ProfessionalFeatures.String" xml:space="preserve">
     <value>Professional Features</value>
   </data>
-  <data name="//Host//ProfessionalFeatures//ActivateYourLicense.String" xml:space="preserve">
+  <data name="//Host//ProfessionalFeatures//ActivateyourLicense.String" xml:space="preserve">
     <value>Activate Your License</value>
   </data>
   <data name="//Host//ProfessionalFeatures//ApplicationIntegrity.String" xml:space="preserve">
@@ -1171,8 +1168,8 @@ Sincerely,
   <data name="//NewsPromotions.String" xml:space="preserve">
     <value>News &amp; Promotions</value>
   </data>
-  <data name="//OurServices.String" xml:space="preserve">
-    <value>Our Services</value>
+  <data name="//OurProducts.String" xml:space="preserve">
+    <value>Our Products</value>
   </data>
   <data name="//Modules.Text" xml:space="preserve">
     <value>Modules</value>
@@ -1334,10 +1331,265 @@ Please do not reply to this email.</value>
   <data name="//Admin//FileManagement.String" xml:space="preserve">
     <value>File Management</value>
   </data>
-  <data name="UrlPathCleaned.Error" xml:space="preserve">
-    <value>The Page URL entered contains characters which cannot be used in a URL.   These characters have been removed.  Click the 'Update' button again to accept the modified URL.</value>
+  <data name="CustomUrlPathCleaned.Error" xml:space="preserve">
+    <value>The Page URL entered contains characters which cannot be used in a URL or are illegal characters for a URL.   These characters have been removed.  Click the 'Update' button again to accept the modified URL.&lt;br&gt;[NOTE: The illegal characters list is the following: &lt;&gt;\?:&amp;=+|%# ]</value>
   </data>
   <data name="UrlPathNotUnique.Error" xml:space="preserve">
     <value>The submitted URL is not available.  If you wish to accept the suggested alternative, please click Save.</value>
+  </data>
+  <data name="EMAIL_MESSAGING_DISPATCH_BODY.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+    &lt;style type="text/css"&gt;
+            /* Reset Styles */
+        html, body{height:100%;width:100%;}
+        body{
+            margin:0; padding:0;
+            font-family:sans-serif;
+            font-size:0.83em;
+            color:#333;
+        }
+        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+        table td{border-collapse:collapse;}
+        p{margin: 0 0 1.6em 0;}
+        a{color:#417CD3;}
+        #backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+        body{ background-color:#fafafa; }        
+
+        #templateContainer{
+            border: 1px solid #eeeeee;
+            box-shadow: 0px 0px 3px 0px #eee;
+        }
+
+            /* Pre Header Styles */
+        .preheaderContent{
+            padding:15px 0 5px 0;
+            font-size:0.9em;
+            color:#999;
+        }
+        .headerContent {background-color:#bbb;}
+        .headerContent a{display:block;}
+        .headerContent img{ margin-bottom:0;}
+
+            /* Sub Header Styles */
+        #templateSubHeader{ color:#ffffff; }
+        #templateSubHeader td{ padding:5px 20px; }
+
+            /* Template Footer Styles */
+        .footerContent table td{
+            padding-top:20px;
+            border-top:1px solid #ddd;
+            font-size:0.8em;
+        }
+
+            /* Body Template Footer Styles */
+        #bodyTemplateFooter{
+            padding:15px 0 5px 0;
+            font-size:0.9em;
+            color:#999;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"&gt;
+&lt;table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" id="backgroundTable"&gt;
+    &lt;tr&gt;
+        &lt;td align="center" valign="top"&gt;
+            &lt;!-- // Begin Template Preheader \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" width="600"&gt;
+                &lt;tr align="right"&gt;
+                    &lt;td valign="top" class="preheaderContent" style="border-top:5px solid #417CD3;"&gt;
+
+                        &lt;!-- // Begin Module: Standard Preheader \ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" &gt;
+                            &lt;tr&gt;
+                                &lt;td align="right"&gt;
+                                    &lt;p&gt;Problem viewing email? &lt;a href="[NOTIFICATIONURL]"&gt;&lt;span&gt;Click here to view online.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Module: Standard Preheader \ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!-- // End Template Preheader \\ --&gt;
+            &lt;!-- // Begin Template body \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border:1px solid #eeeeee; " &gt;
+                &lt;tr &gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;!-- // Begin Template Header \\ --&gt;
+                        &lt;table border="0" cellpadding="30" cellspacing="0" width="600" id="templateHeader"&gt;
+                            &lt;tr&gt;
+                                &lt;td class="headerContent"&gt;
+                                    &lt;a href="[SITEURL]"&gt;
+                                        &lt;!--&lt;img src="[LOGOURL]" style="max-width:600px;" id="headerImage campaign-icon" /&gt;--&gt;
+                                        &lt;img src="[LOGOURL]" style="max-width:600px;" id="headerImage campaign-icon" width="200" /&gt;
+                                    &lt;/a&gt;
+
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Header \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr &gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;!-- // Begin Template Sub Header \\ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateSubHeader"&gt;
+                            &lt;tr&gt;
+                                &lt;td class="subHeaderContent" bgcolor="#417CD3" width="66%" align="left"&gt;
+                                    &lt;h2 style="color:#fff; font-weight:100; font-size:24px;"&gt;Notifications&lt;/h2&gt;
+                                &lt;/td&gt;&lt;!--close subHeaderContent--&gt;
+                                &lt;td width="33%" bgcolor="#417CD3" align="right"&gt;
+                                    &lt;p style="color:#fff;"&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Sub Header \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top" bgcolor="#ffffff"&gt;
+                        &lt;!-- // Begin Template Body \\ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody"&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" class="bodyContent"&gt;
+                                    &lt;!-- // Begin Module: Standard Content \\ --&gt;
+                                    &lt;table border="0" cellpadding="30" cellspacing="0" width="100%"&gt;
+                                        &lt;tr&gt;
+                                            &lt;td valign="top"&gt;
+                                                [MESSAGEBODY]
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                    &lt;!-- // End Module: Standard Content \\ --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Body \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;table border="0" cellpadding="30" cellspacing="0" width="600" id="templateFooter"&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" class="footerContent"&gt;
+                                    &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                                        &lt;tr&gt;
+                                            &lt;td align="center"&gt;
+                                                &lt;a href="[UNSUBSCRIBEURL]" &gt; Manage your Subscriptions&lt;/a&gt; &amp;nbsp; |  &amp;nbsp;&lt;a href="[NOTIFICATIONURL]" &gt; View online&lt;/a&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;&lt;!-- // End Template Body \\ --&gt;
+            &lt;!-- // Begin Template footer \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" id="bodyTemplateFooter" width="600"&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top" class="bodyFooterContent"&gt;
+
+                        &lt;!-- // Begin Module: Standard Preheader \ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" align="center" &gt;
+
+                            &lt;tr&gt;
+                                &lt;td align="center"&gt;
+                                    &lt;p&gt;Copyright 2013 &lt;a href="[SITEURL]"&gt;[PORTALNAME]&lt;/a&gt; All rights reserved.&lt;/p&gt;
+                                    &lt;p&gt;If you wish to no longer receive emails in the future, please &lt;a href="[UNSUBSCRIBEURL]"&gt;unsubscribe&lt;/a&gt; here.&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Module: Standard Preheader \ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!-- // End Template footer \\ --&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;&lt;!-- wrapper table --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="EMAIL_MESSAGING_DISPATCH_ITEM.Text" xml:space="preserve">
+    <value>&lt;div style="width:100%;"&gt;&lt;h5&gt;[TITLE]&lt;/h5&gt;&lt;table width="600" border="0" cellpadding="0" cellspacing="0" class="contenttable" style="background:#fafafa;"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;table width="80" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;a href="PROFILEURL"&gt;&lt;img src="[PROFILEPICURL]" /&gt;&lt;/a&gt;&lt;br/&gt;[DISPLAYNAME]&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;table width="350" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;[CONTENT][FRIENDREQUESTACTIONS][FOLLOWREQUESTACTIONS]&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_BODY.Text" xml:space="preserve">
+    <value>Dear [User:DisplayName],
+
+Your Password on [Portal:PortalName] has been changed.
+
+Please contact the site administrator at the following email address - [Portal:Email]
+
+Sincerely,
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Password Updated</value>
+  </data>
+  <data name="//Admin//SearchAdmin.String" xml:space="preserve">
+    <value>Search Admin</value>
+  </data>
+  <data name="//Host//FileManagement.String" xml:space="preserve">
+    <value>File Management</value>
+  </data>
+  <data name="//Host//ProfessionalFeatures//AdvancedURLManagement.String" xml:space="preserve">
+    <value>Advanced URL Management</value>
+  </data>
+  <data name="//Admin//UserSwitcher.String" xml:space="preserve">
+    <value>User Switcher</value>
+  </data>
+  <data name="AspNetHostingPermission.Text" xml:space="preserve">
+    <value>This extension requires Full Trust.</value>
+  </data>
+  <data name="ReflectionPermission.Text" xml:space="preserve">
+    <value>This extension requries Reflection permission.</value>
+  </data>
+  <data name="WebPermission.Text" xml:space="preserve">
+    <value>This extension requires Web permission.</value>
+  </data>
+  <data name="EMAIL_SOCIAL_FRIENDREQUESTACTIONS.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Accept&lt;/a&gt; | &lt;a href="{1}"&gt;View Profile&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="EMAIL_SOCIAL_FOLLOWREQUESTACTIONS.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Follow back&lt;/a&gt; | &lt;a href="{1}"&gt;View Profile&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="MESSAGE_USERNAME_CHANGED_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>Please verify your e-mail address change by re-entering your password.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_BODY.Text" xml:space="preserve">
+    <value>Dear [User:DisplayName],
+
+You have requested a Password Reset Token from [Portal:PortalName], but Your account is pending approval.
+
+Password can be reset after account is approved.
+
+Sincerely,
+[Portal:PortalName]
+
+*Note: If you did not request a Password Reset Token, please disregard this Message.
+    </value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Password Reminder</value>
   </data>
 </root>

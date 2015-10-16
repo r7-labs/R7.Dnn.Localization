@@ -117,40 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CancelButton.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="SeeAllMessage.Text" xml:space="preserve">
+    <value>See All Messages</value>
   </data>
-  <data name="DialogTitle.Text" xml:space="preserve">
-    <value>{0} Folder Info</value>
-  </data>
-  <data name="FolderNameLabel.Help" xml:space="preserve">
-    <value>Edit the current Folder Name</value>
-  </data>
-  <data name="FolderNameLabel.Text" xml:space="preserve">
-    <value>Folder Name</value>
-  </data>
-  <data name="FolderTypeLabel.Help" xml:space="preserve">
-    <value>This value indicates the Folder Type of the current folder</value>
-  </data>
-  <data name="FolderTypeLabel.Text" xml:space="preserve">
-    <value>Folder Type</value>
-  </data>
-  <data name="GeneralTab.Text" xml:space="preserve">
-    <value>General</value>
-  </data>
-  <data name="PermissionsTab.Text" xml:space="preserve">
-    <value>Permissions</value>
-  </data>
-  <data name="SaveButton.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="UserCannotChangePermissionsError.Text" xml:space="preserve">
-    <value>You cannot change the permissions of this folder</value>
-  </data>
-  <data name="UserCannotEditFolderError.Text" xml:space="preserve">
-    <value>You do not have permission to edit this folder</value>
-  </data>
-  <data name="UserCannotReadFolderError.Text" xml:space="preserve">
-    <value>You do not have permission to read this folder</value>
+  <data name="SeeAllNotification.Text" xml:space="preserve">
+    <value>See All Notifications</value>
   </data>
 </root>

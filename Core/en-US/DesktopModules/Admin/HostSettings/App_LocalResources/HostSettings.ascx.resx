@@ -205,7 +205,7 @@
     <value>Host Email:</value>
   </data>
   <data name="plHostSkin.Text" xml:space="preserve">
-    <value>Host Skin:</value>
+    <value>Host Theme:</value>
   </data>
   <data name="plHostContainer.Text" xml:space="preserve">
     <value>Host Container:</value>
@@ -286,7 +286,7 @@
     <value>Allowable File Extensions:</value>
   </data>
   <data name="plSkinUpload.Text" xml:space="preserve">
-    <value>Skin Upload Permission:</value>
+    <value>Theme Upload Permission:</value>
   </data>
   <data name="plCache.Text" xml:space="preserve">
     <value>Cache Timeout (seconds):</value>
@@ -304,25 +304,10 @@
     <value>Upgrade Log For Version</value>
   </data>
   <data name="EmailSentMessage.Text" xml:space="preserve">
-    <value>Email Sent Successfully</value>
+    <value>Email Sent Successfully from {0} to {0}</value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>You Must Specify The Host Email Address</value>
-  </data>
-  <data name="plSchedulerMode.Text" xml:space="preserve">
-    <value>Scheduler Mode:</value>
-  </data>
-  <data name="plSchedulerMode.Help" xml:space="preserve">
-    <value>The Timer Method maintains a separate thread to execute scheduled tasks while the worker process is alive. Alternatively, the Request Method executes tasks when HTTP Requests are made.  You can also disable the scheduler by selecting Disabled.</value>
-  </data>
-  <data name="Disabled.Text" xml:space="preserve">
-    <value>Disabled</value>
-  </data>
-  <data name="TimerMethod.Text" xml:space="preserve">
-    <value>Timer Method</value>
-  </data>
-  <data name="RequestMethod.Text" xml:space="preserve">
-    <value>Request Method</value>
   </data>
   <data name="15Seconds.Text" xml:space="preserve">
     <value>15 Seconds</value>
@@ -370,7 +355,7 @@
     <value>Enter a support email adress for your Hosting Account</value>
   </data>
   <data name="plHostSkin.Help" xml:space="preserve">
-    <value>Select the default skin to use for your sites</value>
+    <value>Select the default theme to use for your sites</value>
   </data>
   <data name="plHostContainer.Help" xml:space="preserve">
     <value>Select the default container to use for your sites</value>
@@ -460,7 +445,7 @@
     <value>Enter the allowable file extensions (separated by commas)</value>
   </data>
   <data name="plSkinUpload.Help" xml:space="preserve">
-    <value>Select whether Skin Upload is restricted to the "Host" Account or can be done by Site Administrators</value>
+    <value>Select whether Theme Upload is restricted to the "Host" Account or can be done by Site Administrators</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Host</value>
@@ -520,7 +505,7 @@
     <value>Host Settings</value>
   </data>
   <data name="SkinUpload.Text" xml:space="preserve">
-    <value>Upload Skin/Container</value>
+    <value>Upload Theme/Container</value>
   </data>
   <data name="ContainerUpload.Text" xml:space="preserve">
     <value>Upload Container</value>
@@ -645,18 +630,6 @@
   <data name="plUserQuota.Text" xml:space="preserve">
     <value>User Quota:</value>
   </data>
-  <data name="Deflate.Text" xml:space="preserve">
-    <value>Deflate Compression</value>
-  </data>
-  <data name="NoCompression.Text" xml:space="preserve">
-    <value>No Compression</value>
-  </data>
-  <data name="plCompression.Help" xml:space="preserve">
-    <value>Select the type of Http Compression to use.</value>
-  </data>
-  <data name="plCompression.Text" xml:space="preserve">
-    <value>Compression Setting:</value>
-  </data>
   <data name="Performance.Text" xml:space="preserve">
     <value>Performance Settings</value>
   </data>
@@ -674,9 +647,6 @@
   </data>
   <data name="plWhitespace.Text" xml:space="preserve">
     <value>Use Whitespace Filter:</value>
-  </data>
-  <data name="Compression.Text" xml:space="preserve">
-    <value>Compression Settings</value>
   </data>
   <data name="plExcludedPaths.Text" xml:space="preserve">
     <value>Excluded Paths:</value>
@@ -721,10 +691,10 @@
     <value>Items</value>
   </data>
   <data name="plHostDefaultDocType.Text" xml:space="preserve">
-    <value>Fallback Skin Doctype:</value>
+    <value>Fallback Theme Doctype:</value>
   </data>
   <data name="plHostDefaultDocType.Help" xml:space="preserve">
-    <value>Sets the fallback Skin Doctype for webpages.  This is used if the Skin does not define the DocType.</value>
+    <value>Sets the fallback Theme Doctype for webpages.  This is used if the Theme does not define the DocType.</value>
   </data>
   <data name="LegacyDoctype.Text" xml:space="preserve">
     <value>HTML 4 (legacy)</value>
@@ -763,10 +733,10 @@
     <value>Edit Container:</value>
   </data>
   <data name="plAdminSkin.Help" xml:space="preserve">
-    <value>The selected skin will be applied to all edit mode (ctl=) pages on your sites.</value>
+    <value>The selected theme will be applied to all edit mode (ctl=) pages on your sites.</value>
   </data>
   <data name="plAdminSkin.Text" xml:space="preserve">
-    <value>Edit Skin:</value>
+    <value>Edit Theme:</value>
   </data>
   <data name="plJQueryDebugVersion.Help" xml:space="preserve">
     <value>If checked, then the standard jQuery script file is used.  If unchecked, then a minified version is used which  significantly reduces the size of the javascript file, but decreases readability of the javascript.</value>
@@ -792,6 +762,12 @@
   <data name="plJQueryVersion.Text" xml:space="preserve">
     <value>Installed jQuery Version:</value>
   </data>
+  <data name="plEnableCDN.Help" xml:space="preserve">
+    <value>If checked, then the associated URL will be used for javascript libraries.  If unchecked then local copies of the file will be used.</value>
+  </data>
+  <data name="plEnableCDN.Text" xml:space="preserve">
+    <value>Use javascript libraries CDN?</value>
+  </data>
   <data name="HostEmail.Error" xml:space="preserve">
     <value>Email Address is invalid</value>
   </data>
@@ -805,7 +781,7 @@
     <value>The application you are running</value>
   </data>
   <data name="FrameworkDownLevel.Text" xml:space="preserve">
-    <value>Note: You are running on an old version of the .NET Framework.  Future upgrades of the DotNetNuke platform will require .NET 3.5 SP1 or later. If you believe you are running .NET 3.5 SP1 already, please check your web.config file and ensure that the 3.5 or above versions of both System.Core and System.Data.Linq are referenced in the assemblies node.</value>
+    <value>Note: You are running on an old version of the .NET Framework.  The DNN Platform requires .NET 4.0 or later.</value>
   </data>
   <data name="plBetaNotice.Help" xml:space="preserve">
     <value>Check this box to display a message indicating that the running version is a Beta release.</value>
@@ -841,7 +817,7 @@
     <value>Page Output Cache Provider</value>
   </data>
   <data name="plUseCustomModuleCssClass.Help" xml:space="preserve">
-    <value>Check this option to enable a custom css class based on the module definition to be rendered.  This can be used by skin designers to apply specific css styles to specific module types.</value>
+    <value>Check this option to enable a custom css class based on the module definition to be rendered.  This can be used by theme designers to apply specific css styles to specific module types.</value>
   </data>
   <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
     <value>Use Custom Module Css Class?</value>
@@ -853,10 +829,10 @@
     <value>Allow Content Localization?</value>
   </data>
   <data name="SkinPreview.Text" xml:space="preserve">
-    <value>Preview Host Skin and Container</value>
+    <value>Preview Host Theme and Container</value>
   </data>
   <data name="EditSkinPreview.Text" xml:space="preserve">
-    <value>Preview Edit Skin and Container</value>
+    <value>Preview Edit Theme and Container</value>
   </data>
   <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
     <value>This is the full URL for the jQuery UI script.  By default this is set to the latest jQuery UI minified script hosted on Google's CDN servers for optimum performance.</value>
@@ -871,10 +847,7 @@
     <value>Installed jQuery UI Version</value>
   </data>
   <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value>Please select a skin and/or container to preview.</value>
-  </data>
-  <data name="DeprecateGzip.Text" xml:space="preserve">
-    <value>DotNetNuke's GZip compression is getting deprecated and removed in 6.2.0. We recommend using IIS compression to increase performance on your server.</value>
+    <value>Please select a theme and/or container to preview.</value>
   </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value>Client Resource Management</value>
@@ -916,7 +889,7 @@
     <value>There was an error incrementing the Client Resource version.</value>
   </data>
   <data name="DebugEnabled.Text" xml:space="preserve">
-    <value>Debug mode is currently enabled at the application level (this is specified in the web.config file). This means that files will not be combined, even if file combining is enabled here or at the host level.</value>
+    <value>Debug mode is currently enabled at the application level (this is specified in the web.config file). This means that files will not be combined, even if file combining is enabled here or at the site level.</value>
   </data>
   <data name="DebugEnabled.Title" xml:space="preserve">
     <value>Important note regarding application debug mode</value>
@@ -980,6 +953,9 @@
   </data>
   <data name="plResetLinkValidity.Text" xml:space="preserve">
     <value>Reset link timeout (minutes)</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Text" xml:space="preserve">
+    <value>Administrator reset link timeout (minutes)</value>
   </data>
   <data name="plNumberPasswords.Text" xml:space="preserve">
     <value>Number of passwords to store</value>
@@ -1050,6 +1026,12 @@
   <data name="valResetLink.Error" xml:space="preserve">
     <value>Reset link timeouts must be greater than 0</value>
   </data>
+  <data name="plAdminResetLinkValidity.Help" xml:space="preserve">
+    <value>Administrator reset links are only valid for (in minutes).</value>
+  </data>
+  <data name="valAdminResetLink.Error" xml:space="preserve">
+    <value>Administrator reset link timeouts must be greater than 0</value>
+  </data>
   <data name="AlwaysUse.Text" xml:space="preserve">
     <value>All URLs.</value>
   </data>
@@ -1090,7 +1072,7 @@
     <value>Search Index Path:</value>
   </data>
   <data name="SearchIndex.Text" xml:space="preserve">
-    <value>Search</value>
+    <value>Search Settings</value>
   </data>
   <data name="btnCompactSearchIndex.Text" xml:space="preserve">
     <value>Compact Index</value>
@@ -1109,7 +1091,7 @@ Both Compacting and Re-Indexing are done by Site Search Crawler scheduled job.
     <value>Cancel</value>
   </data>
   <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
-    <value>Compacting Index can by CPU consuming and may require twice the space of the current Index Store for processing. Compacting is done by site search crawler and depends on it's scheduling frequency. Are you sure you want to continue?</value>
+    <value>Compacting Index can be CPU consuming and may require twice the space of the current Index Store for processing. Compacting is done by site search crawler and depends on its scheduling frequency. Are you sure you want to continue?</value>
   </data>
   <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
     <value>Confirm Compacting</value>
@@ -1179,5 +1161,117 @@ Both Compacting and Re-Indexing are done by Site Search Crawler scheduled job.
   </data>
   <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
     <value>Search Index Size:</value>
+  </data>
+  <data name="plDebugMode.Help" xml:space="preserve">
+    <value>If checked the installation runs in "debug mode", meaning that various parts of the application will write more verbose error logs etc. Note this may lead to performance degradation.</value>
+  </data>
+  <data name="plDebugMode.Text" xml:space="preserve">
+    <value>Debug Mode</value>
+  </data>
+  <data name="plShowCriticalErrors.Help" xml:space="preserve">
+    <value>This setting determines if error messages sent via the error querystring parameter should be shown inline in the page.</value>
+  </data>
+  <data name="plShowCriticalErrors.Text" xml:space="preserve">
+    <value>Show Critical Errors on screen?</value>
+  </data>
+  <data name="lblCustomAnalyzer.Help" xml:space="preserve">
+    <value>&lt;p&gt;If this is empty, system will use standard analyzer to index content. if you want to use custom analyzer, please type the full name of analyzer class in this field.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note: &lt;/b&gt;If you want exist content to index with new analyzer, you need visit "Admin &gt; Search Admin" in each site which you want re-index and click the "Re-Index Content" button.&lt;/p&gt;</value>
+  </data>
+  <data name="lblCustomAnalyzer.Text" xml:space="preserve">
+    <value>Custom Analyzer Type:</value>
+  </data>
+  <data name="Mb.Text" xml:space="preserve">
+    <value>Mb</value>
+  </data>
+  <data name="plMaxUploadSize.Help" xml:space="preserve">
+    <value>Maximum size of file that can be uploaded to the site. The minimum is 12 Mb.</value>
+  </data>
+  <data name="plMaxUploadSize.Text" xml:space="preserve">
+    <value>Max Upload Size</value>
+  </data>
+  <data name="maxUploadSize.Error" xml:space="preserve">
+    <value>Maximum Upload Size must be between 12 and {0}</value>
+  </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Max Idle Time:</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>The length of time, in milliseconds, that a connection associated with the ServicePoint object can remain idle before it is closed and reused for another connection. Max value is 2147483647. Default is 0. 
+</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Connection Limit:</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>The maximum number of connections allowed on this ServicePoint object. Max value is 2147483647. Default is 1. </value>
+  </data>
+  <data name="ConnectionLimitValidation.Text" xml:space="preserve">
+    <value>Numbers from 1 to 2147483647 only!</value>
+  </data>
+  <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
+    <value>Numbers from 1 to 2147483647 only!</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>The number of days before a User must change their password (value of 0 means the password never expires)</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>Password Expiry (in days):</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>The number of days warning the user will recieve that their password is about to expire.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>Password Expiry Reminder (in days):</value>
+  </data>
+  <data name="plSSLDomain.Help" xml:space="preserve">
+    <value>The domain used when upgrade wizard forced to shown in SSL channel.</value>
+  </data>
+  <data name="plSSLDomain.Text" xml:space="preserve">
+    <value>SSL Domain</value>
+  </data>
+  <data name="plUpgradeForceSSL.Help" xml:space="preserve">
+    <value>Whether force upgrade wizard shown in SSL channel.</value>
+  </data>
+  <data name="plUpgradeForceSSL.Text" xml:space="preserve">
+    <value>Require SSL for Upgrade wizard</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Help" xml:space="preserve">
+    <value>Enable this setting to allow search within words. For example: by default, searching "dnn" will match "dnn8" but not "powerfuldnn" - it only searches words that begin with the keyword. If you want to return "powerfuldnn" in search result, you need to enable this setting. Note: this may cause performance issues, so make sure to only enable this setting when really needed.</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Text" xml:space="preserve">
+    <value>Enable partial-word search (slow):</value>
+  </data>
+  <data name="lblAuthorBoost.Help" xml:space="preserve">
+    <value>Author boost value is associated with the author as it is indexed. The higher the value, the more relevant the field will be for determining the order of the results.</value>
+  </data>
+  <data name="lblAuthorBoost.Text" xml:space="preserve">
+    <value>Author Boost:</value>
+  </data>
+  <data name="lblContentBoost.Help" xml:space="preserve">
+    <value>Content boost value is associated with the content as it is indexed. The higher the value, the more relevant the field will be for determining the order of the results.</value>
+  </data>
+  <data name="lblContentBoost.Text" xml:space="preserve">
+    <value>Content Boost:</value>
+  </data>
+  <data name="lblDescriptionBoost.Help" xml:space="preserve">
+    <value>Description boost value is associated with the description as it is indexed. The higher the value, the more relevant the field will be for determining the order of the results.</value>
+  </data>
+  <data name="lblDescriptionBoost.Text" xml:space="preserve">
+    <value>Description Boost:</value>
+  </data>
+  <data name="lblTagBoost.Help" xml:space="preserve">
+    <value>Tag boost value is associated with the tag as it is indexed. The higher the value, the more relevant the field will be for determining the order of the results.</value>
+  </data>
+  <data name="lblTagBoost.Text" xml:space="preserve">
+    <value>Tag Boost:</value>
+  </data>
+  <data name="lblTitleBoost.Help" xml:space="preserve">
+    <value>Title boost value is associated with the title as it is indexed. The higher the value, the more relevant the field will be for determining the order of the results.</value>
+  </data>
+  <data name="lblTitleBoost.Text" xml:space="preserve">
+    <value>Title Boost:</value>
+  </data>
+  <data name="SiteLogBufferValidation.Text" xml:space="preserve">
+    <value>Buffer size needs to be at least 1.</value>
   </data>
 </root>

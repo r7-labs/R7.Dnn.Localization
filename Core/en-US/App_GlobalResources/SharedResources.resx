@@ -118,10 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DeleteItem.Text" xml:space="preserve">
-    <value>Are You Sure You Wish To Delete This Item?</value>
+    <value>Are you sure you wish to delete this item?</value>
+  </data>
+  <data name="DeletetUser.Text" xml:space="preserve">
+    <value>Are you sure you wish to delete this user?</value>
+  </data>
+  <data name="UnregisterUser.Text" xml:space="preserve">
+    <value>Are you sure you want to unregister? This will delete your user account.</value>
   </data>
   <data name="RemoveItem.Text" xml:space="preserve">
-    <value>Are You Sure You Wish To Remove This Item?</value>
+    <value>Are you sure you wish to remove this item?</value>
   </data>
   <data name="Calendar.Text" xml:space="preserve">
     <value>Calendar</value>
@@ -179,6 +185,9 @@
   </data>
   <data name="cmdReturn.Text" xml:space="preserve">
     <value>Return</value>
+  </data>
+  <data name="cmdStop.Text" xml:space="preserve">
+    <value>Stop</value>
   </data>
   <data name="cmdDownLoad.Text" xml:space="preserve">
     <value>Download</value>
@@ -253,7 +262,7 @@
     <value>[Skin Objects]</value>
   </data>
   <data name="SkinObjectsDescription.Text" xml:space="preserve">
-    <value>Skin Objects are User Controls which can be used to provide custom functionality to your Skin files.</value>
+    <value>Skin Objects are User Controls which can be used to provide custom functionality to your Theme files.</value>
   </data>
   <data name="ReadError.Text" xml:space="preserve">
     <value>Could not read all the data: {0}/{1}</value>
@@ -307,7 +316,7 @@
     <value>An Unexpected Error Occurred During Registration. Please Contact The Website Administrator For Futher Information.</value>
   </data>
   <data name="PaneNotFound.Error" xml:space="preserve">
-    <value>Cannot locate ContentPane for Skin</value>
+    <value>Cannot locate ContentPane for Theme</value>
   </data>
   <data name="ContractExpired.Error" xml:space="preserve">
     <value>The hosting contract for {0} expired on {1}. Please contact &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; for further information.</value>
@@ -319,7 +328,7 @@
     <value>You do not have access to view this module within the website.</value>
   </data>
   <data name="CriticalError.Error" xml:space="preserve">
-    <value>A critical error has occurred.</value>
+    <value>A critical error has occurred. Please check the Event Viewer for further details.</value>
   </data>
   <data name="ModuleLoad.Error" xml:space="preserve">
     <value>Unhandled error loading module.</value>
@@ -352,13 +361,13 @@
     <value>{0} is a restricted file type. Valid file types include ( *.{1}). Please contact your hosting provider if you need to upload a file type which is not supported.</value>
   </data>
   <data name="Skins.Text" xml:space="preserve">
-    <value>Skins</value>
+    <value>Themes</value>
   </data>
   <data name="Containers.Text" xml:space="preserve">
     <value>Containers</value>
   </data>
   <data name="StartProcessor.Text" xml:space="preserve">
-    <value>Initialize processor for skin/container files</value>
+    <value>Initialize processor for theme/container files</value>
   </data>
   <data name="PackageLoad.Text" xml:space="preserve">
     <value>Loaded package level attribute file</value>
@@ -370,7 +379,7 @@
     <value>Discarding duplicate skin object for token {0}</value>
   </data>
   <data name="DuplicateSkinObject.Detail" xml:space="preserve">
-    <value>Any skin that references this token will utilize the skin control registered first {0} rather than the one specified by the duplicate ({1}).  The skin may render incorrectly.</value>
+    <value>Any theme that references this token will utilize the theme control registered first {0} rather than the one specified by the duplicate ({1}).  The theme may render incorrectly.</value>
   </data>
   <data name="LoadingSkinToken.Text" xml:space="preserve">
     <value>Loading skin object for token {0}</value>
@@ -382,7 +391,7 @@
     <value>End processing file</value>
   </data>
   <data name="EndSkinFiles.Text" xml:space="preserve">
-    <value>End processing skin/container files</value>
+    <value>End processing theme/container files</value>
   </data>
   <data name="FileFormat.Error" xml:space="preserve">
     <value>File formatting error</value>
@@ -499,7 +508,7 @@
     <value>DNN file is in valid {0} format.</value>
   </data>
   <data name="DNN_ValidSkinObject.Text" xml:space="preserve">
-    <value>DNN file is in valid 2.0 SkinObject format.</value>
+    <value>DNN file is in valid 2.0 ThemeObject format.</value>
   </data>
   <data name="EXCEPTION.Text" xml:space="preserve">
     <value>Exception</value>
@@ -957,6 +966,9 @@
   <data name="User.Text" xml:space="preserve">
     <value>Username:</value>
   </data>
+  <data name="DisplayName.Text" xml:space="preserve">
+    <value>Display Name:</value>
+  </data>
   <data name="PageDisabled.Header" xml:space="preserve">
     <value>Page Disabled</value>
   </data>
@@ -970,7 +982,7 @@
     <value>Password Question must be provided</value>
   </data>
   <data name="PasswordChanged.Text" xml:space="preserve">
-    <value>The password has been reset.</value>
+    <value>The password has been changed.</value>
   </data>
   <data name="PasswordInvalid.Text" xml:space="preserve">
     <value>You must enter a valid password.  Please check with the Website Administrator if you do not know the password requirements.</value>
@@ -985,7 +997,19 @@
     <value>The new password is the same as the old password.  Please enter a different password</value>
   </data>
   <data name="PasswordResetFailed.Text" xml:space="preserve">
-    <value>There was an error setting the password. The password has not been changed.</value>
+    <value>Your new password was not accepted for security reasons. Please make sure to choose a password which does not match a previously used password and which is long and complex enough to meet the sites password complexity requirements.</value>
+  </data>
+  <data name="PasswordResetFailed_UserUndefined.Text" xml:space="preserve">
+    <value>Your new password was not accepted for security reasons. Please make sure to choose a password which does not match a previously used password and username is correct.</value>
+  </data>
+  <data name="PasswordResetFailed_ResetLinkExpired.Text" xml:space="preserve">
+    <value>Your new password was not accepted for security reasons. Password reset link has expired and no longer valid.</value>
+  </data>
+  <data name="PasswordResetFailed_PasswordInHistory.Text" xml:space="preserve">
+    <value>Your new password was not accepted for security reasons. Please make sure to choose a password which does not match a previously used password.</value>
+  </data>
+  <data name="PasswordResetFailed_WrongAnswer.Text" xml:space="preserve">
+    <value>Your new password was not accepted for security reasons. Please make sure you input correct username and answer.</value>
   </data>
   <data name="InsecureAdmin.Text" xml:space="preserve">
     <value>Your admin account is still using a known default password. Please go to the Admin-&gt;User accounts menu and update the password. In addition, please ensure that you have updated the email address to a valid value.</value>
@@ -1036,7 +1060,7 @@
     <value>CAPTCHA image</value>
   </data>
   <data name="PrivateConfirmationMessage.Text" xml:space="preserve">
-    <value>&lt;strong&gt;An e-mail with your details has been sent to the website administrator for verification. Once your registration has been approved an e-mail will be sent to your e-mail address: {0}. In the meantime you can continue to browse this site by closing the popup.&lt;/strong&gt;  </value>
+    <value>&lt;strong&gt;An e-mail with your details has been sent to the website administrator for verification. Once your registration has been approved an e-mail will be sent to your e-mail address. In the meantime you can continue to browse this site by closing the popup.&lt;/strong&gt;  </value>
   </data>
   <data name="DNN_ReadingComponent.Text" xml:space="preserve">
     <value>Reading Component Manifest</value>
@@ -1109,6 +1133,12 @@
   </data>
   <data name="ASSEMBLY_Added.Text" xml:space="preserve">
     <value>Assembly registered</value>
+  </data>
+  <data name="ASSEMBLY_AddedBindingRedirect.Text" xml:space="preserve">
+    <value>Binding redirect added for assembly</value>
+  </data>
+  <data name="ASSEMBLY_RemovedBindingRedirect.Text" xml:space="preserve">
+    <value>Binding redirect removed for assembly</value>
   </data>
   <data name="ASSEMBLY_Updated.Text" xml:space="preserve">
     <value>Assembly updated</value>
@@ -1183,10 +1213,10 @@
     <value>Error Deleting User</value>
   </data>
   <data name="SKIN_BeginProcessing.Text" xml:space="preserve">
-    <value>Begin Processing of Skin Files</value>
+    <value>Begin Processing of Theme Files</value>
   </data>
   <data name="SKIN_EndProcessing.Text" xml:space="preserve">
-    <value>End Processing of Skin Files</value>
+    <value>End Processing of Theme Files</value>
   </data>
   <data name="MODULE_ControlKeyMissing.Text" xml:space="preserve">
     <value>Module Control Key Missing</value>
@@ -1228,10 +1258,10 @@
     <value>Error Saving File to Archive - {0}</value>
   </data>
   <data name="SKIN_Registered.Text" xml:space="preserve">
-    <value>Skin Package Registered successfully - {0}</value>
+    <value>Theme Package Registered successfully - {0}</value>
   </data>
   <data name="SKIN_UnRegistered.Text" xml:space="preserve">
-    <value>Skin Package Unregistered successfully - {0}</value>
+    <value>Theme Package Unregistered successfully - {0}</value>
   </data>
   <data name="WRITER_AddFileToManifest.Text" xml:space="preserve">
     <value>Added File to manifest - {0}</value>
@@ -1321,7 +1351,7 @@
     <value>Unable to determine jQuery Version.</value>
   </data>
   <data name="SendMail.Error" xml:space="preserve">
-    <value>There was an error sending confirmation emails - {0}.  However, your user account was created successfully.</value>
+    <value>There was an error sending confirmation emails - {0}  However, your user account was created successfully.</value>
   </data>
   <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
     <value>Error accessing [{0}:{1}], {0} is an unknown datasource.</value>
@@ -1345,7 +1375,7 @@
     <value>Dashboard Control unregistered successfully</value>
   </data>
   <data name="SKIN_Installed.Text" xml:space="preserve">
-    <value>Skin already installed with a different Package Name</value>
+    <value>Theme already installed with a different Package Name</value>
   </data>
   <data name="ModuleEffective.Text" xml:space="preserve">
     <value>Module Effective - {0}</value>
@@ -1757,5 +1787,155 @@
   </data>
   <data name="RootFolder.Name" xml:space="preserve">
     <value>Site Root</value>
+  </data>
+  <data name="HostRootFolder.Name" xml:space="preserve">
+    <value>Host Root</value>
+  </data>
+  <data name="LIBRARY_ReadSuccess.Text" xml:space="preserve">
+    <value>Parsed library manifest successfully</value>
+  </data>
+  <data name="LIBRARY_Registered.Text" xml:space="preserve">
+    <value>Library Registered Successfully - {0}</value>
+  </data>
+  <data name="LIBRARY_UnRegistered.Text" xml:space="preserve">
+    <value>Library UnRegistered Successfully - {0}</value>
+  </data>
+  <data name="Daily.Text" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="Hourly.Text" xml:space="preserve">
+    <value>Hourly</value>
+  </data>
+  <data name="Monthly.Text" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="Weekly.Text" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="ScriptCollision.Text" xml:space="preserve">
+    <value>Requests for two or more different versions of JavaScript libraries were made for this page. The details have been logged to the event log.</value>
+  </data>
+  <data name="GettingStarted.Title" xml:space="preserve">
+    <value>Welcome to your website</value>
+  </data>
+  <data name="GettingStarted.SignUpLabel" xml:space="preserve">
+    <value>Sign up for our Newsletter</value>
+  </data>
+  <data name="GettingStarted.SignUpText" xml:space="preserve">
+    <value>Get Tips, Tricks, and Product Updates In Your Inbox</value>
+  </data>
+  <data name="GettingStarted.SignUpButton" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="GettingStarted.DownloadManualButton" xml:space="preserve">
+    <value>Download the User Manual</value>
+  </data>
+  <data name="GettingStarted.DontShowDialogLabel" xml:space="preserve">
+    <value>Don't show this again</value>
+  </data>
+  <data name="GettingStarted.FacebookLinkTooltip" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="GettingStarted.TwitterLinkTooltip" xml:space="preserve">
+    <value>DNN Corp Twitter</value>
+  </data>
+  <data name="GettingStarted.InvalidEmailTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="GettingStarted.InvalidEmailMessage" xml:space="preserve">
+    <value>Specified e-mail is invalid.</value>
+  </data>
+  <data name="GettingStarted.SignUpTitle" xml:space="preserve">
+    <value>Thank You!</value>
+  </data>
+  <data name="GettingStarted.SignUpMessage" xml:space="preserve">
+    <value>Your request has been received.</value>
+  </data>
+  <data name="ViewJournal.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="SizeB.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="SizeGb.Text" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="SizeKb.Text" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="SizeMb.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Friends.Text" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="Followers.Text" xml:space="preserve">
+    <value>Followers</value>
+  </data>
+  <data name="FriendsAndGroups.Text" xml:space="preserve">
+    <value>Friends and Groups</value>
+  </data>
+  <data name="PermissionRoleHeader.Text" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="InvalidRoleId.Text" xml:space="preserve">
+    <value>The role specified is invalid.  Please specify a valid role.</value>
+  </data>
+  <data name="PermissionActionsHeader.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="RoleNotFound.Text" xml:space="preserve">
+    <value>The selected role is not found. Please refresh the page and try again</value>
+  </data>
+  <data name="RoleSelect.Text" xml:space="preserve">
+    <value>Select Role:</value>
+  </data>
+  <data name="CreatingConfiguredFolderMapping.Error" xml:space="preserve">
+    <value>Error when creating a folder mapping from config file</value>
+  </data>
+  <data name="PermissionUserHeader.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="ChooseFile.Text" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="Review.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="FileUpload.UnzipFilePromptTitle.Text" xml:space="preserve">
+    <value>Unzip Information</value>
+  </data>
+  <data name="FileUpload.UnzipFileFailedPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="invalidFiles"&gt;&lt;p&gt;[COUNT] of [TOTAL] file(s) were not extracted because their file types are not supported:&lt;/p&gt;[FILELIST]&lt;/div&gt;</value>
+  </data>
+  <data name="FileUpload.UnzipFileSuccessPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="validFiles"&gt;&lt;p&gt;[TOTAL] of [TOTAL] file(s) files were extracted successfully.&lt;/div&gt;</value>
+  </data>
+  <data name="AuthorizeUser.Text" xml:space="preserve">
+    <value>Authorize</value>
+  </data>
+  <data name="AuthorizeUserDescription.Text" xml:space="preserve">
+    <value>Authorize the user registration.</value>
+  </data>
+  <data name="RejectUser.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="RejectUserDescription.Text" xml:space="preserve">
+    <value>Reject the user registration. Removes the user.</value>
+  </data>
+  <data name="DefaultWorkflowMigrationPrefix.Text" xml:space="preserve">
+    <value>Folders:</value>
+  </data>
+  <data name="DefaultDirectPublishWorkflowDescription.Text" xml:space="preserve">
+    <value>Allows an author to directly publish content to the site</value>
+  </data>
+  <data name="DefaultDirectPublishWorkflowName.Text" xml:space="preserve">
+    <value>Direct Publish</value>
+  </data>
+  <data name="DefaultSaveDraftWorkflowDescription.Text" xml:space="preserve">
+    <value>Allows author to save a draft copy before the content is published</value>
+  </data>
+  <data name="DefaultSaveDraftWorkflowName.Text" xml:space="preserve">
+    <value>Save Draft</value>
   </data>
 </root>

@@ -208,19 +208,19 @@
     <value>Return</value>
   </data>
   <data name="LegacySkin.Text" xml:space="preserve">
-    <value>Legacy Skin/Container:</value>
+    <value>Legacy Theme/Container:</value>
   </data>
   <data name="NoManifest.Text" xml:space="preserve">
-    <value>This package does not appear to be a valid DotNetNuke Extension as it does not have a manifest.  Old (legacy) Skins and Containers do not contain manifests.  If this package is a legacy Skin or Container Package please check the appropriate radio button below, and click Next.</value>
+    <value>This package does not appear to be a valid DotNetNuke Extension as it does not have a manifest.  Old (legacy) Themes and Containers do not contain manifests.  If this package is a legacy Theme or Container Package please check the appropriate radio button below, and click Next.</value>
   </data>
   <data name="Container.Text" xml:space="preserve">
     <value>Container</value>
   </data>
   <data name="None.Text" xml:space="preserve">
-    <value>Not a Skin/Container</value>
+    <value>Not a Theme/Container</value>
   </data>
   <data name="Skin.Text" xml:space="preserve">
-    <value>Skin</value>
+    <value>Theme</value>
   </data>
   <data name="CoreLanguageError.Text" xml:space="preserve">
     <value>The core language for which this language pack is designed is not installed.  Install the core language pack before you install any extension language packs for that language.</value>
@@ -232,7 +232,7 @@
     <value>The installer maintains a list of allowable files (whitelist) that can be installed into your site.  If you are confident that the package you are installing is from a reliable source then you can elect to ignore this list.</value>
   </data>
   <data name="LegacySkinHelp.Text" xml:space="preserve">
-    <value>Legacy Skins and Containers can be installed using this installer, but as they do not have manifests you must identify that the package is a Legacy Skin or Container (if you are not sure if the Skin/Container is a legacy Skin/Container then check the appropriate option anyway).</value>
+    <value>Legacy Themes and Containers can be installed using this installer, but as they do not have manifests you must identify that the package is a Legacy Theme or Container (if you are not sure if the Theme/Container is a legacy Theme/Container then check the appropriate option anyway).</value>
   </data>
   <data name="RepairInstallHelp.Text" xml:space="preserve">
     <value>By default the installer will not overwrite the same Package/Version.  If you would like the Installer to continue and to repair the current installed version then check this box.  Otherwise you will not be able to proceed any further with this installation.</value>
@@ -259,15 +259,21 @@
     <value>Your site is configured with a maximum file upload size of {0} MB. </value>
   </data>
   <data name="AzureCompact.Text" xml:space="preserve">
-    <value>Install without Sql Azure Compatible Verification?</value>
+    <value>Install Extension without Windows Azure SQL Database verification anyway?</value>
   </data>
   <data name="AzureCompactHelp.Text" xml:space="preserve">
-    <value>The website is currently using SQL Azure as the database server, and the package you are trying to install is not verifed as SQL Azure compatible. If a non-compatible module is installed, it can prevent backups and restores of the database from taking place, and can cause run-time exceptions that are not detected during installation.</value>
+    <value>This site uses Windows Azure SQL Database for database storage, and the package you are currently installing has not been verified by the owner to be compatible with Windows Azure SQL Database. If a non-compatible extension is installed, it can stop successful backups and restores of the database, and can cause run-time errors once the extension is in use. You may continue the installation process if you have verified the compatibility of the extension yourself, or click Cancel and contact the owner of the Extension to ask for an Azure SQL Database compatible version.</value>
   </data>
   <data name="AzureCompactMessage.Text" xml:space="preserve">
-    <value>The package doesn't has Sql Azure Compatible Verification.</value>
+    <value>This package is not verified to be compatible with Azure SQL Database.</value>
   </data>
   <data name="AzureCompactWarning.Text" xml:space="preserve">
-    <value>WARNING: You have selected to install the package without SqlAzure Compatible Verification.</value>
+    <value>WARNING: You have selected to install the package without Windows Azure SQL Database verification.</value>
+  </data>
+  <data name="NoAzureCompactHelp.Text" xml:space="preserve">
+    <value>This site uses Windows Azure SQL Database for database storage, and the package you are currently installing has been verified by the owner to be incompatible with Windows Azure SQL Database. Please click 'Cancel' to end the installation process.</value>
+  </data>
+  <data name="NoAzureCompactMessage.Text" xml:space="preserve">
+    <value>This package is not compatible with the Windows Azure SQL Database.</value>
   </data>
 </root>
