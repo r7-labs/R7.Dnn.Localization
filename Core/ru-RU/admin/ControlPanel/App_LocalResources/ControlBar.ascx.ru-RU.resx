@@ -45,6 +45,9 @@
   <data name="Tool.ClearCache.Text" xml:space="preserve">
     <value>Очистка кеша</value>
   </data>
+  <data name="Tool.DeletePage.ConfirmText" xml:space="preserve">
+    <value>Уверены, что хотите удалить эту страницу и все подчиненные?</value>
+  </data>
   <data name="Tool.DeletePage.Special.ToolTip" xml:space="preserve">
     <value>Невозможно удалить эту страницу, так как это системная страница, либо она используется. Используйте возможности, представленные в меню Настройки сайта &gt; Расширенные настройки &gt; Управление страницами или свяжитесь с администратором сайта.</value>
   </data>
@@ -219,10 +222,31 @@
   <data name="Tool.CreateModule.Text" xml:space="preserve">
     <value>Создать модуль</value>
   </data>
+  <data name="Tool.PublishPage.ConfirmText" xml:space="preserve">
+    <value>Публикация страницы сделает ее видимой для всех пользователей сайта, включая гостей.&lt;br&gt;Хотите продолжить?</value>
+  </data>
+  <data name="Tool.PublishPage.Text" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
   <data name="ClearSearchModules.Text" xml:space="preserve">
     <value>Очистить</value>
   </data>
   <data name="SearchModules.Text" xml:space="preserve">
     <value>Поиск</value>
+  </data>
+  <data name="LoadingModuleOnNoDefaultCategory.Text" xml:space="preserve">
+    <value>Не найдено модулей в '{0}', ищем в категории 'Все'</value>
+  </data>
+  <data name="Tool.PublishPage.ConfirmHeader" xml:space="preserve">
+    <value>Сделать страницу видимой для всех пользователей?</value>
+  </data>
+  <data name="Tool.UnpublishPage.ConfirmHeader" xml:space="preserve">
+    <value>Сделать страницу видимой только для администраторов?</value>
+  </data>
+  <data name="Tool.UnpublishPage.ConfirmText" xml:space="preserve">
+    <value>Скрытие страницы означает, что она будет видимой только для администраторов сайта. Все остальные пользователи не смогут ее увидеть и будут перенаправлены на страницу входа в том случае, если попытаются перейти по ранее доступной ссылке.&lt;br&gt;Хотите продолжить?</value>
+  </data>
+  <data name="Tool.UnpublishPage.Text" xml:space="preserve">
+    <value>Скрыть</value>
   </data>
 </root>

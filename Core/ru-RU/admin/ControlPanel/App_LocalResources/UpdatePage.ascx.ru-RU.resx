@@ -21,6 +21,9 @@
   <data name="Child.Text" xml:space="preserve">
     <value>Подчинить</value>
   </data>
+  <data name="DefaultSkin.Text" xml:space="preserve">
+    <value>&lt;Тема сайта по умолчанию&gt;</value>
+  </data>
   <data name="Err.DeserializePanesFailed" xml:space="preserve">
     <value>Не удается обработать шаблон страницы.</value>
   </data>
@@ -45,6 +48,9 @@
   <data name="Err.Title" xml:space="preserve">
     <value>Ошибка</value>
   </data>
+  <data name="HostSkins.Text" xml:space="preserve">
+    <value>Темы хостинга</value>
+  </data>
   <data name="IncludeInMenu.Text" xml:space="preserve">
     <value>Включить в меню</value>
   </data>
@@ -53,6 +59,9 @@
   </data>
   <data name="Permissions.Text" xml:space="preserve">
     <value>Разрешения</value>
+  </data>
+  <data name="PortalSkins.Text" xml:space="preserve">
+    <value>Темы сайта</value>
   </data>
   <data name="Secured.Text" xml:space="preserve">
     <value>Защищена (https)</value>

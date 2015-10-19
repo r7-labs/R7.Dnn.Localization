@@ -45,6 +45,9 @@
   <data name="Tool.CopyPage.Text" xml:space="preserve">
     <value>Копировать</value>
   </data>
+  <data name="Tool.DeletePage.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите удалить эту страницу и все подчиненные?</value>
+  </data>
   <data name="Tool.DeletePage.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
@@ -159,6 +162,9 @@
   <data name="CurrentTabCopyToChildren.Text" xml:space="preserve">
     <value>Копировать</value>
   </data>
+  <data name="Tool.CopyDesignToChildren.Confirm" xml:space="preserve">
+    <value>Тема оформления и контейнеры будут заменены заменены для всех дочерних элементов этой страницы.&lt;br/&gt;&lt;br/&gt;Вы действительно уверены в том, что хотите продолжить?</value>
+  </data>
   <data name="Tool.CopyDesignToChildren.Text" xml:space="preserve">
     <value>Копировать оформление на подчиненные страницы</value>
   </data>
@@ -168,8 +174,14 @@
   <data name="Tool.CopyPermissionsToChildren.Text" xml:space="preserve">
     <value>Скопировать права доступа на дочерние страницы</value>
   </data>
+  <data name="Tool.CopyDesignToChildrenPageEditor.Confirm" xml:space="preserve">
+    <value>Тема оформления и контейнеры будут заменены заменены для всех дочерних элементов этой страницы, для которых у Вас есть права доступа на редактирование.&lt;br/&gt;&lt;br/&gt;Вы действительно уверены в том, что хотите продолжить?</value>
+  </data>
   <data name="Tool.DeletePage.Special.ToolTip" xml:space="preserve">
     <value>Не могу удалить эту страницу, потому что это - системная страница или страница, которая в данный момент используется.  См. параметры настройки сайта&gt; Расширенные параметры настройки&gt; Управление страницами или свяжитесь со своим системным администратором.</value>
+  </data>
+  <data name="Tool.CopyDesignToChildren.ToolTip" xml:space="preserve">
+    <value>Копировать тему и настройки контейнеров для подчиненных</value>
   </data>
   <data name="CurrentTabActions.Text" xml:space="preserve">
     <value>Действия</value>
@@ -281,6 +293,9 @@
   </data>
   <data name="Site.Text" xml:space="preserve">
     <value>Сайт</value>
+  </data>
+  <data name="Skin.Text" xml:space="preserve">
+    <value>Тема</value>
   </data>
   <data name="SwitchButton.Text" xml:space="preserve">
     <value>Переключить сайт</value>
