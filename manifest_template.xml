@@ -1,8 +1,8 @@
 ﻿<dotnetnuke type="Package" version="5.0">
 	<packages>
-		<package name="R7.${PlatformType}.${PackageType}.${PackageName}.${CultureCode}" type="${PackageType}LanguagePack" version="${SourceVersion}">
+		<package name="R7.${PlatformType}.${PackageType}.${PackageName}.${CultureCode}" type="${PackageType}LanguagePack" version="${PackageVersion}">
 			<friendlyName>${ExtensionName}${CultureNameNative}</friendlyName>
-			<description />
+			<description>${PackageDescription}</description>
 			<iconFile />
 			<owner>
 				<name>Roman M. Yagodin</name>
@@ -12,11 +12,14 @@
 			</owner>
 			${License}
 			${ReleaseNotes}
+			<dependencies>
+				${Dependencies}
+			</dependencies>
 			<components>
 				<component type="${PackageType}Language">
 					<languageFiles>
 						<code>${CultureCode}</code>
-						${ExtensionAssembly}
+						${ExtensionPackage}
 						<displayName>${CultureNameNative}</displayName>
 						<fallback>en-US</fallback>
 						<languageFile>

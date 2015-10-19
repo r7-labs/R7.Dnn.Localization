@@ -37,7 +37,7 @@ internal class LanguagePackBuilder
 	public string PackageType = Environment.GetEnvironmentVariable ("LPB_PACKAGE_TYPE");
 	public string SourceVersion = Environment.GetEnvironmentVariable ("LPB_SOURCE_VERSION");
 	public string PlatformType = Environment.GetEnvironmentVariable ("LBP_PLATFORM_TYPE");
-	public string ExtensionAssembly = Environment.GetEnvironmentVariable ("LBP_EXTENSION_ASSEMBLY");
+	public string ExtensionPackage = Environment.GetEnvironmentVariable ("LBP_EXTENSION_PACKAGE");
 
 	public string ManifestFileNameTemplate = "R7_${PlatformType}_${PackageType}_${PackageName}_${CultureCode}.dnn";
 	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}-${PackageVersion}.${CultureCode}.zip";
@@ -191,11 +191,17 @@ internal class LanguagePackBuilder
 
 		if (PackageType == "Extension")
 		{
-			result = result.Replace ("${ExtensionAssembly}", "<package>" + ExtensionAssembly + "</package>");
+			result = result.Replace ("${ExtensionPackage}", "<package>" + ExtensionPackage + "</package>");
+			result = result.Replace ("${PackageDescription}", "For " + ExtensionPackage + " version " + SourceVersion);
+			result = result.Replace ("${Dependencies}",
+				"<dependency type=\"Package\">" + ExtensionPackage + "</dependency>");
 		}
 		else
 		{
-			result = result.Replace ("${ExtensionAssembly}", string.Empty);
+			result = result.Replace ("${ExtensionPackage}", string.Empty);
+			result = result.Replace ("${PackageDescription}", "For DNN Core version " + SourceVersion);
+			result = result.Replace ("${Dependencies}",
+				"<dependency type=\"CoreVersion\">" + SourceVersion + "</dependency>");
 		}
 
 		// Extension language pack name
