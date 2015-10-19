@@ -1,0 +1,11 @@
+<h3>Version 7.4.2-2</h3>
+<ul>
+    <li>Remove version number from package name in the manifest.</li>
+    <li>Added license and release notes.</li>
+</ul>
+<h3>Version 7.4.2-1</h3>
+<ul>
+    <li>Control panel translation updated</li>
+    <li>Translation source files updated from DNN 7.4.2 install</li>
+    <li>Various updates of random resources as a result of bulk reviewing done after switching to DNN 7.4.2</li>
+</ul>
