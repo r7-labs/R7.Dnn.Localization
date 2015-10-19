@@ -109,6 +109,18 @@ internal class LanguagePackBuilder
 
 			manifest = ReplaceTags (manifest);
 
+			// add license
+			if (File.Exists (Path.Combine ("..", "license.txt")))
+				manifest = manifest.Replace ("${License}", "<license src=\"license.txt\" />");
+			else
+				manifest = manifest.Replace ("${License}", "<license />");
+
+			// add release notes
+			if (File.Exists (Path.Combine ("..", "releaseNotes.txt")))
+				manifest = manifest.Replace ("${ReleaseNotes}", "<releaseNotes src=\"releaseNotes.txt\" />");
+			else
+				manifest = manifest.Replace ("${ReleaseNotes}", "<releaseNotes />");
+
 			var manifestFileName = ReplaceTags (ManifestFileNameTemplate);
 
 			File.WriteAllText (manifestFileName, manifest);
@@ -128,8 +140,8 @@ internal class LanguagePackBuilder
 		try
 		{
 			var packFileName = Path.Combine ("..", ReplaceTags (PackFileNameTemplate));
-
-			// copy translations to tmp folder
+			var licenseFileName = "license.txt";
+			var releaseNotesFileName = "releaseNotes.txt";
 
 			Console.WriteLine (Directory.GetCurrentDirectory());
 
@@ -139,15 +151,24 @@ internal class LanguagePackBuilder
 			if (File.Exists (packFileName))
 				File.Delete (packFileName);
 
+			// copy license and release notes
+			if (File.Exists (Path.Combine ("..", licenseFileName)))
+				File.Copy (Path.Combine ("..", licenseFileName), licenseFileName);
+
+			if (File.Exists (Path.Combine ("..", releaseNotesFileName)))
+				File.Copy (Path.Combine ("..", releaseNotesFileName), releaseNotesFileName);
+
 			// create package
 			var zip = new Process ();
 			zip.StartInfo.FileName = "zip";
-			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn -UN=UTF8 ""{0}"" .", packFileName);
+			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn \*.txt -UN=UTF8 ""{0}"" .", packFileName);
 			zip.Start ();
 			zip.WaitForExit ();
 
-			// delete manifest file
+			// delete manifest and related files
 			File.Delete (manifestFileName);
+			File.Delete (licenseFileName);
+			File.Delete (releaseNotesFileName);
 
 			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
 		}

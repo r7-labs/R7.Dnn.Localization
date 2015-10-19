@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="5.0">
 	<packages>
-		<package name="R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}.${CultureCode}" type="${PackageType}LanguagePack" version="${SourceVersion}">
+		<package name="R7.${PlatformType}.${PackageType}.${PackageName}.${CultureCode}" type="${PackageType}LanguagePack" version="${SourceVersion}">
 			<friendlyName>${ExtensionName}${CultureNameNative}</friendlyName>
 			<description />
 			<iconFile />
@@ -10,10 +10,8 @@
 				<url>https://github.com/roman-yagodin/R7.DnnLocalization</url>
 				<email>roman.yagodin@gmail.com</email>
 			</owner>
-			<license></license>
-			<releaseNotes></releaseNotes>
-			<!-- <license src="License.txt" />
-			<releaseNotes src="ReleaseNotes.txt" /> -->
+			${License}
+			${ReleaseNotes}
 			<components>
 				<component type="${PackageType}Language">
 					<languageFiles>
