@@ -1,15 +1,15 @@
 <h3>The MIT License (MIT)</h3>
-<p class="Owner">
+<p>
     Copyright (c) 2014-2015 by Roman M. Yagodin &lt;roman.yagodin@gmail.com&gt;
 </p>
-<h4>Original contributors:</h4>
-<p class="Contributor">
-    <ul>
-        <li>Alexey Sidorov &lt;dnnrussianlp.codeplex.com&gt;</li>
-        <li>Lehman technology &lt;www.dnnsite.ru&lt;</li>
-        <li>maybe others - please email me to be included in the list!</li>
-    </ul>
+<h4>Original contributors</h4>
+<p>
+    <strong>Note:</strong> If you should be listed here, please email to me!
 </p>
+<ul>
+    <li>Alexey Sidorov &lt;dnnrussianlp.codeplex.com&gt;</li>
+    <li>Lehman technology &lt;www.dnnsite.ru&gt;</li>
+</ul>
 <p>
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
     documentation files (the "Software"), to deal in the Software without restriction, including without limitation
