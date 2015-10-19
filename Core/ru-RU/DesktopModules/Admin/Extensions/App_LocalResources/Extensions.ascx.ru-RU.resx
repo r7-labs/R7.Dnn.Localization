@@ -69,15 +69,6 @@
   <data name="ModuleInstall.Action" xml:space="preserve">
     <value>Установить модуль</value>
   </data>
-  <data name="CreateSkin.Action" xml:space="preserve">
-    <value>Создать новый шаблон</value>
-  </data>
-  <data name="EditSkins.Action" xml:space="preserve">
-    <value>Управление шаблонами оформления</value>
-  </data>
-  <data name="SkinInstall.Action" xml:space="preserve">
-    <value>Установить новый шаблон</value>
-  </data>
   <data name="plLocales.Text" xml:space="preserve">
     <value>Найти доступные языковые пакеты:</value>
   </data>
@@ -150,9 +141,6 @@
   <data name="Provider.Type" xml:space="preserve">
     <value>Поставщики</value>
   </data>
-  <data name="Skin.Type" xml:space="preserve">
-    <value>Шаблоны оформления</value>
-  </data>
   <data name="SkinObject.Type" xml:space="preserve">
     <value>Скин-объекты</value>
   </data>
@@ -182,9 +170,6 @@
   </data>
   <data name="CatalogSearchTitle.Text" xml:space="preserve">
     <value>Поиск расширений</value>
-  </data>
-  <data name="CatalogSkin.Text" xml:space="preserve">
-    <value>Шаблон оформления</value>
   </data>
   <data name="SearchLabel.Help" xml:space="preserve">
     <value>Нажмите Enter для поиска, Esc очищает результаты поиска и отменяет его</value>
@@ -275,8 +260,5 @@
   </data>
   <data name="License.Text" xml:space="preserve">
     <value>Лицензия:</value>
-  </data>
-  <data name="ListExtensions.Text" xml:space="preserve">
-    <value>Узнайте о том, как Вы можете предолжить свои расширения &lt;a href="http://www.dotnetnuke.com/App-Gallery.aspx " target="_blank" class="info"&gt;здесь&lt;/a&gt;.</value>
   </data>
 </root>

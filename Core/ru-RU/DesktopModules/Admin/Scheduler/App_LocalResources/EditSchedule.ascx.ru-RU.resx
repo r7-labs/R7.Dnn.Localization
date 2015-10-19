@@ -24,12 +24,6 @@
   <data name="plEnabled.Text" xml:space="preserve">
     <value>Выполнять по расписанию:</value>
   </data>
-  <data name="plTimeLapse.Text" xml:space="preserve">
-    <value>Таймер запуска:</value>
-  </data>
-  <data name="plTimeLapse.Help" xml:space="preserve">
-    <value>Пример: укажите "5" и выберите "минут", чтобы запускать задание каждые 5 минут. Оставьте поле пустым для запрещения таймера запуска этого задания.</value>
-  </data>
   <data name="Minutes.Text" xml:space="preserve">
     <value>минут</value>
   </data>
@@ -39,11 +33,14 @@
   <data name="Hours.Text" xml:space="preserve">
     <value>часов</value>
   </data>
-  <data name="plRetryTimeLapse.Text" xml:space="preserve">
-    <value>Таймер повтора</value>
+  <data name="Weeks.Text" xml:space="preserve">
+    <value>Недель</value>
   </data>
-  <data name="plRetryTimeLapse.Help" xml:space="preserve">
-    <value>Пример: укажите "5" и выберите "минут", чтобы перезапускать задание каждые 5 минут после сбоя. Оставьте поле пустым, чтобы выключить перезапуск.</value>
+  <data name="Months.Text" xml:space="preserve">
+    <value>Месяцев</value>
+  </data>
+  <data name="Years.Text" xml:space="preserve">
+    <value>Лет</value>
   </data>
   <data name="plRetainHistoryNum.Text" xml:space="preserve">
     <value>Сохранять историю:</value>
@@ -92,9 +89,6 @@
   </data>
   <data name="plServers.Text" xml:space="preserve">
     <value>Выполнять на серверах:</value>
-  </data>
-  <data name="plServers.Help" xml:space="preserve">
-    <value>Укажите сервер(а), на которых должна выполняться данное задание. Используейте запятую для разделения имен серверов.</value>
   </data>
   <data name="Seconds.Text" xml:space="preserve">
     <value>Секунд</value>

@@ -99,9 +99,6 @@
   <data name="plHostEmail.Text" xml:space="preserve">
     <value>Email хоста:</value>
   </data>
-  <data name="plHostSkin.Text" xml:space="preserve">
-    <value>Шаблон:</value>
-  </data>
   <data name="plHostContainer.Text" xml:space="preserve">
     <value>Контейнер:</value>
   </data>
@@ -180,9 +177,6 @@
   <data name="plFileExtensions.Text" xml:space="preserve">
     <value>Типы файлов для загрузки:</value>
   </data>
-  <data name="plSkinUpload.Text" xml:space="preserve">
-    <value>Разрешение загрузки скинов:</value>
-  </data>
   <data name="plCache.Text" xml:space="preserve">
     <value>Время кэширования (сек):</value>
   </data>
@@ -199,25 +193,10 @@
     <value>Журнал обновления для версии</value>
   </data>
   <data name="EmailSentMessage.Text" xml:space="preserve">
-    <value>Сообщение успешно отправлено</value>
+    <value>Сообщение успешно отправлено от {0} к {0}</value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>Вы должны указать email-адрес хоста</value>
-  </data>
-  <data name="plSchedulerMode.Text" xml:space="preserve">
-    <value>Запуск планировщика:</value>
-  </data>
-  <data name="plSchedulerMode.Help" xml:space="preserve">
-    <value>Метод "По таймеру" порождает отдельный поток для работы планировщика, работающий параллельно и независимо от основного рабочего процесса. Метод "По запросу" запускает планировщик при выполнении HTTP-запросов. Также Вы можете запретить работу планировщика задач.</value>
-  </data>
-  <data name="Disabled.Text" xml:space="preserve">
-    <value>Запрещено</value>
-  </data>
-  <data name="TimerMethod.Text" xml:space="preserve">
-    <value>По таймеру</value>
-  </data>
-  <data name="RequestMethod.Text" xml:space="preserve">
-    <value>Метод запроса</value>
   </data>
   <data name="15Seconds.Text" xml:space="preserve">
     <value>15 секунд</value>
@@ -263,9 +242,6 @@
   </data>
   <data name="plHostEmail.Help" xml:space="preserve">
     <value>Укажите email-адрес службы поддержки хостинга</value>
-  </data>
-  <data name="plHostSkin.Help" xml:space="preserve">
-    <value>Выберите шаблон по умолчанию для всех сайтов этого хоста</value>
   </data>
   <data name="plHostContainer.Help" xml:space="preserve">
     <value>Выберите контейнер по умолчанию для всех сайтов этого хоста</value>
@@ -354,9 +330,6 @@
   <data name="plFileExtensions.Help" xml:space="preserve">
     <value>Укажите доступные для загрузки типы файлов(через запятую)</value>
   </data>
-  <data name="plSkinUpload.Help" xml:space="preserve">
-    <value>Ограничена ли загрузка шаблонов для учетной записи хоста, или разрешена для администраторов сайта</value>
-  </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хост</value>
   </data>
@@ -413,9 +386,6 @@
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Параметры хоста</value>
-  </data>
-  <data name="SkinUpload.Text" xml:space="preserve">
-    <value>Загрузить скин</value>
   </data>
   <data name="ContainerUpload.Text" xml:space="preserve">
     <value>Загрузить контейнер</value>
@@ -541,18 +511,6 @@
   <data name="plUserQuota.Text" xml:space="preserve">
     <value>Квота на пользователей:</value>
   </data>
-  <data name="Deflate.Text" xml:space="preserve">
-    <value>Метод сжатия-deflate</value>
-  </data>
-  <data name="NoCompression.Text" xml:space="preserve">
-    <value>Без сжатия данных</value>
-  </data>
-  <data name="plCompression.Help" xml:space="preserve">
-    <value>Выберите метод сжатия http</value>
-  </data>
-  <data name="plCompression.Text" xml:space="preserve">
-    <value>Настройки сжатия:</value>
-  </data>
   <data name="Performance.Text" xml:space="preserve">
     <value>Настройки производительности</value>
   </data>
@@ -570,9 +528,6 @@
   </data>
   <data name="plWhitespace.Text" xml:space="preserve">
     <value>Использовать фильтр пробелов:</value>
-  </data>
-  <data name="Compression.Text" xml:space="preserve">
-    <value>Настройки сжатия данных</value>
   </data>
   <data name="plExcludedPaths.Text" xml:space="preserve">
     <value>Исключенные пути:</value>
@@ -616,12 +571,6 @@
   <data name="Items.Text" xml:space="preserve">
     <value>Элементы</value>
   </data>
-  <data name="plHostDefaultDocType.Text" xml:space="preserve">
-    <value>Резервный шаблон Doctype:</value>
-  </data>
-  <data name="plHostDefaultDocType.Help" xml:space="preserve">
-    <value>Устанавливает резервный шаблон оформления Doctype для интернет страниц. Это используется, если шаблон не определяет DocType.</value>
-  </data>
   <data name="LegacyDoctype.Text" xml:space="preserve">
     <value>HTML 4 (устарело)</value>
   </data>
@@ -657,12 +606,6 @@
   </data>
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Служебный контейнер:</value>
-  </data>
-  <data name="plAdminSkin.Help" xml:space="preserve">
-    <value>Выберите служебный скин по-умолчанию для всех сайтов этого хоста</value>
-  </data>
-  <data name="plAdminSkin.Text" xml:space="preserve">
-    <value>Служебный скин:</value>
   </data>
   <data name="plJQueryDebugVersion.Help" xml:space="preserve">
     <value>Если отмечено, то используется стандартный файл сценария jQuery. Если выключено, то используется уменьшенная версия, который значительно уменьшает размер javascript файла, но ухудшает удобочитаемость javascript.</value>
@@ -700,9 +643,6 @@
   <data name="plProduct.Help" xml:space="preserve">
     <value>Используемое Вами приложение DotNetNuke </value>
   </data>
-  <data name="FrameworkDownLevel.Text" xml:space="preserve">
-    <value>Примечание: Вы используете старую версию .NET Framework. Будущие обновления платформы DotNetNuke потребуют .NET 3.5 SP1 или выше. Если Вы считаете, что Вы уже испольуете .NET 3.5 SP1, пожалуйста, проверьте свой файл web.config  и удостоверьтесь в том,  что ссылки на сборки System.Core и  System.Data.Linq имеют версию 3.5 или выше в узле assemblies.</value>
-  </data>
   <data name="plBetaNotice.Help" xml:space="preserve">
     <value>Поставьте этот флажок, чтобы отобразить сообщение, указывающее, что выполняющаяся версия - Бета-версия.</value>
   </data>
@@ -736,9 +676,6 @@
   <data name="PageCacheProvider.Text" xml:space="preserve">
     <value>Провайдер  вывода кэша страницы</value>
   </data>
-  <data name="plUseCustomModuleCssClass.Help" xml:space="preserve">
-    <value>Отметьте эту опцию, чтобы разрешить использование пользовательского css класса, основанному на определении модуля. Это может использоваться  дизайнерами шаблонов, чтобы применить специфичные стили css к специфичным типам модуля.</value>
-  </data>
   <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
     <value>Использовать класс CSS пользовательских модулей?</value>
   </data>
@@ -748,8 +685,17 @@
   <data name="plEnableContentLocalization.Text" xml:space="preserve">
     <value>Разрешить локализацию контента?</value>
   </data>
-  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value>Для предпросмотра необходимо выбрать шаблоны оформления страницы и модулей.</value>
+  <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
+    <value>Это - полный URL-адрес скрипта jQuery UI. По умолчанию установлена последняя сокращенная версия скрита jQuery UI с хостингом на серверах Google's CDN для оптимальной работы.</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Text" xml:space="preserve">
+    <value>URL-адрес хостинга jQuery UI :</value>
+  </data>
+  <data name="plJQueryUIVersion.Help" xml:space="preserve">
+    <value>Показывает строку версии локального скрипта jQuery UI.</value>
+  </data>
+  <data name="plJQueryUIVersion.Text" xml:space="preserve">
+    <value>Установленная версия jQuery UI </value>
   </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value>Управление клиенскими ресурсами</value>
@@ -770,12 +716,15 @@
     <value>Никогда</value>
   </data>
   <data name="SearchIndex.Text" xml:space="preserve">
-    <value>Поиск:</value>
+    <value>Настройки поиска</value>
   </data>
   <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>Пароль истекает через (в днях):</value>
   </data>
 </root>

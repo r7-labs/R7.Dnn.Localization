@@ -27,9 +27,6 @@
   <data name="plTitle.Text" xml:space="preserve">
     <value>Заголовок:</value>
   </data>
-  <data name="plTitle.Help" xml:space="preserve">
-    <value>Введите заголовок для этого элемента управления.  Он будет показан в заголовке модуля, если это позволяет используемый шаблон оформления.</value>
-  </data>
   <data name="plSource.Text" xml:space="preserve">
     <value>Исходный файл:</value>
   </data>
@@ -68,9 +65,6 @@
   </data>
   <data name="plIcon.Text" xml:space="preserve">
     <value>Значок:</value>
-  </data>
-  <data name="plIcon.Help" xml:space="preserve">
-    <value>Можно выбрать значок для этого элемента управления.  Он будет показан в заголовке модуля, если это позволяет используемый шаблон оформления.</value>
   </data>
   <data name="plHelpURL.Text" xml:space="preserve">
     <value>URL cправки:</value>

@@ -15,18 +15,4 @@
   <data name="AddContent.Action">
         <value>Настройки баннеров</value>
     </data>
-  <data name="ModuleHelp.Text">
-        <value>&lt;h1&gt;О модуле Banners&lt;/h1&gt;
-
-&lt;p&gt;Модуль Banners отображает чередующиеся рекламные баннерны, предоставленные сайтом или хостингом.&lt;/p&gt;
-
-&lt;h1&gt;Установка параметров баннеров&lt;/h1&gt;
-
-&lt;ol&gt;&lt;li&gt;Добавьте новый модуль &lt;b&gt;Banners&lt;/b&gt; или используйте существующий модуль.&lt;/li&gt;
-&lt;li&gt;Выберите пункт &lt;b&gt;Свойства баннеров&lt;/b&gt;. 
-&lt;li&gt;В качестве источника баннеров выберите &lt;b&gt;Сайт&lt;/b&gt; или &lt;b&gt;Хостинг&lt;/b&gt;. 
-&lt;li&gt;Выберите один из &lt;b&gt;типов баннеров&lt;/b&gt;.
-&lt;li&gt;Укажите максимальное &lt;b&gt;количество баннеров&lt;/b&gt;, одновременно показываемых в данном модуле. 
-&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/ol&gt;</value>
-    </data>
 </root>

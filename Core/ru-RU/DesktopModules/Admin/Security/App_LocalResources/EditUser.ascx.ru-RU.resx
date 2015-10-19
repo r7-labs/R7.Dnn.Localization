@@ -63,4 +63,7 @@
   <data name="UserUnSubscribed.Text" xml:space="preserve">
     <value>Вы были успешно отписаны от роли {0}.</value>
   </data>
+  <data name="ControlTitle_profile.Text" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
 </root>

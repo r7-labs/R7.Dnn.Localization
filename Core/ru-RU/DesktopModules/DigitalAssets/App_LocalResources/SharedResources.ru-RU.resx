@@ -30,9 +30,6 @@
   <data name="DeleteToolBarButtonExtensionPoint.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
-  <data name="FolderAlreadyExists.Error" xml:space="preserve">
-    <value>Папка с таким именем уже существует. Укажите другое имя.</value>
-  </data>
   <data name="FolderFileNameHasInvalidcharacters.Error" xml:space="preserve">
     <value>Имя содержит недопустимые символы. Укажите имя без {0}</value>
   </data>
@@ -50,12 +47,6 @@
   </data>
   <data name="UploadFilesToolBarButtonExtensionPoint.Text" xml:space="preserve">
     <value>Подгрузить файлы</value>
-  </data>
-  <data name="UserHasNoPermissionToAdd.Error" xml:space="preserve">
-    <value>У пользователя нет разрешения на создание папок в данном месте</value>
-  </data>
-  <data name="UserHasNoPermissionToEditFolder.Error" xml:space="preserve">
-    <value>У пользователя нет разрешения на изменение этой папки</value>
   </data>
   <data name="UserHasNoPermissionToDeleteFiles.Error" xml:space="preserve">
     <value>У пользователя нет разрешения на удаление файлов из этой папки</value>
@@ -147,9 +138,6 @@
   <data name="FolderNameRequired.ErrorMessage" xml:space="preserve">
     <value>Укажите имя папки</value>
   </data>
-  <data name="UserHasNoPermissionToEditFile.Error" xml:space="preserve">
-    <value>У пользователя нет разрешения на изменение этого файла</value>
-  </data>
   <data name="ZoomImage.AltText" xml:space="preserve">
     <value>Открыть в новой вкладке</value>
   </data>
@@ -173,22 +161,6 @@
   </data>
   <data name="UserHasNoPermissionToBrowseFolder.Error" xml:space="preserve">
     <value>У пользователя нет разрешения на просмотр содержимого этой папки</value>
-  </data>
-  <data name="FolderFileNameIsReserved.Error" xml:space="preserve">
-    <value>
-Это имя зарезервировано. Используйте другое имя</value>
-  </data>
-  <data name="SizeB.Text" xml:space="preserve">
-    <value>Б</value>
-  </data>
-  <data name="SizeGb.Text" xml:space="preserve">
-    <value>Гб</value>
-  </data>
-  <data name="SizeKb.Text" xml:space="preserve">
-    <value>Кб</value>
-  </data>
-  <data name="SizeMb.Text" xml:space="preserve">
-    <value>Мб</value>
   </data>
   <data name="RefreshMenuItemExtensionPoint.Text" xml:space="preserve">
     <value>Обновить</value>
@@ -225,5 +197,14 @@
   </data>
   <data name="FolderDoesNotExists.Error" xml:space="preserve">
     <value>Папка не существует</value>
+  </data>
+  <data name="MyFolder.Text" xml:space="preserve">
+    <value>Моя папка</value>
+  </data>
+  <data name="ManageFolderTypesToolBarButtonExtensionPoint.AltText" xml:space="preserve">
+    <value>Управление типами папок</value>
+  </data>
+  <data name="ManageFolderTypesToolBarButtonExtensionPoint.Text" xml:space="preserve">
+    <value>Управление типами папок</value>
   </data>
 </root>

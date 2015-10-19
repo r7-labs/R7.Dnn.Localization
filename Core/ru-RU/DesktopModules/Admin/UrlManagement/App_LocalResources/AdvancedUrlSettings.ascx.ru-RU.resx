@@ -18,4 +18,7 @@
   <data name="Enabled.Header" xml:space="preserve">
     <value>Включено</value>
   </data>
+  <data name="ProviderName.Header" xml:space="preserve">
+    <value>Имя поставшика</value>
+  </data>
 </root>

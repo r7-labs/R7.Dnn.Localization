@@ -7,10 +7,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Type.Text" xml:space="preserve">
     <value>Тип ссылки:</value>
@@ -43,7 +43,7 @@
     <value>Удалить выбранный URL из списка&lt;br/&gt;</value>
   </data>
   <data name="Tab.Text" xml:space="preserve">
-    <value>Выберите страницу на сайте:&lt;br/&gt;</value>
+    <value>Страница:</value>
   </data>
   <data name="Folder.Text" xml:space="preserve">
     <value>Папка:&lt;br/&gt;</value>

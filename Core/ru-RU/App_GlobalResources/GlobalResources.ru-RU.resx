@@ -90,9 +90,6 @@
   <data name="//Admin//LogViewer.String" xml:space="preserve">
     <value>Журнал событий</value>
   </data>
-  <data name="//Host//Skins.String" xml:space="preserve">
-    <value>Скины</value>
-  </data>
   <data name="//Host.String" xml:space="preserve">
     <value>Хост</value>
   </data>
@@ -535,121 +532,8 @@ Website: [Custom:14]</value>
 [Portal:PortalName]
 </value>
   </data>
-  <data name="404.Error" xml:space="preserve">
-    <value>&lt;div style="height: 100%; width: 90%;"&gt;
-&lt;font color="red"&gt;&lt;b&gt;Имени домена {0} не существует в базе данных&lt;/b&gt;&lt;/font&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-DotNetNuke поддерживает множество порталов на единой базе данных и коде. Это 
-достигается преобразованием URL клиентского запроса браузера в допустимый 
-PortalID в таблице базы данных Portals. Следующие шаги описывают процесс:
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
-&lt;li&gt;&lt;strong&gt;Обработка Web-сервера&lt;/strong&gt;&lt;br /&gt;
-&lt;ul style="list-style-type: disc;"&gt;
-&lt;li&gt;Когда сервер получает запрос от клиентского браузера, он 
-сравнивает расширение имени файла из адреса URL со своим 
-Application Extension Mappings, определенным в IIS.
-&lt;li&gt;Основанный на соответствующем соответствии, IIS отправляет 
-запрос определенному обработчику (aspnet_asapi.dll в случае 
-ASP.NET запросов).
-&lt;/li&gt;
-&lt;li&gt;
-&lt;span lang="ru"&gt;М&lt;/span&gt;еханизм aspnet_isapi.dll&amp;nbsp; обрабатывает 
-запрос в определенном порядке событий, начинающихся с 
-Application_BeginRequest.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest ( UrlRewriteModule.vb )&lt;/strong&gt;&lt;br /&gt;
-&lt;ul style="list-style-type: disc;"&gt;
-&lt;li&gt;Запрашиваемый URL разбивается по символам &amp;quot;/&amp;quot;&lt;/li&gt;
-&lt;li&gt;Имя домена создается,  используя каждый из релевантых сегментов URL.
-&lt;br /&gt;
-&lt;br /&gt;
-Например:
-&lt;br /&gt;
-&lt;br /&gt;
-URL: http://www.domain.com/default.aspx = Имя домена: 
-www.domain.com&lt;br /&gt;
-URL: http://209.75.24.131/default.aspx = Имя домена: 
-209.75.24.131&lt;br /&gt;
-URL: http://localhost/DotNetNuke/default.aspx = Имя домена: 
-localhost/DotNetNuke&lt;br /&gt;
-URL: http://www.domain.com/virtualdirectory/default.aspx = 
-Имя домена: www.domain.com/virtualdirectory&lt;br /&gt;
-URL: http://www.domain.com/directory/default.aspx = Имя домена:
-www.domain.com/directory&lt;br /&gt;
-&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;Используя имя домена, приложение запрашивает базу данных 
-( Таблицу Portals - поле PortalAlias) для нахождения нужной записи.
-&lt;br /&gt;
-&lt;br /&gt;
-Примечание: Если есть множество URL, которые ссылаются на один и тот же портал, 
-то тогда поле PortalAlias должно содержать список каждого из допустимых доменных имен, разделенных запятыми. 
-&lt;br /&gt;
-&lt;br /&gt;
-Пример:
-&lt;br /&gt;
-&lt;br /&gt;
-URL: http://localhost/DotNetNuke/default.aspx&lt;br /&gt;
-URL: http://MACHINENAME/DotNetNuke/default.aspx&lt;br /&gt;
-URL: http://209.32.134.65/DotNetNuke/default.aspx&lt;br /&gt;
-PortalAlias: localhost/DotNetNuke,MACHINENAME/DotNetNuke,209.32.134.65/DotNetNuke
-&lt;br /&gt;
-&lt;br /&gt;
-Примечание:  Если вы устанавливаете приложение на удаленный сервер
-вы должны изменить значение поля PortalAlias на запись по умолчанию в таблице Portals 
-по правилам показанным выше. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</value>
-  </data>
   <data name="500.Error" xml:space="preserve">
     <value>{0}</value>
-  </data>
-  <data name="403_3.Error" xml:space="preserve">
-    <value>&lt;div style="height: 100%; width:90%;"&gt;&lt;h1&gt;Ошибка конфигурации DotNetNuke &lt;/h1&gt;{0}&lt;br/&gt;&lt;br/&gt;
-DotNetNuke имеет обширные возможности для загрузки файлов содержимого, модулей, и шаблонов.
-Эти возможности требуют заказных параметров настройки безопасности так, чтобы приложение было
-в состоянии создавать и удалять файлы на вашем веб-сайте.&lt;br/&gt;
-&lt;br/&gt;
-Используя проводник Windows, выберите корневую папку вашего сайта (C:\DotNetNuke по умолчанию).
-Щелкните правой кнопкой мыши по папке и выберите "Общий доступ и Безопасность" в всплывающем меню
-(Заметьте, что, если Вы используете Windows XP, Вам возможно, нужно сначала 
-&lt;a href="http://whoozoo.co.uk/winxpFilePerms.htm" target="_blank"&gt;Разрешить 
-Simple File Sharing&lt;/a&gt; прежде, чем эти опции будут отображены). 
-Выберите вкладку Безопасность.
-Добавьте соответствующую учетную запись пользователя и установите разрешения.
-&lt;br/&gt;
-&lt;br/&gt;
-&lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;
-&lt;li&gt;
-&lt;strong&gt;Если используется Windows 2000 - IIS5&lt;/strong&gt;
-&lt;br/&gt;
-&lt;ol style="list-style-type: circle;"&gt;
-&lt;li&gt;Учетная запись [SERVER]\ASPNET должна иметь права Read, Write, и Change на виртуальном узле вашего сайта.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;br/&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;strong&gt;Если используется Windows 2003 - IIS6&lt;/strong&gt;
-&lt;br/&gt;
-&lt;ol style="list-style-type: circle;"&gt;
-&lt;li&gt;Учетная запись NT AUTHORITY\NETWORK SERVICE должна иметь права Read, Write, 
-и Change на виртуальном узле вашего сайта..&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br/&gt;
-&lt;br/&gt;
-&lt;img alt="Изображение, показывающее параметры настройки безопасности для корневой папки сайта. Должно быть Read, Write и Change Control для учетных записей ASPNET или  NT AUTHORITY/NETWORK SERVICE." src="images/403-3.gif"&gt;
-&lt;/div&gt;</value>
   </data>
   <data name="Error.Text" xml:space="preserve">
     <value>Произошла ошибка.</value>
@@ -708,12 +592,6 @@ Simple File Sharing&lt;/a&gt; прежде, чем эти опции будут 
   <data name="//Admin//Languages.String" xml:space="preserve">
     <value>Языки</value>
   </data>
-  <data name="//Admin//Skins.String" xml:space="preserve">
-    <value>Скины</value>
-  </data>
-  <data name="//Host//FileManager.String" xml:space="preserve">
-    <value>Файлы</value>
-  </data>
   <data name="//Host//Vendors.String" xml:space="preserve">
     <value>Поставщики</value>
   </data>
@@ -722,28 +600,17 @@ Simple File Sharing&lt;/a&gt; прежде, чем эти опции будут 
   </data>
   <data name="License.Text" xml:space="preserve">
     <value>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
-Copyright (c) 2002-2013&lt;br/&gt;
-    by DotNetNuke Corporation&lt;/p&gt;
-    &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
-the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
-    to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
-    &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions 
-    of the Software.&lt;/p&gt;
-    &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
-    DEALINGS IN THE SOFTWARE.&lt;/p&gt;</value>
+Copyright (c) 2002-2014&lt;br/&gt;
+Корпорация DotNetNuke&lt;/p&gt;
+&lt;p&gt;Данная лицензия разрешает, безвозмездно, лицам, получившим копию данного программного обеспечения и сопутствующей документации (в дальнейшем именуемыми "Программное Обеспечение"), использовать Программное Обеспечение без ограничений, включая неограниченное право на использование, копирование, изменение, объединение, публикацию, распространение, сублицензирование и/или продажу копий Программного Обеспечения, также как и лицам, которым предоставляется данное Программное Обеспечение, при соблюдении следующих условий:&lt;/p&gt;
+&lt;p&gt;Вышеупомянутый копирайт и данные условия должны быть включены во все копии или значимые части данного Программного Обеспечения.&lt;/p&gt;
+&lt;p&gt;ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ ЛЮБОГО ВИДА ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ ГАРАНТИЯМИ ТОВАРНОЙ ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И НЕНАРУШЕНИЯ ПРАВ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО ИСКАМ О ВОЗМЕЩЕНИИ УЩЕРБА, УБЫТКОВ ИЛИ ДРУГИХ ТРЕБОВАНИЙ ПО ДЕЙСТВУЮЩИМ КОНТРАКТАМ, ДЕЛИКТАМ ИЛИ ИНОМУ, ВОЗНИКШИМ ИЗ, ИМЕЮЩИМ ПРИЧИНОЙ ИЛИ СВЯЗАННЫМ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ ИЛИ ИСПОЛЬЗОВАНИЕМ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫМИ ДЕЙСТВИЯМИ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.&lt;/p&gt;</value>
   </data>
   <data name="//Admin//Extensions.String" xml:space="preserve">
     <value>Расширения</value>
   </data>
   <data name="//Host//Extensions.String" xml:space="preserve">
     <value>Расширения</value>
-  </data>
-  <data name="SkinLoadError.Text" xml:space="preserve">
-    <value>Невозможно загрузить скин: {0},  Ошибка: {1}&lt;br /&gt;</value>
   </data>
   <data name="EMAIL_ROLE_UPDATE_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Аккаунт пользователя сохранен</value>
@@ -853,7 +720,7 @@ Sincerely,
   <data name="//Host//ProfessionalFeatures.String" xml:space="preserve">
     <value>Возможности Pro-версии</value>
   </data>
-  <data name="//Host//ProfessionalFeatures//ActivateYourLicense.String" xml:space="preserve">
+  <data name="//Host//ProfessionalFeatures//ActivateyourLicense.String" xml:space="preserve">
     <value>Активируйте Вашу лицензию</value>
   </data>
   <data name="//Host//ProfessionalFeatures//ApplicationIntegrity.String" xml:space="preserve">
@@ -909,9 +776,6 @@ Sincerely,
   </data>
   <data name="//NewsPromotions.String" xml:space="preserve">
     <value>Новости и реклама</value>
-  </data>
-  <data name="//OurServices.String" xml:space="preserve">
-    <value>Наши услуги</value>
   </data>
   <data name="//Modules.Text" xml:space="preserve">
     <value>Модули</value>
@@ -1073,10 +937,25 @@ Sincerely,
   <data name="//Admin//FileManagement.String" xml:space="preserve">
     <value>Управление файлами</value>
   </data>
-  <data name="UrlPathCleaned.Error" xml:space="preserve">
-    <value>Введенный URL страницы содержал недопустимые в URL символы. Эти символы были удалены. Нажмите кнопку 'Сохранить' снова чтобы принять измененный URL.</value>
-  </data>
   <data name="UrlPathNotUnique.Error" xml:space="preserve">
     <value>Выбранный URL уже занят. Если Вы хотите принять предложенную альтернативу, нажмите Сохранить.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Пароль обновлен</value>
+  </data>
+  <data name="//Admin//SearchAdmin.String" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="//Host//FileManagement.String" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="//Host//ProfessionalFeatures//AdvancedURLManagement.String" xml:space="preserve">
+    <value>Управление расширенными URL</value>
+  </data>
+  <data name="//Admin//UserSwitcher.String" xml:space="preserve">
+    <value>Переключатель пользователей</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Восстановление утерянного пароля</value>
   </data>
 </root>

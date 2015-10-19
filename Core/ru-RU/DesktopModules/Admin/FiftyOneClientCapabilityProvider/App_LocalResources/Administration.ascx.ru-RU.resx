@@ -12,15 +12,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Help.Text" xml:space="preserve">
-    <value>Справка</value>
-  </data>
-  <data name="HelpLink.Text" xml:space="preserve">
-    <value>Справка</value>
-  </data>
-  <data name="LiteSearchResults.Header" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
   <data name="RefreshButtonText.Text" xml:space="preserve">
     <value>Обновить</value>
     <comment>Used to reload page after upgrade to premium.</comment>
@@ -31,7 +22,34 @@
   <data name="DeviceSearchRequired.Text" xml:space="preserve">
     <value>Требуется обязательно</value>
   </data>
-  <data name="StatsRefreshButton.Text" xml:space="preserve">
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Обнаружение устройств</value>
+  </data>
+  <data name="Cancel.Action" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Refresh.Action" xml:space="preserve">
     <value>Обновить</value>
+  </data>
+  <data name="Settings.Header" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SettingsConfiguration.Header" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SettingsDataSetName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="SettingsDataSetPublished.Text" xml:space="preserve">
+    <value>Опубликовано</value>
+  </data>
+  <data name="SettingsRefresh.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Update.Action" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SettingsFactory.Text" xml:space="preserve">
+    <value>Режим</value>
   </data>
 </root>

@@ -15,36 +15,6 @@
   <data name="ControlTitle_settings.Text" xml:space="preserve">
     <value>Настройки консоли</value>
   </data>
-  <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;p&gt;The console module displays child pages as icons and links, or categories to assist in navigation.  The console module has 4 different display modes:
-&lt;ul&gt;&lt;li&gt;small icons with details as tooltip (Small Icons, Simple View)&lt;/li&gt;
-&lt;li&gt;large icons details as tooltips (Large Icons, Simple View)&lt;/li&gt;
-&lt;li&gt;small icons list with details (Small Icons, Detailed View)&lt;/li&gt;
-&lt;li&gt;large icon list with details (Large Icons, Detailed View)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/P&gt;
-&lt;h3&gt;Page Settings the console module depends on:&lt;/h3&gt;
-&lt;table cellpadding="4" border="1" style="border:solid 1px #dcdcdc;border-collapse:collapse;"&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Page Name&lt;/td&gt;&lt;td&gt;The Page Name is shown as the link title.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Page Description&lt;/td&gt;&lt;td&gt;The Page Description is shown as the tooltip or detail.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Disabled&lt;/td&gt;&lt;td&gt;Category titles are shown if the page has 'Disabled' checked. Child pages of the disabled page will be shown under the title.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Icon File&lt;/td&gt;&lt;td&gt;This icon is used in small icon views.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Large Icon File&lt;/td&gt;&lt;td&gt;This icon is used in large icon views.&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;i&gt;Tip: 'Include in menu' setting will hide pages from the menu but not the console.&lt;/i&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;h3&gt;Console Module Settings&lt;/h3&gt;
-&lt;table cellpadding="4" border="1" style="border:solid 1px #dcdcdc;border-collapse:collapse;"&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Show children of&lt;/td&gt;&lt;td&gt;Selecting a page will display all child pages of that page. Leave this field blank to display all child pages for the current page.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Default icon size&lt;/td&gt;&lt;td&gt;Determines the icon size.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Allow icon resize&lt;/td&gt;&lt;td&gt;Allow the user to resize the icons.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Default view&lt;/td&gt;&lt;td&gt;Determines the default view. Simple view will show icons with page descriptions as tooltips. Detailed view will show a list with descriptions for each item.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Allow view change&lt;/td&gt;&lt;td&gt;Allow the user to switch between detailed and simple views.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Show tooltip&lt;/td&gt;&lt;td&gt;Show a tooltip with detailed description when hovering over icons in Simple View.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td nowrap="nowrap"&gt;Width&lt;/td&gt;&lt;td&gt;Leave this value empty to allow the icons to expand horizontally. Set this value to minimize the width of the console. For example, set this value to 400 for 2 columns of icons.&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;i&gt;Tip: You can prevent users from changing the layout of the page by un-checking 'Allow icon resize' and 'Allow view change'.&lt;/i&gt;</value>
-  </data>
   <data name="AllowResize.Help" xml:space="preserve">
     <value>Разрешить изменение размера используемых значков.</value>
   </data>

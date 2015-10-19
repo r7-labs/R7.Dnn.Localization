@@ -21,9 +21,6 @@
   <data name="Providers.Text" xml:space="preserve">
     <value>Поставщики</value>
   </data>
-  <data name="SkinsAndContainers.Text" xml:space="preserve">
-    <value>Скины и контейнеры</value>
-  </data>
   <data name="SmtpServer.Text" xml:space="preserve">
     <value>Сервер SMTP</value>
   </data>
@@ -60,12 +57,6 @@
   <data name="installExtension.Text" xml:space="preserve">
     <value>Установить</value>
   </data>
-  <data name="SkinDesigner.Title" xml:space="preserve">
-    <value>Дизайнер скина</value>
-  </data>
-  <data name="SkinEditor.Title" xml:space="preserve">
-    <value>Редактор скина</value>
-  </data>
   <data name="Description.Header" xml:space="preserve">
     <value>Описание</value>
   </data>
@@ -74,5 +65,8 @@
   </data>
   <data name="Version.Header" xml:space="preserve">
     <value>Версия</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Расширенные настройки конфигурации</value>
   </data>
 </root>

@@ -42,31 +42,6 @@
   <data name="GroupPicture.Text" xml:space="preserve">
     <value>Эмблема группы</value>
   </data>
-  <data name="GroupViewTemplate.Text" xml:space="preserve">
-    <value>&lt;div class="GroupViewTop"&gt;
-    &lt;div class="dgdAvatar dnnLeft"&gt;&lt;img src="[groupitem:PhotoURL]" alt="[groupitem:GroupName]" /&gt;&lt;/div&gt;
-    &lt;div class="GroupViewHeader"&gt;
-        &lt;h1&gt;[groupitem:GroupName]&lt;/h1&gt;
-        &lt;p&gt;[groupitem:GroupDescription]&lt;/p&gt;
-    &lt;/div&gt;
-&lt;div class="dnnRight dnnClear"&gt;
-[IsOwner]
-[GROUPEDITBUTTON] 
-[/IsOwner]
-[IsMember]
-[IsNotOwner]
- &lt;a href="#" id="LeaveGroup-[groupitem:RoleId]"&gt;{resx:LeaveGroup}&lt;/a&gt;
-[/IsNotOwner]
-[/IsMember]
-[IsNotMember]
- &lt;a href="#" id="JoinGroup-[groupitem:RoleId]" groupid="[groupitem:RoleId]" groupViewTabId ="[GroupViewTabId]"&gt;{resx:JoinGroup}&lt;/a&gt;
-[/IsNotMember]
-[IsPendingMember]
- &lt;i&gt;Ожидают утверждения участия&lt;/i&gt;
-[/IsPendingMember]
-&lt;/div&gt;
-&lt;/div&gt;</value>
-  </data>
   <data name="Join.Text" xml:space="preserve">
     <value>Вступить</value>
   </data>
@@ -196,8 +171,5 @@
   </data>
   <data name="GroupSearch.Required" xml:space="preserve">
     <value>Введите поисковую фразу.</value>
-  </data>
-  <data name="GroupName.Invalid" xml:space="preserve">
-    <value>Неверное имя - имя роли может состоять только из символов A-Za-z0-9_- и пробелов</value>
   </data>
 </root>

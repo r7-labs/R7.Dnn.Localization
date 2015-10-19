@@ -261,4 +261,13 @@
   <data name="Upload.Text" xml:space="preserve">
     <value>Подгрузить с компьютера</value>
   </data>
+  <data name="Action.Text" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="Frequency.Text" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="Unsubscribe.Text" xml:space="preserve">
+    <value>Отписаться</value>
+  </data>
 </root>

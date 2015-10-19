@@ -105,20 +105,6 @@
   <data name="ControlTitle_banner.Text" xml:space="preserve">
     <value>Баннер</value>
   </data>
-  <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;h1&gt;Модуль &amp;laquo;БАННЕРЫ&amp;raquo;&lt;/h1&gt;
-
-&lt;p&gt;Модуль баннерной рекламы выполняет показ чередующихся баннеров, рекламирующих продавцов в масштабах определенного сайта или всего хост-сервера.  &lt;/p&gt;
-
-&lt;h1&gt;Установка параметров баннеров&lt;/h1&gt;
-
-&lt;ol&gt;&lt;li&gt;Добавьте модуль &lt;b&gt;Баннеры&lt;/b&gt;, или перейдите к существующему модулю &lt;b&gt;Баннеры&lt;/b&gt;.&lt;/li&gt;
-&lt;li&gt;Выберите пункт &lt;b&gt;Свойства баннеров&lt;/b&gt;. 
-&lt;li&gt;В качестве источника баннеров выберите &lt;b&gt;Сайт&lt;/b&gt; или &lt;b&gt;Хост&lt;/b&gt;. 
-&lt;li&gt;Выберите один из &lt;b&gt;типов баннеров&lt;/b&gt;.
-&lt;li&gt;Укажите максимальное &lt;b&gt;количество баннеров&lt;/b&gt;, одновременно показываемых в данном модуле. 
-&lt;li&gt;Нажмите кнопку &lt;b&gt;Сохранить&lt;/b&gt;.&lt;/ol&gt;</value>
-  </data>
   <data name="EmailSuccess.Text" xml:space="preserve">
     <value>Сообщение отправлено</value>
   </data>

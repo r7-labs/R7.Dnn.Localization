@@ -12,41 +12,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Tab.About.ContentPane.AboutUsModule.Title.Text" xml:space="preserve">
-    <value>О нас</value>
-  </data>
-  <data name="Tab.About.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
-  <data name="Tab.About.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контактная информация</value>
-  </data>
-  <data name="Tab.About.Content.Text" xml:space="preserve">
-    <value>О нас</value>
-  </data>
-  <data name="Tab.About.Name.Text" xml:space="preserve">
-    <value>О нас</value>
-  </data>
-  <data name="Tab.GettingStarted.Name.Text" xml:space="preserve">
-    <value>Начиная работу</value>
-  </data>
-  <data name="Tab.Home.Name.Text" xml:space="preserve">
-    <value>Домашняя</value>
-  </data>
-  <data name="Tab.Products.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
-  <data name="Tab.ContactUs.Name.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.ContactUs.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.ContactUs.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
   <data name="Tab.ActivityFeed.Content.Text" xml:space="preserve">
     <value>Журнал активности</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value>Компания</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
   </data>
   <data name="Tab.ActivityFeed.Name.Text" xml:space="preserve">
     <value>Журнал активности</value>
@@ -54,47 +33,8 @@
   <data name="Tab.ActivityFeed.Title.Text" xml:space="preserve">
     <value>Журнал активности</value>
   </data>
-  <data name="Tab.ActivityFeed.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
-  <data name="Tab.MyProfile.Content.Text" xml:space="preserve">
-    <value>Мой профиль</value>
-  </data>
-  <data name="Tab.MyProfile.Name.Text" xml:space="preserve">
-    <value>Мой профиль</value>
-  </data>
-  <data name="Tab.MyProfile.Title.Text" xml:space="preserve">
-    <value>Мой профиль</value>
-  </data>
-  <data name="Tab.MyProfile.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.MyProfile.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
-  <data name="Tab.MyFriends.Name.Text" xml:space="preserve">
-    <value>Друзья</value>
-  </data>
-  <data name="Tab.MyFriends.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.MyFriends.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
-  <data name="Tab.MyMessages.Name.Text" xml:space="preserve">
-    <value>Сообщения</value>
-  </data>
-  <data name="Tab.MyMessages.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.MyMessages.FooterCenterPane.Module.Title.Text" xml:space="preserve">
-    <value>Компания</value>
-  </data>
-  <data name="Tab.PortalAdministration.Name.Text" xml:space="preserve">
-    <value>Админ</value>
+  <data name="Tab.AdvancedSettings.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Расширенные настройки конфигурации</value>
   </data>
   <data name="Tab.AdvancedSettings.Description.Text" xml:space="preserve">
     <value>Расширенные настройки конфигурации</value>
@@ -105,34 +45,40 @@
   <data name="Tab.AdvancedSettings.Title.Text" xml:space="preserve">
     <value>Расширенные настройки конфигурации</value>
   </data>
-  <data name="Tab.AdvancedSettings.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Расширенные настройки конфигурации</value>
+  <data name="Tab.AdvUrlManagement.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Расширенное управление URL</value>
   </data>
-  <data name="Tab.SiteSettings.Content.Text" xml:space="preserve">
-    <value>Настройки сайта</value>
+  <data name="Tab.ContentStaging.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Стадии контента</value>
   </data>
-  <data name="Tab.SiteSettings.Name.Text" xml:space="preserve">
-    <value>Настройки сайта</value>
+  <data name="Tab.ContentStaging.Name.Text" xml:space="preserve">
+    <value>Стадии контента</value>
   </data>
-  <data name="Tab.SiteSettings.Title.Text" xml:space="preserve">
-    <value>Настройки сайта</value>
+  <data name="Tab.DevicePreview.Content.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств</value>
   </data>
-  <data name="Tab.SiteSettings.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Настройки сайта</value>
+  <data name="Tab.DevicePreview.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств</value>
   </data>
-  <data name="Tab.PageManagement.Content.Text" xml:space="preserve">
-    <value>Управление страницами</value>
+  <data name="Tab.DevicePreview.Name.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств</value>
   </data>
-  <data name="Tab.PageManagement.Name.Text" xml:space="preserve">
-    <value>Страницы</value>
+  <data name="Tab.DigitalAssetsManagement.Content.Text" xml:space="preserve">
+    <value>Управление файлами</value>
   </data>
-  <data name="Tab.PageManagement.Title.Text" xml:space="preserve">
-    <value>Управление страницами</value>
+  <data name="Tab.DigitalAssetsManagement.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление файлами</value>
   </data>
-  <data name="Tab.PageManagement.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Управление страницами</value>
+  <data name="Tab.DigitalAssetsManagement.Name.Text" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.Title.Text" xml:space="preserve">
+    <value>Управление файлами</value>
   </data>
   <data name="Tab.Extensions.Content.Text" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Tab.Extensions.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Расширения</value>
   </data>
   <data name="Tab.Extensions.Name.Text" xml:space="preserve">
@@ -141,20 +87,26 @@
   <data name="Tab.Extensions.Title.Text" xml:space="preserve">
     <value>Расширения</value>
   </data>
-  <data name="Tab.Extensions.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Расширения</value>
+  <data name="Tab.GoogleAnalytics.Content.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
   </data>
-  <data name="Tab.Skins.Content.Text" xml:space="preserve">
-    <value>Скины</value>
+  <data name="Tab.GoogleAnalytics.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
   </data>
-  <data name="Tab.Skins.Name.Text" xml:space="preserve">
-    <value>Скины</value>
+  <data name="Tab.GoogleAnalytics.Name.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
   </data>
-  <data name="Tab.Skins.Title.Text" xml:space="preserve">
-    <value>Скины</value>
+  <data name="Tab.GoogleAnalytics.Title.Text" xml:space="preserve">
+    <value>Аналитика Google</value>
   </data>
-  <data name="Tab.Skins.ContentPane.SkinDesignerModule.Title.Text" xml:space="preserve">
-    <value>Дизайнер скина</value>
+  <data name="Tab.Home.Main.OnlineHelp.Title" xml:space="preserve">
+    <value>Онлайн-справка</value>
+  </data>
+  <data name="Tab.Home.PageName.Content" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Tab.Home.PageName.Title" xml:space="preserve">
+    <value>Главная</value>
   </data>
   <data name="Tab.Languages.Content.Text" xml:space="preserve">
     <value>Языки</value>
@@ -165,55 +117,73 @@
   <data name="Tab.Languages.Title.Text" xml:space="preserve">
     <value>Языки</value>
   </data>
-  <data name="Tab.SecurityRoles.Content.Text" xml:space="preserve">
-    <value>Роли</value>
+  <data name="Tab.Lists.Content.Text" xml:space="preserve">
+    <value>Списки</value>
   </data>
-  <data name="Tab.SecurityRoles.Name.Text" xml:space="preserve">
-    <value>Роли</value>
+  <data name="Tab.Lists.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Списки</value>
   </data>
-  <data name="Tab.SecurityRoles.Title.Text" xml:space="preserve">
-    <value>Роли</value>
+  <data name="Tab.Lists.Name.Text" xml:space="preserve">
+    <value>Списки</value>
   </data>
-  <data name="Tab.SecurityRoles.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Роли</value>
+  <data name="Tab.Lists.Title.Text" xml:space="preserve">
+    <value>Списки</value>
   </data>
-  <data name="Tab.UserAccounts.Content.Text" xml:space="preserve">
-    <value>Пользователи</value>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Журнал</value>
   </data>
-  <data name="Tab.UserAccounts.Name.Text" xml:space="preserve">
-    <value>Пользователи</value>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value>Компания</value>
   </data>
-  <data name="Tab.UserAccounts.Title.Text" xml:space="preserve">
-    <value>Пользователи</value>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Город</value>
   </data>
-  <data name="Tab.UserAccounts.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Пользователи</value>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
   </data>
-  <data name="Tab.Vendors.Content.Text" xml:space="preserve">
-    <value>Поставщики</value>
+  <data name="Tab.MyFriends.Name.Text" xml:space="preserve">
+    <value>Друзья</value>
   </data>
-  <data name="Tab.Vendors.Name.Text" xml:space="preserve">
-    <value>Поставщики</value>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Журнал</value>
   </data>
-  <data name="Tab.Vendors.Title.Text" xml:space="preserve">
-    <value>Поставщики</value>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value>Компания</value>
   </data>
-  <data name="Tab.Vendors.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Поставщики</value>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Город</value>
   </data>
-  <data name="Tab.SiteLog.Content.Text" xml:space="preserve">
-    <value>Журнал событий</value>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
   </data>
-  <data name="Tab.SiteLog.Name.Text" xml:space="preserve">
-    <value>Журнал событий</value>
+  <data name="Tab.MyMessages.Name.Text" xml:space="preserve">
+    <value>Сообщения</value>
   </data>
-  <data name="Tab.SiteLog.Title.Text" xml:space="preserve">
-    <value>Журнал событий</value>
+  <data name="Tab.MyProfile.Content.Text" xml:space="preserve">
+    <value>Мой профиль</value>
   </data>
-  <data name="Tab.SiteLog.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Журнал событий</value>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Title.Text" xml:space="preserve">
+    <value>Компания</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Title.Text" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Tab.MyProfile.Name.Text" xml:space="preserve">
+    <value>Мой профиль</value>
+  </data>
+  <data name="Tab.MyProfile.Title.Text" xml:space="preserve">
+    <value>Мой профиль</value>
   </data>
   <data name="Tab.Newsletters.Content.Text" xml:space="preserve">
+    <value>Рассылки</value>
+  </data>
+  <data name="Tab.Newsletters.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Рассылки</value>
   </data>
   <data name="Tab.Newsletters.Name.Text" xml:space="preserve">
@@ -222,22 +192,25 @@
   <data name="Tab.Newsletters.Title.Text" xml:space="preserve">
     <value>Рассылки</value>
   </data>
-  <data name="Tab.Newsletters.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Рассылки</value>
+  <data name="Tab.PageManagement.Content.Text" xml:space="preserve">
+    <value>Управление страницами</value>
   </data>
-  <data name="Tab.DigitalAssetsManagement.Content.Text" xml:space="preserve">
-    <value>Управление файлами</value>
+  <data name="Tab.PageManagement.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление страницами</value>
   </data>
-  <data name="Tab.DigitalAssetsManagement.Name.Text" xml:space="preserve">
-    <value>Управление файлами</value>
+  <data name="Tab.PageManagement.Name.Text" xml:space="preserve">
+    <value>Страницы</value>
   </data>
-  <data name="Tab.DigitalAssetsManagement.Title.Text" xml:space="preserve">
-    <value>Управление файлами</value>
+  <data name="Tab.PageManagement.Title.Text" xml:space="preserve">
+    <value>Управление страницами</value>
   </data>
-  <data name="Tab.DigitalAssetsManagement.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Управление файлами</value>
+  <data name="Tab.PortalAdministration.Name.Text" xml:space="preserve">
+    <value>Админ</value>
   </data>
   <data name="Tab.RecycleBin.Content.Text" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Tab.RecycleBin.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Корзина</value>
   </data>
   <data name="Tab.RecycleBin.Name.Text" xml:space="preserve">
@@ -246,10 +219,94 @@
   <data name="Tab.RecycleBin.Title.Text" xml:space="preserve">
     <value>Корзина</value>
   </data>
-  <data name="Tab.RecycleBin.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Корзина</value>
+  <data name="Tab.SearchAdmin.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.SearchAdmin.Description.Text" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Content.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.ContentPane.ResultsModule.Title.Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Tab.SearchResultsCE.ContentPane.SearchResultsModule.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Name.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsPro.ContentPane.ResultsModule.Title.Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Tab.SearchResultsPro.ContentPane.SearchResultsModule.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsPro.Name.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SearchResultsPro.Title.Text" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Tab.SecurityRoles.Content.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.SecurityRoles.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.SecurityRoles.Name.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.SecurityRoles.Title.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Tab.Sharepoint.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Коннектор SharePoint</value>
+  </data>
+  <data name="Tab.Sharepoint.Name.Text" xml:space="preserve">
+    <value>Коннектор SharePoint</value>
+  </data>
+  <data name="Tab.SiteLog.Content.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.Name.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.Title.Text" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteRedirection.Content.Text" xml:space="preserve">
+    <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.SiteRedirection.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.SiteRedirection.Name.Text" xml:space="preserve">
+    <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.SiteSettings.Content.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.SiteSettings.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.SiteSettings.Name.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="Tab.SiteSettings.Title.Text" xml:space="preserve">
+    <value>Настройки сайта</value>
   </data>
   <data name="Tab.SiteWizard.Content.Text" xml:space="preserve">
+    <value>Мастер сайта</value>
+  </data>
+  <data name="Tab.SiteWizard.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Мастер сайта</value>
   </data>
   <data name="Tab.SiteWizard.Name.Text" xml:space="preserve">
@@ -258,8 +315,17 @@
   <data name="Tab.SiteWizard.Title.Text" xml:space="preserve">
     <value>Мастер сайта</value>
   </data>
-  <data name="Tab.SiteWizard.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Мастер сайта</value>
+  <data name="Tab.Skins.Content.Text" xml:space="preserve">
+    <value>Скины</value>
+  </data>
+  <data name="Tab.Skins.ContentPane.SkinDesignerModule.Title.Text" xml:space="preserve">
+    <value>Дизайнер скина</value>
+  </data>
+  <data name="Tab.Skins.Name.Text" xml:space="preserve">
+    <value>Скины</value>
+  </data>
+  <data name="Tab.Skins.Title.Text" xml:space="preserve">
+    <value>Скины</value>
   </data>
   <data name="Tab.Taxonomy.Content.Text" xml:space="preserve">
     <value>Таксономия</value>
@@ -270,169 +336,31 @@
   <data name="Tab.Taxonomy.Title.Text" xml:space="preserve">
     <value>Таксономия</value>
   </data>
-  <data name="Tab.Lists.Content.Text" xml:space="preserve">
-    <value>Списки</value>
+  <data name="Tab.UserAccounts.Content.Text" xml:space="preserve">
+    <value>Пользователи</value>
   </data>
-  <data name="Tab.Lists.Name.Text" xml:space="preserve">
-    <value>Списки</value>
+  <data name="Tab.UserAccounts.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Пользователи</value>
   </data>
-  <data name="Tab.Lists.Title.Text" xml:space="preserve">
-    <value>Списки</value>
+  <data name="Tab.UserAccounts.Name.Text" xml:space="preserve">
+    <value>Пользователи</value>
   </data>
-  <data name="Tab.Lists.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Списки</value>
+  <data name="Tab.UserAccounts.Title.Text" xml:space="preserve">
+    <value>Пользователи</value>
   </data>
-  <data name="Tab.SiteRedirection.Content.Text" xml:space="preserve">
-    <value>Управление перенаправлениями</value>
+  <data name="Tab.Vendors.Content.Text" xml:space="preserve">
+    <value>Поставщики</value>
   </data>
-  <data name="Tab.SiteRedirection.Name.Text" xml:space="preserve">
-    <value>Управление перенаправлениями</value>
+  <data name="Tab.Vendors.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Поставщики</value>
   </data>
-  <data name="Tab.SiteRedirection.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Управление перенаправлениями</value>
+  <data name="Tab.Vendors.Name.Text" xml:space="preserve">
+    <value>Поставщики</value>
   </data>
-  <data name="Tab.DevicePreview.Content.Text" xml:space="preserve">
-    <value>Управление препросмотром для устройств</value>
+  <data name="Tab.Vendors.Title.Text" xml:space="preserve">
+    <value>Поставщики</value>
   </data>
-  <data name="Tab.DevicePreview.Name.Text" xml:space="preserve">
-    <value>Управление препросмотром для устройств</value>
-  </data>
-  <data name="Tab.DevicePreview.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Управление препросмотром для устройств</value>
-  </data>
-  <data name="Tab.SearchResultsCE.Content.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsCE.Title.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsCE.Name.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsCE.ContentPane.SearchResultsModule.Title.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsCE.ContentPane.ResultsModule.Title.Text" xml:space="preserve">
-    <value>Результат</value>
-  </data>
-  <data name="Tab.GoogleAnalytics.Content.Text" xml:space="preserve">
-    <value>Аналитика Google</value>
-  </data>
-  <data name="Tab.GoogleAnalytics.Name.Text" xml:space="preserve">
-    <value>Аналитика Google</value>
-  </data>
-  <data name="Tab.GoogleAnalytics.Title.Text" xml:space="preserve">
-    <value>Аналитика Google</value>
-  </data>
-  <data name="Tab.GoogleAnalytics.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Аналитика Google</value>
-  </data>
-  <data name="Tab.GoogleAnalyticsPro.Name.Text" xml:space="preserve">
-    <value>Аналитика Google Pro</value>
-  </data>
-  <data name="Tab.GoogleAnalyticsPro.Title.Text" xml:space="preserve">
-    <value>Аналитика Google Pro</value>
-  </data>
-  <data name="Tab.GoogleAnalyticsPro.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Аналитика Google Pro</value>
-  </data>
-  <data name="Tab.SearchResultsPro.Name.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsPro.Title.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsPro.ContentPane.SearchResultsModule.Title.Text" xml:space="preserve">
-    <value>Результаты поиска</value>
-  </data>
-  <data name="Tab.SearchResultsPro.ContentPane.ResultsModule.Title.Text" xml:space="preserve">
-    <value>Результат</value>
-  </data>
-  <data name="Tab.ContentStaging.Name.Text" xml:space="preserve">
-    <value>Стадии контента</value>
-  </data>
-  <data name="Tab.ContentStaging.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Стадии контента</value>
-  </data>
-  <data name="Tab.Sharepoint.Name.Text" xml:space="preserve">
-    <value>Коннектор SharePoint</value>
-  </data>
-  <data name="Tab.Sharepoint.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Коннектор SharePoint</value>
-  </data>
-  <data name="Tab.SearchAdmin.Description.Text" xml:space="preserve">
-    <value>Администрирование поиска</value>
-  </data>
-  <data name="Tab.SearchAdmin.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Администрирование поиска</value>
-  </data>
-  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Title.Text" xml:space="preserve">
-    <value>Списки</value>
-  </data>
-  <data name="Tab.Products.FooterRightPane.Module.Title.Text" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="Tab.Home.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.Home.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.About.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.About.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.Products.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.Products.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.ContactUs.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.ContactUs.RightPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Отправить</value>
-  </data>
-  <data name="Tab.ContactUs.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.ContactUs.LeftPane.Module.Content.13.Text" xml:space="preserve">
-    <value>Принять</value>
-  </data>
-  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.0.Text" xml:space="preserve">
-    <value>Маркированный список</value>
-  </data>
-  <data name="Tab.StyleGuide.LeftPaneLowerRight.ListsModule.Content.5.Text" xml:space="preserve">
-    <value>Нумерованный список</value>
-  </data>
-  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
-    <value>Город</value>
-  </data>
-  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
-    <value>Журнал</value>
-  </data>
-  <data name="Tab.AdvUrlManagement.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Расширенное управление URL</value>
+  <data name="Tab.Home.Main.OnlineHelp.SubLink.Text" xml:space="preserve">
+    <value>Просмотр онлайн-справки</value>
   </data>
 </root>

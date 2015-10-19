@@ -18,6 +18,9 @@
   <data name="Confirm.Text" xml:space="preserve">
     <value>Подтвердите пароль:</value>
   </data>
+  <data name="DatabaseAdvanced.Text" xml:space="preserve">
+    <value>Другой</value>
+  </data>
   <data name="DatabaseSecurity.Text" xml:space="preserve">
     <value>Безопасность</value>
   </data>
@@ -30,6 +33,9 @@
 &lt;p&gt;Первый шаг - выбор метода и языка установки.&lt;/p&gt;
 
 </value>
+  </data>
+  <data name="Language.Text" xml:space="preserve">
+    <value>Язык</value>
   </data>
   <data name="Password.Text" xml:space="preserve">
     <value>Пароль:</value>

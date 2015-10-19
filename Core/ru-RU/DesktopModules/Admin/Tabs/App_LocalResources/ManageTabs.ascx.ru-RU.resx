@@ -90,12 +90,6 @@
   <data name="IconHelp.Text" xml:space="preserve">
     <value>Вы можете указать значок, используемый для страницы в меню сайта.</value>
   </data>
-  <data name="plSkin.Text" xml:space="preserve">
-    <value>Шаблон оформления</value>
-  </data>
-  <data name="plSkin.Help" xml:space="preserve">
-    <value>Шаблон оформления, применяемый к странице.</value>
-  </data>
   <data name="plContainer.Text" xml:space="preserve">
     <value>Шаблон оформления модулей</value>
   </data>
@@ -191,9 +185,6 @@
   </data>
   <data name="cmdCopySkin.Text" xml:space="preserve">
     <value>Копировать оформление</value>
-  </data>
-  <data name="plCopySkin.Help" xml:space="preserve">
-    <value>Копирует выбранный шаблон оформления страницы и модулей на все нижележащие страницы. Доступно только администраторам сайта и хоста.</value>
   </data>
   <data name="plCopySkin.Text" xml:space="preserve">
     <value>Копировать оформление для подчиненных:</value>
@@ -452,12 +443,6 @@
   <data name="RequiredFields.Text" xml:space="preserve">
     <value>Отмечены обязательные поля</value>
   </data>
-  <data name="SkinPreview.Text" xml:space="preserve">
-    <value>Предпросмотр оформления</value>
-  </data>
-  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value>Для предпросмотра необходимо выбрать шаблоны оформления страницы и модулей.</value>
-  </data>
   <data name="Add.Text" xml:space="preserve">
     <value>Новая страница</value>
   </data>
@@ -475,9 +460,6 @@
   </data>
   <data name="PathDuplicateWithAlias.Text" xml:space="preserve">
     <value>Существует доменное имя сайте, совпадающее с именем страницы.</value>
-  </data>
-  <data name="CopyDesignToChildren.Confirm" xml:space="preserve">
-    <value>Настройки шаблона оформления страниц и модуля будут заменены для всех подчиненных страниц. Уверены, что хотите продолжить?</value>
   </data>
   <data name="RefreshInterval.Invalid" xml:space="preserve">
     <value>Неверное число</value>

@@ -174,9 +174,6 @@
   <data name="lblSitemapPriority.Text" xml:space="preserve">
     <value>Важность</value>
   </data>
-  <data name="lblSkin.Text" xml:space="preserve">
-    <value>Шаблон оформления</value>
-  </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>Заголовок</value>
   </data>
@@ -186,20 +183,8 @@
   <data name="lblTags.Text" xml:space="preserve">
     <value>Метки</value>
   </data>
-  <data name="cmdCopySkin.Text" xml:space="preserve">
-    <value>Копировать оформление для подчиненных</value>
-  </data>
   <data name="DefaultContainer.Text" xml:space="preserve">
     <value>&lt; По-умолчанию &gt;</value>
-  </data>
-  <data name="DefaultSkin.Text" xml:space="preserve">
-    <value>&lt; По-умолчанию &gt;</value>
-  </data>
-  <data name="DesignCopied.Text" xml:space="preserve">
-    <value>Шаблон оформления страницы применен ко всем подчиненным страницам</value>
-  </data>
-  <data name="DesignCopyError.Text" xml:space="preserve">
-    <value>Произошла ошибка при применении выбранного шаблона оформления к подчиненным страницам</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хост</value>
@@ -291,9 +276,6 @@
   <data name="lblSitemapPriority.Help" xml:space="preserve">
     <value>Укажите степень важности страницы от (0 до 1.0) в карте сайта. Это значение поможет поисковой системе определить положение этой страницы относительно других страниц. Значение по-умолчанию: 0.5.</value>
   </data>
-  <data name="lblSkin.Help" xml:space="preserve">
-    <value>Шаблон оформления, применяемый к странице.</value>
-  </data>
   <data name="lblTags.Help" xml:space="preserve">
     <value>Отметьте элементы в выпадающем списке, чтобы задать метки этой страницы.</value>
   </data>
@@ -335,5 +317,8 @@
   </data>
   <data name="Search.Text" xml:space="preserve">
     <value>Поиск</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Управление страницами</value>
   </data>
 </root>

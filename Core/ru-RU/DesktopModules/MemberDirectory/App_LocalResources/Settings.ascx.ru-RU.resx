@@ -129,9 +129,6 @@
   <data name="DateCreated.Text" xml:space="preserve">
     <value>Дата создания</value>
   </data>
-  <data name="LastName.Text" xml:space="preserve">
-    <value>Фамилия</value>
-  </data>
   <data name="UserId.Text" xml:space="preserve">
     <value>Ид. пользователя</value>
   </data>
@@ -161,5 +158,62 @@
   </data>
   <data name="DisplaySearch_Simple.Text" xml:space="preserve">
     <value>Простой поиск</value>
+  </data>
+  <data name="Prefix.Text" xml:space="preserve">
+    <value>Префикс</value>
+  </data>
+  <data name="FirstName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="LastName.Text" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="MiddleName.Text" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="Suffix.Text" xml:space="preserve">
+    <value>Суффикс</value>
+  </data>
+  <data name="Unit.Text" xml:space="preserve">
+    <value>Офис</value>
+  </data>
+  <data name="Street.Text" xml:space="preserve">
+    <value>Улица</value>
+  </data>
+  <data name="City.Text" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Region.Text" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="Country.Text" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="PostalCode.Text" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="Telephone.Text" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Cell.Text" xml:space="preserve">
+    <value>Мобильный</value>
+  </data>
+  <data name="Fax.Text" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="IM.Text" xml:space="preserve">
+    <value>Идентификатор IM</value>
+  </data>
+  <data name="Website.Text" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="Biography.Text" xml:space="preserve">
+    <value>О себе</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>Часовой пояс</value>
+  </data>
+  <data name="PreferredLocale.Text" xml:space="preserve">
+    <value>Предпочтительные региональные настройки</value>
   </data>
 </root>

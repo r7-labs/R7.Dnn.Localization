@@ -190,4 +190,7 @@
   <data name="DisplayName.Text" xml:space="preserve">
     <value>Имя</value>
   </data>
+  <data name="PagerPageSize.Text" xml:space="preserve">
+    <value>Элементов на страницу:</value>
+  </data>
 </root>

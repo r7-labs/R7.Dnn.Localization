@@ -21,9 +21,6 @@
   <data name="File.Text" xml:space="preserve">
     <value>Файлы содержимого</value>
   </data>
-  <data name="Skin.Text" xml:space="preserve">
-    <value>Пакет скина</value>
-  </data>
   <data name="Container.Text" xml:space="preserve">
     <value>Пакет контейнера</value>
   </data>
@@ -56,9 +53,6 @@
   </data>
   <data name="cmdRemove.Text" xml:space="preserve">
     <value>Удалить</value>
-  </data>
-  <data name="UploadTypeSkin.Text" xml:space="preserve">
-    <value>Установить пакет скина старого формата</value>
   </data>
   <data name="UploadTypeFile.Text" xml:space="preserve">
     <value>Подгрузить файл</value>

@@ -16,7 +16,7 @@
     <value>Выполнить</value>
   </data>
   <data name="cmdExecute.ToolTip" xml:space="preserve">
-    <value>может сожержать {директивы} и /*комментарии*/</value>
+    <value>Может содержать {директивы} и /*комментарии*/</value>
   </data>
   <data name="QueryError.Text" xml:space="preserve">
     <value>Данный запрос содержит ошибку!</value>
@@ -55,12 +55,30 @@
     <value>Запрос:</value>
   </data>
   <data name="scriptLabel.Help" xml:space="preserve">
-    <value>Введите код SQL, который необходимо исполнить.</value>
+    <value>Введите код SQL, который необходимо исполнить. Можно также использовать несколько операторов SELECT для получения нескольких наборов данных.</value>
   </data>
-  <data name="runasLabel.Text" xml:space="preserve">
-    <value>Не возвращает данных:</value>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Имя:</value>
   </data>
-  <data name="runasLabel.Help" xml:space="preserve">
-    <value>Отметьте этот флаг, если запрос языка SQL не возвращает значений, а только изменяет содержимое базы данных</value>
+  <data name="lnkSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="AllRows.Text" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="sFirst.Text" xml:space="preserve">
+    <value>Первая</value>
+  </data>
+  <data name="sLast.Text" xml:space="preserve">
+    <value>Последняя</value>
+  </data>
+  <data name="sNext.Text" xml:space="preserve">
+    <value>След.</value>
+  </data>
+  <data name="sPrevious.Text" xml:space="preserve">
+    <value>Пред.</value>
+  </data>
+  <data name="sSearch.Text" xml:space="preserve">
+    <value>Поиск:</value>
   </data>
 </root>

@@ -7,18 +7,75 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cmdExecute.Text" xml:space="preserve">
+    <value>Выполнить слияние</value>
+  </data>
   <data name="cmdUpload.Text" xml:space="preserve">
     <value>Подгрузка</value>
   </data>
+  <data name="ERROR_Merge.Text" xml:space="preserve">
+    <value>Система обнаружила ошибку при применении произведенных изменений настроек. Проверьте информацию об ошибках в протоколе событий.</value>
+  </data>
+  <data name="plScript.Help" xml:space="preserve">
+    <value>Выберите XML-скрипт слияния для загрузки. После загрузки скрипт можно отредактировать, а затем исполнить.</value>
+  </data>
+  <data name="plScript.Text" xml:space="preserve">
+    <value>Скрипт слияния</value>
+  </data>
+  <data name="cmdLoad.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
   <data name="Configuration.Text" xml:space="preserve">
-    <value>Файлы конфигурации</value>
+    <value>Файлы</value>
+  </data>
+  <data name="plConfig.Help" xml:space="preserve">
+    <value>Выберите файл конфигурации для редактирования.</value>
+  </data>
+  <data name="plConfig.Text" xml:space="preserve">
+    <value>Файл конфигурации</value>
+  </data>
+  <data name="SaveWarning.Text" xml:space="preserve">
+    <value>Изменение web.config приведет к перезагрузке сайта. При этом, во время перезагрузки приложения, эффективность работы сайта может снизиться. Хотите продолжить?</value>
+  </data>
+  <data name="ERROR_ConfigurationFormat.Text" xml:space="preserve">
+    <value>Ваш файл конфигурации не является допустимым XML-файлом. Исправьте формат файла и попробуйте еще раз. {0}</value>
+  </data>
+  <data name="LoadConfigWarning.Text" xml:space="preserve">
+    <value>Если загрузить новый файл конфигурации, текущие изменения будут потеряны!</value>
+  </data>
+  <data name="MergeConfirm.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите объединить изменения с этим файлом конфигурации?</value>
+  </data>
+  <data name="SaveConfirm.Text" xml:space="preserve">
+    <value>Вы уверены, что хотите сохранить изменения в данном файле конфигурации?</value>
+  </data>
+  <data name="SelectConfig.Text" xml:space="preserve">
+    <value>Выберите файл конфигурации...</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>Изменения успешно применены.</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="fileLabel.Help" xml:space="preserve">
+    <value>Вы можете изменить файл перед внесением изменений.</value>
+  </data>
+  <data name="fileLabel.Text" xml:space="preserve">
+    <value>Файл:</value>
+  </data>
+  <data name="scriptLabel.Help" xml:space="preserve">
+    <value>Вы можете отредактировать скрипт слияния перед тем, как исполнить его.</value>
   </data>
   <data name="scriptLabel.Text" xml:space="preserve">
     <value>Сценарий:</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Диспетчер конфигурации</value>
   </data>
 </root>

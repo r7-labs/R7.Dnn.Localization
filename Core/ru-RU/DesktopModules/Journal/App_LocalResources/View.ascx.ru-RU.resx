@@ -21,9 +21,6 @@
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
-  <data name="ChooseFile.Text" xml:space="preserve">
-    <value>Выберите файл</value>
-  </data>
   <data name="Community.Text" xml:space="preserve">
     <value>Члены сообщества</value>
   </data>

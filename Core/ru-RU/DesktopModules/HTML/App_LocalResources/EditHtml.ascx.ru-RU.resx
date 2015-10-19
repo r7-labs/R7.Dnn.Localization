@@ -45,9 +45,6 @@
   <data name="State.Header" xml:space="preserve">
     <value>Состояние</value>
   </data>
-  <data name="dshVersions.Text" xml:space="preserve">
-    <value>История версий</value>
-  </data>
   <data name="Version.Header" xml:space="preserve">
     <value>Версия</value>
   </data>
@@ -56,9 +53,6 @@
   </data>
   <data name="Edit.Text" xml:space="preserve">
     <value>Восстановить содержимое в этой версии</value>
-  </data>
-  <data name="dshPreview.Text" xml:space="preserve">
-    <value>Предпросмотр</value>
   </data>
   <data name="ControlTitle_edit.Text" xml:space="preserve">
     <value>Редактирование содержимого</value>
@@ -167,5 +161,14 @@
   </data>
   <data name="NoVersions.Text" xml:space="preserve">
     <value>Нет версий содержимого.</value>
+  </data>
+  <data name="cmdHistory.Text" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="liBasicText.Text" xml:space="preserve">
+    <value>Простой текст</value>
+  </data>
+  <data name="liRichText.Text" xml:space="preserve">
+    <value>С форматированием</value>
   </data>
 </root>

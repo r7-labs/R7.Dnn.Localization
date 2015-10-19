@@ -142,9 +142,6 @@
   <data name="IncompatibleFee.Text" xml:space="preserve">
     <value>Вы должны выбрать регулярность оплаты, если требуется сделать эту роль платной</value>
   </data>
-  <data name="valRoleName2.Text" xml:space="preserve">
-    <value>&lt;br&gt;Имя недопустимо - имя роли может содержать только символы: A-Za-z0-9_- и пробелы</value>
-  </data>
   <data name="securityModeListLabel.Help" xml:space="preserve">
     <value>Выберите режим безопасности для данной роли/группы.</value>
   </data>

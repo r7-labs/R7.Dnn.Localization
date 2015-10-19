@@ -21,4 +21,16 @@
   <data name="DefaultFolderType.Text" xml:space="preserve">
     <value>Тип папки по-умолчанию</value>
   </data>
+  <data name="Group.Text" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="Mode.Text" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
 </root>

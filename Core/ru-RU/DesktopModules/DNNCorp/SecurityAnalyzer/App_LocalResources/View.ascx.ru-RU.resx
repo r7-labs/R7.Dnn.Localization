@@ -12,7 +12,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="InUse.Header" xml:space="preserve">
-    <value>Используется</value>
+  <data name="cmdSearch.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Authorized.Header" xml:space="preserve">
+    <value>Авторизирован</value>
+  </data>
+  <data name="Email.Header" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="Username.Header" xml:space="preserve">
+    <value>Имя пользователя</value>
   </data>
 </root>

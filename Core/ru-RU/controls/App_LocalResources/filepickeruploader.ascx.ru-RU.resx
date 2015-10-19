@@ -16,10 +16,10 @@
     <value>Перетащите файл(ы) сюда</value>
   </data>
   <data name="File.Text" xml:space="preserve">
-    <value>Файл</value>
+    <value>Файл:</value>
   </data>
   <data name="Folder.Text" xml:space="preserve">
-    <value>Папка</value>
+    <value>Папка:</value>
   </data>
   <data name="UploadFile.Text" xml:space="preserve">
     <value>Подгрузить файл</value>

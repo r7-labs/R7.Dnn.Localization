@@ -103,4 +103,7 @@
   <data name="Name.Header" xml:space="preserve">
     <value>Имя задачи</value>
   </data>
+  <data name="Stop.Header" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
 </root>

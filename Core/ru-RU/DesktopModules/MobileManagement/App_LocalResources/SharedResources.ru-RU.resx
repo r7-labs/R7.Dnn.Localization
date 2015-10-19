@@ -42,4 +42,13 @@
   <data name="Other.Text" xml:space="preserve">
     <value>Расширенный</value>
   </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Управление перенаправлением сайтов</value>
+  </data>
+  <data name="DeleteRule.Tooltip" xml:space="preserve">
+    <value>Удалить правило</value>
+  </data>
+  <data name="EditRule.Tooltip" xml:space="preserve">
+    <value>Изменить правило</value>
+  </data>
 </root>

@@ -87,26 +87,11 @@
   <data name="plLogo.Text" xml:space="preserve">
     <value>Логотип:</value>
   </data>
-  <data name="plLogo.Help" xml:space="preserve">
-    <value>Данное изображение будет показано в качестве логотипа сайта, если это поддерживает скин</value>
-  </data>
-  <data name="plPortalSkin.Text" xml:space="preserve">
-    <value>Скин портала:</value>
-  </data>
-  <data name="plPortalSkin.Help" xml:space="preserve">
-    <value>Выбранный скин будет использован для всех страниц сайта, за исключением явно переопределенных на уровне страниц</value>
-  </data>
   <data name="plPortalContainer.Text" xml:space="preserve">
     <value>Контейнер портала:</value>
   </data>
   <data name="plPortalContainer.Help" xml:space="preserve">
     <value>Выбранный контейнер будет использован для всех модулей сайта, за исключением явно переопределенных на уровне страниц или модулей</value>
-  </data>
-  <data name="plAdminSkin.Text" xml:space="preserve">
-    <value>Служебный скин:</value>
-  </data>
-  <data name="plAdminSkin.Help" xml:space="preserve">
-    <value>Выбранный скин будет использован для административных страниц Вашего сайта</value>
   </data>
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Служебный контейнер:</value>
@@ -116,9 +101,6 @@
   </data>
   <data name="plBackground.Text" xml:space="preserve">
     <value>Фон страниц:</value>
-  </data>
-  <data name="plBackground.Help" xml:space="preserve">
-    <value>Выбранное изображение будет использовано в качестве фона для всех страниц, если это поддерживает скин</value>
   </data>
   <data name="plFavIcon.Text" xml:space="preserve">
     <value>Значок favicon:</value>
@@ -261,9 +243,6 @@
   <data name="plFooterText.Text" xml:space="preserve">
     <value>Копирайт:</value>
   </data>
-  <data name="plFooterText.Help" xml:space="preserve">
-    <value>Текст копирайта будет показан на Вашем сайте, если это поддерживает скин</value>
-  </data>
   <data name="Site.Text" xml:space="preserve">
     <value>Сайт</value>
   </data>
@@ -363,9 +342,6 @@
   <data name="ControlTitle_edit.Text" xml:space="preserve">
     <value>Изменить сайты</value>
   </data>
-  <data name="SkinUpload.Text" xml:space="preserve">
-    <value>Загрузить скин</value>
-  </data>
   <data name="ContainerUpload.Text" xml:space="preserve">
     <value>Загрузить контейнер</value>
   </data>
@@ -437,12 +413,6 @@
   </data>
   <data name="RemoveModule.Text" xml:space="preserve">
     <value>Удалить модуль</value>
-  </data>
-  <data name="plSkinWidgestEnabled.Help" xml:space="preserve">
-    <value>Поставьте этот флажок, чтобы разрешить виджеты шаблона на этом сайте.</value>
-  </data>
-  <data name="plSkinWidgestEnabled.Text" xml:space="preserve">
-    <value>Разрешить виджеты шаблона:</value>
   </data>
   <data name="PortalAliases.Text" xml:space="preserve">
     <value>Псевдонимы портала</value>
@@ -531,17 +501,8 @@
   <data name="Marketing.Text" xml:space="preserve">
     <value>Маркетинг сайта</value>
   </data>
-  <data name="EditSkinPreview.Text" xml:space="preserve">
-    <value>Предпросмотр шаблонов оформления страницы и модуля хоста для редактирования</value>
-  </data>
-  <data name="SkinPreview.Text" xml:space="preserve">
-    <value>Предпросмотр шаблонов оформления страницы и модуля хоста</value>
-  </data>
   <data name="ExpandAll.Text" xml:space="preserve">
     <value>Развернуть все</value>
-  </data>
-  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
-    <value>Для предпросмотра необходимо выбрать шаблоны оформления страницы и модулей.</value>
   </data>
   <data name="valExpiryDate.ErrorMessage" xml:space="preserve">
     <value>Недопустимая дата завершения</value>
@@ -615,14 +576,14 @@
   <data name="Security_UserNameValidation.Text" xml:space="preserve">
     <value>Проверка имени пользователя</value>
   </data>
+  <data name="Custom.Text" xml:space="preserve">
+    <value>Другой</value>
+  </data>
   <data name="Standard.Text" xml:space="preserve">
     <value>Встроенная</value>
   </data>
   <data name="MinPasswordLength.Text" xml:space="preserve">
     <value>Минимальная длина пароля:</value>
-  </data>
-  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
-    <value>Пароль истекает через (в днях):</value>
   </data>
   <data name="PasswordFormat.Help" xml:space="preserve">
     <value>Формат пароля</value>
@@ -647,5 +608,59 @@
   </data>
   <data name="MsgSendEmailYes.Text" xml:space="preserve">
     <value>Да</value>
+  </data>
+  <data name="EmailErrorMessage.Text" xml:space="preserve">
+    <value>Произошла ошибка при попытке отослать проверочное сообщение. Ошибка:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>Проверить настройки SMTP</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>Аутентификация SMTP:</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>Укажите способ аутентификации сервера SMTP (анонимная по-умолчанию)</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>Используется службами SMTP, которые требуют безопасных соединений (обычно не требуется)</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>Включить SSL для SMTP:</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>Пароль SMTP:</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>Введите пароль для доступа к серверу SMTP</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>Адрес и порт сервера SMTP:</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>Имя пользователя SMTP:</value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>Введите имя пользователя для доступа к серверу SMTP</value>
+  </data>
+  <data name="SMTP.Text" xml:space="preserve">
+    <value>Настройки сервера SMTP</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>Анонимная</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Простая</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM</value>
+  </data>
+  <data name="SmtpServerWarning.Text" xml:space="preserve">
+    <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работает в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
+    <value>Вы должны указать email-адрес хоста</value>
+  </data>
+  <data name="plPageHeadText.Help" xml:space="preserve">
+    <value>Введите любые мета-теги, которые должны отображаться внутри раздела "HEAD" в коде HTML страницы.</value>
   </data>
 </root>

@@ -75,17 +75,11 @@
   <data name="TimeZones.Action" xml:space="preserve">
     <value>Редактор часовых поясов</value>
   </data>
-  <data name="ManageSkins.Action" xml:space="preserve">
-    <value>Управление шаблонами оформления</value>
-  </data>
   <data name="cmdCreateLanguage.Text" xml:space="preserve">
     <value>Добавить новый язык</value>
   </data>
   <data name="cmdCreateModule.Text" xml:space="preserve">
     <value>Добавить новый модуль</value>
-  </data>
-  <data name="cmdCreateSkin.Text" xml:space="preserve">
-    <value>Добавить новый шаблон оформления</value>
   </data>
   <data name="cmdUpdateLanguage.Text" xml:space="preserve">
     <value>Обновить язык</value>
@@ -93,17 +87,11 @@
   <data name="cmdUpdateModule.Text" xml:space="preserve">
     <value>Обновить модуль</value>
   </data>
-  <data name="cmdUpdateSkin.Text" xml:space="preserve">
-    <value>Обновить шаблон</value>
-  </data>
   <data name="EditLanguageHelp.Text" xml:space="preserve">
     <value>В этом разделе Вы можете задать параметры пакета для этого языка.</value>
   </data>
   <data name="EditModuleHelp.Text" xml:space="preserve">
     <value>В этом разделе Вы можете задать параметры пакета для этого модуля.</value>
-  </data>
-  <data name="EditSkinHelp.Text" xml:space="preserve">
-    <value>В этом разделе Вы можете задать параметры пакета для этого шаблона оформления.</value>
   </data>
   <data name="DuplicateName.Text" xml:space="preserve">
     <value>Пакеты должны иметь уникальные имена</value>

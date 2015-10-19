@@ -73,4 +73,25 @@
   <data name="ViewLog.Header" xml:space="preserve">
     <value>Журнал</value>
   </data>
+  <data name="plSchedulerMode.Text" xml:space="preserve">
+    <value>Режим планировщика:</value>
+  </data>
+  <data name="plSchedulerMode.Help" xml:space="preserve">
+    <value>Метод запуска по таймеру порождает отдельный поток для работы планировщика, работающий параллельно и независимо от основного рабочего процесса. Метод запуска по запросу запускает планировщик при выполнении HTTP-запросов. Вы также можете запретить работу планировщика задач.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="TimerMethod.Text" xml:space="preserve">
+    <value>По таймеру</value>
+  </data>
+  <data name="RequestMethod.Text" xml:space="preserve">
+    <value>Метод запроса</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="plServers.Text" xml:space="preserve">
+    <value>Имя сервера:</value>
+  </data>
 </root>

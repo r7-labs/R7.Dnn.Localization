@@ -192,7 +192,7 @@
   <data name="GetUrlAltText.Text" xml:space="preserve">
     <value>Кликните и нажмите CTRL+C, чтобы скопировать...</value>
   </data>
-  <data name="GetUrlLabel.Text" xml:space="preserve">
+  <data name="GetFileUrlLabel.Text" xml:space="preserve">
     <value>URL файла:</value>
   </data>
   <data name="GetUrlError.Title" xml:space="preserve">
@@ -201,14 +201,11 @@
   <data name="ManageFolderTypes.Text" xml:space="preserve">
     <value>Управление типами папок</value>
   </data>
-  <data name="Search.Title" xml:space="preserve">
-    <value>Поиск</value>
-  </data>
   <data name="ParentFolder.Header" xml:space="preserve">
     <value>Родительская папка</value>
   </data>
   <data name="SearchBreadcrumb.Text" xml:space="preserve">
-    <value>Результаты поиска по '[PATTERN]'</value>
+    <value>Поиск</value>
   </data>
   <data name="NoItemsSearch.Text" xml:space="preserve">
     <value>Нет элементов, соответствующих условиям поиска</value>
@@ -257,9 +254,6 @@
   </data>
   <data name="UploadFilesDragDrop.Info" xml:space="preserve">
     <value>Также можно перетащить файлы на расположенную ниже площадку</value>
-  </data>
-  <data name="Search.Placeholder" xml:space="preserve">
-    <value>Введите поисковую фразу</value>
   </data>
   <data name="ParentFolder.Text" xml:space="preserve">
     <value>Родительская папка</value>
@@ -341,5 +335,14 @@
   </data>
   <data name="UploadingExtracting.Text" xml:space="preserve">
     <value>Подгрузка и распаковка...</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Управление файлами</value>
+  </data>
+  <data name="ToolbarTitle.Actions.Text" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="ToolbarTitle.Views.Text" xml:space="preserve">
+    <value>Просмотров</value>
   </data>
 </root>

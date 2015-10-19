@@ -12,10 +12,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plModule.Text" xml:space="preserve">
+    <value>Имя модуля:</value>
+  </data>
   <data name="plDescription.Text" xml:space="preserve">
     <value>Описание:</value>
   </data>
+  <data name="plLanguage.Text" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="VB.Text" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
   <data name="plTemplate.Text" xml:space="preserve">
     <value>Шаблон:</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать модуль</value>
   </data>
 </root>

@@ -51,4 +51,7 @@
   <data name="Version.Header" xml:space="preserve">
     <value>Версия</value>
   </data>
+  <data name="Download.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
 </root>

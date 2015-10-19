@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions.Text" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>След.</value>
+  </data>
+  <data name="Of.Text" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="Prev.Text" xml:space="preserve">
+    <value>Пред.</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Searching.Text" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="Never.Text" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="ResultCount.Text" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="SingleResultCount.Text" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Items.Text" xml:space="preserve">
+    <value>[ITEMS] элементов</value>
+  </data>
+  <data name="ItemsOnPage.Text" xml:space="preserve">
+    <value>[ITEMS] элементов на [PAGES] страницах</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="UnsubscribeConfirmTitle.Text" xml:space="preserve">
+    <value>Отменить подписку</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="ItemsPerPage.Text" xml:space="preserve">
+    <value>Элементов на страницу:</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+</root>

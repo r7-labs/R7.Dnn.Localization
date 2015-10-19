@@ -75,9 +75,6 @@
   <data name="plMode.Help" xml:space="preserve">
     <value>Выберите "Система", чтобы отредактировать основной файл для данного языка; "Хост" создаст пользовательскую версию локализованного файла для этой установки.</value>
   </data>
-  <data name="Deleted.Text" xml:space="preserve">
-    <value>Файл {0} был корректно удален</value>
-  </data>
   <data name="Obsolete.Text" xml:space="preserve">
     <value>Эти файлы содержат устаревшие ресурсы, которые больше не нужны. Нажмите "Сохранить", чтобы удалить эти элементы навсегда.</value>
   </data>
@@ -149,12 +146,6 @@
   </data>
   <data name="Exceptions.Text" xml:space="preserve">
     <value>Исключения</value>
-  </data>
-  <data name="HostSkins.Text" xml:space="preserve">
-    <value>Скины хоста</value>
-  </data>
-  <data name="PortalSkins.Text" xml:space="preserve">
-    <value>Шаблоны оформления сайта</value>
   </data>
   <data name="Template.Text" xml:space="preserve">
     <value>Шаблон</value>

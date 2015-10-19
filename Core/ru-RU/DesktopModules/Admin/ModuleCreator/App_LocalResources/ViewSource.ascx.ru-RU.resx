@@ -16,27 +16,45 @@
     <value>Сохранить</value>
   </data>
   <data name="SourceFile.Text" xml:space="preserve">
-    <value>Файл исходного кода - {0}</value>
+    <value>Исходный файл - {0}</value>
   </data>
   <data name="plFile.Help" xml:space="preserve">
     <value>Укажите файл, исходный код которого Вы хотите просмотреть.</value>
   </data>
   <data name="plFile.Text" xml:space="preserve">
-    <value>Укажите файл:</value>
+    <value>Выберите файл:</value>
   </data>
   <data name="NoFileTypeSelected.Text" xml:space="preserve">
     <value>Укажите тип файла, который нужно отредактировать, прежде чем нажать кнопку Сохранить.</value>
   </data>
+  <data name="plLanguage.Text" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="VB.Text" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
   <data name="plTemplate.Text" xml:space="preserve">
     <value>Шаблон:</value>
+  </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>Тип элемента управления:</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="cmdPackage.Text" xml:space="preserve">
+    <value>Создать пакет</value>
   </data>
   <data name="Add.Text" xml:space="preserve">
     <value>Добавить</value>
   </data>
   <data name="Edit.Text" xml:space="preserve">
-    <value>Редактировать</value>
+    <value>Редактор</value>
   </data>
   <data name="cmdSave.Text" xml:space="preserve">
     <value>Сохранить</value>
+  </data>
+  <data name="View.Text" xml:space="preserve">
+    <value>Просмотр</value>
   </data>
 </root>
