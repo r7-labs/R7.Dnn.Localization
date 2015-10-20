@@ -12,6 +12,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить этот элемент?</value>
+  </data>
+  <data name="DeletetUser.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить этого пользователя?</value>
+  </data>
+  <data name="UnregisterUser.Text" xml:space="preserve">
+    <value>Уверены, что хотите отменить регистрацию? Ваша учетная запись при этом будет удалена.</value>
+  </data>
+  <data name="RemoveItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить этот элемент?</value>
+  </data>
   <data name="Calendar.Text" xml:space="preserve">
     <value>Календарь</value>
   </data>
@@ -144,6 +156,9 @@
   <data name="SkinObjects.Text" xml:space="preserve">
     <value>[Скин-объекты]</value>
   </data>
+  <data name="SkinObjectsDescription.Text" xml:space="preserve">
+    <value>Скин-объекты и пользовательские элементы управления могут использоваться для расширения функциональности файлов тем.</value>
+  </data>
   <data name="ReadError.Text" xml:space="preserve">
     <value>Невозможно считать данные полностью: {0}/{1}</value>
   </data>
@@ -195,6 +210,9 @@
   <data name="RegError.Text" xml:space="preserve">
     <value>Произошла неожиданная ошибка в процессе регистрации. Если ошибка повторится, свяжитесь с администратором для решения этой проблемы.</value>
   </data>
+  <data name="PaneNotFound.Error" xml:space="preserve">
+    <value>Не удалось найти ContentPane в теме </value>
+  </data>
   <data name="ContractExpired.Error" xml:space="preserve">
     <value>Соглашение о хостинге {0} истекает {1}. Свяжитесь с &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; для получения дополнительной информации.</value>
   </data>
@@ -203,6 +221,9 @@
   </data>
   <data name="ModuleAccess.Error" xml:space="preserve">
     <value>У Вас недостаточно прав для просмотра этого модуля.</value>
+  </data>
+  <data name="CriticalError.Error" xml:space="preserve">
+    <value>Возникла критическая ошибка. Подробности доступны в журнале событий.</value>
   </data>
   <data name="ModuleLoad.Error" xml:space="preserve">
     <value>Необработанное исключение при загрузке модуля.</value>
@@ -234,8 +255,14 @@
   <data name="FileRestricted.Text" xml:space="preserve">
     <value>{0} - запрещенный к загрузке тип файлов. Список разрешенных типов файлов включает (*.{1}). Пожалуйста, свяжитесь с Вашим хостинг-провайдером, если Вам необходимо загрузить файлы других типов.</value>
   </data>
+  <data name="Skins.Text" xml:space="preserve">
+    <value>Темы</value>
+  </data>
   <data name="Containers.Text" xml:space="preserve">
     <value>Контейнеры</value>
+  </data>
+  <data name="StartProcessor.Text" xml:space="preserve">
+    <value>Запуск обработчика файлов тем и контейнеров</value>
   </data>
   <data name="PackageLoad.Text" xml:space="preserve">
     <value>Загружен файл атрибутов уровня пакета</value>
@@ -246,6 +273,9 @@
   <data name="DuplicateSkinObject.Error" xml:space="preserve">
     <value>Отбрасываем дубликат скин-объекта для токена {0}</value>
   </data>
+  <data name="DuplicateSkinObject.Detail" xml:space="preserve">
+    <value>Любая тема, содержащая ссылку на данную метку, будет прежде всего регистрировать элемент управления {0} из темы, а не тот, что является дубликатом ({1}). В результате этого, тема может отображаться некорректно.  </value>
+  </data>
   <data name="LoadingSkinToken.Text" xml:space="preserve">
     <value>Загружаем скин-объект для токена {0}</value>
   </data>
@@ -254,6 +284,9 @@
   </data>
   <data name="EndSkinFile.Text" xml:space="preserve">
     <value>Конец обработки файла</value>
+  </data>
+  <data name="EndSkinFiles.Text" xml:space="preserve">
+    <value>Конец обработки файлов тем и контейнеров</value>
   </data>
   <data name="FileFormat.Error" xml:space="preserve">
     <value>Ошибка формата файла</value>
@@ -368,6 +401,9 @@
   </data>
   <data name="DNN_Valid.Text" xml:space="preserve">
     <value>Файл DNN в корректном формате версии {0}.</value>
+  </data>
+  <data name="DNN_ValidSkinObject.Text" xml:space="preserve">
+    <value>Файл DNN имеет корректный формат ThemeObject версии 2.0</value>
   </data>
   <data name="EXCEPTION.Text" xml:space="preserve">
     <value>Исключение</value>
@@ -855,6 +891,21 @@
   <data name="PasswordNotDifferent.Text" xml:space="preserve">
     <value>Новый пароль такой же, как и прежний. Введите другой пароль.</value>
   </data>
+  <data name="PasswordResetFailed.Text" xml:space="preserve">
+    <value>Ваш новый пароль не был принят из соображений безопасности. Пожалуйста, убедитесь, что Вы указали пароль, не совпадающий с предыдущим, а также достаточно длинный и сложный, чтобы удовлетворить требованиям к сложности, применяемых к паролям для сайтов.</value>
+  </data>
+  <data name="PasswordResetFailed_UserUndefined.Text" xml:space="preserve">
+    <value>Ваш новый пароль не был принят из соображений безопасности. Пожалуйста, убедитесь, что Вы указали пароль, не совпадающий с предыдущим, а также в том, что Вы указали правильное имя пользователя.</value>
+  </data>
+  <data name="PasswordResetFailed_ResetLinkExpired.Text" xml:space="preserve">
+    <value>Ваш новый пароль не был принят из соображений безопасности. Ссылка для сброса пароля устарела и стала недействительной.</value>
+  </data>
+  <data name="PasswordResetFailed_PasswordInHistory.Text" xml:space="preserve">
+    <value>Ваш новый пароль не был принят из соображений безопасности. Пожалуйста, убедитесь, что Вы указали пароль, не совпадающий с предыдущим.</value>
+  </data>
+  <data name="PasswordResetFailed_WrongAnswer.Text" xml:space="preserve">
+    <value>Ваш новый пароль не был принят из соображений безопасности. Пожалуйста, убедитесь в том, что Вы указали правильное имя пользователя и ответ на секретный вопрос.</value>
+  </data>
   <data name="InsecureAdmin.Text" xml:space="preserve">
     <value>Ваша учетная запись администратора портала все еще использует значение пароля, заданное по-умолчанию. Пожалуйста, обновите пароль и убедитесь, что Вы указали действительный адрес электронной почты.</value>
   </data>
@@ -904,6 +955,9 @@
   </data>
   <data name="CaptchaAlt.Text" xml:space="preserve">
     <value>Код безопасности</value>
+  </data>
+  <data name="PrivateConfirmationMessage.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Электронное письмо с Вашими данными было отправлено администратору сайта для проверки. После того, как Ваша регистрация будет подтверждена, на Ваш адрес электронной почты будет отправлено оповещение. А пока что Вы можете продолжить знакомство с сайтом, закрыв это окно.&lt;/strong&gt;  </value>
   </data>
   <data name="DNN_ReadingComponent.Text" xml:space="preserve">
     <value>Читаем манифест компонента</value>
@@ -977,6 +1031,12 @@
   <data name="ASSEMBLY_Added.Text" xml:space="preserve">
     <value>Сборка зарегистрирована</value>
   </data>
+  <data name="ASSEMBLY_AddedBindingRedirect.Text" xml:space="preserve">
+    <value>Добавлено перенаправление версий сборки</value>
+  </data>
+  <data name="ASSEMBLY_RemovedBindingRedirect.Text" xml:space="preserve">
+    <value>Снято перенаправление версий сборки</value>
+  </data>
   <data name="ASSEMBLY_Updated.Text" xml:space="preserve">
     <value>Сборка обновлена</value>
   </data>
@@ -1049,6 +1109,12 @@
   <data name="UserDeleteError.Text" xml:space="preserve">
     <value>Ошибка при удалении пользователя</value>
   </data>
+  <data name="SKIN_BeginProcessing.Text" xml:space="preserve">
+    <value>Начало обработки файлов темы</value>
+  </data>
+  <data name="SKIN_EndProcessing.Text" xml:space="preserve">
+    <value>Конец обработки файлов темы</value>
+  </data>
   <data name="MODULE_ControlKeyMissing.Text" xml:space="preserve">
     <value>Поле Key отсутствует</value>
   </data>
@@ -1087,6 +1153,12 @@
   </data>
   <data name="WRITER_SaveFileError.Text" xml:space="preserve">
     <value>Ошибка при сохранении файла в архив - {0}</value>
+  </data>
+  <data name="SKIN_Registered.Text" xml:space="preserve">
+    <value>Пакет темы успешно зарегистрирован - {0}</value>
+  </data>
+  <data name="SKIN_UnRegistered.Text" xml:space="preserve">
+    <value>Пакет темы успешно снят с регистрации - {0}</value>
   </data>
   <data name="WRITER_AddFileToManifest.Text" xml:space="preserve">
     <value>Добавлен файл в манифест - {0}</value>
@@ -1175,6 +1247,9 @@
   <data name="jQuery.UnknownVersion.Text" xml:space="preserve">
     <value>Невозможно определить версию jQuery.</value>
   </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>Произошла ошибка при отправке электронных писем для подтверждения регистрации - {0}. Тем не менее, учетная запись пользователя успешно создана.</value>
+  </data>
   <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
     <value>Ошибка при доступе к [{0}:{1}], {0} - неизвестный источник данных.</value>
   </data>
@@ -1195,6 +1270,9 @@
   </data>
   <data name="DASHBOARD_UnRegistered.Text" xml:space="preserve">
     <value>Dashboard успешно удален</value>
+  </data>
+  <data name="SKIN_Installed.Text" xml:space="preserve">
+    <value>Эта тема уже установлена, но с другим именем пакета</value>
   </data>
   <data name="ModuleEffective.Text" xml:space="preserve">
     <value>Доступные модули - {0}</value>
@@ -1589,11 +1667,65 @@
   <data name="HostRootFolder.Name" xml:space="preserve">
     <value>Корень хоста</value>
   </data>
+  <data name="LIBRARY_ReadSuccess.Text" xml:space="preserve">
+    <value>Успешно разобран манифест библиотеки</value>
+  </data>
+  <data name="LIBRARY_Registered.Text" xml:space="preserve">
+    <value>Библиотека успешно зарегистрирована - {0}</value>
+  </data>
+  <data name="LIBRARY_UnRegistered.Text" xml:space="preserve">
+    <value>Библиотека успешно снята с регистрации - {0}</value>
+  </data>
+  <data name="Daily.Text" xml:space="preserve">
+    <value>Ежедневно</value>
+  </data>
+  <data name="Hourly.Text" xml:space="preserve">
+    <value>Ежечасно</value>
+  </data>
+  <data name="Monthly.Text" xml:space="preserve">
+    <value>Ежемесячно</value>
+  </data>
+  <data name="Weekly.Text" xml:space="preserve">
+    <value>Еженедельно</value>
+  </data>
+  <data name="ScriptCollision.Text" xml:space="preserve">
+    <value>Были произведены запросы к двум или более версиям одной и той же библиотеки JavaScript на этой странице. Подробности доступны в журнале событий.</value>
+  </data>
+  <data name="GettingStarted.Title" xml:space="preserve">
+    <value>Добро пожаловать на Ваш сайт</value>
+  </data>
+  <data name="GettingStarted.SignUpLabel" xml:space="preserve">
+    <value>Подписаться на наши новости</value>
+  </data>
+  <data name="GettingStarted.SignUpText" xml:space="preserve">
+    <value>Получать советы, инфомацию о приемах работы и сведения об обновлении продуктов</value>
+  </data>
+  <data name="GettingStarted.SignUpButton" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="GettingStarted.DownloadManualButton" xml:space="preserve">
+    <value>Скачать руководство пользователя</value>
+  </data>
+  <data name="GettingStarted.DontShowDialogLabel" xml:space="preserve">
+    <value>Не показывать снова</value>
+  </data>
   <data name="GettingStarted.FacebookLinkTooltip" xml:space="preserve">
     <value>Facebook</value>
   </data>
+  <data name="GettingStarted.TwitterLinkTooltip" xml:space="preserve">
+    <value>Твиттер DNN Corp</value>
+  </data>
   <data name="GettingStarted.InvalidEmailTitle" xml:space="preserve">
     <value>Ошибка</value>
+  </data>
+  <data name="GettingStarted.InvalidEmailMessage" xml:space="preserve">
+    <value>Указанный адрес эл. почты недопустим.</value>
+  </data>
+  <data name="GettingStarted.SignUpTitle" xml:space="preserve">
+    <value>Спасибо!</value>
+  </data>
+  <data name="GettingStarted.SignUpMessage" xml:space="preserve">
+    <value>Ваш запрос получен.</value>
   </data>
   <data name="ViewJournal.Text" xml:space="preserve">
     <value>Просмотр</value>
@@ -1613,11 +1745,29 @@
   <data name="Friends.Text" xml:space="preserve">
     <value>Друзья</value>
   </data>
+  <data name="Followers.Text" xml:space="preserve">
+    <value>Подписчики</value>
+  </data>
   <data name="FriendsAndGroups.Text" xml:space="preserve">
     <value>Друзья и группы</value>
   </data>
+  <data name="PermissionRoleHeader.Text" xml:space="preserve">
+    <value>Роль</value>
+  </data>
+  <data name="InvalidRoleId.Text" xml:space="preserve">
+    <value>Указанная роль неверна. Укажите верную роль.</value>
+  </data>
   <data name="PermissionActionsHeader.Text" xml:space="preserve">
     <value>Действия</value>
+  </data>
+  <data name="RoleNotFound.Text" xml:space="preserve">
+    <value>Указанная роль не найдена. Пожалуйста, обновите страницу и повторите попытку</value>
+  </data>
+  <data name="RoleSelect.Text" xml:space="preserve">
+    <value>Роль:</value>
+  </data>
+  <data name="CreatingConfiguredFolderMapping.Error" xml:space="preserve">
+    <value>Произошла ошибка при создании отображения папки из файла конфигурации</value>
   </data>
   <data name="PermissionUserHeader.Text" xml:space="preserve">
     <value>Пользователь</value>
@@ -1625,13 +1775,43 @@
   <data name="ChooseFile.Text" xml:space="preserve">
     <value>Выберите файл</value>
   </data>
+  <data name="Review.Text" xml:space="preserve">
+    <value>Проверить</value>
+  </data>
+  <data name="FileUpload.UnzipFilePromptTitle.Text" xml:space="preserve">
+    <value>Распаковать</value>
+  </data>
+  <data name="FileUpload.UnzipFileFailedPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="invalidFiles"&gt;&lt;p&gt;[COUNT] из [TOTAL] файлов не были извлечены из архива, так как их типы файлов не поддерживаются:&lt;/p&gt;[FILELIST]&lt;/div&gt;</value>
+  </data>
+  <data name="FileUpload.UnzipFileSuccessPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="validFiles"&gt;&lt;p&gt;[TOTAL] из [TOTAL] файлов были успешно извлечены из архива.&lt;/div&gt;</value>
+  </data>
+  <data name="AuthorizeUser.Text" xml:space="preserve">
+    <value>Авторизовать</value>
+  </data>
+  <data name="AuthorizeUserDescription.Text" xml:space="preserve">
+    <value>Утвердить регистрацию пользователя.</value>
+  </data>
   <data name="RejectUser.Text" xml:space="preserve">
     <value>Отклонить</value>
+  </data>
+  <data name="RejectUserDescription.Text" xml:space="preserve">
+    <value>Отклонить регистрацию пользователя. Пользователь при этом удаляется.</value>
   </data>
   <data name="DefaultWorkflowMigrationPrefix.Text" xml:space="preserve">
     <value>Папки:</value>
   </data>
+  <data name="DefaultDirectPublishWorkflowDescription.Text" xml:space="preserve">
+    <value>Разрешить автору напрямую публиковать содержимое на сайте</value>
+  </data>
   <data name="DefaultDirectPublishWorkflowName.Text" xml:space="preserve">
     <value>Прямая публикация</value>
+  </data>
+  <data name="DefaultSaveDraftWorkflowDescription.Text" xml:space="preserve">
+    <value>Разрешить автору сохранять черновик прежде, чем содержимое будет опубликовано</value>
+  </data>
+  <data name="DefaultSaveDraftWorkflowName.Text" xml:space="preserve">
+    <value>Сохранять черновик</value>
   </data>
 </root>
