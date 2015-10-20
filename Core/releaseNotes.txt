@@ -1,3 +1,10 @@
+<h3>Version 7.4.2-3</h3>
+<ul>
+    <li>Update global and shared resources l10n (mostly finished).</li>
+    <li>Finished password send/reset resources l10n.</li>
+    <li>Add new Toast skin object l10n.</li>
+    <li>Various reviewed updates from Translation Memory.</li>
+</ul>
 <h3>Version 7.4.2-2</h3>
 <ul>
     <li>Remove version number from package name in the manifest.</li>
