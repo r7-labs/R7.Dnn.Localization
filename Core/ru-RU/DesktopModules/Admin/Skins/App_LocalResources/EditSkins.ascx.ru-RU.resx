@@ -18,6 +18,9 @@
   <data name="Site.Text" xml:space="preserve">
     <value>Site</value>
   </data>
+  <data name="plSkins.Text" xml:space="preserve">
+    <value>Темы</value>
+  </data>
   <data name="plContainers.Text" xml:space="preserve">
     <value>Containers</value>
   </data>

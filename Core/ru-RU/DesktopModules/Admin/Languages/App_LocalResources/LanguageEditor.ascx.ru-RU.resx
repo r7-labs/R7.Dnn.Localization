@@ -147,6 +147,9 @@
   <data name="Exceptions.Text" xml:space="preserve">
     <value>Исключения</value>
   </data>
+  <data name="HostSkins.Text" xml:space="preserve">
+    <value>Темы хостинга</value>
+  </data>
   <data name="Template.Text" xml:space="preserve">
     <value>Шаблон</value>
   </data>

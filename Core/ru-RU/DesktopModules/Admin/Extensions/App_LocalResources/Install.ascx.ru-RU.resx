@@ -105,6 +105,9 @@
   <data name="Container.Text" xml:space="preserve">
     <value>Контейнер</value>
   </data>
+  <data name="Skin.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
   <data name="CoreLanguageError.Text" xml:space="preserve">
     <value>Язык для ядра системы, для которого создан этот языковой пакет, не установлен. Установите языковой пакет для ядра системы прежде, чем устанавливать любые другие языковые пакеты для этого языка.</value>
   </data>

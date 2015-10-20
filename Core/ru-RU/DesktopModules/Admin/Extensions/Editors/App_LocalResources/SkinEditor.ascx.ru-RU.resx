@@ -18,4 +18,7 @@
   <data name="ContainerTitle.Text" xml:space="preserve">
     <value>Настройки пакета контейнера</value>
   </data>
+  <data name="SkinPackageInfo_Skins.Text" xml:space="preserve">
+    <value>Темы</value>
+  </data>
 </root>

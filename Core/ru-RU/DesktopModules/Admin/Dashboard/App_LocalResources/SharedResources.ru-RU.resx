@@ -30,6 +30,9 @@
   <data name="Server.Title" xml:space="preserve">
     <value>Веб-сервер</value>
   </data>
+  <data name="Skins.Title" xml:space="preserve">
+    <value>Темы</value>
+  </data>
   <data name="SupportEmail.Text" xml:space="preserve">
     <value>support@dotnetnukecorp.com</value>
   </data>

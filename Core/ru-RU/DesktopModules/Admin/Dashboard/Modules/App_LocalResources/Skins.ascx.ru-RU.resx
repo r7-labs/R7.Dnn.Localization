@@ -15,4 +15,7 @@
   <data name="InUse.Header" xml:space="preserve">
     <value>Используется</value>
   </data>
+  <data name="Skin.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
 </root>

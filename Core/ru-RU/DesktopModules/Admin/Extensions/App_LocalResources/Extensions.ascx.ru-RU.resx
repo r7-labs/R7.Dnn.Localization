@@ -141,6 +141,9 @@
   <data name="Provider.Type" xml:space="preserve">
     <value>Поставщики</value>
   </data>
+  <data name="Skin.Type" xml:space="preserve">
+    <value>Темы</value>
+  </data>
   <data name="SkinObject.Type" xml:space="preserve">
     <value>Скин-объекты</value>
   </data>
@@ -170,6 +173,9 @@
   </data>
   <data name="CatalogSearchTitle.Text" xml:space="preserve">
     <value>Поиск расширений</value>
+  </data>
+  <data name="CatalogSkin.Text" xml:space="preserve">
+    <value>Тема</value>
   </data>
   <data name="SearchLabel.Help" xml:space="preserve">
     <value>Нажмите Enter для поиска, Esc очищает результаты поиска и отменяет его</value>
