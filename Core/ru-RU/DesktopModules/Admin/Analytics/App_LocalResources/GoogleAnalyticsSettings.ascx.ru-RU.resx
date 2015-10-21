@@ -30,6 +30,12 @@
   <data name="valTrackingId.Text" xml:space="preserve">
     <value>Укажите ID отслеживания!</value>
   </data>
+  <data name="lblTrackForAdmin.Help" xml:space="preserve">
+    <value>Включите эту настройку для того, чтобы включить действия администраторов сайта и хостинга в результаты аналитики Google, или выключите отслеживание этих пользователей.</value>
+  </data>
+  <data name="lblTrackForAdmin.Text" xml:space="preserve">
+    <value>Отслеживать администраторов?</value>
+  </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Аналитика Google</value>
   </data>
