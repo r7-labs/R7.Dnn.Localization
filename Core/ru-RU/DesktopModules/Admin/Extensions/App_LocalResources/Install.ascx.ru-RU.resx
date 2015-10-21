@@ -102,8 +102,17 @@
   <data name="Return.Text" xml:space="preserve">
     <value>Возврат</value>
   </data>
+  <data name="LegacySkin.Text" xml:space="preserve">
+    <value>Старая тема/контейнер:</value>
+  </data>
+  <data name="NoManifest.Text" xml:space="preserve">
+    <value>Данный пакет не является корректным расширением DotNetNuke, так как не содержит манифеста. Темы и контейнеры старых (более ранних) версий не содержат манифеста. Если этот пакет является темой или контейнером ранних версий, отметьте соответствующий вариант внизу, и нажмите Далее.</value>
+  </data>
   <data name="Container.Text" xml:space="preserve">
     <value>Контейнер</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Не тема или контейнер</value>
   </data>
   <data name="Skin.Text" xml:space="preserve">
     <value>Тема</value>
@@ -116,6 +125,9 @@
   </data>
   <data name="IgnoreWhiteListHelp.Text" xml:space="preserve">
     <value>Установщик поддерживает список допустимых расширений имен файлов (т.н. "белый список"), которые могут быть установлены на Ваш сайт. Если Вы уверены, что пакет, который устанавливается, получен из надежного источника, то можете выбрать игнорировать этот список.</value>
+  </data>
+  <data name="LegacySkinHelp.Text" xml:space="preserve">
+    <value>Темы и контейнеры ранних версий могут быть установлены с использованием данного установщика. Но, поскольку они не содержат манифеста, Вы должны идентифицировать их как темы или контейнеры самостоятельно (если не уверены, выберите соответствующий вариант внизу).</value>
   </data>
   <data name="RepairInstallHelp.Text" xml:space="preserve">
     <value>По умолчанию инсталлятор не  перезаписывает тот же пакет и версию. Если Вам это надо, чтобы инсталлятор исправил текущую установленную версию, то тогда включите этот флажок.</value>
@@ -152,5 +164,11 @@
   </data>
   <data name="AzureCompactWarning.Text" xml:space="preserve">
     <value>Предупреждение: Вы приняли решение установить пакет, совместимость которого с БД SQL Azure не подтверждена.</value>
+  </data>
+  <data name="NoAzureCompactHelp.Text" xml:space="preserve">
+    <value>Этот сайт использует БД SQL Azure для хранения данных, однако устанавливаемый пакет был помечен разработчиком как несовместимый с БД SQL Azure. Нажмите Отмена для завершения процесса установки.</value>
+  </data>
+  <data name="NoAzureCompactMessage.Text" xml:space="preserve">
+    <value>Данный пакет не совместим с БД SQL Azure.</value>
   </data>
 </root>

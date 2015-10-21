@@ -69,6 +69,15 @@
   <data name="ModuleInstall.Action" xml:space="preserve">
     <value>Установить модуль</value>
   </data>
+  <data name="CreateSkin.Action" xml:space="preserve">
+    <value>Создать тему</value>
+  </data>
+  <data name="EditSkins.Action" xml:space="preserve">
+    <value>Управление темами</value>
+  </data>
+  <data name="SkinInstall.Action" xml:space="preserve">
+    <value>Установить тему</value>
+  </data>
   <data name="plLocales.Text" xml:space="preserve">
     <value>Найти доступные языковые пакеты:</value>
   </data>
@@ -266,5 +275,14 @@
   </data>
   <data name="License.Text" xml:space="preserve">
     <value>Лицензия:</value>
+  </data>
+  <data name="ListExtensions.Text" xml:space="preserve">
+    <value>Узнайте больше о том, как предложить Ваши расширения &lt;a href="http://store.dnnsoftware.com/make-money/become-a-seller" target="_blank" class="info"&gt;здесь&lt;/a&gt;.</value>
+  </data>
+  <data name="JavaScript_Library.Type" xml:space="preserve">
+    <value>Библиотеки JavaScript</value>
+  </data>
+  <data name="EvoqConnector.Type" xml:space="preserve">
+    <value>Коннекторы Evoq</value>
   </data>
 </root>

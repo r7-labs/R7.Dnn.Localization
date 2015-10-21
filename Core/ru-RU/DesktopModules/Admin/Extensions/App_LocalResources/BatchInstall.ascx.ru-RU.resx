@@ -27,6 +27,9 @@
   <data name="AvailableModules.Text" xml:space="preserve">
     <value>Доступные модули</value>
   </data>
+  <data name="AvailableSkins.Text" xml:space="preserve">
+    <value>Доступные темы</value>
+  </data>
   <data name="cmdInstall.Text" xml:space="preserve">
     <value>Установить выбранные расширения</value>
   </data>
@@ -48,6 +51,9 @@
   <data name="NoModules.Text" xml:space="preserve">
     <value>Нет доступных модулей</value>
   </data>
+  <data name="NoSkins.Text" xml:space="preserve">
+    <value>Нет доступных тем</value>
+  </data>
   <data name="InstallAuthSystemError.Text" xml:space="preserve">
     <value>&lt;b&gt;&lt;font color='red'&gt;Ошибка при установке системы (систем) аутентификации:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
   </data>
@@ -59,6 +65,9 @@
   </data>
   <data name="InstallModuleError.Text" xml:space="preserve">
     <value>&lt;b&gt;&lt;font color='red'&gt;Ошибка при установке модуля (модулей):&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallSkinError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Ошибка при установке темы:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
   </data>
   <data name="NoneSelected.Text" xml:space="preserve">
     <value>Не выбраны расширения для установки.</value>
