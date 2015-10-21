@@ -57,10 +57,16 @@
   <data name="ContainerUpload.Action" xml:space="preserve">
     <value>Upload Container</value>
   </data>
+  <data name="ControlTitle_editskins.Text" xml:space="preserve">
+    <value>Управление темами</value>
+  </data>
   <data name="About.Text" xml:space="preserve">
     <value>О {0}</value>
   </data>
   <data name="CannotDeleteContainer.ErrorMessage" xml:space="preserve">
     <value>This set of containers cannot be deleted because it is being used</value>
+  </data>
+  <data name="CannotDeleteSkin.ErrorMessage" xml:space="preserve">
+    <value>Данный набор тем не может быть удален, поскольку используется в настоящее время</value>
   </data>
 </root>

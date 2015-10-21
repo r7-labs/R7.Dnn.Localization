@@ -204,6 +204,9 @@
   <data name="Tab.PageManagement.Title.Text" xml:space="preserve">
     <value>Управление страницами</value>
   </data>
+  <data name="Tab.PortalAdministration.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Основные возможности</value>
+  </data>
   <data name="Tab.PortalAdministration.Name.Text" xml:space="preserve">
     <value>Админ</value>
   </data>

@@ -15,6 +15,12 @@
   <data name="InUse.Header" xml:space="preserve">
     <value>Используется</value>
   </data>
+  <data name="plSkins.Help" xml:space="preserve">
+    <value>Отображает список всех установленных на хостинге тем</value>
+  </data>
+  <data name="plSkins.Text" xml:space="preserve">
+    <value>Темы, установленные на хостинге:</value>
+  </data>
   <data name="Skin.Header" xml:space="preserve">
     <value>Тема</value>
   </data>
