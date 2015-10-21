@@ -27,11 +27,20 @@
   <data name="plTitle.Text" xml:space="preserve">
     <value>Заголовок:</value>
   </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>Укажите заголовок данного элемента управления. Он будет показан в заголовке модуля, если позволяет выбранная тема.</value>
+  </data>
   <data name="plSource.Text" xml:space="preserve">
     <value>Исходный файл:</value>
   </data>
   <data name="plSource.Help" xml:space="preserve">
     <value>Выберите исходный файл для этого элемента управления, или введите имя типа.</value>
+  </data>
+  <data name="plSourceFolder.Text" xml:space="preserve">
+    <value>Папка исходного файла:</value>
+  </data>
+  <data name="plSourceFolder.Help" xml:space="preserve">
+    <value>Выберите папку с исходным файлом элемента управления.</value>
   </data>
   <data name="plType.Text" xml:space="preserve">
     <value>Тип:</value>
@@ -65,6 +74,9 @@
   </data>
   <data name="plIcon.Text" xml:space="preserve">
     <value>Значок:</value>
+  </data>
+  <data name="plIcon.Help" xml:space="preserve">
+    <value>Выберите значок для данного элемента управления. Он будет показан в заголовке модуля, если позволяет выбранная тема.</value>
   </data>
   <data name="plHelpURL.Text" xml:space="preserve">
     <value>URL cправки:</value>

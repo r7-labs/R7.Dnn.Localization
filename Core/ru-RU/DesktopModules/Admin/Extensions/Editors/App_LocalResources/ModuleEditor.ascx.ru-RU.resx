@@ -63,6 +63,9 @@
   <data name="cmdAddDefinition.Text" xml:space="preserve">
     <value>Добавить определение</value>
   </data>
+  <data name="cmdCancelDefinition.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
   <data name="cmdSaveControl.Text" xml:space="preserve">
     <value>Сохранить элемент управления</value>
   </data>
