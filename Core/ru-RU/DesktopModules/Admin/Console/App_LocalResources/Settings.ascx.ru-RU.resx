@@ -117,4 +117,10 @@
   <data name="OrderTabsByHierarchy.Text" xml:space="preserve">
     <value>Упорядочить по месту в иерархии</value>
   </data>
+  <data name="IncludeHiddenPages.Help" xml:space="preserve">
+    <value>Отметьте, чтобы отображать также страницы, которые скрыты в меню.</value>
+  </data>
+  <data name="IncludeHiddenPages.Text" xml:space="preserve">
+    <value>Показать скрытые страницы</value>
+  </data>
 </root>
