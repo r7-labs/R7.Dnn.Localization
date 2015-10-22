@@ -51,4 +51,7 @@
   <data name="Type.ToolTip" xml:space="preserve">
     <value>Тип словаря, простой или древовидный.</value>
   </data>
+  <data name="VocabularyExists.Error" xml:space="preserve">
+    <value>Словарь "{0}" уже присутствует в списке.</value>
+  </data>
 </root>

@@ -39,4 +39,7 @@
   <data name="Confirm.Text" xml:space="preserve">
     <value>Уверены, что хотите создать новый словарь</value>
   </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Управление таксономией</value>
+  </data>
 </root>
