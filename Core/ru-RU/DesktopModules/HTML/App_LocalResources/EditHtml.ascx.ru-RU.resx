@@ -165,6 +165,12 @@
   <data name="cmdHistory.Text" xml:space="preserve">
     <value>История версий</value>
   </data>
+  <data name="cmdHideMasterContent.Text" xml:space="preserve">
+    <value>Скрыть версию на исходном языке</value>
+  </data>
+  <data name="cmdShowMasterContent.Text" xml:space="preserve">
+    <value>Показать версию на исходном языке</value>
+  </data>
   <data name="liBasicText.Text" xml:space="preserve">
     <value>Простой текст</value>
   </data>
