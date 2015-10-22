@@ -63,7 +63,13 @@
   <data name="UserUnSubscribed.Text" xml:space="preserve">
     <value>Вы были успешно отписаны от роли {0}.</value>
   </data>
+  <data name="cmdCommunications.Text" xml:space="preserve">
+    <value>Связи</value>
+  </data>
   <data name="ControlTitle_profile.Text" xml:space="preserve">
     <value>Профиль</value>
+  </data>
+  <data name="DisplayNameNotUnique.Text" xml:space="preserve">
+    <value>Введенное Вами отображаемое имя уже используется, пожалуйста, выберите другое.</value>
   </data>
 </root>

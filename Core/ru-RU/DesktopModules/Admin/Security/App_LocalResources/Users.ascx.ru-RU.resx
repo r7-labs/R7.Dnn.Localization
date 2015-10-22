@@ -193,4 +193,7 @@
   <data name="PagerPageSize.Text" xml:space="preserve">
     <value>Элементов на страницу:</value>
   </data>
+  <data name="PagerTextFormat.Text" xml:space="preserve">
+    <value>{4} страница {0} из {1}, пользователи с {2} по {3} из {5}</value>
+  </data>
 </root>

@@ -96,4 +96,10 @@
   <data name="PromoteToSuperUser.Text" xml:space="preserve">
     <value>Сделать администратором</value>
   </data>
+  <data name="UserFolder.Help" xml:space="preserve">
+    <value>Папка, в которой хранятся файлы пользователя.</value>
+  </data>
+  <data name="UserFolder.Text" xml:space="preserve">
+    <value>Папка пользователя</value>
+  </data>
 </root>

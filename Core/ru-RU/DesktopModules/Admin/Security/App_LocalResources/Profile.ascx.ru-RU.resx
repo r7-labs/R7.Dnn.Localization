@@ -279,4 +279,13 @@
   <data name="ProfileProperties_Twitter.Text" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="ProfileProperties_Skype.Help" xml:space="preserve">
+    <value>Ссылка для звонка Вам через Skype по имени пользователя</value>
+  </data>
+  <data name="ProfileProperties_Skype.Required" xml:space="preserve">
+    <value>Укажите идентификатор Skype</value>
+  </data>
+  <data name="ProfileProperties_Skype.Text" xml:space="preserve">
+    <value>Идентификатор Skype</value>
+  </data>
 </root>

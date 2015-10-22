@@ -102,4 +102,7 @@
   <data name="HideSiteList.Text" xml:space="preserve">
     <value>Скрыть список сайтов</value>
   </data>
+  <data name="DisplayNameNotUnique.Text" xml:space="preserve">
+    <value>Введенное Вами отображаемое имя уже используется, пожалуйста, выберите другое.</value>
+  </data>
 </root>
