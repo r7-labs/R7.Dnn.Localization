@@ -54,4 +54,10 @@
   <data name="TotalPages.Text" xml:space="preserve">
     <value>Всего страниц</value>
   </data>
+  <data name="AllPagesTranslatable.Help" xml:space="preserve">
+    <value>Если отмечено, все страницы на языке по умолчанию будут сделаны переводимыми. DotNetNuke создаст копию каждой такой страницы, на всех выбранных языках.</value>
+  </data>
+  <data name="AllPagesTranslatable.Text" xml:space="preserve">
+    <value>Сделать все страницы переводимыми</value>
+  </data>
 </root>
