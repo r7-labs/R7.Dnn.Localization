@@ -24,6 +24,9 @@
   <data name="Community.Text" xml:space="preserve">
     <value>Члены сообщества</value>
   </data>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить этот элемент?</value>
+  </data>
   <data name="EditModule.Text" xml:space="preserve">
     <value>Редактировать модуль</value>
   </data>

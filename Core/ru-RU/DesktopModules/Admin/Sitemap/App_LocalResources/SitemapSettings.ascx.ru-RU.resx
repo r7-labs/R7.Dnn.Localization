@@ -186,4 +186,7 @@
   <data name="DisableCaching.Text" xml:space="preserve">
     <value>Отключить кэширование</value>
   </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Карта сайта для поисковиков</value>
+  </data>
 </root>

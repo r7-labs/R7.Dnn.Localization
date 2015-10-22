@@ -36,6 +36,12 @@
   <data name="GeneralTab.Text" xml:space="preserve">
     <value>Общие</value>
   </data>
+  <data name="lblCopyPerm.Help" xml:space="preserve">
+    <value>Устанавливает текущие разрешения папки для всех подчиненных ей папок.</value>
+  </data>
+  <data name="lblCopyPerm.Text" xml:space="preserve">
+    <value>Копировать разрешения для подчиненных:</value>
+  </data>
   <data name="PermissionCopyError.Text" xml:space="preserve">
     <value>Произошла ошибка при копировании разрешений</value>
   </data>

@@ -145,4 +145,7 @@
   <data name="lblNoteSingleLanguage.Text" xml:space="preserve">
     <value>Подсказка: язык по-умолчанию &lt;b&gt;{0}&lt;/b&gt;</value>
   </data>
+  <data name="lblRedirect.Text" xml:space="preserve">
+    <value>Перенаправление страницы</value>
+  </data>
 </root>

@@ -84,6 +84,9 @@
   <data name="linkAdvancedTip.Text" xml:space="preserve">
     <value>Справка</value>
   </data>
+  <data name="AdvancedSearchHint.Text" xml:space="preserve">
+    <value>&lt;table class="dnnSearchResult-hint-tbl dnnTableDisplay"&gt;&lt;tr&gt; &lt;th style="width: 150px"&gt;&lt;span&gt;Тип&lt;/span&gt; &lt;/th&gt; &lt;th style="width: 250px"&gt;&lt;span&gt;Пример&lt;/span&gt; &lt;/th&gt; &lt;th&gt;&lt;span&gt;Примечания&lt;/span&gt; &lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Мягкий поиск&lt;/td&gt; &lt;td&gt;чайник&lt;b&gt;~&lt;/b&gt;&lt;/td&gt; &lt;td&gt;Выбирает материалы со словами, близкими к слову &lt;i&gt;чайник&lt;/i&gt;, например &lt;i&gt;чайный&lt;/i&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Символы подстановки&lt;/td&gt; &lt;td&gt;кот*&lt;/td&gt; &lt;td&gt;Выбирает материалы со словами, начинающимися с &lt;i&gt;кот&lt;/i&gt;, например &lt;i&gt;который&lt;/i&gt; и само слово &lt;i&gt;кот&lt;/i&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Одно слово&lt;/td&gt; &lt;td&gt;апельсин&lt;/td&gt; &lt;td&gt;Выбирает все материалы со словами &lt;i&gt;апельсин&lt;/i&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Точная фраза&lt;/td&gt; &lt;td&gt;"высшее образование"&lt;/td&gt; &lt;td&gt;Выбирает все материалы, содержащие фразу &lt;i&gt;высшее образование&lt;/i&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;ИЛИ&lt;/td&gt; &lt;td&gt;красное яблоко&lt;/td&gt; &lt;td&gt;Выбирает все материалы, содержащие слова &lt;i&gt;красное&lt;/i&gt; или &lt;i&gt;яблоко&lt;/i&gt;, или оба слова. &lt;B&gt;OR записывается в верхнем регистре&lt;/B&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;красное &lt;b&gt;OR&lt;/b&gt; яблоко&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;И&lt;/td&gt; &lt;td&gt;+красное +яблоко&lt;/td&gt; &lt;td&gt;Выбирает все материалы, содержащие оба слова: &lt;i&gt;красное&lt;/i&gt; и &lt;i&gt;яблоко&lt;/i&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;красное &lt;b&gt;AND&lt;/b&gt; яблоко&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Комбинация И и ИЛИ&lt;/td&gt; &lt;td&gt;(заочное &lt;b&gt;OR&lt;/b&gt; сокращенное) &lt;b&gt;AND&lt;/b&gt; обучение&lt;/td&gt; &lt;td&gt;Выбирает все материалы, содержащие слово &lt;i&gt;обучение&lt;/i&gt; и содержащие, кроме этого, слова &lt;i&gt;заочное&lt;/i&gt; и/или &lt;i&gt;сокращенное&lt;/i&gt;. &lt;b&gt;AND и OR записываются в верхнем регистре&lt;/b&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</value>
+  </data>
   <data name="LastModified.Text" xml:space="preserve">
     <value>Обновлено:</value>
   </data>
@@ -110,5 +113,8 @@
   </data>
   <data name="ResultsCount.Text" xml:space="preserve">
     <value>Примерно {0} результатов</value>
+  </data>
+  <data name="DefaultText.Text" xml:space="preserve">
+    <value>Введите поисковую фразу</value>
   </data>
 </root>

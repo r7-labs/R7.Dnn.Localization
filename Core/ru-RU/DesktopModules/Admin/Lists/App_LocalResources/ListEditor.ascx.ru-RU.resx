@@ -37,4 +37,7 @@
   <data name="NoList.Text" xml:space="preserve">
     <value>Пожалуйста, выберите список</value>
   </data>
+  <data name="NoEntries.Text" xml:space="preserve">
+    <value>{0} элементов</value>
+  </data>
 </root>

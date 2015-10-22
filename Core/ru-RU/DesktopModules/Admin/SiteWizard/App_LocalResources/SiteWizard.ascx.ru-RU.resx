@@ -70,6 +70,9 @@
   <data name="InvalidTemplate.Text" xml:space="preserve">
     <value>{0} не является правильным файлом шаблона сайта.</value>
   </data>
+  <data name="Skin.Title" xml:space="preserve">
+    <value>Выберите тему для Вашего сайта</value>
+  </data>
   <data name="Container.Title" xml:space="preserve">
     <value>Выберите контейнер по умолчанию для вашего сайта</value>
   </data>

@@ -94,4 +94,16 @@
   <data name="plServers.Text" xml:space="preserve">
     <value>Имя сервера:</value>
   </data>
+  <data name="plServers.Help" xml:space="preserve">
+    <value>Конкретный сервер (или все), на котором будут запускаться запланированные задачи.</value>
+  </data>
+  <data name="plScheduleAppStartDelay.Text" xml:space="preserve">
+    <value>Задержка расписания при запуске:</value>
+  </data>
+  <data name="plScheduleAppStartDelay.Help" xml:space="preserve">
+    <value>Число минут, которые системы должна ожидать перед началом исполнения запланированных задач после запуска или перезапуска. По умолчанию 1 мин.</value>
+  </data>
+  <data name="ScheduleAppStartDelayValidation.Text" xml:space="preserve">
+    <value>Значение должно быть указано в минутах!</value>
+  </data>
 </root>
