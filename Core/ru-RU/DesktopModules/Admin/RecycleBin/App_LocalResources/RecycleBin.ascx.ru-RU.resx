@@ -76,4 +76,10 @@
   <data name="TabDeleted.ErrorMessage" xml:space="preserve">
     <value>&lt;b&gt;{0}&lt;/b&gt; модуль не может быть восстановлен до тех пор, пока страница, на которой он размещен, также не будет восстановлена.</value>
   </data>
+  <data name="NoTabSelected.Text" xml:space="preserve">
+    <value>Вы не выбрали ни одной страницы для восстановления.</value>
+  </data>
+  <data name="RestoreTab.Text" xml:space="preserve">
+    <value>Уверены, что хотите восстановить также и все подчиненные страницы для выбранных страниц?</value>
+  </data>
 </root>
