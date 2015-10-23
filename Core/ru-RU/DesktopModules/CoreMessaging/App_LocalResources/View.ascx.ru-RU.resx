@@ -48,6 +48,12 @@
   <data name="DismissThis.Text" xml:space="preserve">
     <value>Снять это</value>
   </data>
+  <data name="DismissAllNotifications.Text" xml:space="preserve">
+    <value>Отклонить все уведомления</value>
+  </data>
+  <data name="DismissAllConfirm.Text" xml:space="preserve">
+    <value>Уверены, что хотите отменить все {0} уведомлений?</value>
+  </data>
   <data name="EditModule.Text" xml:space="preserve">
     <value>Редактировать модуль</value>
   </data>
@@ -243,6 +249,9 @@
   <data name="ActionPerformed.Text" xml:space="preserve">
     <value>Действие выполнено успешно.</value>
   </data>
+  <data name="ReplyHasNoRecipients.Text" xml:space="preserve">
+    <value>У сообщения более нет доступных получателей, поэтому ответы были отключены.</value>
+  </data>
   <data name="ServerError.Text" xml:space="preserve">
     <value>Произошла ошибка при обработке запроса. Пожалуйста, повторите попытку позже.</value>
   </data>
@@ -261,13 +270,88 @@
   <data name="Upload.Text" xml:space="preserve">
     <value>Подгрузить с компьютера</value>
   </data>
+  <data name="Subscriptions.Text" xml:space="preserve">
+    <value>Подписки</value>
+  </data>
   <data name="Action.Text" xml:space="preserve">
     <value>Действие</value>
+  </data>
+  <data name="Activity.Text" xml:space="preserve">
+    <value>Активность</value>
+  </data>
+  <data name="ManageSubscriptions.Text" xml:space="preserve">
+    <value>Управление подписками</value>
   </data>
   <data name="Frequency.Text" xml:space="preserve">
     <value>Частота</value>
   </data>
+  <data name="lblMessageFreq.Help" xml:space="preserve">
+    <value>Как часто Вы будете получать уведомления по электронной почте с информацией о сообщениях пользователей на сайте.</value>
+  </data>
+  <data name="lblMessageFreq.Text" xml:space="preserve">
+    <value>Частота дайджеста сообщений:</value>
+  </data>
+  <data name="lblNotificationFreq.Help" xml:space="preserve">
+    <value>Как часто Вы будете получать уведомления по электронной почте с информацией об отправленных Вам уведомлениях на сайте.</value>
+  </data>
+  <data name="lblNotificationFreq.Text" xml:space="preserve">
+    <value>Частота дайджеста уведомлений:</value>
+  </data>
+  <data name="EmailDeliverySchedule.Text" xml:space="preserve">
+    <value>Расписание доставки почты</value>
+  </data>
+  <data name="PrefSaved.Text" xml:space="preserve">
+    <value>Ваши настройки были сохранены</value>
+  </data>
+  <data name="SearchFilter.Text" xml:space="preserve">
+    <value>Фильтр поиска</value>
+  </data>
+  <data name="SubscriptionType.Text" xml:space="preserve">
+    <value>Тип подписки</value>
+  </data>
   <data name="Unsubscribe.Text" xml:space="preserve">
     <value>Отписаться</value>
+  </data>
+  <data name="SubscribedDescription.Text" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="Unsubscribed.Text" xml:space="preserve">
+    <value>Ваша подписка успешно отменена.</value>
+  </data>
+  <data name="lblSubscriptions.Help" xml:space="preserve">
+    <value>Просмотр и управлением элементами Вашей подписки.</value>
+  </data>
+  <data name="lblSubscriptions.Text" xml:space="preserve">
+    <value>Подписки:</value>
+  </data>
+  <data name="DNNCorp_Answers_Question.Text" xml:space="preserve">
+    <value>Подписка на ответы</value>
+  </data>
+  <data name="DNNCorp_Blogs.Text" xml:space="preserve">
+    <value>Подписка на блоги</value>
+  </data>
+  <data name="DNNCorp_Challenges_Challenge.Text" xml:space="preserve">
+    <value>Подписка на задачи</value>
+  </data>
+  <data name="DNNCorp_Discussions_Topic.Text" xml:space="preserve">
+    <value>Подписка на обсуждения</value>
+  </data>
+  <data name="DNNCorp_File.Text" xml:space="preserve">
+    <value>Подписка на файлы</value>
+  </data>
+  <data name="DNNCorp_Folder.Text" xml:space="preserve">
+    <value>Подписка на папки</value>
+  </data>
+  <data name="DNNCorp_Groups_CreatedApprovedGroup.Text" xml:space="preserve">
+    <value>Подписка на группы</value>
+  </data>
+  <data name="DNNCorp_Ideas.Text" xml:space="preserve">
+    <value>Подписка на идеи</value>
+  </data>
+  <data name="DNNCorp_SocialEvents_Event.Text" xml:space="preserve">
+    <value>Подписка на события</value>
+  </data>
+  <data name="DNNCorp_Wiki_Page.Text" xml:space="preserve">
+    <value>Подписка на Wiki</value>
   </data>
 </root>
