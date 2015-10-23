@@ -42,6 +42,9 @@
   <data name="plExpiryDate.Help" xml:space="preserve">
     <value>Укажите дату, когда назначение роли пользователю должно быть автоматически отменено (необязательное поле). Пустое значение соответствует неограниченному сроку действия роли.</value>
   </data>
+  <data name="SendNotification.Text" xml:space="preserve">
+    <value>Отправить уведомление?</value>
+  </data>
   <data name="cmdAdd.Text" xml:space="preserve">
     <value>Добавить роль</value>
   </data>
