@@ -177,6 +177,9 @@
   <data name="ControlTitle_signup.Text" xml:space="preserve">
     <value>Создание сайта</value>
   </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>Произошла ошибка при отправке электронных писем с уведомлением - {0}  Тем не менее, сайт был успешно создан. &lt;a href='{1}' {2}&gt;Нажмите здесь для доступа к новому сайту&lt;/a&gt;</value>
+  </data>
   <data name="AddPortal.Text" xml:space="preserve">
     <value>Добавить новый портал</value>
   </data>
@@ -188,6 +191,9 @@
   </data>
   <data name="UnknownSendMail.Error" xml:space="preserve">
     <value>Проблема при отсылке письма с подтверждением.  Тем не менее, сайт был создан. &lt;a href='{0}'&gt;Нажмите сюда для доступа к новому сайту&lt;/a&gt;</value>
+  </data>
+  <data name="UnknownEmailAddress.Error" xml:space="preserve">
+    <value>Не обнаружено адреса электронной почты, установленного для уровне сайта или хостинга.</value>
   </data>
   <data name="ValidationResults.Text" xml:space="preserve">
     <value>Результаты проверки правильности</value>
@@ -215,5 +221,17 @@
   </data>
   <data name="valPortalAlias.ErrorMessage" xml:space="preserve">
     <value>Укажите псевдоним сайта.</value>
+  </data>
+  <data name="DuplicateWithTab.Text" xml:space="preserve">
+    <value>Уже существует страница с именем, совпадающим с псевдонимом сайта. Пожалуйста, измените псевдоним сайта и повторите попытку.</value>
+  </data>
+  <data name="DisallowedExtension.Warning" xml:space="preserve">
+    <value>Шаблон содержит следующие расширения, которые обычно не должны быть доступны на сайте – {0}. Но, поскольку невозможно исключить их из шаблона, они были скопированы на сайт. Подробная информация об ошибке содержится в журнале событий сайта.</value>
+  </data>
+  <data name="plSiteGroups.Help" xml:space="preserve">
+    <value>Вы также можете добавить новый сайт к существующей группе</value>
+  </data>
+  <data name="plSiteGroups.Text" xml:space="preserve">
+    <value>Включить в группу сайтов:</value>
   </data>
 </root>
