@@ -336,6 +336,12 @@
   <data name="UploadingExtracting.Text" xml:space="preserve">
     <value>Подгрузка и распаковка...</value>
   </data>
+  <data name="InvalidGroup.Error" xml:space="preserve">
+    <value>Не задан идентификатор группы. Вернитесь на страницу групп и выберите нужную группу. </value>
+  </data>
+  <data name="InvalidUser.Error" xml:space="preserve">
+    <value>Модуль настроен на использование в режиме пользователя, поэтому не может использоваться неаутентифицированными пользователями.</value>
+  </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Управление файлами</value>
   </data>
@@ -344,5 +350,26 @@
   </data>
   <data name="ToolbarTitle.Views.Text" xml:space="preserve">
     <value>Просмотров</value>
+  </data>
+  <data name="Unlink.Text" xml:space="preserve">
+    <value>Отсоединить</value>
+  </data>
+  <data name="UnlinkFolder.Text" xml:space="preserve">
+    <value>Отсоединить папку</value>
+  </data>
+  <data name="UnlinkFolderError.Title" xml:space="preserve">
+    <value>Произошла ошибка при отсоединении папки</value>
+  </data>
+  <data name="Unlink.Title" xml:space="preserve">
+    <value>Отсоединить папку...</value>
+  </data>
+  <data name="UnlinkConfirm.Text" xml:space="preserve">
+    <value>Уверены,, что хотите отсоединить данную папку?</value>
+  </data>
+  <data name="DeleteConfirmWithMappedSubfolder.Text" xml:space="preserve">
+    <value>Примечание: Выбранные папки содержат [COUNT] внешнюю папу. Эта папка будет отсоединена от сайта, но папка и файлы в ней по-прежнему будут доступны во внешнем хранилище.</value>
+  </data>
+  <data name="DeleteConfirmWithMappedSubfolders.Text" xml:space="preserve">
+    <value>Примечание: Выбранные папки содержат [COUNT] внешних папок. Эти папки будут отсоединены от сайта, но папки и файлы в них по-прежнему будут доступны во внешнем хранилище.</value>
   </data>
 </root>

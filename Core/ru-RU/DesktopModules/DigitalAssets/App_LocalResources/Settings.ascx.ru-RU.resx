@@ -21,8 +21,29 @@
   <data name="DefaultFolderType.Text" xml:space="preserve">
     <value>Тип папки по-умолчанию</value>
   </data>
+  <data name="ExcludeSubfolders.Text" xml:space="preserve">
+    <value>Исключая подпапки</value>
+  </data>
+  <data name="ExcludeSubfoldersLabel.Help" xml:space="preserve">
+    <value>Если отмечено, модуль будет показывать файлы, а также файлы в подпапках, но не сами подпапки</value>
+  </data>
+  <data name="FilterByFolder.Text" xml:space="preserve">
+    <value>Фильтровать по папке</value>
+  </data>
+  <data name="FolderMustBeSelected.ErrorMessage" xml:space="preserve">
+    <value>Требуется выбрать папку, если отмечен флаг "Фильтровать по папке"</value>
+  </data>
   <data name="Group.Text" xml:space="preserve">
     <value>Группа</value>
+  </data>
+  <data name="IncludeSubfoldersFilesOnly.Text" xml:space="preserve">
+    <value>Включая подпапки (только файлы)</value>
+  </data>
+  <data name="IncludeSubfoldersFolderStructure.Text" xml:space="preserve">
+    <value>Включая подпапки (показать структуру папок)</value>
+  </data>
+  <data name="Mode.Help" xml:space="preserve">
+    <value>Режим, в котором должен работать модуль</value>
   </data>
   <data name="Mode.Text" xml:space="preserve">
     <value>Режим</value>
@@ -30,7 +51,16 @@
   <data name="Normal.Text" xml:space="preserve">
     <value>Обычный</value>
   </data>
+  <data name="NoSet.Text" xml:space="preserve">
+    <value>Не задано</value>
+  </data>
   <data name="User.Text" xml:space="preserve">
     <value>Пользователь</value>
+  </data>
+  <data name="ViewCondition.Help" xml:space="preserve">
+    <value>Выберите варианты фильтров, применяемых к отображению</value>
+  </data>
+  <data name="ViewCondition.Text" xml:space="preserve">
+    <value>Задать условия представления</value>
   </data>
 </root>

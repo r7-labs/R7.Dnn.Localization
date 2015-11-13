@@ -30,6 +30,9 @@
   <data name="DeleteToolBarButtonExtensionPoint.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="FolderAlreadyExists.Error" xml:space="preserve">
+    <value>Невозможно создать папку ({0}), поскольку папка с таким именем уже существует в этом месте.</value>
+  </data>
   <data name="FolderFileNameHasInvalidcharacters.Error" xml:space="preserve">
     <value>Имя содержит недопустимые символы. Укажите имя без {0}</value>
   </data>
@@ -198,6 +201,9 @@
   <data name="FolderDoesNotExists.Error" xml:space="preserve">
     <value>Папка не существует</value>
   </data>
+  <data name="FileDoesNotExists.Error" xml:space="preserve">
+    <value>Файл не существует</value>
+  </data>
   <data name="MyFolder.Text" xml:space="preserve">
     <value>Моя папка</value>
   </data>
@@ -206,5 +212,14 @@
   </data>
   <data name="ManageFolderTypesToolBarButtonExtensionPoint.Text" xml:space="preserve">
     <value>Управление типами папок</value>
+  </data>
+  <data name="UnlinkToolBarButtonExtensionPoint.AltText" xml:space="preserve">
+    <value>Отсоединить</value>
+  </data>
+  <data name="UnlinkToolBarButtonExtensionPoint.Text" xml:space="preserve">
+    <value>Отсоединить</value>
+  </data>
+  <data name="UserHasNoPermissionToUnlinkFolder.Error" xml:space="preserve">
+    <value>У пользователя нет разрешения на отсоединение этой папки</value>
   </data>
 </root>
