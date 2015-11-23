@@ -172,4 +172,7 @@
   <data name="GroupSearch.Required" xml:space="preserve">
     <value>Введите поисковую фразу.</value>
   </data>
+  <data name="GroupName.Invalid" xml:space="preserve">
+    <value>Введенное имя недопустимо - имена ролей не могут содержать следующих символов: &amp; $ + , / ? ~ # &lt; &gt; ( ) ¿ ¡ « » !  . :  * ' [ ]</value>
+  </data>
 </root>

@@ -159,6 +159,12 @@
   <data name="DisplaySearch_Simple.Text" xml:space="preserve">
     <value>Простой поиск</value>
   </data>
+  <data name="ExcludeHostUsersLabel.Help" xml:space="preserve">
+    <value>Если отмечено, администраторы хостинга не будут показаны в результатах поиска</value>
+  </data>
+  <data name="ExcludeHostUsersLabel.Text" xml:space="preserve">
+    <value>Исключить администраторов хостинга:</value>
+  </data>
   <data name="Prefix.Text" xml:space="preserve">
     <value>Префикс</value>
   </data>
