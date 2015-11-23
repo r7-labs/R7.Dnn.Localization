@@ -51,4 +51,13 @@
   <data name="EnableEditor.Text" xml:space="preserve">
     <value>Разрешить редактирование</value>
   </data>
+  <data name="MessageLength_Unlimited.Text" xml:space="preserve">
+    <value>Без ограничений</value>
+  </data>
+  <data name="AllowResize.Help" xml:space="preserve">
+    <value>Выберите, требуется ли изменять размер подгружаемых фотографий. Изменение размера будет применено только к фото с размером одной из сторон больше 400px</value>
+  </data>
+  <data name="AllowResize.Text" xml:space="preserve">
+    <value>Изменять размер фото</value>
+  </data>
 </root>
