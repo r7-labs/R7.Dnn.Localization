@@ -90,6 +90,12 @@
   <data name="IconHelp.Text" xml:space="preserve">
     <value>Вы можете указать значок, используемый для страницы в меню сайта.</value>
   </data>
+  <data name="plSkin.Text" xml:space="preserve">
+    <value>Тема страницы</value>
+  </data>
+  <data name="plSkin.Help" xml:space="preserve">
+    <value>Выбранная тема будет применена к текущей странице.</value>
+  </data>
   <data name="plContainer.Text" xml:space="preserve">
     <value>Шаблон оформления модулей</value>
   </data>

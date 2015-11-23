@@ -43,6 +43,9 @@
   <data name="UserName.Text" xml:space="preserve">
     <value>Имя пользователя:</value>
   </data>
+  <data name="TemplateBlank.Text" xml:space="preserve">
+    <value>Пустой шаблон</value>
+  </data>
   <data name="LicenseActivation.Text" xml:space="preserve">
     <value>Активация лицензии</value>
   </data>

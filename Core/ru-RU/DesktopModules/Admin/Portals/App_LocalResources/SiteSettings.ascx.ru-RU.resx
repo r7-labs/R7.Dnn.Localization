@@ -660,6 +660,9 @@
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>Вы должны указать email-адрес хоста</value>
   </data>
+  <data name="pl404TabId.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
+  </data>
   <data name="plPageHeadText.Help" xml:space="preserve">
     <value>Введите любые мета-теги, которые должны отображаться внутри раздела "HEAD" в коде HTML страницы.</value>
   </data>
