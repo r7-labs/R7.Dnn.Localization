@@ -12,11 +12,113 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LocalizedTemplateName.Text" xml:space="preserve">
+    <value>Пустой сайт</value>
+  </data>
+  <data name="Setting.DefaultLanguage.Text" xml:space="preserve">
+    <value>английский</value>
+  </data>
+  <data name="Setting.FooterText.Text" xml:space="preserve">
+    <value>Все права защищены [year], корпорация DNN</value>
+  </data>
+  <data name="PortalDescription.Text" xml:space="preserve">
+    <value>Пустой шаблон</value>
+  </data>
   <data name="Tab.Home.Name.Text" xml:space="preserve">
     <value>Домашняя</value>
   </data>
+  <data name="RoleGroup.Description.Text" xml:space="preserve">
+    <value>Имя, представляющее Глобальные роли</value>
+  </data>
+  <data name="Tab.GettingStarted.Actions.Module.Content.0.Text" xml:space="preserve">
+    <value>Смотреть видео "Начиная работу"</value>
+  </data>
+  <data name="Tab.GettingStarted.Actions.Module.Content.1.Text" xml:space="preserve">
+    <value>Пожалуй, я сам</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Это видео &lt;strong&gt; поможет Вам начать &lt;/strong&gt; создание нового сайта DNN. Работать с DNN быстро и легко - в течение нескольких минут Вы получите готовый к работе сайт с настоящим содержимым.</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Смотреть видео</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Title.0.Text" xml:space="preserve">
+    <value>Что нового в 7.0</value>
+  </data>
   <data name="Tab.GettingStarted.Name.Text" xml:space="preserve">
     <value>Начиная работу</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Уже не новичок?</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Установить языки, задать адрес эл. почты и другие дополнительные настройки</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Задать дополнительные настройки</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Ищете ответы?</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.4.Text" xml:space="preserve">
+    <value>У Вас есть вопросы, идеи по улучшению, или Вы просто хотите узнать о других участниках сообщества DNN?</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Найти ответ</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.6.Text" xml:space="preserve">
+    <value>Предложить идею</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.7.Text" xml:space="preserve">
+    <value>Мы всегда рады Вашим отзывам</value>
+  </data>
+  <data name="Tab.GettingStarted.RightPane.Module.Content.8.Text" xml:space="preserve">
+    <value>Мы хотели бы знать, как Вы оцениваете нашу работу</value>
+  </data>
+  <data name="Tab.GettingStarted.Title.Text" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Title.1.Text" xml:space="preserve">
+    <value>Изучить основы работы с DNN</value>
+  </data>
+  <data name="Tab.GettingStarted.Header.Module.Title.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Отличное начало!&lt;/strong&gt; Вы только что завершили установку DNN; &lt;strong&gt;что будем делать дальше?&lt;/strong&gt;</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Узнайте об улучшениях и нововведениях в DNN 7.0.</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Смотреть видео</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.10.Text" xml:space="preserve">
+    <value>Добавить функциональность</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.11.Text" xml:space="preserve">
+    <value>Улучшите свой сайт, добавив к нему возможности электронной коммерции и другие.</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.12.Text" xml:space="preserve">
+    <value>Посетить магазин DNN</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.13.Text" xml:space="preserve">
+    <value>Спонсоры</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Настроить DNN под себя</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Готовы сделать DNN своим?</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value>У нас есть инструменты и ресурсы для всего, что только Вы можете представить.</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.7.Text" xml:space="preserve">
+    <value>Я хочу...</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.8.Text" xml:space="preserve">
+    <value>Изменить внешний вид сайта</value>
+  </data>
+  <data name="Tab.GettingStarted.LeftPane.Module.Content.9.Text" xml:space="preserve">
+    <value>Найти новые темы для сайта в магазине DNN</value>
   </data>
   <data name="Tab.AdvancedSettings.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Расширенные настройки конфигурации</value>
@@ -30,10 +132,25 @@
   <data name="Tab.AdvancedSettings.Title.Text" xml:space="preserve">
     <value>Расширенные настройки конфигурации</value>
   </data>
+  <data name="Tab.About.RightPane.OtherModule.Content.8.Text" xml:space="preserve">
+    <value>Оставить отзыв</value>
+  </data>
   <data name="Tab.SearchAdmin.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Администрирование поиска</value>
   </data>
   <data name="Tab.SearchAdmin.Description.Text" xml:space="preserve">
     <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Content.Text" xml:space="preserve">
+    <value>Приносим свои извинения - страница, которую Вы пытаетесь открыть, не найдена. Возможно, она удалена, переименована или временно недоступна. Рекомендуем вернуться на главную страницу и начать заново. Свяжитесь с нами, если данная ошибка продолжит Вас беспокоить.</value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Title.Text" xml:space="preserve">
+    <value>Страница не найдена</value>
+  </data>
+  <data name="Tab.404ErrorPage.Content.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
+  </data>
+  <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
   </data>
 </root>

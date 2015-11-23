@@ -12,6 +12,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RoleGroup.Description.Text" xml:space="preserve">
+    <value>Имя, представляющее Глобальные роли</value>
+  </data>
+  <data name="Setting.DefaultLanguage.Text" xml:space="preserve">
+    <value>английский</value>
+  </data>
+  <data name="Setting.FooterText.Text" xml:space="preserve">
+    <value>Все права защищены [year], корпорация DNN</value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Content.Text" xml:space="preserve">
+    <value>Приносим свои извинения - страница, которую Вы пытаетесь открыть, не найдена. Возможно, она удалена, переименована или временно недоступна. Рекомендуем вернуться на главную страницу и начать заново. Свяжитесь с нами, если данная ошибка продолжит Вас беспокоить.</value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Title.Text" xml:space="preserve">
+    <value>Страница не найдена</value>
+  </data>
+  <data name="Tab.404ErrorPage.Content.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
+  </data>
+  <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
+  </data>
   <data name="Tab.ActivityFeed.Content.Text" xml:space="preserve">
     <value>Журнал активности</value>
   </data>
@@ -23,6 +44,9 @@
   </data>
   <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Продукты</value>
   </data>
   <data name="Tab.ActivityFeed.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
@@ -102,6 +126,12 @@
   <data name="Tab.Home.Main.OnlineHelp.Title" xml:space="preserve">
     <value>Онлайн-справка</value>
   </data>
+  <data name="Tab.Home.Main.Videos.Title" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="Tab.Home.Main.Wikis.Title" xml:space="preserve">
+    <value>Вики</value>
+  </data>
   <data name="Tab.Home.PageName.Content" xml:space="preserve">
     <value>Главная</value>
   </data>
@@ -138,6 +168,9 @@
   <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
   </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Продукты</value>
+  </data>
   <data name="Tab.MyFriends.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
   </data>
@@ -152,6 +185,9 @@
   </data>
   <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Продукты</value>
   </data>
   <data name="Tab.MyMessages.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
@@ -170,6 +206,9 @@
   </data>
   <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Продукты</value>
   </data>
   <data name="Tab.MyProfile.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
@@ -285,6 +324,12 @@
   <data name="Tab.SiteLog.Title.Text" xml:space="preserve">
     <value>Журнал событий</value>
   </data>
+  <data name="Tab.SiteMapSettings.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Карта сайта для поисковиков</value>
+  </data>
+  <data name="Tab.SiteMapSettings.Name.Text" xml:space="preserve">
+    <value>Карта сайта для поисковиков</value>
+  </data>
   <data name="Tab.SiteRedirection.Content.Text" xml:space="preserve">
     <value>Управление перенаправлениями</value>
   </data>
@@ -332,6 +377,9 @@
   </data>
   <data name="Tab.Taxonomy.Content.Text" xml:space="preserve">
     <value>Таксономия</value>
+  </data>
+  <data name="Tab.Taxonomy.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление таксономией</value>
   </data>
   <data name="Tab.Taxonomy.Name.Text" xml:space="preserve">
     <value>Таксономия</value>
