@@ -57,20 +57,110 @@
   <data name="scriptLabel.Help" xml:space="preserve">
     <value>Введите код SQL, который необходимо исполнить. Можно также использовать несколько операторов SELECT для получения нескольких наборов данных.</value>
   </data>
+  <data name="errorLabel.Help" xml:space="preserve">
+    <value>Сервер SQL вернул ошибку после исполнения запроса SQL.</value>
+  </data>
+  <data name="errorLabel.Text" xml:space="preserve">
+    <value>Подробнее об ошибке</value>
+  </data>
+  <data name="CnnStringNotFound.Text" xml:space="preserve">
+    <value>Запрос был загружен, но связанное соединение ("{0}") не было найдено. Вместо него будет использоваться соединение по умолчанию "SiteSqlServer".</value>
+  </data>
+  <data name="Deleted.Text" xml:space="preserve">
+    <value>Запрос успешно удален.</value>
+  </data>
+  <data name="lblSavedQuery.Help" xml:space="preserve">
+    <value>Вы можете выбрать сохраненный запрос и запустить его, или же изменить и сохранить снова. Вы также можете создать новый запрос.</value>
+  </data>
+  <data name="lblSavedQuery.Text" xml:space="preserve">
+    <value>Запросы:</value>
+  </data>
+  <data name="btDelete.Text" xml:space="preserve">
+    <value>Удалить запрос</value>
+  </data>
+  <data name="lnkLoad.Text" xml:space="preserve">
+    <value>Загрузить запрос</value>
+  </data>
+  <data name="btSaveQuery.Text" xml:space="preserve">
+    <value>Сохранить запрос</value>
+  </data>
+  <data name="NewQuery.Text" xml:space="preserve">
+    <value>&lt; Новый запрос &gt;</value>
+  </data>
+  <data name="NoScript.Text" xml:space="preserve">
+    <value>Введите или загрузите запрос, который требуется запустить.</value>
+  </data>
+  <data name="SaveDialogTitle.Text" xml:space="preserve">
+    <value>Сохранить запрос как...</value>
+  </data>
+  <data name="lblName.Help" xml:space="preserve">
+    <value>Дайте имя сохраняемому запросу.</value>
+  </data>
   <data name="lblName.Text" xml:space="preserve">
     <value>Имя:</value>
   </data>
   <data name="lnkSave.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
+  <data name="NoName.Text" xml:space="preserve">
+    <value>Укажите имя запроса.</value>
+  </data>
+  <data name="Saved.Text" xml:space="preserve">
+    <value>Запрос успешно сохранен.</value>
+  </data>
+  <data name="CopyToClipboard.Text" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="CopyText.Text" xml:space="preserve">
+    <value>Результат скопирован в буфер обмена.</value>
+  </data>
+  <data name="NumRowsReturned.Text" xml:space="preserve">
+    <value>запрос вернул {0} записей</value>
+  </data>
+  <data name="ResultTitle.Text" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
   <data name="AllRows.Text" xml:space="preserve">
     <value>Все</value>
+  </data>
+  <data name="CopyButtonAlt.Text" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="CSVButtonAlt.Text" xml:space="preserve">
+    <value>Экспорт в CSV</value>
+  </data>
+  <data name="PDFButtonAlt.Text" xml:space="preserve">
+    <value>Экспорт в PDF</value>
+  </data>
+  <data name="Placeholder.Text" xml:space="preserve">
+    <value>Введите запрос SQL...</value>
+  </data>
+  <data name="PopupButtonAlt.Text" xml:space="preserve">
+    <value>Открыть во всплывающем окне</value>
+  </data>
+  <data name="XLSButtonAlt.Text" xml:space="preserve">
+    <value>Экспорт в Excel</value>
+  </data>
+  <data name="CopyTitle.Text" xml:space="preserve">
+    <value>Результат запроса SQL</value>
   </data>
   <data name="sFirst.Text" xml:space="preserve">
     <value>Первая</value>
   </data>
+  <data name="sInfo.Text" xml:space="preserve">
+    <value>Показаны записи с _START_ по _END_ из _TOTAL_</value>
+  </data>
+  <data name="sInfoFiltered.Text" xml:space="preserve">
+    <value>(отфильтровано из всего _MAX_ записей)</value>
+  </data>
   <data name="sLast.Text" xml:space="preserve">
     <value>Последняя</value>
+  </data>
+  <data name="sLengthMenu.Text" xml:space="preserve">
+    <value>Показывать _MENU_ записей</value>
+  </data>
+  <data name="sLoadingRecords.Text" xml:space="preserve">
+    <value>Загрузка...</value>
   </data>
   <data name="sNext.Text" xml:space="preserve">
     <value>След.</value>
@@ -78,7 +168,13 @@
   <data name="sPrevious.Text" xml:space="preserve">
     <value>Пред.</value>
   </data>
+  <data name="sProcessing.Text" xml:space="preserve">
+    <value>Обработка...</value>
+  </data>
   <data name="sSearch.Text" xml:space="preserve">
     <value>Поиск:</value>
+  </data>
+  <data name="sInfoEmpty.Text" xml:space="preserve">
+    <value>Нет записей для отображения</value>
   </data>
 </root>
