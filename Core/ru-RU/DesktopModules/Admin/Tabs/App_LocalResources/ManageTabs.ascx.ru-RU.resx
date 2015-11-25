@@ -192,6 +192,9 @@
   <data name="cmdCopySkin.Text" xml:space="preserve">
     <value>Копировать оформление</value>
   </data>
+  <data name="plCopySkin.Help" xml:space="preserve">
+    <value>Копирует выбранные настройки оформления страницы (тему и контейнер) для всех подчиненных ей страниц. Данная возможность доступна только администраторам сайта и хостинга. </value>
+  </data>
   <data name="plCopySkin.Text" xml:space="preserve">
     <value>Копировать оформление для подчиненных:</value>
   </data>
@@ -449,6 +452,12 @@
   <data name="RequiredFields.Text" xml:space="preserve">
     <value>Отмечены обязательные поля</value>
   </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value>Предпросмотр темы и контейнера</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Выберите тему и/или контейнер для предпросмотра.</value>
+  </data>
   <data name="Add.Text" xml:space="preserve">
     <value>Новая страница</value>
   </data>
@@ -466,6 +475,9 @@
   </data>
   <data name="PathDuplicateWithAlias.Text" xml:space="preserve">
     <value>Существует доменное имя сайте, совпадающее с именем страницы.</value>
+  </data>
+  <data name="CopyDesignToChildren.Confirm" xml:space="preserve">
+    <value>Выбранные тема и контейнер будут установлены для всех страниц, подчиненных текущей. Уверены, что хотите продолжить?</value>
   </data>
   <data name="RefreshInterval.Invalid" xml:space="preserve">
     <value>Неверное число</value>
