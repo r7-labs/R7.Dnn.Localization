@@ -15,16 +15,46 @@
   <data name="lblHeight.Text" xml:space="preserve">
     <value>Высота</value>
   </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Имя устройства</value>
+  </data>
   <data name="lblWidth.Text" xml:space="preserve">
     <value>Ширина</value>
+  </data>
+  <data name="ProfileManagerMessage.Text" xml:space="preserve">
+    <value>Управление предпросмотром сайта на устройствах</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
     <value>Создать</value>
   </data>
+  <data name="valHeight.Text" xml:space="preserve">
+    <value>Высота должна быть положительным целым числом.</value>
+  </data>
+  <data name="valName.Text" xml:space="preserve">
+    <value>Укажите имя устройства - оно не должно быть пустым или повторять имена уже существующих.</value>
+  </data>
+  <data name="valWidth.Text" xml:space="preserve">
+    <value>Ширина должна быть положительным целым числом.</value>
+  </data>
+  <data name="lblUserAgent.Text" xml:space="preserve">
+    <value>Веб-клиент</value>
+  </data>
+  <data name="valUserAgent.Text" xml:space="preserve">
+    <value>Вы должны ввести правильное название веб-клиента. Это название соответствует заголовку User-Agent протокола HTTP.</value>
+  </data>
+  <data name="Device Name.Header" xml:space="preserve">
+    <value>Имя устройства</value>
+  </data>
   <data name="Height.Header" xml:space="preserve">
     <value>Высота</value>
   </data>
+  <data name="USER AGENT.Header" xml:space="preserve">
+    <value>Веб-клиент</value>
+  </data>
   <data name="Width.Header" xml:space="preserve">
     <value>Ширина</value>
+  </data>
+  <data name="CreateNew.Text" xml:space="preserve">
+    <value>Создать профиль предпросмотра</value>
   </data>
 </root>
