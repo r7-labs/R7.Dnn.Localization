@@ -141,6 +141,9 @@
   <data name="Tab.Languages.Content.Text" xml:space="preserve">
     <value>Языки</value>
   </data>
+  <data name="Tab.Languages.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Управление языками</value>
+  </data>
   <data name="Tab.Languages.Name.Text" xml:space="preserve">
     <value>Языки</value>
   </data>

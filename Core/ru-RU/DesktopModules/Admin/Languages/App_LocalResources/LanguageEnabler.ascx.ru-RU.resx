@@ -13,37 +13,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plEnabled.Text" xml:space="preserve">
-    <value>Включено</value>
+    <value>Включен</value>
   </data>
   <data name="plLanguage.Text" xml:space="preserve">
     <value>Язык</value>
   </data>
   <data name="viewTypeLabel.Text" xml:space="preserve">
-    <value>Тип отображения:</value>
+    <value>Отображать как:</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;P&gt;Модуль включения языка</value>
   </data>
   <data name="PortalDefaultEnabled.Text" xml:space="preserve">
-    <value>- &lt;em&gt;Нельзя отключить язык сайта по умолчанию&lt;/em&gt;</value>
+    <value>- &lt;em&gt;Нельзя отключить базовый язык сайта&lt;/em&gt;</value>
   </data>
   <data name="Fallback.Text" xml:space="preserve">
     <value>Резервный язык</value>
   </data>
   <data name="siteDefaultLabel.Help" xml:space="preserve">
-    <value>Здесь Вы можете выбрать язык по умолчанию для данного сайта. Если язык еще не включен, он будет включен автоматически. Также, после активации функции локализации содержимого язык по умолчанию изменить невозможно.</value>
+    <value>Здесь Вы можете выбрать язык по умолчанию для данного сайта. Если язык еще не включен, он будет включен автоматически. После включения функции локализации содержимого этот язык изменить невозможно.</value>
   </data>
   <data name="siteDefaultLabel.Text" xml:space="preserve">
-    <value>Из настроек сайта</value>
+    <value>Базовый язык сайта:</value>
   </data>
   <data name="viewTypeLabel.Help" xml:space="preserve">
-    <value>Выбрать тип отображения языков на данной странице</value>
+    <value>Выбрать способ отображения языков на данной странице</value>
   </data>
   <data name="plEnabled.Help" xml:space="preserve">
     <value>Ниже Вы можете включить или отключить языки сайта</value>
   </data>
   <data name="Host.Help" xml:space="preserve">
-    <value>Редактировать коды ресурсов хостинга</value>
+    <value>Редактировать языковые ресурсы хостинга</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хостинг</value>
@@ -52,13 +52,13 @@
     <value>Это список языков &lt;br /&gt;, доступных для установки.</value>
   </data>
   <data name="Portal.Help" xml:space="preserve">
-    <value>Редактировать коды ресурсов сайта</value>
+    <value>Редактировать языковые ресурсы сайта</value>
   </data>
   <data name="Portal.Text" xml:space="preserve">
     <value>Сайт</value>
   </data>
   <data name="System.Help" xml:space="preserve">
-    <value>Редактировать ключи ресурсов системы</value>
+    <value>Редактировать системные языковые ресурсы</value>
   </data>
   <data name="System.Text" xml:space="preserve">
     <value>Система</value>
@@ -70,7 +70,7 @@
     <value>Активен</value>
   </data>
   <data name="Enabled.Header" xml:space="preserve">
-    <value>Включено</value>
+    <value>Включен</value>
   </data>
   <data name="Static.Header" xml:space="preserve">
     <value>Статические ресурсы</value>
@@ -97,10 +97,10 @@
     <value>Создать языковой пакет</value>
   </data>
   <data name="EnabledPublishedMessage.Text" xml:space="preserve">
-    <value>- &lt;em&gt;Необходимо разрешить язык до его активации. Язык также необходимо деактивировать перед отключением&lt;/em&gt;</value>
+    <value>- &lt;em&gt;Необходимо включить язык до его активации. Язык также необходимо деактивировать перед отключением&lt;/em&gt;</value>
   </data>
   <data name="EnableLocalization.Text" xml:space="preserve">
-    <value>Разрешить локализацию содержимого</value>
+    <value>Включить локализацию содержимого</value>
   </data>
   <data name="InstallLanguage.Text" xml:space="preserve">
     <value>Установить языковой пакет</value>
@@ -112,10 +112,10 @@
     <value>Редактировать</value>
   </data>
   <data name="TranslationStatus.Text" xml:space="preserve">
-    <value>Нажмите ссылку, чтобы перейти на страницу итогов перевода для данного языка</value>
+    <value>Нажмите ссылку, чтобы перейти на страницу с итогами перевода для данного языка</value>
   </data>
   <data name="Verify.Text" xml:space="preserve">
-    <value>Проверить языковые файлы ресурсов</value>
+    <value>Проверить файлы языковых ресурсов</value>
   </data>
   <data name="LanguageSettings.Text" xml:space="preserve">
     <value>Настройки языка</value>
@@ -130,13 +130,16 @@
     <value>Состояние перевода</value>
   </data>
   <data name="HostOnly.Text" xml:space="preserve">
-    <value>Необходимо указать администратора хостинга</value>
+    <value>Доступно только администратору хостинга</value>
+  </data>
+  <data name="HostOnlyMessage.Text" xml:space="preserve">
+    <value>Согласно модели безопасности DNN, только администраторы хостинга могут создавать новые языки. Как администратор сайта, Вы можете управлять только существующими языками. Для добавления новых языков свяжитесь с администратором хостинга.</value>
   </data>
   <data name="systemDefaultLabel.Help" xml:space="preserve">
-    <value>Системным языком по умолчанию является язык, который используется приложением, если другие языки недоступны. Это самый последний резервный язык.</value>
+    <value>Системным языком является язык, который используется приложением, если другие языки недоступны. Это самый последний резервный язык.</value>
   </data>
   <data name="systemDefaultLabel.Text" xml:space="preserve">
-    <value>Системный по-умолчанию:</value>
+    <value>Системный язык:</value>
   </data>
   <data name="detectBrowserLable.Help" xml:space="preserve">
     <value>Использовать язык браузера пользователя для определения предпочитаемого языка?</value>
@@ -153,6 +156,18 @@
   <data name="Publish.Confirm" xml:space="preserve">
     <value>Уверены, что хотите опубликовать все страницы на языке {0}?</value>
   </data>
+  <data name="allowUserCulture.Help" xml:space="preserve">
+    <value>При включении этой настройки, пользователь сможет выбрать язык интерфейса, отличный от языка содержимого, используя панель управления</value>
+  </data>
+  <data name="allowUserCulture.Text" xml:space="preserve">
+    <value>Разрешить пользователям выбирать язык интерфейса?</value>
+  </data>
+  <data name="InstallAvailabeLanguage.Text" xml:space="preserve">
+    <value>Установить доступные языки</value>
+  </data>
+  <data name="DisableLocalization.Text" xml:space="preserve">
+    <value>Отключить локализацию содержимого</value>
+  </data>
   <data name="ContentLocalization.Tab" xml:space="preserve">
     <value>Локализация содержимого</value>
   </data>
@@ -162,17 +177,65 @@
   <data name="Settings.Tab" xml:space="preserve">
     <value>Настройки</value>
   </data>
+  <data name="LocalizablePages.Text" xml:space="preserve">
+    <value>Число страниц, для которых возможен перевод</value>
+  </data>
+  <data name="cmdDeleteTranslation.Text" xml:space="preserve">
+    <value>Удалить все переводы для этого языка</value>
+  </data>
+  <data name="DeleteTranslations.Confirm" xml:space="preserve">
+    <value>Вы собираетесь безвозвратно &lt;b&gt;удалить&lt;/b&gt; все переводы на языке '&lt;b&gt;{0}&lt;/b&gt;'. Уверены, что хотите продолжить?</value>
+  </data>
   <data name="MakeNeutral.Text" xml:space="preserve">
-    <value>Сделать страницу непереводимой</value>
+    <value>Привести к нейтральной культуре</value>
   </data>
   <data name="MakeTranslatable.Text" xml:space="preserve">
     <value>Сделать страницу переводимой</value>
   </data>
+  <data name="ChildrenExistWhenConvertingToNeutral.Text" xml:space="preserve">
+    <value>Страница не может быть приведена к нейтральной культуре, так как у нее есть подчиненные страницы.</value>
+  </data>
   <data name="AddMissingLanguages.Text" xml:space="preserve">
     <value>Добавить недостающие языки</value>
   </data>
+  <data name="Page.Help" xml:space="preserve">
+    <value>Выберите страницу для фильтрации представленной ниже информации</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Выберите страницу:</value>
+  </data>
+  <data name="DisableLocalization.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите отключить локализацию содержимого для этого сайта? Это действие &lt;b&gt;необратимо удалит&lt;/b&gt; все переводы страниц.</value>
+  </data>
+  <data name="MakeNeutral.Confirm" xml:space="preserve">
+    <value>При этом все переводы страницы будут удалены. Останется только версия на базовом языке. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="plUrl.Help" xml:space="preserve">
+    <value>Отметьте, чтобы включить языковой параметр в URL.</value>
+  </data>
+  <data name="plUrl.Text" xml:space="preserve">
+    <value>Включить языковой параметр в URL?</value>
+  </data>
+  <data name="NeutralMessage.Text" xml:space="preserve">
+    <value>Это страница нейтральной культуры, что означает, что она будет видна в любой языковой версии сайта. Такие страницы не могут быть переведены.</value>
+  </data>
+  <data name="Disable.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите отключить язык {0}?</value>
+  </data>
+  <data name="Unpublish.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите деактивировать язык {0}?</value>
+  </data>
   <data name="Delete.Header" xml:space="preserve">
     <value>Удалить</value>
+  </data>
+  <data name="GetNonTranslatedPages.Text" xml:space="preserve">
+    <value>Показать еще не переведенные страницы</value>
+  </data>
+  <data name="MarkAllPagesTranslated.Text" xml:space="preserve">
+    <value>Отметить все страницы как переведенные</value>
+  </data>
+  <data name="NonLocalizedPagesTitle.Text" xml:space="preserve">
+    <value>Не переведенные страницы:</value>
   </data>
   <data name="Pages.Header" xml:space="preserve">
     <value>Страницы</value>
@@ -181,9 +244,12 @@
     <value>Переведено</value>
   </data>
   <data name="EditPage.Text" xml:space="preserve">
-    <value>Редактор</value>
+    <value>Редактировать</value>
   </data>
   <data name="ViewPage.Text" xml:space="preserve">
     <value>Просмотр</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Управление языками</value>
   </data>
 </root>

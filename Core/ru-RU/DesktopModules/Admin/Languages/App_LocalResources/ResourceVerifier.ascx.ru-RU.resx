@@ -28,15 +28,15 @@
     <value>Файлы с устаревшими элементами:&amp;nbsp;</value>
   </data>
   <data name="ControlTitle_verify.Text">
-    <value>Верификатор файлов ресурсов</value>
+    <value>Проверка файлов ресурсов</value>
   </data>
   <data name="OldFiles.Text">
     <value>Файлы, более старые чем системные по умолчанию:&amp;nbsp;</value>
   </data>
   <data name="DuplicateEntries.Text">
-    <value>Файлы с двойными элементами:&amp;nbsp;</value>
+    <value>Файлы с дублирующимися элементами:&amp;nbsp;</value>
   </data>
   <data name="ErrorFiles.Text">
-    <value>Неправильные файлы ресурсов:&amp;nbsp;</value>
+    <value>Файлы ресурсов неверного формата:&amp;nbsp;</value>
   </data>
 </root>

@@ -12,11 +12,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cmdDeleteModule.Text" xml:space="preserve">
+    <value>Удалить модуль безвозвратно</value>
+  </data>
+  <data name="cmdRestoreModule.Text" xml:space="preserve">
+    <value>Восстановить модуль на странице</value>
+  </data>
+  <data name="CopyModule.Text" xml:space="preserve">
+    <value>Копировать модуль</value>
+  </data>
+  <data name="Default.Text" xml:space="preserve">
+    <value>[Базовый язык]</value>
+  </data>
+  <data name="Delete.Header" xml:space="preserve">
+    <value>Удалить переведенную страницу</value>
+  </data>
+  <data name="DeleteTranslation.Confirm" xml:space="preserve">
+    <value>Вы собираетесь безвозвратно &lt;b&gt;удалить&lt;/b&gt; перевод '&lt;b&gt;{0}&lt;/b&gt;' этой страницы. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="Detached.Header" xml:space="preserve">
+    <value>Отделено? Нажмите, чтобы связать или отделить все модули.</value>
+  </data>
+  <data name="Detached.Text" xml:space="preserve">
+    <value>Отделено {0}</value>
+  </data>
+  <data name="ModuleColHeader.Text" xml:space="preserve">
+    <value>Модули на странице</value>
+  </data>
+  <data name="ModuleDeleted.Text" xml:space="preserve">
+    <value>Модуль удален, но присутствует в корзине</value>
+  </data>
+  <data name="ModuleInfo.Text" xml:space="preserve">
+    <value>Модуль: {0}&lt;br/&gt;Заголовок: {1}&lt;br/&gt;Панель: {2}</value>
+  </data>
+  <data name="ModuleInfoForNonAdmins.Text" xml:space="preserve">
+    <value>У Вас недостаточно разрешений для изменения заголовка данного модуля</value>
+  </data>
   <data name="ModuleTitle.Text" xml:space="preserve">
     <value>Заголовок модуля</value>
   </data>
   <data name="NeutralCulture.Text" xml:space="preserve">
     <value>Нейтральная культура</value>
+  </data>
+  <data name="NotActive.Text" xml:space="preserve">
+    <value>[Язык выключен]</value>
+  </data>
+  <data name="NotTranslated.Text" xml:space="preserve">
+    <value>Не переведено {0}</value>
   </data>
   <data name="PageDescription.Text" xml:space="preserve">
     <value>Описание страницы</value>
@@ -25,10 +67,28 @@
     <value>Имя страницы</value>
   </data>
   <data name="PageTitle.Text" xml:space="preserve">
-    <value>Заголовок</value>
+    <value>Заголовок страницы</value>
+  </data>
+  <data name="PublishedPageTooltip.Text" xml:space="preserve">
+    <value>Страница опубликована?</value>
+  </data>
+  <data name="Reference.Text" xml:space="preserve">
+    <value>Ссылка {0}</value>
+  </data>
+  <data name="ReferenceDefault.Text" xml:space="preserve">
+    <value>Ссылается на базовый язык {0}</value>
   </data>
   <data name="Settings.Header" xml:space="preserve">
-    <value>Редактировать текущие настройки страницы</value>
+    <value>Настройки страницы</value>
+  </data>
+  <data name="Translated.Header" xml:space="preserve">
+    <value>Переведено? Нажмите, чтобы отметить все модули как переведенные.</value>
+  </data>
+  <data name="Translated.Text" xml:space="preserve">
+    <value>Переведено {0}</value>
+  </data>
+  <data name="TranslatedPageTooltip.Text" xml:space="preserve">
+    <value>Страница переведена?</value>
   </data>
   <data name="View.Header" xml:space="preserve">
     <value>Просмотр страницы</value>

@@ -16,7 +16,7 @@
     <value>Культура</value>
   </data>
   <data name="UnBound.Header" xml:space="preserve">
-    <value>Это перевод?</value>
+    <value>Отделен от оригинала?</value>
   </data>
   <data name="markModuleTranslated.Text" xml:space="preserve">
     <value>Пометить как переведенный</value>
@@ -40,12 +40,12 @@
     <value>Модуль</value>
   </data>
   <data name="bindModule.Text" xml:space="preserve">
-    <value>Отображать оригинал</value>
+    <value>Ссылка на оригинал</value>
   </data>
   <data name="unbindModule.Text" xml:space="preserve">
-    <value>Отображать перевод</value>
+    <value>Отделить от оригинала</value>
   </data>
   <data name="BindConfirm.Text" xml:space="preserve">
-    <value>Связывает модуль с культурой по умолчанию - при этом все переводы будет потеряны. Это действие нельзя отменить. Уверены, что хотите продолжить?</value>
+    <value>Связывает модуль с оригинальной версией на базовом языке - при этом все переводы будет потеряны. Это действие нельзя отменить. Уверены, что хотите продолжить?</value>
   </data>
 </root>
