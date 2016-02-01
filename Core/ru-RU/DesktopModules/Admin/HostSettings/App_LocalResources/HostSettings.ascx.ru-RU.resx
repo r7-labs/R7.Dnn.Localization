@@ -387,6 +387,9 @@
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Параметры хоста</value>
   </data>
+  <data name="SkinUpload.Text" xml:space="preserve">
+    <value>Подгрузить тему/контейнер</value>
+  </data>
   <data name="ContainerUpload.Text" xml:space="preserve">
     <value>Загрузить контейнер</value>
   </data>
@@ -607,6 +610,9 @@
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Служебный контейнер:</value>
   </data>
+  <data name="plAdminSkin.Text" xml:space="preserve">
+    <value>Тема редактора:</value>
+  </data>
   <data name="plJQueryDebugVersion.Help" xml:space="preserve">
     <value>Если отмечено, то используется стандартный файл сценария jQuery. Если выключено, то используется уменьшенная версия, который значительно уменьшает размер javascript файла, но ухудшает удобочитаемость javascript.</value>
   </data>
@@ -685,6 +691,9 @@
   <data name="plEnableContentLocalization.Text" xml:space="preserve">
     <value>Разрешить локализацию контента?</value>
   </data>
+  <data name="EditSkinPreview.Text" xml:space="preserve">
+    <value>Предпросмотр темы и контейнера для режима редактирования</value>
+  </data>
   <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
     <value>Это - полный URL-адрес скрипта jQuery UI. По умолчанию установлена последняя сокращенная версия скрита jQuery UI с хостингом на серверах Google's CDN для оптимальной работы.</value>
   </data>
@@ -697,14 +706,47 @@
   <data name="plJQueryUIVersion.Text" xml:space="preserve">
     <value>Установленная версия jQuery UI </value>
   </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Выберите тему и/или контейнер для предпросмотра.</value>
+  </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value>Управление клиенскими ресурсами</value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
+    <value>Составные файлы представляют собой комбинацию ресурсов (JavaScript и CSS), они создаются для уменьшения количества запросов от браузера к отдельным файлам на сайте. Их использование значительно увеличивает скорость загрузки страницы.</value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Text" xml:space="preserve">
+    <value>Включить составные файлы</value>
+  </data>
+  <data name="plCrmMinifyCss.Help" xml:space="preserve">
+    <value>Уменьшение CSS приведет к уменьшению размера кода CSS путем использования регулярных выражений для удаления комментариев, пустого пространства и неиспользуемых правил. Эта возможность доступна только при включении составных файлов ресурсов.</value>
   </data>
   <data name="plCrmMinifyCss.Text" xml:space="preserve">
     <value>Сжимать CSS</value>
   </data>
+  <data name="plCrmMinifyJs.Help" xml:space="preserve">
+    <value>Включение уменьшения JavaScript приведет уменьшению размера кода JavaScript путем использования JSMin. Эта возможность доступна только при включении составных файлов ресурсов.</value>
+  </data>
   <data name="plCrmMinifyJs.Text" xml:space="preserve">
     <value>Сжимать JS</value>
+  </data>
+  <data name="IncrementCrmVersionButton.Text" xml:space="preserve">
+    <value>Увеличить версию сайта</value>
+  </data>
+  <data name="IncrementCrmVersionConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;Это действие потребует от всех посетителей сайта загрузить новые версии файлов CSS и JavaScript. Делайте это только в том случае, если Вы уверены, что эти файлы изменились и Вы хотите, чтобы эти изменения были отражены в браузере посетителей сайта.&lt;/p&gt;&lt;p&gt;Уверены, что хотите увеличить номер версии Вашего сайта?&lt;/p&gt;</value>
+  </data>
+  <data name="IncrementCrmVersionError.Text" xml:space="preserve">
+    <value>Произошла ошибка при увеличении номера версии клиентских ресурсов.</value>
+  </data>
+  <data name="DebugEnabled.Title" xml:space="preserve">
+    <value>Важное примечание относительно режима отладки приложения</value>
+  </data>
+  <data name="MinificationSettingsInfo.Text" xml:space="preserve">
+    <value>Если настройки уменьшения изменены при включенных составных файлах ресурсов, нужно сначала сохранить настройки уменьшения, нажав Сохранить, и затем увеличить номер версии. Это действие создаст новые составные файлы, включающие ресурсы, созданные с учетом новых настроек уменьшения.</value>
+  </data>
+  <data name="MinificationSettingsInfo.Title" xml:space="preserve">
+    <value>Важное примечание относительно настроек уменьшения</value>
   </data>
   <data name="SmtpServerWarning.Text" xml:space="preserve">
     <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работет в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
