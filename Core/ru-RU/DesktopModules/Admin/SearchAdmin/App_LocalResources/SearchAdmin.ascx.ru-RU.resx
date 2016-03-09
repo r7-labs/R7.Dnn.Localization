@@ -12,8 +12,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="StopWords.Text" xml:space="preserve">
+    <value>Стоп-слова</value>
+  </data>
+  <data name="Synonyms.Text" xml:space="preserve">
+    <value>Синонимы</value>
+  </data>
   <data name="ModifiedBy.Text" xml:space="preserve">
     <value>Изменил</value>
+  </data>
+  <data name="ModifiedOn.Text" xml:space="preserve">
+    <value>Изменено</value>
   </data>
   <data name="Actions.Text" xml:space="preserve">
     <value>Действия</value>
@@ -23,6 +32,9 @@
   </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
+  </data>
+  <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Продолжить</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Администрирование поиска</value>

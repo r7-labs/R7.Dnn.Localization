@@ -788,6 +788,21 @@
   <data name="MsgSendEmailYes.Text" xml:space="preserve">
     <value>Да</value>
   </data>
+  <data name="MembershipManagement.Text" xml:space="preserve">
+    <value>Управление участием</value>
+  </data>
+  <data name="plEnableBannedList.Text" xml:space="preserve">
+    <value>Включить список запрещенных паролей</value>
+  </data>
+  <data name="plEnableBannedList.Help" xml:space="preserve">
+    <value>Устанавливает, будут ли пароли сравниваться со списком запрещенных паролей</value>
+  </data>
+  <data name="plEnableIPChecking.Text" xml:space="preserve">
+    <value>Включить проверку адреса IP</value>
+  </data>
+  <data name="plEnableIPChecking.Help" xml:space="preserve">
+    <value>Устанавливает, будет ли адрес IP проверяться в процессе входа в систему</value>
+  </data>
   <data name="EmailErrorMessage.Text" xml:space="preserve">
     <value>Произошла ошибка при попытке отослать проверочное сообщение. Ошибка:&lt;br /&gt;{0}</value>
   </data>
@@ -838,6 +853,12 @@
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>Вы должны указать email-адрес хоста</value>
+  </data>
+  <data name="ConnectionLimitValidation.Text" xml:space="preserve">
+    <value>Только числа от 1 до 2147483647!</value>
+  </data>
+  <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
+    <value>Только числа от 1 до 2147483647!</value>
   </data>
   <data name="pl404TabId.Help" xml:space="preserve">
     <value>Страница 404 для Вашего сайта. Пользователи будут перенаправлены на эту страницу в том случае, если запрошенный ими URL не найден на сайте.</value>

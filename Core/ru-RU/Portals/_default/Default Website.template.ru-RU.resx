@@ -12,6 +12,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LocalizedTemplateName.Text" xml:space="preserve">
+    <value>Сайт с наполнением</value>
+  </data>
+  <data name="PortalDescription.Text" xml:space="preserve">
+    <value>Шаблон сайта с наполнением</value>
+  </data>
   <data name="RoleGroup.Description.Text" xml:space="preserve">
     <value>Имя, представляющее Глобальные роли</value>
   </data>

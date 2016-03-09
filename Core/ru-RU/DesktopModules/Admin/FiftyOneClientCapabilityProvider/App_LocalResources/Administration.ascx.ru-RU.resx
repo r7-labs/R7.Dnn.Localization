@@ -12,6 +12,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActivateButtonText.Text" xml:space="preserve">
+    <value>Активировать</value>
+  </data>
+  <data name="ActivatedMessageHtml.Text" xml:space="preserve">
+    <value>&lt;p class="{0}"&gt;Премиальные возможности включены. Спасибо.&lt;/p&gt;</value>
+  </data>
+  <data name="ActivateInstructionsHtml.Text" xml:space="preserve">
+    <value>&lt;h3&gt;Для активации всех возможностей&lt;/h3&gt;&lt;p&gt;Шаг 1 - Получите лицензионный ключ 51Degrees on premise.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Шаг 2 - Вставьте код лицензионного ключа в расположенное ниже текстовое поле. Нажмите "Активировать" для использования ключа на данном сайте.&lt;/p&gt;&lt;br/&gt;</value>
+  </data>
   <data name="RefreshButtonText.Text" xml:space="preserve">
     <value>Обновить</value>
     <comment>Used to reload page after upgrade to premium.</comment>

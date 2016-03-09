@@ -12,6 +12,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblMessage.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Для подгрузки пакета темы или контейнера нужно воспользоваться менеджером файлов.</value>
+  </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Host</value>
   </data>

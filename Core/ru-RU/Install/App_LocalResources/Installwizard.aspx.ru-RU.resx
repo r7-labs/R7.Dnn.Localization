@@ -12,8 +12,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AccountInfoIntro.Text" xml:space="preserve">
+    <value>Для задания настроек установки, введите следующую информацию.</value>
+  </data>
+  <data name="AdminInfo.Text" xml:space="preserve">
+    <value>Административная информация</value>
+  </data>
   <data name="ChooseDbError.Text" xml:space="preserve">
     <value>Вы должны выбрать тип базы данных</value>
+  </data>
+  <data name="cmdContinue.Text" xml:space="preserve">
+    <value>Продолжить</value>
   </data>
   <data name="Confirm.Text" xml:space="preserve">
     <value>Подтвердите пароль:</value>

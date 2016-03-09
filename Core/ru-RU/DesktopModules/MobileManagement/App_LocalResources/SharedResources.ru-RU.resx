@@ -18,6 +18,12 @@
   <data name="cmdSave.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
+  <data name="RedirectionSettings.Text" xml:space="preserve">
+    <value>Настройки перенаправления</value>
+  </data>
+  <data name="lblRedirectName.Text" xml:space="preserve">
+    <value>Имя перенаправления</value>
+  </data>
   <data name="lblRedirectTarget.Text" xml:space="preserve">
     <value>На</value>
   </data>

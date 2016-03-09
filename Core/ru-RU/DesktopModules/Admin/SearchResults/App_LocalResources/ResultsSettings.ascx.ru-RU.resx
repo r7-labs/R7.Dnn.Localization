@@ -15,4 +15,13 @@
   <data name="ControlTitle_settings.Text" xml:space="preserve">
     <value>Настройки результатов поиска</value>
   </data>
+  <data name="filtersRequired.Text" xml:space="preserve">
+    <value>Выберите хотя бы один тип содержимого</value>
+  </data>
+  <data name="linkTargetOnSamePage.Text" xml:space="preserve">
+    <value>На той же странице</value>
+  </data>
+  <data name="linkTargetOpenNewPage.Text" xml:space="preserve">
+    <value>В новом окне</value>
+  </data>
 </root>

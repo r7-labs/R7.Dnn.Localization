@@ -12,6 +12,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AccountInfo.Text" xml:space="preserve">
+    <value>Сведения об учетной записи</value>
+  </data>
+  <data name="VersionsMatch.Text" xml:space="preserve">
+    <value>Версии базы данных и приложения совпадают - обновление не требуется.</value>
+  </data>
   <data name="Error.Text" xml:space="preserve">
     <value>Ошибка</value>
   </data>
