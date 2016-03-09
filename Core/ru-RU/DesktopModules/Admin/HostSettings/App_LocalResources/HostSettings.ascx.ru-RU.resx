@@ -99,6 +99,9 @@
   <data name="plHostEmail.Text" xml:space="preserve">
     <value>Email хоста:</value>
   </data>
+  <data name="plHostSkin.Text" xml:space="preserve">
+    <value>Тема хостинга:</value>
+  </data>
   <data name="plHostContainer.Text" xml:space="preserve">
     <value>Контейнер:</value>
   </data>
@@ -177,6 +180,9 @@
   <data name="plFileExtensions.Text" xml:space="preserve">
     <value>Типы файлов для загрузки:</value>
   </data>
+  <data name="plSkinUpload.Text" xml:space="preserve">
+    <value>Разрешить подгрузку тем:</value>
+  </data>
   <data name="plCache.Text" xml:space="preserve">
     <value>Время кэширования (сек):</value>
   </data>
@@ -242,6 +248,9 @@
   </data>
   <data name="plHostEmail.Help" xml:space="preserve">
     <value>Укажите email-адрес службы поддержки хостинга</value>
+  </data>
+  <data name="plHostSkin.Help" xml:space="preserve">
+    <value>Выберите тему, которая будет использоваться по-умолчанию на Ваших сайтах</value>
   </data>
   <data name="plHostContainer.Help" xml:space="preserve">
     <value>Выберите контейнер по умолчанию для всех сайтов этого хоста</value>
@@ -329,6 +338,9 @@
   </data>
   <data name="plFileExtensions.Help" xml:space="preserve">
     <value>Укажите доступные для загрузки типы файлов(через запятую)</value>
+  </data>
+  <data name="plSkinUpload.Help" xml:space="preserve">
+    <value>Выберите, будет ли подгрузка тем доступна только администратору хостинга, или может также выполняться администраторами сайтов</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хост</value>
@@ -574,6 +586,12 @@
   <data name="Items.Text" xml:space="preserve">
     <value>Элементы</value>
   </data>
+  <data name="plHostDefaultDocType.Text" xml:space="preserve">
+    <value>Резервный Doctype темы:</value>
+  </data>
+  <data name="plHostDefaultDocType.Help" xml:space="preserve">
+    <value>Устанавливает резервный Doctype для темы оформления страниц. Это значение будет использоваться, если тема не содержит определения DocType.</value>
+  </data>
   <data name="LegacyDoctype.Text" xml:space="preserve">
     <value>HTML 4 (устарело)</value>
   </data>
@@ -610,6 +628,9 @@
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Служебный контейнер:</value>
   </data>
+  <data name="plAdminSkin.Help" xml:space="preserve">
+    <value>Выбранная тема будет использована в режиме редактирования (с параметром ctr= в строке адреса) на Ваших сайтах.</value>
+  </data>
   <data name="plAdminSkin.Text" xml:space="preserve">
     <value>Тема редактора:</value>
   </data>
@@ -637,6 +658,12 @@
   <data name="plJQueryVersion.Text" xml:space="preserve">
     <value>Установленная версия jQuery:</value>
   </data>
+  <data name="plEnableCDN.Help" xml:space="preserve">
+    <value>Если отмечено, будут использоваться заданные в настройках библиотек JavaScript адреса CDN. Если сброшено, то будут использоваться локальные копии файлов.</value>
+  </data>
+  <data name="plEnableCDN.Text" xml:space="preserve">
+    <value>Использовать CDN для библиотек JavaScript?</value>
+  </data>
   <data name="HostEmail.Error" xml:space="preserve">
     <value>Недопустимый адрес Email</value>
   </data>
@@ -648,6 +675,9 @@
   </data>
   <data name="plProduct.Help" xml:space="preserve">
     <value>Используемое Вами приложение DotNetNuke </value>
+  </data>
+  <data name="FrameworkDownLevel.Text" xml:space="preserve">
+    <value>Примечание: Вы используете старую версию .NET Framework. Платформа DNN требует использования .NET 4.0 или более новой версии.</value>
   </data>
   <data name="plBetaNotice.Help" xml:space="preserve">
     <value>Поставьте этот флажок, чтобы отобразить сообщение, указывающее, что выполняющаяся версия - Бета-версия.</value>
@@ -682,6 +712,9 @@
   <data name="PageCacheProvider.Text" xml:space="preserve">
     <value>Провайдер  вывода кэша страницы</value>
   </data>
+  <data name="plUseCustomModuleCssClass.Help" xml:space="preserve">
+    <value>Отметьте этот флаг, чтобы включить в разметку модуля специального класса CSS на основе названия определения модуля. Этот класс может использоваться дизайнерами тем оформления для того, чтобы применять конкретные стили CSS к конкретным типам модулей.</value>
+  </data>
   <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
     <value>Использовать класс CSS пользовательских модулей?</value>
   </data>
@@ -690,6 +723,9 @@
   </data>
   <data name="plEnableContentLocalization.Text" xml:space="preserve">
     <value>Разрешить локализацию контента?</value>
+  </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value>Предпросмотр темы и контейнера хостинга</value>
   </data>
   <data name="EditSkinPreview.Text" xml:space="preserve">
     <value>Предпросмотр темы и контейнера для режима редактирования</value>
@@ -712,6 +748,12 @@
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value>Управление клиенскими ресурсами</value>
   </data>
+  <data name="plCrmVersion.Help" xml:space="preserve">
+    <value>Для управления кешем браузера, клиенским ресурсам назначается номер версии. Этот номер увеличивается при установке расширения, обновлении portal.css, а также при сбросе кеша сервера. Номер версии применяется к каждому файлу ресурсов (составному и/или уменьшенному). Вы также можете увеличить номер версии вручную, что заставит браузеры загрузить новые копии ресурсных файлов.</value>
+  </data>
+  <data name="plCrmVersion.Text" xml:space="preserve">
+    <value>Текущая версия хоста</value>
+  </data>
   <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
     <value>Составные файлы представляют собой комбинацию ресурсов (JavaScript и CSS), они создаются для уменьшения количества запросов от браузера к отдельным файлам на сайте. Их использование значительно увеличивает скорость загрузки страницы.</value>
   </data>
@@ -730,6 +772,9 @@
   <data name="plCrmMinifyJs.Text" xml:space="preserve">
     <value>Сжимать JS</value>
   </data>
+  <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
+    <value>Увеличить версию</value>
+  </data>
   <data name="IncrementCrmVersionButton.Text" xml:space="preserve">
     <value>Увеличить версию сайта</value>
   </data>
@@ -738,6 +783,9 @@
   </data>
   <data name="IncrementCrmVersionError.Text" xml:space="preserve">
     <value>Произошла ошибка при увеличении номера версии клиентских ресурсов.</value>
+  </data>
+  <data name="DebugEnabled.Text" xml:space="preserve">
+    <value>В настоящее время установлен режим отладки на уровне приложения (в файле web.config). Это означает, что составные файлы ресурсов не будут создаваться вне зависимости от настроек, заданных здесь или на уровне отдельного сайта.</value>
   </data>
   <data name="DebugEnabled.Title" xml:space="preserve">
     <value>Важное примечание относительно режима отладки приложения</value>
@@ -748,11 +796,101 @@
   <data name="MinificationSettingsInfo.Title" xml:space="preserve">
     <value>Важное примечание относительно настроек уменьшения</value>
   </data>
+  <data name="IPFiltersDisabled.Text" xml:space="preserve">
+    <value>Фильтрация входа по IP в настоящее время выключена. Для включения фильтрации входа по IP отметьте флаг Включить проверку IP в разделе Управление участием.</value>
+  </data>
+  <data name="IPFiltersDisabled.Title" xml:space="preserve">
+    <value>Важное замечание относительно фильтрации по IP</value>
+  </data>
+  <data name="IPFiltersInfo.Text" xml:space="preserve">
+    <value>При задании фильтра IP адресов, пользователи не смогут изменить/удалить правила, которые могут привести к блокировке их текущего адреса IP.</value>
+  </data>
+  <data name="IPFiltersInfo.Title" xml:space="preserve">
+    <value>Важное замечание относительно настроек фильтрации по IP</value>
+  </data>
   <data name="SmtpServerWarning.Text" xml:space="preserve">
     <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работет в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
   </data>
   <data name="LogSettings.Text" xml:space="preserve">
     <value>Журналы</value>
+  </data>
+  <data name="LogSettingsHelp.Text" xml:space="preserve">
+    <value>Просмотр журнала установки и других</value>
+  </data>
+  <data name="Html5Doctype.Text" xml:space="preserve">
+    <value>HTML 5</value>
+  </data>
+  <data name="LogLocations.Text" xml:space="preserve">
+    <value>Хранение журнала</value>
+  </data>
+  <data name="plLogs.Text" xml:space="preserve">
+    <value>Файлы журнала</value>
+  </data>
+  <data name="plLogs.Help" xml:space="preserve">
+    <value>Список файлов журнала, доступных для просмотра</value>
+  </data>
+  <data name="SelectLog.Text" xml:space="preserve">
+    <value>Выберите файл журнала для просмотра</value>
+  </data>
+  <data name="MembershipManagement.Text" xml:space="preserve">
+    <value>Управление участием</value>
+  </data>
+  <data name="plResetLinkValidity.Text" xml:space="preserve">
+    <value>Время жизни ссылки для сброса пароля (минут)</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Text" xml:space="preserve">
+    <value>Время жизни ссылки для сброса пароля для администраторов (минут)</value>
+  </data>
+  <data name="plNumberPasswords.Text" xml:space="preserve">
+    <value>Хранить старых паролей</value>
+  </data>
+  <data name="plNumberPasswords.Help" xml:space="preserve">
+    <value>Установите число старых паролей, хранимых для проверки повторного использования</value>
+  </data>
+  <data name="plEnableBannedList.Text" xml:space="preserve">
+    <value>Включить список запрещенных паролей</value>
+  </data>
+  <data name="plEnableBannedList.Help" xml:space="preserve">
+    <value>Устанавливает, будут ли пароли сравниваться со списком запрещенных паролей</value>
+  </data>
+  <data name="plEnableStrengthMeter.Text" xml:space="preserve">
+    <value>Включить проверку силы пароля</value>
+  </data>
+  <data name="plEnableStrengthMeter.Help" xml:space="preserve">
+    <value>Устанавливает, будет ли в окне регистрации показываться индикатор силы пароля</value>
+  </data>
+  <data name="plEnableIPChecking.Text" xml:space="preserve">
+    <value>Включить проверку адреса IP</value>
+  </data>
+  <data name="plEnableIPChecking.Help" xml:space="preserve">
+    <value>Устанавливает, будет ли адрес IP проверяться в процессе входа пользователя в систему</value>
+  </data>
+  <data name="CdnSettings.Text" xml:space="preserve">
+    <value>Настройки CDN</value>
+  </data>
+  <data name="plMsAjaxCdn.Help" xml:space="preserve">
+    <value>Включить CDN для библиотеки Microsoft Ajax?</value>
+  </data>
+  <data name="plMsAjaxCdn.Text" xml:space="preserve">
+    <value>Включить CDN для MS Ajax?</value>
+  </data>
+  <data name="plTelerikBasicUrl.Help" xml:space="preserve">
+    <value>Устанавливает обычный URL для Telerik CDN, при этом если поле оставлено пустым, будут использоваться файлы на сервере Telerik. Подробнее см. &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;здесь&lt;/a&gt;.</value>
+  </data>
+  <data name="plTelerikBasicUrl.Text" xml:space="preserve">
+    <value>Адрес CDN для Telerik</value>
+  </data>
+  <data name="plTelerikCdn.Help" xml:space="preserve">
+    <value>Использовать настройки CDN для элементов управления Telerik?</value>
+  </data>
+  <data name="plTelerikCdn.Text" xml:space="preserve">
+    <value>Включить CDN для Telerik?</value>
+  </data>
+  <data name="plTelerikSecureUrl.Help" xml:space="preserve">
+    <value>Устанавливает защищенный URL для Telerik CDN, при этом если поле оставлено пустым, будут использоваться файлы на сервере Telerik. Подробнее см. &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;здесь&lt;/a&gt;.</value>
+  </data>
+  <data name="plTelerikSecureUrl.Text" xml:space="preserve">
+    <value>Защищенный  адрес CDN для Telerik</value>
   </data>
   <data name="Never.Text" xml:space="preserve">
     <value>Никогда</value>
@@ -763,10 +901,49 @@
   <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="CompactIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="plDebugMode.Help" xml:space="preserve">
+    <value>Если отмечено, приложение будет работь в так называемом "режиме отладки", в котором различные его части будут формировать более детальную информацию в журналах и т.п. Заметьте, что это может привести к снижению производительности.</value>
+  </data>
+  <data name="plDebugMode.Text" xml:space="preserve">
+    <value>Режим отладки</value>
+  </data>
+  <data name="plShowCriticalErrors.Help" xml:space="preserve">
+    <value>Эта настройка определяет, будут ли сообщения об ошибках, передаваемые в сроке запроса, отображаться также и на странице.</value>
+  </data>
+  <data name="plShowCriticalErrors.Text" xml:space="preserve">
+    <value>Показывать критические ошибки на экране?</value>
+  </data>
+  <data name="Mb.Text" xml:space="preserve">
+    <value>Мб</value>
+  </data>
+  <data name="ConnectionLimitValidation.Text" xml:space="preserve">
+    <value>Только числа от 1 до 2147483647!</value>
+  </data>
+  <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
+    <value>Только числа от 1 до 2147483647!</value>
+  </data>
   <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
     <value>Пароль истекает через (в днях):</value>
+  </data>
+  <data name="plSSLDomain.Help" xml:space="preserve">
+    <value>Домен, используемый в случае, если для мастера обновлений установлено требование использования защищенных соединений SSL.</value>
+  </data>
+  <data name="plSSLDomain.Text" xml:space="preserve">
+    <value>Домен SSL</value>
+  </data>
+  <data name="plUpgradeForceSSL.Help" xml:space="preserve">
+    <value>Нужно ли принудительно использовать защищенное соединение SSL для запуска и работы мастера обновлений.</value>
+  </data>
+  <data name="plUpgradeForceSSL.Text" xml:space="preserve">
+    <value>Требовать SSL для мастера обновлений</value>
   </data>
 </root>
