@@ -43,7 +43,7 @@
     <value>Пользователи сайта</value>
   </data>
   <data name="Search.Text" xml:space="preserve">
-    <value>Поиск:</value>
+    <value>Поиск</value>
   </data>
   <data name="RecordsPage.Text" xml:space="preserve">
     <value>Записей на страницу:</value>
@@ -92,7 +92,7 @@
     <value>Фамилия</value>
   </data>
   <data name="DisplayName.Header" xml:space="preserve">
-    <value>Имя</value>
+    <value>Отображаемое имя</value>
   </data>
   <data name="Filter.Text" xml:space="preserve">
     <value>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ы,Э,Ю,Я</value>
@@ -125,7 +125,7 @@
     <value>Суффикс</value>
   </data>
   <data name="Unit.Text" xml:space="preserve">
-    <value>Номер</value>
+    <value>Офис</value>
   </data>
   <data name="Street.Text" xml:space="preserve">
     <value>Улица</value>
@@ -167,13 +167,13 @@
     <value>Предпочтительные региональные настройки</value>
   </data>
   <data name="Email.Text" xml:space="preserve">
-    <value>E-mail</value>
+    <value>Эл. почта</value>
   </data>
   <data name="Username.Text" xml:space="preserve">
     <value>Имя входа</value>
   </data>
   <data name="Online.Text" xml:space="preserve">
-    <value>Онлайн</value>
+    <value>На сайте</value>
   </data>
   <data name="Delete.Confirm" xml:space="preserve">
     <value>Уверены, что хотите удалить этого пользователя?</value>
@@ -188,7 +188,7 @@
     <value>Уверены, что хотите восстановить этого пользователя?</value>
   </data>
   <data name="DisplayName.Text" xml:space="preserve">
-    <value>Имя</value>
+    <value>Отображаемое имя</value>
   </data>
   <data name="PagerPageSize.Text" xml:space="preserve">
     <value>Элементов на страницу:</value>
