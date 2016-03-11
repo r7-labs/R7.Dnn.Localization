@@ -803,6 +803,18 @@
   <data name="plEnableIPChecking.Help" xml:space="preserve">
     <value>Устанавливает, будет ли адрес IP проверяться в процессе входа в систему</value>
   </data>
+  <data name="CharacterSubListLabel.Help" xml:space="preserve">
+    <value>Укажите символ, используемый при объединении URL.</value>
+  </data>
+  <data name="CharacterSubListLabel.Text" xml:space="preserve">
+    <value>Символ:</value>
+  </data>
+  <data name="ExtensionLabel.Help" xml:space="preserve">
+    <value>Введите расширение, включая точку. По-умолчанию это .aspx.</value>
+  </data>
+  <data name="ExtensionLabel.Text" xml:space="preserve">
+    <value>Использовать расширение (.aspx по-умолчанию):</value>
+  </data>
   <data name="EmailErrorMessage.Text" xml:space="preserve">
     <value>Произошла ошибка при попытке отослать проверочное сообщение. Ошибка:&lt;br /&gt;{0}</value>
   </data>

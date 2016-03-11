@@ -808,6 +808,12 @@
   <data name="IPFiltersInfo.Title" xml:space="preserve">
     <value>Важное замечание относительно настроек фильтрации по IP</value>
   </data>
+  <data name="txtBatch.Text" xml:space="preserve">
+    <value>Отсылать сообщения пакетами по:</value>
+  </data>
+  <data name="txtBatch.Help" xml:space="preserve">
+    <value>Число сообщений, отсылаемых рабочим процессом обработки сообщений в рамках каждого пакета.</value>
+  </data>
   <data name="SmtpServerWarning.Text" xml:space="preserve">
     <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работет в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
   </data>
@@ -831,6 +837,12 @@
   </data>
   <data name="SelectLog.Text" xml:space="preserve">
     <value>Выберите файл журнала для просмотра</value>
+  </data>
+  <data name="plBatch.Help" xml:space="preserve">
+    <value>Число сообщений, отсылаемых рабочим процессом обработки сообщений в рамках каждого пакета.</value>
+  </data>
+  <data name="plBatch.Text" xml:space="preserve">
+    <value>Отсылать сообщения пакетами по:</value>
   </data>
   <data name="MembershipManagement.Text" xml:space="preserve">
     <value>Управление участием</value>
@@ -892,8 +904,62 @@
   <data name="plTelerikSecureUrl.Text" xml:space="preserve">
     <value>Защищенный  адрес CDN для Telerik</value>
   </data>
+  <data name="plAsyncTimeout.Help" xml:space="preserve">
+    <value>Значение задает время в секундах, по истечении которого асинхронный запрос отменяется, если не был получен ответ. Значение должно быть в диапазоне 90-9999 секунд.</value>
+  </data>
+  <data name="plAsyncTimeout.Text" xml:space="preserve">
+    <value>Таймаут асинхронных веб-запросов:</value>
+  </data>
+  <data name="plEnablePasswordHistory.Help" xml:space="preserve">
+    <value>Устанавливает, будет ли храниться список недавно использованных паролей и будет ли он использоваться для предотвращения повторного использования одних и тех же паролей.</value>
+  </data>
+  <data name="plEnablePasswordHistory.Text" xml:space="preserve">
+    <value>Хранить историю паролей?</value>
+  </data>
+  <data name="plResetLinkValidity.Help" xml:space="preserve">
+    <value>Ссылки для сброса пароля будут действительны в течении заданного количества минут.</value>
+  </data>
+  <data name="valResetLink.Error" xml:space="preserve">
+    <value>Время действия ссылки для сброса пароля должно быть больше 0</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Help" xml:space="preserve">
+    <value>Ссылки для сброса пароля администратора будут действительны в течении заданного количества минут.</value>
+  </data>
+  <data name="valAdminResetLink.Error" xml:space="preserve">
+    <value>Время действия ссылки для сброса пароля администратора должно быть больше 0</value>
+  </data>
+  <data name="AlwaysUse.Text" xml:space="preserve">
+    <value>Все URL.</value>
+  </data>
+  <data name="CharacterSubListLabel.Help" xml:space="preserve">
+    <value>Укажите символ, используемый при объединении URL.</value>
+  </data>
+  <data name="CharacterSubListLabel.Text" xml:space="preserve">
+    <value>Символ:</value>
+  </data>
+  <data name="ExtensionLabel.Help" xml:space="preserve">
+    <value>Введите расширение, включая точку. По-умолчанию это .aspx.</value>
+  </data>
+  <data name="ExtensionLabel.Text" xml:space="preserve">
+    <value>Использовать расширение (.aspx по-умолчанию):</value>
+  </data>
+  <data name="PageOnly.Text" xml:space="preserve">
+    <value>Только страницы без строки запроса.</value>
+  </data>
+  <data name="EmptyString.Text" xml:space="preserve">
+    <value>&lt;&lt;Пустая строка&gt;&gt;</value>
+  </data>
   <data name="Never.Text" xml:space="preserve">
     <value>Никогда</value>
+  </data>
+  <data name="IPFilters.Text" xml:space="preserve">
+    <value>Фильтры IP адресов</value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Help" xml:space="preserve">
+    <value>Это полный URL плагина jQuery Migrate. Если поле пусто, будет использоваться версия плагина, установленная на сайте.</value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Text" xml:space="preserve">
+    <value>URL-адрес хостинга плагина jQuery Migrate:</value>
   </data>
   <data name="SearchIndex.Text" xml:space="preserve">
     <value>Настройки поиска</value>
@@ -924,6 +990,15 @@
   </data>
   <data name="Mb.Text" xml:space="preserve">
     <value>Мб</value>
+  </data>
+  <data name="plMaxUploadSize.Help" xml:space="preserve">
+    <value>Максимальный размер файла, подгружаемого на сайт. Минимальный размер 12 Мб.</value>
+  </data>
+  <data name="plMaxUploadSize.Text" xml:space="preserve">
+    <value>Макс. размер подгружаемого файла</value>
+  </data>
+  <data name="maxUploadSize.Error" xml:space="preserve">
+    <value>Максимальный размер подгружаемого файла должен быть между 12 и {0}</value>
   </data>
   <data name="ConnectionLimitValidation.Text" xml:space="preserve">
     <value>Только числа от 1 до 2147483647!</value>
