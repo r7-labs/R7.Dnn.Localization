@@ -961,20 +961,102 @@
   <data name="plJQueryMigrateHostUrl.Text" xml:space="preserve">
     <value>URL-адрес хостинга плагина jQuery Migrate:</value>
   </data>
+  <data name="lblSearchIndexPath.Help" xml:space="preserve">
+    <value>Путь к папке, в которой хранится поисковый индекс. Этот путь может быть изменен вручную - для этого нужно добавить в таблицу настроек хостинга в базе данных настройку с именем "Search_IndexFolder". Перед этим рекомендуется остановить пул приложения. Содержимое старой папки нужно вручную перенести в новую папк, или же прозвести переиндексирование содержимого.</value>
+  </data>
+  <data name="lblSearchIndexPath.Text" xml:space="preserve">
+    <value>Путь к хранилищу поискового индекса:</value>
+  </data>
   <data name="SearchIndex.Text" xml:space="preserve">
     <value>Настройки поиска</value>
+  </data>
+  <data name="btnCompactSearchIndex.Text" xml:space="preserve">
+    <value>Сжать индекс</value>
+  </data>
+  <data name="MessageIndexWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Сжатие&lt;/b&gt; индекса освобождает пространство, ранее занятое удаленными элементами хранилища индекса. Сжатие рекомендуется производить только при наличии большого числа 'удаленных документов' в хранилище индекса. В процессе сжатия, объем, занимаемый хранилищем индекса, может увеличиваться до двух раз от текущего значения.
+&lt;b&gt;Переиндексирование&lt;/b&gt; применяется только к содержимому страниц хостинга в целом. При переиндексировании текущее содержимое хранилища индекса удаляется, и затем производится повторное индексирование всего содержимого.
+Как сжатие, так и переиндексирование выполняются как задания планировщика.
+
+&lt;b&gt;Осторожно&lt;/b&gt; - Сжатие или переиндексирование должны производиться во время низкой загруженности приложения, так как вызывают большую нагрузку на процессор.</value>
+  </data>
+  <data name="btnHostSearchReindex.Text" xml:space="preserve">
+    <value>Переиндексировать содержиме хостинга</value>
   </data>
   <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Сжатие индекса может вызвать значительную нагрузку на процессор, а также временно увеличит объем хранилища индекса вдвое. Сжатие производится краулера поисковой системы и зависит от расписания его запуска. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Подтвердите сжатие</value>
+  </data>
   <data name="CompactIndexConfirmationYes.Text" xml:space="preserve">
     <value>Продолжить</value>
+  </data>
+  <data name="lblGetMoreInformation.Text" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Help" xml:space="preserve">
+    <value>Введите максимальную длину слова, включаемого в индекс.</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Text" xml:space="preserve">
+    <value>Макс. длина слова:</value>
+  </data>
+  <data name="lblIndexWordMinLength.Help" xml:space="preserve">
+    <value>Введите минимальную длину слова, включаемого в индекс.</value>
+  </data>
+  <data name="lblIndexWordMinLength.Text" xml:space="preserve">
+    <value>Мин. длина слова:</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Help" xml:space="preserve">
+    <value>Число активных документов в индексных файлах поисковой систем</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Text" xml:space="preserve">
+    <value>Активных документов:</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Help" xml:space="preserve">
+    <value>Число удаленных документов в индексных файлах поисковой системы</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Text" xml:space="preserve">
+    <value>Удаленных документов:</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
+    <value>Дата и время последних изменений индексных файлов поисковой системы</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
+    <value>Изменено:</value>
   </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Переиндексирование приведет к удалению текущего содержимого хранилища поискового индекса. Переиндексирование выполняется краулером поисковой системы и зависит от расписания его запуска. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="ReIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Подтвердите переиндексирование</value>
+  </data>
   <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
     <value>Продолжить</value>
+  </data>
+  <data name="valIndexWordMaxLengthCompare.Error" xml:space="preserve">
+    <value>Должно быть целым числом, большим минимальной длины</value>
+  </data>
+  <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
+    <value>Укажите минимальную длину слова</value>
+  </data>
+  <data name="valIndexWordMinLengthCompare.Error" xml:space="preserve">
+    <value>Должно быть целым числом большим 0</value>
+  </data>
+  <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
+    <value>Укажите минимальную длину слова</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
+    <value>Общий объем хранилища поискового индекса</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
+    <value>Размер индекса:</value>
   </data>
   <data name="plDebugMode.Help" xml:space="preserve">
     <value>Если отмечено, приложение будет работь в так называемом "режиме отладки", в котором различные его части будут формировать более детальную информацию в журналах и т.п. Заметьте, что это может привести к снижению производительности.</value>
