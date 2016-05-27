@@ -975,7 +975,7 @@
   </data>
   <data name="MessageIndexWarning.Text" xml:space="preserve">
     <value>&lt;b&gt;Сжатие&lt;/b&gt; индекса освобождает пространство, ранее занятое удаленными элементами хранилища индекса. Сжатие рекомендуется производить только при наличии большого числа 'удаленных документов' в хранилище индекса. В процессе сжатия, объем, занимаемый хранилищем индекса, может увеличиваться до двух раз от текущего значения.
-&lt;b&gt;Переиндексирование&lt;/b&gt; применяется только к содержимому страниц хостинга в целом. При переиндексировании текущее содержимое хранилища индекса удаляется, и затем производится повторное индексирование всего содержимого.
+&lt;b&gt;Переиндексирование&lt;/b&gt; применяется только к содержимому страниц хостинга. При переиндексировании текущее содержимое хранилища индекса удаляется, и затем производится повторное индексирование всего содержимого.
 Как сжатие, так и переиндексирование выполняются как задания планировщика.
 
 &lt;b&gt;Осторожно&lt;/b&gt; - Сжатие или переиндексирование должны производиться во время низкой загруженности приложения, так как вызывают большую нагрузку на процессор.</value>
@@ -1070,6 +1070,12 @@
   <data name="plShowCriticalErrors.Text" xml:space="preserve">
     <value>Показывать критические ошибки на экране?</value>
   </data>
+  <data name="lblCustomAnalyzer.Help" xml:space="preserve">
+    <value>&lt;p&gt;Если это поле пусто, система будет использовать стандартный анализатор для индексирования содержимого. Если Вы хотите использовать другой анализатор, введите полное имя класса анализатора в это поле.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Примечание:&lt;/b&gt; Если Вы хотите, чтобы существующее содержимое было проиндексировано новым анализатором, Вам нужно перейти на страницу "Админ &gt; Настройки поиска" на каждом сайте, который Вы хотите переиндексировать, и нажать кнопку "Переиндексировать содержимое".&lt;/p&gt;</value>
+  </data>
+  <data name="lblCustomAnalyzer.Text" xml:space="preserve">
+    <value>Имя класса анализатора:</value>
+  </data>
   <data name="Mb.Text" xml:space="preserve">
     <value>Мб</value>
   </data>
@@ -1082,14 +1088,36 @@
   <data name="maxUploadSize.Error" xml:space="preserve">
     <value>Максимальный размер подгружаемого файла должен быть между 12 и {0}</value>
   </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Макс. время простоя соединения:</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>Время в миллисекундах, в течение которого соединение, связанное с объектом ServicePoint, будет находиться в состоянии простоя прежде чем будет закрыто и использовано заново другим соединением. Максимальное значение 2147483647. Значение по-умолчанию - 0.
+</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Макс. соединений:</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>Максимально разрешенное число соединений к данному объекту ServicePoint. Максимальное значение 2147483647. Значение по-умолчанию - 1.</value>
+  </data>
   <data name="ConnectionLimitValidation.Text" xml:space="preserve">
     <value>Только числа от 1 до 2147483647!</value>
   </data>
   <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
     <value>Только числа от 1 до 2147483647!</value>
   </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>Число дней, которое должно пройти прежде, чем пользователю нужно будет сменить пароль (если указать значение 0, то срок действия пароля будет неограничен)</value>
+  </data>
   <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
     <value>Пароль истекает через (в днях):</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>Число дней, за которое пользователь будет предупрежден о том, что срок действия его пароля истекает.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>Напомнить об истекающем сроке действия пароля за (дней):</value>
   </data>
   <data name="plSSLDomain.Help" xml:space="preserve">
     <value>Домен, используемый в случае, если для мастера обновлений установлено требование использования защищенных соединений SSL.</value>
@@ -1102,5 +1130,44 @@
   </data>
   <data name="plUpgradeForceSSL.Text" xml:space="preserve">
     <value>Требовать SSL для мастера обновлений</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Help" xml:space="preserve">
+    <value>Включите данную настройку для того, чтобы разрешить поиск внутри слов. Например: по-умолчанию, при поиске по фразе "dnn" будет найдено "dnn8", но не "powerfuldnn", то есть будут найдены слова, начинающиеся с поисковой фразы. Если Вы хотите включить "powerfuldnn" в результаты поиска, Вам нужно включить эту настройку. Примечание: это может оказать негативное влияние на производительность, поэтому включайте эту настройку только в том случае, если это действительно необходимо.</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Text" xml:space="preserve">
+    <value>Включить поиск по части слова (медленно):</value>
+  </data>
+  <data name="lblAuthorBoost.Help" xml:space="preserve">
+    <value>Значение важности автора связано с индексированием сведений об авторе содержимого. Чем выше это значение, тем более релевантным будет это поле при определении порядка следования результатов поиска.</value>
+  </data>
+  <data name="lblAuthorBoost.Text" xml:space="preserve">
+    <value>Важность автора:</value>
+  </data>
+  <data name="lblContentBoost.Help" xml:space="preserve">
+    <value>Значение важности содержимогоа связано с индексированием содержимого. Чем выше это значение, тем более релевантным будет содержимое при определении порядка следования результатов поиска.</value>
+  </data>
+  <data name="lblContentBoost.Text" xml:space="preserve">
+    <value>Важность содержимого:</value>
+  </data>
+  <data name="lblDescriptionBoost.Help" xml:space="preserve">
+    <value>Значение важности описания связано с индексированием описания содержимого. Чем выше это значение, тем более релевантным будет это поле при определении порядка следования результатов поиска.</value>
+  </data>
+  <data name="lblDescriptionBoost.Text" xml:space="preserve">
+    <value>Важность описания:</value>
+  </data>
+  <data name="lblTagBoost.Help" xml:space="preserve">
+    <value>Значение важности метки связано с индексированием информации о метке содержимого. Чем выше это значение, тем более релевантным будет это поле при определении порядка следования результатов поиска.</value>
+  </data>
+  <data name="lblTagBoost.Text" xml:space="preserve">
+    <value>Важность метки:</value>
+  </data>
+  <data name="lblTitleBoost.Help" xml:space="preserve">
+    <value>Значение важности автора связано с индексированием сведений о заголовке содержимого. Чем выше это значение, тем более релевантным будет это поле при определении порядка следования результатов поиска.</value>
+  </data>
+  <data name="lblTitleBoost.Text" xml:space="preserve">
+    <value>Важность заголовка:</value>
+  </data>
+  <data name="SiteLogBufferValidation.Text" xml:space="preserve">
+    <value>Размер буфера не может быть меньше 1.</value>
   </data>
 </root>
