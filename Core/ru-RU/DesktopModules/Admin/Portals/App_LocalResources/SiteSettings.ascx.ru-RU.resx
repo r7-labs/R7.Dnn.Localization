@@ -761,14 +761,62 @@
   <data name="MaxInvalidPasswordAttempts.Text" xml:space="preserve">
     <value>Макс. число неудачных попыток входа:</value>
   </data>
+  <data name="MinNonAlphanumericCharacters.Help" xml:space="preserve">
+    <value>Минимальное число специальных (не буквенно-цифровых) символов в пароле.</value>
+  </data>
+  <data name="MinNonAlphanumericCharacters.Text" xml:space="preserve">
+    <value>Мин. число специальных символов:</value>
+  </data>
+  <data name="MinPasswordLength.Help" xml:space="preserve">
+    <value>Минимальное число символов в пароле.</value>
+  </data>
   <data name="MinPasswordLength.Text" xml:space="preserve">
     <value>Минимальная длина пароля:</value>
+  </data>
+  <data name="PasswordAttemptWindow.Help" xml:space="preserve">
+    <value>Интервал ожидания (в минутах) при превышении максимального числа попыток входа.</value>
+  </data>
+  <data name="PasswordAttemptWindow.Text" xml:space="preserve">
+    <value>Ожидать после неудачных попыток входа (в мин.):</value>
   </data>
   <data name="PasswordFormat.Help" xml:space="preserve">
     <value>Формат пароля</value>
   </data>
+  <data name="PasswordFormat.Text" xml:space="preserve">
+    <value>Формат пароля:</value>
+  </data>
+  <data name="PasswordResetEnabled.Help" xml:space="preserve">
+    <value>Может ли администратор сбросить пароль пользователя.</value>
+  </data>
+  <data name="PasswordResetEnabled.Text" xml:space="preserve">
+    <value>Разрешить сброс пароля:</value>
+  </data>
+  <data name="PasswordRetrievalEnabled.Help" xml:space="preserve">
+    <value>Будет ли пароль пользователя храниться в формате, предусматривающем возможность его извлечения.</value>
+  </data>
+  <data name="PasswordRetrievalEnabled.Text" xml:space="preserve">
+    <value>Разрешить извлечение пароля:</value>
+  </data>
+  <data name="PasswordStrengthRegularExpression.Help" xml:space="preserve">
+    <value>Регулярное выражение для проверки пароля.</value>
+  </data>
+  <data name="PasswordStrengthRegularExpression.Text" xml:space="preserve">
+    <value>Регулярное выражение для пароля:</value>
+  </data>
+  <data name="Registration_RandomPassword.Help" xml:space="preserve">
+    <value>Установите этот флаг, чтобы генерировать случайные пароли при регистрации - вместо того, чтобы отображать поле ввода пароля.</value>
+  </data>
   <data name="Registration_RandomPassword.Text" xml:space="preserve">
     <value>Использовать случайный пароль:</value>
+  </data>
+  <data name="Registration_RequireConfirmPassword.Help" xml:space="preserve">
+    <value>Установите этот флаг для того, чтобы требовать подтверждения пароля при регистрации.</value>
+  </data>
+  <data name="Registration_RequireConfirmPassword.Text" xml:space="preserve">
+    <value>Требовать подтверждения пароля:</value>
+  </data>
+  <data name="RequiresQuestionAndAnswer.Help" xml:space="preserve">
+    <value>Будет ли требоваться секретный вопрос и ответ для изменения или восстановления пароля.</value>
   </data>
   <data name="RequiresQuestionAndAnswer.Text" xml:space="preserve">
     <value>Требовать секретный вопрос и ответ:</value>
@@ -776,17 +824,146 @@
   <data name="Redirect_AfterRegistration.Help" xml:space="preserve">
     <value>Выберите, куда перенаправлять пользователя после успешной регистрации на сайте.</value>
   </data>
+  <data name="Redirect_AfterRegistration.Text" xml:space="preserve">
+    <value>Перенаправлять после регистрации:</value>
+  </data>
+  <data name="Security_CaptchaRegister.Help" xml:space="preserve">
+    <value>Указывает, должен использоваться CAPTCHA при регистрации на данном сайте.</value>
+  </data>
+  <data name="Security_CaptchaRegister.Text" xml:space="preserve">
+    <value>Использовать CAPTCHA при регистрации:</value>
+  </data>
+  <data name="Security_RequireValidProfile.Help" xml:space="preserve">
+    <value>Вы можете потребовать, чтобы новый пользователь также заполнил свой профиль при регистрации.</value>
+  </data>
+  <data name="Security_RequireValidProfile.Text" xml:space="preserve">
+    <value>Требовать заполнения профиля при регистрации:</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Help" xml:space="preserve">
+    <value>Выберите режим видимости профиля пользователя по-умолчанию.</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Text" xml:space="preserve">
+    <value>Режим видимости профиля по-умолчанию:</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Help" xml:space="preserve">
+    <value>Отметьте, чтобы показать элемент управления видимостью в профиле пользователя.</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Text" xml:space="preserve">
+    <value>Разрешить управление видимостью профиля:</value>
+  </data>
+  <data name="Redirect_AfterLogin.Help" xml:space="preserve">
+    <value>Вы можете выбрать страницу, на которую будут перенаправляться пользователи после успешного входа на сайт.</value>
+  </data>
   <data name="Redirect_AfterLogin.Text" xml:space="preserve">
     <value>Переадресация после входа:</value>
   </data>
+  <data name="Redirect_AfterLogout.Help" xml:space="preserve">
+    <value>Вы можете выбрать страницу, на которую будут перенаправляться пользователи после выхода с сайта.</value>
+  </data>
   <data name="Redirect_AfterLogout.Text" xml:space="preserve">
     <value>Переадресация после выхода:</value>
+  </data>
+  <data name="Security_CaptchaLogin.Help" xml:space="preserve">
+    <value>Указывает, должен ли данный сайт использовать CAPTCHA для связанных учетных записей, таких как openId, liveId, cardspace.</value>
+  </data>
+  <data name="Security_CaptchaLogin.Text" xml:space="preserve">
+    <value>Использовать CAPTCHA для связанных учетных записей:</value>
+  </data>
+  <data name="Security_CaptchaRetrivePassword.Help" xml:space="preserve">
+    <value>Отметьте, чтобы использовать CAPTCHA при восстановлении пароля.</value>
+  </data>
+  <data name="Security_CaptchaRetrivePassword.Text" xml:space="preserve">
+    <value>Использовать CAPTCHA при восстановлении пароля</value>
+  </data>
+  <data name="Security_CaptchaChangePassword.Help" xml:space="preserve">
+    <value>Отметьте, чтобы использовать CAPTCHA при смене пароля.</value>
+  </data>
+  <data name="Security_CaptchaChangePassword.Text" xml:space="preserve">
+    <value>Использовать CAPTCHA при смене пароля</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
+    <value>Вы можете потребовать от пользователей обновить свои профили перед входом на сайт, если их профили недействительны.</value>
+  </data>
+  <data name="Security_RequireValidProfileAtLogin.Text" xml:space="preserve">
+    <value>Требовать действительный профиль при входе:</value>
+  </data>
+  <data name="InvalidRegularExpression.Text" xml:space="preserve">
+    <value>Регулярное выражение - {1} - введенное для {0}, неверно.</value>
+  </data>
+  <data name="InvalidFields.Text" xml:space="preserve">
+    <value>Поле (поля) - {0} - не найдены в списке полей формы регистрации. Это может быть в случае, если было указано поле изображения, или имя поля было указано неверно.</value>
+  </data>
+  <data name="NoEmail.Text" xml:space="preserve">
+    <value>Вы должны, как минимум, включить поле "Email".</value>
+  </data>
+  <data name="NoDisplayName.Text" xml:space="preserve">
+    <value>Вы отметили флаг "Требовать уникальное отображаемое имя", но не включили отображаемое имя в список полей.</value>
+  </data>
+  <data name="MaxInvalidPasswordAttemptsTitle.Help" xml:space="preserve">
+    <value>Задает число неудачных попыток ввода пароля до того момента, как учетная запись будет заблокирована. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="MaxInvalidPasswordAttemptsTitle.Text" xml:space="preserve">
+    <value>Макс. число неудачных попыток входа</value>
+  </data>
+  <data name="MinNonAlphanumericCharactersTitle.Help" xml:space="preserve">
+    <value>Задает минимальное число специальных (не буквенно-цифровых) символов в пароле. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="MinNonAlphanumericCharactersTitle.Text" xml:space="preserve">
+    <value>Мин. специальных символов</value>
+  </data>
+  <data name="MinPasswordLengthTitle.Help" xml:space="preserve">
+    <value>Задает минимальное число символов в пароле. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="MinPasswordLengthTitle.Text" xml:space="preserve">
+    <value>Мин. длина пароля</value>
+  </data>
+  <data name="PasswordAttemptWindowTitle.Help" xml:space="preserve">
+    <value>Задает длительность блокировки учетной записи после заданного числа неудачных попыток входа. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="PasswordAttemptWindowTitle.Text" xml:space="preserve">
+    <value>Длительность блокировки учетной записи</value>
+  </data>
+  <data name="PasswordFormatTitle.Help" xml:space="preserve">
+    <value>Формат хранения пароля будет Clear, Hashed или Encrypted. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="PasswordFormatTitle.Text" xml:space="preserve">
+    <value>Формат хранения пароля</value>
+  </data>
+  <data name="PasswordResetEnabledTitle.Help" xml:space="preserve">
+    <value>Указывает, может ли пользователь запрашивать сброс пароля. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="PasswordResetEnabledTitle.Text" xml:space="preserve">
+    <value>Сброс пароля разрешен</value>
+  </data>
+  <data name="PasswordRetrievalEnabledTitle.Help" xml:space="preserve">
+    <value>Указывает, может ли пользователь запрашивать получение своего пароля по эл. почте. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="PasswordRetrievalEnabledTitle.Text" xml:space="preserve">
+    <value>Извлечение пароля разрешено</value>
+  </data>
+  <data name="PasswordStrengthRegularExpressionTitle.Help" xml:space="preserve">
+    <value>Регулярное выражение, используемое для проверки сложности пароля для поставщика аутентификации, указанного в поле Поставщик. Данная настройка может быть изменена только в файле web.config, путем добавления/изменения узла passwordStrengthRegularExpression в AspNetSqlMembershipProvider. Примечание: это проверка на стороне сервера отличается от индикатора силы пароля, появившегося в версии 7.1.0, который только помогает оценить силу пароля, в то время как это выражение (если определено) задает необходимые трабования для новых паролей.</value>
+  </data>
+  <data name="PasswordStrengthRegularExpressionTitle.Text" xml:space="preserve">
+    <value>Регулярное выражение для силы пароля</value>
+  </data>
+  <data name="RequiresQuestionAndAnswerTitle.Help" xml:space="preserve">
+    <value>Задает, будет ли использоваться секретный вопрос и ответ в процессе регистрации. Данная настройка может быть изменена только в файле web.config.</value>
+  </data>
+  <data name="RequiresQuestionAndAnswerTitle.Text" xml:space="preserve">
+    <value>Требовать секретный вопрос и ответ</value>
   </data>
   <data name="MsgSendEmailsNo.Text" xml:space="preserve">
     <value>Нет</value>
   </data>
   <data name="MsgSendEmailYes.Text" xml:space="preserve">
     <value>Да</value>
+  </data>
+  <data name="plHideLoginControl.Help" xml:space="preserve">
+    <value>Отметьте, чтобы скрыть ссылку входа в систему на странице.</value>
+  </data>
+  <data name="plHideLoginControl.Text" xml:space="preserve">
+    <value>Скрыть вход в систему?</value>
   </data>
   <data name="MembershipManagement.Text" xml:space="preserve">
     <value>Управление участием</value>
@@ -815,8 +992,74 @@
   <data name="ExtensionLabel.Text" xml:space="preserve">
     <value>Использовать расширение (.aspx по-умолчанию):</value>
   </data>
+  <data name="enable.Text" xml:space="preserve">
+    <value>Разрешить</value>
+  </data>
+  <data name="manageAliasesLabel.Help" xml:space="preserve">
+    <value>В данном разделе вы можете управлять псевдонимами сайта.</value>
+  </data>
+  <data name="manageAliasesLabel.Text" xml:space="preserve">
+    <value>Управление псевдонимами:</value>
+  </data>
+  <data name="redirectOldProfileUrlsLabel.Help" xml:space="preserve">
+    <value>Отметьте, чтобы перенаправлять URL профилей старого стиля на новые пользовательские URL.</value>
+  </data>
+  <data name="redirectOldProfileUrlsLabel.Text" xml:space="preserve">
+    <value>Перенаправлять старые URL профилей:</value>
+  </data>
+  <data name="verifyProfileUrlsLabel.Help" xml:space="preserve">
+    <value>Отметьте, чтобы проверять URL профилей, введенные пользователями.</value>
+  </data>
+  <data name="verifyProfileUrlsLabel.Text" xml:space="preserve">
+    <value>Проверять пользовательские URL профилей:</value>
+  </data>
+  <data name="plEnableRegisterNotification.Help" xml:space="preserve">
+    <value>Будет ли администратор сайта получать оповещение по эл. почте при регистрации нового пользователя.</value>
+  </data>
+  <data name="plEnableRegisterNotification.Text" xml:space="preserve">
+    <value>Получать оповещения при регистрации пользователя:</value>
+  </data>
+  <data name="FileVersionSettings.Text" xml:space="preserve">
+    <value>Настройки версий файлов</value>
+  </data>
+  <data name="plFileVersionEnabled.Help" xml:space="preserve">
+    <value>Уставливает, включено или отключено использование версий файлов для данного сайта.</value>
+  </data>
+  <data name="plFileVersionEnabled.Text" xml:space="preserve">
+    <value>Включить версии файлов?</value>
+  </data>
+  <data name="plMaxVersions.Help" xml:space="preserve">
+    <value>Задает максимальное количество хранимых версий файла.</value>
+  </data>
+  <data name="plMaxVersions.Text" xml:space="preserve">
+    <value>Макс. число хранимых версий файла</value>
+  </data>
+  <data name="versionSize.Error" xml:space="preserve">
+    <value>Число хранимых версий должно быть в диапазоне от 5 до 25.</value>
+  </data>
+  <data name="vanilyUrlPrefixLabel.Help" xml:space="preserve">
+    <value>Введите строку, которая будет использоваться в качестве префикса "тщеславных" URL.</value>
+  </data>
+  <data name="vanilyUrlPrefixLabel.Text" xml:space="preserve">
+    <value>Префикс "тщеславных" URL:</value>
+  </data>
+  <data name="VanityUrlExample.Text" xml:space="preserve">
+    <value>мойТщеславныйURL</value>
+  </data>
+  <data name="VanityUrlPrefixHeader.Text" xml:space="preserve">
+    <value>Введите префикс "тщеславных" URL</value>
+  </data>
+  <data name="DefaultAuthProvider.Text" xml:space="preserve">
+    <value>Поставщик аутентификации по-умолчанию</value>
+  </data>
+  <data name="DefaultAuthProvider.Help" xml:space="preserve">
+    <value>Вы можете выбрать поставщик аутентификации по-умолчанию для входа пользователя. Можно выбрать только таких поставщиков, которые поддерживают аутентификацию с помощью форм.</value>
+  </data>
   <data name="EmailErrorMessage.Text" xml:space="preserve">
     <value>Произошла ошибка при попытке отослать проверочное сообщение. Ошибка:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>Сообщение успешно отправлено от {0} к {1}</value>
   </data>
   <data name="EmailTest.Text" xml:space="preserve">
     <value>Проверить настройки SMTP</value>
@@ -833,11 +1076,17 @@
   <data name="plSMTPEnableSSL.Text" xml:space="preserve">
     <value>Включить SSL для SMTP:</value>
   </data>
+  <data name="plSMTPMode.Text" xml:space="preserve">
+    <value>Режим SMTP:</value>
+  </data>
   <data name="plSMTPPassword.Text" xml:space="preserve">
     <value>Пароль SMTP:</value>
   </data>
   <data name="plSMTPPassword.Help" xml:space="preserve">
     <value>Введите пароль для доступа к серверу SMTP</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>Введите имя (адрес) и порт сервера SMTP, который будет использоваться для отправки эл. почты с данного сайта.</value>
   </data>
   <data name="plSMTPServer.Text" xml:space="preserve">
     <value>Адрес и порт сервера SMTP:</value>
@@ -866,6 +1115,19 @@
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
     <value>Вы должны указать email-адрес хоста</value>
   </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Макс. время ожидания:</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>Время в миллисекундах, в течение которого соединение, связанное с объектом ServicePoint, будет находиться в состоянии простоя прежде чем будет закрыто и использовано заново другим соединением. Макс. значение 2147483647. Значение по-умолчанию - 0.
+</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Макс. соединений:</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>Максимально разрешенное число соединений к данному объекту ServicePoint. Максимальное значение 2147483647. Значение по-умолчанию - 1.</value>
+  </data>
   <data name="ConnectionLimitValidation.Text" xml:space="preserve">
     <value>Только числа от 1 до 2147483647!</value>
   </data>
@@ -884,7 +1146,40 @@
   <data name="pl500TabId.Text" xml:space="preserve">
     <value>Страница ошибки 500</value>
   </data>
+  <data name="ContainsDuplicateAddresses.Text" xml:space="preserve">
+    <value>База данных пользователей сайта содержит повторяющиеся адреса эл. почты. Если вы хотите использовать адреса эл. почты в качестве имен пользователей, то нужно сначала исправить эти записи.</value>
+  </data>
+  <data name="PageHeaders.Text" xml:space="preserve">
+    <value>Настройки вывода страниц</value>
+  </data>
   <data name="plPageHeadText.Help" xml:space="preserve">
     <value>Введите любые мета-теги, которые должны отображаться внутри раздела "HEAD" в коде HTML страницы.</value>
+  </data>
+  <data name="plPageHeadText.Text" xml:space="preserve">
+    <value>Мета-теги заголовка страницы</value>
+  </data>
+  <data name="plInjectModuleHyperLink.Help" xml:space="preserve">
+    <value>Вставлять пустую ссылку вверху кода модуля с именем, равным moduleid.</value>
+  </data>
+  <data name="plInjectModuleHyperLink.Text" xml:space="preserve">
+    <value>Вставлять ссылки модулей</value>
+  </data>
+  <data name="plAddCompatibleHttpHeader.Help" xml:space="preserve">
+    <value>Добавлять X-UA-Compatible в заголовки ответов HTTP (например: IE=edge)</value>
+  </data>
+  <data name="plAddCompatibleHttpHeader.Text" xml:space="preserve">
+    <value>Добавлять X-UA-Compatible в заголовки HTTP</value>
+  </data>
+  <data name="plAddCachebusterToResourceUris.Help" xml:space="preserve">
+    <value>Добавлять параметры сброса кеша (ver=[время изменения файла]) к URI файловых ресурсов.</value>
+  </data>
+  <data name="plAddCachebusterToResourceUris.Text" xml:space="preserve">
+    <value>Кеш-обновляемые URI ресурсов</value>
+  </data>
+  <data name="plDisablePrivateMessage.Help" xml:space="preserve">
+    <value>Если установлена эта настройка, пользователи более не смогут отправлять сообщения конкретному пользователю или группе.</value>
+  </data>
+  <data name="plDisablePrivateMessage.Text" xml:space="preserve">
+    <value>Отключить личные сообщения</value>
   </data>
 </root>
