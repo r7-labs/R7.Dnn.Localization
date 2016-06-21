@@ -19,7 +19,7 @@ CULTURE_CODE=${2/-/_}
 pushd . > /dev/null
 cd $PACKAGE_NAME
 
-tx3 pull -l $CULTURE_CODE --mode=reviewed
+tx pull -l $CULTURE_CODE --mode=reviewed
 
 popd > /dev/null
 
