@@ -46,6 +46,9 @@
   <data name="ContentFilters.Help" xml:space="preserve">
     <value>Фильтры редактора RadEditor для ASP.NET AJAX представляют собой небольшие фрагменты кода, называемые в последовательности для обработки содержимого редактора, если переключается режим просмотра (html / схема / предварительный просмотр), либо страница сохранятся на сервере. Все фильтры описаны здесь: &lt;a href="http://www.telerik.com/help/aspnet-ajax/contentfilters.html" target="_blank"&gt;Telerik Onlinehelp&lt;/a&gt;</value>
   </data>
+  <data name="CssFile.Help" xml:space="preserve">
+    <value>Файл CSS, используемый редактором в режиме WYSIWYG. Данный файл должен находиться в каталоге тем или в корневом каталоге сайта. Путь указывается относительно родительской папки (например, /editor.css - файл в корневом каталоге темы)</value>
+  </data>
   <data name="DocumentsFilters.Help" xml:space="preserve">
     <value>Список возможных расширений менеджера документов - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
   </data>
@@ -83,6 +86,9 @@
   </data>
   <data name="LinksUseRelativeUrls.Help" xml:space="preserve">
     <value>Если не отмечено флажком, создаются абсолютные ссылки</value>
+  </data>
+  <data name="LinksType.Help" xml:space="preserve">
+    <value>Используйте ссылку вида "Имя страницы":a  для вставки ссылки "default.aspx?TabName=Home;&lt;br /&gt;Используйте ссылку вида "Ид. страницы":a для вставки ссылки "default.aspx?TabId=100";&lt;br /&gt;Используйте ссылку вида "Обычная": a для вставки обычной ссылки.</value>
   </data>
   <data name="MaxDocumentSize.Help" xml:space="preserve">
     <value>Максимальный размер подгружаемого документа в байтах</value>
@@ -127,6 +133,11 @@
   <data name="PortalRoot.Text" xml:space="preserve">
     <value>[Корень сайта]</value>
   </data>
+  <data name="ScriptToLoad.Help" xml:space="preserve">
+    <value>При установке провайдера запускается указанный здесь файл javascript. Здесь должен быть указан путь относительно папки текущей темы.
+
+&lt;a href="http://radeditor.codeplex.com/wikipage?title=OnClientPasteExample" target="_blank"&gt;Подробнее см. в указанном примере&lt;/a&gt;</value>
+  </data>
   <data name="ShowPortalLinks.Help" xml:space="preserve">
     <value>Если отмечено, в панели инструментов появляется выпадающий список, отображающий дерево страниц сайта. Когда данная функция активна, Вы можете отметить текстовой блок и выбрать страницу в данном дереве, чтобы редактор мог привязать текст к определенной странице.
 
@@ -137,6 +148,9 @@
   </data>
   <data name="SilverlightPath.Help" xml:space="preserve">
     <value>Папка, с которой начинается работа диспетчера silverlight при запуске диалога</value>
+  </data>
+  <data name="Skin.Help" xml:space="preserve">
+    <value>Тема, используемая элементом управления редактора</value>
   </data>
   <data name="SpellAllowAddCustom.Help" xml:space="preserve">
     <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
@@ -164,6 +178,20 @@
   </data>
   <data name="SpellWordIgnoreOptions.Help" xml:space="preserve">
     <value>К сожалению, функции проверки орфографии редко документируются. Как правило, нужно оставлять эти поля пустыми, если Вы точно не уверены в своих действиях. &lt;a href="http://www.telerik.com/products/aspnet-ajax/spell.aspx" target="_blank"&gt;Подробнее о функции проверки орфографии - на сайте Telerik&lt;/a&gt;</value>
+  </data>
+  <data name="StripFormattingOptions.Help" xml:space="preserve">
+    <value>Разработчики могут ограничить использование форматирования путем задания настройки StripFormattingOptions. В результате чего ко всему  вставляемому пользователями содержимому будут применяться правила очистки форматирования. Настройка EditorStripFormattingOptions может быть иметь одно или несколько следующих значений:
+&lt;ul&gt;
+&lt;li&gt;None: содержимое буфера обмена вставляется как есть. &lt;/li&gt;
+&lt;li&gt;NoneSupressCleanMessage: ничего не очищать при вставке и не задавать вопросов. &lt;/li&gt;
+&lt;li&gt;MSWord: очистить при вставке форматирование, характерное для Word, сохранив гарнитуру и размер шрифта.&lt;/li&gt;
+&lt;li&gt;MSWordNoFonts: strips  очистить при вставке форматирование, характерное для Word, сохранив только размер шрифта.&lt;/li&gt;
+&lt;li&gt;MSWordRemoveAll: strips очистить при вставке все форматирование, характерное для Word. &lt;/li&gt;
+&lt;li&gt;Css: очистить при вставке стили CSS.&lt;/li&gt;
+&lt;li&gt;Font: очистить при вставке теги font.&lt;/li&gt;
+&lt;li&gt;Span: очистить при вставке теги span.&lt;/li&gt;
+&lt;li&gt;All: удалить все форматирование HTML и вставить только текст. &lt;/li&gt;
+&lt;li&gt;AllExceptNewLines: при вставке удаляются все теги, кроме "br" и переводов строки (\n) .&lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="TemplateFilters.Help" xml:space="preserve">
     <value>Список возможных расширений диспетчера шаблонов - элементы списка разделяются точкой с запятой. Расширения также должны находиться в списке разрешенных расширений настроек хоста. Используйте следующий формат: *.имярасширения</value>
@@ -256,6 +284,9 @@
   <data name="LinksUseRelativeUrls.Text" xml:space="preserve">
     <value>Активирует относительные URL-ссылки:</value>
   </data>
+  <data name="LinksType.Text" xml:space="preserve">
+    <value>Тип ссылки на страницу:</value>
+  </data>
   <data name="MaxDocumentSize.Text" xml:space="preserve">
     <value>Максимальный размер файла:</value>
   </data>
@@ -300,6 +331,9 @@
   </data>
   <data name="SilverlightPath.Text" xml:space="preserve">
     <value>Путь:</value>
+  </data>
+  <data name="Skin.Text" xml:space="preserve">
+    <value>Тема:</value>
   </data>
   <data name="SpellAllowAddCustom.Text" xml:space="preserve">
     <value>Разрешить орфографию пользователя:</value>
@@ -382,11 +416,50 @@
   <data name="HTMLEditorPageName.Text" xml:space="preserve">
     <value>Настройки редактора HTML</value>
   </data>
+  <data name="NotCurrentProvider.Text" xml:space="preserve">
+    <value>RadEditorProvider не установлен в качестве редактора HTML по умолчанию, поэтому все произведенные изменения настроек не коснутся текущего поставщика редактора. Для того, чтобы произведенные изменения вступили в силу, установите поставщик по умолчанию на 'DotNetNuke.RadEditorProvider' в выпадающем списке слева.</value>
+  </data>
+  <data name="Client Script Settings.Title" xml:space="preserve">
+    <value>Настройки сценариев</value>
+  </data>
   <data name="Common Settings.Title" xml:space="preserve">
     <value>Основные настройки</value>
   </data>
+  <data name="Developer Settings.Title" xml:space="preserve">
+    <value>Настройки разработчика</value>
+  </data>
+  <data name="Document Manager Settings.Title" xml:space="preserve">
+    <value>Настройки диспечера документов</value>
+  </data>
+  <data name="Flash Manager Settings.Title" xml:space="preserve">
+    <value>Настройки диспетчера Flash</value>
+  </data>
+  <data name="Image Manager Settings.Title" xml:space="preserve">
+    <value>Настройки диспетчера изображений</value>
+  </data>
+  <data name="Media Manager Settings.Title" xml:space="preserve">
+    <value>Настройки диспетчера мультимедиа</value>
+  </data>
+  <data name="Silverlight Manager Settings.Title" xml:space="preserve">
+    <value>Настройки диспетчера Silverlight</value>
+  </data>
+  <data name="Template Manager Settings.Title" xml:space="preserve">
+    <value>Настройки диспетчера шаблонов</value>
+  </data>
+  <data name="Toolbar Settings.Title" xml:space="preserve">
+    <value>Настройки панели инструментов</value>
+  </data>
+  <data name="UserFolder.Text" xml:space="preserve">
+    <value>[Папка пользователя]</value>
+  </data>
   <data name="LinksType_Normal.Text" xml:space="preserve">
     <value>Обычный</value>
+  </data>
+  <data name="LinksType_UseTabId.Text" xml:space="preserve">
+    <value>Добавить ид. страницы в URL</value>
+  </data>
+  <data name="LinksType_UseTabName.Text" xml:space="preserve">
+    <value>Использовать имя страницы в URL</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Настройки редактора HTML</value>
