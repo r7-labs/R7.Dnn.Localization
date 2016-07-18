@@ -584,6 +584,24 @@ source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - Use
 source_lang = en-US
 type = RESX
 
+[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_CS_SettingsUserControl_Settings_ascx]
+file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/CS/SettingsUserControl/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/CS/SettingsUserControl/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_CS_ModuleInlineScript_template_ascx]
+file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/CS/ModuleInlineScript/template.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/CS/ModuleInlineScript/template.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-core.DesktopModules_Admin_ModuleCreator_Templates_CS_ModuleUserControl_template_ascx]
+file_filter = <lang>/DesktopModules/Admin/ModuleCreator/Templates/CS/ModuleUserControl/template.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Admin/ModuleCreator/Templates/CS/ModuleUserControl/template.ascx.resx
+source_lang = en-US
+type = RESX
+
 [r7-dnn-core.DesktopModules_Admin_ProfessionalPreview_ProfessionalPreview_ascx]
 file_filter = <lang>/DesktopModules/Admin/ProfessionalPreview/App_LocalResources/ProfessionalPreview.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/ProfessionalPreview/App_LocalResources/ProfessionalPreview.ascx.resx
