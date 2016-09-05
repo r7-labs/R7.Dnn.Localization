@@ -22,7 +22,7 @@
     <value>Имя, представляющее Глобальные роли</value>
   </data>
   <data name="Setting.DefaultLanguage.Text" xml:space="preserve">
-    <value>английский</value>
+    <value>ru-RU</value>
   </data>
   <data name="Setting.FooterText.Text" xml:space="preserve">
     <value>Все права защищены [year], корпорация DNN</value>
