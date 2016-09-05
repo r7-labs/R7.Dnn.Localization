@@ -100,7 +100,7 @@
     <value>Настройки хоста</value>
   </data>
   <data name="//Host//SiteManagement.String" xml:space="preserve">
-    <value>Управление сайтом</value>
+    <value>Управление сайтами</value>
   </data>
   <data name="//Host//ModuleDefinitions.String" xml:space="preserve">
     <value>Определения модулей</value>

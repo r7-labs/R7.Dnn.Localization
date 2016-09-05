@@ -37,7 +37,7 @@
     <value>Редактировать сайт</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
-    <value>Управление сайтом</value>
+    <value>Управление сайтами</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;h1&gt;О модуле управления сайтами&lt;/h1&gt;&lt;p&gt;Позволяет администратору хостинга управлять различными дочерними и родительскими сайтами. Модуль позволяет добавить новый сайт, изменить существующий или же удалить сайт.&lt;/p&gt;</value>
