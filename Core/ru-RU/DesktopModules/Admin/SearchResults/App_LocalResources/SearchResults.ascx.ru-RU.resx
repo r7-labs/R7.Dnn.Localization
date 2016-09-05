@@ -112,7 +112,7 @@
     <value>Страница:</value>
   </data>
   <data name="ResultsCount.Text" xml:space="preserve">
-    <value>Примерно {0} результатов</value>
+    <value>{0} результатов</value>
   </data>
   <data name="DefaultText.Text" xml:space="preserve">
     <value>Введите поисковую фразу</value>
