@@ -24,4 +24,25 @@
   <data name="linkTargetOpenNewPage.Text" xml:space="preserve">
     <value>В новом окне</value>
   </data>
+  <data name="plEnableWildSearch.Help" xml:space="preserve">
+    <value>Поиск может осуществляться при наборе частей слов, например "орг" найдет "организация" и "организовать". Выключите эту настройку, если получение результатов поиска занимает слишком много времени.</value>
+  </data>
+  <data name="plEnableWildSearch.Text" xml:space="preserve">
+    <value>Разрешает поиск по шаблону по-умолчанию</value>
+  </data>
+  <data name="plResultsScopeForFilters.Help" xml:space="preserve">
+    <value>Ограничивает результаты поиска выбранными типами содержимого</value>
+  </data>
+  <data name="plResultsScopeForFilters.Text" xml:space="preserve">
+    <value>Типы содержимого</value>
+  </data>
+  <data name="plResultsScopeForPortals.Help" xml:space="preserve">
+    <value>Ограничивает результаты поиска выбранными сайтами</value>
+  </data>
+  <data name="plTitleLinkTarget.Text" xml:space="preserve">
+    <value>Цель ссылки в заголовке</value>
+  </data>
+  <data name="portalsRequired.Text" xml:space="preserve">
+    <value>Нужно выбрать как минимум один сайт</value>
+  </data>
 </root>

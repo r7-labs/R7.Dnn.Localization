@@ -24,17 +24,53 @@
   <data name="ModifiedOn.Text" xml:space="preserve">
     <value>Изменено</value>
   </data>
+  <data name="SynonymsTags.Text" xml:space="preserve">
+    <value>Метки-синонимы</value>
+  </data>
+  <data name="AddSynonymsGroup.Text" xml:space="preserve">
+    <value>Добавить группу синонимов</value>
+  </data>
+  <data name="SynonymsTagDuplicated.Text" xml:space="preserve">
+    <value>Уже используется в другой группе синонимов</value>
+  </data>
+  <data name="SynonymsTagRequired.Text" xml:space="preserve">
+    <value>Требуется как минимум одна метка-синоним</value>
+  </data>
+  <data name="AddStopWords.Text" xml:space="preserve">
+    <value>Добавить слово</value>
+  </data>
+  <data name="lblStopwordsCultureList.Text" xml:space="preserve">
+    <value>Выберите язык:</value>
+  </data>
   <data name="Actions.Text" xml:space="preserve">
     <value>Действия</value>
   </data>
   <data name="General.Text" xml:space="preserve">
     <value>Общие</value>
   </data>
+  <data name="btnReIndex.Text" xml:space="preserve">
+    <value>Переиндексировать содержимое</value>
+  </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Переиндексирование приведет к удалению текущего содержимого хранилища поискового индекса. Переиндексирование выполняется краулером поисковой системы и зависит от расписания его запуска. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="ReIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Подтвердите переиндексирование</value>
+  </data>
   <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
     <value>Продолжить</value>
+  </data>
+  <data name="lblSynonymsCultureList.Help" xml:space="preserve">
+    <value>Выберите язык для группы синонимов</value>
+  </data>
+  <data name="lblSynonymsCultureList.Text" xml:space="preserve">
+    <value>Выберите язык:</value>
+  </data>
+  <data name="DefaultSynonymGroup.Text" xml:space="preserve">
+    <value>dnn,dotnetnuke</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Администрирование поиска</value>
