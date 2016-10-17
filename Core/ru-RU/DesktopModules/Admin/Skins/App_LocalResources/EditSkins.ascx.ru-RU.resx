@@ -27,11 +27,20 @@
   <data name="plContainers.Text" xml:space="preserve">
     <value>Containers</value>
   </data>
+  <data name="cmdRestore.Text" xml:space="preserve">
+    <value>Восстановить тему по-умолчанию</value>
+  </data>
   <data name="Portal.Text" xml:space="preserve">
     <value>Сайт</value>
   </data>
   <data name="Admin.Text" xml:space="preserve">
     <value>Редактор</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Удалить пакет темы</value>
+  </data>
+  <data name="cmdParse.Text" xml:space="preserve">
+    <value>Прочитать пакет темы</value>
   </data>
   <data name="lblApply.Text" xml:space="preserve">
     <value>Применить к</value>
@@ -45,6 +54,9 @@
   <data name="Portable.Text" xml:space="preserve">
     <value>Portable</value>
   </data>
+  <data name="NoSkin.ErrorMessage" xml:space="preserve">
+    <value>Файлы темы не найдены в папке</value>
+  </data>
   <data name="cmdPreview.Text" xml:space="preserve">
     <value>Preview</value>
   </data>
@@ -54,8 +66,14 @@
   <data name="NoContainer.ErrorMessage" xml:space="preserve">
     <value>No Container Files Exist in Folder</value>
   </data>
+  <data name="plSkins.Help" xml:space="preserve">
+    <value>Выберите пакет темы</value>
+  </data>
   <data name="plContainers.Help" xml:space="preserve">
     <value>Select the container package</value>
+  </data>
+  <data name="SkinUpload.Action" xml:space="preserve">
+    <value>Подгрузить тему</value>
   </data>
   <data name="ContainerUpload.Action" xml:space="preserve">
     <value>Upload Container</value>
@@ -63,13 +81,25 @@
   <data name="ControlTitle_editskins.Text" xml:space="preserve">
     <value>Управление темами</value>
   </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>Тип темы:</value>
+  </data>
   <data name="About.Text" xml:space="preserve">
     <value>О {0}</value>
+  </data>
+  <data name="SkinDeleteFailure.Text" xml:space="preserve">
+    <value>Только администраторы хостинга могут удалять темы хостинга</value>
   </data>
   <data name="CannotDeleteContainer.ErrorMessage" xml:space="preserve">
     <value>This set of containers cannot be deleted because it is being used</value>
   </data>
   <data name="CannotDeleteSkin.ErrorMessage" xml:space="preserve">
     <value>Данный набор тем не может быть удален, поскольку используется в настоящее время</value>
+  </data>
+  <data name="LegacySkin.Text" xml:space="preserve">
+    <value>Тема устаревшего формата</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Редактор темы</value>
   </data>
 </root>
