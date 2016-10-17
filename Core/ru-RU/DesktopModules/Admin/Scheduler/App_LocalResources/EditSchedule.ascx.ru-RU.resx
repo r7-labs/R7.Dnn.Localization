@@ -24,6 +24,12 @@
   <data name="plEnabled.Text" xml:space="preserve">
     <value>Выполнять по расписанию:</value>
   </data>
+  <data name="plTimeLapse.Text" xml:space="preserve">
+    <value>Частота:</value>
+  </data>
+  <data name="plTimeLapse.Help" xml:space="preserve">
+    <value>Пример: задайте "5" и выберите "Минут" для запуска задачи каждые 5 минут.</value>
+  </data>
   <data name="Minutes.Text" xml:space="preserve">
     <value>минут</value>
   </data>
@@ -41,6 +47,9 @@
   </data>
   <data name="Years.Text" xml:space="preserve">
     <value>Лет</value>
+  </data>
+  <data name="plRetryTimeLapse.Help" xml:space="preserve">
+    <value>Пример: задайте "5" и выберите "Минут" для повторного запуска задачи каждые 5 минут после сбоя.</value>
   </data>
   <data name="plRetainHistoryNum.Text" xml:space="preserve">
     <value>Сохранять историю:</value>
