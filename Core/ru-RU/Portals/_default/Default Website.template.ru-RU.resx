@@ -39,26 +39,93 @@
   <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
     <value>Страница ошибки 404</value>
   </data>
+  <data name="Tab.ActivityFeed.CenterPane.JournalModule.Title.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="Tab.ActivityFeed.CenterPane.ProfileModule.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
+  </data>
   <data name="Tab.ActivityFeed.Content.Text" xml:space="preserve">
     <value>Журнал активности</value>
   </data>
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
     <value>Журнал</value>
   </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Вакансии</value>
+  </data>
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Горные</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Гравитация</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Дорожные</value>
   </data>
   <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
   </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Детские</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Грунтовый/ Городской</value>
+  </data>
   <data name="Tab.ActivityFeed.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
     <value>Продукты</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value>ЧаВо</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Инструкции к велосипедам</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Каталоги продукции</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Архив продукции</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Гарантия на велосипеды</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Поддержка покупателей</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Корпорация "Крутые велики"</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value>
+3457 ул. Велосипедная
+г. Велодром, Россия, 12345</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value>
+Телефон: (555) 555-4563</value>
+  </data>
+  <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value>
+Факс: (555) 555-4564</value>
   </data>
   <data name="Tab.ActivityFeed.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
   </data>
   <data name="Tab.ActivityFeed.Name.Text" xml:space="preserve">
     <value>Журнал активности</value>
+  </data>
+  <data name="Tab.ActivityFeed.RightPane.Module.Title.Text" xml:space="preserve">
+    <value>Каталог участников</value>
   </data>
   <data name="Tab.ActivityFeed.Title.Text" xml:space="preserve">
     <value>Журнал активности</value>
@@ -99,6 +166,9 @@
   <data name="Tab.DigitalAssetsManagement.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Управление файлами</value>
   </data>
+  <data name="Tab.DigitalAssetsManagement.Description.Text" xml:space="preserve">
+    <value>Управление ресурсами сайта.</value>
+  </data>
   <data name="Tab.DigitalAssetsManagement.Name.Text" xml:space="preserve">
     <value>Управление файлами</value>
   </data>
@@ -110,6 +180,9 @@
   </data>
   <data name="Tab.Extensions.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Расширения</value>
+  </data>
+  <data name="Tab.Extensions.Description.Text" xml:space="preserve">
+    <value>Устанавливайте, добавляете, изменяйте и удаляйте расширения, такие как модули, темы и языковые пакеты.</value>
   </data>
   <data name="Tab.Extensions.Name.Text" xml:space="preserve">
     <value>Расширения</value>
@@ -129,11 +202,35 @@
   <data name="Tab.GoogleAnalytics.Title.Text" xml:space="preserve">
     <value>Аналитика Google</value>
   </data>
+  <data name="Tab.Home.Header.Title" xml:space="preserve">
+    <value>Каждое путешествие начинается с первого шага.</value>
+  </data>
+  <data name="Tab.Home.Main.Blog.Title" xml:space="preserve">
+    <value>Блог</value>
+  </data>
+  <data name="Tab.Home.Main.Forums.Title" xml:space="preserve">
+    <value>Форумы</value>
+  </data>
   <data name="Tab.Home.Main.OnlineHelp.Title" xml:space="preserve">
     <value>Онлайн-справка</value>
   </data>
+  <data name="Tab.Home.Main.QA.Title" xml:space="preserve">
+    <value>Вопрос-ответ</value>
+  </data>
+  <data name="Tab.Home.Main.Shop.Link" xml:space="preserve">
+    <value>http://store.dnnsoftware.com/?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=shop&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
+  </data>
+  <data name="Tab.Home.Main.Shop.Title" xml:space="preserve">
+    <value>Магазин</value>
+  </data>
   <data name="Tab.Home.Main.Videos.Title" xml:space="preserve">
     <value>Видео</value>
+  </data>
+  <data name="Tab.Home.Main.Webinars.Title" xml:space="preserve">
+    <value>Вебинары</value>
+  </data>
+  <data name="Tab.Home.Main.Wikis.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/wiki?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=wiki&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
   </data>
   <data name="Tab.Home.Main.Wikis.Title" xml:space="preserve">
     <value>Вики</value>
@@ -144,11 +241,26 @@
   <data name="Tab.Home.PageName.Title" xml:space="preserve">
     <value>Главная</value>
   </data>
+  <data name="Tab.Home.SocialLinks.LinkedIn.Link" xml:space="preserve">
+    <value>http://www.linkedin.com/company/207975</value>
+  </data>
+  <data name="Tab.Home.SocialLinks.Title" xml:space="preserve">
+    <value>Быть на связи с DNN</value>
+  </data>
+  <data name="Tab.Home.SocialLinks.Twitter.Link" xml:space="preserve">
+    <value>http://twitter.com/dnncorp</value>
+  </data>
+  <data name="Tab.Home.SocialLinks.Youtube.Link" xml:space="preserve">
+    <value>http://www.youtube.com/user/dotnetnuke</value>
+  </data>
   <data name="Tab.Languages.Content.Text" xml:space="preserve">
     <value>Языки</value>
   </data>
   <data name="Tab.Languages.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Управление языками</value>
+  </data>
+  <data name="Tab.Languages.Description.Text" xml:space="preserve">
+    <value>Управление языковыми ресурсами.</value>
   </data>
   <data name="Tab.Languages.Name.Text" xml:space="preserve">
     <value>Языки</value>
@@ -168,41 +280,214 @@
   <data name="Tab.Lists.Title.Text" xml:space="preserve">
     <value>Списки</value>
   </data>
+  <data name="Tab.LogViewer.Content.Text" xml:space="preserve">
+    <value>Просмотр журнала</value>
+  </data>
+  <data name="Tab.LogViewer.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Просмотр журнала</value>
+  </data>
+  <data name="Tab.LogViewer.Name.Text" xml:space="preserve">
+    <value>Просмотр журнала</value>
+  </data>
+  <data name="Tab.LogViewer.Title.Text" xml:space="preserve">
+    <value>Просмотр журнала</value>
+  </data>
+  <data name="Tab.MyFriends.CenterPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value>Каталог участников</value>
+  </data>
+  <data name="Tab.MyFriends.CenterPane.ViewProfileModule.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
+  </data>
+  <data name="Tab.MyFriends.Content.Text" xml:space="preserve">
+    <value>Мои друзья</value>
+  </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
     <value>Журнал</value>
+  </data>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Вакансии</value>
   </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
   </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Горные</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Гравитация</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Дорожные</value>
+  </data>
   <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Детские</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Грунтовый/ Городской</value>
   </data>
   <data name="Tab.MyFriends.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
     <value>Продукты</value>
   </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value>ЧаВо</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Инструкции к велосипедам</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Каталоги продукции</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Архив продукции</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Гарантия на велосипеды</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="Tab.MyFriends.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Поддержка покупателей</value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Корпорация "Крутые велики"</value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value>
+3457 ул. Велосипедная
+г. Велодром, Россия, 12345</value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value>
+Телефон: (555) 555-4563</value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value>
+Факс: (555) 555-4564</value>
+  </data>
   <data name="Tab.MyFriends.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
+  </data>
+  <data name="Tab.MyFriends.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
   </data>
   <data name="Tab.MyFriends.Name.Text" xml:space="preserve">
     <value>Друзья</value>
   </data>
+  <data name="Tab.MyFriends.RightPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value>Каталог участников</value>
+  </data>
+  <data name="Tab.MyFriends.RightPane.NavigationModule.Title.Text" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="Tab.MyFriends.Title.Text" xml:space="preserve">
+    <value>Мои друзья</value>
+  </data>
+  <data name="Tab.MyMessages.CenterPane.MessageCenterModule.Title.Text" xml:space="preserve">
+    <value>Центр сообщений</value>
+  </data>
+  <data name="Tab.MyMessages.CenterPane.ViewProfileModule.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
+  </data>
+  <data name="Tab.MyMessages.Content.Text" xml:space="preserve">
+    <value>Мои сообщения</value>
+  </data>
   <data name="Tab.MyMessages.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
     <value>Журнал</value>
+  </data>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Вакансии</value>
   </data>
   <data name="Tab.MyMessages.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
   </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Горные</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Гравитация</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Дорожные</value>
+  </data>
   <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Детские</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Грунтовый/ Городской</value>
   </data>
   <data name="Tab.MyMessages.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
     <value>Продукты</value>
   </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value>ЧаВо</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Инструкции к велосипедам</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Каталоги продукции</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Архив продукции</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Гарантия на велосипеды</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="Tab.MyMessages.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Поддержка покупателей</value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Корпорация "Крутые велики"</value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value>
+3457 ул. Велосипедная
+г. Велодром, Россия, 12345</value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value>
+Телефон: (555) 555-4563</value>
+  </data>
+  <data name="Tab.MyMessages.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value>
+Факс: (555) 555-4564</value>
+  </data>
   <data name="Tab.MyMessages.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
   </data>
+  <data name="Tab.MyMessages.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
+  </data>
   <data name="Tab.MyMessages.Name.Text" xml:space="preserve">
     <value>Сообщения</value>
+  </data>
+  <data name="Tab.MyMessages.RightPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value>Каталог участников</value>
+  </data>
+  <data name="Tab.MyMessages.RightPane.NavigationModule.Title.Text" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="Tab.MyMessages.Title.Text" xml:space="preserve">
+    <value>Мои сообщения</value>
+  </data>
+  <data name="Tab.MyProfile.CenterPane.ViewProfileModule.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
   </data>
   <data name="Tab.MyProfile.Content.Text" xml:space="preserve">
     <value>Мой профиль</value>
@@ -210,20 +495,87 @@
   <data name="Tab.MyProfile.FooterCenterPane.Module.Content.0.Text" xml:space="preserve">
     <value>Журнал</value>
   </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Вакансии</value>
+  </data>
   <data name="Tab.MyProfile.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Горные</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Гравитация</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Дорожные</value>
   </data>
   <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.3.Text" xml:space="preserve">
     <value>Город</value>
   </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Детские</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Грунтовый/ Городской</value>
+  </data>
   <data name="Tab.MyProfile.FooterLeftOuterPane.Module.Title.Text" xml:space="preserve">
     <value>Продукты</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.0.Text" xml:space="preserve">
+    <value>ЧаВо</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.1.Text" xml:space="preserve">
+    <value>Инструкции к велосипедам</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Каталоги продукции</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.3.Text" xml:space="preserve">
+    <value>Архив продукции</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.4.Text" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.5.Text" xml:space="preserve">
+    <value>Гарантия на велосипеды</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Content.6.Text" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="Tab.MyProfile.FooterLeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Поддержка покупателей</value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
+    <value>Корпорация "Крутые велики"</value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.1.Text" xml:space="preserve">
+    <value>
+3457 ул. Велосипедная
+г. Велодром, Россия, 12345</value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.2.Text" xml:space="preserve">
+    <value>
+Телефон: (555) 555-4563</value>
+  </data>
+  <data name="Tab.MyProfile.FooterRightPane.Module.Content.3.Text" xml:space="preserve">
+    <value>
+Факс: (555) 555-4564</value>
   </data>
   <data name="Tab.MyProfile.FooterRightPane.Module.Title.Text" xml:space="preserve">
     <value>Контакты</value>
   </data>
+  <data name="Tab.MyProfile.LeftPane.Module.Title.Text" xml:space="preserve">
+    <value>Просмотр профиля</value>
+  </data>
   <data name="Tab.MyProfile.Name.Text" xml:space="preserve">
     <value>Мой профиль</value>
+  </data>
+  <data name="Tab.MyProfile.RightPane.MemberDirectoryModule.Title.Text" xml:space="preserve">
+    <value>Каталог участников</value>
+  </data>
+  <data name="Tab.MyProfile.RightPane.NavigationModule.Title.Text" xml:space="preserve">
+    <value>Навигация</value>
   </data>
   <data name="Tab.MyProfile.Title.Text" xml:space="preserve">
     <value>Мой профиль</value>
@@ -246,17 +598,26 @@
   <data name="Tab.PageManagement.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Управление страницами</value>
   </data>
+  <data name="Tab.PageManagement.Description.Text" xml:space="preserve">
+    <value>Управление страницами сайта.</value>
+  </data>
   <data name="Tab.PageManagement.Name.Text" xml:space="preserve">
     <value>Страницы</value>
   </data>
   <data name="Tab.PageManagement.Title.Text" xml:space="preserve">
     <value>Управление страницами</value>
   </data>
+  <data name="Tab.PortalAdministration.Content.Text" xml:space="preserve">
+    <value>Администрирование сайта</value>
+  </data>
   <data name="Tab.PortalAdministration.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Основные возможности</value>
   </data>
   <data name="Tab.PortalAdministration.Name.Text" xml:space="preserve">
     <value>Админ</value>
+  </data>
+  <data name="Tab.PortalAdministration.Title.Text" xml:space="preserve">
+    <value>Администрирование сайта</value>
   </data>
   <data name="Tab.RecycleBin.Content.Text" xml:space="preserve">
     <value>Корзина</value>
@@ -309,6 +670,9 @@
   <data name="Tab.SecurityRoles.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Роли</value>
   </data>
+  <data name="Tab.SecurityRoles.Description.Text" xml:space="preserve">
+    <value>Управление ролями безопасности сайта.</value>
+  </data>
   <data name="Tab.SecurityRoles.Name.Text" xml:space="preserve">
     <value>Роли</value>
   </data>
@@ -333,17 +697,26 @@
   <data name="Tab.SiteLog.Title.Text" xml:space="preserve">
     <value>Журнал событий</value>
   </data>
+  <data name="Tab.SiteMapSettings.Content.Text" xml:space="preserve">
+    <value>Настройки карты сайта</value>
+  </data>
   <data name="Tab.SiteMapSettings.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Карта сайта для поисковиков</value>
   </data>
   <data name="Tab.SiteMapSettings.Name.Text" xml:space="preserve">
     <value>Карта сайта для поисковиков</value>
   </data>
+  <data name="Tab.SiteMapSettings.Title.Text" xml:space="preserve">
+    <value>Настройки карты сайта</value>
+  </data>
   <data name="Tab.SiteRedirection.Content.Text" xml:space="preserve">
     <value>Управление перенаправлениями</value>
   </data>
   <data name="Tab.SiteRedirection.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Управление перенаправлениями</value>
+  </data>
+  <data name="Tab.SiteRedirection.Description.Text" xml:space="preserve">
+    <value>Управление перенаправлением сайтов</value>
   </data>
   <data name="Tab.SiteRedirection.Name.Text" xml:space="preserve">
     <value>Управление перенаправлениями</value>
@@ -378,6 +751,12 @@
   <data name="Tab.Skins.ContentPane.SkinDesignerModule.Title.Text" xml:space="preserve">
     <value>Дизайнер скина</value>
   </data>
+  <data name="Tab.Skins.ContentPane.SkinEditorModule.Title.Text" xml:space="preserve">
+    <value>Редактор темы</value>
+  </data>
+  <data name="Tab.Skins.Description.Text" xml:space="preserve">
+    <value>Управление ресурсами тем.</value>
+  </data>
   <data name="Tab.Skins.Name.Text" xml:space="preserve">
     <value>Скины</value>
   </data>
@@ -390,6 +769,9 @@
   <data name="Tab.Taxonomy.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Управление таксономией</value>
   </data>
+  <data name="Tab.Taxonomy.Description.Text" xml:space="preserve">
+    <value>Управление таксономией сайта.</value>
+  </data>
   <data name="Tab.Taxonomy.Name.Text" xml:space="preserve">
     <value>Таксономия</value>
   </data>
@@ -401,6 +783,9 @@
   </data>
   <data name="Tab.UserAccounts.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Пользователи</value>
+  </data>
+  <data name="Tab.UserAccounts.Description.Text" xml:space="preserve">
+    <value>Управление учетными записями пользователей.</value>
   </data>
   <data name="Tab.UserAccounts.Name.Text" xml:space="preserve">
     <value>Пользователи</value>
@@ -420,7 +805,22 @@
   <data name="Tab.Vendors.Title.Text" xml:space="preserve">
     <value>Поставщики</value>
   </data>
+  <data name="Tab.Home.Main.Forums.SubLink.Text" xml:space="preserve">
+    <value>Посетить форумы DNN</value>
+  </data>
   <data name="Tab.Home.Main.OnlineHelp.SubLink.Text" xml:space="preserve">
     <value>Просмотр онлайн-справки</value>
+  </data>
+  <data name="Tab.Home.Main.Shop.SubLink.Text" xml:space="preserve">
+    <value>За покупками в магазин DNN</value>
+  </data>
+  <data name="Tab.Home.Main.Videos.SubLink.Text" xml:space="preserve">
+    <value>Смотреть видео о DNN</value>
+  </data>
+  <data name="Tab.Home.Main.Webinars.SubLink.Text" xml:space="preserve">
+    <value>Записаться на вебинар по DNN</value>
+  </data>
+  <data name="Tab.Home.Main.Wikis.SubLink.Text" xml:space="preserve">
+    <value>Изучить Вики DNN</value>
   </data>
 </root>
