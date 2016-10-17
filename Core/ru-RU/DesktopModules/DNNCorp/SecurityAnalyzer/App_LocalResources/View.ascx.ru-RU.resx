@@ -12,11 +12,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AuditChecks.Text" xml:space="preserve">
+    <value>Проверки</value>
+  </data>
   <data name="SuperuserActivity.Text" xml:space="preserve">
     <value>Активность администратора хостинга</value>
   </data>
   <data name="CheckDebugFailure.Text" xml:space="preserve">
     <value>Включен режим отладки - его можно отключить в файле web.config (или посредством диспетчера конфигурации)</value>
+  </data>
+  <data name="CheckDebugReason.Text" xml:space="preserve">
+    <value>Включение режима отладки отрицательно влияет на производительность и может раскрыть потенциально полезную для злоумышленников информацию.</value>
+  </data>
+  <data name="CheckDebugSuccess.Text" xml:space="preserve">
+    <value>Не в режиме отладки</value>
+  </data>
+  <data name="cmdCheck.Text" xml:space="preserve">
+    <value>Проверить</value>
   </data>
   <data name="cmdSearch.Text" xml:space="preserve">
     <value>Поиск</value>
@@ -24,10 +36,34 @@
   <data name="Authorized.Header" xml:space="preserve">
     <value>Авторизирован</value>
   </data>
+  <data name="CreatedDate.Header" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="DisplayName.Header" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
   <data name="Email.Header" xml:space="preserve">
     <value>Эл. почта</value>
   </data>
+  <data name="FirstName.Header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="LastActivityDate.Header" xml:space="preserve">
+    <value>Последняя активность</value>
+  </data>
+  <data name="LastLogin.Header" xml:space="preserve">
+    <value>Последний вход</value>
+  </data>
+  <data name="LastName.Header" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
   <data name="Username.Header" xml:space="preserve">
     <value>Имя пользователя</value>
+  </data>
+  <data name="CheckViewstatemacSuccess.Text" xml:space="preserve">
+    <value>Состояние просмотра защищено с помощью MAC</value>
+  </data>
+  <data name="Severity.Header" xml:space="preserve">
+    <value>Критичность</value>
   </data>
 </root>
