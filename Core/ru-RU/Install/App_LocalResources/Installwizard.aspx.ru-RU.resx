@@ -30,11 +30,68 @@
   <data name="DatabaseAdvanced.Text" xml:space="preserve">
     <value>Другой</value>
   </data>
+  <data name="DatabaseFilename.Text" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="DatabaseInfo.Text" xml:space="preserve">
+    <value>Информация о базе данных</value>
+  </data>
+  <data name="DatabaseName.Text" xml:space="preserve">
+    <value>Имя базы данных</value>
+  </data>
+  <data name="DatabaseObjectQualifier.Text" xml:space="preserve">
+    <value>Спецификатор объекта</value>
+  </data>
+  <data name="DatabasePassword.Text" xml:space="preserve">
+    <value>Пароль к базе данных</value>
+  </data>
+  <data name="DatabaseRunAs.Text" xml:space="preserve">
+    <value>Запустить базу данных от имени</value>
+  </data>
   <data name="DatabaseSecurity.Text" xml:space="preserve">
     <value>Безопасность</value>
   </data>
+  <data name="DatabaseServer.Text" xml:space="preserve">
+    <value>Имя сервера</value>
+  </data>
+  <data name="DatabaseSetup.Text" xml:space="preserve">
+    <value>Настройка базы данных</value>
+  </data>
   <data name="DatabaseStandard.Text" xml:space="preserve">
     <value>По умолчанию</value>
+  </data>
+  <data name="DatabaseType.Text" xml:space="preserve">
+    <value>Тип базы данных</value>
+  </data>
+  <data name="DatabaseUsername.Text" xml:space="preserve">
+    <value>Имя пользователя базы данных</value>
+  </data>
+  <data name="DbSecurityIntegrated.Text" xml:space="preserve">
+    <value>Интегрированный</value>
+  </data>
+  <data name="FileAndFolderPermissionCheckTitle.Text" xml:space="preserve">
+    <value>Проверяем разрешения файлов и папок</value>
+  </data>
+  <data name="FileCreateCheck.Text" xml:space="preserve">
+    <value>Проверка создания файла</value>
+  </data>
+  <data name="FileDeleteCheck.Text" xml:space="preserve">
+    <value>Проверка удаления файла</value>
+  </data>
+  <data name="FolderCreateCheck.Text" xml:space="preserve">
+    <value>Проверка создания папки</value>
+  </data>
+  <data name="FolderDeleteCheck.Text" xml:space="preserve">
+    <value>Проверка удаления папки</value>
+  </data>
+  <data name="InstallingExtension.Text" xml:space="preserve">
+    <value>Устанавливаем {0} - {1}</value>
+  </data>
+  <data name="InstallingLanguagesTitle.Text" xml:space="preserve">
+    <value>Устанавливаем языки</value>
+  </data>
+  <data name="InstallTitle.Text" xml:space="preserve">
+    <value>Установка</value>
   </data>
   <data name="IntroDetail.Text" xml:space="preserve">
     <value>&lt;p&gt;Вас приветствует Мастер Установки DotNetNuke. Этот мастер проведет Вас через весь процесс установки Вашего DotNetNuke приложения.&lt;/p&gt;
@@ -49,11 +106,119 @@
   <data name="Password.Text" xml:space="preserve">
     <value>Пароль:</value>
   </data>
+  <data name="SqlTypeExpress.Text" xml:space="preserve">
+    <value>Файл SQL Server Express</value>
+  </data>
+  <data name="SqlTypeServer.Text" xml:space="preserve">
+    <value>База данных SQL Server/SQL Server Express</value>
+  </data>
   <data name="UserName.Text" xml:space="preserve">
     <value>Имя пользователя:</value>
   </data>
+  <data name="WebsiteInfo.Text" xml:space="preserve">
+    <value>Информация о сайте</value>
+  </data>
+  <data name="WebsiteName.Text" xml:space="preserve">
+    <value>Имя сайта</value>
+  </data>
+  <data name="WebsiteTemplate.Text" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="LanguageDutch.Text" xml:space="preserve">
+    <value>Голландский</value>
+  </data>
+  <data name="LanguageEnglish.Text" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="LanguageFrench.Text" xml:space="preserve">
+    <value>Французский</value>
+  </data>
+  <data name="LanguageGerman.Text" xml:space="preserve">
+    <value>Немецкий</value>
+  </data>
+  <data name="LanguageItalian.Text" xml:space="preserve">
+    <value>Итальянский</value>
+  </data>
+  <data name="LanguageSpanish.Text" xml:space="preserve">
+    <value>Испанский</value>
+  </data>
+  <data name="TemplateDefault.Text" xml:space="preserve">
+    <value>Шаблон по-умолчанию</value>
+  </data>
+  <data name="TemplateMobile.Text" xml:space="preserve">
+    <value>Мобильный шаблон</value>
+  </data>
+  <data name="TemplateSolutions.Text" xml:space="preserve">
+    <value>Шаблон решения</value>
+  </data>
+  <data name="DatabaseName.Help" xml:space="preserve">
+    <value>Имя базы данных.</value>
+  </data>
+  <data name="DatabaseOwner.Text" xml:space="preserve">
+    <value>Владелец базы данных</value>
+  </data>
+  <data name="UserName.Help" xml:space="preserve">
+    <value>Имя пользователя для учетной записи администратора хостинга.</value>
+  </data>
+  <data name="DatabaseInstallation.Text" xml:space="preserve">
+    <value>Информация о базе данных</value>
+  </data>
+  <data name="WebsiteCreation.Text" xml:space="preserve">
+    <value>Создание сайта</value>
+  </data>
+  <data name="CreateSuperUser.Text" xml:space="preserve">
+    <value>Создание администратора хостинга</value>
+  </data>
+  <data name="CreatingSite.Text" xml:space="preserve">
+    <value>Создаем сайт [{0}]</value>
+  </data>
+  <data name="CreatingSuperUser.Text" xml:space="preserve">
+    <value>Создаем администратора хостинга</value>
+  </data>
+  <data name="DeletingOldFiles.Text" xml:space="preserve">
+    <value>Удаляем старые файлы </value>
+  </data>
+  <data name="InstallationDone.Text" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="InstallingDataBaseScriptStep.Text" xml:space="preserve">
+    <value>Устанавливаем сценарий базы данных</value>
+  </data>
+  <data name="ProcessingUpgradeScript.Text" xml:space="preserve">
+    <value>Применяем сценарий обновления</value>
+  </data>
+  <data name="SkipCreatingSite.Text" xml:space="preserve">
+    <value>Псевдоним портала [{0}] уже существует. Пропускаем этот шаг.</value>
+  </data>
+  <data name="UpdatingConfigFile.Text" xml:space="preserve">
+    <value>Обновляем конфигурацию </value>
+  </data>
+  <data name="UpgradingNormalApplication.Text" xml:space="preserve">
+    <value>Обновляем приложение</value>
+  </data>
+  <data name="UpgradingVersionApplication.Text" xml:space="preserve">
+    <value>Обновляем приложение до </value>
+  </data>
+  <data name="CheckingIIS.Text" xml:space="preserve">
+    <value>Проверяем конфигурацию IIS</value>
+  </data>
+  <data name="InitHostSetting.Text" xml:space="preserve">
+    <value>Задаем начальные настройки хостинга</value>
+  </data>
+  <data name="ErrorInStep.Text" xml:space="preserve">
+    <value>Произошла ОШИБКА - {0}</value>
+  </data>
+  <data name="IISVerificationFail.Text" xml:space="preserve">
+    <value>Пул приложения в IIS должен использовать Интегрированный режим работы конвейера</value>
+  </data>
+  <data name="LegacyLangaugePack.Text" xml:space="preserve">
+    <value>Этот языковой пакет предназначен для более старой версии, чем текущая версия приложения: </value>
+  </data>
   <data name="TemplateBlank.Text" xml:space="preserve">
     <value>Пустой шаблон</value>
+  </data>
+  <data name="DatabaseFilename.Help" xml:space="preserve">
+    <value>Имя файла базы данных.</value>
   </data>
   <data name="LicenseActivation.Text" xml:space="preserve">
     <value>Активация лицензии</value>
@@ -64,7 +229,55 @@
   <data name="Error.Text" xml:space="preserve">
     <value>Ошибка</value>
   </data>
+  <data name="DatabaseConnectionError.Text" xml:space="preserve">
+    <value>Ошибка соединения с базой данных</value>
+  </data>
+  <data name="DatabaseError.Text" xml:space="preserve">
+    <value>Невозможно установить соединение с базой данных.</value>
+  </data>
+  <data name="TestingDatabase.Text" xml:space="preserve">
+    <value>Проверяем соединение с базой данных.</value>
+  </data>
+  <data name="InstallationComplete.Text" xml:space="preserve">
+    <value>Установка завершена!</value>
+  </data>
+  <data name="PageTitle.Text" xml:space="preserve">
+    <value>Установка</value>
+  </data>
   <data name="TimerMinutes.Text" xml:space="preserve">
     <value>Минут</value>
+  </data>
+  <data name="PasswordMismatch.Text" xml:space="preserve">
+    <value>Пароли не совпадают.</value>
+  </data>
+  <data name="Confirm.Required" xml:space="preserve">
+    <value>Укажите подтверждение пароля.</value>
+  </data>
+  <data name="DatabaseFilename.Required" xml:space="preserve">
+    <value>Укажите имя файла базы данных.</value>
+  </data>
+  <data name="DatabaseName.Required" xml:space="preserve">
+    <value>Укажите имя базы данных.</value>
+  </data>
+  <data name="DatabasePassword.Required" xml:space="preserve">
+    <value>Укажите пароль к базе данных.</value>
+  </data>
+  <data name="DatabaseServer.Required" xml:space="preserve">
+    <value>Укажите имя сервера баз данных.</value>
+  </data>
+  <data name="DatabaseUsername.Required" xml:space="preserve">
+    <value>Укажите имя пользователя базы данных.</value>
+  </data>
+  <data name="Password.Required" xml:space="preserve">
+    <value>Укажите пароль.</value>
+  </data>
+  <data name="UserName.Required" xml:space="preserve">
+    <value>Укажите имя пользователя.</value>
+  </data>
+  <data name="WebsiteName.Required" xml:space="preserve">
+    <value>Укажите имя сайта.</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>Адрес эл. почты:</value>
   </data>
 </root>
