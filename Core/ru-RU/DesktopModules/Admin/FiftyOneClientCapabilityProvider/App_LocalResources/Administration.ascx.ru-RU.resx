@@ -21,12 +21,30 @@
   <data name="ActivateInstructionsHtml.Text" xml:space="preserve">
     <value>&lt;h3&gt;Для активации всех возможностей&lt;/h3&gt;&lt;p&gt;Шаг 1 - Получите лицензионный ключ 51Degrees on premise.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Шаг 2 - Вставьте код лицензионного ключа в расположенное ниже текстовое поле. Нажмите "Активировать" для использования ключа на данном сайте.&lt;/p&gt;&lt;br/&gt;</value>
   </data>
+  <data name="BrowserList.Header" xml:space="preserve">
+    <value>Браузер</value>
+  </data>
+  <data name="ContentList.Header" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="DeviceExplorer.Header" xml:space="preserve">
+    <value>Обозреватель устройств</value>
+  </data>
+  <data name="HardwareList.Header" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
   <data name="RefreshButtonText.Text" xml:space="preserve">
     <value>Обновить</value>
     <comment>Used to reload page after upgrade to premium.</comment>
   </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>Найти устройство</value>
+  </data>
   <data name="UploadButtonText.Text" xml:space="preserve">
     <value>Подгрузка</value>
+  </data>
+  <data name="BackButtonDevicesText.Text" xml:space="preserve">
+    <value>Другие поставщики</value>
   </data>
   <data name="DeviceSearchRequired.Text" xml:space="preserve">
     <value>Требуется обязательно</value>
@@ -37,6 +55,9 @@
   <data name="Cancel.Action" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="DeviceBrowserUnavailableButton.Url" xml:space="preserve">
+    <value>https://51degrees.com/resources/device-explorer</value>
+  </data>
   <data name="Refresh.Action" xml:space="preserve">
     <value>Обновить</value>
   </data>
@@ -45,6 +66,12 @@
   </data>
   <data name="SettingsConfiguration.Header" xml:space="preserve">
     <value>Настройки</value>
+  </data>
+  <data name="SettingsDataSetDeviceCombinations.Text" xml:space="preserve">
+    <value>Комбинации</value>
+  </data>
+  <data name="SettingsDataSetHardwareProfiles.Text" xml:space="preserve">
+    <value>Устройства</value>
   </data>
   <data name="SettingsDataSetName.Text" xml:space="preserve">
     <value>Имя</value>

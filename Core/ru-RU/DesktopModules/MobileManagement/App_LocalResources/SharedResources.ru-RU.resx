@@ -24,29 +24,83 @@
   <data name="lblRedirectName.Text" xml:space="preserve">
     <value>Имя перенаправления</value>
   </data>
+  <data name="lblRedirectName.Help" xml:space="preserve">
+    <value>Имя перенаправления</value>
+  </data>
+  <data name="lblRedirectSource.Help" xml:space="preserve">
+    <value>Определяет, будет ли перенаправление осуществляться на уровне сайта или страницы</value>
+  </data>
+  <data name="lblRedirectTarget.Help" xml:space="preserve">
+    <value>Задает цель для перенаправления</value>
+  </data>
   <data name="lblRedirectTarget.Text" xml:space="preserve">
     <value>На</value>
   </data>
   <data name="lblTargetUrl.Text" xml:space="preserve">
     <value>Ссылка</value>
   </data>
+  <data name="lnkPortalAlias.Text" xml:space="preserve">
+    <value>Введите новый псевдоним сайта</value>
+  </data>
   <data name="optOther.Text" xml:space="preserve">
     <value>Расширенный</value>
+  </data>
+  <data name="optPage.Text" xml:space="preserve">
+    <value>Страница сайта</value>
+  </data>
+  <data name="optPhone.Text" xml:space="preserve">
+    <value>Мобильный телефон</value>
   </data>
   <data name="optPortal.Text" xml:space="preserve">
     <value>Portal</value>
   </data>
+  <data name="optTablet.Text" xml:space="preserve">
+    <value>Планшет</value>
+  </data>
   <data name="optUrl.Text" xml:space="preserve">
     <value>Ссылка</value>
+  </data>
+  <data name="valRedirectName.Text" xml:space="preserve">
+    <value>Необходимо задать имя для перенаправления</value>
+  </data>
+  <data name="lblEnable.Text" xml:space="preserve">
+    <value>Разрешить</value>
+  </data>
+  <data name="PageSelect.Text" xml:space="preserve">
+    <value>Выберите страницу</value>
   </data>
   <data name="lblTarget.Text" xml:space="preserve">
     <value>На</value>
   </data>
+  <data name="chkChildPages.Text" xml:space="preserve">
+    <value>Включая подчиненные страницы</value>
+  </data>
+  <data name="AllMobile.Text" xml:space="preserve">
+    <value>Все мобильные устройства</value>
+  </data>
+  <data name="Device Type.Header" xml:space="preserve">
+    <value>Тип устройства</value>
+  </data>
   <data name="Enabled.Header" xml:space="preserve">
     <value>Включено</value>
   </data>
+  <data name="MobilePhone.Text" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
   <data name="Other.Text" xml:space="preserve">
     <value>Расширенный</value>
+  </data>
+  <data name="Redirection Rule.Header" xml:space="preserve">
+    <value>Правило перенаправления</value>
+  </data>
+  <data name="Tablet.Text" xml:space="preserve">
+    <value>Планшет</value>
+  </data>
+  <data name="optSmartPhone.Text" xml:space="preserve">
+    <value>Смартфон</value>
+  </data>
+  <data name="SmartPhone.Text" xml:space="preserve">
+    <value>Смартфон</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Управление перенаправлением сайтов</value>
