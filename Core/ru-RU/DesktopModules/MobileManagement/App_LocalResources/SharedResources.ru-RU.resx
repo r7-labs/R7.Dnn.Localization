@@ -36,11 +36,23 @@
   <data name="lblRedirectTarget.Text" xml:space="preserve">
     <value>На</value>
   </data>
+  <data name="lblRedirectType.Help" xml:space="preserve">
+    <value>Определяет, откуда пользователь осуществляет просмотр</value>
+  </data>
+  <data name="lblRedirectType.Text" xml:space="preserve">
+    <value>Выберите устройство пользователя</value>
+  </data>
+  <data name="lblTargetUrl.Help" xml:space="preserve">
+    <value>Целевой URL для перенаправления</value>
+  </data>
   <data name="lblTargetUrl.Text" xml:space="preserve">
     <value>Ссылка</value>
   </data>
   <data name="lnkPortalAlias.Text" xml:space="preserve">
     <value>Введите новый псевдоним сайта</value>
+  </data>
+  <data name="optBoth.Text" xml:space="preserve">
+    <value>Телефон и планшет</value>
   </data>
   <data name="optOther.Text" xml:space="preserve">
     <value>Расширенный</value>
@@ -63,17 +75,50 @@
   <data name="valRedirectName.Text" xml:space="preserve">
     <value>Необходимо задать имя для перенаправления</value>
   </data>
+  <data name="lblCapability.Text" xml:space="preserve">
+    <value>Возможность</value>
+  </data>
+  <data name="lblEnabled.Text" xml:space="preserve">
+    <value>&lt;b&gt;Включено&lt;/b&gt;</value>
+  </data>
+  <data name="lblRedirectionType.Text" xml:space="preserve">
+    <value>&lt;b&gt;Тип устройства&lt;/b&gt;</value>
+  </data>
+  <data name="lblEnable.Help" xml:space="preserve">
+    <value>Включить правило перенаправления</value>
+  </data>
   <data name="lblEnable.Text" xml:space="preserve">
     <value>Разрешить</value>
   </data>
   <data name="PageSelect.Text" xml:space="preserve">
     <value>Выберите страницу</value>
   </data>
+  <data name="lblRedirect.Text" xml:space="preserve">
+    <value>Идет перенаправление</value>
+  </data>
   <data name="lblTarget.Text" xml:space="preserve">
     <value>На</value>
   </data>
+  <data name="DefaultRedirectName.Text" xml:space="preserve">
+    <value>Перенаправление по-умолчанию</value>
+  </data>
   <data name="chkChildPages.Text" xml:space="preserve">
     <value>Включая подчиненные страницы</value>
+  </data>
+  <data name="RedirectTooltipSource.Text" xml:space="preserve">
+    <value>Источник: {0}</value>
+  </data>
+  <data name="selectCapabilityName.Text" xml:space="preserve">
+    <value>Выберите возможность...</value>
+  </data>
+  <data name="RedirectTooltipDestination.Text" xml:space="preserve">
+    <value>Цель: {0}</value>
+  </data>
+  <data name="DuplicateNameError.Text" xml:space="preserve">
+    <value>Перенаправление с таким именем уже существует. Пожалуйста, используйте другое имя</value>
+  </data>
+  <data name="addCapability.Text" xml:space="preserve">
+    <value>Добавить возможность</value>
   </data>
   <data name="AllMobile.Text" xml:space="preserve">
     <value>Все мобильные устройства</value>

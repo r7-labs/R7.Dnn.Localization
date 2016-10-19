@@ -12,6 +12,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Activate.Header" xml:space="preserve">
+    <value>Начало работы и активация функций</value>
+  </data>
   <data name="ActivateButtonText.Text" xml:space="preserve">
     <value>Активировать</value>
   </data>
@@ -20,6 +23,29 @@
   </data>
   <data name="ActivateInstructionsHtml.Text" xml:space="preserve">
     <value>&lt;h3&gt;Для активации всех возможностей&lt;/h3&gt;&lt;p&gt;Шаг 1 - Получите лицензионный ключ 51Degrees on premise.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Шаг 2 - Вставьте код лицензионного ключа в расположенное ниже текстовое поле. Нажмите "Активировать" для использования ключа на данном сайте.&lt;/p&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="ActivationDataInvalidHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Заданный источник данных не содержит действительных данных.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureCouldNotWriteDataFileHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;
+&lt;p&gt;Файл данных устройства '{1}' не удается сохранить. Убедитесь, что пользователь '{2}' имеет доступ на запись в папку, или укажите другую папку, к которой пользователь имеет доступ на запись.&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureCouldNotWriteLicenceFileHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Файл лицензии '{1}' не удается сохранить в папку bin '{2}' этого сайта. Создайте текстовый файл с расширением .lic и вставьте в него лицензионный ключ. Затем сохраните текстовый файл в папке bin.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureGenericHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Ой! У нас проблема с активацией ключа лицензии. Мы не знаем, почему предоставленный ключ лицензии не может быть активирован. Пожалуйста, &lt;a href="http://51degrees.mobi/AboutUs/ContactUs.aspx"&gt;свяжитесь с нами&lt;/a&gt;, предоставив подробную информацию о вашем сайте и мы попробуем вам помочь.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureInvalidHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Предоставленный лицензионный ключ не прошел проверку. Пожалуйста, свяжитесь с вашим поставщиком для проверки лицензионного ключа.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationStreamFailureHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Невозможно прочитать данные из заданного источника данных.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="BackToExplorer.Text" xml:space="preserve">
+    <value>Назад к обозревателю устройств</value>
   </data>
   <data name="BrowserList.Header" xml:space="preserve">
     <value>Браузер</value>
@@ -30,8 +56,14 @@
   <data name="DeviceExplorer.Header" xml:space="preserve">
     <value>Обозреватель устройств</value>
   </data>
+  <data name="GetLatestData.Text" xml:space="preserve">
+    <value>Загрузить свежие данные</value>
+  </data>
   <data name="HardwareList.Header" xml:space="preserve">
     <value>Оборудование</value>
+  </data>
+  <data name="NoResultsFound.Text" xml:space="preserve">
+    <value>По вашему запросу ничего не найдено.</value>
   </data>
   <data name="RefreshButtonText.Text" xml:space="preserve">
     <value>Обновить</value>
@@ -43,20 +75,41 @@
   <data name="UploadButtonText.Text" xml:space="preserve">
     <value>Подгрузка</value>
   </data>
+  <data name="ValidationRequiredErrorText.Text" xml:space="preserve">
+    <value>Введите лицензионный ключ.</value>
+  </data>
   <data name="BackButtonDevicesText.Text" xml:space="preserve">
     <value>Другие поставщики</value>
   </data>
   <data name="DeviceSearchRequired.Text" xml:space="preserve">
     <value>Требуется обязательно</value>
   </data>
+  <data name="BackButtonDeviceText.Text" xml:space="preserve">
+    <value>Еще {0} устройств(а)</value>
+  </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Обнаружение устройств</value>
+  </data>
+  <data name="SettingsEnabled.Text" xml:space="preserve">
+    <value>Включено определение устройств?</value>
   </data>
   <data name="Cancel.Action" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="DeviceBrowserUnavailableButton.Action" xml:space="preserve">
+    <value>Просмотр устройств</value>
+  </data>
   <data name="DeviceBrowserUnavailableButton.Url" xml:space="preserve">
     <value>https://51degrees.com/resources/device-explorer</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>Просмотр устройств</value>
+  </data>
+  <data name="NewDevices.Header" xml:space="preserve">
+    <value>Топ-5 новых устройств</value>
+  </data>
+  <data name="Properties.Header" xml:space="preserve">
+    <value>Доступные свойства</value>
   </data>
   <data name="Refresh.Action" xml:space="preserve">
     <value>Обновить</value>
@@ -76,16 +129,34 @@
   <data name="SettingsDataSetName.Text" xml:space="preserve">
     <value>Имя</value>
   </data>
+  <data name="SettingsDataSetNextUpdate.Text" xml:space="preserve">
+    <value>Следующее обновление</value>
+  </data>
   <data name="SettingsDataSetPublished.Text" xml:space="preserve">
     <value>Опубликовано</value>
   </data>
   <data name="SettingsRefresh.Text" xml:space="preserve">
     <value>Обновить</value>
   </data>
+  <data name="SettingsUpload.Text" xml:space="preserve">
+    <value>Подгрузить вручную</value>
+  </data>
+  <data name="Unavailable.Text" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
   <data name="Update.Action" xml:space="preserve">
     <value>Сохранить</value>
   </data>
+  <data name="GetStarted.Header" xml:space="preserve">
+    <value>Начало работы</value>
+  </data>
   <data name="SettingsFactory.Text" xml:space="preserve">
     <value>Режим</value>
+  </data>
+  <data name="SettingsFileMode.Text" xml:space="preserve">
+    <value>Файловый режим включен?</value>
+  </data>
+  <data name="GetStartedButton.Text" xml:space="preserve">
+    <value>Включение функций</value>
   </data>
 </root>
