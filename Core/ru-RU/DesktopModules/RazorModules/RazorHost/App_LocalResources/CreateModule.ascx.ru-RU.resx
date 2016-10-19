@@ -72,9 +72,6 @@
   <data name="ModuleControlCreationError.Text" xml:space="preserve">
     <value>Возникла непредвиденная ошибка при элемента управления нового модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
   </data>
-  <data name="ModuleControlText.Text" xml:space="preserve">
-    <value>&lt;%@ Control AutoEventWireup="false" Inherits="DotNetNuke.Web.Razor.RazorModuleBase" %&gt;</value>
-  </data>
   <data name="ScriptCopyError.Text" xml:space="preserve">
     <value>Возникла непредвиденная ошибка при копировании сценария в папку назначения. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
   </data>
