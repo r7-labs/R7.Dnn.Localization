@@ -54,6 +54,9 @@
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value>Вакансии</value>
   </data>
+  <data name="Tab.ActivityFeed.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Правовая информация</value>
+  </data>
   <data name="Tab.ActivityFeed.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
   </data>
@@ -157,6 +160,9 @@
   <data name="Tab.DevicePreview.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Управление препросмотром для устройств</value>
   </data>
+  <data name="Tab.DevicePreview.Description.Text" xml:space="preserve">
+    <value>Управление препросмотром для устройств.</value>
+  </data>
   <data name="Tab.DevicePreview.Name.Text" xml:space="preserve">
     <value>Управление препросмотром для устройств</value>
   </data>
@@ -223,6 +229,9 @@
   <data name="Tab.Home.Main.Shop.Title" xml:space="preserve">
     <value>Магазин</value>
   </data>
+  <data name="Tab.Home.Main.Shop.Tooltip" xml:space="preserve">
+    <value>Вы можете написать много нового кода для того, чтобы сделать этот новый сайт первоклассным. Но можно просто купить свой путь к успеху в магазине DNN. Так вы быстрее добьетесь своей цели.</value>
+  </data>
   <data name="Tab.Home.Main.Videos.Title" xml:space="preserve">
     <value>Видео</value>
   </data>
@@ -274,6 +283,9 @@
   <data name="Tab.Lists.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Списки</value>
   </data>
+  <data name="Tab.Lists.Description.Text" xml:space="preserve">
+    <value>Управлять общими списками</value>
+  </data>
   <data name="Tab.Lists.Name.Text" xml:space="preserve">
     <value>Списки</value>
   </data>
@@ -306,6 +318,9 @@
   </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value>Вакансии</value>
+  </data>
+  <data name="Tab.MyFriends.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Правовая информация</value>
   </data>
   <data name="Tab.MyFriends.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
@@ -404,6 +419,9 @@
   <data name="Tab.MyMessages.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value>Вакансии</value>
   </data>
+  <data name="Tab.MyMessages.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Правовая информация</value>
+  </data>
   <data name="Tab.MyMessages.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
   </data>
@@ -497,6 +515,9 @@
   </data>
   <data name="Tab.MyProfile.FooterCenterPane.Module.Content.1.Text" xml:space="preserve">
     <value>Вакансии</value>
+  </data>
+  <data name="Tab.MyProfile.FooterCenterPane.Module.Content.2.Text" xml:space="preserve">
+    <value>Правовая информация</value>
   </data>
   <data name="Tab.MyProfile.FooterCenterPane.Module.Title.Text" xml:space="preserve">
     <value>Компания</value>
