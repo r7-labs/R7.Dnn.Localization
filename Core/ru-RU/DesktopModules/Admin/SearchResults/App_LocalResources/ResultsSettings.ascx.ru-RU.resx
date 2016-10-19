@@ -39,6 +39,12 @@
   <data name="plResultsScopeForPortals.Help" xml:space="preserve">
     <value>Ограничивает результаты поиска выбранными сайтами</value>
   </data>
+  <data name="plResultsScopeForPortals.Text" xml:space="preserve">
+    <value>Ограничить поиск сайтами</value>
+  </data>
+  <data name="plTitleLinkTarget.Help" xml:space="preserve">
+    <value>Определяет, будет ли ссылка открываться на той же странице или в новом окне</value>
+  </data>
   <data name="plTitleLinkTarget.Text" xml:space="preserve">
     <value>Цель ссылки в заголовке</value>
   </data>

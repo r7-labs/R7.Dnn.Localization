@@ -39,6 +39,12 @@
   <data name="AddStopWords.Text" xml:space="preserve">
     <value>Добавить слово</value>
   </data>
+  <data name="NoStopWords.Text" xml:space="preserve">
+    <value>Не найдено шумовых слов для выбранного портала/языка</value>
+  </data>
+  <data name="lblStopwordsCultureList.Help" xml:space="preserve">
+    <value>Выберите язык для поиска шумовых слов</value>
+  </data>
   <data name="lblStopwordsCultureList.Text" xml:space="preserve">
     <value>Выберите язык:</value>
   </data>
