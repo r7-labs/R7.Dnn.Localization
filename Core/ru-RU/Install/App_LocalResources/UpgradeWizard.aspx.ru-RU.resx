@@ -36,6 +36,13 @@
   <data name="ExtensionsUpgrade.Text" xml:space="preserve">
     <value>Обновляем расширения</value>
   </data>
+  <data name="IntroDetail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Добро пожаловать на страницу обновления DotNetNuke.&lt;/p&gt;
+
+&lt;p&gt;В качестве первого шага, выберите язык интерфейса, который вам удобно будет использовать в процессе обновления.&lt;/p&gt;
+
+</value>
+  </data>
   <data name="InvalidCredentials.Text" xml:space="preserve">
     <value>Имя пользователя и пароль не распознаны.</value>
   </data>
@@ -47,6 +54,9 @@
   </data>
   <data name="Password.Text" xml:space="preserve">
     <value>Пароль:</value>
+  </data>
+  <data name="Retry.Text" xml:space="preserve">
+    <value>Попробовать снова</value>
   </data>
   <data name="SeeLogs.Text" xml:space="preserve">
     <value>Открыть журнал</value>
@@ -77,5 +87,8 @@
   </data>
   <data name="ViewWebsite.Text" xml:space="preserve">
     <value>Переключить сайт</value>
+  </data>
+  <data name="VisitWebsite.Text" xml:space="preserve">
+    <value>Перейти на сайт</value>
   </data>
 </root>

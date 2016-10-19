@@ -100,6 +100,12 @@
 
 </value>
   </data>
+  <data name="IsValidDotNetVersion.Text" xml:space="preserve">
+    <value>DotNetNuke требует для своей работы .net 4.0 или выше</value>
+  </data>
+  <data name="IsValidSqlServerVersion.Text" xml:space="preserve">
+    <value>DotNetNuke требует для своей работы SQL 2008 (express или полную версию)</value>
+  </data>
   <data name="Language.Text" xml:space="preserve">
     <value>Язык</value>
   </data>
@@ -111,6 +117,9 @@
   </data>
   <data name="SqlTypeServer.Text" xml:space="preserve">
     <value>База данных SQL Server/SQL Server Express</value>
+  </data>
+  <data name="StepFailed.Text" xml:space="preserve">
+    <value>Шаг {0} - неудачно</value>
   </data>
   <data name="UserName.Text" xml:space="preserve">
     <value>Имя пользователя:</value>
@@ -151,17 +160,44 @@
   <data name="TemplateSolutions.Text" xml:space="preserve">
     <value>Шаблон решения</value>
   </data>
+  <data name="Confirm.Help" xml:space="preserve">
+    <value>Подтвердите пароль, введенный выше.</value>
+  </data>
   <data name="DatabaseName.Help" xml:space="preserve">
     <value>Имя базы данных.</value>
+  </data>
+  <data name="DatabaseObjectQualifier.Help" xml:space="preserve">
+    <value>Спецификатор объектов для вашего сайта.</value>
   </data>
   <data name="DatabaseOwner.Text" xml:space="preserve">
     <value>Владелец базы данных</value>
   </data>
+  <data name="DatabasePassword.Help" xml:space="preserve">
+    <value>Пароль к вашей базе данных.</value>
+  </data>
   <data name="UserName.Help" xml:space="preserve">
     <value>Имя пользователя для учетной записи администратора хостинга.</value>
   </data>
+  <data name="WebsiteName.Help" xml:space="preserve">
+    <value>Введите имя для сайта.</value>
+  </data>
   <data name="DatabaseInstallation.Text" xml:space="preserve">
     <value>Информация о базе данных</value>
+  </data>
+  <data name="ExtensionsInstallation.Text" xml:space="preserve">
+    <value>Установка расширений</value>
+  </data>
+  <data name="LaunchInstall.Text" xml:space="preserve">
+    <value>Запустить установщик</value>
+  </data>
+  <data name="SeeLogs.Text" xml:space="preserve">
+    <value>Открыть журнал</value>
+  </data>
+  <data name="SuperUserCreation.Text" xml:space="preserve">
+    <value>Создание администратора хостинга</value>
+  </data>
+  <data name="VisitWebsite.Text" xml:space="preserve">
+    <value>Перейти на сайт</value>
   </data>
   <data name="WebsiteCreation.Text" xml:space="preserve">
     <value>Создание сайта</value>
@@ -199,6 +235,9 @@
   <data name="UpgradingVersionApplication.Text" xml:space="preserve">
     <value>Обновляем приложение до </value>
   </data>
+  <data name="Retry.Text" xml:space="preserve">
+    <value>Попробовать снова</value>
+  </data>
   <data name="CheckingIIS.Text" xml:space="preserve">
     <value>Проверяем конфигурацию IIS</value>
   </data>
@@ -210,6 +249,9 @@
   </data>
   <data name="IISVerificationFail.Text" xml:space="preserve">
     <value>Пул приложения в IIS должен использовать Интегрированный режим работы конвейера</value>
+  </data>
+  <data name="InputErrorMissingRequiredFields.Text" xml:space="preserve">
+    <value>Не заполнены все необходимые поля</value>
   </data>
   <data name="LegacyLangaugePack.Text" xml:space="preserve">
     <value>Этот языковой пакет предназначен для более старой версии, чем текущая версия приложения: </value>
@@ -237,6 +279,9 @@
   </data>
   <data name="TestingDatabase.Text" xml:space="preserve">
     <value>Проверяем соединение с базой данных.</value>
+  </data>
+  <data name="TimerSeconds.Text" xml:space="preserve">
+    <value>секунд</value>
   </data>
   <data name="InstallationComplete.Text" xml:space="preserve">
     <value>Установка завершена!</value>
