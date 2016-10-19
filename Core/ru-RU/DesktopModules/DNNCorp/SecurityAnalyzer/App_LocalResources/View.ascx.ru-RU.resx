@@ -33,8 +33,20 @@
   <data name="cmdSearch.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
+  <data name="plSearchTerm.Text" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="ScannerChecks.Text" xml:space="preserve">
+    <value>Проверки</value>
+  </data>
+  <data name="AuditExplanation.Text" xml:space="preserve">
+    <value>Ниже представлены результаты автоматического сканирования потенциальных проблем безопасности</value>
+  </data>
   <data name="Authorized.Header" xml:space="preserve">
     <value>Авторизирован</value>
+  </data>
+  <data name="CheckTracingSuccess.Text" xml:space="preserve">
+    <value>Трассировка не включена</value>
   </data>
   <data name="CreatedDate.Header" xml:space="preserve">
     <value>Дата создания</value>
@@ -63,7 +75,34 @@
   <data name="CheckViewstatemacSuccess.Text" xml:space="preserve">
     <value>Состояние просмотра защищено с помощью MAC</value>
   </data>
+  <data name="CheckPurpose.Header" xml:space="preserve">
+    <value>Цель проверки</value>
+  </data>
+  <data name="Result.Header" xml:space="preserve">
+    <value>Результат</value>
+  </data>
   <data name="Severity.Header" xml:space="preserve">
     <value>Критичность</value>
+  </data>
+  <data name="CheckTracingName.Text" xml:space="preserve">
+    <value>Проверяет, включена ли трассировка asp.net</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsName.Text" xml:space="preserve">
+    <value>Проверяет, присутствуют ли файлы asp/php</value>
+  </data>
+  <data name="CheckViewstatemacName.Text" xml:space="preserve">
+    <value>Проверяет, защищено ли состояние просмотра</value>
+  </data>
+  <data name="NoDatabaseResults.Text" xml:space="preserve">
+    <value>Поисковая фраза не найдена в базе данных.</value>
+  </data>
+  <data name="NoFileResults.Text" xml:space="preserve">
+    <value>Поисковая фраза не найдена ни в одном файле.</value>
+  </data>
+  <data name="SearchTermRequired.Text" xml:space="preserve">
+    <value>Требуется поисковая фраза</value>
+  </data>
+  <data name="CheckTracingFailure.Text" xml:space="preserve">
+    <value>Трассировка включена - это позволяет потенциальным злоумышленникам следить за работой сайта.</value>
   </data>
 </root>
