@@ -99,6 +99,9 @@
   <data name="LegacySkin.Text" xml:space="preserve">
     <value>Тема устаревшего формата</value>
   </data>
+  <data name="UsePackageUnInstall.Text" xml:space="preserve">
+    <value>Эта тема входит в состав пакета темы. Используйте функцию удаления пакета в списке тем.</value>
+  </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Редактор темы</value>
   </data>
