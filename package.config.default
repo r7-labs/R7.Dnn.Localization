@@ -1,7 +1,8 @@
-#TX_PROJECT_SLUG="r7-dnn-core"
+#TX_PROJECT_SLUG="transifex-project-slug"
 #TX_SOURCE_LANG="en-US"
 #TX_LANG_MAP="lang_map = en_US: en-US, ru_RU: ru-RU"
 PLATFORM_TYPE="DNNCE"
 PACKAGE_TYPE="Extension"
-PACKAGE_VERSION="1"
+PACKAGE_VERSION="00.01.00"
 SOURCE_VERSION="00.00.01"
+#EXTENSION_PACKAGE="DNN Module" # Should be same as the original extension's package name to set dependency
