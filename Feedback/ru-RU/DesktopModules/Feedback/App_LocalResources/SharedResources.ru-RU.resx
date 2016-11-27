@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Created Date.Header" xml:space="preserve">
+    <value>Создал</value>
+  </data>
+  <data name="From Email.Header" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="Message.Header" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="Subject.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="NoneSelected.Text" xml:space="preserve">
+    <value>&lt;Не выбрано&gt;</value>
+  </data>
+  <data name="Manage Feedback Lists.Permission" xml:space="preserve">
+    <value>Управление списками</value>
+  </data>
+  <data name="Moderate Posts.Permission" xml:space="preserve">
+    <value>Модерирование сообщений</value>
+  </data>
+  <data name="PleaseSelect.Text" xml:space="preserve">
+    <value>&lt;Выберите&gt;</value>
+  </data>
+  <data name="Hidden.Text" xml:space="preserve">
+    <value>Скрыто</value>
+  </data>
+  <data name="Optional.Text" xml:space="preserve">
+    <value>Необязательно</value>
+  </data>
+  <data name="Required.Text" xml:space="preserve">
+    <value>Обязательно</value>
+  </data>
+  <data name="Author.Header" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="Category.Header" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="cmdReturn.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Anonymous.Text" xml:space="preserve">
+    <value>Аноним</value>
+  </data>
+  <data name="SetArchive.Text" xml:space="preserve">
+    <value>Поместить в архив</value>
+  </data>
+  <data name="SetPrivate.Text" xml:space="preserve">
+    <value>Пометить как личное</value>
+  </data>
+  <data name="SetPublic.Text" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="StatusArchive.Text" xml:space="preserve">
+    <value>В архиве</value>
+  </data>
+  <data name="StatusDelete.Text" xml:space="preserve">
+    <value>Удалено</value>
+  </data>
+  <data name="StatusPending.Text" xml:space="preserve">
+    <value>Ожидает проверки</value>
+  </data>
+  <data name="StatusPrivate.Text" xml:space="preserve">
+    <value>Личное</value>
+  </data>
+  <data name="StatusPublic.Text" xml:space="preserve">
+    <value>Опубликовано</value>
+  </data>
+  <data name="Print.AlternateText" xml:space="preserve">
+    <value>Распечатать сообщение</value>
+  </data>
+  <data name="LoadDefault.Text" xml:space="preserve">
+    <value>Загрузить настройки по-умолчанию</value>
+  </data>
+  <data name="Category.FieldLabel" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="CategoryID.FieldLabel" xml:space="preserve">
+    <value>Ид. категории</value>
+  </data>
+  <data name="CategoryName.FieldLabel" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="CategoryValue.FieldLabel" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="City.FieldLabel" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Country.FieldLabel" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="CreatedOnDate.FieldLabel" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="DefaultPrintTemplate.Text" xml:space="preserve">
+    <value>&lt;b&gt;{FeedbackID}:&lt;/b&gt; [Feedback:FeedbackID]&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;{CreatedOnDate}:&lt;/b&gt; [Feedback:CreatedOnDate]&amp;nbsp;&amp;nbsp;&lt;b&gt;{Status}:&lt;/b&gt; [Feedback:Status]&lt;br /&gt;&lt;b&gt;{Category}:&lt;/b&gt; [Feedback:CategoryName]&amp;nbsp;&amp;nbsp;&lt;b&gt;{Subject}:&lt;/b&gt; [Feedback:Subject]&lt;br /&gt;&lt;br /&gt;&lt;b&gt;{SubmittedBy}&lt;/b&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;{Name}:&lt;/b&gt; [Feedback:SenderName]&amp;nbsp;&amp;nbsp;&lt;b&gt;{RemoteAddr}&lt;/b&gt;: [Feedback:RemoteAddr]&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;{Street}:&lt;/b&gt; [Feedback:SenderStreet]&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;{City}, {Region} {PostalCode}:&lt;/b&gt; [Feedback:SenderCity], [Feedback:SenderRegion] [Feedback:SenderPostalCode]&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;{Country}:&lt;/b&gt; [Feedback:SenderCountry]&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;{Telephone}:&lt;/b&gt; [Feedback:SenderTelephone]&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;{Email}:&lt;/b&gt; [Feedback:SenderEmail]&lt;br /&gt;&lt;br /&gt;[Feedback:Message]</value>
+  </data>
+  <data name="Email.FieldLabel" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="FeedbackID.FieldLabel" xml:space="preserve">
+    <value>Ид. сообщения</value>
+  </data>
+  <data name="LastModifiedOnDate.FieldLabel" xml:space="preserve">
+    <value>Изменено</value>
+  </data>
+  <data name="Message.FieldLabel" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="Name.FieldLabel" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="PostalCode.FieldLabel" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="PublishedOnDate.FieldLabel" xml:space="preserve">
+    <value>Опубликовано</value>
+  </data>
+  <data name="Region.FieldLabel" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="RemoteAddr.FieldLabel" xml:space="preserve">
+    <value>Адрес IP</value>
+  </data>
+  <data name="Status.FieldLabel" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Street.FieldLabel" xml:space="preserve">
+    <value>Улица</value>
+  </data>
+  <data name="Subject.FieldLabel" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="SubmittedBy.FieldLabel" xml:space="preserve">
+    <value>Отправил</value>
+  </data>
+  <data name="Telephone.FieldLabel" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="ModuleTitle.Header" xml:space="preserve">
+    <value>Заголовок модуля</value>
+  </data>
+  <data name="Selected.Header" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="TabName.Header" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="Extreme.Text" xml:space="preserve">
+    <value>Чрезвычайно высокий</value>
+  </data>
+  <data name="High.Text" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="Low.Text" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="Medium.Text" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ApproveFeedback.Text" xml:space="preserve">
+    <value>Утвердить</value>
+  </data>
+  <data name="ApproveFeedback_Desc.Text" xml:space="preserve">
+    <value>Утвердить сообщение для публикации.</value>
+  </data>
+  <data name="ArchiveFeedback.Text" xml:space="preserve">
+    <value>Архивировать</value>
+  </data>
+  <data name="ArchiveFeedback_Desc.Text" xml:space="preserve">
+    <value>Архивировать сообщение обратной связи.</value>
+  </data>
+  <data name="DeleteFeedback.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DeleteFeedback_Desc.Text" xml:space="preserve">
+    <value>Удалить сообщение обратной связи.</value>
+  </data>
+  <data name="PrivateFeedback.Text" xml:space="preserve">
+    <value>Личное</value>
+  </data>
+  <data name="PrivateFeedback_Desc.Text" xml:space="preserve">
+    <value>Делает сообщение личным, скрывая его от остальных пользователей.</value>
+  </data>
+  <data name="ApproveFeedback_Confirm.Text" xml:space="preserve">
+    <value>Сообщение обратной связи опубликовано.</value>
+  </data>
+  <data name="ArchiveFeedback_Confirm.Text" xml:space="preserve">
+    <value>Сообщение помещено в архив.</value>
+  </data>
+  <data name="DeleteFeedback_Confirm.Text" xml:space="preserve">
+    <value>Сообщение удалено.</value>
+  </data>
+  <data name="NotificationRecipientError.Text" xml:space="preserve">
+    <value>Не найдено оповещение для {0}. Оповещение не было выполнено.</value>
+  </data>
+  <data name="NotificationSecurityError.Text" xml:space="preserve">
+    <value>{0} не является модератором. Оповещение не было выполнено.</value>
+  </data>
+  <data name="PrivateFeedback_Confirm.Text" xml:space="preserve">
+    <value>Сообщение помечено как личное.</value>
+  </data>
+  <data name="SetSpam.Text" xml:space="preserve">
+    <value>Пометить как спам</value>
+  </data>
+  <data name="plCategory.Text" xml:space="preserve">
+    <value>Категория:</value>
+  </data>
+  <data name="plCity.Text" xml:space="preserve">
+    <value>Город:</value>
+  </data>
+  <data name="plCountry.Text" xml:space="preserve">
+    <value>Страна:</value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>Эл. почта:</value>
+  </data>
+  <data name="plName.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="plPostalCode.Text" xml:space="preserve">
+    <value>Почтовый индекс:</value>
+  </data>
+  <data name="plRegion.Text" xml:space="preserve">
+    <value>Регион:</value>
+  </data>
+  <data name="plStreet.Text" xml:space="preserve">
+    <value>Улица:</value>
+  </data>
+  <data name="plSubmittedBy.Text" xml:space="preserve">
+    <value>Кому:</value>
+  </data>
+  <data name="plSubmittedFrom.Text" xml:space="preserve">
+    <value>От кого:</value>
+  </data>
+  <data name="plTelephone.Text" xml:space="preserve">
+    <value>Телефон:</value>
+  </data>
+</root>

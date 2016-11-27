@@ -1,0 +1,631 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plSendTo.Text" xml:space="preserve">
+    <value>Кому</value>
+  </data>
+  <data name="plSendTo.Help" xml:space="preserve">
+    <value>Укажите адрес электронной почты, на который будут отправляться сообщения</value>
+  </data>
+  <data name="plWidth.Text" xml:space="preserve">
+    <value>Ширина формы</value>
+  </data>
+  <data name="plWidth.Help" xml:space="preserve">
+    <value>Значение ширины может быть задано в пикселях или процентах. Добавите &apos;%&apos; на конце, чтобы обозначить проценты, или просто укажите целочисленное значение (без &apos;px&apos;) для задания ширины в пикселях.</value>
+  </data>
+  <data name="plRows.Text" xml:space="preserve">
+    <value>Строк в сообщении</value>
+  </data>
+  <data name="plRows.Help" xml:space="preserve">
+    <value>Укажите количество строк в поле для ввода текста сообщения.</value>
+  </data>
+  <data name="valWidth.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Ширину можно указать в процентах или в пикселах. Введенное значение неверно.</value>
+  </data>
+  <data name="valRows.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Количество строк должно быть целым числом.</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Настройки обратной связи</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;About The Feedback Settings&lt;/h1&gt;
+&lt;p&gt;The Feedback Module offers authorized site users the ability to direct a message to a defined email location.&amp;nbsp; There are&amp;nbsp;multiple Feedback Settings that control the display and action performed within the module.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;strong&gt;&lt;br /&gt;
+Send To &lt;/strong&gt;&amp;ndash; this is the email address where the information is sent. The email must be in a valid email format.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Width &lt;/strong&gt;&amp;ndash; set the number of pixels across the defined module area for the body of the message text.&amp;nbsp; Note: be careful to keep this to&amp;nbsp;value within the defined width of the panel where the module is placed, otherwise there may not be enough room to actually use the desired setting.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rows &lt;/strong&gt;&amp;ndash; set the number of rows of text available for the body of the message text. Note: Again, be careful to keep this&amp;nbsp;value within the defined height of the panel where the module is placed, otherwise there may not be enough room to actually use the desired setting.&lt;br /&gt;
+&lt;strong&gt;&lt;br /&gt;
+Send Copy &lt;/strong&gt;&amp;ndash; Enabling this option allows a copy of the feedback submitted to be sent to the sender&apos;s email address.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Optout&lt;/strong&gt; - This option allows the sender to choose whether to receive a copy of the feedback submitted. If this option is not available to the user and the Send Copy option is checked, the user will always receive a copy of the feedback submitted.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Category&lt;/strong&gt; - Select a category to which this feedback should be grouped within. Categories are created via the Feedback Lists&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Category List Visible&lt;/strong&gt; - Determines whether the categories to choose from are visible to the user who is filling the form.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Use Category Values as Send To&lt;/strong&gt; - &lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;If the category value contains a valid email address, it is used as the email address of the recipient of this message,. otherwise the value of &amp;quot;Send to&amp;quot; will be used.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;&lt;strong&gt;Subject&lt;/strong&gt; - The subject for this feedback - this is also sent as the subject in the email that is sent out.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;&lt;strong&gt;Subject List Visible&lt;/strong&gt; - User is presented with a list of subjects to choose from. (Note that Subject lists can be created via the Feedback Lists page similar to Feedback Categories)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;&lt;strong&gt;Can Edit Subject&lt;/strong&gt; - User is presented with a text box for the subject field and can make changes to the values in this field.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;&lt;strong&gt;Subject Field Hidden&lt;/strong&gt; - The administrator can setup a Subject via the Subject List and select this option to disable the user from changing the values.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Moderated&lt;/strong&gt; - Determines whether the feedback submitted needs to be approved prior to making it visible on the website.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;&lt;strong&gt;Send Email Asynchronously&lt;/strong&gt;&amp;nbsp; - if this option is selected, the email that is generated is sent on a separate thread and the user gets control of the page immediately upon clicking on the submit button.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;dnn_ctr370_ModuleSettings_Settings.ascx_plUseCategoryAsEmail_lblHelp&quot;&gt;&lt;strong&gt;Use Captcha&amp;nbsp; -&lt;/strong&gt; enabling this option prevents Spam BOTS from hijacking your Feedback Form.&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="plOptout.Text" xml:space="preserve">
+    <value>Отказ от отправки копии</value>
+  </data>
+  <data name="plOptout.Help" xml:space="preserve">
+    <value>Если включено, у отправителя будет возможность отказаться от получения копии сообщения на его адрес электронной почты. Если отключено, то у пользователя не будет возможности такого выбора и ему в любом случае будет оправляться копия сообщения на указанный адрес электронной почты.</value>
+  </data>
+  <data name="plCategory.Text" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="plModerationCategory.Text" xml:space="preserve">
+    <value>Модерируемые категории</value>
+  </data>
+  <data name="plModerationCategory.Help" xml:space="preserve">
+    <value>Если требуется модерировать только отдельные категории, выберите их здесь. В противном случае, все категории будут считаться модерируемыми.</value>
+  </data>
+  <data name="plCategory.Help" xml:space="preserve">
+    <value>Выберите категорию, к которой будут относиться сообщения этого модуля. Категории можно создавать, используя редактор списков</value>
+  </data>
+  <data name="plCategorySelectable.Text" xml:space="preserve">
+    <value>Показывать список категорий</value>
+  </data>
+  <data name="plCategorySelectable.Help" xml:space="preserve">
+    <value>Указывает на то, сможет ли отправитель может выбирать категорию из списка.</value>
+  </data>
+  <data name="liSubjectTextBox.Text" xml:space="preserve">
+    <value>Редактируемое текстовое поле</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>Тема этого сообщения обратной связи</value>
+  </data>
+  <data name="plSubjectEditField.Help" xml:space="preserve">
+    <value>Поле темы может быть представлено выпадающим списком, редактируемым текстовым полем, а также быть скрыто от пользователя. Если Вы хотите скрыть поле темы, введите или выберите тему в поле ниже.</value>
+  </data>
+  <data name="plSubjectEditField.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="liSubjectHidden.Text" xml:space="preserve">
+    <value>Скрыто</value>
+  </data>
+  <data name="liSubjectList.Text" xml:space="preserve">
+    <value>Выпадающий список</value>
+  </data>
+  <data name="plModerated.Text" xml:space="preserve">
+    <value>Модерируемый</value>
+  </data>
+  <data name="plModerated.Help" xml:space="preserve">
+    <value>Если включено, то разрешено администратору этого модуля авторизовывать отзыв для гостевой книги</value>
+  </data>
+  <data name="plAsync.Text" xml:space="preserve">
+    <value>Рассылать почту асинхронно</value>
+  </data>
+  <data name="plAsync.Help" xml:space="preserve">
+    <value>Если эта опция выбрана, то сайт будет отправляет электронную почту асинхронно.</value>
+  </data>
+  <data name="plSendCopy.Text" xml:space="preserve">
+    <value>Отправлять копию</value>
+  </data>
+  <data name="plSendCopy.Help" xml:space="preserve">
+    <value>Укажите, хотели бы Вы отправлять копию этого сообщения пользователю</value>
+  </data>
+  <data name="valSendTo.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Адрес эл. почты должен быть задан в правильном формате. Разделяйте адреса нескольких получателей точкой с запятой. </value>
+  </data>
+  <data name="valSendFrom.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Адрес эл. почты отправителя должет быть задан в правильном формате.</value>
+  </data>
+  <data name="plUseCategoryAsEmail.Help" xml:space="preserve">
+    <value>Если значение категории содержит адрес электронной почты в правильном формате (можно указать несколько адресов, разделяя их точкой с запятой), то оно может быть использовано как адрес получателя сообщения. Иначе будет использовано значение поля &apos;Кому&apos;.</value>
+  </data>
+  <data name="plUseCategoryAsEmail.Text" xml:space="preserve">
+    <value>Значение категории как получатель</value>
+  </data>
+  <data name="plModerationRoles.Text" xml:space="preserve">
+    <value>Роли модераторов</value>
+  </data>
+  <data name="plModerationRoles.Help" xml:space="preserve">
+    <value>Выберите роли, которым будет позволено модерирование сообщений обратной связи</value>
+  </data>
+  <data name="plListRoles.Text" xml:space="preserve">
+    <value>Роли редакторов списков</value>
+  </data>
+  <data name="plListRoles.Help" xml:space="preserve">
+    <value>Выберите роли, которым будет позволено создавать / редактировать записи в списках тем и категорий</value>
+  </data>
+  <data name="plSendFrom.Help" xml:space="preserve">
+    <value>Если в это поле введено значение, оно будет использовано в качестве адреса электронной почты отправителя вместо любого значения, которое пользователь укажет при заполнении формы. Это полезно в том случае, если фильтры спама блокируют сообщения электронной почты.</value>
+  </data>
+  <data name="plSendFrom.Text" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="plCityField.Help" xml:space="preserve">
+    <value>Указывать на то, является ли поле города обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plCityField.Text" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="plCountryField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле страны обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plCountryField.Text" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="plNameField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле имени обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plNameField.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="plPostalCodeField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле почтового индекса обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plPostalCodeField.Text" xml:space="preserve">
+    <value>Почтовый индекс</value>
+  </data>
+  <data name="plRegionField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле региона обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plRegionField.Text" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="plStreetField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле адреса улицы обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plStreetField.Text" xml:space="preserve">
+    <value>Улица</value>
+  </data>
+  <data name="plTelephoneField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле номера телефона обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plTelephoneField.Text" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="plUnmoderatedStatus.Help" xml:space="preserve">
+    <value>Если не все категории являются модерируемыми, Вы можете указать статус немодерированных сообщений (В архиве, Ожидающее проверки, Личное, Опубликовано или Удалено).</value>
+  </data>
+  <data name="plUnmoderatedStatus.Text" xml:space="preserve">
+    <value>Состояние немодерируемых категорий</value>
+  </data>
+  <data name="plPostalCodeRegex.Help" xml:space="preserve">
+    <value>Введите регулярное выражение .NET для проверки значений почтовых индексов. Оставьте поле пустым, чтобы отключить проверку почтовых индексов.</value>
+  </data>
+  <data name="plPostalCodeRegex.Text" xml:space="preserve">
+    <value>Проверка почтового индекса</value>
+  </data>
+  <data name="plTelephoneRegex.Text" xml:space="preserve">
+    <value>Проверка телефона</value>
+  </data>
+  <data name="plTelephoneRegex.Help" xml:space="preserve">
+    <value>Введите регулярное выражение .NET для проверки формата телефонных номеров. Оставьте поле пустым для того, чтобы отключить проверку телефонных номеров.</value>
+  </data>
+  <data name="btnResetDefault.Text" xml:space="preserve">
+    <value>Сбросить настройки</value>
+  </data>
+  <data name="AllUsers.Text" xml:space="preserve">
+    <value>Все пользователи</value>
+  </data>
+  <data name="AnonymousUsers.Text" xml:space="preserve">
+    <value>Только гости</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="plCaptchaVisibility.Help" xml:space="preserve">
+    <value>Определяет, будет ли использоваться код безопасности для предотвращения отправки сообщений роботами.</value>
+  </data>
+  <data name="plCaptchaVisibility.Text" xml:space="preserve">
+    <value>Использовать код безопасности</value>
+  </data>
+  <data name="plRedirectTabOnSubmission.Help" xml:space="preserve">
+    <value>Выберите страницу сайта, на которую пользователь будет автоматически перенаправляться после успешной отправки сообщения.</value>
+  </data>
+  <data name="plRedirectTabOnSubmission.Text" xml:space="preserve">
+    <value>Перенаправлять на страницу</value>
+  </data>
+  <data name="NoFiltering.Text" xml:space="preserve">
+    <value>Без фильтрации</value>
+  </data>
+  <data name="plRepeatSubmissionFilter.Help" xml:space="preserve">
+    <value>Устанавливает тип фильтрации, используемый для ограничения повторной отправки сообщений одним и тем же пользователем. Примечание: не используйте фильтрацию по  ид. пользователя DNN если гостям сайта позволено отправлять сообщения обратной связи. Фильтрация по адресу IP пользователя может блокировать других пользователей, использующих тот же самый адрес IP.</value>
+  </data>
+  <data name="plRepeatSubmissionFilter.Text" xml:space="preserve">
+    <value>Фильтр повторной отправки</value>
+  </data>
+  <data name="plMinSubmissionInteval.Help" xml:space="preserve">
+    <value>При включении фильтра повторной оправки, устанавливается время в минутах, в течение которого пользователь не сможет отправлять новые сообщения обратной связи.</value>
+  </data>
+  <data name="plMinSubmissionInteval.Text" xml:space="preserve">
+    <value>Мин. интервал между отправками (минут)</value>
+  </data>
+  <data name="UserEmailFilter.Text" xml:space="preserve">
+    <value>Эл. почта пользователя</value>
+  </data>
+  <data name="UserIDFilter.Text" xml:space="preserve">
+    <value>Ид. пользователя DNN</value>
+  </data>
+  <data name="UserIPFilter.Text" xml:space="preserve">
+    <value>Адрес IP пользователя</value>
+  </data>
+  <data name="valMinSubmissionInteval.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Минимальный интервал между посылками должен быть целым числом в диапазоне 0-99999</value>
+  </data>
+  <data name="plSendToRoles.Help" xml:space="preserve">
+    <value>Выберите роли безопасности, члены которых будут получателями сообщений обратной связи.</value>
+  </data>
+  <data name="plSendToRoles.Text" xml:space="preserve">
+    <value>Роли получателей</value>
+  </data>
+  <data name="plPrintTemplate.Help" xml:space="preserve">
+    <value>Составьте шаблон HTML для печати отдельного сообщения из интерфейса модератора. Можно использовать те же метки, что и для шаблонов списка сообщений. Например, метка [Feedback:Subject] будет заменена на значение темы сообщения.</value>
+  </data>
+  <data name="plPrintTemplate.Text" xml:space="preserve">
+    <value>Шаблон печати</value>
+  </data>
+  <data name="InLine.Text" xml:space="preserve">
+    <value>На той же странице</value>
+  </data>
+  <data name="plPrintAction.Help" xml:space="preserve">
+    <value>Выберите, как команда печати должна отображать результат (на той же странице или во всплывающем окне).</value>
+  </data>
+  <data name="plPrintAction.Text" xml:space="preserve">
+    <value>Вывод печати</value>
+  </data>
+  <data name="Popup.Text" xml:space="preserve">
+    <value>Во всплывающем окне</value>
+  </data>
+  <data name="plEmailRegex.Help" xml:space="preserve">
+    <value>Введите регулярное выражение .NET для проверки адреса электронной почты. По умолчанию будет использовано выражение, определенное в настройках пользователя уровня хоста.</value>
+  </data>
+  <data name="plEmailRegex.Text" xml:space="preserve">
+    <value>Проверка эл. почты</value>
+  </data>
+  <data name="valEmailRegex.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Укажите регулярное выражение .NET для проверки адреса электронной почты.</value>
+  </data>
+  <data name="Instance.Text" xml:space="preserve">
+    <value>Экземпляр (только для этого модуля обратной связи)</value>
+  </data>
+  <data name="plScope.Help" xml:space="preserve">
+    <value>Укажите, смогут ли модераторы просматривать и управлять сообщениями только этого модуля, или же всех модулей портала. Область портала в целом (используется предыдущими версиями модуля обратной связи) нужно использовать с осторожностью.</value>
+  </data>
+  <data name="plScope.Text" xml:space="preserve">
+    <value>Область модерации</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Портал (все модули обратной связи)</value>
+  </data>
+  <data name="scnCategories.Text" xml:space="preserve">
+    <value>Настройки категорий</value>
+  </data>
+  <data name="scnEmail.Text" xml:space="preserve">
+    <value>Адрес эл. почты и параметры</value>
+  </data>
+  <data name="scnFields.Text" xml:space="preserve">
+    <value>Настройки формы и полей</value>
+  </data>
+  <data name="scnModeration.Text" xml:space="preserve">
+    <value>Настройки модерации и управления сообщениями</value>
+  </data>
+  <data name="scnSubmission.Text" xml:space="preserve">
+    <value>Настройки отправки и безопасности</value>
+  </data>
+  <data name="cmdDeleteOrphanedData.Text" xml:space="preserve">
+    <value>Удалить сообщения без модулей</value>
+  </data>
+  <data name="plOrphanedData.Help" xml:space="preserve">
+    <value>Ранние версии модуля обратной связи не хранили сообщения обратной связи с привязкой к экземплярам модулей, собирая сообщения со всего портала. При удалении экземпляра модуля, его данные оставались видимыми из других экземпляров модулей. Возможно, удалять эти сообщения не требуется - поэтому они отмечены как &apos;сообщения удаленных модулей&apos;. Вы можете удалить такие сообщения, которые связаны с удаленными модулями, нажав эту кпопку.</value>
+  </data>
+  <data name="plOrphanedData.Text" xml:space="preserve">
+    <value>Сообщения удаленных модулей</value>
+  </data>
+  <data name="Items.Header" xml:space="preserve">
+    <value>Элементы</value>
+  </data>
+  <data name="ModuleID.Header" xml:space="preserve">
+    <value>Ид. модуля</value>
+  </data>
+  <data name="DeleteOrphanedDataConfirm.Text" xml:space="preserve">
+    <value>Уверены, что хотите удлаить все сообщения, связанные с удаленными модулями обратной связи?</value>
+  </data>
+  <data name="liLabelAboveField.Text" xml:space="preserve">
+    <value>Выше поля</value>
+  </data>
+  <data name="liLabelSameLine.Text" xml:space="preserve">
+    <value>На линии с полем</value>
+  </data>
+  <data name="plLabelDisplay.Help" xml:space="preserve">
+    <value>Выберите вариант расположения метки относительно соответствующего ей поля. Вариант &apos;Выше поля&apos; лучше всего использовать в том случае, если модуль обратной связи размещается в узкой колонке.</value>
+  </data>
+  <data name="plLabelDisplay.Text" xml:space="preserve">
+    <value>Положение метки</value>
+  </data>
+  <data name="valEmptyCategoryListMsg.ErrorMessage" xml:space="preserve">
+    <value>Вы должны настроить список категорий, если хотите, чтобы пользователь мог выбирать категорию из списка или нужно использовать значение категории в качестве адреса получателя.</value>
+  </data>
+  <data name="valEmptyCategoryMsg.ErrorMessage" xml:space="preserve">
+    <value>Если Вы используете значение категории в качестве адреса получателя, Вы также должны либо разрешить пользователю выбирать категорию из списка, либо задать категорию модуля обратной связи в настройках.</value>
+  </data>
+  <data name="plCaptchaAudio.Help" xml:space="preserve">
+    <value>Позволяет пользователям запрашивать озвучивание кодов безопасности с использованием фонетического алфавита</value>
+  </data>
+  <data name="plCaptchaAudio.Text" xml:space="preserve">
+    <value>Озвучивание кодов</value>
+  </data>
+  <data name="plCaptchaCase.Help" xml:space="preserve">
+    <value>Когда включено, при проверке кода безопасности регистр символов учитываться не будет</value>
+  </data>
+  <data name="plCaptchaLineNoise.Help" xml:space="preserve">
+    <value>Устанавливает уровень линейного шума на изображении кода безопасности</value>
+  </data>
+  <data name="plCaptchaCase.Text" xml:space="preserve">
+    <value>Без учета регистра</value>
+  </data>
+  <data name="plCaptchaLineNoise.Text" xml:space="preserve">
+    <value>Линейный шум</value>
+  </data>
+  <data name="plCaptchaBackgroundNoise.Help" xml:space="preserve">
+    <value>Устанавливаем уровень фонового зашумления изображения с кодом безопасности</value>
+  </data>
+  <data name="plCaptchaBackgroundNoise.Text" xml:space="preserve">
+    <value>Фоновый шум</value>
+  </data>
+  <data name="plEmailField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле адреса электронной почты обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plEmailField.Text" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="plModerationAdminEmails.Help" xml:space="preserve">
+    <value>Если отмечено, администраторы будут получать сообщения о модерации по электронной почте в соответствии с заданными разрешениями. Сброс данного флага приведет к тому, что администраторы не будут получать сообщения о модерации по электронной почте.</value>
+  </data>
+  <data name="plModerationAdminEmails.Text" xml:space="preserve">
+    <value>Оповещать администраторов</value>
+  </data>
+  <data name="plMessageField.Text" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="plMessageField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле сообщения обязательным, необязательным или скрытым</value>
+  </data>
+  <data name="plCategoryReq.Text" xml:space="preserve">
+    <value>Укажите категорию</value>
+  </data>
+  <data name="plCategoryReq.Help" xml:space="preserve">
+    <value>Указывает, является ли поле категории обязательным</value>
+  </data>
+  <data name="plEmailConfirmField.Help" xml:space="preserve">
+    <value>Указывает на то, является ли поле подтверждения адреса электронной почты обязательным или скрытым</value>
+  </data>
+  <data name="plEmailConfirmField.Text" xml:space="preserve">
+    <value>Подтверждение эл. почты</value>
+  </data>
+  <data name="plDuplicateSubmission.Help" xml:space="preserve">
+    <value>Если отмечено, нельзя будет отсылать одинаковые сообщения с одного и того же адреса электронной почты.</value>
+  </data>
+  <data name="plDuplicateSubmission.Text" xml:space="preserve">
+    <value>Ограничить отправку одинаковых сообщений</value>
+  </data>
+  <data name="plCleanupArchived.Help" xml:space="preserve">
+    <value>Очистить архив</value>
+  </data>
+  <data name="plCleanupArchived.Text" xml:space="preserve">
+    <value>В архиве</value>
+  </data>
+  <data name="plCleanupDaysBefore.Help" xml:space="preserve">
+    <value>Сообщения обратной связи, которые старше текущей даты минут &apos;Дней до&apos; будут удалены.</value>
+  </data>
+  <data name="plCleanupDaysBefore.Text" xml:space="preserve">
+    <value>Дней до</value>
+  </data>
+  <data name="plCleanupMaxEntries.Help" xml:space="preserve">
+    <value>Хранить не более указанного количества сообщений в списках ожидающих проверки, личных, опубликованных и архивных.</value>
+  </data>
+  <data name="plCleanupMaxEntries.Text" xml:space="preserve">
+    <value>Хранить сообщений</value>
+  </data>
+  <data name="plCleanupPending.Help" xml:space="preserve">
+    <value>Удалить сообщения, ожидающие проверки</value>
+  </data>
+  <data name="plCleanupPending.Text" xml:space="preserve">
+    <value>Ожидающие проверки</value>
+  </data>
+  <data name="plCleanupPrivate.Help" xml:space="preserve">
+    <value>Удалить личные сообщения</value>
+  </data>
+  <data name="plCleanupPrivate.Text" xml:space="preserve">
+    <value>Личные</value>
+  </data>
+  <data name="plCleanupPublished.Help" xml:space="preserve">
+    <value>Удалить опубликованные сообщения</value>
+  </data>
+  <data name="plCleanupPublished.Text" xml:space="preserve">
+    <value>Опубликованные</value>
+  </data>
+  <data name="scnCleanup.Text" xml:space="preserve">
+    <value>Настройки очистки</value>
+  </data>
+  <data name="valCleanupDaysBefore.ErrorMessage" xml:space="preserve">
+    <value>Значение, указанное в поле &apos;Дней до&apos;, должно быть целым числом</value>
+  </data>
+  <data name="valCleanupMaxEntries.ErrorMessage" xml:space="preserve">
+    <value>Значение, указанное в поле &apos;Максимум записей&apos;, должно быть целым числом</value>
+  </data>
+  <data name="plAkismetEnable.Help" xml:space="preserve">
+    <value>Включить проверку спама Akismet - http://akismet.com. У Вас должен быть ключ API от Akismet.comдля активации этой функции.</value>
+  </data>
+  <data name="plAkismetEnable.Text" xml:space="preserve">
+    <value>Включить Akismet</value>
+  </data>
+  <data name="plAkismetKey.Help" xml:space="preserve">
+    <value>Введите свой ключ API Akismet. Ключ можно приобрести на http://akismet.com.</value>
+  </data>
+  <data name="plAkismetKey.Text" xml:space="preserve">
+    <value>Ключ Akismet</value>
+  </data>
+  <data name="valInvalidAkismetKey.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Неверный ключ Akismet</value>
+  </data>
+  <data name="plCleanupSpam.Help" xml:space="preserve">
+    <value>Удалить спам</value>
+  </data>
+  <data name="plCleanupSpam.Text" xml:space="preserve">
+    <value>Спам</value>
+  </data>
+  <data name="plAkismetSendModerator.Help" xml:space="preserve">
+    <value>Когда отмечено, сообщения, определенные как спам, будут отсылаться пользователям, указанным в качесте модераторов, даже если модерация выключена.</value>
+  </data>
+  <data name="plAkismetSendModerator.Text" xml:space="preserve">
+    <value>Отослать спам модератору</value>
+  </data>
+  <data name="plMaxMessage.Help" xml:space="preserve">
+    <value>Установите максимально допустимую длину сообщения в символах.</value>
+  </data>
+  <data name="plMaxMessage.Text" xml:space="preserve">
+    <value>Длина сообщения</value>
+  </data>
+  <data name="varMaxMessage.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Максимальная длина сообщения должна быть целым числом.</value>
+  </data>
+  <data name="plEmailOnly.Help" xml:space="preserve">
+    <value>Если отмечено, отправленное сообщение будет отправлено адресату, но не будет сохраняться в базе данных.</value>
+  </data>
+  <data name="plEmailOnly.Text" xml:space="preserve">
+    <value>Только отправить</value>
+  </data>
+  <data name="plSendWhenPublished.Help" xml:space="preserve">
+    <value>Если сброшено, сообщения электронной почты будут посылаться получателю как только будут отправлены отправителем. Если отмечено, сообщения электронной почты будут посылаться получателю как только сообщения пройдут модерацию и будут опубликованы.</value>
+  </data>
+  <data name="plSendWhenPublished.Text" xml:space="preserve">
+    <value>Отсылать опубликованные</value>
+  </data>
+  <data name="plModerationPageSize.Help" xml:space="preserve">
+    <value>Устанавливает размер страницы списков сообщений, представленных в интерфейсе модерации / управления сообщениями</value>
+  </data>
+  <data name="plModerationPageSize.Text" xml:space="preserve">
+    <value>Размер страницы</value>
+  </data>
+</root>

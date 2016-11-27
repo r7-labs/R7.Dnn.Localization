@@ -1,0 +1,52 @@
+[main]
+host = https://www.transifex.com
+lang_map = lang_map = en_US: en-US, ru_RU: ru-RU
+
+[r7-dnn-feedback.DesktopModules_Feedback_Feedback_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/Feedback.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/Feedback.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_Print_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/Print.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/Print.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_CommentSettings_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_SharedResources]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/SharedResources.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/SharedResources.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_ViewComments_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/ViewComments.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/ViewComments.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_Settings_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/Settings.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_FeedbackLists_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/FeedbackLists.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/FeedbackLists.ascx.resx
+source_lang = en-US
+type = RESX
+
+[r7-dnn-feedback.DesktopModules_Feedback_Moderation_ascx]
+file_filter = <lang>/DesktopModules/Feedback/App_LocalResources/Moderation.ascx.<lang>.resx
+source_file = en-US/DesktopModules/Feedback/App_LocalResources/Moderation.ascx.resx
+source_lang = en-US
+type = RESX
+
