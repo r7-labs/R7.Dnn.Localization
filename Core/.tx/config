@@ -908,6 +908,12 @@ source_file = en-US/DesktopModules/Admin/SearchResults/App_LocalResources/Result
 source_lang = en-US
 type = RESX
 
+[r7-dnn-core.DesktopModules_Admin_SearchResults_SearchableModules]
+file_filter = <lang>/DesktopModules/Admin/SearchResults/App_LocalResources/SearchableModules.<lang>.resx
+source_file = en-US/DesktopModules/Admin/SearchResults/App_LocalResources/SearchableModules.resx
+source_lang = en-US
+type = RESX
+
 [r7-dnn-core.DesktopModules_Admin_Authentication_Logoff_ascx]
 file_filter = <lang>/DesktopModules/Admin/Authentication/App_LocalResources/Logoff.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/Authentication/App_LocalResources/Logoff.ascx.resx
