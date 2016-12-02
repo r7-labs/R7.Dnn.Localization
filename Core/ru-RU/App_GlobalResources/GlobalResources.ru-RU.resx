@@ -535,8 +535,82 @@ Website: [Custom:14]</value>
 [Portal:PortalName]
 </value>
   </data>
+  <data name="404.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;
+        &lt;p style="color:red; font-weight:bold;"&gt;Имя домена {0} не существует в базе данных&lt;/p&gt;
+        &lt;p&gt;DotNetNuke поддерживает несколько веб-сайтов на основе единого кода и базы данных. Это достигается путем перенаправления URL запроса браузера клиента на действительный PortalID из таблицы порталов базы данных. Следующие шаги описывают процесс:&lt;/p&gt;
+    &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
+        &lt;li&gt;&lt;strong&gt;Обработка запроса веб-сервером&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;Когда веб-сервер получает запрос от клиентcкого браузера, он сравнивает расширение имени файла на целевом URL ресурса с картой соответствия расширений и приложений, определенной в IIS.&lt;/li&gt;
+                &lt;li&gt;На основании совпадения, IIS отправляет запрос на определенной путь к исполняемому файлу (aspnet_asapi.dll - в случае запросов ASP.NET).&lt;/li&gt;
+                &lt;li&gt;Модуль aspnet_isapi.dll обрабатывает запрос в упорядоченной серии событий, начиная с Application_BeginRequest.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest ( UrlRewriteModule.vb )&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;URL запроса разбивается на сегменты по символу "/".&lt;/li&gt;
+                &lt;li&gt;Доменное имя строится с использованием каждого из соответствующих проанализированных сегментов URL.
+&lt;br /&gt;
+                    &lt;br /&gt;
+                    Примеры:
+                    &lt;br /&gt;
+                    &lt;br /&gt;
+                    URL: http://www.domain.com/default.aspx = Имя домена: www.domain.com&lt;br /&gt;
+                    URL: http://209.75.24.131/default.aspx = Имя домена: 209.75.24.131&lt;br /&gt;
+                    URL: http://localhost/DotNetNuke/default.aspx = имя домена: localhost/DotNetNuke&lt;br /&gt;
+                    URL: http://www.domain.com/virtualdirectory/default.aspx = Имя домена: www.domain.com/virtualdirectory&lt;br /&gt;
+                    URL: http://www.domain.com/directory/default.aspx = Имя домена: www.domain.com/directory&lt;br /&gt;
+                    &lt;br /&gt;
+                &lt;/li&gt;
+                &lt;li&gt;Используя полученное доменное имя, приложение запрашивает базу данных (Таблица Portals, поле PortalAlias), чтобы найти соответствующую запись.
+                    &lt;br /&gt;
+                    &lt;br /&gt;
+                    Примечание: Если существует несколько URL-адресов, которые соответствуют одному и тому же веб-сайту, то поле PortalAlias сайта должно содержать каждое действительное имя домена в виде списка, разделенного запятыми.
+                    &lt;br /&gt;
+                    &lt;br /&gt;
+                    Пример:
+                    &lt;br /&gt;
+                    &lt;br /&gt;
+                    URL: http://localhost/DotNetNuke/default.aspx&lt;br /&gt;
+                    URL: http://MACHINENAME/DotNetNuke/default.aspx&lt;br /&gt;
+                    URL: http://209.32.134.65/DotNetNuke/default.aspx&lt;br /&gt;
+                    PortalAlias: localhost/DotNetNuke,MACHINENAME/DotNetNuke,209.32.134.65/DotNetNuke
+                    &lt;br /&gt;
+                    &lt;br /&gt;
+                    Примечание: Если вы устанавливаете приложение на удаленный сервер, необходимо изменить значение поля PortalAlias для записи в таблице Portals, заданное по-умолчанию, в соответствии с определенными выше правилами.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</value>
+  </data>
   <data name="500.Error" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  <data name="403_3.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;
+        &lt;h3&gt;Ошибка конфигурации DotNetNuke&lt;/h3&gt;
+        &lt;p&gt;{0}&lt;/p&gt;
+        &lt;p&gt;У вашей экземпляра DotNetNuke, кажется, есть проблема с настройками безопасности (скорее всего, это касается разрешений). DotNetNuke имеет широкие возможности для подгрузки файлов содержимого, добавления модулей и тем. Эти функции требуют специальных настроек безопасности, для того, чтобы приложение могло создавать и удалять файлы на вашем сайте.&lt;/p&gt;
+        &lt;p&gt;С помощью проводника Windows перейдите к корневой папке веб-сайта (C:\DotNetNuke по умолчанию). Щелкните правой кнопкой мыши на папку и выберите  "Общий доступ и безопасность" из всплывающего меню (обратите внимание , что если вы используете Windows XP, то вам может понадобиться &lt;a href="http://support.microsoft.com/default.aspx/kb/307874"
+            target="_blank"&gt;отключить простой общий доступ к файлам&lt;/a&gt; , прежде чем отобразятся необходимые опции). Выберите вкладку Безопасность. Добавьте соответствующую учетную запись пользователя и установите права доступа.&lt;/p&gt;
+		&lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;
+            &lt;li&gt;&lt;strong&gt;При использовании Windows 2000 - IIS5&lt;/strong&gt;
+		    &lt;br/&gt;
+		    &lt;ol style="list-style-type: circle;"&gt;
+		      &lt;li&gt;учетная запись пользователя [SERVER]\ASPNET должна иметь разрешения на чтение, запись и управление разрешениями виртуального корня вашего сайта.&lt;/li&gt;
+		    &lt;/ol&gt;
+		    &lt;br/&gt;
+		  &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;При использовании Windows 2003 - IIS6 или Vista / Windows 2008 - IIS7&lt;/strong&gt;
+		    &lt;br/&gt;
+		    &lt;ol style="list-style-type: circle;"&gt;
+		      &lt;li&gt;учетная запись пользователя NT AUTHORITY\NETWORK SERVICE должна иметь разрешения на чтение, запись и управление изменениями виртуального корня вашего сайта.&lt;/li&gt;
+		    &lt;/ol&gt;
+		  &lt;/li&gt;
+		&lt;/ul&gt;
+        &lt;p&gt;&lt;img alt="Изображение показывает параметры безопасности для корневой папки веб-сайта: разрешения должны быть установлены на чтение, запись и управление разрешениями для учетных записей ASPNET или NT AUTHORITY\NETWORK SERVICE." src="images/403-3.gif"&gt;&lt;/p&gt;
+  &lt;/div&gt;</value>
   </data>
   <data name="Error.Text" xml:space="preserve">
     <value>Произошла ошибка.</value>
