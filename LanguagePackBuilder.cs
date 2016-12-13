@@ -4,6 +4,7 @@ using System;
 using System.IO;
 using System.Text;
 using System.Diagnostics;
+using System.Globalization;
 using System.Collections.Generic;
 
 public static class Program
@@ -43,15 +44,6 @@ internal class LanguagePackBuilder
 	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}-${PackageVersion}.${CultureCode}.zip";
 
 	#endregion
-
-	private Dictionary<string,string> NativeCultureNames;
-
-	public LanguagePackBuilder ()
-	{
-		NativeCultureNames = new Dictionary<string,string> ();
-		NativeCultureNames.Add ("en-US", "English (United States)");
-		NativeCultureNames.Add ("ru-RU", "Русский (Россия)");
-	}
 
 	public void Run ()
 	{
@@ -209,7 +201,7 @@ internal class LanguagePackBuilder
 			(PackageType == "Extension")? PackageName + " " : string.Empty);
 
 		result = result.Replace ("${CultureCode}", CultureCode);
-		result = result.Replace ("${CultureNameNative}", NativeCultureNames [CultureCode]);
+		result = result.Replace ("${CultureNameNative}", CultureInfo.GetCultureInfoByIetfLanguageTag (CultureCode).NativeName);
 		result = result.Replace ("${PackageType}", PackageType);
 		result = result.Replace ("${PackageName}", PackageName);
 		result = result.Replace ("${PlatformType}", PlatformType);
