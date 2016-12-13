@@ -1,12 +1,6 @@
-<h3>Version 7.4.2-5</h3>
-<ul>
-    <li>Finish SQL, UrlManagement, Tabs modules translation.</li>
-    <li>Add translation for ModuleCreator module.</li>
-    <li>Translate DevicePreviewManagement shared resources file.</li>
-    <li>Update localization UI translation (various resources).</li>
-    <li>Update HostSettings translation.</li>
-    <li>Fix some issues with admin Users module translation.</li>
-</ul>
+<h3>Version 7.4.2-6</h3>
+<p>Russian translation (mostly) finished.</p>
+<p>Not translated: large help text for many modules; some templates, URLs and things alike (don't require translation).</p>
 <h3>Version 7.4.2-4</h3>
 <ul>
     <li>Update notes about registration modes.</li>
