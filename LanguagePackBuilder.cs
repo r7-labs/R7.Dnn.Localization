@@ -174,28 +174,23 @@ internal class LanguagePackBuilder
 	{
 		var result = template;
 
-		// "Core[\._]Core" => "Core"
-		if (PackageType == PackageName)
+		if (PackageType == "Core")
 		{
-			result = result.Replace ("${PackageType}.${PackageName}", PackageName);
-			result = result.Replace ("${PackageType}_${PackageName}", PackageName);
+			result = result.Replace ("${PackageType}.${PackageName}", PackageType);
+			result = result.Replace ("${PackageType}_${PackageName}", PackageType);
+			result = result.Replace ("${ExtensionPackage}", string.Empty);
+			result = result.Replace ("${PackageDescription}", "For DNN Core version " + SourceVersion);
+			result = result.Replace ("${Dependencies}",
+				"<dependency type=\"CoreVersion\">" + SourceVersion + "</dependency>");
 		}
-
-		if (PackageType == "Extension")
+		else
 		{
 			result = result.Replace ("${ExtensionPackage}", "<package>" + ExtensionPackage + "</package>");
 			result = result.Replace ("${PackageDescription}", "For " + ExtensionPackage + " version " + SourceVersion);
 			result = result.Replace ("${Dependencies}",
 				"<dependency type=\"Package\">" + ExtensionPackage + "</dependency>");
 		}
-		else
-		{
-			result = result.Replace ("${ExtensionPackage}", string.Empty);
-			result = result.Replace ("${PackageDescription}", "For DNN Core version " + SourceVersion);
-			result = result.Replace ("${Dependencies}",
-				"<dependency type=\"CoreVersion\">" + SourceVersion + "</dependency>");
-		}
-
+		
 		// Extension language pack name
 		result = result.Replace ("${ExtensionName}",
 			(PackageType == "Extension")? PackageName + " " : string.Empty);
