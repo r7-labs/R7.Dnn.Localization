@@ -48,8 +48,6 @@ internal class RemoveEmptyEntries
 
 			foreach (var file in files)
 			{
-				Console.WriteLine (file);
-
 				/*
 				var doc = new XPathDocument (file);
 				var writer = XmlWriter.Create (file + ".out");
@@ -68,12 +66,30 @@ internal class RemoveEmptyEntries
 				var xsltproc = new Process ();
 				xsltproc.StartInfo.FileName = "xsltproc";
 				xsltproc.StartInfo.Arguments = string.Format (
-				//	"--novalid -o \"{0}.out\" \"../../xslt/remove-empty-entries.xslt\" \"{0}\"", file);
-					"--novalid -o \"{0}\" \"../../xslt/remove-empty-entries.xslt\" \"{0}\"", file);
+					"--novalid -o \"{0}.out\" \"../../xslt/remove-empty-entries.xslt\" \"{0}\"", file);
 				xsltproc.StartInfo.UseShellExecute = false;
-
 				xsltproc.Start ();
 				xsltproc.WaitForExit ();
+
+				if (xsltproc.ExitCode == 0) {
+					var diff = new Process ();
+					diff.StartInfo.FileName = "diff";
+					diff.StartInfo.Arguments = string.Format ("-w \"{0}\" \"{0}.out\"", file);
+					diff.StartInfo.UseShellExecute = false;
+					diff.Start ();
+					diff.WaitForExit ();
+
+					if (diff.ExitCode == 0) {
+						// no difference except whitespace, keep original file
+						File.Delete (file + ".out");
+					}
+					else {
+						// replace original file
+						Console.WriteLine ("Empty entries removed from: {0}", file);
+						File.Delete (file);
+						File.Move (file + ".out", file);
+					}
+				}
 			}
 
 			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
