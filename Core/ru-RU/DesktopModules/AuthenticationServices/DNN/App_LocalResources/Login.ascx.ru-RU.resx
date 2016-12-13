@@ -16,7 +16,7 @@
     <value>Вход</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
-    <value>Встроенная</value>
+    <value>Стандартная</value>
   </data>
   <data name="InvalidVerificationCode.Text" xml:space="preserve">
     <value>Неверный код подтверждения</value>

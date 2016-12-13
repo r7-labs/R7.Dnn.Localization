@@ -13,10 +13,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BasicSettings.Text" xml:space="preserve">
-    <value>Основные параметры</value>
+    <value>Основные настройки</value>
   </data>
   <data name="BasicSettingsHelp.Text" xml:space="preserve">
-    <value>В этой секции Вы можете установить основные параметры для Вашего сайта</value>
+    <value>В этой секции вы можете задать основные параметры для вашего сайта.</value>
   </data>
   <data name="SiteDetails.Text" xml:space="preserve">
     <value>Параметры сайта</value>
@@ -70,7 +70,7 @@
     <value>Проверка:</value>
   </data>
   <data name="plVerification.Help" xml:space="preserve">
-    <value>При регистрации в инструментальных средствах Web-мастера Google (Google Webmaster Tools), Вы будете должны проверить ваше монопольное использование сайта. Выберите  "Upload an HTML file" на экране верификации Google. Введите отображенное имя файла (например:. google53c0cef435b2b81e.html) в поле верификации и щелкните "Create". Вернитесь в Google и выберите кнопку “Проверка”.</value>
+    <value>При регистрации в инструментальных средствах Web-мастера Google (Google Webmaster Tools), Вы будете должны проверить ваше монопольное использование сайта. Выберите "Upload an HTML file" на экране верификации Google. Введите отображенное имя файла (например google53c0cef435b2b81e.html) в поле верификации и щелкните "Create". Вернитесь в Google и выберите кнопку “Проверка”.</value>
   </data>
   <data name="cmdVerification.Text" xml:space="preserve">
     <value>Создать</value>
@@ -828,10 +828,10 @@
     <value>Перенаправлять после регистрации:</value>
   </data>
   <data name="Security_CaptchaRegister.Help" xml:space="preserve">
-    <value>Указывает, должен использоваться CAPTCHA при регистрации на данном сайте.</value>
+    <value>Указывает, должен использоваться код безопасности при регистрации на этом сайте.</value>
   </data>
   <data name="Security_CaptchaRegister.Text" xml:space="preserve">
-    <value>Использовать CAPTCHA при регистрации:</value>
+    <value>Использовать код безопасности при регистрации:</value>
   </data>
   <data name="Security_RequireValidProfile.Help" xml:space="preserve">
     <value>Вы можете потребовать, чтобы новый пользователь также заполнил свой профиль при регистрации.</value>
@@ -864,22 +864,22 @@
     <value>Переадресация после выхода:</value>
   </data>
   <data name="Security_CaptchaLogin.Help" xml:space="preserve">
-    <value>Указывает, должен ли данный сайт использовать CAPTCHA для связанных учетных записей, таких как openId, liveId, cardspace.</value>
+    <value>Указывает, должен ли этот сайт использовать код безопасности для связывания учетных записей, таких как openId, liveId, cardspace.</value>
   </data>
   <data name="Security_CaptchaLogin.Text" xml:space="preserve">
-    <value>Использовать CAPTCHA для связанных учетных записей:</value>
+    <value>Использовать код безопасности для связывания учетных записей:</value>
   </data>
   <data name="Security_CaptchaRetrivePassword.Help" xml:space="preserve">
-    <value>Отметьте, чтобы использовать CAPTCHA при восстановлении пароля.</value>
+    <value>Отметьте, чтобы использовать код безопасности при восстановлении пароля.</value>
   </data>
   <data name="Security_CaptchaRetrivePassword.Text" xml:space="preserve">
-    <value>Использовать CAPTCHA при восстановлении пароля</value>
+    <value>Использовать код безопасности при восстановлении пароля</value>
   </data>
   <data name="Security_CaptchaChangePassword.Help" xml:space="preserve">
-    <value>Отметьте, чтобы использовать CAPTCHA при смене пароля.</value>
+    <value>Отметьте, чтобы использовать код безопасности при смене пароля</value>
   </data>
   <data name="Security_CaptchaChangePassword.Text" xml:space="preserve">
-    <value>Использовать CAPTCHA при смене пароля</value>
+    <value>Использовать код безопасности при смене пароля</value>
   </data>
   <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
     <value>Вы можете потребовать от пользователей обновить свои профили перед входом на сайт, если их профили недействительны.</value>

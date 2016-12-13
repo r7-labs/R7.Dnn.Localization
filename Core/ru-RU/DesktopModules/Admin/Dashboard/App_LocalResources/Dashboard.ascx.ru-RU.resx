@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Backup.Error.Text" xml:space="preserve">
-    <value>У Вашего приложения недостаточно прав, чтобы получить информацию о резервной копии базы данных. Предоставьте приложению необходимые права  для обращения к msdb, если требуется сделать эти данные доступными из панели управления.</value>
+    <value>У вашего приложения нет необходимых разрешений для того, чтобы получить информацию о резервной копии базы данных. Предоставьте приложению необходимые права  для обращения к базе данных, если требуется сделать эти данные доступными из панели управления.</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Панель управления</value>

@@ -16,10 +16,10 @@
     <value>Страницы</value>
   </data>
   <data name="cmdRestoreTab.Help" xml:space="preserve">
-    <value>Восстановить выбранную страницу</value>
+    <value>Восстановить выбранные страницы</value>
   </data>
   <data name="cmdDeleteTab.Help" xml:space="preserve">
-    <value>Удалить выбранную страницу</value>
+    <value>Удалить выбранные страницы</value>
   </data>
   <data name="Modules.Text" xml:space="preserve">
     <value>Модули</value>

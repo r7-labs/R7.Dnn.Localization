@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ControlTitle_batchinstall.Text" xml:space="preserve">
-    <value>Пакетная установка расширений</value>
+    <value>Установка доступных расширений</value>
   </data>
   <data name="AvailableAuthSystems.Text" xml:space="preserve">
     <value>Доступные системы аутентификации</value>

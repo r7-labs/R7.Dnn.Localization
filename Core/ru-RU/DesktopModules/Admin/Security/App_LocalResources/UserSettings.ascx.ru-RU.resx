@@ -13,10 +13,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ControlTitle_usersettings.Text" xml:space="preserve">
-    <value>Параметры настройки пользователя </value>
+    <value>Настройки пользователя</value>
   </data>
   <data name="ProviderSettings.Text" xml:space="preserve">
-    <value>Параметры поставщика членства</value>
+    <value>Параметры поставщика участия</value>
   </data>
   <data name="UserAccounts.Text" xml:space="preserve">
     <value>Параметры настройки учетных записей пользователя</value>

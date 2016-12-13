@@ -19,7 +19,7 @@
     <value>Включить?</value>
   </data>
   <data name="AuthenticationConfig_UseCaptcha.Help" xml:space="preserve">
-    <value>Отметьте этот пункт для включения Captcha при входе в DotNetNuke </value>
+    <value>Отметьте этот пункт для включения кода безопасности при входе в DotNetNuke</value>
   </data>
   <data name="AuthenticationConfig_UseCaptcha.Text" xml:space="preserve">
     <value>Использовать код безопасности?</value>

@@ -16,7 +16,7 @@
     <value>Тип ссылки:</value>
   </data>
   <data name="URLType.Text" xml:space="preserve">
-    <value>Внешний ресурс</value>
+    <value>URL (ссылка на внешний ресурс)</value>
   </data>
   <data name="TabType.Text" xml:space="preserve">
     <value>Страница сайта</value>
@@ -55,7 +55,7 @@
     <value>Подгрузить новый файл</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
-    <value>Подгрузить выбранный файл&lt;br/&gt;</value>
+    <value>Подгрузить выбранный файл</value>
   </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Отмена</value>
@@ -85,10 +85,10 @@
     <value>Введенное имя пользователя не соответствует ни одному пользователю сайта.</value>
   </data>
   <data name="NoWritePermission.Text" xml:space="preserve">
-    <value>У Вас недостаточно разрешений для подгрузки файлов на сайт</value>
+    <value>У Вас нет необходимых разрешений для подгрузки файлов на сайт</value>
   </data>
   <data name="ImageType.Text" xml:space="preserve">
-    <value>Системная картинка</value>
+    <value>Системное изображение</value>
   </data>
   <data name="Image.Text" xml:space="preserve">
     <value>Изображение:&lt;br /&gt;</value>

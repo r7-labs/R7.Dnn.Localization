@@ -16,7 +16,7 @@
     <value>Тип отчета</value>
   </data>
   <data name="plReportType.Help" xml:space="preserve">
-    <value>Выберите желаемый тип отчета</value>
+    <value>Выберите отчет для просмотра</value>
   </data>
   <data name="plStartDate.Text" xml:space="preserve">
     <value>Начальная дата</value>

@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddPage.Text" xml:space="preserve">
-    <value>Добавить</value>
+    <value>Добавить страницы</value>
   </data>
   <data name="CanNotDeleteHomeTab.Text" xml:space="preserve">
     <value>Нельзя удалить главную страницу сайта!</value>

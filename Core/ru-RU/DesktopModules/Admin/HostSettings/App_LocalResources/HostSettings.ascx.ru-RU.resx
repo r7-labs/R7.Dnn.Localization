@@ -13,10 +13,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Configuration.Text" xml:space="preserve">
-    <value>Конфигурация сайта</value>
+    <value>Конфигурация</value>
   </data>
   <data name="plServerTime.Text" xml:space="preserve">
-    <value>Время сервера</value>
+    <value>Время сервера:</value>
   </data>
   <data name="plServerTime.Help" xml:space="preserve">
     <value>Текущая дата и время для веб-сервера</value>
@@ -340,7 +340,7 @@
     <value>Укажите доступные для загрузки типы файлов(через запятую)</value>
   </data>
   <data name="plSkinUpload.Help" xml:space="preserve">
-    <value>Выберите, будет ли подгрузка тем доступна только администратору хостинга, или может также выполняться администраторами сайтов</value>
+    <value>Выберите, будет ли подгрузка тем доступна только администратору хостинга, или может также выполняться также администраторами сайтов</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хост</value>
@@ -731,13 +731,13 @@
     <value>Предпросмотр темы и контейнера для режима редактирования</value>
   </data>
   <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
-    <value>Это - полный URL-адрес скрипта jQuery UI. По умолчанию установлена последняя сокращенная версия скрита jQuery UI с хостингом на серверах Google's CDN для оптимальной работы.</value>
+    <value>Это - полный URL-адрес сценария jQuery UI. По умолчанию установлена последняя сокращенная версия сценария jQuery UI с хостингом на серверах Google's CDN для оптимальной работы.</value>
   </data>
   <data name="plJQueryUIHostUrl.Text" xml:space="preserve">
     <value>URL-адрес хостинга jQuery UI :</value>
   </data>
   <data name="plJQueryUIVersion.Help" xml:space="preserve">
-    <value>Показывает строку версии локального скрипта jQuery UI.</value>
+    <value>Показывает строку версии локального сценария jQuery UI.</value>
   </data>
   <data name="plJQueryUIVersion.Text" xml:space="preserve">
     <value>Установленная версия jQuery UI </value>

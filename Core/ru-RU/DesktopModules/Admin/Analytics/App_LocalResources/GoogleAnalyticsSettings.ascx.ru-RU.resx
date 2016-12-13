@@ -16,7 +16,7 @@
     <value>ID отслеживания сайта, полученный от Google</value>
   </data>
   <data name="lblTrackingId.Text" xml:space="preserve">
-    <value>ID отслеживания</value>
+    <value>Ид. отслеживания</value>
   </data>
   <data name="lblUrlParameter.Help" xml:space="preserve">
     <value>Необязательный фрагмент кода Javascript, который будет передаваться в качестве параметра отслеживателю страниц (используется, чтобы изменить значение, отслеживаемое в Google Analytics, вместо используемого по-умолчанию location.href)</value>

@@ -13,13 +13,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plStartDate.Text" xml:space="preserve">
-    <value>* Дата начала</value>
+    <value>Начало публикации</value>
   </data>
   <data name="plStartDate.Help" xml:space="preserve">
     <value>Используйте даты начала и окончания для определения срока действия партнерского контракта</value>
   </data>
   <data name="plEndDate.Text" xml:space="preserve">
-    <value>* Дата окончания</value>
+    <value>Окончание публикации</value>
   </data>
   <data name="plCPC.Text" xml:space="preserve">
     <value>Цена пересылки (CPC)</value>

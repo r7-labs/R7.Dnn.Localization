@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cmdExecute.Text" xml:space="preserve">
-    <value>Выполнить</value>
+    <value>Выполнить сценарий</value>
   </data>
   <data name="cmdExecute.ToolTip" xml:space="preserve">
     <value>Может содержать {директивы} и /*комментарии*/</value>
@@ -34,7 +34,7 @@
     <value>Файл SQL:</value>
   </data>
   <data name="plSqlScript.Help" xml:space="preserve">
-    <value>Загрузить содержимое файла в окно SQL (необязательно).</value>
+    <value>Подгрузить содержимое файла в окно SQL (необязательно).</value>
   </data>
   <data name="cmdUpload.Text" xml:space="preserve">
     <value>Загрузить</value>

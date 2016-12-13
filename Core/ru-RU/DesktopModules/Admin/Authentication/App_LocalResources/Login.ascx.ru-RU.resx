@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AssociateHelp.Text" xml:space="preserve">
-    <value>Вы можете связать Ваше имя входа с существующей учетной записью, указав имя пользователя и пароль.</value>
+    <value>Вы можете связать ваше имя входа с существующей учетной записью, указав имя пользователя и пароль.</value>
   </data>
   <data name="AssociateTitle.Text" xml:space="preserve">
     <value>Связать с существующей учетной записью</value>

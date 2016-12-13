@@ -13,13 +13,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Cancel.Text" xml:space="preserve">
-    <value>Возврат</value>
+    <value>Назад</value>
   </data>
   <data name="ControlTitle_newextension.Text" xml:space="preserve">
-    <value>Помощник нового расширения</value>
+    <value>Мастер создания нового расширения</value>
   </data>
   <data name="Core.Text" xml:space="preserve">
-    <value>Язык ядра</value>
+    <value>Язык ядра системы</value>
   </data>
   <data name="DuplicateName.Text" xml:space="preserve">
     <value>Имя - {0} - уже существует. Пожалуйста, укажите другое имя и повторите попытку.</value>

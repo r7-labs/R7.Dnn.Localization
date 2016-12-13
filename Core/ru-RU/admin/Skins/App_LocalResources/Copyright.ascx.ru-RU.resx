@@ -13,6 +13,6 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
   <data name="Copyright.Text">
-        <value>&amp;copy; {0} {1}</value>
+        <value>Copyright (c) {0} {1}</value>
     </data>
 </root>

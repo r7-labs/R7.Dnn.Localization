@@ -55,7 +55,7 @@
     <value>Сохранить</value>
   </data>
   <data name="cmdUpload.Text" xml:space="preserve">
-    <value>Подгрузить файл(ы)</value>
+    <value>Подгрузить новый файл</value>
   </data>
   <data name="Select.Text" xml:space="preserve">
     <value>Выбрать</value>
@@ -694,7 +694,7 @@
     <value>Пользователи, не прошедшие проверку</value>
   </data>
   <data name="RestrictedFileType.Text" xml:space="preserve">
-    <value>Тип файла {0} НЕ разрешен. Разрешены типы файлов: {1}. Свяжитесь со своим хостинг-провайдером, если Вам нужно загружать файлы этого типа.</value>
+    <value>Тип файла {0} НЕ разрешен. Разрешены типы файлов: ( {1} ). Свяжитесь с администратором хостинга, если Вам нужно подгружать файлы этого типа.</value>
   </data>
   <data name="SaveFileError.Text" xml:space="preserve">
     <value>Произошла ошибка при попытке сохранения файла {0}. Свяжитесь со своим хостинг-провайдером для того, чтобы удостовериться в правильных настройках безопасности файловой системы.</value>
@@ -823,7 +823,7 @@
     <value>Неизвестная ошибка при создании папки.</value>
   </data>
   <data name="FTB_FolderCreate.Permission" xml:space="preserve">
-    <value>У Вас недостаточно прав для создания папок.</value>
+    <value>У вас недостаточно прав для создания папок.</value>
   </data>
   <data name="FTB_FolderDeleted.Text" xml:space="preserve">
     <value>Папка {0} успешно удалена.</value>
@@ -832,28 +832,28 @@
     <value>Неизвестная ошибка при удалении папки.</value>
   </data>
   <data name="FTB_FolderDelete.Permission" xml:space="preserve">
-    <value>У Вас недостаточно прав для удаления папок.</value>
+    <value>У вас недостаточно прав для удаления папок.</value>
   </data>
   <data name="FTB_ImageDeleted.Text" xml:space="preserve">
-    <value>Картинка {0} успешно удалена.</value>
+    <value>Изображение {0} успешно удалено.</value>
   </data>
   <data name="FTB_ImageDelete.Error" xml:space="preserve">
-    <value>Картинка {0} успешно удалена.</value>
+    <value>Произошла ошибка при удалении изображения.</value>
   </data>
   <data name="FTB_ImageDelete.Permission" xml:space="preserve">
-    <value>У Вас недостаточно прав для удаления картинок.</value>
+    <value>У вас нет необходимых разрешений для удаления изображений.</value>
   </data>
   <data name="FTB_ImageUploaded.Text" xml:space="preserve">
-    <value>Картинка {0} подгружена успешно.</value>
+    <value>Изображение {0} успешно подгружено.</value>
   </data>
   <data name="FTB_ImageUpload.Error" xml:space="preserve">
-    <value>Неизвестная ошибка при подгрузке картинки.</value>
+    <value>Неизвестная ошибка при подгрузке изображения.</value>
   </data>
   <data name="FTB_ImageUploadNoFile.Text" xml:space="preserve">
-    <value>Ничего не подгружено.</value>
+    <value>Файл не был подгружен.</value>
   </data>
   <data name="FTB_ImageUpload.Permission" xml:space="preserve">
-    <value>У Вас недостаточно прав для подгрузки картинок.</value>
+    <value>У вас нет необходимых разрешений для подгрузки изображений.</value>
   </data>
   <data name="LastPortal.Text" xml:space="preserve">
     <value>Вы не можете удалить единственный имеющийся портал!</value>
@@ -913,7 +913,7 @@
     <value>Ваша учетная запись администратора хоста все еще использует значение пароля, заданное по-умолчанию. Пожалуйста, обновите пароль и убедитесь, что Вы указали действительный адрес электронной почты.</value>
   </data>
   <data name="InsecureDefaults.Text" xml:space="preserve">
-    <value>Обе ваши учётные записи (администраторов хоста и портала) по прежнему используют известные значения по умолчанию. Пожалуйста, обновите пароли, и убедитесь в том, что Вы указали действительные адреса электронной почты.</value>
+    <value>Обе учетные записи (администратора хостинга и сайта) по прежнему используют известные значения паролей по умолчанию. Пожалуйста, обновите пароли. Также убедитесь в том, что вы указали действительные адреса электронной почты.</value>
   </data>
   <data name="InsecureDefaults.Title" xml:space="preserve">
     <value>Информация о небезопасной учетной записи</value>
@@ -948,7 +948,7 @@
     <value>Имя пользователя:</value>
   </data>
   <data name="CaptchaText.Text" xml:space="preserve">
-    <value>Введите код с картинки в поле</value>
+    <value>Введите код безопасности, показанный выше, в расположенное ниже поле</value>
   </data>
   <data name="InvalidCaptcha.Text" xml:space="preserve">
     <value>Неверный код безопасности</value>
@@ -1071,7 +1071,7 @@
     <value>Обновлено {1} версия {2} - Дата: {3}</value>
   </data>
   <data name="CONFIG_Committed.Text" xml:space="preserve">
-    <value>Изменения в файле конфигурации записаны</value>
+    <value>Изменения в файле конфигурации сохранены</value>
   </data>
   <data name="CONFIG_RolledBack.Text" xml:space="preserve">
     <value>Произведен откат изменений в файле конфигурации</value>
@@ -1080,22 +1080,22 @@
     <value>Файл конфигурации обновлен</value>
   </data>
   <data name="SQL_Committed.Text" xml:space="preserve">
-    <value>Изменения в скрипте SQL сохранены</value>
+    <value>Изменения, произведенные сценарием SQL, сохранены</value>
   </data>
   <data name="SQL_RolledBack.Text" xml:space="preserve">
-    <value>Откат изменений в скрипте SQL</value>
+    <value>Откат изменений, произведенных сценарием SQL</value>
   </data>
   <data name="SQL_BeginUnInstall.Text" xml:space="preserve">
-    <value>Начало деинсталляции Sql</value>
+    <value>Начало удаления Sql</value>
   </data>
   <data name="SQL_EndUnInstall.Text" xml:space="preserve">
-    <value>Конец деинсталляции Sql</value>
+    <value>Конец удаления Sql</value>
   </data>
   <data name="FOLDER_Created.Text" xml:space="preserve">
     <value>Папка создана - {0}</value>
   </data>
   <data name="SECURITY_Installer.Text" xml:space="preserve">
-    <value>У Вас недостаточно прав для установки этого компонента</value>
+    <value>У вас недостаточно прав для установки этого компонента</value>
   </data>
   <data name="SECURITY_NotRegistered.Text" xml:space="preserve">
     <value>Этот тип пакета не зарегистрирован</value>
@@ -1191,13 +1191,13 @@
     <value>Отображать имя на родном языке</value>
   </data>
   <data name="CLEANUP_ProcessComplete.Text" xml:space="preserve">
-    <value>Завершена обработка Cleanup-файла - {0}</value>
+    <value>Завершена обработка очистки - {0}</value>
   </data>
   <data name="CLEANUP_Processing.Text" xml:space="preserve">
-    <value>Обработка Cleanup-файла - {0}</value>
+    <value>Обработка файла очистки - {0}</value>
   </data>
   <data name="LANGUAGE_PortalsEnabled.Text" xml:space="preserve">
-    <value>Язык для всех порталов - {0}</value>
+    <value>Язык включен для всех порталов - {0}</value>
   </data>
   <data name="PermissionTypeGrant.Text" xml:space="preserve">
     <value>Доступ разрешен</value>
@@ -1263,13 +1263,13 @@
     <value>Манифест Dashboard разобран успешно</value>
   </data>
   <data name="DASHBOARD_Registered.Text" xml:space="preserve">
-    <value>Dashboard успешно установлен</value>
+    <value>Элемент панели управления успешно зарегистрирован</value>
   </data>
   <data name="DASHBOARD_SrcMissing.Text" xml:space="preserve">
     <value>Необходимое поле Src отсутствует в манифесте</value>
   </data>
   <data name="DASHBOARD_UnRegistered.Text" xml:space="preserve">
-    <value>Dashboard успешно удален</value>
+    <value>Регистрация элемента панели управления удалена</value>
   </data>
   <data name="SKIN_Installed.Text" xml:space="preserve">
     <value>Эта тема уже установлена, но с другим именем пакета</value>
@@ -1281,7 +1281,7 @@
     <value>Видно только администраторам.</value>
   </data>
   <data name="PortalRoot.Text" xml:space="preserve">
-    <value>&lt; Корневой каталог &gt;</value>
+    <value>Корень сайта</value>
   </data>
   <data name="False.Text" xml:space="preserve">
     <value>Ложь</value>
@@ -1647,13 +1647,13 @@
     <value>...Загружаем результаты</value>
   </data>
   <data name="DropDownList.SelectWebPageDefaultText" xml:space="preserve">
-    <value>Выбрать страницу</value>
+    <value>Выберите страницу</value>
   </data>
   <data name="DropDownList.SelectUserDefaultText" xml:space="preserve">
-    <value>Выбрать пользователя</value>
+    <value>Выберите пользователя</value>
   </data>
   <data name="DropDownList.SelectFolderDefaultText" xml:space="preserve">
-    <value>Выбрать папку</value>
+    <value>Выберите папку</value>
   </data>
   <data name="SEARCH_NoLink.Text" xml:space="preserve">
     <value>[нет ссылки]</value>

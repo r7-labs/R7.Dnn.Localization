@@ -321,7 +321,7 @@
     <value>Вставить HTML:</value>
   </data>
   <data name="ScriptToLoad.Text" xml:space="preserve">
-    <value>Скрипт для загружки:</value>
+    <value>Загружаемый сценарий:</value>
   </data>
   <data name="ShowPortalLinks.Text" xml:space="preserve">
     <value>Показать ссылки сайта:</value>

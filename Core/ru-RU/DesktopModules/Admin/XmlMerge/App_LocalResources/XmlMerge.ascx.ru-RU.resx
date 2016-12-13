@@ -22,10 +22,10 @@
     <value>Система обнаружила ошибку при применении произведенных изменений настроек. Проверьте информацию об ошибках в протоколе событий.</value>
   </data>
   <data name="plScript.Help" xml:space="preserve">
-    <value>Выберите XML-скрипт слияния для загрузки. После загрузки скрипт можно отредактировать, а затем исполнить.</value>
+    <value>Выберите сценария слияния XML для подгрузки. После подгрузки сценарий можно отредактировать и затем выполнить.</value>
   </data>
   <data name="plScript.Text" xml:space="preserve">
-    <value>Скрипт слияния</value>
+    <value>Сценарий слияния</value>
   </data>
   <data name="cmdLoad.Text" xml:space="preserve">
     <value>Загрузить</value>
@@ -73,7 +73,7 @@
     <value>Файл:</value>
   </data>
   <data name="scriptLabel.Help" xml:space="preserve">
-    <value>Вы можете отредактировать скрипт слияния перед тем, как исполнить его.</value>
+    <value>Вы можете отредактировать сценарий слияния перед тем, как выполнить его.</value>
   </data>
   <data name="scriptLabel.Text" xml:space="preserve">
     <value>Сценарий:</value>

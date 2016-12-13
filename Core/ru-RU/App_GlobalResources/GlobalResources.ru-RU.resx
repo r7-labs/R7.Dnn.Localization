@@ -16,7 +16,7 @@
     <value>Экспорт в RSS</value>
   </data>
   <data name="ExportModule.Action" xml:space="preserve">
-    <value>Экспорт содержимого</value>
+    <value>Экспортировать содержимое</value>
   </data>
   <data name="ImportModule.Action" xml:space="preserve">
     <value>Импорт содержимого</value>
@@ -133,7 +133,7 @@
     <value>Текст</value>
   </data>
   <data name="BannerType.Script.String" xml:space="preserve">
-    <value>Скрипт</value>
+    <value>Сценарий</value>
   </data>
   <data name="//Host//SearchAdmin.String" xml:space="preserve">
     <value>Администрирование поиска</value>
@@ -979,7 +979,7 @@ Sincerely,
     <value>Выполняем общее обновление</value>
   </data>
   <data name="ExecutingScript.Text" xml:space="preserve">
-    <value>Исполняем скрипт</value>
+    <value>Исполняем сценарий</value>
   </data>
   <data name="LogStart.Text" xml:space="preserve">
     <value>Начало</value>

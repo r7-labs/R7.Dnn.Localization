@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Browser.Help" xml:space="preserve">
-    <value>Поставьте этот флажок, чтобы разрешить автоматическое обнаружение языка браузера.</value>
+    <value>Поставьте этот флажок, чтобы разрешить автоматическое определение языка браузера.</value>
   </data>
   <data name="HostSettings.Title" xml:space="preserve">
     <value>Языковые параметры настройки приложения</value>

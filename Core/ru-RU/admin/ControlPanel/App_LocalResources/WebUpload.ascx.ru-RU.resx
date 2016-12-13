@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HostRoot.Text" xml:space="preserve">
-    <value>Корень хоста</value>
+    <value>Корень хостинга</value>
   </data>
   <data name="PortalRoot.Text" xml:space="preserve">
     <value>Корень сайта</value>
@@ -76,7 +76,7 @@
     <value>Сохранить файл</value>
   </data>
   <data name="NoFile.Text" xml:space="preserve">
-    <value>Сначада нужно выбрать файл для подгрузки - нажмите кнопку Выбрать, чтобы найти файл на Вашем компьютере.</value>
+    <value>Сначала нужно выбрать файл для подгрузки - нажмите кнопку Выбрать, чтобы найти файл на Вашем компьютере.</value>
   </data>
   <data name="Multiple.Text" xml:space="preserve">
     <value>Подгрузить несколько файлов?</value>
@@ -85,7 +85,7 @@
     <value>{0} подгружен успешно</value>
   </data>
   <data name="plBrowse.Help" xml:space="preserve">
-    <value>Намжмите кнопку Выбрать для того, чтобы указать файл на Вашем компьютере, который необходимо подгрузить.</value>
+    <value>Нажмите кнопку Выбрать для того, чтобы указать файл на Вашем компьютере, который необходимо подгрузить.</value>
   </data>
   <data name="plBrowse.Text" xml:space="preserve">
     <value>Файл</value>
