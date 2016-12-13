@@ -84,6 +84,9 @@
   <data name="plType.Text" xml:space="preserve">
     <value>Тип темы:</value>
   </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>Выберите тип отображаемой темы.</value>
+  </data>
   <data name="About.Text" xml:space="preserve">
     <value>О {0}</value>
   </data>
@@ -101,6 +104,9 @@
   </data>
   <data name="UsePackageUnInstall.Text" xml:space="preserve">
     <value>Эта тема входит в состав пакета темы. Используйте функцию удаления пакета в списке тем.</value>
+  </data>
+  <data name="ParseOptions.Help" xml:space="preserve">
+    <value>Для обеспечения переносимости требуется использовать относительные ссылки на изображения, что может потребовать больше ресурсов в процессе работы сайта.</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Редактор темы</value>

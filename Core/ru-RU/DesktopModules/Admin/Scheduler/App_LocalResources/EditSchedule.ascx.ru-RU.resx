@@ -19,7 +19,7 @@
     <value>Просмотр журнала</value>
   </data>
   <data name="plType.Text" xml:space="preserve">
-    <value>Полное имя класса и сборки</value>
+    <value>Полное имя класса и сборки:</value>
   </data>
   <data name="plEnabled.Text" xml:space="preserve">
     <value>Выполнять по расписанию:</value>
@@ -47,6 +47,9 @@
   </data>
   <data name="Years.Text" xml:space="preserve">
     <value>Лет</value>
+  </data>
+  <data name="plRetryTimeLapse.Text" xml:space="preserve">
+    <value>Попытаться снова через:</value>
   </data>
   <data name="plRetryTimeLapse.Help" xml:space="preserve">
     <value>Пример: задайте "5" и выберите "Минут" для повторного запуска задачи каждые 5 минут после сбоя.</value>
@@ -99,6 +102,9 @@
   <data name="plServers.Text" xml:space="preserve">
     <value>Выполнять на серверах:</value>
   </data>
+  <data name="plServers.Help" xml:space="preserve">
+    <value>Выберите веб-сервер (серверы), на которых должна выполняться запланированная задача. Оставьте поле пустым, чтобы выполнять задачу на всех серверах.</value>
+  </data>
   <data name="Seconds.Text" xml:space="preserve">
     <value>Секунд</value>
   </data>
@@ -131,5 +137,14 @@
   </data>
   <data name="RetryTimeLapseRequired.ErrorMessage" xml:space="preserve">
     <value>Задайте значение частоты повторов</value>
+  </data>
+  <data name="plScheduleStartDate.Text" xml:space="preserve">
+    <value>Начать выполнение:</value>
+  </data>
+  <data name="plScheduleStartDate.Help" xml:space="preserve">
+    <value>Введите дату и время запуска запланированной задачи. Примечание: Если сервер будет выключен или будет выполнять другие задачи в это время, задача будет запущена как только сервер загрузится или завершит выполнение других задач.</value>
+  </data>
+  <data name="InvalidFrequencyAndRetry.Text" xml:space="preserve">
+    <value>Значения частоты и повтора некорректны, так как интервал повтора превышает интервал частоты</value>
   </data>
 </root>

@@ -45,6 +45,12 @@
   <data name="Authorized.Header" xml:space="preserve">
     <value>Авторизирован</value>
   </data>
+  <data name="CheckTracing.Text" xml:space="preserve">
+    <value>Включена трассировка - рассмотрите возможность изменения web.config для ее отключения (или воспользуйтесь диспетчером конфигурации)</value>
+  </data>
+  <data name="CheckTracingReason.Text" xml:space="preserve">
+    <value>Если трассировка включена, это позволяет потенциальным злоумышленникам наблюдать за работой сайта</value>
+  </data>
   <data name="CheckTracingSuccess.Text" xml:space="preserve">
     <value>Трассировка не включена</value>
   </data>
@@ -69,8 +75,63 @@
   <data name="LastName.Header" xml:space="preserve">
     <value>Фамилия</value>
   </data>
+  <data name="ScannerExplanation.Text" xml:space="preserve">
+    <value>На этой вкладке у вас есть возможность произвести поиск в файловой системе и базе данных по любой фразе, что полезно в том случае, если вы хотите обнаружить источник нежелательного содержимого, которое отображает ваш сайт</value>
+  </data>
   <data name="Username.Header" xml:space="preserve">
     <value>Имя пользователя</value>
+  </data>
+  <data name="CheckBiographyFailure.Text" xml:space="preserve">
+    <value>Поле формата richtext</value>
+  </data>
+  <data name="CheckBiographyReason.Text" xml:space="preserve">
+    <value>Поле биографии является частой целью для спаммеров, так как они добавляют в него ссылки и другой код HTML. Начиная с DNN 7.2.0 это поле использует многострочный текст, что снимает данный риск.</value>
+  </data>
+  <data name="CheckBiographySuccess.Text" xml:space="preserve">
+    <value>Поле - многострочный текст</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserFailure.Text" xml:space="preserve">
+    <value>Мы обнаружили 1 или более администраторов хостинга, которые не входили в систему или выполняли хоть какие-нибудь действия более шести месяцев. Лучше всего удалить таких пользователей</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserReason.Text" xml:space="preserve">
+    <value>Учетные записи администраторов хостинга - наиболее "могущественные" учетные записи DNN. Поэтому лучше всего ограничить их использование.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserSuccess.Text" xml:space="preserve">
+    <value>Все администраторы хостинга регулярно входят в систему и выполняют некоторые действия.</value>
+  </data>
+  <data name="CheckSiteRegistrationFailure.Text" xml:space="preserve">
+    <value>Один или более сайтов используют общедоступную регистрацию</value>
+  </data>
+  <data name="CheckSiteRegistrationReason.Text" xml:space="preserve">
+    <value>Сайты, использующие общедоступную регистрацию, являются главной мишенью для спаммеров.</value>
+  </data>
+  <data name="CheckSiteRegistrationSuccess.Text" xml:space="preserve">
+    <value>Все сайты используют тип регистрации, отличный от общедоступной</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordFailure.Text" xml:space="preserve">
+    <value>Как минимум один из администраторов хостинга использует один и тот же пароль более 6 месяцев.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordReason.Text" xml:space="preserve">
+    <value>Учетные записи администраторов хостинга - наиболее "могущественные" учетные записи DNN. Поэтому лучше всего, чтобы пароли для них менялись регулярно.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordSuccess.Text" xml:space="preserve">
+    <value>Не обнаружено администраторов хостинга, использующих пароли старше 6 месяцев.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsFailure.Text" xml:space="preserve">
+    <value>Обнаружены файлы с расширениями asp и php - они могут не представлять опасности, но иногла это признак того, что сайт был взломан и доступ к нему (через эти файлы) получили злоумышленники. Мы рекомендуем тщательно изучить эти файлы.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsReason.Text" xml:space="preserve">
+    <value>DNN является приложением ASP.NET. В общем случае, расширения других серверных приложений, такие как php и asp, не должны использоваться.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsSuccess.Text" xml:space="preserve">
+    <value>Неожиданные расширения не обнаружены</value>
+  </data>
+  <data name="CheckViewstatemacFailure.Text" xml:space="preserve">
+    <value>MAC состояния просмотра не включено</value>
+  </data>
+  <data name="CheckViewstatemacReason.Text" xml:space="preserve">
+    <value>MAC состояния просмотра это зашифрованная версия скрытой переменной, в которой хранится состояние страницы, когда страница отсылается в браузер. Когда это свойство включено, зашифрованное состояние просмотра проверяется для того, чтобы убедиться, что оно не было подделано на стороне клиента.
+</value>
   </data>
   <data name="CheckViewstatemacSuccess.Text" xml:space="preserve">
     <value>Состояние просмотра защищено с помощью MAC</value>
@@ -83,6 +144,21 @@
   </data>
   <data name="Severity.Header" xml:space="preserve">
     <value>Критичность</value>
+  </data>
+  <data name="CheckBiographyName.Text" xml:space="preserve">
+    <value>Проверяет, используется ли richtext для общедоступных полей профиля пользователя</value>
+  </data>
+  <data name="CheckDebugName.Text" xml:space="preserve">
+    <value>Проверяет, включен ли режим отладки</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserName.Text" xml:space="preserve">
+    <value>Проверяет, имеются ли в системе редко используемые учетные записи администраторов хостинга</value>
+  </data>
+  <data name="CheckSiteRegistrationName.Text" xml:space="preserve">
+    <value>Проверяет, используют ли сайты публичную регистрацию</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordName.Text" xml:space="preserve">
+    <value>Проверяет, имеются ли в системе администраторы хостинга, не регулярно меняющие пароль</value>
   </data>
   <data name="CheckTracingName.Text" xml:space="preserve">
     <value>Проверяет, включена ли трассировка asp.net</value>

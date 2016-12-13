@@ -51,11 +51,23 @@
   <data name="Actions.Text" xml:space="preserve">
     <value>Действия</value>
   </data>
+  <data name="introIgnoreWords.Text" xml:space="preserve">
+    <value>При выполнении поиска мы часто хотим избежать определенных слов, которые могут снизить ценность результатов поиска. Эта функция позволяет добавлять слова, которые будут игнорироваться поисковыми запросами.</value>
+  </data>
+  <data name="introSynonyms.Text" xml:space="preserve">
+    <value>Очень часто при поиске мы не знаем точно, что именно мы ищем. Иногда мы ищем слова, которые являются синонимами в надежде найти некоторый термин. Эта функция позволяет создавать синонимические отношения между терминами.</value>
+  </data>
   <data name="General.Text" xml:space="preserve">
     <value>Общие</value>
   </data>
   <data name="btnReIndex.Text" xml:space="preserve">
     <value>Переиндексировать содержимое</value>
+  </data>
+  <data name="MessageReIndexWarning.Text" xml:space="preserve">
+    <value>&lt;div align="left"&gt;
+        &lt;p&gt;&lt;b&gt;Переиндексирование&lt;/b&gt; удаляет все существующее содержимое поискового индекса и затем переиндексирует все содержимое сайта заново. &lt;br/&gt;
+        Переиндексирование выполняется как часть запланированной задачи краулера поиска. &lt;br/&gt;Краулер поисковой системы должен быть запущен вручную через Хост &gt; Планировщик для немедленного запуска переиндексирования. Переиндексирование выполняется только для текущего сайта.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Осторожно&lt;/b&gt; - Переиндексирование должно выполняться только в часы минимальной внешней нагрузки на сайты, так как эта процедура может сильно нагружать процессор.&lt;/p&gt;&lt;/div&gt;</value>
   </data>
   <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
     <value>Отмена</value>
@@ -74,6 +86,9 @@
   </data>
   <data name="lblSynonymsCultureList.Text" xml:space="preserve">
     <value>Выберите язык:</value>
+  </data>
+  <data name="DefaultStopwordGroup.Text" xml:space="preserve">
+    <value>без,вам,вас,весь,весь,все,всего,всех,дабы,даже,для,его,еще,ещё,затем,зачем,или,итого,как,коли,которая,которое,который,которых,лишь,меня,мне,над,нет,они,откуда,под,после,потом,почему,при,так,таким,только,тот,что</value>
   </data>
   <data name="DefaultSynonymGroup.Text" xml:space="preserve">
     <value>dnn,dotnetnuke</value>

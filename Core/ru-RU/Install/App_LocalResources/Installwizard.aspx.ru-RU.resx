@@ -69,6 +69,9 @@
   <data name="DbSecurityIntegrated.Text" xml:space="preserve">
     <value>Интегрированный</value>
   </data>
+  <data name="DbSecurityUserDefined.Text" xml:space="preserve">
+    <value>Определенный пользователем</value>
+  </data>
   <data name="FileAndFolderPermissionCheckTitle.Text" xml:space="preserve">
     <value>Проверяем разрешения файлов и папок</value>
   </data>
@@ -100,8 +103,20 @@
 
 </value>
   </data>
+  <data name="IsAbleToPerformDatabaseActionsCheck.Text" xml:space="preserve">
+    <value>Проверяем возможность пользователя базы даннных осуществлять необходимые действия</value>
+  </data>
+  <data name="IsAbleToPerformDatabaseActions.Text" xml:space="preserve">
+    <value>Пользователь вашей базы данных не имеет достаточных разрешений (dbo) для установки</value>
+  </data>
+  <data name="IsSqlServerDbo.Text" xml:space="preserve">
+    <value>Пользователь вашей базы данных не имеет разрешений dbo</value>
+  </data>
   <data name="IsValidDotNetVersion.Text" xml:space="preserve">
     <value>DotNetNuke требует для своей работы .net 4.0 или выше</value>
+  </data>
+  <data name="IsValidSqlServerVersionCheck.Text" xml:space="preserve">
+    <value>Проверяем версию базы данных. Для работы требуется SQL Server 2008 Express или полная версия данного продукта.</value>
   </data>
   <data name="IsValidSqlServerVersion.Text" xml:space="preserve">
     <value>DotNetNuke требует для своей работы SQL 2008 (express или полную версию)</value>
@@ -111,6 +126,9 @@
   </data>
   <data name="Password.Text" xml:space="preserve">
     <value>Пароль:</value>
+  </data>
+  <data name="RequiresFileOrDatabase.Text" xml:space="preserve">
+    <value>Требуется запись File или Database в узле connection файла DotNetNuke.Install.Config</value>
   </data>
   <data name="SqlTypeExpress.Text" xml:space="preserve">
     <value>Файл SQL Server Express</value>
@@ -175,17 +193,47 @@
   <data name="DatabasePassword.Help" xml:space="preserve">
     <value>Пароль к вашей базе данных.</value>
   </data>
+  <data name="DatabaseRunAs.Help" xml:space="preserve">
+    <value>Запустить базу данных от имени пользователя указанного типа.</value>
+  </data>
+  <data name="DatabaseSecurity.Help" xml:space="preserve">
+    <value>Тип безопасности, используемый базой данных.</value>
+  </data>
+  <data name="DatabaseServer.Help" xml:space="preserve">
+    <value>Имя сервера базы данных.</value>
+  </data>
+  <data name="DatabaseSetup.Help" xml:space="preserve">
+    <value>Стандартные или расширенные настройки базы данных.</value>
+  </data>
+  <data name="DatabaseType.Help" xml:space="preserve">
+    <value>Тип базы данных, используемой для установки.</value>
+  </data>
+  <data name="DatabaseUsername.Help" xml:space="preserve">
+    <value>Имя пользователя базы данных.</value>
+  </data>
+  <data name="Language.Help" xml:space="preserve">
+    <value>Язык содержимого создаваемого сайта.</value>
+  </data>
+  <data name="Password.Help" xml:space="preserve">
+    <value>Пароль администратора хостинга.</value>
+  </data>
   <data name="UserName.Help" xml:space="preserve">
     <value>Имя пользователя для учетной записи администратора хостинга.</value>
   </data>
   <data name="WebsiteName.Help" xml:space="preserve">
     <value>Введите имя для сайта.</value>
   </data>
+  <data name="WebsiteTemplate.Help" xml:space="preserve">
+    <value>Тип создаваемого веб-сайта.</value>
+  </data>
   <data name="DatabaseInstallation.Text" xml:space="preserve">
     <value>Информация о базе данных</value>
   </data>
   <data name="ExtensionsInstallation.Text" xml:space="preserve">
     <value>Установка расширений</value>
+  </data>
+  <data name="FileAndFolderPermissionCheck.Text" xml:space="preserve">
+    <value>Проверка разрешений на доступ к папкам и файлам</value>
   </data>
   <data name="LaunchInstall.Text" xml:space="preserve">
     <value>Запустить установщик</value>
@@ -220,6 +268,9 @@
   <data name="InstallingDataBaseScriptStep.Text" xml:space="preserve">
     <value>Устанавливаем сценарий базы данных</value>
   </data>
+  <data name="InstallingMembershipDatabaseScriptStep.Text" xml:space="preserve">
+    <value>Устанавливаем сценарии базы данных для участия</value>
+  </data>
   <data name="ProcessingUpgradeScript.Text" xml:space="preserve">
     <value>Применяем сценарий обновления</value>
   </data>
@@ -250,6 +301,9 @@
   <data name="IISVerificationFail.Text" xml:space="preserve">
     <value>Пул приложения в IIS должен использовать Интегрированный режим работы конвейера</value>
   </data>
+  <data name="InputErrorInvalidPassword.Text" xml:space="preserve">
+    <value>Введенный пароль не отвечает минимальным требованиям по сложности.</value>
+  </data>
   <data name="InputErrorMissingRequiredFields.Text" xml:space="preserve">
     <value>Не заполнены все необходимые поля</value>
   </data>
@@ -259,11 +313,26 @@
   <data name="TemplateBlank.Text" xml:space="preserve">
     <value>Пустой шаблон</value>
   </data>
+  <data name="NoInstallationLog.Text" xml:space="preserve">
+    <value>Журнал установки отсутствует</value>
+  </data>
+  <data name="NoErrorsLogged.Text" xml:space="preserve">
+    <value>В процессе установки ошибки не были зафиксированы</value>
+  </data>
   <data name="DatabaseFilename.Help" xml:space="preserve">
     <value>Имя файла базы данных.</value>
   </data>
+  <data name="InstallationIntroInfo.Text" xml:space="preserve">
+    <value>Продукт устанавливается. Подождите немного...</value>
+  </data>
   <data name="LicenseActivation.Text" xml:space="preserve">
     <value>Активация лицензии</value>
+  </data>
+  <data name="AccountInfo.Text" xml:space="preserve">
+    <value>Введите информацию об учетной записи</value>
+  </data>
+  <data name="Installation.Text" xml:space="preserve">
+    <value>Приступить к установке</value>
   </data>
   <data name="ViewWebsite.Text" xml:space="preserve">
     <value>Переключить сайт</value>
@@ -271,17 +340,27 @@
   <data name="Error.Text" xml:space="preserve">
     <value>Ошибка</value>
   </data>
+  <data name="InstallingExtensionType.Text" xml:space="preserve">
+    <value>Устанавливаем пакеты типа {0}</value>
+  </data>
   <data name="DatabaseConnectionError.Text" xml:space="preserve">
     <value>Ошибка соединения с базой данных</value>
   </data>
   <data name="DatabaseError.Text" xml:space="preserve">
     <value>Невозможно установить соединение с базой данных.</value>
   </data>
+  <data name="StandardDatabaseMsg.Text" xml:space="preserve">
+    <value>Нет доступных соединений с базой данных.
+Стандартная настройка базы данных недоступна.</value>
+  </data>
   <data name="TestingDatabase.Text" xml:space="preserve">
     <value>Проверяем соединение с базой данных.</value>
   </data>
   <data name="TimerSeconds.Text" xml:space="preserve">
     <value>секунд</value>
+  </data>
+  <data name="InvalidQualifier.Text" xml:space="preserve">
+    <value>Спецификатор объекта должен начинаться с буквы и быть длиной не более 20 символов.</value>
   </data>
   <data name="InstallationComplete.Text" xml:space="preserve">
     <value>Установка завершена!</value>
@@ -321,6 +400,37 @@
   </data>
   <data name="WebsiteName.Required" xml:space="preserve">
     <value>Укажите имя сайта.</value>
+  </data>
+  <data name="HostWarning.Text" xml:space="preserve">
+    <value>Имя хоста содержит недопустимые символы (только a-Z, 0-9, - и . разрешены).  Необходимо изменить имя хоста.</value>
+  </data>
+  <data name="FileAndFolderPermissionCheckFailed.Text" xml:space="preserve">
+    <value>&lt;div class="permission"&gt;&lt;img alt="Изображение, показывающее настройки безопасности для корневой папки сайта. Учетные записи ASPNET или NT AUTHORITY/NETWORK SERVICE имеют разрешения на чтение, запись и управление разрешениями." src="..\403-3.gif" align="right" hspace="10"/&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;У вашего сайте есть проблемы с настройками безопасности.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+С помощью проводника Windows перейдите к корневой папке веб-сайта ( {0} ). Щелкните правой кнопкой мыши на папку и выберите  "Общий доступ и безопасность" из всплывающего меню. Выберите вкладку Безопасность. Добавьте соответствующую учетную запись пользователя и установите права доступа.
+&lt;br/&gt;&lt;br/&gt;
+&lt;h3&gt;&lt;strong&gt;При использовании Windows 2000 - IIS5&lt;/h3&gt;
+&lt;p&gt;учетная запись пользователя ASPNET должна иметь разрешения на чтение, запись и управление разрешениями виртуального корня вашего сайта.&lt;/p&gt;
+&lt;h3&gt;При использовании Windows 2003 - IIS6 или Vista / Windows 2008 - IIS7&lt;/h3&gt;
+&lt;p&gt;учетная запись пользователя NT AUTHORITY\NETWORK SERVICE должна иметь разрешения на чтение, запись и управление изменениями виртуального корня вашего сайта.&lt;/p&gt;
+&lt;h3&gt;При использовании Windows 7 или Windows Server 2008 R2 и IIS7.5&lt;/h3&gt;
+&lt;p&gt;Учетная запись IIS AppPool\DefaultAppPool должна иметь разрешения на чтение, запись и управление разрешениями виртуального корня вашего сайта.&lt;/p&gt;&lt;p&gt;&lt;a class="dnnPrimaryAction" href=""&gt;Повторить проверку&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+		    </value>
+  </data>
+  <data name="InstallVersion.Text" xml:space="preserve">
+    <value>Добавляем InstallVersion</value>
+  </data>
+  <data name="FcnMode.Text" xml:space="preserve">
+    <value>Добавляем FcnMode</value>
+  </data>
+  <data name="Email.Help" xml:space="preserve">
+    <value>Введите адрес электронной почты пользователя</value>
+  </data>
+  <data name="Email.Invalid" xml:space="preserve">
+    <value>Укажите корректный электронный адрес</value>
+  </data>
+  <data name="Email.Required" xml:space="preserve">
+    <value>Укажите адрес эл. почты</value>
   </data>
   <data name="Email.Text" xml:space="preserve">
     <value>Адрес эл. почты:</value>

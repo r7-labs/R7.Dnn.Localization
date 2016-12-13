@@ -105,6 +105,9 @@
   <data name="Tab.ActivityFeed.FooterLeftPane.Module.Title.Text" xml:space="preserve">
     <value>Поддержка покупателей</value>
   </data>
+  <data name="Tab.ActivityFeed.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Присоединяйтесь</value>
+  </data>
   <data name="Tab.ActivityFeed.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
     <value>Корпорация "Крутые велики"</value>
   </data>
@@ -148,11 +151,17 @@
   <data name="Tab.AdvUrlManagement.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Расширенное управление URL</value>
   </data>
+  <data name="Tab.AdvUrlManagement.Description.Text" xml:space="preserve">
+    <value>Настройте расширенные URL.</value>
+  </data>
   <data name="Tab.ContentStaging.ContentPane.Module.Title.Text" xml:space="preserve">
-    <value>Стадии контента</value>
+    <value>Жизненный цикл содержимого</value>
+  </data>
+  <data name="Tab.ContentStaging.Description.Text" xml:space="preserve">
+    <value>Управление жизненным циклом содержимого сайта</value>
   </data>
   <data name="Tab.ContentStaging.Name.Text" xml:space="preserve">
-    <value>Стадии контента</value>
+    <value>Жизненный цикл содержимого</value>
   </data>
   <data name="Tab.DevicePreview.Content.Text" xml:space="preserve">
     <value>Управление препросмотром для устройств</value>
@@ -202,26 +211,68 @@
   <data name="Tab.GoogleAnalytics.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Аналитика Google</value>
   </data>
+  <data name="Tab.GoogleAnalytics.Description.Text" xml:space="preserve">
+    <value>Настройте Google Analytics для сайта.</value>
+  </data>
   <data name="Tab.GoogleAnalytics.Name.Text" xml:space="preserve">
     <value>Аналитика Google</value>
   </data>
   <data name="Tab.GoogleAnalytics.Title.Text" xml:space="preserve">
     <value>Аналитика Google</value>
   </data>
+  <data name="Tab.Home.CompanyIntro.Text" xml:space="preserve">
+    <value>DNN (ранее DotNetNuke) предоставляет набор решений для создания многофункциональных, удобных в использовании сайтов для клиентов, партнеров и сотрудников. Продукты и технологии DNN являются основой для 750,000+ сайтов по всему миру. В дополнение к нашей коммерческой CMS и рещениям для социальных сетей, DNN является распорядителем проекта DotNetNuke с открытым кодом.</value>
+  </data>
+  <data name="Tab.Home.Header.Content" xml:space="preserve">
+    <value>DNN&lt;sup&gt;&amp;reg;&lt;/sup&gt; делает его легким для вас процесс установки и использования платформы DNN&lt;sup&gt;&amp;reg;&lt;/sup&gt;. У нас есть много возможностей для того, чтобы удовлетворить ваши потребности, хотите ли вы попробовать CMS в облаке, установить его на своем собственном сервере или использовать его на персональном компьютере для разработки. Вы на расстоянии всего одного клика от начала работы с DNN&lt;sup&gt;&amp;reg;&lt;/sup&gt;.</value>
+  </data>
   <data name="Tab.Home.Header.Title" xml:space="preserve">
     <value>Каждое путешествие начинается с первого шага.</value>
+  </data>
+  <data name="Tab.Home.Main.Blog.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/community-blog?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=blog&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
   </data>
   <data name="Tab.Home.Main.Blog.Title" xml:space="preserve">
     <value>Блог</value>
   </data>
+  <data name="Tab.Home.Main.Blog.Tooltip" xml:space="preserve">
+    <value>Информационный и развлекательный, сложный и образовательный, блог сообщества DNN всегда предоставляет свежий контент, свежие идеи и новые мнения. Ныряйте смело.</value>
+  </data>
+  <data name="Tab.Home.Main.Forums.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/forums?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=forums&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
+  </data>
   <data name="Tab.Home.Main.Forums.Title" xml:space="preserve">
     <value>Форумы</value>
+  </data>
+  <data name="Tab.Home.Main.Forums.Tooltip" xml:space="preserve">
+    <value>Древнеримский форум был площадкой для публичных выступлений, коммерческих сделок и гладиаторских боев. Форум DNN является столь же важным местом для сообщества.</value>
+  </data>
+  <data name="Tab.Home.Main.LeaderBoard.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/leaderboard?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=leaderboard&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
+  </data>
+  <data name="Tab.Home.Main.LeaderBoard.Title" xml:space="preserve">
+    <value>Лидеры сообщества</value>
+  </data>
+  <data name="Tab.Home.Main.LeaderBoard.Tooltip" xml:space="preserve">
+    <value>Ваш вклад - это возможность заработать признание. Посмотрите на лидеров сообщества и подумайте, где вы могли бы пригодиться. Даже небольшой вклад - это прыжок, который поможет опередить других в гонке. Никто не против небольшого дружеского соревнования.</value>
+  </data>
+  <data name="Tab.Home.Main.OnlineHelp.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/help?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=online-help&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
   </data>
   <data name="Tab.Home.Main.OnlineHelp.Title" xml:space="preserve">
     <value>Онлайн-справка</value>
   </data>
+  <data name="Tab.Home.Main.OnlineHelp.Tooltip" xml:space="preserve">
+    <value>Вы просто не можете обойтись без некоторой помощи ваших друзей. Или некоторой помощи от обширной библиотеки DNN.</value>
+  </data>
+  <data name="Tab.Home.Main.QA.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/answers?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=q%26a&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
+  </data>
   <data name="Tab.Home.Main.QA.Title" xml:space="preserve">
     <value>Вопрос-ответ</value>
+  </data>
+  <data name="Tab.Home.Main.QA.Tooltip" xml:space="preserve">
+    <value>Вы не могли добраться сюда без того, чтобы у Вас не появилось несколько вопросов. У Вас даже может быть несколько ответов, чтобы внести свой вклад. В любом случае, направляйтесь на страницу Вопросы и Ответы.</value>
   </data>
   <data name="Tab.Home.Main.Shop.Link" xml:space="preserve">
     <value>http://store.dnnsoftware.com/?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=shop&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
@@ -232,11 +283,26 @@
   <data name="Tab.Home.Main.Shop.Tooltip" xml:space="preserve">
     <value>Вы можете написать много нового кода для того, чтобы сделать этот новый сайт первоклассным. Но можно просто купить свой путь к успеху в магазине DNN. Так вы быстрее добьетесь своей цели.</value>
   </data>
+  <data name="Tab.Home.Main.Title" xml:space="preserve">
+    <value>Присоединяйтесь к сообществу для общения и обучения</value>
+  </data>
+  <data name="Tab.Home.Main.Videos.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/videos?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=videos&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
+  </data>
   <data name="Tab.Home.Main.Videos.Title" xml:space="preserve">
     <value>Видео</value>
   </data>
+  <data name="Tab.Home.Main.Videos.Tooltip" xml:space="preserve">
+    <value>Лучше один раз увидеть. Что может быть лучше, чем смотреть онлайн видео в процессе работы? Видео-библиотека DNN - огромный кладезь полезной информации.</value>
+  </data>
+  <data name="Tab.Home.Main.Webinars.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/about/resources/webinars?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=webinars&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
+  </data>
   <data name="Tab.Home.Main.Webinars.Title" xml:space="preserve">
     <value>Вебинары</value>
+  </data>
+  <data name="Tab.Home.Main.Webinars.Tooltip" xml:space="preserve">
+    <value>Войдите в мир вебинаров DNN, где знающие люди делятся своими знаниями. Там Вы сможете узнать много нового и интересного.</value>
   </data>
   <data name="Tab.Home.Main.Wikis.Link" xml:space="preserve">
     <value>http://www.dnnsoftware.com/wiki?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=wiki&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
@@ -244,11 +310,35 @@
   <data name="Tab.Home.Main.Wikis.Title" xml:space="preserve">
     <value>Вики</value>
   </data>
+  <data name="Tab.Home.Main.Wikis.Tooltip" xml:space="preserve">
+    <value>DNN Вики постоянно расширяется, как и Вселенная. Но, в отличие от вселенной, Вы можете посетить все страницы Вики и внести свой вклад в ее развитие.</value>
+  </data>
   <data name="Tab.Home.PageName.Content" xml:space="preserve">
     <value>Главная</value>
   </data>
   <data name="Tab.Home.PageName.Title" xml:space="preserve">
     <value>Главная</value>
+  </data>
+  <data name="Tab.Home.Product.Content.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/solutions/evoq-content-management-system?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=evoq-content&amp;utm_content=7.3-banner&amp;utm_campaign=dnn-platform-home</value>
+  </data>
+  <data name="Tab.Home.Product.Content.Link.Title" xml:space="preserve">
+    <value>Создавайте содержимое и управляйте им</value>
+  </data>
+  <data name="Tab.Home.Product.Content.Text" xml:space="preserve">
+    <value>Богатое содержание, усиленная безопасность и улучшенное продвижение прямо в ваших руках</value>
+  </data>
+  <data name="Tab.Home.Product.Social.Link" xml:space="preserve">
+    <value>http://www.dnnsoftware.com/solutions/evoq-social-online-community-management?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=evoq-social&amp;utm_content=7.3-banner&amp;utm_campaign=dnn-platform-home</value>
+  </data>
+  <data name="Tab.Home.Product.Social.Link.Title" xml:space="preserve">
+    <value>Создавайте и взращивайте сообщества</value>
+  </data>
+  <data name="Tab.Home.Product.Social.Text" xml:space="preserve">
+    <value>Растите пользователей, позволяйте им создавать содержимое и привлекайте аудиторию с помощью онлайн-сообществ.</value>
+  </data>
+  <data name="Tab.Home.SocialLinks.Facebook.Link" xml:space="preserve">
+    <value>http://facebook.com/dotnetnuke</value>
   </data>
   <data name="Tab.Home.SocialLinks.LinkedIn.Link" xml:space="preserve">
     <value>http://www.linkedin.com/company/207975</value>
@@ -297,6 +387,9 @@
   </data>
   <data name="Tab.LogViewer.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Просмотр журнала</value>
+  </data>
+  <data name="Tab.LogViewer.Description.Text" xml:space="preserve">
+    <value>Просмотр журнала истории событий базы данных, таких как запуска задач по расписанию, исключений, входа в систему, изменений модулей и страниц, активности пользователей, ролей безопасности и др.</value>
   </data>
   <data name="Tab.LogViewer.Name.Text" xml:space="preserve">
     <value>Просмотр журнала</value>
@@ -369,6 +462,9 @@
   </data>
   <data name="Tab.MyFriends.FooterLeftPane.Module.Title.Text" xml:space="preserve">
     <value>Поддержка покупателей</value>
+  </data>
+  <data name="Tab.MyFriends.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Присоединяйтесь</value>
   </data>
   <data name="Tab.MyFriends.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
     <value>Корпорация "Крутые велики"</value>
@@ -470,6 +566,9 @@
   <data name="Tab.MyMessages.FooterLeftPane.Module.Title.Text" xml:space="preserve">
     <value>Поддержка покупателей</value>
   </data>
+  <data name="Tab.MyMessages.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Присоединяйтесь</value>
+  </data>
   <data name="Tab.MyMessages.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
     <value>Корпорация "Крутые велики"</value>
   </data>
@@ -567,6 +666,9 @@
   <data name="Tab.MyProfile.FooterLeftPane.Module.Title.Text" xml:space="preserve">
     <value>Поддержка покупателей</value>
   </data>
+  <data name="Tab.MyProfile.FooterRightOuterPane.Module.Title.Text" xml:space="preserve">
+    <value>Присоединяйтесь</value>
+  </data>
   <data name="Tab.MyProfile.FooterRightPane.Module.Content.0.Text" xml:space="preserve">
     <value>Корпорация "Крутые велики"</value>
   </data>
@@ -607,6 +709,9 @@
   <data name="Tab.Newsletters.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Рассылки</value>
   </data>
+  <data name="Tab.Newsletters.Description.Text" xml:space="preserve">
+    <value>Отправка сообщений электронной почты пользователям, ролям безопасности и по конкретным адресам электронной почты.</value>
+  </data>
   <data name="Tab.Newsletters.Name.Text" xml:space="preserve">
     <value>Рассылки</value>
   </data>
@@ -645,6 +750,9 @@
   </data>
   <data name="Tab.RecycleBin.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Корзина</value>
+  </data>
+  <data name="Tab.RecycleBin.Description.Text" xml:space="preserve">
+    <value>Просмотр, восстановление или окончательное удаление страниц и модулей, удаленных с сайта.</value>
   </data>
   <data name="Tab.RecycleBin.Name.Text" xml:space="preserve">
     <value>Корзина</value>
@@ -703,6 +811,9 @@
   <data name="Tab.Sharepoint.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Коннектор SharePoint</value>
   </data>
+  <data name="Tab.Sharepoint.Description.Text" xml:space="preserve">
+    <value>Модуль SharePoint Connector позволяет пользователям подключать и синхронизировать файлы между SharePoint и сервером DNN.</value>
+  </data>
   <data name="Tab.Sharepoint.Name.Text" xml:space="preserve">
     <value>Коннектор SharePoint</value>
   </data>
@@ -711,6 +822,9 @@
   </data>
   <data name="Tab.SiteLog.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Журнал событий</value>
+  </data>
+  <data name="Tab.SiteLog.Description.Text" xml:space="preserve">
+    <value>Просмотр статистических отчетов об активности на сайте.</value>
   </data>
   <data name="Tab.SiteLog.Name.Text" xml:space="preserve">
     <value>Журнал событий</value>
@@ -723,6 +837,9 @@
   </data>
   <data name="Tab.SiteMapSettings.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Карта сайта для поисковиков</value>
+  </data>
+  <data name="Tab.SiteMapSettings.Description.Text" xml:space="preserve">
+    <value>Настройка карты сайта для поисковых систем.</value>
   </data>
   <data name="Tab.SiteMapSettings.Name.Text" xml:space="preserve">
     <value>Карта сайта для поисковиков</value>
@@ -748,6 +865,9 @@
   <data name="Tab.SiteSettings.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Настройки сайта</value>
   </data>
+  <data name="Tab.SiteSettings.Description.Text" xml:space="preserve">
+    <value>Управление параметрами конфигурации портала.</value>
+  </data>
   <data name="Tab.SiteSettings.Name.Text" xml:space="preserve">
     <value>Настройки сайта</value>
   </data>
@@ -760,6 +880,9 @@
   <data name="Tab.SiteWizard.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Мастер сайта</value>
   </data>
+  <data name="Tab.SiteWizard.Description.Text" xml:space="preserve">
+    <value>Настройка параметров сайта, внешнего вида страниц и развертывание шаблона сайта с помощью пошагового мастера.</value>
+  </data>
   <data name="Tab.SiteWizard.Name.Text" xml:space="preserve">
     <value>Мастер сайта</value>
   </data>
@@ -770,7 +893,7 @@
     <value>Скины</value>
   </data>
   <data name="Tab.Skins.ContentPane.SkinDesignerModule.Title.Text" xml:space="preserve">
-    <value>Дизайнер скина</value>
+    <value>Конструктор тем</value>
   </data>
   <data name="Tab.Skins.ContentPane.SkinEditorModule.Title.Text" xml:space="preserve">
     <value>Редактор темы</value>
@@ -779,10 +902,10 @@
     <value>Управление ресурсами тем.</value>
   </data>
   <data name="Tab.Skins.Name.Text" xml:space="preserve">
-    <value>Скины</value>
+    <value>Темы</value>
   </data>
   <data name="Tab.Skins.Title.Text" xml:space="preserve">
-    <value>Скины</value>
+    <value>Темы</value>
   </data>
   <data name="Tab.Taxonomy.Content.Text" xml:space="preserve">
     <value>Таксономия</value>
@@ -820,17 +943,29 @@
   <data name="Tab.Vendors.ContentPane.Module.Title.Text" xml:space="preserve">
     <value>Поставщики</value>
   </data>
+  <data name="Tab.Vendors.Description.Text" xml:space="preserve">
+    <value>Управление учетными записями поставщиков, баннерной рекламой и рефералами портала.</value>
+  </data>
   <data name="Tab.Vendors.Name.Text" xml:space="preserve">
     <value>Поставщики</value>
   </data>
   <data name="Tab.Vendors.Title.Text" xml:space="preserve">
     <value>Поставщики</value>
   </data>
+  <data name="Tab.Home.Main.Blog.SubLink.Text" xml:space="preserve">
+    <value>Читать блог сообщества</value>
+  </data>
   <data name="Tab.Home.Main.Forums.SubLink.Text" xml:space="preserve">
     <value>Посетить форумы DNN</value>
   </data>
+  <data name="Tab.Home.Main.LeaderBoard.SubLink.Text" xml:space="preserve">
+    <value>Кто лидеры сообщества?</value>
+  </data>
   <data name="Tab.Home.Main.OnlineHelp.SubLink.Text" xml:space="preserve">
     <value>Просмотр онлайн-справки</value>
+  </data>
+  <data name="Tab.Home.Main.QA.SubLink.Text" xml:space="preserve">
+    <value>Вопросы и ответы</value>
   </data>
   <data name="Tab.Home.Main.Shop.SubLink.Text" xml:space="preserve">
     <value>За покупками в магазин DNN</value>
