@@ -84,6 +84,7 @@ internal class RemoveEmptyEntries
 						File.Delete (file + ".out");
 					}
 					else {
+						// TODO: Detect comments and schema removal
 						// replace original file
 						Console.WriteLine ("Empty entries removed from: {0}", file);
 						File.Delete (file);
