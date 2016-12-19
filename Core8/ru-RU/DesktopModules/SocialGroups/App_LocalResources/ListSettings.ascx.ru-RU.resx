@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Настройки модуля групп</value>
+  </data>
+  <data name="DefaultRoleGroup.Help" xml:space="preserve">
+    <value>Выберите группу ролей, содержащую роли, которые Вы хотите отображать.</value>
+  </data>
+  <data name="DefaultRoleGroup.Text" xml:space="preserve">
+    <value>Группа ролей по умолчанию</value>
+  </data>
+  <data name="GroupCreatePage.Help" xml:space="preserve">
+    <value>Укажите страницу, на которой пользователи смогут создавать новые группы.</value>
+  </data>
+  <data name="GroupListEnableSearch.Help" xml:space="preserve">
+    <value>Отметьте, чтобы разрешить пользователю фильтровать список отображаемых групп.</value>
+  </data>
+  <data name="GroupListEnableSearch.Text" xml:space="preserve">
+    <value>Включить поиск групп</value>
+  </data>
+  <data name="GroupListPageSize.Help" xml:space="preserve">
+    <value>Укажите количество групп, отображаемых на одной странице списка.</value>
+  </data>
+  <data name="GroupListPageSize.Text" xml:space="preserve">
+    <value>Групп на странице</value>
+  </data>
+  <data name="GroupListSortDirField.Help" xml:space="preserve">
+    <value>Выберите направление сортировки списка групп.</value>
+  </data>
+  <data name="GroupListSortDirField.Text" xml:space="preserve">
+    <value>Направление сортировки</value>
+  </data>
+  <data name="GroupListSortField.Help" xml:space="preserve">
+    <value>Выберите поле, которое будет использовано для сортировки списка групп.</value>
+  </data>
+  <data name="GroupListSortField.Text" xml:space="preserve">
+    <value>Сортировать по</value>
+  </data>
+  <data name="GroupListTemplateText.Help" xml:space="preserve">
+    <value>Вы можете изменить шаблон по-умолчанию для изменения внешнего вида списка групп. В шаблоне можно использовать метки: &lt;br /&gt;
+[groupitem:GroupName]&lt;br /&gt;
+[groupitem:GroupDescription]&lt;br /&gt;
+[groupitem:PhotoURL]&lt;br /&gt;
+[groupviewurl]&lt;br /&gt;</value>
+  </data>
+  <data name="GroupListTemplateText.Text" xml:space="preserve">
+    <value>Шаблон списка групп</value>
+  </data>
+  <data name="GroupListUserGroups.Help" xml:space="preserve">
+    <value>Отметьте для отображения только тех групп, в которых состоит текущий пользователь.</value>
+  </data>
+  <data name="GroupListUserGroups.Text" xml:space="preserve">
+    <value>Только группы пользователя</value>
+  </data>
+  <data name="GroupModeration.Help" xml:space="preserve">
+    <value>Отметьте, чтобы создание новых групп требовало утверждения модератором групп.</value>
+  </data>
+  <data name="GroupModeration.Text" xml:space="preserve">
+    <value>Требовать утверждения групп</value>
+  </data>
+  <data name="GroupViewPage.Help" xml:space="preserve">
+    <value>Выберите страницу, на которой пользователи будут просматривать конкретную группу.</value>
+  </data>
+  <data name="GroupViewTemplateText.Help" xml:space="preserve">
+    <value>Вы можете изменить шаблон по-умолчанию для изменения внешнего вида списка групп. В шаблоне можно использовать метки: &lt;br /&gt;
+[groupitem:GroupName]&lt;br /&gt;
+[groupitem:GroupDescription]&lt;br /&gt;
+[groupitem:PhotoURL]&lt;br /&gt;
+[groupviewurl]&lt;br /&gt;</value>
+  </data>
+  <data name="PageSizeValidation.Text" xml:space="preserve">
+    <value>Указан неверный размер страницы. (1-9999)</value>
+  </data>
+  <data name="ViewMode.Help" xml:space="preserve">
+    <value>Выберите используемый модулем режим отображения.</value>
+  </data>
+  <data name="ViewMode.Text" xml:space="preserve">
+    <value>Режим отображения модуля</value>
+  </data>
+</root>

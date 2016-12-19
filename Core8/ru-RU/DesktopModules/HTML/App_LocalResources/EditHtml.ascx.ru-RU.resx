@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPublish.Text" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="plPublish.Help" xml:space="preserve">
+    <value>Показывает, готов ли контент к публикации</value>
+  </data>
+  <data name="dshHistory.Text" xml:space="preserve">
+    <value>История изменений</value>
+  </data>
+  <data name="plPreviewVersion.Text" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="plPreviewVersion.Help" xml:space="preserve">
+    <value>Номер версии содержимого</value>
+  </data>
+  <data name="plPreviewWorkflowInUse.Text" xml:space="preserve">
+    <value>Рабочий процесс</value>
+  </data>
+  <data name="plPreviewWorkflowInUse.Help" xml:space="preserve">
+    <value>Имя рабочего процесса, используемого модулем в настоящий момент.</value>
+  </data>
+  <data name="lblPreviewWorkflowState.Text" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="plWorkflowState.Help" xml:space="preserve">
+    <value>Отображает текущее состояние содержимого</value>
+  </data>
+  <data name="Date.Header" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="State.Header" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Version.Header" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Item.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Восстановить содержимое в этой версии</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;P&gt;The Text/HTML Module renders plain text, rich text or HTML. Five different editing views are available: &lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Basic Text Box / Text&lt;/STRONG&gt;: Renders basic text and HTML tags.  Text entered on a new line is rendered as a line break. The text style is the Normal style, as set in your style sheet. 
+&lt;LI&gt;&lt;STRONG&gt;Basic Text Box / HTML&lt;/STRONG&gt;: Displays basic text in HTML format.
+&lt;LI&gt;&lt;STRONG&gt;Basic Text Box / Raw&lt;/STRONG&gt;: Displays basic text in HTML format. Text entered on a new line is not rendered as a line break.
+&lt;LI&gt;&lt;STRONG&gt;Rich Text Editor / HTML&lt;/STRONG&gt;: Allows you to paste HTML from other sources.
+&lt;LI&gt;&lt;STRONG&gt;Rich Text Editor / Design&lt;/STRONG&gt;: A full word processor or WYSIWYG (What You See is What You Get) editor with functionality such as hyperlinks, email links, File Manager image gallery, bullet points, spell check and more.</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Редактирование содержимого</value>
+  </data>
+  <data name="AddContent.Text" xml:space="preserve">
+    <value>Новое содержимое</value>
+  </data>
+  <data name="cmdPreview.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="User.Header" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="Content Staging.Text" xml:space="preserve">
+    <value>Движение контента</value>
+  </data>
+  <data name="Direct Publish.Text" xml:space="preserve">
+    <value>Прямая публикация</value>
+  </data>
+  <data name="Draft.Text" xml:space="preserve">
+    <value>Черновик</value>
+  </data>
+  <data name="Published.Text" xml:space="preserve">
+    <value>Опубликовано</value>
+  </data>
+  <data name="False.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="True.Text" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="dshMaster.Text" xml:space="preserve">
+    <value>Версия основного языка</value>
+  </data>
+  <data name="chkPublish.Text" xml:space="preserve">
+    <value>Публиковать изменения?</value>
+  </data>
+  <data name="plActionOnSave.Help" xml:space="preserve">
+    <value>Действие, которое должно быть выполнено дополнительно при сохранении содержимого модуля по нажатию на кнопку 'Сохранить'.</value>
+  </data>
+  <data name="plCurrentWorkflowInUse.Help" xml:space="preserve">
+    <value>Имя рабочего процесса, используемого модулем в настоящий момент.</value>
+  </data>
+  <data name="plCurrentWorkflowState.Help" xml:space="preserve">
+    <value>Текущее состояние используемого модулем рабочего процесса.</value>
+  </data>
+  <data name="plMaxVersions.Help" xml:space="preserve">
+    <value>Максимальное количество хранимых версий содержимого модуля.</value>
+  </data>
+  <data name="plPreviewWorkflowState.Help" xml:space="preserve">
+    <value>Состояние используемого модулем рабочего процесса для показанного содержимого.</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить эту версию</value>
+  </data>
+  <data name="cmdCancelSubmit.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="EditPreviewState.Text" xml:space="preserve">
+    <value>Редактировать предпросмотр</value>
+  </data>
+  <data name="plActionOnSave.Text" xml:space="preserve">
+    <value>Действие при сохранении</value>
+  </data>
+  <data name="plCurrentWorkflowInUse.Text" xml:space="preserve">
+    <value>Рабочий процесс</value>
+  </data>
+  <data name="plCurrentWorkflowState.Text" xml:space="preserve">
+    <value>Состояние рабочего процесса</value>
+  </data>
+  <data name="plMaxVersions.Text" xml:space="preserve">
+    <value>Хранить версий (не более)</value>
+  </data>
+  <data name="plPreviewWorkflowState.Text" xml:space="preserve">
+    <value>Состояние рабочего процессе</value>
+  </data>
+  <data name="dshCurrentContent.Text" xml:space="preserve">
+    <value>Текущее содержимое</value>
+  </data>
+  <data name="DeleteVersion.Confirm" xml:space="preserve">
+    <value>Уверены, что хотите удалить версию [VERSION] ([STATE]), созданную [DATECREATED] пользователем [USERNAME]? Это действие нельзя будет отменить!</value>
+  </data>
+  <data name="plCurrentWorkVersion.Help" xml:space="preserve">
+    <value>Номер версии содержимого</value>
+  </data>
+  <data name="plCurrentWorkVersion.Text" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>Нет истории содержимого. </value>
+  </data>
+  <data name="VersionsPreview.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="VersionsRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="VersionsRollback.Text" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="NoVersions.Text" xml:space="preserve">
+    <value>Нет версий содержимого.</value>
+  </data>
+  <data name="cmdHistory.Text" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="cmdHideMasterContent.Text" xml:space="preserve">
+    <value>Скрыть версию на исходном языке</value>
+  </data>
+  <data name="cmdShowMasterContent.Text" xml:space="preserve">
+    <value>Показать версию на исходном языке</value>
+  </data>
+  <data name="liBasicText.Text" xml:space="preserve">
+    <value>Простой текст</value>
+  </data>
+  <data name="liRichText.Text" xml:space="preserve">
+    <value>С форматированием</value>
+  </data>
+</root>

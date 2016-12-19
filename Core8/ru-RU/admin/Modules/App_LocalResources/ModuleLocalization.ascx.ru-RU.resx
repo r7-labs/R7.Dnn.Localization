@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Культура</value>
+  </data>
+  <data name="UnBound.Header" xml:space="preserve">
+    <value>Отделен от оригинала?</value>
+  </data>
+  <data name="markModuleTranslated.Text" xml:space="preserve">
+    <value>Пометить как переведенный</value>
+  </data>
+  <data name="markModuleUnTranslated.Text" xml:space="preserve">
+    <value>Пометить как НЕ переведеный</value>
+  </data>
+  <data name="ModuleTitle.Header" xml:space="preserve">
+    <value>Заголовок модуля</value>
+  </data>
+  <data name="Translated.Header" xml:space="preserve">
+    <value>Переведен?</value>
+  </data>
+  <data name="NA.Text" xml:space="preserve">
+    <value>Н/Д</value>
+  </data>
+  <data name="Edit.Header" xml:space="preserve">
+    <value>Редактирование</value>
+  </data>
+  <data name="ModuleType.Header" xml:space="preserve">
+    <value>Модуль</value>
+  </data>
+  <data name="bindModule.Text" xml:space="preserve">
+    <value>Ссылка на оригинал</value>
+  </data>
+  <data name="unbindModule.Text" xml:space="preserve">
+    <value>Отделить от оригинала</value>
+  </data>
+  <data name="BindConfirm.Text" xml:space="preserve">
+    <value>Связывает модуль с оригинальной версией на базовом языке - при этом все переводы будут потеряны. Это действие нельзя отменить. Уверены, что хотите продолжить?</value>
+  </data>
+</root>

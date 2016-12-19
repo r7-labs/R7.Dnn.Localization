@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Добавить новое правило</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Отмена редактирования</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить правило</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Редактировать правило</value>
+  </data>
+  <data name="plServerVar.Text" xml:space="preserve">
+    <value>Переменная сервера</value>
+  </data>
+  <data name="plOperator.Text" xml:space="preserve">
+    <value>Оператор</value>
+  </data>
+  <data name="plValue.Text" xml:space="preserve">
+    <value>Совпадение</value>
+  </data>
+  <data name="plAction.Text" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="plLocation.Text" xml:space="preserve">
+    <value>Место</value>
+  </data>
+  <data name="saveRule.Text" xml:space="preserve">
+    <value>Сохранить правило</value>
+  </data>
+  <data name="unauthorized.Text" xml:space="preserve">
+    <value>У учётной записи приложения  нет прав для изменения файла DotNetNuke.config. Эта ошибка может произойти, если файл DotNetNuke.config отмечен как "Только для чтения" или, если сконфигурированная учётная запись приложения не имеет разрешений для редактирования файла.</value>
+  </data>
+  <data name="plAction.Help" xml:space="preserve">
+    <value>Выберите действие, которое следует выполнить, если поступающий запрос соответствует этому правилу.</value>
+  </data>
+  <data name="plLocation.Help" xml:space="preserve">
+    <value>Введите URL, куда  переадресовывать пользователя, если поступивший запрос соответствует этому правилу. Это значение  используется только для действий Redirect и PermanentRedirect</value>
+  </data>
+  <data name="plOperator.Help" xml:space="preserve">
+    <value>Выберите оператор, который следует использовать при сравнении поступившего запроса с указанной переменной сервера и списком значений.</value>
+  </data>
+  <data name="plServerVar.Help" xml:space="preserve">
+    <value>Определяет переменную сервера для  использования при фильтрации поступающих запросов. Полный список допустимых серверных переменных  может быть найден на MSDN.</value>
+  </data>
+  <data name="plValue.Help" xml:space="preserve">
+    <value>Определяет значение серверной переменной, которая вызывает правило. Для правила regex, значение должно быть регулярным выражением, которое используется как  выражение сравнения. Если это не regex операция, то значение может быть списком значений, разделенным точками с запятой .</value>
+  </data>
+  <data name="lblServerVarLink.Text" xml:space="preserve">
+    <value>Перейти на &lt;a href="http://msdn.microsoft.com/en-us/library/ms524602(v=vs.90).aspx"" class="CommandButton" target="_blank" &gt;MSDN&lt;/a&gt; для просмотра списка переменных.</value>
+  </data>
+  <data name="lblWarning.Text" xml:space="preserve">
+    <value>Предупреждение: Добавление неправильного правила фильтра запроса может препятствовать Вам или вашим клиентам обратиться к вашему сайту DNN, и может потребовать ручного редактирования файла DotNetNuke.config, чтобы удалить неправильно сконфигурированное правило.</value>
+  </data>
+</root>

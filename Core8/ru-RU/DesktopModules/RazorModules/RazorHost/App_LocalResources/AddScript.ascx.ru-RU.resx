@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VBHTML.Text" xml:space="preserve">
+    <value>Файл vbhtml (VB.NET)</value>
+  </data>
+  <data name="fileTypeLabel.Help" xml:space="preserve">
+    <value>Выберите тип создаваемого сценария Razor (cshtml для языка C# и vbhtml для VB.NET)</value>
+  </data>
+  <data name="CSHTML.Text" xml:space="preserve">
+    <value>Файл cshtml (C#)</value>
+  </data>
+  <data name="fileTypeLabel.Text" xml:space="preserve">
+    <value>Тип файла:</value>
+  </data>
+  <data name="fileNameLabel.Help" xml:space="preserve">
+    <value>Введите имя файла сценария. Имя будет автоматически дополненно нижним подчеркиванием "_".</value>
+  </data>
+  <data name="fileNameLabel.Text" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="createNewScript.Text" xml:space="preserve">
+    <value>Для создания нового файла сценария Razor, выберите тип и введите имя файла. Новый файл будет создан в папке Scripts.</value>
+  </data>
+  <data name="NewScript.Text" xml:space="preserve">
+    <value>&lt;h2&gt;Новый сценарий Razor&lt;/h2&gt;</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Добавить сценарий</value>
+  </data>
+</root>

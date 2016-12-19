@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LocalizedTemplateName.Text" xml:space="preserve">
+    <value>Пустой сайт</value>
+  </data>
+  <data name="Setting.DefaultLanguage.Text" xml:space="preserve">
+    <value>ru-RU</value>
+  </data>
+  <data name="Setting.FooterText.Text" xml:space="preserve">
+    <value>Все права защищены [year], корпорация DNN</value>
+  </data>
+  <data name="PortalDescription.Text" xml:space="preserve">
+    <value>Пустой шаблон</value>
+  </data>
+  <data name="Tab.Home.Name.Text" xml:space="preserve">
+    <value>Домашняя</value>
+  </data>
+  <data name="RoleGroup.Description.Text" xml:space="preserve">
+    <value>Имя, представляющее Глобальные роли</value>
+  </data>
+  <data name="Tab.About.RightPane.OtherModule.Content.8.Text" xml:space="preserve">
+    <value>Оставить отзыв</value>
+  </data>
+  <data name="Tab.SearchAdmin.ContentPane.Module.Title.Text" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.SearchAdmin.Description.Text" xml:space="preserve">
+    <value>Администрирование поиска</value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Content.Text" xml:space="preserve">
+    <value>Приносим свои извинения - страница, которую Вы пытаетесь открыть, не найдена. Возможно, она удалена, переименована или временно недоступна. Рекомендуем вернуться на главную страницу и начать заново. Свяжитесь с нами, если данная ошибка продолжит Вас беспокоить.</value>
+  </data>
+  <data name="Tab.404ErrorPage..Module.Title.Text" xml:space="preserve">
+    <value>Страница не найдена</value>
+  </data>
+  <data name="Tab.404ErrorPage.Content.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
+  </data>
+  <data name="Tab.404ErrorPage.Title.Text" xml:space="preserve">
+    <value>Страница ошибки 404</value>
+  </data>
+  <data name="Tab.MyProfile.Title.Text" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Tab.Extensions.Title.Text" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="Tab.PortalAdministration.Title.Text" xml:space="preserve">
+    <value>Website Administration</value>
+  </data>
+  <data name="Tab.MyFriends.Title.Text" xml:space="preserve">
+    <value>My Friends</value>
+  </data>
+  <data name="Tab.MyMessages.Title.Text" xml:space="preserve">
+    <value>My Messages</value>
+  </data>
+  <data name="Tab.SecurityRoles.Title.Text" xml:space="preserve">
+    <value>Security Roles</value>
+  </data>
+  <data name="Tab.SiteSettings.Title.Text" xml:space="preserve">
+    <value>Site Settings</value>
+  </data>
+  <data name="Tab.UserAccounts.Title.Text" xml:space="preserve">
+    <value>User Accounts</value>
+  </data>
+  <data name="Tab.SearchResultsCE.Title.Text" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Tab.Taxonomy.Title.Text" xml:space="preserve">
+    <value>Taxonomy</value>
+  </data>
+  <data name="Tab.DigitalAssetsManagement.Title.Text" xml:space="preserve">
+    <value>File Management</value>
+  </data>
+</root>

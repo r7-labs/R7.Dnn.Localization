@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;p&gt;The Text/HTML Module renders plain text, rich text or HTML. Five different editing views are available: &lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;Basic Text Box / Text&lt;/strong&gt;: Renders basic text and HTML tags.  Text entered on a new line is rendered as a line break. The text style is the Normal style, as set in your style sheet.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Basic Text Box / HTML&lt;/strong&gt;: Displays basic text in HTML format.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Basic Text Box / Raw&lt;/strong&gt;: Displays basic text in HTML format. Text entered on a new line is not rendered as a line break.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Rich Text Editor / HTML&lt;/strong&gt;: Allows you to paste HTML from other sources.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Rich Text Editor / Design&lt;/strong&gt;: A full word processor or WYSIWYG (What You See is What You Get) editor with functionality such as hyperlinks, email links, File Manager image gallery, bullet points, spell check and more.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;p&gt;In addition the module also supports version management and workflow.  In  Community Edition two modes of workflow are available - Direct Publish and Content Staging.&lt;/p&gt;</value>
+  </data>
+  <data name="AddContent.Text" xml:space="preserve">
+    <value>Нажмите здесь для изменения содержимого</value>
+  </data>
+  <data name="AddContentFromToolBar.Text" xml:space="preserve">
+    <value>Выберите команду "Редактировать" в меню действий модуля.</value>
+  </data>
+  <data name="AddContentFromActionMenu.Text" xml:space="preserve">
+    <value>Чтобы изменить содержимое модуля, включите режим редактирования на панели инструментов. Затем можно использовать меню или кнопки действий модуля для управления содержимым</value>
+  </data>
+  <data name="Workflow.Action" xml:space="preserve">
+    <value>Рабочий процесс</value>
+  </data>
+  <data name="MyWork.Action" xml:space="preserve">
+    <value>Управление содержимым</value>
+  </data>
+  <data name="Bold.ToolTip" xml:space="preserve">
+    <value>Полужирный</value>
+  </data>
+  <data name="Indent.ToolTip" xml:space="preserve">
+    <value>Увеличить отступ</value>
+  </data>
+  <data name="Italic.ToolTip" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="Outdent.ToolTip" xml:space="preserve">
+    <value>Уменьшить отступ</value>
+  </data>
+  <data name="Underline.ToolTip" xml:space="preserve">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="Cancel.ToolTip" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="CreateLink.ToolTip" xml:space="preserve">
+    <value>Создать ссылку</value>
+  </data>
+  <data name="Edit.ToolTip" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="JustifyCenter.ToolTip" xml:space="preserve">
+    <value>По центру</value>
+  </data>
+  <data name="JustifyLeft.ToolTip" xml:space="preserve">
+    <value>По левому краю</value>
+  </data>
+  <data name="JustifyRight.ToolTip" xml:space="preserve">
+    <value>По правому краю</value>
+  </data>
+  <data name="OrderedList.ToolTip" xml:space="preserve">
+    <value>Нумерованный список</value>
+  </data>
+  <data name="Save.ToolTip" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="UnorderedList.ToolTip" xml:space="preserve">
+    <value>Маркированный список</value>
+  </data>
+</root>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Tabs.Text" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="cmdRestoreTab.Help" xml:space="preserve">
+    <value>Восстановить выбранные страницы</value>
+  </data>
+  <data name="cmdDeleteTab.Help" xml:space="preserve">
+    <value>Удалить выбранные страницы</value>
+  </data>
+  <data name="Modules.Text" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="cmdRestoreModule.Help" xml:space="preserve">
+    <value>Восстановить выбранные модули на указанную страницу</value>
+  </data>
+  <data name="cmdDeleteModule.Help" xml:space="preserve">
+    <value>Удалить выбранный модуль безвозвратно</value>
+  </data>
+  <data name="cmdEmpty.Text" xml:space="preserve">
+    <value>Очистить корзину</value>
+  </data>
+  <data name="DeleteTab.Text" xml:space="preserve">
+    <value>Уверены, что хотите безвозвратно удалить эту сраницу?</value>
+  </data>
+  <data name="DeleteModule.Text" xml:space="preserve">
+    <value>Уверены, что хотите безвозвратно удалить этот модуль?</value>
+  </data>
+  <data name="DeleteAll.Text" xml:space="preserve">
+    <value>Уверены, что хотите безвозвратно удалить все модули и страницы?</value>
+  </data>
+  <data name="ParentTab.ErrorMessage" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Страница не может быть удалена до тех пор, пока не будут удалены ее зависимые страницы.</value>
+  </data>
+  <data name="ChildTab.ErrorMessage" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Страница не может быть восстановлена до тех пор, пока не будет восстановлена ее страница-предок.</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="cmdRestoreTab.Text" xml:space="preserve">
+    <value>Восстановить выбранную страницу</value>
+  </data>
+  <data name="cmdDeleteTab.Text" xml:space="preserve">
+    <value>Удалить выбранную страницу</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О корзине&lt;/h1&gt;
+&lt;p&gt;Корзина предоставляет возможность восстановления удаленных в нее модулей и страниц, а также безвозвратного удаления модулей и страниц.&lt;/p&gt;</value>
+  </data>
+  <data name="allLocales.Text" xml:space="preserve">
+    <value>Показывать страницы и модули всех языков</value>
+  </data>
+  <data name="singleLocale.Text" xml:space="preserve">
+    <value>Показывать страницы и модули только на текущем языке</value>
+  </data>
+  <data name="cmdDeleteModule.Text" xml:space="preserve">
+    <value>Удалить выбранный модуль(и)</value>
+  </data>
+  <data name="cmdRestoreModule.Text" xml:space="preserve">
+    <value>Восстановить выбранные модули на указанную страницу</value>
+  </data>
+  <data name="TabDeleted.ErrorMessage" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; модуль не может быть восстановлен до тех пор, пока страница, на которой он размещен, также не будет восстановлена.</value>
+  </data>
+  <data name="NoTabSelected.Text" xml:space="preserve">
+    <value>Вы не выбрали ни одной страницы для восстановления.</value>
+  </data>
+  <data name="RestoreTab.Text" xml:space="preserve">
+    <value>Уверены, что хотите восстановить также и все подчиненные страницы для выбранных страниц?</value>
+  </data>
+</root>

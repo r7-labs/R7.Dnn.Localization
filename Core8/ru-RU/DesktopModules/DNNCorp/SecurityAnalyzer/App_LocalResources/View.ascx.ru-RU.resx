@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuditChecks.Text" xml:space="preserve">
+    <value>Проверки безопасности</value>
+  </data>
+  <data name="SuperuserActivity.Text" xml:space="preserve">
+    <value>Активность администратора хостинга</value>
+  </data>
+  <data name="CheckDebugFailure.Text" xml:space="preserve">
+    <value>Включен режим отладки - его можно отключить в файле web.config (или посредством диспетчера конфигурации)</value>
+  </data>
+  <data name="CheckDebugReason.Text" xml:space="preserve">
+    <value>Включение режима отладки отрицательно влияет на производительность и может раскрыть потенциально полезную для злоумышленников информацию.</value>
+  </data>
+  <data name="CheckDebugSuccess.Text" xml:space="preserve">
+    <value>Не в режиме отладки</value>
+  </data>
+  <data name="cmdCheck.Text" xml:space="preserve">
+    <value>Проверить</value>
+  </data>
+  <data name="cmdSearch.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="plSearchTerm.Text" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="cmdModifiedFiles.Text" xml:space="preserve">
+    <value>Find Recently Modified Files</value>
+  </data>
+  <data name="ScannerChecks.Text" xml:space="preserve">
+    <value>Проверки</value>
+  </data>
+  <data name="AuditExplanation.Text" xml:space="preserve">
+    <value>Ниже представлены результаты автоматического сканирования потенциальных проблем безопасности</value>
+  </data>
+  <data name="Authorized.Header" xml:space="preserve">
+    <value>Авторизирован</value>
+  </data>
+  <data name="CheckTracing.Text" xml:space="preserve">
+    <value>Включена трассировка - рассмотрите возможность изменения web.config для ее отключения (или воспользуйтесь диспетчером конфигурации)</value>
+  </data>
+  <data name="CheckTracingReason.Text" xml:space="preserve">
+    <value>Если трассировка включена, это позволяет потенциальным злоумышленникам наблюдать за работой сайта</value>
+  </data>
+  <data name="CheckTracingSuccess.Text" xml:space="preserve">
+    <value>Трассировка не включена</value>
+  </data>
+  <data name="CreatedDate.Header" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="DisplayName.Header" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="Email.Header" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="FirstName.Header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="LastActivityDate.Header" xml:space="preserve">
+    <value>Последняя активность</value>
+  </data>
+  <data name="LastLogin.Header" xml:space="preserve">
+    <value>Последний вход</value>
+  </data>
+  <data name="LastName.Header" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Username.Header" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="CheckBiographyFailure.Text" xml:space="preserve">
+    <value>Поле формата richtext. Спаммеры могут добавлять в него ссылки на свои сайты.</value>
+  </data>
+  <data name="CheckBiographyReason.Text" xml:space="preserve">
+    <value>Поле биографии является частой целью для спаммеров, так как они добавляют в него ссылки и другой код HTML. Начиная с DNN 7.2.0 это поле использует многострочный текст, что снимает данный риск.</value>
+  </data>
+  <data name="CheckBiographySuccess.Text" xml:space="preserve">
+    <value>Поле - многострочный текст</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserFailure.Text" xml:space="preserve">
+    <value>Мы обнаружили 1 или более администраторов хостинга, которые не входили в систему или выполняли хоть какие-нибудь действия более шести месяцев. Лучше всего удалить таких пользователей</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserReason.Text" xml:space="preserve">
+    <value>Учетные записи администраторов хостинга - наиболее "могущественные" учетные записи DNN. Поэтому лучше всего ограничить их использование.</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserSuccess.Text" xml:space="preserve">
+    <value>Все администраторы хостинга регулярно входят в систему и выполняют некоторые действия.</value>
+  </data>
+  <data name="CheckSiteRegistrationFailure.Text" xml:space="preserve">
+    <value>Один или более сайтов используют общедоступную регистрацию</value>
+  </data>
+  <data name="CheckSiteRegistrationReason.Text" xml:space="preserve">
+    <value>Сайты, использующие общедоступную регистрацию, являются главной мишенью для спаммеров.</value>
+  </data>
+  <data name="CheckSiteRegistrationSuccess.Text" xml:space="preserve">
+    <value>Все сайты используют тип регистрации, отличный от общедоступной</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordFailure.Text" xml:space="preserve">
+    <value>Как минимум один из администраторов хостинга использует один и тот же пароль более 6 месяцев.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordReason.Text" xml:space="preserve">
+    <value>Учетные записи администраторов хостинга - наиболее "могущественные" учетные записи DNN. Поэтому лучше всего, чтобы пароли для них менялись регулярно.</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordSuccess.Text" xml:space="preserve">
+    <value>Не обнаружено администраторов хостинга, использующих пароли старше 6 месяцев.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsFailure.Text" xml:space="preserve">
+    <value>Обнаружены файлы с расширениями asp и php - они могут не представлять опасности, но иногла это признак того, что сайт был взломан и доступ к нему (через эти файлы) получили злоумышленники. Мы рекомендуем тщательно изучить эти файлы.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsReason.Text" xml:space="preserve">
+    <value>DNN является приложением ASP.NET. В общем случае, расширения других серверных приложений, такие как php и asp, не должны использоваться.</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsSuccess.Text" xml:space="preserve">
+    <value>Неожиданные расширения не обнаружены</value>
+  </data>
+  <data name="CheckViewstatemacFailure.Text" xml:space="preserve">
+    <value>MAC состояния просмотра не включено</value>
+  </data>
+  <data name="CheckViewstatemacReason.Text" xml:space="preserve">
+    <value>MAC состояния просмотра это зашифрованная версия скрытой переменной, в которой хранится состояние страницы, когда страница отсылается в браузер. Когда это свойство включено, зашифрованное состояние просмотра проверяется для того, чтобы убедиться, что оно не было подделано на стороне клиента.
+</value>
+  </data>
+  <data name="CheckViewstatemacSuccess.Text" xml:space="preserve">
+    <value>Состояние просмотра защищено с помощью MAC</value>
+  </data>
+  <data name="CheckPurpose.Header" xml:space="preserve">
+    <value>Цель проверки</value>
+  </data>
+  <data name="Result.Header" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Severity.Header" xml:space="preserve">
+    <value>Критичность</value>
+  </data>
+  <data name="CheckBiographyName.Text" xml:space="preserve">
+    <value>Проверяет, используется ли richtext для общедоступных полей профиля пользователя</value>
+  </data>
+  <data name="CheckDebugName.Text" xml:space="preserve">
+    <value>Проверяет, включен ли режим отладки</value>
+  </data>
+  <data name="CheckRarelyUsedSuperuserName.Text" xml:space="preserve">
+    <value>Проверяет, имеются ли в системе редко используемые учетные записи администраторов хостинга</value>
+  </data>
+  <data name="CheckSiteRegistrationName.Text" xml:space="preserve">
+    <value>Проверяет, используют ли сайты публичную регистрацию</value>
+  </data>
+  <data name="CheckSuperuserOldPasswordName.Text" xml:space="preserve">
+    <value>Проверяет, имеются ли в системе администраторы хостинга, не регулярно меняющие пароль</value>
+  </data>
+  <data name="CheckTracingName.Text" xml:space="preserve">
+    <value>Проверяет, включена ли трассировка asp.net</value>
+  </data>
+  <data name="CheckUnexpectedExtensionsName.Text" xml:space="preserve">
+    <value>Проверяет, присутствуют ли файлы asp/php</value>
+  </data>
+  <data name="CheckDefaultPageName.Text" xml:space="preserve">
+    <value>Check if default.aspx or default.aspx.cs files have been modified</value>
+  </data>
+  <data name="CheckDefaultPageFailure.Text" xml:space="preserve">
+    <value>The default page(s) have been modified. We recommend you evaluate these files carefully, they may be modified by a hacker and may contain malicious code. It is best to compare these files with that from a standard install of your product. Ensure that the DNN or Evoq version of your current site matches with the standard site prior to comparison. Either remove the malicious code or restore these files from standard installation.</value>
+  </data>
+  <data name="CheckDefaultPageReason.Text" xml:space="preserve">
+    <value>DNN use default.aspx to load everything, so all requests will load this file when user browse the site, if someone modify this file, it may cause huge risk.</value>
+  </data>
+  <data name="CheckDefaultPageSuccess.Text" xml:space="preserve">
+    <value>The default.aspx and default.aspx.cs pages haven't been modified.</value>
+  </data>
+  <data name="CheckViewstatemacName.Text" xml:space="preserve">
+    <value>Проверяет, защищено ли состояние просмотра</value>
+  </data>
+  <data name="NoDatabaseResults.Text" xml:space="preserve">
+    <value>Поисковая фраза не найдена в базе данных.</value>
+  </data>
+  <data name="NoFileResults.Text" xml:space="preserve">
+    <value>Поисковая фраза не найдена ни в одном файле.</value>
+  </data>
+  <data name="SearchTermRequired.Text" xml:space="preserve">
+    <value>Требуется поисковая фраза</value>
+  </data>
+  <data name="CheckTracingFailure.Text" xml:space="preserve">
+    <value>Трассировка включена - это позволяет потенциальным злоумышленникам следить за работой сайта.</value>
+  </data>
+  <data name="Filename.Header" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="LastModifiedDate.Header" xml:space="preserve">
+    <value>Last Modification Date</value>
+  </data>
+  <data name="ModifiedFiles.Text" xml:space="preserve">
+    <value>Recently Modified Files</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterFailure.Text" xml:space="preserve">
+    <value>There are modules in your system that have header and footer settings, please review them to make sure no phishing code is present.</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterName.Text" xml:space="preserve">
+    <value>Check Modules have Header or Footer settings</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterReason.Text" xml:space="preserve">
+    <value>Hackers may use module's header or footer settings to inject content for phishing attacks.</value>
+  </data>
+  <data name="CheckModuleHeaderAndFooterSuccess.Text" xml:space="preserve">
+    <value>No modules were found that had header or footer values configured.</value>
+  </data>
+  <data name="CheckDiskAccessName.Text" xml:space="preserve">
+    <value>Checks extra drives/folders access permission outside the website folder</value>
+  </data>
+  <data name="CheckDiskAccessFailure.Text" xml:space="preserve">
+    <value>Hackers could access drives/folders outside the website</value>
+  </data>
+  <data name="CheckDiskAccessReason.Text" xml:space="preserve">
+    <value>The user which your website is running under has access to drives and folders outside the website location. A hacker could access these files and either read, write, or do both activities.</value>
+  </data>
+  <data name="CheckDiskAccessSuccess.Text" xml:space="preserve">
+    <value>Hackers cannot access drives/folders outside the website</value>
+  </data>
+  <data name="HostSettings.Text" xml:space="preserve">
+    <value>Host Settings</value>
+  </data>
+  <data name="ModifiedSettings.Text" xml:space="preserve">
+    <value>Recently Modified Settings</value>
+  </data>
+  <data name="ModuleSettings.Text" xml:space="preserve">
+    <value>Module Settings</value>
+  </data>
+  <data name="PortalSettings.Text" xml:space="preserve">
+    <value>Portal Settings</value>
+  </data>
+  <data name="TabSettings.Text" xml:space="preserve">
+    <value>Tab Settings</value>
+  </data>
+  <data name="ModifiedFilesLoadWarning.Text" xml:space="preserve">
+    <value>Tool will enumerate all files in your system to show the recently changed files. It may take a while on a site with lots of files.</value>
+  </data>
+  <data name="SuperUserActivityExplaination.Text" xml:space="preserve">
+    <value>Below are the SuperUser activities. Look for suspicious activities here. Pay close attention to the Creation and Last Login Dates. </value>
+  </data>
+  <data name="CheckPasswordFormatName.Text" xml:space="preserve">
+    <value>Check Password Format Setting</value>
+  </data>
+  <data name="CheckPasswordFormatFailure.Text" xml:space="preserve">
+    <value>The setting passwordFormat is not set to Hashed in web.config - consider editing web.config and setting it to Hashed (or use the configuration manager)</value>
+  </data>
+  <data name="CheckPasswordFormatReason.Text" xml:space="preserve">
+    <value>If the value is Clear or Encrypters, hacker can retrieve password from user's password from database.</value>
+  </data>
+  <data name="CheckPasswordFormatSuccess.Text" xml:space="preserve">
+    <value>The passwordFormat is set as Hashed in web.config</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsFailure.Text" xml:space="preserve">
+    <value>Either aspx, asp or php files were found in allowable file extensions setting. This will allow hackers to upload code. Remove these extensions at Host &gt; Host Settings &gt; Other Settings &gt; Allowable File Extensions</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsName.Text" xml:space="preserve">
+    <value>Check if there are any harmful extensions allowed by the file uploader</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsReason.Text" xml:space="preserve">
+    <value>Either aspx, asp or php files were found in allowable file extensions setting. This will allow hackers to upload code. Remove these extensions at Host &gt; Host Settings &gt; Other Settings &gt; Allowable File Extensions</value>
+  </data>
+  <data name="CheckAllowableFileExtensionsSuccess.Text" xml:space="preserve">
+    <value>The allowable file extensions is setup correctly.</value>
+  </data>
+  <data name="CheckFileExists.Error" xml:space="preserve">
+    <value>Current SQL Server account can execute xp_fileexist which can detect whether files exist on server.</value>
+  </data>
+  <data name="CheckSqlRiskFailure.Text" xml:space="preserve">
+    <value>The current SQL connection can execute dangerous command(s) on your SQL Server.</value>
+  </data>
+  <data name="CheckSqlRiskName.Text" xml:space="preserve">
+    <value>Check Current SQL Account Permission</value>
+  </data>
+  <data name="CheckSqlRiskReason.Text" xml:space="preserve">
+    <value>If the SQL Server account isn't configured properly, it may leave risk and hackers can exploit the server by running special script.</value>
+  </data>
+  <data name="CheckSqlRiskSuccess.Text" xml:space="preserve">
+    <value>The SQL Server account configured correctly.</value>
+  </data>
+  <data name="ExecuteCommand.Error" xml:space="preserve">
+    <value>Current SQL Server account can execute xp_cmdshell which will running command line in sql server system.</value>
+  </data>
+  <data name="GetFolderTree.Error" xml:space="preserve">
+    <value>Current SQL Server account can execute xp_dirtree which can see the server's folders structure.</value>
+  </data>
+  <data name="RegRead.Error" xml:space="preserve">
+    <value>Current SQL Server account can read registry values. You need to check the permissions of xp_regread, xp_regwrite, xp_regenumkeys, xp_regenumvalues, xp_regdeletekey, xp_regdeletekey, xp_regdeletevalue, xp_instance_regread, xp_instance_regwrite, xp_instance_regenumkeys, xp_instance_regenumvalues, xp_instance_regdeletekey, xp_instance_regdeletekey, xp_instance_regdeletevalue stored procedures.</value>
+  </data>
+  <data name="SysAdmin.Error" xml:space="preserve">
+    <value>Current SQL Server account is 'sysadmin'.</value>
+  </data>
+  <data name="HighRiskFiles.Text" xml:space="preserve">
+    <value>High Risk Files</value>
+  </data>
+  <data name="LowRiskFiles.Text" xml:space="preserve">
+    <value>Low Risk Files</value>
+  </data>
+</root>

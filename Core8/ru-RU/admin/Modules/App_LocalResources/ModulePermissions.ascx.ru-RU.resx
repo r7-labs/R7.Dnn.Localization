@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>Разрешения:</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Выберите необходимые разрешения на просмотр и редактирование, установив или сняв соответствующие флаги в таблице. Модуль может использовать разрешения, унаследованные от страницы. Для включения наследования разрешений отметьте флаг Унаследовать разрешения на просмотр от страницы.</value>
+  </data>
+  <data name="InheritPermissions.Text" xml:space="preserve">
+    <value>Унаследовать разрешения на &lt;b&gt;просмотр&lt;/b&gt; от &lt;b&gt;страницы&lt;/b&gt;</value>
+  </data>
+  <data name="ControlTitle_module.Text" xml:space="preserve">
+    <value>Модуль</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
+</root>

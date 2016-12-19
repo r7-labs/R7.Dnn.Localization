@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Type.Text" xml:space="preserve">
+    <value>Тип ссылки:</value>
+  </data>
+  <data name="URLType.Text" xml:space="preserve">
+    <value>URL (ссылка на внешний ресурс)</value>
+  </data>
+  <data name="TabType.Text" xml:space="preserve">
+    <value>Страница сайта</value>
+  </data>
+  <data name="FileType.Text" xml:space="preserve">
+    <value>Файл на сайте</value>
+  </data>
+  <data name="UserType.Text" xml:space="preserve">
+    <value>Пользователь сайта</value>
+  </data>
+  <data name="NoneType.Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="URL.Text" xml:space="preserve">
+    <value>Адрес ссылки: &lt;br/&gt;</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>Выбрать существующий URL</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Добавить URL</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить выбранный URL из списка&lt;br/&gt;</value>
+  </data>
+  <data name="Tab.Text" xml:space="preserve">
+    <value>Страница:</value>
+  </data>
+  <data name="Folder.Text" xml:space="preserve">
+    <value>Папка:&lt;br/&gt;</value>
+  </data>
+  <data name="File.Text" xml:space="preserve">
+    <value>Имя файла:&lt;br/&gt;</value>
+  </data>
+  <data name="Upload.Text" xml:space="preserve">
+    <value>Подгрузить новый файл</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Подгрузить выбранный файл</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Track.Text" xml:space="preserve">
+    <value>Регистрировать число кликов?&lt;br/&gt;</value>
+  </data>
+  <data name="Log.Text" xml:space="preserve">
+    <value>Регистрировать пользователей и время?&lt;br/&gt;</value>
+  </data>
+  <data name="NewWindow.Text" xml:space="preserve">
+    <value>В новом окне?&lt;br/&gt;</value>
+  </data>
+  <data name="UploadError.Text" xml:space="preserve">
+    <value>Недопустимый тип файла {1}! Список допустимых типов включает: {0}</value>
+  </data>
+  <data name="NoPermission.Text" xml:space="preserve">
+    <value>У Вас недостаточно разрешений для просмотра файлов сайта</value>
+  </data>
+  <data name="Root.Text" xml:space="preserve">
+    <value>Корень</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Введите имя пользователя на сайте:&lt;br/&gt;</value>
+  </data>
+  <data name="NoUser.Text" xml:space="preserve">
+    <value>Введенное имя пользователя не соответствует ни одному пользователю сайта.</value>
+  </data>
+  <data name="NoWritePermission.Text" xml:space="preserve">
+    <value>У Вас нет необходимых разрешений для подгрузки файлов на сайт</value>
+  </data>
+  <data name="ImageType.Text" xml:space="preserve">
+    <value>Системное изображение</value>
+  </data>
+  <data name="Image.Text" xml:space="preserve">
+    <value>Изображение:&lt;br /&gt;</value>
+  </data>
+</root>

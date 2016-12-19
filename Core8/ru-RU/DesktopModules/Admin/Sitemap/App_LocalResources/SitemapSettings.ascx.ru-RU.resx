@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLevelPriority.Help" xml:space="preserve">
+    <value>Если отмечено, то приоритеты для каждой страницы будут рассчитываться в зависимости от уровня страницы в иерархии. Страницы высшего уровня имеют значение 1, второго уровня - 0.9, третьего уровня - 0.8... Эта настройка не изменяет значений, установленных в настройках страницы, но в случае необходимости будет использоваться расчетное значение.</value>
+  </data>
+  <data name="lblLevelPriority.Text" xml:space="preserve">
+    <value>Использовать приоритеты страниц на основании их уровня?</value>
+  </data>
+  <data name="MessageUpdated.Text" xml:space="preserve">
+    <value>Ваши настройки сохранены</value>
+  </data>
+  <data name="PageTitle.Header" xml:space="preserve">
+    <value>Заголовок страницы</value>
+  </data>
+  <data name="Priority.Header" xml:space="preserve">
+    <value>Важность</value>
+  </data>
+  <data name="lblMinPagePriority.Help" xml:space="preserve">
+    <value>При использовании "приоритетов страниц на основании их уровня" минимальный приоритет страниц может использоваться для установки низшего приоритета, используемого для страниц низкого уровня.</value>
+  </data>
+  <data name="lblMinPagePriority.Text" xml:space="preserve">
+    <value>Минимальный приоритет для страниц:</value>
+  </data>
+  <data name="SectionCoreSettings.Text" xml:space="preserve">
+    <value>Базовые настройки URL страницы</value>
+  </data>
+  <data name="cmdSaveAll.Text" xml:space="preserve">
+    <value>Сохранить настройки карты сайта</value>
+  </data>
+  <data name="lblExcludePriority.Help" xml:space="preserve">
+    <value>Данная функция может использоваться для удаления определенных страниц из карты сайта. Например, Вы можете установить приоритет для страницы -1 и ввести -1, чтобы не включать страницу в генерируемую карту сайта.</value>
+  </data>
+  <data name="lblExcludePriority.Text" xml:space="preserve">
+    <value>Исключить URL с приоритетом ниже:</value>
+  </data>
+  <data name="lblIncludeHidden.Help" xml:space="preserve">
+    <value>Если отмечено, скрытые страницы (невидимые в меню) также будут включены в карту сайта. По умолчанию скрытые страницы не включаются в карту сайта.</value>
+  </data>
+  <data name="lblIncludeHidden.Text" xml:space="preserve">
+    <value>Включая скрытые страницы?</value>
+  </data>
+  <data name="SectionGeneralSettings.Text" xml:space="preserve">
+    <value>Общие настройки карты сайта</value>
+  </data>
+  <data name="valPriority.Text" xml:space="preserve">
+    <value>Нужно ввести число в диапазоне от 0.0 до 1.0.</value>
+  </data>
+  <data name="Description.Header" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Keywords.Header" xml:space="preserve">
+    <value>Ключевые слова страницы</value>
+  </data>
+  <data name="Level.Header" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Обновить приоритеты страницы</value>
+  </data>
+  <data name="SectionProviderSettings.Help" xml:space="preserve">
+    <value>В этом разделе можно просмотреть и изменить настройки поставщиков карты сайта для текущего сайта. Поставьте флажок напротив "Включено", если хотите включить URL-адреса, сгенерированные для данного поставщика, в конечный файл карты сайта. Вы также можете переопределить приоритеты для всех URL-адресов любого провайдера, поставив флажок в соответствующей строке и задав значение нового приоритета.</value>
+  </data>
+  <data name="SectionProviderSettings.Text" xml:space="preserve">
+    <value>Установленные поставщики карты сайта</value>
+  </data>
+  <data name="ProviderDescription.Header" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ProviderEnabled.Header" xml:space="preserve">
+    <value>Включить?</value>
+  </data>
+  <data name="ProviderName.Header" xml:space="preserve">
+    <value>Имя поставщика</value>
+  </data>
+  <data name="ProviderOverride.Header" xml:space="preserve">
+    <value>Переопределить приоритеты?</value>
+  </data>
+  <data name="lblCache.Help" xml:space="preserve">
+    <value>Включите данную функцию, если Вы хотите, чтобы карта сайта кэшировалась, не требуя генерирования страницы каждый раз при отправке запроса. Это особенно важно для больших сайтов. Если на сайте более 50 тысяч URL-адресов, карта сайта будет кэшироваться с интервалом по умолчанию в 1 день. Установите значение 0, чтобы отключить кэширование.</value>
+  </data>
+  <data name="lblCache.Text" xml:space="preserve">
+    <value>Дней кэширования карты сайта для</value>
+  </data>
+  <data name="lnkResetCache.Text" xml:space="preserve">
+    <value>Очистка кеша</value>
+  </data>
+  <data name="ResetOK.Text" xml:space="preserve">
+    <value>Кэш карты сайта успешно очищен</value>
+  </data>
+  <data name="cmdVerification.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="lblSearchEngine.Help" xml:space="preserve">
+    <value>Отправьте ваш сайт выбранной поисковой системе для индексации.</value>
+  </data>
+  <data name="lblSearchEngine.Text" xml:space="preserve">
+    <value>Поисковая система:</value>
+  </data>
+  <data name="lblSiteMap.Help" xml:space="preserve">
+    <value>Отправьте карту своего сайта в Google для лучшей поисковой оптимизации. Нажмите Отправить, чтобы получить учетную запись Инструментов для веб-мастеров Google и проверить принадлежность сайта (используйте нижеуказанную функцию верификации). После проверки вы сможете выбрать функцию Add General Web Sitemap на вкладке Google Sitemaps и вставить туда показанный URL-адрес карты сайта.</value>
+  </data>
+  <data name="lblSiteMap.Text" xml:space="preserve">
+    <value>URL карты сайта:</value>
+  </data>
+  <data name="lblVerification.Help" xml:space="preserve">
+    <value>При регистрации в Инструментах для веб-мастеров Google необходимо проверить принадлежность сайта. В экране проверки Google Verification выберите "Загрузить HTML-файл" ("Upload an HTML file"). В текстовом окне верификации отобразится название файла (например, google53c0cef435b2b81e.html), нажмите "Создать" (Create). Вернитесь в Google и выберите кнопку "Проверить" (Verify).</value>
+  </data>
+  <data name="lblVerification.Text" xml:space="preserve">
+    <value>Проверка:</value>
+  </data>
+  <data name="lnkTestSitemap.Text" xml:space="preserve">
+    <value>Просмотр текущей карты сайта</value>
+  </data>
+  <data name="SectionSubmissionSettings.Text" xml:space="preserve">
+    <value>Отправка сайта </value>
+  </data>
+  <data name="NoCacheToReset.Text" xml:space="preserve">
+    <value>Нет данных в кеше для очистки</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="cmdSubmitToSearch.Text" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="SectionCoreSettingsLbl.Text" xml:space="preserve">
+    <value>Изменить основные настройки, применяемые к большинству страниц DNN.</value>
+  </data>
+  <data name="SectionGeneralSettingsLbl.Text" xml:space="preserve">
+    <value>Изменить настройки всех URL-адресов, включаемых в карту сайта.</value>
+  </data>
+  <data name="SectionSubmissionSettingsLbl.Text" xml:space="preserve">
+    <value>В этом разделе можно отправить свой сайт на анализ к различным поисковым системам.</value>
+  </data>
+  <data name="cmdSubmitToSearch.ToolTip" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="Edit.Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Edit.Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Edit.Update" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="OverridePriority.Header" xml:space="preserve">
+    <value>Переопределить приоритет</value>
+  </data>
+  <data name="1Day.Text" xml:space="preserve">
+    <value>1 день</value>
+  </data>
+  <data name="2Days.Text" xml:space="preserve">
+    <value>2 дня</value>
+  </data>
+  <data name="3Days.Text" xml:space="preserve">
+    <value>3 дня</value>
+  </data>
+  <data name="4Days.Text" xml:space="preserve">
+    <value>4 дня</value>
+  </data>
+  <data name="5Days.Text" xml:space="preserve">
+    <value>5 дней</value>
+  </data>
+  <data name="6Days.Text" xml:space="preserve">
+    <value>6 дней</value>
+  </data>
+  <data name="7Days.Text" xml:space="preserve">
+    <value>7 дней</value>
+  </data>
+  <data name="DisableCaching.Text" xml:space="preserve">
+    <value>Отключить кэширование</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Карта сайта для поисковиков</value>
+  </data>
+</root>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="RedirectionSettings.Text" xml:space="preserve">
+    <value>Настройки перенаправления</value>
+  </data>
+  <data name="lblRedirectName.Text" xml:space="preserve">
+    <value>Имя перенаправления</value>
+  </data>
+  <data name="lblRedirectName.Help" xml:space="preserve">
+    <value>Имя перенаправления.</value>
+  </data>
+  <data name="lblRedirectSource.Help" xml:space="preserve">
+    <value>Определяет, будет ли перенаправление осуществляться на уровне сайта или страницы</value>
+  </data>
+  <data name="lblRedirectTarget.Help" xml:space="preserve">
+    <value>Задает цель для перенаправления.</value>
+  </data>
+  <data name="lblRedirectTarget.Text" xml:space="preserve">
+    <value>На</value>
+  </data>
+  <data name="lblRedirectType.Help" xml:space="preserve">
+    <value>Выберите тип устройства, откуда пользователь осуществляет просмотр.</value>
+  </data>
+  <data name="lblRedirectType.Text" xml:space="preserve">
+    <value>Выберите устройство пользователя</value>
+  </data>
+  <data name="lblTargetUrl.Help" xml:space="preserve">
+    <value>Целевой URL для перенаправления.</value>
+  </data>
+  <data name="lblTargetUrl.Text" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="lnkPortalAlias.Text" xml:space="preserve">
+    <value>Введите новый псевдоним сайта.</value>
+  </data>
+  <data name="optBoth.Text" xml:space="preserve">
+    <value>Телефон или планшет</value>
+  </data>
+  <data name="optOther.Text" xml:space="preserve">
+    <value>Расширенный</value>
+  </data>
+  <data name="optPage.Text" xml:space="preserve">
+    <value>Страница сайта</value>
+  </data>
+  <data name="optPhone.Text" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="optPortal.Text" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="optTablet.Text" xml:space="preserve">
+    <value>Планшет</value>
+  </data>
+  <data name="optUrl.Text" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="OtherType.Text" xml:space="preserve">
+    <value>Определите ваши правила ниже. Добавьте несколько правил, нажав кнопку Добавить.</value>
+  </data>
+  <data name="valRedirectName.Text" xml:space="preserve">
+    <value>Необходимо задать имя для перенаправления</value>
+  </data>
+  <data name="lblCapability.Text" xml:space="preserve">
+    <value>Возможность</value>
+  </data>
+  <data name="lblCapabilityValue.Text" xml:space="preserve">
+    <value>Соответствие</value>
+  </data>
+  <data name="lblEnabled.Text" xml:space="preserve">
+    <value>&lt;b&gt;Включено&lt;/b&gt;</value>
+  </data>
+  <data name="lblRedirectionType.Text" xml:space="preserve">
+    <value>&lt;b&gt;Тип устройства&lt;/b&gt;</value>
+  </data>
+  <data name="lblRedirectionRules.Text" xml:space="preserve">
+    <value>&lt;b&gt;Правила пернаправления&lt;/b&gt;</value>
+  </data>
+  <data name="lnkAdd.Text" xml:space="preserve">
+    <value>Создать перенаправление сайта</value>
+  </data>
+  <data name="RedirectManagerMessage.Text" xml:space="preserve">
+    <value>Ниже представлен список перенаправлений сайта. Для того, чтобы добавить новое правило, нажмите &lt;b&gt;Создать&lt;/b&gt;.</value>
+  </data>
+  <data name="lblEnable.Help" xml:space="preserve">
+    <value>Включить правило перенаправления.</value>
+  </data>
+  <data name="lblEnable.Text" xml:space="preserve">
+    <value>Разрешить</value>
+  </data>
+  <data name="optAdvanced.Text" xml:space="preserve">
+    <value>Создать перенаправление используя подробные настройки</value>
+  </data>
+  <data name="optSimple.Text" xml:space="preserve">
+    <value>Создать перенаправление на мобильную версию</value>
+  </data>
+  <data name="PageSelect.Text" xml:space="preserve">
+    <value>Выберите страницу</value>
+  </data>
+  <data name="lblRedirect.Help" xml:space="preserve">
+    <value>Это текущая домашняя страница, которая будет перенаправлена.</value>
+  </data>
+  <data name="lblRedirect.Text" xml:space="preserve">
+    <value>Идет перенаправление</value>
+  </data>
+  <data name="SimpleSettings.Text" xml:space="preserve">
+    <value>Создать перенаправление на мобильную версию</value>
+  </data>
+  <data name="lblTarget.Help" xml:space="preserve">
+    <value>Цель, на которую будет производиться перенаправление.</value>
+  </data>
+  <data name="lblTarget.Text" xml:space="preserve">
+    <value>На</value>
+  </data>
+  <data name="DefaultRedirectName.Text" xml:space="preserve">
+    <value>Перенаправление по-умолчанию</value>
+  </data>
+  <data name="EnableItem.Text" xml:space="preserve">
+    <value>Уверены, что хотите включить (выключить) данную настройку?</value>
+  </data>
+  <data name="chkChildPages.Text" xml:space="preserve">
+    <value>Включая подчиненные страницы</value>
+  </data>
+  <data name="RedirectTooltipSource.Text" xml:space="preserve">
+    <value>Источник: {0}</value>
+  </data>
+  <data name="lblNoCapabilities.Text" xml:space="preserve">
+    <value>Возможности не добавлены</value>
+  </data>
+  <data name="selectCapabilityName.Text" xml:space="preserve">
+    <value>Выберите возможность...</value>
+  </data>
+  <data name="RedirectTooltipDestination.Text" xml:space="preserve">
+    <value>Цель: {0}</value>
+  </data>
+  <data name="DuplicateNameError.Text" xml:space="preserve">
+    <value>Перенаправление с таким именем уже существует. Пожалуйста, используйте другое имя</value>
+  </data>
+  <data name="addCapability.Text" xml:space="preserve">
+    <value>Добавить возможность</value>
+  </data>
+  <data name="TrialFiftyOneProvider.Text" xml:space="preserve">
+    <value>Правила перенаправления для устройств зависят от данных об устройствах, доступных в вашей системе. Для обновления до премиальных данных перейдите на страницу Хост &gt; Управление определением устройств.</value>
+  </data>
+  <data name="AllMobile.Text" xml:space="preserve">
+    <value>Все мобильные устройства</value>
+  </data>
+  <data name="Device Type.Header" xml:space="preserve">
+    <value>Тип устройства</value>
+  </data>
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="MobilePhone.Text" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Расширенный</value>
+  </data>
+  <data name="Redirection Rule.Header" xml:space="preserve">
+    <value>Правило перенаправления</value>
+  </data>
+  <data name="Tablet.Text" xml:space="preserve">
+    <value>Планшет</value>
+  </data>
+  <data name="optSmartPhone.Text" xml:space="preserve">
+    <value>Смартфон</value>
+  </data>
+  <data name="SmartPhone.Text" xml:space="preserve">
+    <value>Смартфон</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Управление перенаправлением сайтов</value>
+  </data>
+  <data name="DeleteRule.Tooltip" xml:space="preserve">
+    <value>Удалить правило</value>
+  </data>
+  <data name="DragAndDrop.Tooltip" xml:space="preserve">
+    <value>Задайте приоритет правил, перетаскивая их выше / ниже</value>
+  </data>
+  <data name="EditRule.Tooltip" xml:space="preserve">
+    <value>Изменить правило</value>
+  </data>
+  <data name="ToggleRuleEnableSetting.Tooltip" xml:space="preserve">
+    <value>Переключить настройку Включено</value>
+  </data>
+</root>
