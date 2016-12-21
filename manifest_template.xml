@@ -6,8 +6,8 @@
 			<iconFile />
 			<owner>
 				<name>Roman M. Yagodin</name>
-				<organization>R7.Solutions</organization>
-				<url>https://github.com/roman-yagodin/R7.DnnLocalization</url>
+				<organization>R7.Labs</organization>
+				<url>https://github.com/roman-yagodin/R7.Dnn.Localization</url>
 				<email>roman.yagodin@gmail.com</email>
 			</owner>
 			${License}
