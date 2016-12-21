@@ -536,12 +536,6 @@ source_file = en-US/DesktopModules/Admin/HtmlEditorManager/App_LocalResources/Pr
 source_lang = en-US
 type = RESX
 
-[r7-dnn-core8.DesktopModules_Admin_HtmlEditorManager_Controls_InvalidConfiguration_ascx]
-file_filter = <lang>/DesktopModules/Admin/HtmlEditorManager/Controls/App_LocalResources/InvalidConfiguration.ascx.<lang>.resx
-source_file = en-US/DesktopModules/Admin/HtmlEditorManager/Controls/App_LocalResources/InvalidConfiguration.ascx.resx
-source_lang = en-US
-type = RESX
-
 [r7-dnn-core8.DesktopModules_Admin_Portals_template_ascx]
 file_filter = <lang>/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.<lang>.resx
 source_file = en-US/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.resx
