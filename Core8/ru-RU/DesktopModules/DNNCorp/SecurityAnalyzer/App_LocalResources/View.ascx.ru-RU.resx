@@ -37,7 +37,7 @@
     <value>Искать</value>
   </data>
   <data name="cmdModifiedFiles.Text" xml:space="preserve">
-    <value>Find Recently Modified Files</value>
+    <value>Найти недавно измененные файлы</value>
   </data>
   <data name="ScannerChecks.Text" xml:space="preserve">
     <value>Проверки</value>
@@ -167,16 +167,16 @@
     <value>Проверяет, присутствуют ли файлы asp/php</value>
   </data>
   <data name="CheckDefaultPageName.Text" xml:space="preserve">
-    <value>Check if default.aspx or default.aspx.cs files have been modified</value>
+    <value>Проверяет, не были ли недавно изменены файлы default.aspx или default.aspx.cs</value>
   </data>
   <data name="CheckDefaultPageFailure.Text" xml:space="preserve">
-    <value>The default page(s) have been modified. We recommend you evaluate these files carefully, they may be modified by a hacker and may contain malicious code. It is best to compare these files with that from a standard install of your product. Ensure that the DNN or Evoq version of your current site matches with the standard site prior to comparison. Either remove the malicious code or restore these files from standard installation.</value>
+    <value>Страница по умолчанию была изменена. Мы рекомендуем вам внимательно изучить содержимое этих файлов, так как они могли быть изменены злоумышленником и могут содержать вредоносный код. Лучше всего сравнить эти файлы с теми, которые присутствуют в стандартной установке вашего продукта. Перед сравнением убедитесь, что версия стандартной установки совпадает с версией DNN или Evoq вашего сайта. Удалите вредоносный код вручную или замените измененные файлы соответствующими файлами из стандартной установки продукта.</value>
   </data>
   <data name="CheckDefaultPageReason.Text" xml:space="preserve">
-    <value>DNN use default.aspx to load everything, so all requests will load this file when user browse the site, if someone modify this file, it may cause huge risk.</value>
+    <value>DNN использует default.aspx для загрузки всего содержимого, поэтому любой запрос загружает этот файл при просмотре сайта пользователем. Если этот файл будет изменен кем-либо извне, это может представлять собой огромную угрозу безопасности.</value>
   </data>
   <data name="CheckDefaultPageSuccess.Text" xml:space="preserve">
-    <value>The default.aspx and default.aspx.cs pages haven't been modified.</value>
+    <value>Файлы default.aspx и default.aspx.cs не были изменены.</value>
   </data>
   <data name="CheckViewstatemacName.Text" xml:space="preserve">
     <value>Проверяет, защищено ли состояние просмотра</value>
@@ -194,114 +194,114 @@
     <value>Трассировка включена - это позволяет потенциальным злоумышленникам следить за работой сайта.</value>
   </data>
   <data name="Filename.Header" xml:space="preserve">
-    <value>File Name</value>
+    <value>Имя файла</value>
   </data>
   <data name="LastModifiedDate.Header" xml:space="preserve">
-    <value>Last Modification Date</value>
+    <value>Дата последнего изменения</value>
   </data>
   <data name="ModifiedFiles.Text" xml:space="preserve">
-    <value>Recently Modified Files</value>
+    <value>Недавно измененные файлы</value>
   </data>
   <data name="CheckModuleHeaderAndFooterFailure.Text" xml:space="preserve">
-    <value>There are modules in your system that have header and footer settings, please review them to make sure no phishing code is present.</value>
+    <value>В вашей системе присутствуют модули, для которых заданы настройки заголовка или подвала. Пожалуйста, изучите значения этих настроек для того, чтобы убедиться в отсутствии кода для фишинга.</value>
   </data>
   <data name="CheckModuleHeaderAndFooterName.Text" xml:space="preserve">
-    <value>Check Modules have Header or Footer settings</value>
+    <value>Проверяет, заданы ли для модулей настройки заголовка и подвала</value>
   </data>
   <data name="CheckModuleHeaderAndFooterReason.Text" xml:space="preserve">
-    <value>Hackers may use module's header or footer settings to inject content for phishing attacks.</value>
+    <value>Злоумышленники могут использовать настройки заголовка или подвала модуля для встраивания содержимого с целью организации фишинговых атак.</value>
   </data>
   <data name="CheckModuleHeaderAndFooterSuccess.Text" xml:space="preserve">
-    <value>No modules were found that had header or footer values configured.</value>
+    <value>Не были найдены модули с заданными значениями заголовка и подвала.</value>
   </data>
   <data name="CheckDiskAccessName.Text" xml:space="preserve">
-    <value>Checks extra drives/folders access permission outside the website folder</value>
+    <value>Проверяет разрешения на доступ к дискам/папкам за пределами корневой папки сайта</value>
   </data>
   <data name="CheckDiskAccessFailure.Text" xml:space="preserve">
-    <value>Hackers could access drives/folders outside the website</value>
+    <value>Злоумышленники могут получить доступ к дискам/папкам за пределами сайта</value>
   </data>
   <data name="CheckDiskAccessReason.Text" xml:space="preserve">
-    <value>The user which your website is running under has access to drives and folders outside the website location. A hacker could access these files and either read, write, or do both activities.</value>
+    <value>Учетная запись пользователя, от имени которой запущен сайт, имеет доступ к дискам и папкам за пределами корневой папки сайта. Злоумышленник может получить доступ к этим файлам на чтение, на изменений или чтение и изменение.</value>
   </data>
   <data name="CheckDiskAccessSuccess.Text" xml:space="preserve">
-    <value>Hackers cannot access drives/folders outside the website</value>
+    <value>Злоумышленники не могут получить доступ к дискам и папкам за пределами сайта.</value>
   </data>
   <data name="HostSettings.Text" xml:space="preserve">
-    <value>Host Settings</value>
+    <value>Настройки хостинга</value>
   </data>
   <data name="ModifiedSettings.Text" xml:space="preserve">
-    <value>Recently Modified Settings</value>
+    <value>Недавно измененные настройки</value>
   </data>
   <data name="ModuleSettings.Text" xml:space="preserve">
-    <value>Module Settings</value>
+    <value>Настройки модуля</value>
   </data>
   <data name="PortalSettings.Text" xml:space="preserve">
-    <value>Portal Settings</value>
+    <value>Настройки сайта</value>
   </data>
   <data name="TabSettings.Text" xml:space="preserve">
-    <value>Tab Settings</value>
+    <value>Настройки страницы</value>
   </data>
   <data name="ModifiedFilesLoadWarning.Text" xml:space="preserve">
-    <value>Tool will enumerate all files in your system to show the recently changed files. It may take a while on a site with lots of files.</value>
+    <value>Данная утилита осуществит перебор всех файлов в системе и покажет недавно измененные файлы. Это может занять продолжительное время на сайте с большим количеством файлов.</value>
   </data>
   <data name="SuperUserActivityExplaination.Text" xml:space="preserve">
-    <value>Below are the SuperUser activities. Look for suspicious activities here. Pay close attention to the Creation and Last Login Dates. </value>
+    <value>Ниже представлены действия администраторов хостинга. Просмотрите эти действия на предмет подозрительной активности. Обратите особое внимание на даты создания и последнего входа.</value>
   </data>
   <data name="CheckPasswordFormatName.Text" xml:space="preserve">
-    <value>Check Password Format Setting</value>
+    <value>Проверяет формат хранения паролей</value>
   </data>
   <data name="CheckPasswordFormatFailure.Text" xml:space="preserve">
-    <value>The setting passwordFormat is not set to Hashed in web.config - consider editing web.config and setting it to Hashed (or use the configuration manager)</value>
+    <value>Настройка passwordFormat в файле web.config имеет значение, отличное от Hashed - рассмотрите возможность изменения файла web.config и установки значения данной настройки в Hashed (или воспользуйтесь диспетчером конфигурации)</value>
   </data>
   <data name="CheckPasswordFormatReason.Text" xml:space="preserve">
-    <value>If the value is Clear or Encrypters, hacker can retrieve password from user's password from database.</value>
+    <value>Если задано значение Clear или Encrypted, злоумышленники могут извлечь пароль из значения пароля пользователя, хранимого в базе данных.</value>
   </data>
   <data name="CheckPasswordFormatSuccess.Text" xml:space="preserve">
-    <value>The passwordFormat is set as Hashed in web.config</value>
+    <value>Настройка passwordFormat в файле web.config имеет значение Hashed</value>
   </data>
   <data name="CheckAllowableFileExtensionsFailure.Text" xml:space="preserve">
-    <value>Either aspx, asp or php files were found in allowable file extensions setting. This will allow hackers to upload code. Remove these extensions at Host &gt; Host Settings &gt; Other Settings &gt; Allowable File Extensions</value>
+    <value>Среди допустимых расширений имен файлов найдены aspx, asp или php. Это позволяет злоумышленникам подгружать свой код на сервер. Удалите эти расширения имен файлов в Хостинг &gt; Настройки хостинга &gt; Другие настройки &gt; Допустимые расширения файлов</value>
   </data>
   <data name="CheckAllowableFileExtensionsName.Text" xml:space="preserve">
-    <value>Check if there are any harmful extensions allowed by the file uploader</value>
+    <value>Проверяет, присутствуют ли среди допустимых к подгрузке расширений имен файлов опасные расширения</value>
   </data>
   <data name="CheckAllowableFileExtensionsReason.Text" xml:space="preserve">
-    <value>Either aspx, asp or php files were found in allowable file extensions setting. This will allow hackers to upload code. Remove these extensions at Host &gt; Host Settings &gt; Other Settings &gt; Allowable File Extensions</value>
+    <value>Среди допустимых расширений имен файлов найдены aspx, asp или php. Это позволяет злоумышленникам подгружать свой код на сервер. Удалите эти расширения имен файлов в Хостинг &gt; Настройки хостинга &gt; Другие настройки &gt; Допустимые расширения файлов</value>
   </data>
   <data name="CheckAllowableFileExtensionsSuccess.Text" xml:space="preserve">
-    <value>The allowable file extensions is setup correctly.</value>
+    <value>Допустимые расширения файлов настроены правильно.</value>
   </data>
   <data name="CheckFileExists.Error" xml:space="preserve">
-    <value>Current SQL Server account can execute xp_fileexist which can detect whether files exist on server.</value>
+    <value>Текущая учетная запись SQL Server может исполнять хранимую процедуру xp_fileexist, что позволяет опеределить, существует ли некоторый файл на сервере, или нет.</value>
   </data>
   <data name="CheckSqlRiskFailure.Text" xml:space="preserve">
-    <value>The current SQL connection can execute dangerous command(s) on your SQL Server.</value>
+    <value>Текущее соединение SQL может исполнять опасный код на вашем SQL Server.</value>
   </data>
   <data name="CheckSqlRiskName.Text" xml:space="preserve">
-    <value>Check Current SQL Account Permission</value>
+    <value>Проверяет разрещения текущей учетной записи SQL</value>
   </data>
   <data name="CheckSqlRiskReason.Text" xml:space="preserve">
-    <value>If the SQL Server account isn't configured properly, it may leave risk and hackers can exploit the server by running special script.</value>
+    <value>Если учетная запись SQL Server не настроена правильно, это может представлять серьезную угрозу безопасности, позволяя злоумышленникам запускать свои сценарии на сервере.</value>
   </data>
   <data name="CheckSqlRiskSuccess.Text" xml:space="preserve">
-    <value>The SQL Server account configured correctly.</value>
+    <value>Учетная запись SQL Server настроена правильно.</value>
   </data>
   <data name="ExecuteCommand.Error" xml:space="preserve">
-    <value>Current SQL Server account can execute xp_cmdshell which will running command line in sql server system.</value>
+    <value>Текущая учетная запись SQL Server может выполнять  хранимую процедуру xp_cmdshell, что позволяет запустить произвольную консольную команду на сервере.</value>
   </data>
   <data name="GetFolderTree.Error" xml:space="preserve">
-    <value>Current SQL Server account can execute xp_dirtree which can see the server's folders structure.</value>
+    <value>Текущая учетная запись SQL Server может выполнять хранимую процедуру xp_dirtree, что позволяет увидеть структуру файловой системы сервера.</value>
   </data>
   <data name="RegRead.Error" xml:space="preserve">
-    <value>Current SQL Server account can read registry values. You need to check the permissions of xp_regread, xp_regwrite, xp_regenumkeys, xp_regenumvalues, xp_regdeletekey, xp_regdeletekey, xp_regdeletevalue, xp_instance_regread, xp_instance_regwrite, xp_instance_regenumkeys, xp_instance_regenumvalues, xp_instance_regdeletekey, xp_instance_regdeletekey, xp_instance_regdeletevalue stored procedures.</value>
+    <value>Текущая учетная запись SQL Server может читать значения реестра. Проверьте разрешения для хранимых процедур xp_regread, xp_regwrite, xp_regenumkeys, xp_regenumvalues, xp_regdeletekey, xp_regdeletekey, xp_regdeletevalue, xp_instance_regread, xp_instance_regwrite, xp_instance_regenumkeys, xp_instance_regenumvalues, xp_instance_regdeletekey, xp_instance_regdeletekey, xp_instance_regdeletevalue.</value>
   </data>
   <data name="SysAdmin.Error" xml:space="preserve">
-    <value>Current SQL Server account is 'sysadmin'.</value>
+    <value>Текущая учетная запись SQL Server - 'sysadmin'.</value>
   </data>
   <data name="HighRiskFiles.Text" xml:space="preserve">
-    <value>High Risk Files</value>
+    <value>Файлы с высоким риском</value>
   </data>
   <data name="LowRiskFiles.Text" xml:space="preserve">
-    <value>Low Risk Files</value>
+    <value>Файлы с низким риском</value>
   </data>
 </root>

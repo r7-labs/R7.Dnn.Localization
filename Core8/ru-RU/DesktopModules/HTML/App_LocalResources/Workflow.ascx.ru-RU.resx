@@ -97,13 +97,13 @@
     <value>Укажите максимальное количество версий содержимого, хранимых в истории модуля (введите 0, чтобы хранить все версии)</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;P&gt;The Text/HTML Module renders plain text, rich text or HTML. Five different editing views are available: &lt;/P&gt;
+    <value>&lt;P&gt;Модуль Текст/HTML отображает простой текст, текст с форматированием или HTML. Доступны пять различных режимов редактирования: &lt;/P&gt;
 &lt;OL&gt;
-&lt;LI&gt;&lt;STRONG&gt;Basic Text Box / Text&lt;/STRONG&gt;: Renders basic text and HTML tags.  Text entered on a new line is rendered as a line break. The text style is the Normal style, as set in your style sheet. 
-&lt;LI&gt;&lt;STRONG&gt;Basic Text Box / HTML&lt;/STRONG&gt;: Displays basic text in HTML format.
-&lt;LI&gt;&lt;STRONG&gt;Basic Text Box / Raw&lt;/STRONG&gt;: Displays basic text in HTML format. Text entered on a new line is not rendered as a line break.
-&lt;LI&gt;&lt;STRONG&gt;Rich Text Editor / HTML&lt;/STRONG&gt;: Allows you to paste HTML from other sources.
-&lt;LI&gt;&lt;STRONG&gt;Rich Text Editor / Design&lt;/STRONG&gt;: A full word processor or WYSIWYG (What You See is What You Get) editor with functionality such as hyperlinks, email links, File Manager image gallery, bullet points, spell check and more.</value>
+&lt;LI&gt;&lt;STRONG&gt;Простой текст / Текст&lt;/STRONG&gt;: Отображает текст и теги HTML. Перед текстом, введенным с новой строки, вставляется тег разрыва строки. Стиль текста - Normal, определяется таблицей стилей.
+&lt;LI&gt;&lt;STRONG&gt;Простой текст / HTML&lt;/STRONG&gt;: Отображает простой текст в формате HTML.
+&lt;LI&gt;&lt;STRONG&gt;Простой текст / Сырой&lt;/STRONG&gt;: Отображает простой текст в формате HTML. Перед текстом, введенным с новой строки, НЕ вставляется тег разрыва строки.
+&lt;LI&gt;&lt;STRONG&gt;Текст с форматированием / HTML&lt;/STRONG&gt;: Позволяет вставлять HTML из сторонних источников.
+&lt;LI&gt;&lt;STRONG&gt;Текст с форматированием / Дизайн&lt;/STRONG&gt;: Полнофункциональный текстовый процессор с возможностью работы с гиперссылками, ссылками на адреса эл. почты, диспетчером файлов и поддержкой галереи изображений, списками, проверкой правописания и др.</value>
   </data>
   <data name="ControlTitle_workflow.Text" xml:space="preserve">
     <value>Управление рабочими процессами</value>

@@ -16,15 +16,15 @@
     <value>Редактировать</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
-    <value>&lt;p&gt;The Text/HTML Module renders plain text, rich text or HTML. Five different editing views are available: &lt;/p&gt;
-    &lt;ol&gt;
-        &lt;li&gt;&lt;strong&gt;Basic Text Box / Text&lt;/strong&gt;: Renders basic text and HTML tags.  Text entered on a new line is rendered as a line break. The text style is the Normal style, as set in your style sheet.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Basic Text Box / HTML&lt;/strong&gt;: Displays basic text in HTML format.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Basic Text Box / Raw&lt;/strong&gt;: Displays basic text in HTML format. Text entered on a new line is not rendered as a line break.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Rich Text Editor / HTML&lt;/strong&gt;: Allows you to paste HTML from other sources.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Rich Text Editor / Design&lt;/strong&gt;: A full word processor or WYSIWYG (What You See is What You Get) editor with functionality such as hyperlinks, email links, File Manager image gallery, bullet points, spell check and more.&lt;/li&gt;
-    &lt;/ol&gt;
-&lt;p&gt;In addition the module also supports version management and workflow.  In  Community Edition two modes of workflow are available - Direct Publish and Content Staging.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Модуль Текст/HTML отображает простой текст, текст с форматированием или HTML. Доступны пять различных режимов редактирования: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Простой текст / Текст&lt;/strong&gt;: Отображает текст и теги HTML. Перед текстом, введенным с новой строки, вставляется тег разрыва строки. Стиль текста - Normal, определяется таблицей стилей.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Простой текст / HTML&lt;/strong&gt;: Отображает простой текст в формате HTML.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Простой текст / Сырой&lt;/strong&gt;: Отображает простой текст в формате HTML. Перед текстом, введенным с новой строки, НЕ вставляется тег разрыва строки.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Текст с форматированием / HTML&lt;/strong&gt;: Позволяет вставлять HTML из сторонних источников.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Текст с форматированием / Дизайн&lt;/м&gt;: Полнофункциональный текстовый процессор с возможностью работы с гиперссылками, ссылками на адреса эл. почты, диспетчером файлов и поддержкой галереи изображений, списками, проверкой правописания и др.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Модуль также поддерживает управление версиями содержимого и рабочими процессами. В редакции Community доспупны два вида рабочих процессов - Прямая публикация и Стадии содержимого.&lt;/p&gt;</value>
   </data>
   <data name="AddContent.Text" xml:space="preserve">
     <value>Нажмите здесь для изменения содержимого</value>

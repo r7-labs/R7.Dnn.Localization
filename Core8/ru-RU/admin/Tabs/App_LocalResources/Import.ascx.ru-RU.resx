@@ -85,10 +85,10 @@
     <value>Шаблон не содержит страниц.</value>
   </data>
   <data name="valTemplate.ErrorMessage" xml:space="preserve">
-    <value>Укажите шаблон.</value>
+    <value>Выберите шаблон.</value>
   </data>
   <data name="EmptyTabName.Text" xml:space="preserve">
-    <value>You must specify a name for the page.</value>
+    <value>Необходимо указать имя страницы.</value>
   </data>
   <data name="InsertAfter.Text" xml:space="preserve">
     <value>После</value>
@@ -118,6 +118,6 @@
     <value>Страница с таким именем уже существует в Корзине. Для восстановления страницы воспользуйтесь возможностями Корзины.</value>
   </data>
   <data name="InvalidTabName.Text" xml:space="preserve">
-    <value>This is an invalid Page Name</value>
+    <value>Данное имя страницы недопустимо</value>
   </data>
 </root>

@@ -443,16 +443,16 @@
     <value>Вы можете разрешить или запретить пункт онлайн-справки в локальном меню модулей. Если разрешено, Вы должны обеспечить корректный интернет-адрес (URL) справки для модуля в разделе &amp;quot;Управление модулями&amp;quot;, несмотря на то, что он может быть уже указан производителем модуля.</value>
   </data>
   <data name="plcboUnauthCacheability.Text" xml:space="preserve">
-    <value>Unauthenticated Cacheability:</value>
+    <value>Кэширование неаутентифицированных:</value>
   </data>
   <data name="plcboUnauthCacheability.Help" xml:space="preserve">
-    <value>Sets the Cache-Control HTTP header value for unauthenticated users.</value>
+    <value>Установливает заголовок Cache-Control протокола HTTP для неаутентифицированных пользователей.</value>
   </data>
   <data name="plCacheability.Text" xml:space="preserve">
     <value>Кэширование аутентифицированных</value>
   </data>
   <data name="plCacheability.Help" xml:space="preserve">
-    <value>Установить управление кэшированием заголовков HTTP для аутентифицированных пользователей.</value>
+    <value>Установливает заголовок Cache-Control протокола HTTP для аутентифицированных пользователей.</value>
   </data>
   <data name="NoCache.Text" xml:space="preserve">
     <value>Без кэширования</value>
@@ -1053,10 +1053,10 @@
     <value>Режим отладки</value>
   </data>
   <data name="plImprovementProgram.Help" xml:space="preserve">
-    <value>Check this box to participate in the DNN Improvement Program. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Learn More&lt;/a&gt;.</value>
+    <value>Отметьте, чтобы участвовать в программе улучшения DNN. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Подробнее&lt;/a&gt;.</value>
   </data>
   <data name="plImprovementProgram.Text" xml:space="preserve">
-    <value>Participate in DNN Improvement Program:</value>
+    <value>Участвовать в программе улучшения DNN:</value>
   </data>
   <data name="plShowCriticalErrors.Help" xml:space="preserve">
     <value>Эта настройка определяет, будут ли сообщения об ошибках, передаваемые в сроке запроса, отображаться также и на странице.</value>

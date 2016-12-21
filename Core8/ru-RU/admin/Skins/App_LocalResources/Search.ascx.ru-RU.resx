@@ -43,6 +43,6 @@
     <value>Найти...</value>
   </data>
   <data name="SearchClearQuery.Text" xml:space="preserve">
-    <value>Clear search text</value>
+    <value>Очистить поиск</value>
   </data>
 </root>

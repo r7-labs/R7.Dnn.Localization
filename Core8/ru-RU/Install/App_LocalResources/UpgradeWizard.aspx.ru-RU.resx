@@ -67,15 +67,15 @@
     <value>Пароль:</value>
   </data>
   <data name="ImprovementsProgramTitle.Text" xml:space="preserve">
-    <value>Product Improvement Program</value>
+    <value>Программа улучшения продукта</value>
   </data>
   <data name="ImprovementProgramExplain.Text" xml:space="preserve">
-    <value>The product improvement program allows us to better understand how we can
-improve DNN for you. The data will help us analyze usage and what is important
-for people using the product. All of the data is anonymous and for internal use only. Learn more about the &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Product Improvement Program&lt;/a&gt;.</value>
+    <value>Ваше участие в программе улучшения продукта позволит нам лучше понять то, каким образом мы можем
+улучшить DNN для Вас. Эти данные помогут нам проанализировать использование продукта и то, что важно
+для использующих его людей. Все данные анонимны и предназначены только для внутреннего использования. Узнайте больше &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;о программе улучшения продукта&lt;/a&gt;.</value>
   </data>
   <data name="ImprovementProgramLabel.Text" xml:space="preserve">
-    <value>Send anonymous usage information to DNN</value>
+    <value>Оправлять анонимную информацию об использовании в DNN</value>
   </data>
   <data name="Retry.Text" xml:space="preserve">
     <value>Попробовать снова</value>
@@ -114,6 +114,6 @@ for people using the product. All of the data is anonymous and for internal use 
     <value>Перейти на сайт</value>
   </data>
   <data name="UpgradeStarted.Text" xml:space="preserve">
-    <value>Upgrade Started at</value>
+    <value>Обновление начато в</value>
   </data>
 </root>

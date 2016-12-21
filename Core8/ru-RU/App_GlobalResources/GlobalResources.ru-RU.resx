@@ -412,20 +412,20 @@
 </value>
   </data>
   <data name="EMAIL_USER_AUTHORIZED_SUBJECT.Text" xml:space="preserve">
-    <value>Registration has been approved for [Portal:URL]</value>
+    <value>Регистрация была одобрена для сайта [Portal:URL]</value>
   </data>
   <data name="EMAIL_USER_AUTHORIZED_BODY.Text" xml:space="preserve">
-    <value>Dear [User:DisplayName],
+    <value>Уважаемый(ая) [User:DisplayName],
 
-Thank you for registering at [Portal:PortalName]. Your registration has been approved, and your account is now active. 
+Спасибо за регистрацию на [Portal:PortalName]. Ваша регистрация одобрена, теперь Вы можете использовать свою учетную запись для входа на сайт.
 
-Website Address: [Portal:URL]
-Username: [User:UserName]
+Адрес сайта: [Portal:URL]
+Имя пользователя: [User:UserName]
 
-Thank you, we appreciate your support...
+Спасибо, мы ценим Вашу поддержку...
 
 [Portal:PortalName]
-    </value>
+</value>
   </data>
   <data name="EMAIL_PROFILE_UPDATED_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Оповещение об обновлении профиля</value>
@@ -1318,15 +1318,15 @@ Sincerely,
     <value>[Portal:PortalName] Восстановление утерянного пароля</value>
   </data>
   <data name="503.Error" xml:space="preserve">
-    <value>{0} - 503 Service Unavailable</value>
+    <value>{0} - 503 Служба недоступна</value>
   </data>
   <data name="NoSitesForThisInstallation.Error" xml:space="preserve">
-    <value>No sites currently exist for this installation.</value>
+    <value>В данной установке в настоящее  время нет сайтов.</value>
   </data>
   <data name="SiteAccessedWhileInstallationWasInProgress.Error" xml:space="preserve">
-    <value>The site was accessed while an installation/upgrade was in progress.</value>
+    <value>Обращение к сайту произошло в процессе установки/обновления.</value>
   </data>
   <data name="ThereIsAInstallationCurrentlyInProgress.Error" xml:space="preserve">
-    <value>There is an installation currently in progress. Please try again later.</value>
+    <value>В настоящее время идет установка. Пожалуйста, повторите попытку позже.</value>
   </data>
 </root>

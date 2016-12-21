@@ -118,10 +118,10 @@
     <value>Дата окончания публикации модуля. После этой даты, модуль будет виден только пользователям с правами на управление им.</value>
   </data>
   <data name="plMoniker.Text" xml:space="preserve">
-    <value>Module Moniker:</value>
+    <value>Псевдоним модуля:</value>
   </data>
   <data name="plMoniker.Help" xml:space="preserve">
-    <value>A unique identifier for this module on the page. This can be used by WEB API callers to set the context of the Tab and Module context.</value>
+    <value>Уникальный идентификатор этого модуля на странице. Может использоваться при вызове методов WEB API для задания контекста страницы или модуля.</value>
   </data>
   <data name="plDefault.Text" xml:space="preserve">
     <value>По умолчанию для новых модулей?</value>
@@ -361,6 +361,6 @@
     <value>Только просмотр?</value>
   </data>
   <data name="MonikerExists.Text" xml:space="preserve">
-    <value>The new value of the moniker already exists; it must be unique in the portal.</value>
+    <value>Введенное значение псевдонима модуля уже существует; оно должно быть уникальным для сайта.</value>
   </data>
 </root>

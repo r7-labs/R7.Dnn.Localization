@@ -52,36 +52,36 @@
     <value>Страница ошибки 404</value>
   </data>
   <data name="Tab.MyProfile.Title.Text" xml:space="preserve">
-    <value>My Profile</value>
+    <value>Мой профиль</value>
   </data>
   <data name="Tab.Extensions.Title.Text" xml:space="preserve">
-    <value>Extensions</value>
+    <value>Расширения</value>
   </data>
   <data name="Tab.PortalAdministration.Title.Text" xml:space="preserve">
-    <value>Website Administration</value>
+    <value>Администрирование сайта</value>
   </data>
   <data name="Tab.MyFriends.Title.Text" xml:space="preserve">
-    <value>My Friends</value>
+    <value>Мои друзья</value>
   </data>
   <data name="Tab.MyMessages.Title.Text" xml:space="preserve">
-    <value>My Messages</value>
+    <value>Мои сообщения</value>
   </data>
   <data name="Tab.SecurityRoles.Title.Text" xml:space="preserve">
-    <value>Security Roles</value>
+    <value>Роли безопасности</value>
   </data>
   <data name="Tab.SiteSettings.Title.Text" xml:space="preserve">
-    <value>Site Settings</value>
+    <value>Настройки сайта</value>
   </data>
   <data name="Tab.UserAccounts.Title.Text" xml:space="preserve">
-    <value>User Accounts</value>
+    <value>Учетные записи пользователей</value>
   </data>
   <data name="Tab.SearchResultsCE.Title.Text" xml:space="preserve">
-    <value>Search Results</value>
+    <value>Результаты поиска</value>
   </data>
   <data name="Tab.Taxonomy.Title.Text" xml:space="preserve">
-    <value>Taxonomy</value>
+    <value>Таксономия</value>
   </data>
   <data name="Tab.DigitalAssetsManagement.Title.Text" xml:space="preserve">
-    <value>File Management</value>
+    <value>Управление файлами</value>
   </data>
 </root>

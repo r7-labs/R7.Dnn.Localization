@@ -49,16 +49,16 @@
     <value>Подгрузить файл</value>
   </data>
   <data name="Error1.Text" xml:space="preserve">
-    <value>Вы не вошли в систему!</value>
+    <value>Пользователь не имеет разрешений для выполнения этих действий.</value>
   </data>
   <data name="Error2.Text" xml:space="preserve">
-    <value>Запрещенное расширение имени файла!</value>
+    <value>Запрещенное расширение имени файла.</value>
   </data>
   <data name="Error3.Text" xml:space="preserve">
-    <value>Запрещенное расширение имени файла!</value>
+    <value>Запрещенное расширение имени файла.</value>
   </data>
   <data name="Error4.Text" xml:space="preserve">
-    <value>У Вас недостаточно прав для просмотра этой папки!</value>
+    <value>У вас нет разрешений на просмотр этой папки.</value>
   </data>
   <data name="Error5.Text" xml:space="preserve">
     <value>Не выбран файл.</value>
@@ -295,21 +295,21 @@
     <value>Начать подгрузку</value>
   </data>
   <data name="RootFolder.Text" xml:space="preserve">
-    <value>Root Folder</value>
+    <value>Корневая папка</value>
   </data>
   <data name="BrowserModus.Image.Text" xml:space="preserve">
-    <value>Image</value>
+    <value>Изображение</value>
   </data>
   <data name="BrowserModus.Link.Text" xml:space="preserve">
-    <value>Link</value>
+    <value>Ссылка</value>
   </data>
   <data name="Created.Text" xml:space="preserve">
-    <value>Created</value>
+    <value>Создано</value>
   </data>
   <data name="lblBrowserModus.Text" xml:space="preserve">
-    <value>Browser-Modus: {0}</value>
+    <value>Режим: {0}</value>
   </data>
   <data name="Size.Text" xml:space="preserve">
-    <value>Size</value>
+    <value>Размер</value>
   </data>
 </root>

@@ -468,6 +468,6 @@
     <value>Ширина:</value>
   </data>
   <data name="CannotManageHTMLEditorProviders.Text" xml:space="preserve">
-    <value>You cannot manage HTML Editor providers</value>
+    <value>Вы не можете управлять поставщиками редакторов HTML</value>
   </data>
 </root>
