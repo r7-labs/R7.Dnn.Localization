@@ -21,8 +21,11 @@ cd $PACKAGE_NAME
 
 shift 2
 tx pull -l $CULTURE_CODE "$@"
+PULL_ERROR=$?
 
 popd > /dev/null
 
 # empty entries patch
-./RemoveEmptyEntries.cs $PACKAGE_NAME $CULTURE_CODE
+if [ $PULL_ERROR -eq 0 ]; then
+    ./RemoveEmptyEntries.cs $PACKAGE_NAME $CULTURE_CODE
+fi
