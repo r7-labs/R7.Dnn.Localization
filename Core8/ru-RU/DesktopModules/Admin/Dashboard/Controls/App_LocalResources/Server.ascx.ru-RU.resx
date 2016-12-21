@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ServerInfo.Text" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="ServerInfo_DBVersion.Help" xml:space="preserve">
+    <value>Версия SQL Server</value>
+  </data>
+  <data name="ServerInfo_DBVersion.Text" xml:space="preserve">
+    <value>Версия базы данных:</value>
+  </data>
+  <data name="ServerInfo_Framework.Help" xml:space="preserve">
+    <value>Версия .NET.</value>
+  </data>
+  <data name="ServerInfo_Framework.Text" xml:space="preserve">
+    <value>Версия .NET Framework:</value>
+  </data>
+  <data name="ServerInfo_HostName.Help" xml:space="preserve">
+    <value>Имя хоста, на котором запущено приложение.</value>
+  </data>
+  <data name="ServerInfo_HostName.Text" xml:space="preserve">
+    <value>Имя сервера:</value>
+  </data>
+  <data name="ServerInfo_Identity.Help" xml:space="preserve">
+    <value>Учетная запись пользователя Windows, от имени которой выполняется приложение. Этой учетной записи должны быть предоставлены разрешения на нужные папки на сервере.</value>
+  </data>
+  <data name="ServerInfo_Identity.Text" xml:space="preserve">
+    <value>Учетная запись ASP.NET:</value>
+  </data>
+  <data name="ServerInfo_IISVersion.Help" xml:space="preserve">
+    <value>Версия Internet Information Server (IIS)</value>
+  </data>
+  <data name="ServerInfo_IISVersion.Text" xml:space="preserve">
+    <value>Версия веб-сервера:</value>
+  </data>
+  <data name="ServerInfo_OSVersion.Help" xml:space="preserve">
+    <value>Версия Windows на сервере.</value>
+  </data>
+  <data name="ServerInfo_OSVersion.Text" xml:space="preserve">
+    <value>Версия ОС:</value>
+  </data>
+  <data name="ServerInfo_PhysicalPath.Help" xml:space="preserve">
+    <value>Физический путь к корневой папке сайта на сервере.</value>
+  </data>
+  <data name="ServerInfo_PhysicalPath.Text" xml:space="preserve">
+    <value>Физический путь:</value>
+  </data>
+  <data name="ServerInfo_RelativePath.Help" xml:space="preserve">
+    <value>Путь к приложению относительно корневой папки сайта.</value>
+  </data>
+  <data name="ServerInfo_RelativePath.Text" xml:space="preserve">
+    <value>Относительный путь:</value>
+  </data>
+  <data name="ServerInfo_ServerTime.Help" xml:space="preserve">
+    <value>Текущая дата и время на сервере.</value>
+  </data>
+  <data name="ServerInfo_ServerTime.Text" xml:space="preserve">
+    <value>Время на сервере:</value>
+  </data>
+  <data name="plServer.Help" xml:space="preserve">
+    <value>Отображает информацию об окружении  хостинга веб-сервера.</value>
+  </data>
+  <data name="plServer.Text" xml:space="preserve">
+    <value>Информация о сервере:</value>
+  </data>
+  <data name="ServerInfo_Url.Help" xml:space="preserve">
+    <value>Основной URL этого сайта.</value>
+  </data>
+  <data name="ServerInfo_Url.Text" xml:space="preserve">
+    <value>URL сайта:</value>
+  </data>
+</root>

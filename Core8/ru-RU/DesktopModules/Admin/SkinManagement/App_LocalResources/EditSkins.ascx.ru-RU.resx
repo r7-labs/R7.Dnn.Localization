@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblMessage.Text" xml:space="preserve">
+    <value>&lt;b&gt;Примечание:&lt;/b&gt;&amp;nbsp;&amp;nbsp;Для подгрузки пакета темы или контейнера нужно воспользоваться диспетчером файлов.</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Site.Text" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="plSkins.Text" xml:space="preserve">
+    <value>Темы</value>
+  </data>
+  <data name="plContainers.Text" xml:space="preserve">
+    <value>Контейнеры</value>
+  </data>
+  <data name="cmdRestore.Text" xml:space="preserve">
+    <value>Восстановить тему по-умолчанию</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="Admin.Text" xml:space="preserve">
+    <value>Редактор</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Удалить пакет темы</value>
+  </data>
+  <data name="cmdParse.Text" xml:space="preserve">
+    <value>Прочитать пакет темы</value>
+  </data>
+  <data name="lblApply.Text" xml:space="preserve">
+    <value>Применить к</value>
+  </data>
+  <data name="ParseOptions.Text" xml:space="preserve">
+    <value>Настройки разбора пакетов</value>
+  </data>
+  <data name="Localized.Text" xml:space="preserve">
+    <value>Локализован</value>
+  </data>
+  <data name="Portable.Text" xml:space="preserve">
+    <value>Портируемый</value>
+  </data>
+  <data name="NoSkin.ErrorMessage" xml:space="preserve">
+    <value>Файлы темы не найдены в папке</value>
+  </data>
+  <data name="cmdPreview.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="NoContainer.ErrorMessage" xml:space="preserve">
+    <value>В папке не найдены файлы контейнеров.</value>
+  </data>
+  <data name="plSkins.Help" xml:space="preserve">
+    <value>Выберите пакет темы</value>
+  </data>
+  <data name="plContainers.Help" xml:space="preserve">
+    <value>Выберите пакет контейнеров.</value>
+  </data>
+  <data name="SkinUpload.Action" xml:space="preserve">
+    <value>Подгрузить тему</value>
+  </data>
+  <data name="ContainerUpload.Action" xml:space="preserve">
+    <value>Подгрузить контейнер</value>
+  </data>
+  <data name="ControlTitle_editskins.Text" xml:space="preserve">
+    <value>Управление темами</value>
+  </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>Тип темы:</value>
+  </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>Выберите тип отображаемой темы.</value>
+  </data>
+  <data name="About.Text" xml:space="preserve">
+    <value>О {0}</value>
+  </data>
+  <data name="SkinDeleteFailure.Text" xml:space="preserve">
+    <value>Только администраторы хостинга могут удалять темы хостинга.</value>
+  </data>
+  <data name="CannotDeleteContainer.ErrorMessage" xml:space="preserve">
+    <value>Данный набор контейнеров не может быть удален, поскольку используется в настоящее время.</value>
+  </data>
+  <data name="CannotDeleteSkin.ErrorMessage" xml:space="preserve">
+    <value>Данный набор тем не может быть удален, поскольку используется в настоящее время.</value>
+  </data>
+  <data name="LegacySkin.Text" xml:space="preserve">
+    <value>Тема устаревшего формата.</value>
+  </data>
+  <data name="UsePackageUnInstall.Text" xml:space="preserve">
+    <value>Эта тема входит в состав пакета темы. Используйте функцию удаления пакета в списке тем.</value>
+  </data>
+  <data name="ParseOptions.Help" xml:space="preserve">
+    <value>Для обеспечения переносимости требуется использовать относительные ссылки на изображения, что может потребовать больше ресурсов в процессе работы сайта.</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Редактор темы</value>
+  </data>
+</root>

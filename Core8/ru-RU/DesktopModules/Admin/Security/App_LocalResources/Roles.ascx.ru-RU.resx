@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Имя роли</value>
+  </data>
+  <data name="Description.Header" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Fee.Header" xml:space="preserve">
+    <value>Плата</value>
+  </data>
+  <data name="Every.Header" xml:space="preserve">
+    <value>Каждые</value>
+  </data>
+  <data name="Period.Header" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="Trial.Header" xml:space="preserve">
+    <value>Пробный режим</value>
+  </data>
+  <data name="Public.Header" xml:space="preserve">
+    <value>Общедоступная</value>
+  </data>
+  <data name="Auto.Header" xml:space="preserve">
+    <value>Автоназначение</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Новая роль</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Роли безопасности</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О ролях&lt;/h1&gt;&lt;p&gt;Администраторы при помощи данного модуля могут управлять ролями, определенными на своих сайтах. Модуль дает возможность добавлять новые роли, модифицировать и удалять имеющиеся роли, а также назначать роли пользователям сайта.&lt;/p&gt;</value>
+  </data>
+  <data name="plRoleGroups.Text" xml:space="preserve">
+    <value>Фильтровать по группе ролей:</value>
+  </data>
+  <data name="plRoleGroups.Help" xml:space="preserve">
+    <value>Выберите группу ролей, которую Вы хотели бы посмотреть</value>
+  </data>
+  <data name="AddGroup.Action" xml:space="preserve">
+    <value>Добавить группа ролей</value>
+  </data>
+  <data name="UserRoles.Text" xml:space="preserve">
+    <value>Управление пользователями</value>
+  </data>
+  <data name="UserSettings.Action" xml:space="preserve">
+    <value>Настройки пользователя</value>
+  </data>
+  <data name="UserCount.Header" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+</root>

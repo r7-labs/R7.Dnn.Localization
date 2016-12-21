@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogType.Header" xml:space="preserve">
+    <value>Тип событий</value>
+  </data>
+  <data name="Portal.Header" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="Active.Header" xml:space="preserve">
+    <value>Активное</value>
+  </data>
+  <data name="FileName.Header" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="Edit.EditText" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Параметры ведения журнала</value>
+  </data>
+  <data name="plIsActive.Text" xml:space="preserve">
+    <value>Сохранять события</value>
+  </data>
+  <data name="plIsActive.Help" xml:space="preserve">
+    <value>Отметьте, если желаете сохранять события</value>
+  </data>
+  <data name="plLogTypeKey.Text" xml:space="preserve">
+    <value>Тип событий</value>
+  </data>
+  <data name="plLogTypeKey.Help" xml:space="preserve">
+    <value>Выберите тип событий для этого журнала</value>
+  </data>
+  <data name="plLogTypePortalID.Text" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="plLogTypePortalID.Help" xml:space="preserve">
+    <value>С каким сайтом связан данный журнал</value>
+  </data>
+  <data name="plKeepMostRecent.Text" xml:space="preserve">
+    <value>Сохранять последние</value>
+  </data>
+  <data name="plFileName.Text" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="plFileName.Help" xml:space="preserve">
+    <value>Укажите имя файла, предназначенного для хранения журнала.</value>
+  </data>
+  <data name="plEmailNotificationStatus.Text" xml:space="preserve">
+    <value>Разрешить уведомления по эл. почте</value>
+  </data>
+  <data name="plEmailNotificationStatus.Help" xml:space="preserve">
+    <value>Отметьте, если желаете отправлять сообщения при появлении данного типа событий</value>
+  </data>
+  <data name="plThreshold.Text" xml:space="preserve">
+    <value>Порог появления</value>
+  </data>
+  <data name="plMailFromAddress.Text" xml:space="preserve">
+    <value>Оправлять с адреса</value>
+  </data>
+  <data name="plMailFromAddress.Help" xml:space="preserve">
+    <value>Адрес электронной почты, от имени которого будут оправляться уведомления.</value>
+  </data>
+  <data name="plMailToAddress.Text" xml:space="preserve">
+    <value>Оправлять кому</value>
+  </data>
+  <data name="plMailToAddress.Help" xml:space="preserve">
+    <value>Адрес эл. почты, на который будут оправляться уведомления</value>
+  </data>
+  <data name="EmailSettings.Text" xml:space="preserve">
+    <value>Параметры уведомлений по эл. почте</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Добавить конфигурацию журнала</value>
+  </data>
+  <data name="ConfigDeleted.Text" xml:space="preserve">
+    <value>Выбранная конфигурация журнала удалена.</value>
+  </data>
+  <data name="ConfigUpdated.Text" xml:space="preserve">
+    <value>Конфигурация журнала изменена.</value>
+  </data>
+  <data name="ConfigAdded.Text" xml:space="preserve">
+    <value>Конфигурация журнала успешно добавлена.</value>
+  </data>
+  <data name="LogEntry.Text" xml:space="preserve">
+    <value> Запись в журнале</value>
+  </data>
+  <data name="LogEntries.Text" xml:space="preserve">
+    <value>Записей в журнале</value>
+  </data>
+  <data name="Occurence.Text" xml:space="preserve">
+    <value> Вхождение</value>
+  </data>
+  <data name="Occurences.Text" xml:space="preserve">
+    <value> Вхождений</value>
+  </data>
+  <data name="In.Text" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Параметры ведения журнала</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О просмотрщике журнала&lt;/h1&gt;&lt;p&gt;Позволяет задать события, которые будут записаны в журнал.&lt;/p&gt;</value>
+  </data>
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>Выбранная конфигурация журнала не может быть удалена. Сначала требуется удалить все записи данного типа из журнала.</value>
+  </data>
+  <data name="TimeType_1.Text" xml:space="preserve">
+    <value>Секунд</value>
+  </data>
+  <data name="TimeType_2.Text" xml:space="preserve">
+    <value>Минут</value>
+  </data>
+  <data name="TimeType_3.Text" xml:space="preserve">
+    <value>Часов</value>
+  </data>
+  <data name="TimeType_4.Text" xml:space="preserve">
+    <value>Дней</value>
+  </data>
+</root>

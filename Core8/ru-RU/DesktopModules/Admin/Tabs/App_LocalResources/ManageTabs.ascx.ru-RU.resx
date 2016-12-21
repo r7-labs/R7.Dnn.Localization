@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Основные настройки</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>В данном разделе вы можете управлять основными настройками страницы.</value>
+  </data>
+  <data name="TabName.Text" xml:space="preserve">
+    <value>Имя страницы</value>
+  </data>
+  <data name="TabNameHelp.Text" xml:space="preserve">
+    <value>Введите имя страницы. Этот текст будет отображаться в меню.</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="TitleHelp.Text" xml:space="preserve">
+    <value>Введите заголовок страницы. Этот текст будет показан в заголовке окна браузера.</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="DescriptionHelp.Text" xml:space="preserve">
+    <value>Введите описание страницы в расположенном ниже поле.</value>
+  </data>
+  <data name="ParentTab.Text" xml:space="preserve">
+    <value>Страница-предок</value>
+  </data>
+  <data name="ParentTab.Help" xml:space="preserve">
+    <value>Выберите страницу, которой текущая страница должна быть подчинена.</value>
+  </data>
+  <data name="DefaultTemplate.Text" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="UrlHelp.Text" xml:space="preserve">
+    <value>Если Вы хотите, чтобы при открытии этой страницы производился переход на какой-либо другой ресурс, укажите значение поля Ссылка. Обратите внимание, что данное поле не является обязательным.</value>
+  </data>
+  <data name="Copy.Text" xml:space="preserve">
+    <value>Копировать страницу</value>
+  </data>
+  <data name="CopyModules.Text" xml:space="preserve">
+    <value>Копировать модули</value>
+  </data>
+  <data name="CopyModulesHelp.Text" xml:space="preserve">
+    <value>Вы можете выбрать страницу, с которой требуется копировать модули.</value>
+  </data>
+  <data name="CopyContent.Text" xml:space="preserve">
+    <value>Выберите модули</value>
+  </data>
+  <data name="CopyContentHelp.Text" xml:space="preserve">
+    <value>Выберите модули, которые нужно скопировать и введите из заголовки. Дополнительно укажите, хотите ли Вы создать новый модуль (без содержимого), копировать модуль (с содержимым), сделать ссылку на существующий модуль (общее содержимое).</value>
+  </data>
+  <data name="ModuleNew.Text" xml:space="preserve">
+    <value>Новый модуль</value>
+  </data>
+  <data name="ModuleCopy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="ModuleReference.Text" xml:space="preserve">
+    <value>Существующий модуль</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>Дополнительные настройки</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>В данном разделе Вы можете управлять дополнительными настройками страницы.</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>Значок в меню</value>
+  </data>
+  <data name="IconHelp.Text" xml:space="preserve">
+    <value>Вы можете указать значок, используемый для страницы в меню сайта.</value>
+  </data>
+  <data name="plSkin.Text" xml:space="preserve">
+    <value>Тема страницы</value>
+  </data>
+  <data name="plSkin.Help" xml:space="preserve">
+    <value>Выбранная тема будет применена к текущей странице.</value>
+  </data>
+  <data name="plContainer.Text" xml:space="preserve">
+    <value>Шаблон оформления модулей</value>
+  </data>
+  <data name="plContainer.Help" xml:space="preserve">
+    <value>Выбранный шаблон оформления модулей будет применен ко всем модулям на этой странице.</value>
+  </data>
+  <data name="Menu.Text" xml:space="preserve">
+    <value>Включить в меню</value>
+  </data>
+  <data name="MenuHelp.Text" xml:space="preserve">
+    <value>Вы можете выбрать, следует ли показывать страницу в меню сайта или нет. Если страница не включена в меню, попасть на нее по-прежнему можно, указав URL страницы в адресной строке браузера.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Отключена</value>
+  </data>
+  <data name="DisabledHelp.Text" xml:space="preserve">
+    <value>При выборе отключенной страницы в меню сайта переход на нее не производится. Эта возможность используется для создания контейнеров для дочерних элементов меню.</value>
+  </data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+    <value>Настройки безопасности</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
+  <data name="PermissionsHelp.Text" xml:space="preserve">
+    <value>Выберите группы пользователей, которым разрешено просматривать страницу или управлять ей.</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="KeyWords.Text" xml:space="preserve">
+    <value>Ключевые слова</value>
+  </data>
+  <data name="KeyWordsHelp.Text" xml:space="preserve">
+    <value>Введите список ключевых слов страницы (разделяйте слова запятыми). Эти ключевые слова используются поисковыми системами при индексированни страниц сайта.</value>
+  </data>
+  <data name="plSecure.Text" xml:space="preserve">
+    <value>Защищенное соединение?</value>
+  </data>
+  <data name="plSecure.Help" xml:space="preserve">
+    <value>Укажите, необходимо ли использовать защищенное соединение (SSL) для этой страницы. Эта возможность будет включена только в том случае, если поддержка SSL включена на уровне сайта.</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>Начало публикации:</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>Введите дату начала показа страницы. Для выбора даты можно использовать календарь.</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>Окончание публикации:</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>Введите дату, по наступлении которой завершается показ страницы. Для выбора даты можно использовать календарь.</value>
+  </data>
+  <data name="SubmitToGoogle.Text" xml:space="preserve">
+    <value>Отправить в Google</value>
+  </data>
+  <data name="ControlTitle_tab.Text" xml:space="preserve">
+    <value>Свойства страницы</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="valTabName.ErrorMessage" xml:space="preserve">
+    <value>Укажите имя страницы</value>
+  </data>
+  <data name="DeleteSpecialPage.Text" xml:space="preserve">
+    <value>Главная страница, страница-заставка, страницы входа и профайла пользователя, а также последняя видимая страница сайта, корневые страницы администраторов сайта и хоста не могут быть удалены.</value>
+  </data>
+  <data name="valStartDate.ErrorMessage" xml:space="preserve">
+    <value>Неверная дата начала публикации</value>
+  </data>
+  <data name="valEndDate.ErrorMessage" xml:space="preserve">
+    <value>Неверная дата окончания публикации</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Управление страницей&lt;/h1&gt;&lt;p&gt;Модуль позволяет изменять настройки текущей страницы, удалить страницу или отправить ее к Google для индексирования.&lt;/p&gt;</value>
+  </data>
+  <data name="PageDetails.Text" xml:space="preserve">
+    <value>Описание страницы</value>
+  </data>
+  <data name="RefreshInterval.Text" xml:space="preserve">
+    <value>Интервал обновления (секунд)</value>
+  </data>
+  <data name="RefreshInterval.Help" xml:space="preserve">
+    <value>Введите интервал ожидания между автоматическими обновлениями страницы (Например: введите "60" для указания интервала в 1 минуту или оставьте поле пустым для отключения автоматического обновления).</value>
+  </data>
+  <data name="PageHeadText.Text" xml:space="preserve">
+    <value>Мета-теги</value>
+  </data>
+  <data name="PageHeadText.Help" xml:space="preserve">
+    <value>Введите любые мета-теги, которые должны отображаться внутри раздела "HEAD" в коде HTML страницы.</value>
+  </data>
+  <data name="cmdCopySkin.Text" xml:space="preserve">
+    <value>Копировать оформление</value>
+  </data>
+  <data name="plCopySkin.Help" xml:space="preserve">
+    <value>Копирует выбранные настройки оформления страницы (тему и контейнер) для всех подчиненных ей страниц. Данная возможность доступна только администраторам сайта и хостинга. </value>
+  </data>
+  <data name="plCopySkin.Text" xml:space="preserve">
+    <value>Копировать оформление для подчиненных:</value>
+  </data>
+  <data name="cmdCopyPerm.Text" xml:space="preserve">
+    <value>Копировать разрешения</value>
+  </data>
+  <data name="plCopyPerm.Help" xml:space="preserve">
+    <value>Копирует выбранные разрешения страницы на все нижележащие страницы.</value>
+  </data>
+  <data name="plCopyPerm.Text" xml:space="preserve">
+    <value>Копировать разрешения для подчиненных:</value>
+  </data>
+  <data name="ExceededQuota.Text" xml:space="preserve">
+    <value>Создание этой страницы приведет к превышению квоты на количество страниц, установленной для этого сайта. По вопросам увеличения квоты на количество страниц, свяжитесь с администратором хостинга.</value>
+  </data>
+  <data name="plFolder.Help" xml:space="preserve">
+    <value>Укажите папку с шаблонами страниц</value>
+  </data>
+  <data name="plFolder.Text" xml:space="preserve">
+    <value>Папка шаблонов:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>Выберите шаблон, на основании которого Вы хотели бы создать эту страницу.</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>Шаблон страницы:</value>
+  </data>
+  <data name="Root.Text" xml:space="preserve">
+    <value>Корень</value>
+  </data>
+  <data name="DesignCopied.Text" xml:space="preserve">
+    <value>Оформление успешно скопировано</value>
+  </data>
+  <data name="DesignCopyError.Text" xml:space="preserve">
+    <value>Произошла ошибка при копировании оформления</value>
+  </data>
+  <data name="PermissionCopyError.Text" xml:space="preserve">
+    <value>Произошла ошибка при копировании разрешений</value>
+  </data>
+  <data name="PermissionsCopied.Text" xml:space="preserve">
+    <value>Разрешения скопированы</value>
+  </data>
+  <data name="TabExists.Text" xml:space="preserve">
+    <value>Выбранное имя страницы уже используется другой страницей на том же уровне в этом разделе.</value>
+  </data>
+  <data name="InsertPosition.Help" xml:space="preserve">
+    <value>Выберите страницу, до или после которой требуется вставить эту страницу, или добавьте ее в самый низ на текущем уровне.</value>
+  </data>
+  <data name="InsertPosition.Text" xml:space="preserve">
+    <value>Вставить страницу:</value>
+  </data>
+  <data name="InvalidTabName.Text" xml:space="preserve">
+    <value>Такое имя страницы недопустимо</value>
+  </data>
+  <data name="InsertAfter.Text" xml:space="preserve">
+    <value>Ниже</value>
+  </data>
+  <data name="InsertBefore.Text" xml:space="preserve">
+    <value>Выше</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage" xml:space="preserve">
+    <value>Дата окончания публикации должна быть позднее даты начала публикации</value>
+  </data>
+  <data name="InsertAtEnd.Text" xml:space="preserve">
+    <value>Последней</value>
+  </data>
+  <data name="plPermanentRedirect.Help" xml:space="preserve">
+    <value>Отметьте, если Вы хотите оповестить веб-клиентов о том, что данная страница перемещена навсегда (HTTP 301). Это позволит поисковым системам ссылаться на целевой ресурс напрямую. В противном случае, будет использоваться временное перенаправление (HTTP 302). Значение игнорируется, если ничего не указано в поле Ссылка.</value>
+  </data>
+  <data name="plPermanentRedirect.Text" xml:space="preserve">
+    <value>Постоянное перенаправление?</value>
+  </data>
+  <data name="plPriority.Help" xml:space="preserve">
+    <value>Укажите степень важности страницы от (0 до 1.0) в карте сайта. Это значение поможет поисковой системе определить положение этой страницы относительно других страниц. Значение по-умолчанию: 0.5.</value>
+  </data>
+  <data name="plPriority.Text" xml:space="preserve">
+    <value>Важность:</value>
+  </data>
+  <data name="DeletePermissionError.Text" xml:space="preserve">
+    <value>У Вас нет разрешений на удаление этой страницы.</value>
+  </data>
+  <data name="IconLarge.Text" xml:space="preserve">
+    <value>Значок в консоли</value>
+  </data>
+  <data name="IconLargeHelp.Text" xml:space="preserve">
+    <value>Вы можете указать большой значок, используемый для страницы в модулей Console.</value>
+  </data>
+  <data name="TabRecycled.Text" xml:space="preserve">
+    <value>Страница с таким именем уже существует в Корзине. Вы можете использовать Корзину, чтобы восстановить эту страницу.</value>
+  </data>
+  <data name="InvalidTabDates.Text" xml:space="preserve">
+    <value>Вы указали неверные даты начала и окончания публикации - страница с такими датами никогда не будет показана.</value>
+  </data>
+  <data name="CacheProvider.Help" xml:space="preserve">
+    <value>Выберите используемого поставщика кеширования для страницы.</value>
+  </data>
+  <data name="CacheDuration.Help" xml:space="preserve">
+    <value>Введите длительность кеширования страницы (в секундах). Значение должно быть целым числом.</value>
+  </data>
+  <data name="CacheMaxVaryByCount.Help" xml:space="preserve">
+    <value>Введите максимальное количество версий страницы в кеше (целое число). Это может предотвратить потенциальные DoS-атаки.</value>
+  </data>
+  <data name="CacheProvider.Text" xml:space="preserve">
+    <value>Провайдер кеширования</value>
+  </data>
+  <data name="CacheDuration.Text" xml:space="preserve">
+    <value>Время кеширования (сек.)</value>
+  </data>
+  <data name="CacheMaxVaryByCount.Text" xml:space="preserve">
+    <value>Макс. версий кеша</value>
+  </data>
+  <data name="CacheIncludeExclude.Text" xml:space="preserve">
+    <value>Учитывать или Исключать</value>
+  </data>
+  <data name="CacheIncludeExclude.Help" xml:space="preserve">
+    <value>Если выбрано "Включать", для всех комбинаций значений параметрой строки запроса будут создаваться отдельные записи в кеше. Если выбрано "Исключать", параметры строки запроса не будут использоваться при формирования кешированных версий страницы.</value>
+  </data>
+  <data name="IncludeVaryBy.Text" xml:space="preserve">
+    <value>Учитывать параметры</value>
+  </data>
+  <data name="IncludeVaryBy.Help" xml:space="preserve">
+    <value>Список параметров строки запроса (разделенных запятыми) для включения в список учитываемых при построении кеша. Указанное значение имеет смысл только при значении по-умолчанию поля "Учитывать или Исключать".</value>
+  </data>
+  <data name="ExcludeVaryBy.Text" xml:space="preserve">
+    <value>Исключить параметры</value>
+  </data>
+  <data name="ExcludeVaryBy.Help" xml:space="preserve">
+    <value>Список параметров строки запроса (разделенных запятыми) для исключения из списка учитываемых при построении кеша. Указанное значение имеет смысл только при значении по-умолчанию поля "Учитывать или Исключать".</value>
+  </data>
+  <data name="cmdClearPageCache.Text" xml:space="preserve">
+    <value>Очистить кеш - Эта страница</value>
+  </data>
+  <data name="cmdClearAllPageCache.Text" xml:space="preserve">
+    <value>Очистить кеш - Все страницы</value>
+  </data>
+  <data name="lblCachedItemCount.Text" xml:space="preserve">
+    <value>Версий страницы в кеше: {0}</value>
+  </data>
+  <data name="valCacheTime.ErrorMessage" xml:space="preserve">
+    <value>Время кеширования должно быть числом</value>
+  </data>
+  <data name="valCacheVaryByLimit.ErrorMessage" xml:space="preserve">
+    <value>Значение параметра кеширования VaryByLimit должно быть числом</value>
+  </data>
+  <data name="CacheDurationInfo.Text" xml:space="preserve">
+    <value>Обратите внимание, что кеш страниц обновляется задачей планировщика. Для соблюдения указанного времени кеширования, задача планировщика должна запускаться с меньшим периодом.</value>
+  </data>
+  <data name="BadTemplate.Text" xml:space="preserve">
+    <value>Шаблон страницы не является правильным документом XML. Выберите другой шаблон и попытайтесь снова.</value>
+  </data>
+  <data name="plTags.Help" xml:space="preserve">
+    <value>Отметьте элементы в выпадающем списке, чтобы задать метки этой страницы.</value>
+  </data>
+  <data name="plTags.Text" xml:space="preserve">
+    <value>Метки:</value>
+  </data>
+  <data name="LocalizedModules.Text" xml:space="preserve">
+    <value>Перевод модулей</value>
+  </data>
+  <data name="cultureLabel.Help" xml:space="preserve">
+    <value>Язык (культура) этой страницы</value>
+  </data>
+  <data name="cultureLabel.Text" xml:space="preserve">
+    <value>Язык страницы:</value>
+  </data>
+  <data name="defaultCultureLabel.Help" xml:space="preserve">
+    <value>Нажмите эту ссылку для просмотра базовой языковой версии этой страницы</value>
+  </data>
+  <data name="defaultCultureLabel.Text" xml:space="preserve">
+    <value>Язык сайта по-умолчанию:</value>
+  </data>
+  <data name="edit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Localization.Text" xml:space="preserve">
+    <value>Перевод</value>
+  </data>
+  <data name="view.Text" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="LocalizedTabs.Text" xml:space="preserve">
+    <value>Перевод страницы</value>
+  </data>
+  <data name="IsTranslated.Text" xml:space="preserve">
+    <value>Переведена?</value>
+  </data>
+  <data name="TranslateConfirm.Text" xml:space="preserve">
+    <value>Уверены, что хотите пометить эту страницу как переведенную? Это действие нельзя отменить.</value>
+  </data>
+  <data name="UnTranslateConfirm.Text" xml:space="preserve">
+    <value>Уверены, что хотите пометить эту страницу как НЕ переведенную? Это действие нельзя отменить.</value>
+  </data>
+  <data name="CreateLocalizedPages.Text" xml:space="preserve">
+    <value>Создать переводные страницы</value>
+  </data>
+  <data name="cultureTypeLabel.Help" xml:space="preserve">
+    <value>Данная настройка определяет, является ли эта страница непереводимой, т.е. имеющей одинаковой содержимое во всех языковых версиях сайта, или переводимой, т.е. содержимое которой требует перевода на целевые языки.</value>
+  </data>
+  <data name="cultureTypeLabel.Text" xml:space="preserve">
+    <value>Языковой тип:</value>
+  </data>
+  <data name="Localized.Text" xml:space="preserve">
+    <value>Создать переводные версии страницы</value>
+  </data>
+  <data name="Neutral.Text" xml:space="preserve">
+    <value>Создать непереводимую страницу</value>
+  </data>
+  <data name="avalableCulturesLabel.Text" xml:space="preserve">
+    <value>Доступные языки</value>
+  </data>
+  <data name="DefaultCulture.Text" xml:space="preserve">
+    <value>Язык сайта по-умолчанию</value>
+  </data>
+  <data name="IsTranslated.Help" xml:space="preserve">
+    <value>Отметьте или снимите флажок, чтобы установить, завершен ли переведов этой страницы или же нет</value>
+  </data>
+  <data name="PopulatePages.Text" xml:space="preserve">
+    <value>Наполнить страницы</value>
+  </data>
+  <data name="Localize.Confirm" xml:space="preserve">
+    <value>Вы собираетесь создать переводные копии всех страниц сайта для языка "{0}". Эти страницы будут использовать общее содержимое с основной страницы - "{1}", пока содержимое их модулей не будет переведено.</value>
+  </data>
+  <data name="Culture.Text" xml:space="preserve">
+    <value>Создать только для текущего языка.</value>
+  </data>
+  <data name="PublishPage.Text" xml:space="preserve">
+    <value>Нажмите эту кнопку для публикации страницы. При этом разрешения на просмотр страницы будут заменены на таковые со страницы с основной языковой версией - таким образом, страница станет доступной для посетителей сайта.</value>
+  </data>
+  <data name="Publish.Text" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="Publish.Confirm" xml:space="preserve">
+    <value>Вы собираетесь опубликовать страницу. Это действие автоматически пометит все модули как переведенные и скопирует разрешения на просмотр из настроек базовой страницы. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="ReadyForTranslation.Text" xml:space="preserve">
+    <value>Уведомить переводчиков</value>
+  </data>
+  <data name="NewContentMessage.Body" xml:space="preserve">
+    <value>На указанной странице есть новое содержимое, готовое к переводу&lt;br/&gt;
+
+Страница: &lt;a href='{1}'&gt;{0}&lt;/a&gt;&lt;br/&gt;{2}</value>
+  </data>
+  <data name="NewContentMessage.Subject" xml:space="preserve">
+    <value>Новое содержимое готово к переводу</value>
+  </data>
+  <data name="publishPageLabel.Help" xml:space="preserve">
+    <value>Нажмите кнопку справа для публикации страницы. При этом разрешения на просмотр страницы будут заменены на таковые со страницы с основной языковой версией - таким образом, страница станет доступной для посетителей сайта.</value>
+  </data>
+  <data name="publishPageLabel.Text" xml:space="preserve">
+    <value>Опубликовать страницу</value>
+  </data>
+  <data name="CacheSettings.Text" xml:space="preserve">
+    <value>Настройки кеширования</value>
+  </data>
+  <data name="RequiredFields.Text" xml:space="preserve">
+    <value>Отмечены обязательные поля</value>
+  </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value>Предпросмотр темы и контейнера</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Выберите тему и/или контейнер для предпросмотра.</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Новая страница</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Сохранить страницу</value>
+  </data>
+  <data name="CopyPage.Text" xml:space="preserve">
+    <value>Копировать страницу</value>
+  </data>
+  <data name="TranslationComment.Text" xml:space="preserve">
+    <value>Уведомить переводчиков</value>
+  </data>
+  <data name="cmdSubmit.Text" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="PathDuplicateWithAlias.Text" xml:space="preserve">
+    <value>Существует доменное имя сайте, совпадающее с именем страницы.</value>
+  </data>
+  <data name="CopyDesignToChildren.Confirm" xml:space="preserve">
+    <value>Выбранные тема и контейнер будут установлены для всех страниц, подчиненных текущей. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="RefreshInterval.Invalid" xml:space="preserve">
+    <value>Неверное число</value>
+  </data>
+  <data name="valPriority.ErrorMessage" xml:space="preserve">
+    <value>Неверное значение важности страницы</value>
+  </data>
+  <data name="valPriorityRequired.ErrorMessage" xml:space="preserve">
+    <value>Введите значение важности страницы</value>
+  </data>
+  <data name="plAllowIndex.Help" xml:space="preserve">
+    <value>Эта настройка управляет тем, должна ли страница индексироваться поисковыми роботами. При этом используются значения INDEX/NOINDEX мета-тега ROBOTS.</value>
+  </data>
+  <data name="plAllowIndex.Text" xml:space="preserve">
+    <value>Разрешить индексирование:</value>
+  </data>
+  <data name="UrlManagement.Text" xml:space="preserve">
+    <value>Управление URL</value>
+  </data>
+  <data name="cmdUpdateLocalization.Text" xml:space="preserve">
+    <value>Сохранить перевод</value>
+  </data>
+  <data name="MakeNeutral.Confirm" xml:space="preserve">
+    <value>При этом все переведенные версии страницы будут удалены, останется только базовая версия страницы. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="MakeNeutral.Text" xml:space="preserve">
+    <value>Сделать страницу непереводимой</value>
+  </data>
+  <data name="MakeTranslatable.Text" xml:space="preserve">
+    <value>Сделать страницу переводимой</value>
+  </data>
+  <data name="AddMissingLanguages.Text" xml:space="preserve">
+    <value>Добавить недостающие языки</value>
+  </data>
+  <data name="plCustomStylesheet.Help" xml:space="preserve">
+    <value>Имя файла таблицы стилей CSS, загружаемой для этой конкретной страницы. Файл должен быть расположен в корне или одной из папок сайта.</value>
+  </data>
+  <data name="plCustomStylesheet.Text" xml:space="preserve">
+    <value>Таблица стилей</value>
+  </data>
+  <data name="urlLabel.Help" xml:space="preserve">
+    <value>Здесь Вы можете указать особый URL для этой страницы.</value>
+  </data>
+  <data name="urlLabel.Text" xml:space="preserve">
+    <value>URL страницы:</value>
+  </data>
+  <data name="doNotRedirectLabel.Help" xml:space="preserve">
+    <value>Отметьте, чтобы удостовериться в том, что данная страница исключена из любых правил, которые могут привести к перенаправлению.</value>
+  </data>
+  <data name="doNotRedirectLabel.Text" xml:space="preserve">
+    <value>Не перенаправлять:</value>
+  </data>
+  <data name="UrlPathCleaned.Error" xml:space="preserve">
+    <value>Указанный URL страницы содержал недопустимые символы, которые были удалены. Нажмите Сохранить снова, чтобы принять произведенные изменения.</value>
+  </data>
+  <data name="UrlPathNotUnique.Error" xml:space="preserve">
+    <value>Указанный URL страницы уже занят. Нажмите Сохранить, если хотите принять предложенный альтернативный вариант.</value>
+  </data>
+  <data name="UpdateUrlButton.Caption" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="UpdateUrlButton.Tooltip" xml:space="preserve">
+    <value>Сохранить URL</value>
+  </data>
+  <data name="TranslationMessageConfirmMessage.Error" xml:space="preserve">
+    <value>В процессе уведомления переводчиков возникли сложности.</value>
+  </data>
+  <data name="TranslationMessageConfirmMessage.Text" xml:space="preserve">
+    <value>Переводчики уведомлены.</value>
+  </data>
+</root>

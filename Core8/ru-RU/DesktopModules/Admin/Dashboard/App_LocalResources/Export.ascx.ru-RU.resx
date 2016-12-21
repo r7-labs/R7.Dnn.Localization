@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Создать файл XML</value>
+  </data>
+  <data name="ControlTitle_export.Text" xml:space="preserve">
+    <value>Экспорт панели управления</value>
+  </data>
+  <data name="plFileName.Help" xml:space="preserve">
+    <value>Введите имя файла XML</value>
+  </data>
+  <data name="plFileName.Text" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>Экспорт панели управления в XML успешно завершен. Файл - {0} - можно найти с помощью менеджера файлов в корневом каталоге хостинга. </value>
+  </data>
+  <data name="valFileName.Error" xml:space="preserve">
+    <value>Укажите имя файла.</value>
+  </data>
+</root>

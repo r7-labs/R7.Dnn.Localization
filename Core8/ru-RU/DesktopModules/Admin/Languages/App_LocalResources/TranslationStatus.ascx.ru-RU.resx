@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_translationstatus.Text" xml:space="preserve">
+    <value>Состояние перевода</value>
+  </data>
+  <data name="markModuleTranslated.Text" xml:space="preserve">
+    <value>Отметить как переведенное</value>
+  </data>
+  <data name="markModuleUnTranslated.Text" xml:space="preserve">
+    <value>Отметить как не переведенное</value>
+  </data>
+  <data name="ModuleTitle.Header" xml:space="preserve">
+    <value>Заголовок модуля</value>
+  </data>
+  <data name="PageName.Header" xml:space="preserve">
+    <value>Имя страницы</value>
+  </data>
+  <data name="Path.Header" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="bindModule.Text" xml:space="preserve">
+    <value>Связать с языком по-умолчанию</value>
+  </data>
+  <data name="unbindModule.Text" xml:space="preserve">
+    <value>Отвязать от языка по-умолчанию</value>
+  </data>
+</root>

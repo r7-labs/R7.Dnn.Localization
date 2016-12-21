@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add.Title" xml:space="preserve">
+    <value>Создать новый модуль</value>
+  </data>
+  <data name="Edit.Title" xml:space="preserve">
+    <value>Редактировать модуль</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать модуль</value>
+  </data>
+  <data name="Control.Text" xml:space="preserve">
+    <value>Элемент управления</value>
+  </data>
+  <data name="Manifest.Text" xml:space="preserve">
+    <value>Манифест</value>
+  </data>
+  <data name="New.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="plAddPage.Help" xml:space="preserve">
+    <value>Отметьте, чтобы создать тестовую страницу для нового модуля.</value>
+  </data>
+  <data name="plAddPage.Text" xml:space="preserve">
+    <value>Создать проверочную страницу?</value>
+  </data>
+  <data name="plCreate.Help" xml:space="preserve">
+    <value>Вы можете создать новый модуль тремя различными способами. Выберите один из них. "Новый" - создает новый элемент управления модулем, "Элемент управления" - создает модуль из существующего элемента управления. "Манифест" - создает модуль из существующего манифеста модуля.</value>
+  </data>
+  <data name="plCreate.Text" xml:space="preserve">
+    <value>Создать модуль из:</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Здесь можно задать описание создаваемого модуля.</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="plFile1.Help" xml:space="preserve">
+    <value>Выберите ресурс для создания модуля.</value>
+  </data>
+  <data name="plFile1.Text" xml:space="preserve">
+    <value>Ресурс:</value>
+  </data>
+  <data name="plModule1.Help" xml:space="preserve">
+    <value>Это папка, где находятся файлы и папки Вашего модуля.</value>
+  </data>
+  <data name="plModule1.Text" xml:space="preserve">
+    <value>Папка модуля:</value>
+  </data>
+  <data name="plName.Help" xml:space="preserve">
+    <value>Введите дружественное имя для создаваемого модуля.</value>
+  </data>
+  <data name="plName.Text" xml:space="preserve">
+    <value>Имя модуля:</value>
+  </data>
+  <data name="plOwner1.Help" xml:space="preserve">
+    <value>Разрабочики модуля должны использовать "уникальную" папку внутри DesktopModules для любых разработок, чтобы избежать возможных недоразумений с другими разработчиками. Выберите папку, которую Вы хотели бы использовать для разработки модуля. Примечание: папки с пользовательскими элементами управления (файлы .ascx) и корневая папка администратора исключены из этого списка.</value>
+  </data>
+  <data name="plOwner1.Text" xml:space="preserve">
+    <value>Базовая папка:</value>
+  </data>
+  <data name="Template.Text" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Создать папку</value>
+  </data>
+  <data name="CSharp.Text" xml:space="preserve">
+    <value>C# (C sharp)</value>
+  </data>
+  <data name="LanguageError.Text" xml:space="preserve">
+    <value>Необходимо выбрать язык для элемента управления модуля.</value>
+  </data>
+  <data name="ModuleControlTemplate.Text" xml:space="preserve">
+    <value>&lt;%@ Control Language="{0}" ClassName="{1}" Inherits="DotNetNuke.Entities.Modules.PortalModuleBase" %&gt;
+&lt;h1&gt;Поздравляем!&lt;/h1&gt;
+&lt;p&gt;Вы успешно создали новый модуль. Вы можете изменить исходный файл элемента управления модуля, выбрав пункт Исходный Код в меню действий.&lt;/p&gt;
+&lt;script runat="server"&gt;
+
+&lt;/script&gt;</value>
+  </data>
+  <data name="plFile2.Help" xml:space="preserve">
+    <value>Введите имя для нового элемента управления модуля</value>
+  </data>
+  <data name="plFile2.Text" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="VisualBasic.Text" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
+  <data name="FileExists.Text" xml:space="preserve">
+    <value>Выбранное Вами имя файла уже существует. Пожалуйста, используйте другое имя.</value>
+  </data>
+  <data name="ModuleFolder.Text" xml:space="preserve">
+    <value>Необходимо выбрать папку модуля. В случае необходимости, можно создать новую папку.</value>
+  </data>
+  <data name="TabExists.Text" xml:space="preserve">
+    <value>Уже существует страница с именем, совпадающим с именем создаваемого модуля. Модуль был успешно создан, но проверочная страница не была добавлена.</value>
+  </data>
+  <data name="plModule2.Help" xml:space="preserve">
+    <value>Введите имя новой папки модуля.</value>
+  </data>
+  <data name="plModule2.Text" xml:space="preserve">
+    <value>Имя папки:</value>
+  </data>
+  <data name="plOwner2.Help" xml:space="preserve">
+    <value>Введите имя для новой базовой папки.</value>
+  </data>
+  <data name="plOwner2.Text" xml:space="preserve">
+    <value>Имя папки:</value>
+  </data>
+  <data name="plLang.Help" xml:space="preserve">
+    <value>Выберите используемый язык.</value>
+  </data>
+  <data name="plLang.Text" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="ImportControl.ErrorMessage" xml:space="preserve">
+    <value>Возникла непредвиденная ошибка при импорте элемента управления модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
+  </data>
+  <data name="InvalidFilename.Text" xml:space="preserve">
+    <value>Имя файла не может содержать недопустимые символы.</value>
+  </data>
+  <data name="MissingControl.Text" xml:space="preserve">
+    <value>Необходимо выбрать имя файла для управления модулем</value>
+  </data>
+  <data name="MissingFriendlyname.Text" xml:space="preserve">
+    <value>Необходимо указать имя модуля</value>
+  </data>
+  <data name="NonuniqueName.Text" xml:space="preserve">
+    <value>Пакет с таким именем уже существует - пожалуйста, укажите другое имя</value>
+  </data>
+  <data name="NonuniqueNameModule.Text" xml:space="preserve">
+    <value>Модуль {0} уже зарегистрирован в системе</value>
+  </data>
+  <data name="MissingManifest.Text" xml:space="preserve">
+    <value>Необходимо предоставить файл манифеста (.dnn или .dnn5)</value>
+  </data>
+  <data name="NoControl.Text" xml:space="preserve">
+    <value>Необходимо выбрать элемент управления в списке "Ресурсы"</value>
+  </data>
+</root>

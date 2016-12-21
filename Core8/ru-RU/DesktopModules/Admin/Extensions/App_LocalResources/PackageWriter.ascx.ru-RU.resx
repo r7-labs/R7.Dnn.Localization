@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О мастере создания пакета&lt;/h1&gt;&lt;p&gt; Этот мастер позводяет создавать пакеты расширений.&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_packagewriter.Text" xml:space="preserve">
+    <value>Создать пакет</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>С помощью этого мастера Вы можете  упаковать все нужные вам файлы для установки на другом экземпляре DNN.</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>Создать пакет</value>
+  </data>
+  <data name="plBasePath.Help" xml:space="preserve">
+    <value>Каталог, где могут быть найдены файлы пакета.</value>
+  </data>
+  <data name="plBasePath.Text" xml:space="preserve">
+    <value>Каталог</value>
+  </data>
+  <data name="plBinFolder.Help" xml:space="preserve">
+    <value>Каталог, где могут быть найдены сборки пакета.</value>
+  </data>
+  <data name="plBinFolder.Text" xml:space="preserve">
+    <value>Каталог сборок</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Возврат</value>
+  </data>
+  <data name="ChooseFiles.Help" xml:space="preserve">
+    <value>На этом этапе вы можете добавить файлы для  включения в ваш пакет.  Мастер попытался определить необходимые файлы для включения, но вы можете добавить или удалить файлы из списка. Кроме того вы должны решить, включить ли исходные файлы, отметив "Включая исходники".</value>
+  </data>
+  <data name="ChooseFiles.Title" xml:space="preserve">
+    <value>Выбрать файлы для включения</value>
+  </data>
+  <data name="cmdGetFiles.Text" xml:space="preserve">
+    <value>Обновить список файлов</value>
+  </data>
+  <data name="chkIncludeSource.Text" xml:space="preserve">
+    <value>Включая исходники:</value>
+  </data>
+  <data name="ChooseAssemblies.Help" xml:space="preserve">
+    <value>На этом этапе вы можете добавить сборки для  включения в ваш пакет. Если есть файл проекта в папке Package, мастер попытается определить нужные сборки для включения, но вы можете добавить или удалить нужные сборки из списка.</value>
+  </data>
+  <data name="ChooseAssemblies.Title" xml:space="preserve">
+    <value>Выбрать сборки для включения</value>
+  </data>
+  <data name="cmdGetAssemblies.Text" xml:space="preserve">
+    <value>Обновить список</value>
+  </data>
+  <data name="Complete.Text" xml:space="preserve">
+    <value>Полный пакет (zip):</value>
+  </data>
+  <data name="FinalStep.Help" xml:space="preserve">
+    <value>Последний шаг - создание пакета. Для создания копии манифеста, отметьте флаг Создать файл манифеста - файл будет создан в папке пакета. Вне зависимости от Вашего выбора здесь, манифест будет сохранен в базе данных и добавлен в пакет.&lt;br/&gt;&lt;br/&gt; 
+Для создания пакета, отметьте флаг Создать пакет. Пакет булет создан в соответствующей папке внутри Install (например Install/Modules для модулей, Install/Themes для тем и т.п.)</value>
+  </data>
+  <data name="FinalStep.Title" xml:space="preserve">
+    <value>Создать пакет</value>
+  </data>
+  <data name="Manifest.Text" xml:space="preserve">
+    <value>Только манифест (DNN):</value>
+  </data>
+  <data name="plManifestName.Help" xml:space="preserve">
+    <value>Введите полное имя файла для манифеста.</value>
+  </data>
+  <data name="plManifestName.Text" xml:space="preserve">
+    <value>Имя файла для манифеста:</value>
+  </data>
+  <data name="LogTitle.Text" xml:space="preserve">
+    <value>Журнал создания пакета</value>
+  </data>
+  <data name="plArchiveName.Help" xml:space="preserve">
+    <value>Введите имя файла для создания архива (zip).</value>
+  </data>
+  <data name="plArchiveName.Text" xml:space="preserve">
+    <value>Имя файла архива:</value>
+  </data>
+  <data name="WriterResults.Help" xml:space="preserve">
+    <value>Результаты создания пакета показаны ниже.</value>
+  </data>
+  <data name="WriterResults.Title" xml:space="preserve">
+    <value>Результаты создания пакета</value>
+  </data>
+  <data name="CreateManifest.Help" xml:space="preserve">
+    <value>На основе вашего выбора мастер создал манифест для пакета. Манифест отображен в текстовом поле ниже. Вы можете отредактировать манифест, прежде чем создать пакет.</value>
+  </data>
+  <data name="CreateManifest.Title" xml:space="preserve">
+    <value>Создать манифест</value>
+  </data>
+  <data name="plManifest.Help" xml:space="preserve">
+    <value>Включите, чтобы создать файл манифеста.</value>
+  </data>
+  <data name="plManifest.Text" xml:space="preserve">
+    <value>Создать файл манифеста:</value>
+  </data>
+  <data name="plPackage.Help" xml:space="preserve">
+    <value>Включите, для создания архива (zip) с пакетом.</value>
+  </data>
+  <data name="plPackage.Text" xml:space="preserve">
+    <value>Создать пакет:</value>
+  </data>
+  <data name="plReviewManifest.Help" xml:space="preserve">
+    <value>Включите, чтобы сделать изменения в манифесте прежде, чем Вы создадите новый пакет.</value>
+  </data>
+  <data name="plReviewManifest.Text" xml:space="preserve">
+    <value>Просмотр манифеста:</value>
+  </data>
+  <data name="plUseManifest.Help" xml:space="preserve">
+    <value>Включите, чтобы использовать существующий манифест для пакета.</value>
+  </data>
+  <data name="plUseManifest.Text" xml:space="preserve">
+    <value>Использовать существующий манифест:</value>
+  </data>
+  <data name="plChooseManifest.Help" xml:space="preserve">
+    <value>Если вы выбрали использовать ранее созданный манифест, то вы можете выбрать какой манифест использовать.</value>
+  </data>
+  <data name="plChooseManifest.Text" xml:space="preserve">
+    <value>Выберите файл манифеста:</value>
+  </data>
+  <data name="NoFileName.Text" xml:space="preserve">
+    <value>Вы должны ввести имя файла для пакета.</value>
+  </data>
+  <data name="ManifestHelp.Text" xml:space="preserve">
+    <value>&lt;p&gt;Данным мастер создаст манифест для вашего расширения. При этом у вас есть несколько возможностей. Если вы уже создали манифест (при помощи мастера или вручную), вы можете использовать этот файл манифеста, отметив флаг "Использовать существующий манифест" и выбрав манифест из выпадающего списка манифестов, обнаруженных системой для данного расширения.&lt;/p&gt;
+&lt;p&gt;Дополнительно, у вас есть возможность пересмотреть манифест на последнем шаге работы мастера - в том случае, если Вы хотите внести в него небольшие изменения, прежде чем пакет будет создан.&lt;/p&gt;</value>
+  </data>
+  <data name="InvalidPackageName.Text" xml:space="preserve">
+    <value>Недопустимое имя пакета - у имени пакета должно быть расширение ".zip".</value>
+  </data>
+  <data name="InvalidManifestExtension.Text" xml:space="preserve">
+    <value>Недопустимое расширение манифеста - расширение должно быть ".dnn".</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>Пакет был создан и может быть найден в каталоге {0}.</value>
+  </data>
+</root>

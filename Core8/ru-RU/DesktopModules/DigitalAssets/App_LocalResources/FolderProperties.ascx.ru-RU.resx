@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelButton.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdCopyPerm.Text" xml:space="preserve">
+    <value>Копировать разрешения</value>
+  </data>
+  <data name="DialogTitle.Text" xml:space="preserve">
+    <value>Информация о папке {0}</value>
+  </data>
+  <data name="FolderNameLabel.Help" xml:space="preserve">
+    <value>Переименовать выбранную папку.</value>
+  </data>
+  <data name="FolderNameLabel.Text" xml:space="preserve">
+    <value>Имя папки</value>
+  </data>
+  <data name="FolderTypeLabel.Help" xml:space="preserve">
+    <value>Данное значение отражает тип выбранной папки.</value>
+  </data>
+  <data name="FolderTypeLabel.Text" xml:space="preserve">
+    <value>Тип папки</value>
+  </data>
+  <data name="GeneralTab.Text" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="lblCopyPerm.Help" xml:space="preserve">
+    <value>Устанавливает текущие разрешения папки для всех подчиненных ей папок.</value>
+  </data>
+  <data name="lblCopyPerm.Text" xml:space="preserve">
+    <value>Копировать разрешения для подчиненных:</value>
+  </data>
+  <data name="PermissionCopyError.Text" xml:space="preserve">
+    <value>Произошла ошибка при копировании разрешений.</value>
+  </data>
+  <data name="PermissionsCopied.Text" xml:space="preserve">
+    <value>Разрешения успешно скопированы.</value>
+  </data>
+  <data name="PermissionsTab.Text" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="UserCannotChangePermissionsError.Text" xml:space="preserve">
+    <value>Вы не можете изменить разрешения этой папки.</value>
+  </data>
+  <data name="UserCannotEditFolderError.Text" xml:space="preserve">
+    <value>У вас нет разрешений на изменение этой папки.</value>
+  </data>
+  <data name="UserCannotReadFolderError.Text" xml:space="preserve">
+    <value>У вас нет разрешений на просмотр этой папки.</value>
+  </data>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HTTPAlias.Header" xml:space="preserve">
+    <value>Псевдоним сайта</value>
+  </data>
+  <data name="Action.Header" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Добавить псевдоним</value>
+  </data>
+  <data name="Primary.Header" xml:space="preserve">
+    <value>Основной</value>
+  </data>
+  <data name="currentAliasHelp.Text" xml:space="preserve">
+    <value>Этот псевдоми нельзя изменить сейчас. Сначала войдите на эту страницу, используя один из других псевдонимов.</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="editRule.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="saveRule.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Код языка</value>
+  </data>
+  <data name="currentAliasHelpLabel.Text" xml:space="preserve">
+    <value>Текущий псевдоним</value>
+  </data>
+</root>

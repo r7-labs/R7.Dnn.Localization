@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activate.Header" xml:space="preserve">
+    <value>Начало работы и активация функций</value>
+  </data>
+  <data name="ActivateButtonText.Text" xml:space="preserve">
+    <value>Активировать</value>
+  </data>
+  <data name="ActivatedMessageHtml.Text" xml:space="preserve">
+    <value>&lt;p class="{0}"&gt;Премиальные возможности включены. Спасибо.&lt;/p&gt;</value>
+  </data>
+  <data name="ActivateInstructionsHtml.Text" xml:space="preserve">
+    <value>&lt;h3&gt;Для активации всех возможностей&lt;/h3&gt;&lt;p&gt;Шаг 1 - Получите лицензионный ключ 51Degrees on premise.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Шаг 2 - Вставьте код лицензионного ключа в расположенное ниже текстовое поле. Нажмите "Активировать" для использования ключа на данном сайте.&lt;/p&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="ActivationDataInvalidHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Заданный источник данных не содержит действительных данных.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureCouldNotUpdateConfigHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Элемент fiftyOne/detection файла конфигурации '{1}' не может быть вставлен. Убедитесь, что следующий текст присутствует между тегами fiftyOne и попытайтесь активировать лицензионный ключ снова.&lt;/p&gt;
+&lt;br/&gt;
+&lt;span style="margin-left: 0px !important;"&gt;&lt;code style="color: #000000;"&gt;&amp;lt;&lt;/code&gt;&lt;code&gt;&lt;span style="color: #006699;"&gt;&lt;strong&gt;detection&lt;/strong&gt;&lt;/span&gt;&lt;/code&gt;&amp;nbsp;&lt;code style="color: #808080;"&gt;binaryFilePath&lt;/code&gt;&lt;code style="color: #000000;"&gt;=&lt;/code&gt;&lt;code style="color: blue;"&gt;"~/App_Data/51Degrees-Premium.dat"&lt;/code&gt;&lt;code&gt;&lt;span style="color: #000000;"&gt;/&amp;gt;&lt;/span&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureCouldNotWriteDataFileHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;
+&lt;p&gt;Файл данных устройства '{1}' не удается сохранить. Убедитесь, что пользователь '{2}' имеет доступ на запись в папку, или укажите другую папку, к которой пользователь имеет доступ на запись.&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureCouldNotWriteLicenceFileHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Файл лицензии '{1}' не удается сохранить в папку bin '{2}' этого сайта. Создайте текстовый файл с расширением .lic и вставьте в него лицензионный ключ. Затем сохраните текстовый файл в папке bin.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureGenericHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Ой! У нас проблема с активацией ключа лицензии. Мы не знаем, почему предоставленный ключ лицензии не может быть активирован. Пожалуйста, &lt;a href="http://51degrees.mobi/AboutUs/ContactUs.aspx"&gt;свяжитесь с нами&lt;/a&gt;, предоставив подробную информацию о вашем сайте и мы попробуем вам помочь.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureHttpHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Мы не можем соединиться с сайтом проверки лицензий 51Degrees.mobi с хоста '{1}'. Это может произойти по одной из следующих причин.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Данный сайт работает в режиме medium trust mode и атрибут
+&lt;a href="http://msdn.microsoft.com/en-us/library/system.web.configuration.trustsection.originurl(v=VS.80).aspx"&gt;originUrl&lt;/a&gt; 
+в файле web.config не разрешает доступ хоста '{1}'. Изменить значение атрибута originUrl для того, чтобы оно включало '{1}'. Для того, чтобы указать несколько имен хостов, разделяйте их знаками |.&lt;/li&gt;
+&lt;li&gt;
+Брандмауэр сервера или некоторый другой брандмауэр блокирует доступ к хосту или порту SSL 443. Проверьте конфигурацию брандмауэра.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;После того, как вы произведете необходимые проверки, попробуйте активировать лицензионный ключ снова.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationFailureInvalidHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Предоставленный лицензионный ключ не прошел проверку. Пожалуйста, свяжитесь с вашим поставщиком для проверки лицензионного ключа.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationStreamFailureHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Невозможно прочитать данные из заданного источника данных.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="ActivationSuccessHtml.Text" xml:space="preserve">
+    <value>&lt;div class="{0}"&gt;&lt;p&gt;Успешно. Нажмите кнопку "Обновить" для того, чтобы перезагрузить веб-страницы и начать использовать Премиальные данные устройств. Примечание: Возможна небольшая задержка по причине перезапуска приложения.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="BackToExplorer.Text" xml:space="preserve">
+    <value>Назад к обозревателю устройств</value>
+  </data>
+  <data name="BrowserList.Header" xml:space="preserve">
+    <value>Браузер</value>
+  </data>
+  <data name="ContentList.Header" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="DeviceExplorer.Header" xml:space="preserve">
+    <value>Обозреватель устройств</value>
+  </data>
+  <data name="GetLatestData.Text" xml:space="preserve">
+    <value>Загрузить свежие данные</value>
+  </data>
+  <data name="HardwareList.Header" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="NoResultsFound.Text" xml:space="preserve">
+    <value>По вашему запросу ничего не найдено.</value>
+  </data>
+  <data name="PremiumIntro.Text" xml:space="preserve">
+    <value>В {0} содержится информация о тысячах устройств, включая игровые консоли, устройства для чтения электронных книг, планшеты, смартфоны и обычных мобильных телефонах. С каждым устройством связано множество свойств, от размера экрана и методов ввода до операционной системы, браузера и сведений об аппратном обеспечении.</value>
+  </data>
+  <data name="RefreshButtonText.Text" xml:space="preserve">
+    <value>Обновить</value>
+    <comment>Used to reload page after upgrade to premium.</comment>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>Найти устройство</value>
+  </data>
+  <data name="UploadButtonText.Text" xml:space="preserve">
+    <value>Подгрузка</value>
+  </data>
+  <data name="UploadData.Text" xml:space="preserve">
+    <value>Подгрузить данные</value>
+  </data>
+  <data name="ValidationFileErrorText.Text" xml:space="preserve">
+    <value>Нажмите кнопку Выбрать для того, чтобы выбрать премиальный файл данных для подгрузки.</value>
+  </data>
+  <data name="ValidationRequiredErrorText.Text" xml:space="preserve">
+    <value>Введите лицензионный ключ.</value>
+  </data>
+  <data name="ValidationRegExErrorText.Text" xml:space="preserve">
+    <value>Лицензионный ключ должен содержать только буквы в верхнем регистре и цифры.</value>
+  </data>
+  <data name="BackButtonDevicesText.Text" xml:space="preserve">
+    <value>Другие поставщики</value>
+  </data>
+  <data name="DeviceSearchRequired.Text" xml:space="preserve">
+    <value>Требуется обязательно</value>
+  </data>
+  <data name="BackButtonDeviceText.Text" xml:space="preserve">
+    <value>Еще {0} устройств(а)</value>
+  </data>
+  <data name="PremiumUploadError.Text" xml:space="preserve">
+    <value>Произошла ошибка при подгрузке ваших данных.</value>
+  </data>
+  <data name="PremiumUploadSuccess.Text" xml:space="preserve">
+    <value>Данные подгружены успешно.</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Определение устройств</value>
+  </data>
+  <data name="SettingsAutoUpdates.Text" xml:space="preserve">
+    <value>Включены автоматические обновления?</value>
+  </data>
+  <data name="SettingsEnabled.Text" xml:space="preserve">
+    <value>Включено определение устройств?</value>
+  </data>
+  <data name="SettingsAutoUpdates.Help" xml:space="preserve">
+    <value>Влючает/выключает автоматическое обновление файлов данных устройств. Если включено, сайт будет периодически обращаться к 51Degrees за новыми версиями файлов данных устройств и автоматически устанавливать их без перезапуска пула приложения. Для включения этой настройки необходимы Улучшенные данные.</value>
+  </data>
+  <data name="SettingsEnabled.Help" xml:space="preserve">
+    <value>Включить/выключить определение устройств.</value>
+  </data>
+  <data name="SettingsShareUsage.Help" xml:space="preserve">
+    <value>Включить/выключить отправку данных использования в 51Degrees.</value>
+  </data>
+  <data name="SettingsShareUsage.Text" xml:space="preserve">
+    <value>Отправлять данные об использовании?</value>
+  </data>
+  <data name="Cancel.Action" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DeviceBrowserUnavailable.Html" xml:space="preserve">
+    <value>&lt;p&gt;Набор данных устройств, используемый для их определения, не содержит необходимой информации об устройствах с веб-доступом для того, чтобы можно было воспользоваться проводником устройств.&lt;/p&gt;
+&lt;p&gt;Устройства, доступные в улучшенных версиях определения устройств, можно изучить на веб-сайте 51Degrees.&lt;/p&gt;</value>
+  </data>
+  <data name="DeviceBrowserUnavailableButton.Action" xml:space="preserve">
+    <value>Просмотр устройств</value>
+  </data>
+  <data name="DeviceBrowserUnavailableButton.Url" xml:space="preserve">
+    <value>https://51degrees.com/resources/device-explorer</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>Просмотр устройств</value>
+  </data>
+  <data name="ManualUpdates.Help" xml:space="preserve">
+    <value>Подгрузить новые файлы набора данных устройств вручную</value>
+  </data>
+  <data name="NewDevices.Header" xml:space="preserve">
+    <value>Топ-5 новых устройств</value>
+  </data>
+  <data name="Properties.Header" xml:space="preserve">
+    <value>Доступные свойства</value>
+  </data>
+  <data name="Refresh.Action" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Settings.Header" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SettingsConfiguration.Header" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SettingsDataSetDeviceCombinations.Help" xml:space="preserve">
+    <value>Число различных комбинаций устройства, операционной системы и браузера, которые может определить этот сайт.</value>
+  </data>
+  <data name="SettingsDataSetDeviceCombinations.Text" xml:space="preserve">
+    <value>Комбинации</value>
+  </data>
+  <data name="SettingsDataSetHardwareProfiles.Help" xml:space="preserve">
+    <value>Число различных моделей устройств с веб-доступом, которые могут быть определены этим сайтом.</value>
+  </data>
+  <data name="SettingsDataSetHardwareProfiles.Text" xml:space="preserve">
+    <value>Устройства</value>
+  </data>
+  <data name="SettingsDataSetName.Help" xml:space="preserve">
+    <value>Lite, Premium или Enterprise, в зависимости от вида используемого набора данных 51Degrees. Lite поставляется с DNN Platform, тогда как Premium - с Evoq. DNN Platform можно обновить с помощью лицензионного ключа.</value>
+  </data>
+  <data name="SettingsDataSetName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="SettingsDataSetNextUpdate.Help" xml:space="preserve">
+    <value>Когда ожидается следующий набор данных от 51Degrees.</value>
+  </data>
+  <data name="SettingsDataSetNextUpdate.Text" xml:space="preserve">
+    <value>Следующее обновление</value>
+  </data>
+  <data name="SettingsDataSetPropertyCount.Help" xml:space="preserve">
+    <value>Число свойств, доступное в текущем наборе данных.</value>
+  </data>
+  <data name="SettingsDataSetPropertyCount.Text" xml:space="preserve">
+    <value>Число свойств</value>
+  </data>
+  <data name="SettingsDataSetPublished.Help" xml:space="preserve">
+    <value>Дата публикации текущего набора данных в 51Degrees.</value>
+  </data>
+  <data name="SettingsDataSetPublished.Text" xml:space="preserve">
+    <value>Опубликовано</value>
+  </data>
+  <data name="SettingsDataSetVersion.Help" xml:space="preserve">
+    <value>Формат версии для файла данных устройства.</value>
+  </data>
+  <data name="SettingsDataSetVersion.Text" xml:space="preserve">
+    <value>Формат данных</value>
+  </data>
+  <data name="SettingsManualUpload.Header" xml:space="preserve">
+    <value>Подгрузить данные устройства</value>
+  </data>
+  <data name="SettingsRefresh.Help" xml:space="preserve">
+    <value>При использовании определения устройств с Evoq или улучшенным набором данных устройств 51Degrees, данная настройка проверяет наличие новой версии набора данных устройств на сайте 51Degrees.</value>
+  </data>
+  <data name="SettingsRefresh.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="SettingsStats.Header" xml:space="preserve">
+    <value>Информация о данных устройства</value>
+  </data>
+  <data name="SettingsUpload.Help" xml:space="preserve">
+    <value>Подгрузить файл данных 51Degrees для использования в определения устройств. Новые файлы данных могут быть получены непосредственно от 51Degrees.</value>
+  </data>
+  <data name="SettingsUpload.Text" xml:space="preserve">
+    <value>Подгрузить вручную</value>
+  </data>
+  <data name="Unavailable.Text" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="Update.Action" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="GetStarted.Header" xml:space="preserve">
+    <value>Начало работы</value>
+  </data>
+  <data name="GetStartedIntro.Html" xml:space="preserve">
+    <value>&lt;p&gt;Отзывчивый веб-дизайн на стороне клиента (RWD) предполагает отправку всего содержимого в браузер,  позволяя браузеру самому изменять размер и настраивать содержимое под устройство. Поставщик возможностей клиентов 51Degrees дает возможность контролировать содержимое на стороне сервера, включая отправку различных изображений, навигации и содержимого для различных типов устройств. Это уменьшает вес страницы в мобильном исполнении, улучшая производительность и давая возможность отобразить оптимизированный под устройство пользовательский интерфейс, в конечном счете, значительно повышая удобство использования.&lt;/p&gt;&lt;p&gt;Более 85% компаний - "голубых фишек" используют определение устройств, в том числе в сферах электронной коммерции, средств массовой информации, рекламы, финансов и туризма. Читайте дальше о примерах использования и идеях.&lt;/p&gt;&lt;a href="https://51degrees.com/dnn" title="Узнайте больше об определении устройств в DNN" class="dnnPrimaryAction" target="_blank"&gt; Подробнее &lt;/a&gt;i</value>
+  </data>
+  <data name="SettingsChangeError.Text" xml:space="preserve">
+    <value>Настройки определения устройств не могут быть изменены. Для изменения разрешений обратитесь к файлу 51Degrees.mobi.config и перезапустите пул приложений.</value>
+  </data>
+  <data name="SettingsChangeSuccess.Text" xml:space="preserve">
+    <value>Настройки определения устройств были обновлены. Перезапустите пул приложений для применения изменений.</value>
+  </data>
+  <data name="SettingsImageOptimiser.Help" xml:space="preserve">
+    <value>Когда оптимизатор изображения и определение устройств включены, DNN не будет отправлять на устройства изображения, которые слишком большие для отображения на экране устройства. К URL изображений могут быть добавлены параметры строки запроса для автоматического изменения размера изображения, что улучшает производительность.</value>
+  </data>
+  <data name="SettingsImageOptimiser.Text" xml:space="preserve">
+    <value>Включена оптимизация изображений под устройства?</value>
+  </data>
+  <data name="SettingsFactory.Help" xml:space="preserve">
+    <value>Задает, какой тип управления данными используется. Файловый использует меньше памяти, но медленнее. В памяти - быстрее, но использует больше памяти.</value>
+  </data>
+  <data name="SettingsFactory.Text" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="SettingsFileMode.Help" xml:space="preserve">
+    <value>Основной объем данных устройств остается в файловой системе. Она подгружается в память малыми порциями при необходимости в ней. Такой подход уменьшает  потребление памяти. Если выключено, то будет использоваться режим "В памяти", при котором все данные устройств подгружаются в память. Файловый режим использует меньше всего памяти.</value>
+  </data>
+  <data name="SettingsFileMode.Text" xml:space="preserve">
+    <value>Файловый режим включен?</value>
+  </data>
+  <data name="GetStartedButton.Text" xml:space="preserve">
+    <value>Включение функций</value>
+  </data>
+  <data name="GetStartedDetail.Html" xml:space="preserve">
+    <value>&lt;h3&gt;Оптимизация изображений&lt;/h3&gt;
+&lt;p&gt;Вы можете обеспечить, чтобы на веб-страницах присутствовали изображения только нужного размера (оптимизированные под экран устройства), путем добавления в URL изображений специальных параметров строки запроса. Например: &lt;span style="font-family: 'Courier New', Courier, monospace; font-weight: bold;"&gt;&amp;lt;img src="Empty.gif" data-src="/image.png?w=auto"/&amp;gt;&lt;/span&gt; or &lt;a style="font-family: 'Courier New', Courier, monospace; font-weight: bold;" href="/DesktopModules/Admin/FiftyOneClientCapabilityProvider/Images/Optimization.png?w=300" target="_blank"&gt;/DesktopModules/Admin/FiftyOneClientCapabilityProvider/Images/Optimization.png?w=300&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Изображения, размер которых больше, чем размер экрана устройства, будут автоматически уменьшены перед отправкой.&lt;/p&gt;
+&lt;h3&gt;Определение устройств&lt;/h3&gt;
+&lt;h4&gt;Для администраторов&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Предоставляйте содержимое, оптимизированное под настольные компьютеры, такое как Flash или полноэкранное видео, на той же самой странице, что и содержимое для смартфонов и планшетов.&lt;/li&gt;
+&lt;li&gt;Используйте мега-меню с наведением для улучшения навигации при помощи мыши и клавиатуры, но в то же время предоставляя отзывчивое меню для сенсорных экранов.&lt;/li&gt;
+&lt;li&gt;Перенаправляйте пользователей на страницы, оптимизированные для смартфонов и планшетов.&lt;/li&gt;
+&lt;li&gt;Улучшайте данные Google Analytics с помощью информации о размерах экрана и методах ввода.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Для разработчиков&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Включайте и выключайте содержимое страницы, используя правила на стороне сервера. Например, используйте &lt;span style="font-family: 'Courier New', Courier, monospace; font-weight: bold;"&gt;Request.Browser["IsTablet"]&lt;/span&gt; для того, чтобы определить, является ли клиентское устройство планшетом.&lt;/li&gt;
+&lt;li&gt;Обращайтесь к возможностям устройств из JavaScript с помощью &lt;span style="font-family: 'Courier New', Courier, monospace; font-weight: bold;"&gt;http://HOSTNAME/51Degrees.features.js&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+</root>

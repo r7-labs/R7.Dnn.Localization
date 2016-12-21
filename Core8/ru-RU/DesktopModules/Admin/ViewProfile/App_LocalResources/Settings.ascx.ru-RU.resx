@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Настройка отображения профиля</value>
+  </data>
+  <data name="IncludeButton.Help" xml:space="preserve">
+    <value>Отметьте, чтобы показать кнопку Редактировать профиль.</value>
+  </data>
+  <data name="IncludeButton.Text" xml:space="preserve">
+    <value>Показать кнопку редактирования:</value>
+  </data>
+  <data name="LoadDefault.Confirm" xml:space="preserve">
+    <value>Это приведет к перезаписи существующего шаблона. Уверены, что хотите продолжить?</value>
+  </data>
+  <data name="LoadDefault.Text" xml:space="preserve">
+    <value>Загрузить шаблон по умолчанию</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>Введите шаблон для отображения профиля пользователя.</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>Шаблон профиля:</value>
+  </data>
+</root>

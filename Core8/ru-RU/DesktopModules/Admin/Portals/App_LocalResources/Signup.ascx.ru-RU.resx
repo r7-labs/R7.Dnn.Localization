@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>С помощью этого модуля можно создать два типа сайтов:&lt;br&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Родительские сайты&lt;/b&gt; - это сайты, доступные в сети по выделенному доменному имени (URL), например www.domain.com, назначенному данному сайту. Это как правило означает необходимость покупки доменного имени у специального Интернет-регистратора имен, конфигурирования записей службы имен (DNS) на собственном сервере и/или на сервере хостинг-провайдера, а также назначения соответствия IP-адреса Вашего сервера приобретенному доменному имени. Пример допустимого адреса родительского сайта - &lt;b&gt;www.mydomain.com&lt;/b&gt;. Вы также можете адресовать Ваш сайт без использования доменного имени - при помощи IP-адреса ( например &lt;b&gt;65.174.86.217&lt;/b&gt; ). Если у Вас есть необходимость адресовать один и тот же сайт с помощью нескольких доменных имен, Вы можете перечислить их через запятую ( например &lt;b&gt;www.domain1.com,www.domain2.com&lt;/b&gt; ). Не создавайте родительских сайтов до тех пор, пока не сделаны и не вступили в силу все необходимые установки службы доменных имен (DNS), в противном случае Ваши сайты не будут доступны.&lt;br&gt;&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Дочерние сайты&lt;/b&gt; являются под-сайтами на сервере Вашего хостинг-провайдера. По существу это означает создание директории на сайте провайдера, которая позволит адресовать дочерний сайт через интернет-адрес (URL), состоящий из доменного имени основного сайта и имени этой директории ( например,  www.domain.com/directory ). Дочерний сайт в любой момент может быть сконвертирован в родительский путем простого изменения интернет-псевдонима сайта.&lt;br&gt;&lt;br&gt;*Обратите внимание: Сайты создаются с использованием парметров по-умолчанию, заданных либо в модуле "Параметры хоста" ( Плата за хостинг, Дисковое пространство, Длительность ознакомительного периода ), либо в файле шаблона сайта, который был использован при создании . После того, как сайт будет создан, все эти параметры могут быть изменены на странице Админ &gt; Настройки сайта.&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="plType.Text" xml:space="preserve">
+    <value>Тип сайта:</value>
+  </data>
+  <data name="plType.Help" xml:space="preserve">
+    <value>С помощью данного модуля можно создавать два типа сайтов (с подробностями можно ознакомиться в разделе "Справка" в служебном меню модуля).</value>
+  </data>
+  <data name="DemoMessage.Text" xml:space="preserve">
+    <value>Создание демо-сайта позволит Вам организовать доступный только Вам пробный сайт и поэкспериментировать с его дополнительными возможностями {0}. В любой момент в течении или по окончании демо-периода Вы сможете сконвертировать демо-сайт в полноценный, для чего нужно выполнить вход пользователя с правами администратора и воспользоваться функцией "Обновить / Расширить подписку" на странице настроек сайта. Зарегистрированные сайты имеют дополнительную возможность: они доступны в сети по отдельному адресу, представляющему собственное доменное имя ( например, www.yourdomain.com ).&lt;br&gt;&lt;br&gt;&lt;b&gt;*Примечание:&lt;/b&gt; Имя Вашего сайта должно быть простым и не содержать пробелов и знаков пунктуации. Интернет-адрес (URL) для Вашего сайта будет представлен в виде
+&lt;b&gt;{1}/sitename&lt;/b&gt;&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="AdminMissing.Text" xml:space="preserve">
+    <value>Отсутствует файл шаблона admin.template. Требуется подгрузить его на сайт.&lt;br&gt;</value>
+  </data>
+  <data name="PortalMissing.Text" xml:space="preserve">
+    <value>Отсутствует файл шаблона portal.template. Требуется подгрузить его на сайт.&lt;br&gt;</value>
+  </data>
+  <data name="plPortalName.Text" xml:space="preserve">
+    <value>Название сайта:</value>
+  </data>
+  <data name="plPortalName.Help" xml:space="preserve">
+    <value>Укажите название сайта.</value>
+  </data>
+  <data name="valPortalName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Название сайта обязательно.</value>
+  </data>
+  <data name="plTitle.Text" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>Задайте заголовок нового сайта.</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Укажите описание вашего сайта.</value>
+  </data>
+  <data name="plKeyWords.Text" xml:space="preserve">
+    <value>Ключевые слова:</value>
+  </data>
+  <data name="plKeyWords.Help" xml:space="preserve">
+    <value>Укажите одно или несколько ключевых слов, раделенных запятыми. Эти слова будут включены в раздел мета-данных страниц вашего сайта, что облегчит поисковым машинам интернета индексирование вашего сайта.</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>Шаблон:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>Выберите шаблон для нового портала.</value>
+  </data>
+  <data name="plFirstName.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="plFirstName.Help" xml:space="preserve">
+    <value>Укажите ваше имя.</value>
+  </data>
+  <data name="plLastName.Text" xml:space="preserve">
+    <value>Фамилия:</value>
+  </data>
+  <data name="plLastName.Help" xml:space="preserve">
+    <value>Укажите вашу фамилию.</value>
+  </data>
+  <data name="valFirstName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Имя обязательно.</value>
+  </data>
+  <data name="valLastName.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Фамилия обязательна.</value>
+  </data>
+  <data name="plUsername.Text" xml:space="preserve">
+    <value>Учётная запись администратора:</value>
+  </data>
+  <data name="plUsername.Help" xml:space="preserve">
+    <value>Укажите имя пользователя для создания учетной записи администратора нового сайта.</value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>Укажите пароль администратора данного сайта.</value>
+  </data>
+  <data name="plConfirm.Text" xml:space="preserve">
+    <value>Подтверждение пароля:</value>
+  </data>
+  <data name="plConfirm.Help" xml:space="preserve">
+    <value>Повторно введите пароль во избежание возможных опечаток.</value>
+  </data>
+  <data name="valUsername.ErrorMessage" xml:space="preserve">
+    <value>Имя учётной записи пользователя обязательно.</value>
+  </data>
+  <data name="valPassword.ErrorMessage" xml:space="preserve">
+    <value>Пароль обязателен.</value>
+  </data>
+  <data name="valConfirm.ErrorMessage" xml:space="preserve">
+    <value>Повторный ввод пароля обязателен.</value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>Адрес эл. почты:</value>
+  </data>
+  <data name="plEmail.Help" xml:space="preserve">
+    <value>Укажите адрес электронной почты администратора для этого сайта.</value>
+  </data>
+  <data name="valEmail.ErrorMessage" xml:space="preserve">
+    <value>Адрес эл. почты обязателен.</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Создать сайт</value>
+  </data>
+  <data name="Note.Text" xml:space="preserve">
+    <value>&lt;strong&gt;*Обратите внимание:&lt;/strong&gt; После того, как новый сайт будет создан, вам необходимо будет выполнить вход, используя учетную запись администратора, параметры которой вы указали выше.</value>
+  </data>
+  <data name="InvalidTemplate.Text" xml:space="preserve">
+    <value>{0} не является допустимым файлом шаблона сайта.</value>
+  </data>
+  <data name="InvalidName.Text" xml:space="preserve">
+    <value>Имя сайта не должно содержать пробелы и знаки препинания.</value>
+  </data>
+  <data name="InvalidPassword.Text" xml:space="preserve">
+    <value>Введенные значения паролей не совпадают.</value>
+  </data>
+  <data name="ChildExists.Text" xml:space="preserve">
+    <value>Указанное имя дочернего сайта уже существует. Выберите другое имя сайта.</value>
+  </data>
+  <data name="CreateError.Text" xml:space="preserve">
+    <value>Во время операции по созданию нового сайта произошла ошибка. Это могло произойти в том числе по причине указания неправильного пароля для существующей учетной записи пользователя. Пожалуйста, внимательно проверьте все параметры перед совершением новой попытки создания.</value>
+  </data>
+  <data name="PortalSetup.Text" xml:space="preserve">
+    <value>Настройка сайта</value>
+  </data>
+  <data name="SecuritySettings.Text" xml:space="preserve">
+    <value>Настройки безопасности</value>
+  </data>
+  <data name="plPortalAlias.Text" xml:space="preserve">
+    <value>Псевдоним сайта:</value>
+  </data>
+  <data name="plPortalAlias.Help" xml:space="preserve">
+    <value>Укажите псевдоним для данного сайта.</value>
+  </data>
+  <data name="plHomeDirectory.Text" xml:space="preserve">
+    <value>Домашний каталог:</value>
+  </data>
+  <data name="plHomeDirectory.Help" xml:space="preserve">
+    <value>Введите домашний каталог для этого сайта.</value>
+  </data>
+  <data name="Customize.Text" xml:space="preserve">
+    <value>Настроить</value>
+  </data>
+  <data name="valTemplate.ErrorMessage" xml:space="preserve">
+    <value>Выберите файл шаблона.</value>
+  </data>
+  <data name="Parent.Text" xml:space="preserve">
+    <value>Родительский</value>
+  </data>
+  <data name="Child.Text" xml:space="preserve">
+    <value>Дочерний</value>
+  </data>
+  <data name="AutoGenerate.Text" xml:space="preserve">
+    <value>Создать автоматически</value>
+  </data>
+  <data name="ControlTitle_signup.Text" xml:space="preserve">
+    <value>Добавить сайт</value>
+  </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>Произошла ошибка при отправке электронных писем с уведомлением - {0}  Тем не менее, сайт был успешно создан. &lt;a href='{1}' {2}&gt;Нажмите здесь для перехода на новый сайт&lt;/a&gt;</value>
+  </data>
+  <data name="AddPortal.Text" xml:space="preserve">
+    <value>Добавить сайт</value>
+  </data>
+  <data name="InvalidHomeFolder.Text" xml:space="preserve">
+    <value>Каталог, который вы задали в качестве домашнего, не допустим.</value>
+  </data>
+  <data name="DuplicatePortalAlias.Text" xml:space="preserve">
+    <value>Псевдоним портала, заданный вами уже существует. Пожалуйста, выберите другое имя для алиаса портала.</value>
+  </data>
+  <data name="UnknownSendMail.Error" xml:space="preserve">
+    <value>Проблема при отсылке письма с подтверждением. Тем не менее, сайт был создан. &lt;a href='{0}' {1}&gt;Нажмите сюда для перехода на новый сайт&lt;/a&gt;</value>
+  </data>
+  <data name="UnknownEmailAddress.Error" xml:space="preserve">
+    <value>Не обнаружено адреса электронной почты, установленного для уровне сайта или хостинга.</value>
+  </data>
+  <data name="ValidationResults.Text" xml:space="preserve">
+    <value>Результаты проверки правильности</value>
+  </data>
+  <data name="plAnswer.Help" xml:space="preserve">
+    <value>Введите ответ на приведенный выше вопрос. </value>
+  </data>
+  <data name="plAnswer.Text" xml:space="preserve">
+    <value>Ответ на секретный вопрос:</value>
+  </data>
+  <data name="plQuestion.Help" xml:space="preserve">
+    <value>Введите вопрос, чтобы использовать для запроса восстановления пароля.</value>
+  </data>
+  <data name="plQuestion.Text" xml:space="preserve">
+    <value>Секретный вопрос:</value>
+  </data>
+  <data name="valEmail2.ErrorMessage" xml:space="preserve">
+    <value>Адрес электронной почты недопустим.</value>
+  </data>
+  <data name="useCurrentLabel.Help" xml:space="preserve">
+    <value>Отметьте, если нужно назначить текущего администратора хоста администратором сайта. Если не отмечено, вы сможете указать учетные данные администратора.</value>
+  </data>
+  <data name="useCurrentLabel.Text" xml:space="preserve">
+    <value>Назначить меня администратором:</value>
+  </data>
+  <data name="valPortalAlias.ErrorMessage" xml:space="preserve">
+    <value>Укажите псевдоним сайта.</value>
+  </data>
+  <data name="DuplicateWithTab.Text" xml:space="preserve">
+    <value>Уже существует страница с именем, совпадающим с псевдонимом сайта. Пожалуйста, измените псевдоним сайта и повторите попытку.</value>
+  </data>
+  <data name="DisallowedExtension.Warning" xml:space="preserve">
+    <value>Шаблон содержит следующие расширения, которые обычно не должны быть доступны на сайте – {0}. Но, поскольку невозможно исключить их из шаблона, они были скопированы на сайт. Подробная информация об ошибке содержится в журнале событий сайта.</value>
+  </data>
+  <data name="plSiteGroups.Help" xml:space="preserve">
+    <value>Вы также можете добавить новый сайт к существующей группе.</value>
+  </data>
+  <data name="plSiteGroups.Text" xml:space="preserve">
+    <value>Включить в группу сайтов:</value>
+  </data>
+</root>

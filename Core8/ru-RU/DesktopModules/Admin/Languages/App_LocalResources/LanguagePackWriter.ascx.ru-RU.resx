@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+  <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+  <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+  <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+  <data name="lbLocale.Text" xml:space="preserve">
+    <value>Язык ресурса:</value>
+  </data>
+  <data name="lbLocale.Help" xml:space="preserve">
+    <value>Выберите язык, для которого Вы хотите создать языковой пакет</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="LogTitle.Text" xml:space="preserve">
+    <value>Журнал создания языкового пакета</value>
+  </data>
+  <data name="LOG.MESSAGE.Success" xml:space="preserve">
+    <value>&lt;p&gt;Успешно созданный пакет ресурса:  {0}&lt;/p&gt;</value>
+  </data>
+  <data name="LOG.MESSAGE.Error" xml:space="preserve">
+    <value>&lt;p&gt;Произошла ошибка при создании пакета ресурса. Пожалуйста,  просмотрите файл журнала ниже для подробностей.&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_packagewriter.Text" xml:space="preserve">
+    <value>Создать языковый пакет</value>
+  </data>
+  <data name="Download.Text" xml:space="preserve">
+    <value>Загрузить {0}</value>
+  </data>
+  <data name="Core.LangPackType" xml:space="preserve">
+    <value>Ядро</value>
+  </data>
+  <data name="Module.LangPackType" xml:space="preserve">
+    <value>Модуль</value>
+  </data>
+  <data name="Provider.LangPackType" xml:space="preserve">
+    <value>Поставщик</value>
+  </data>
+  <data name="Full.LangPackType" xml:space="preserve">
+    <value>Полный</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Тип пакета ресурсов:</value>
+  </data>
+  <data name="lblType.Help" xml:space="preserve">
+    <value>Выберите тип пакета ресурсов для создания.</value>
+  </data>
+  <data name="SelectModules.Text" xml:space="preserve">
+    <value>Выберите модули, который Вы хотели бы включить в пакет ресурсов:</value>
+  </data>
+  <data name="SelectProviders.Text" xml:space="preserve">
+    <value>Выберите провайдеры, которые Вы хотели бы включить в пакет ресурсов:</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Имя пакета ресурсов:</value>
+  </data>
+  <data name="lblName.Help" xml:space="preserve">
+    <value>Вы можете переименовать созданный пакет ресурсов. Заметьте, что часть имени будет задана автоматически.</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>Языковой пакет (или пакеты) был создан и помещен в каталог {0}/Install/Language</value>
+  </data>
+  <data name="Failure.Text" xml:space="preserve">
+    <value>Вы должны создать файлы ресурсов прежде, чем сможете создать языковой пакет.</value>
+  </data>
+  <data name="AuthSystem.LangPackType" xml:space="preserve">
+    <value>Система аутентификации</value>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action.Header" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="Enabled.Header" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="ModuleProviders.Text" xml:space="preserve">
+    <value>Поставщики URL расширений</value>
+  </data>
+  <data name="moduleProvidersLabel.Help" xml:space="preserve">
+    <value>В данном списке показаны установленные в настоящее время поставщики URL расширений. Для включения/отключения поставщика URL расширения, отметьте флажок в столбце 'Включен'. Для изменения настроек поставщика, нажмите значок 'Редактировать'  в столбце 'Действие'.</value>
+  </data>
+  <data name="moduleProvidersLabel.Text" xml:space="preserve">
+    <value>Управление поставщиками URL расширения</value>
+  </data>
+  <data name="ProviderName.Header" xml:space="preserve">
+    <value>Имя поставшика</value>
+  </data>
+  <data name="TabText.Text" xml:space="preserve">
+    <value>Расширенные настройки URL</value>
+  </data>
+  <data name="NoProvidersInstalled.Text" xml:space="preserve">
+    <value>Нет установленных поставщиков.</value>
+  </data>
+  <data name="ExtensionProvidersDisabled.Text" xml:space="preserve">
+    <value>Поставщики URL расширений отключены для данного сайта.</value>
+  </data>
+</root>

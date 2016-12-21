@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Добавить запланированную задачу</value>
+  </data>
+  <data name="ContentOptions.Action" xml:space="preserve">
+    <value>Состояние задач</value>
+  </data>
+  <data name="Started.Header" xml:space="preserve">
+    <value>Началась</value>
+  </data>
+  <data name="Ended.Header" xml:space="preserve">
+    <value>Завершилась</value>
+  </data>
+  <data name="Duration.Header" xml:space="preserve">
+    <value>Длительность (сек.)</value>
+  </data>
+  <data name="Succeeded.Header" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="Start/End/Next Start.Header" xml:space="preserve">
+    <value>Запуск/Останов/След. запуск</value>
+  </data>
+  <data name="Notes.Header" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="ControlTitle_history.Text" xml:space="preserve">
+    <value>Журнал выполнения задач</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О планировщике;&lt;/h1&gt;
+&lt;p&gt;Модуль позволяет управлять периодическими задачами, выполняемыми по расписанию.&lt;/p&gt;</value>
+  </data>
+  <data name="Description.Header" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Start.Header" xml:space="preserve">
+    <value>Запуск/Останов/След.</value>
+  </data>
+  <data name="Server.Header" xml:space="preserve">
+    <value>Выполнялся на сервере</value>
+  </data>
+</root>

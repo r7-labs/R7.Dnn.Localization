@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>&lt;P&gt;С помощью этого модуля Вы можете проверить все установленные языковые пакеты на сайте и проверить их состояние по сравнению с системным языком по умолчанию. В процессе верификации будут просмотрены все значения по умолчанию системных файлов ресурсов и они будут сравнены их с локализованной версией для всех поддерживаемых языков.&lt;/P&gt;
+&lt;P&gt;Как только Вы получите отчет, и если найдены какие-нибудь ошибки, Вы можете использовать &lt;STRONG&gt;Редактор языков&lt;/STRONG&gt;, чтобы исправить все проблемы, о которых сообщил верификатор. &lt;/P&gt;
+&lt;P&gt; Есть три других проблемы, которые могут быть найдены для любого файла ресурсов: &lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt; &lt;SPAN class=SubHead&gt;Недостающий файл &lt;/SPAN&gt;: Локализованная версия для данного файла ресурсов отсутствует. Чтобы исправить эту проблему, выбирают файл ресурсов в &lt;STRONG&gt;Редакторе языков&lt;/STRONG&gt;,  и язык, для которого выдана ошибка. Локализованный файл будет автоматически создан. 
+&lt;LI&gt; &lt;SPAN class=SubHead&gt;Недостающий элемент:&lt;/SPAN&gt; Локализованная версия для данного файла ресурсов не включает некоторые элементы, которые присутствуют в системном файле ресурсов по умолчанию. Чтобы исправить эту проблему  выбирают файл ресурсов в &lt;STRONG&gt;Редакторе языков&lt;/STRONG&gt; и язык, для которого выдана ошибка.  Вам будет предложено добавить все недостающие ключи к локализованному файлу ресурсов. 
+&lt;LI&gt;&lt;SPAN class=SubHead&gt; Устаревший элемент:&lt;/SPAN&gt;:  Локализованная версия для данного файла ресурсов включает некоторые элементы, которые не присутствуют в системном файле ресурсов по умолчанию. Чтобы исправить эту проблему, выбирают файл ресурсов в &lt;STRONG&gt;Редакторе языков&lt;/STRONG&gt; и язык, для которого выдана ошибка. Все ключи, которые не нужны, будут автоматически удалены.&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="cmdVerify.Text">
+    <value>Проверить файлы ресурсов</value>
+  </data>
+  <data name="Locale.Text">
+    <value>Язык:&amp;nbsp; </value>
+  </data>
+  <data name="MissingFiles.Text">
+    <value>Отсутствующие файлы ресурсов:&amp;nbsp;</value>
+  </data>
+  <data name="MissingEntries.Text">
+    <value>Файлы с недостающими элементами:&amp;nbsp;</value>
+  </data>
+  <data name="ObsoleteEntries.Text">
+    <value>Файлы с устаревшими элементами:&amp;nbsp;</value>
+  </data>
+  <data name="ControlTitle_verify.Text">
+    <value>Валидатор файлов ресурсов</value>
+  </data>
+  <data name="OldFiles.Text">
+    <value>Файлы, более старые чем системные по умолчанию:&amp;nbsp;</value>
+  </data>
+  <data name="DuplicateEntries.Text">
+    <value>Файлы с дублирующимися элементами:&amp;nbsp;</value>
+  </data>
+  <data name="ErrorFiles.Text">
+    <value>Файлы ресурсов неверного формата:&amp;nbsp;</value>
+  </data>
+</root>

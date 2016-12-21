@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+  <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+  <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+  <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Редактировать язык</value>
+  </data>
+  <data name="languageLabel.Help" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="languageLabel.Text" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="fallBackLabel.Help" xml:space="preserve">
+    <value>Выберите резервный язык, который будет использован в том случае, если выбранный язык будет недоступен.</value>
+  </data>
+  <data name="fallBackLabel.Text" xml:space="preserve">
+    <value>Резервный язык:</value>
+  </data>
+  <data name="translatorsLabel.Help" xml:space="preserve">
+    <value>Выбранным ролям будут предоставлены явные права на редактирование  всех новых страниц и локализованных модулей для этого языка.</value>
+  </data>
+  <data name="translatorsLabel.Text" xml:space="preserve">
+    <value>Переводчики локализованного контента:</value>
+  </data>
+  <data name="localizationNotEnabled.Text" xml:space="preserve">
+    <value>Локализованный контент не включен на этом сайте.</value>
+  </data>
+</root>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>Мастер конфигурации сайта</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>			Мастер конфигурации сайта предоставляет администратору удобный путь для установки наиболее общих возможностей портала. Вы можете пройти через все шаги мастера, используя кнопки Вперед/Назад внизу страницы мастера. Как только будет собрано достаточно параметров, чтобы закончить работу мастера, кнопка &lt;b&gt;Финиш&lt;/b&gt; станет доступной.</value>
+  </data>
+  <data name="Template.Title" xml:space="preserve">
+    <value>Выберите шаблон содержания для вашего сайта</value>
+  </data>
+  <data name="Template.Help" xml:space="preserve">
+    <value>								
+&lt;p&gt;
+Мастер Построения Сайтов позволяет администратору настроить ряд параметров сайта
+с использованием инструмента с дружественным интерфейсом.
+&lt;/p&gt;
+&lt;p&gt;
+Вы можете осуществлять навигацию в пределах Мастера, используя кнопки "Вперед/Назад"
+в нижней части окна Мастера.
+&lt;/p&gt;
+&lt;p&gt;
+Как только указанных Вами данных станет достаточно для построения сайта, Мастер сделает доступной 
+кнопку "Завершить".
+&lt;/p&gt;
+&lt;p&gt;
+Вы можете выбрать способ построения сайта на основе заранее заготовленного шаблона.  Чтобы выбрать шаблон,
+отметьте опцию, разрешающую построение на основе шаблонов, затем выберите шаблон из списка.
+&lt;/p&gt;
+&lt;p&gt;
+Если Вы выбрали способ построения сайта на основе шаблона, Вам необходимо выбрать метод
+разрешения возможного конфликта дублирующих модулей (модулей, преставленных в шаблоне и
+уже имеющихся на Вашем сайте).
+&lt;/p&gt;</value>
+  </data>
+  <data name="lblMergeModule.Help" xml:space="preserve">
+    <value>Выберите, как нужно поступить с дублирующимися модулями (модулями, которые есть в шаблоне и также уже присутствуют на сайте).</value>
+  </data>
+  <data name="Ignore.Text" xml:space="preserve">
+    <value>Игнорировать</value>
+  </data>
+  <data name="Replace.Text" xml:space="preserve">
+    <value>Замена</value>
+  </data>
+  <data name="Merge.Text" xml:space="preserve">
+    <value>Слияние</value>
+  </data>
+  <data name="MergeWarning.Text" xml:space="preserve">
+    <value>								
+&lt;span class="NormalRed"&gt;
+Примечание: Если вы выбрали "Замена", все текущее содержимое страниц, также представленное 
+в шаблоне, будет утеряно.
+&lt;/span&gt;</value>
+  </data>
+  <data name="TemplateRequired.Text" xml:space="preserve">
+    <value>Вы должны выбрать шаблон, перед тем как сможете продолжить.</value>
+  </data>
+  <data name="InvalidTemplate.Text" xml:space="preserve">
+    <value>{0} не является правильным файлом шаблона сайта.</value>
+  </data>
+  <data name="Skin.Title" xml:space="preserve">
+    <value>Выберите тему для Вашего сайта</value>
+  </data>
+  <data name="Skin.Help" xml:space="preserve">
+    <value>
+			Вы можете выбрать тему в просмотрщике тем (ниже). Эта тема будет применена ко всем
+			страницам Вашего сайта. Однако, в дальнейшем, редактируя параметры страниц, Вы 
+			сможете задать тему оформления, отличную от выбранной здесь.
+		</value>
+  </data>
+  <data name="Container.Title" xml:space="preserve">
+    <value>Выберите контейнер по умолчанию для вашего сайта</value>
+  </data>
+  <data name="Container.Help" xml:space="preserve">
+    <value>			&lt;p&gt;
+Вы можете выбрать контейнер из предлагаемых вариантов. Этот контейнер будет использован для всех 
+модулей на всех страницах сайта. Однако с помощью изменения параметров модуля в дальнейшем Вы получите 
+возможность переопределить контейнер по-умолчанию на какой-либо другой.
+&lt;/p&gt;</value>
+  </data>
+  <data name="IncludeAll.Text" xml:space="preserve">
+    <value>Показать все контейнеры:</value>
+  </data>
+  <data name="Details.Title" xml:space="preserve">
+    <value>Основные параметры сайта</value>
+  </data>
+  <data name="Details.Help" xml:space="preserve">
+    <value>
+			На этой страниц вы можете установить некоторые основные параметры Вашего сайта.
+			Вы можете задать необязательное текстовое описание сайта и список ключевых слов.
+			Они будут использованы поисковыми системами, наряду с названием сайта, для идентификации и индексирования Вашего сайта.
+			Отдельные ключевые слова в списке следует разделять запятыми.
+			&lt;p&gt;
+			Некоторые тему оформления отображают логотип, обычно в верхнем левом углу. Если Вы
+			используете тему, которая поддерживает логотип, Вы можете выбрать его на этой странице.
+			Если файла, который Вы хотели бы использовать, нет на сайте, Вы можете подгрузить его с
+			Вашего компьютера.
+			&lt;/p&gt;
+		</value>
+  </data>
+  <data name="lblPortalName.Text" xml:space="preserve">
+    <value>Название:</value>
+  </data>
+  <data name="lblPortalName.Help" xml:space="preserve">
+    <value>Название сайта будет выведено в заголовке окна браузера.</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="lblDescription.Help" xml:space="preserve">
+    <value>Укажите текстовое описание вашего сайта.</value>
+  </data>
+  <data name="lblKeyWords.Text" xml:space="preserve">
+    <value>Ключевые слова:</value>
+  </data>
+  <data name="lblKeyWords.Help" xml:space="preserve">
+    <value>Укажите список ключевых слов для сайта (разделенных запятыми).</value>
+  </data>
+  <data name="lblLogo.Text" xml:space="preserve">
+    <value>Логотип:</value>
+  </data>
+  <data name="lblLogo.Help" xml:space="preserve">
+    <value>Выберите логотип.</value>
+  </data>
+  <data name="Complete.Title" xml:space="preserve">
+    <value>Выберите шаблон оформления для вашего сайта</value>
+  </data>
+  <data name="Complete.Help" xml:space="preserve">
+    <value>
+			&lt;p&gt;
+				Ваш сайт успешно сконфигурирован.
+			&lt;/p&gt;
+			&lt;p&gt;
+				Если Вы изменили тему оформления сайта, то новая тема будет применена как только вы покинете эту страницу.
+			&lt;/p&gt;
+        </value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Мастер создания сайтов</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О мастере создания сайтов&lt;/h1&gt;
+&lt;p&gt;Администраторы могут использовать этот мастер с дружественным интерфейсом для настройки типовых параметров сайтов.&lt;/p&gt;</value>
+  </data>
+  <data name="Finish.Text" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>След.</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>Пред.</value>
+  </data>
+  <data name="EditOnly.Text" xml:space="preserve">
+    <value>Этот модуль  доступен только для пользователей, которым были даны права доступа для редактирования. Пожалуйста, свяжитесь с администратором сайта, если Вы думаете, что у Вас должны быть эти права доступа.</value>
+  </data>
+  <data name="lblMergeModule.Text" xml:space="preserve">
+    <value>Дублирующиеся модули</value>
+  </data>
+  <data name="lblTemplateList.Help" xml:space="preserve">
+    <value>Вы можете выбрать шаблон, на основе которого нужно создать сайт.</value>
+  </data>
+  <data name="lblTemplateList.Text" xml:space="preserve">
+    <value>Список шаблонов</value>
+  </data>
+  <data name="lblTemplateMessage.Help" xml:space="preserve">
+    <value>Отметьте, если требуется пересоздать пересоздать сайт на основе выбранного шаблона.</value>
+  </data>
+  <data name="lblTemplateMessage.Text" xml:space="preserve">
+    <value>Создать сайт из шаблона</value>
+  </data>
+  <data name="ModulesNotInstalled.Text" xml:space="preserve">
+    <value>Выбранный шаблон содержит следующие модули, которые в настоящее время не установлены.&lt;br /&gt;{0}</value>
+  </data>
+</root>

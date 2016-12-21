@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileAttrbutesLabel.Help" xml:space="preserve">
+    <value>Изменить атрибуты файла.</value>
+  </data>
+  <data name="FileAttributeArchive.Text" xml:space="preserve">
+    <value>Архивный</value>
+  </data>
+  <data name="FileAttributeHidden.Text" xml:space="preserve">
+    <value>Скрытый</value>
+  </data>
+  <data name="FileAttributeReadonly.Text" xml:space="preserve">
+    <value>Только для чтения</value>
+  </data>
+  <data name="FileAttributesLabel.Text" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="FileAttributeSystem.Text" xml:space="preserve">
+    <value>Системный</value>
+  </data>
+  <data name="FileNameLabel.Help" xml:space="preserve">
+    <value>Переименование выбранного файла.</value>
+  </data>
+  <data name="FileNameLabel.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="FileNameRequired.ErrorMessage" xml:space="preserve">
+    <value>Укажите имя файла.</value>
+  </data>
+</root>

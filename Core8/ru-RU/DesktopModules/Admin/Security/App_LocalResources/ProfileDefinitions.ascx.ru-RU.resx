@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_manageprofile.Text" xml:space="preserve">
+    <value>Управление свойствами профиля</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Добавить свойство профиля</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Обновить таблицу</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Category.Header" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="DataType.Header" xml:space="preserve">
+    <value>Тип данных</value>
+  </data>
+  <data name="Length.Header" xml:space="preserve">
+    <value>Длина</value>
+  </data>
+  <data name="DefaultValue.Header" xml:space="preserve">
+    <value>Значение по умолчанию</value>
+  </data>
+  <data name="ValidationExpression.Header" xml:space="preserve">
+    <value>Выражение для проверки</value>
+  </data>
+  <data name="Required.Header" xml:space="preserve">
+    <value>Требуется обязательно</value>
+  </data>
+  <data name="Visible.Header" xml:space="preserve">
+    <value>Показывать</value>
+  </data>
+  <data name="MoveDown.Text" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="MoveUp.Text" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Применить изменения</value>
+  </data>
+  <data name="ProfilePropertiesHelp.Text" xml:space="preserve">
+    <value>Вы можете изменить порядок полей профиля, а также включить/выключить их обязательность и/или  видимость на этом экране. Нажмите на кнопку "Принять изменения", чтобы сохранить любые изменения, которые Вы сделали. Для редактирования других свойств, каждого из свойств профиля, нажмите на значок карандаша в первом столбце таблицы.</value>
+  </data>
+  <data name="DefaultVisibility.Header" xml:space="preserve">
+    <value>Видимость по умолчанию</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+</root>

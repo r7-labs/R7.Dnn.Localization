@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogTitle.Text" xml:space="preserve">
+    <value>Журнал установки пакета</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="InvalidExt.Text" xml:space="preserve">
+    <value>Недопустимое расширение файла - {0}</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О модуле Установка пакета&lt;/h1&gt;&lt;p&gt;Позволяет Вам подгружать и устанавливать пакеты на портале.&lt;/p&gt;</value>
+  </data>
+  <data name="NoFile.Text" xml:space="preserve">
+    <value>Вы должны сначала выбрать файл для подгрузки. Нажмите кнопку просмотра, чтобы выбрать местонахождение файла в вашей локальной файловой системе.</value>
+  </data>
+  <data name="InstallCustomPackage.Text" xml:space="preserve">
+    <value>Установка нового расширения {0}</value>
+  </data>
+  <data name="InstallPackage.Text" xml:space="preserve">
+    <value>Установка расширения</value>
+  </data>
+  <data name="UploadPackage.Text" xml:space="preserve">
+    <value>Подгрузить пакет</value>
+  </data>
+  <data name="AcceptLicense.Text" xml:space="preserve">
+    <value>Принять условия лицензии?</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>Возможности системы управления контентом DNN могут быть расширены множеством способов. Этот мастер поможет Вам подгрузить и установить пакеты расширений для DNN.</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>Подгрузка нового пакета расширения</value>
+  </data>
+  <data name="ZipCriticalError.Text" xml:space="preserve">
+    <value>Критическая ошибка при чтении архива zip.</value>
+  </data>
+  <data name="ZipError.Text" xml:space="preserve">
+    <value>Ошибка при чтении архива zip - см. ниже.</value>
+  </data>
+  <data name="AcceptTerms.Text" xml:space="preserve">
+    <value>Вы должны принять условия лицензии, чтобы установить этот пакет.</value>
+  </data>
+  <data name="InstallError.Text" xml:space="preserve">
+    <value>Ошибка при загрузке файлов из временного каталога - см. ниже.</value>
+  </data>
+  <data name="InstallResults.Help" xml:space="preserve">
+    <value>Результаты установки пакета см. ниже.</value>
+  </data>
+  <data name="InstallResults.Title" xml:space="preserve">
+    <value>Отчет об установке пакета</value>
+  </data>
+  <data name="PackageInfo.Help" xml:space="preserve">
+    <value>Следующая информация была найдена в манифесте пакета.</value>
+  </data>
+  <data name="PackageInfo.Title" xml:space="preserve">
+    <value>Информация пакета</value>
+  </data>
+  <data name="License.Help" xml:space="preserve">
+    <value>Прежде, чем продолжить вы должны принять условия лицензии для этого расширения. Пожалуйста, прочитайте лицензию и подпишите, нажав "Принять условия"</value>
+  </data>
+  <data name="License.Title" xml:space="preserve">
+    <value>Просмотр лицензии</value>
+  </data>
+  <data name="ReleaseNotes.Help" xml:space="preserve">
+    <value>Вы можете прочитать заметки к выпуску для этого пакета.</value>
+  </data>
+  <data name="ReleaseNotes.Title" xml:space="preserve">
+    <value>Заметки к выпуску</value>
+  </data>
+  <data name="IgnoreWhiteList.Text" xml:space="preserve">
+    <value>Не проверять типы файлов?</value>
+  </data>
+  <data name="IgnoreRestrictedFilesWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Предупреждение:&lt;/b&gt; Вы выбрали игнорировать проверку на запрещенные типы файлов. Это действие потенциально угрожает безопасности Вашего сайта, поэтому Вы должны  делать это только в том случае, если пакет, который устанавливается, получен из доверенного источника.</value>
+  </data>
+  <data name="RepairInstall.Text" xml:space="preserve">
+    <value>Восстановить установку?</value>
+  </data>
+  <data name="InvalidFiles.Text" xml:space="preserve">
+    <value>Пакет содержит файлы с недопустимыми расширениями ({0})</value>
+  </data>
+  <data name="PackageInstalled.Text" xml:space="preserve">
+    <value>Этот пакет уже установлен.</value>
+  </data>
+  <data name="RepairInstallWarning.Text" xml:space="preserve">
+    <value>Предупреждение: Вы выбрали исправить установку этого пакета. Это приведет к тому, что все  файлы в пакете будут перезаписаны поверх всех  ранее установленых.</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>Возврат</value>
+  </data>
+  <data name="LegacySkin.Text" xml:space="preserve">
+    <value>Старая тема/контейнер:</value>
+  </data>
+  <data name="NoManifest.Text" xml:space="preserve">
+    <value>Данный пакет не является корректным расширением DotNetNuke, так как не содержит манифеста. Темы и контейнеры старых (более ранних) версий не содержат манифеста. Если этот пакет является темой или контейнером ранних версий, отметьте соответствующий вариант внизу, и нажмите Далее.</value>
+  </data>
+  <data name="Container.Text" xml:space="preserve">
+    <value>Контейнер</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Не тема или контейнер</value>
+  </data>
+  <data name="Skin.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="CoreLanguageError.Text" xml:space="preserve">
+    <value>Язык для ядра системы, для которого создан этот языковой пакет, не установлен. Установите языковой пакет для ядра системы прежде, чем устанавливать любые другие языковые пакеты для этого языка.</value>
+  </data>
+  <data name="DependencyError.Text" xml:space="preserve">
+    <value>Этот языковой пакет создан для расширения, которое еще не установленно.</value>
+  </data>
+  <data name="IgnoreWhiteListHelp.Text" xml:space="preserve">
+    <value>Установщик поддерживает список допустимых расширений имен файлов (т.н. "белый список"), которые могут быть установлены на Ваш сайт. Если Вы уверены, что пакет, который устанавливается, получен из надежного источника, то можете выбрать игнорировать этот список.</value>
+  </data>
+  <data name="LegacySkinHelp.Text" xml:space="preserve">
+    <value>Темы и контейнеры ранних версий могут быть установлены с использованием данного установщика. Но, поскольку они не содержат манифеста, Вы должны идентифицировать их как темы или контейнеры самостоятельно (если не уверены, выберите соответствующий вариант внизу).</value>
+  </data>
+  <data name="RepairInstallHelp.Text" xml:space="preserve">
+    <value>По умолчанию инсталлятор не  перезаписывает тот же пакет и версию. Если Вам это надо, чтобы инсталлятор исправил текущую установленную версию, то тогда включите этот флажок.</value>
+  </data>
+  <data name="BrowseFile.Text" xml:space="preserve">
+    <value>Выбрать файл:</value>
+  </data>
+  <data name="BrowseFileHelp.Text" xml:space="preserve">
+    <value>Используйте эту кнопку, чтобы выбрать на Вашем компьютере пакет расширения, который Вы желаете установить, затем нажмите Далее чтобы продолжить.</value>
+  </data>
+  <data name="Warnings.Help" xml:space="preserve">
+    <value>Если Вы дошли до этой страницы, то это означает, что установщик должен собрать еще немного информации перед тем, как начать установку.</value>
+  </data>
+  <data name="Warnings.Title" xml:space="preserve">
+    <value>Результаты подгрузки</value>
+  </data>
+  <data name="AcceptLicense.Help" xml:space="preserve">
+    <value>Отметьте этот флаг, чтобы принять условия лицензии.</value>
+  </data>
+  <data name="ControlTitle_install.Text" xml:space="preserve">
+    <value>Установка расширения</value>
+  </data>
+  <data name="FileSizeRestriction.Text" xml:space="preserve">
+    <value>Максимальный размер подгружаемого файла {0} Мб. </value>
+  </data>
+  <data name="AzureCompact.Text" xml:space="preserve">
+    <value>Установить без проверки на совместимость с Sql Azure?</value>
+  </data>
+  <data name="AzureCompactHelp.Text" xml:space="preserve">
+    <value>Данный сайт использует SQL Azure в качестве сервера БД. Пакет, который Вы пытаетесь установить, не проверен разработчиком на совместимость с SQL Azure. Если установить несовместимый  модуль, это может привести к невозможности проведения резервного копирования и восстановления БД, а также к появлению исключений во время работы модулей, который не могут быть обнаружены в процессе установки. Вы можете продолжить установку, если вы проверили пакет на совместимость самостоятельно, либо нажмите Отмена и свяжитесь с разработчиком расширения для получения версии, совместимой с БД SQL Asure.</value>
+  </data>
+  <data name="AzureCompactMessage.Text" xml:space="preserve">
+    <value>Совместимость данного пакета с БД SQL Azure не подтверждена.</value>
+  </data>
+  <data name="AzureCompactWarning.Text" xml:space="preserve">
+    <value>Предупреждение: Вы приняли решение установить пакет, совместимость которого с БД SQL Azure не подтверждена.</value>
+  </data>
+  <data name="NoAzureCompactHelp.Text" xml:space="preserve">
+    <value>Этот сайт использует БД SQL Azure для хранения данных, однако устанавливаемый пакет был помечен разработчиком как несовместимый с БД SQL Azure. Нажмите Отмена для завершения процесса установки.</value>
+  </data>
+  <data name="NoAzureCompactMessage.Text" xml:space="preserve">
+    <value>Данный пакет не совместим с БД SQL Azure.</value>
+  </data>
+</root>

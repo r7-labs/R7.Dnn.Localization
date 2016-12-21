@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Edit.Header" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LocalizedModules.Text" xml:space="preserve">
+    <value>Отвязать модули</value>
+  </data>
+  <data name="markTabTranslated.Text" xml:space="preserve">
+    <value>Страница переведена</value>
+  </data>
+  <data name="markTabUnTranslated.Text" xml:space="preserve">
+    <value>Страница НЕ переведена</value>
+  </data>
+  <data name="SharedModules.Text" xml:space="preserve">
+    <value>Общие модули</value>
+  </data>
+  <data name="TabName.Header" xml:space="preserve">
+    <value>Имя страницы</value>
+  </data>
+  <data name="TotalModules.Text" xml:space="preserve">
+    <value>Всего модулей</value>
+  </data>
+  <data name="Translated.Header" xml:space="preserve">
+    <value>Переведен?</value>
+  </data>
+  <data name="TranslatedModules.Text" xml:space="preserve">
+    <value>Переведенные модули</value>
+  </data>
+  <data name="View.Header" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+</root>

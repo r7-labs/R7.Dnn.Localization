@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Добавить запланированную задачу</value>
+  </data>
+  <data name="lblStatusLabel.Text" xml:space="preserve">
+    <value>Текущее состояние:</value>
+  </data>
+  <data name="lblMaxThreadsLabel.Text" xml:space="preserve">
+    <value>Макс. потоков:</value>
+  </data>
+  <data name="lblActiveThreadsLabel.Text" xml:space="preserve">
+    <value>Активных потоков:</value>
+  </data>
+  <data name="lblFreeThreadsLabel.Text" xml:space="preserve">
+    <value>Свободных потоков:</value>
+  </data>
+  <data name="lblCommand.Text" xml:space="preserve">
+    <value>Команда:</value>
+  </data>
+  <data name="lblProcessing.Text" xml:space="preserve">
+    <value>В обработке</value>
+  </data>
+  <data name="ScheduleID.Header" xml:space="preserve">
+    <value>ID задачи</value>
+  </data>
+  <data name="Type.Header" xml:space="preserve">
+    <value>Тип задачи</value>
+  </data>
+  <data name="Started.Header" xml:space="preserve">
+    <value>Запущена</value>
+  </data>
+  <data name="Duration.Header" xml:space="preserve">
+    <value>Длительность&lt;br&gt;(сек)</value>
+  </data>
+  <data name="ObjectDependencies.Header" xml:space="preserve">
+    <value>Зависимости</value>
+  </data>
+  <data name="TriggeredBy.Header" xml:space="preserve">
+    <value>По событию</value>
+  </data>
+  <data name="Thread.Header" xml:space="preserve">
+    <value>Поток</value>
+  </data>
+  <data name="Notes.Header" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="Servers.Header" xml:space="preserve">
+    <value>Серверы</value>
+  </data>
+  <data name="lblQueue.Text" xml:space="preserve">
+    <value>В очереди</value>
+  </data>
+  <data name="NextStart.Header" xml:space="preserve">
+    <value>Следующий запуск</value>
+  </data>
+  <data name="Overdue.Header" xml:space="preserve">
+    <value>Просрочено&lt;br&gt;(сек)</value>
+  </data>
+  <data name="TimeRemaining.Header" xml:space="preserve">
+    <value>Осталось&lt;br&gt;(сек)</value>
+  </data>
+  <data name="NoTasks.Text" xml:space="preserve">
+    <value>Нет запущенных задачи и задач в очереди.</value>
+  </data>
+  <data name="DisabledMessage.Text" xml:space="preserve">
+    <value>Планировщик в настоящий момент отключен.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Отключена</value>
+  </data>
+  <data name="ManuallyStopped.Text" xml:space="preserve">
+    <value>Остановлена вручную</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О планировщике&lt;/h1&gt;
+&lt;p&gt;Модуль позволяет управлять периодическими задачами, выполняемыми по расписанию.&lt;/p&gt;</value>
+  </data>
+  <data name="cmdStart.Text" xml:space="preserve">
+    <value>Запуск</value>
+  </data>
+  <data name="cmdStop.Text" xml:space="preserve">
+    <value>Останов</value>
+  </data>
+  <data name="ControlTitle_status.Text" xml:space="preserve">
+    <value>Состояние планировщика</value>
+  </data>
+  <data name="ScheduleHistory.Action" xml:space="preserve">
+    <value>Просмотр истории планировщика</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Имя задачи</value>
+  </data>
+  <data name="Stop.Header" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
+</root>

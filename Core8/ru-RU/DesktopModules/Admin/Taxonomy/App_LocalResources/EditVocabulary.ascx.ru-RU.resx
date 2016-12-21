@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_editvocabulary.Text" xml:space="preserve">
+    <value>Редактирование словаря</value>
+  </data>
+  <data name="SaveVocabulary.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="CurrentTerm.Text" xml:space="preserve">
+    <value>Редактировать термин</value>
+  </data>
+  <data name="DeleteVocabulary.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Terms.Text" xml:space="preserve">
+    <value>Термины</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Редактирование словаря</value>
+  </data>
+  <data name="DeleteTerm.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="SaveTerm.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="AddTerm.Text" xml:space="preserve">
+    <value>Добавить термин</value>
+  </data>
+  <data name="CreateTerm.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="NewTerm.Text" xml:space="preserve">
+    <value>Создать новый термин</value>
+  </data>
+  <data name="TermValidationError.Message" xml:space="preserve">
+    <value>Произошла ошибка при проверке термина. Для термина должно быть указано название.</value>
+  </data>
+  <data name="TermValidationError.MessageHeader" xml:space="preserve">
+    <value>Ошибка проверки термина</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Редактирование словаря</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Description.ToolTip" xml:space="preserve">
+    <value>Описание термина</value>
+  </data>
+  <data name="ParentTerm.Text" xml:space="preserve">
+    <value>Термин-предок</value>
+  </data>
+  <data name="ParentTerm.ToolTip" xml:space="preserve">
+    <value>Термин более высокого уровня, которому подчиняется текущий термин</value>
+  </data>
+  <data name="TermName.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="TermName.ToolTip" xml:space="preserve">
+    <value>Название термина.</value>
+  </data>
+  <data name="TermName.Required" xml:space="preserve">
+    <value>Укажите название термина.</value>
+  </data>
+</root>

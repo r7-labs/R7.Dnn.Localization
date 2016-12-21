@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Browser.Help" xml:space="preserve">
+    <value>Поставьте этот флажок, чтобы разрешить автоматическое определение языка браузера.</value>
+  </data>
+  <data name="HostSettings.Title" xml:space="preserve">
+    <value>Языковые параметры настройки приложения</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Настройки управления языками</value>
+  </data>
+  <data name="plPageSize.Help" xml:space="preserve">
+    <value>Если Вы разрешили разбивку на страницы  в редакторе, то здесь Вы можете установить размер страницы (значение по умолчанию 10)</value>
+  </data>
+  <data name="plPageSize.Text" xml:space="preserve">
+    <value>Размер страницы редактора:</value>
+  </data>
+  <data name="plUsePaging.Help" xml:space="preserve">
+    <value>По умолчанию редактор не использует разбивку на страницы . Вы можете, разрешить использование разбивки на страницы в редакторе языка, чтобы уменьшить размер страницы.</value>
+  </data>
+  <data name="plUsePaging.Text" xml:space="preserve">
+    <value>Разрешить разбивку на страницы в редакторе?</value>
+  </data>
+  <data name="PageSize.Error" xml:space="preserve">
+    <value>&lt;br&gt;Размер страницы должен быть целочисленным значением &gt; 0</value>
+  </data>
+  <data name="plBrowser.Help" xml:space="preserve">
+    <value>Поставьте этот флажок, чтобы разрешить определение языка браузера.</value>
+  </data>
+  <data name="plShowLanguages.Help" xml:space="preserve">
+    <value>Отметьте, чтобы отображать вкладку Языки для пользователей не-администраторов, которые также могут иметь доступ к данному модулю. Эта вкладка всегда доступна администраторам сайта и хостинга.</value>
+  </data>
+  <data name="plShowLanguages.Text" xml:space="preserve">
+    <value>Показывать языки для не-администраторов?</value>
+  </data>
+  <data name="plShowSettings.Help" xml:space="preserve">
+    <value>Отметьте, чтобы отображать вкладку Настройки для пользователей не-администраторов, которые также могут иметь доступ к данному модулю. Эта вкладка всегда доступна администраторам сайта и хостинга.</value>
+  </data>
+  <data name="plShowSettings.Text" xml:space="preserve">
+    <value>Показыть настройки для не-администраторов?</value>
+  </data>
+</root>

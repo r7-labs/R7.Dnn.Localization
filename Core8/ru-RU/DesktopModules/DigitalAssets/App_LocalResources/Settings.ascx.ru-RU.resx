@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Основные настройки</value>
+  </data>
+  <data name="DefaultFolderType.Help" xml:space="preserve">
+    <value>Устанавливает тип папки, который используется при создании новой папки в корневой папке.</value>
+  </data>
+  <data name="DefaultFolderType.Text" xml:space="preserve">
+    <value>Тип папки по-умолчанию</value>
+  </data>
+  <data name="ExcludeSubfolders.Text" xml:space="preserve">
+    <value>Исключая подпапки</value>
+  </data>
+  <data name="ExcludeSubfoldersLabel.Help" xml:space="preserve">
+    <value>Если отмечено, модуль будет показывать файлы, а также файлы в подпапках, но не сами подпапки</value>
+  </data>
+  <data name="FilterByFolder.Text" xml:space="preserve">
+    <value>Фильтровать по папке</value>
+  </data>
+  <data name="FolderMustBeSelected.ErrorMessage" xml:space="preserve">
+    <value>Требуется выбрать папку, если отмечен флаг "Фильтровать по папке".</value>
+  </data>
+  <data name="Group.Text" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="IncludeSubfoldersFilesOnly.Text" xml:space="preserve">
+    <value>Включая подпапки (только файлы)</value>
+  </data>
+  <data name="IncludeSubfoldersFolderStructure.Text" xml:space="preserve">
+    <value>Включая подпапки (показать структуру папок)</value>
+  </data>
+  <data name="Mode.Help" xml:space="preserve">
+    <value>Режим, в котором должен работать модуль.</value>
+  </data>
+  <data name="Mode.Text" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="NoSet.Text" xml:space="preserve">
+    <value>Не задано</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="ViewCondition.Help" xml:space="preserve">
+    <value>Выберите варианты фильтров, применяемых к отображению.</value>
+  </data>
+  <data name="ViewCondition.Text" xml:space="preserve">
+    <value>Задать условия представления</value>
+  </data>
+</root>

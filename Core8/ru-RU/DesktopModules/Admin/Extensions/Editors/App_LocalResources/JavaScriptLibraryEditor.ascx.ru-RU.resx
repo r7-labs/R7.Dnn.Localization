@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BodyBottom.Text" xml:space="preserve">
+    <value>Внизу тега body</value>
+  </data>
+  <data name="BodyTop.Text" xml:space="preserve">
+    <value>Наверху тега body</value>
+  </data>
+  <data name="CDNLabel.Help" xml:space="preserve">
+    <value>Адрес URL CDN по умолчанию для данной библиотеки. Этот адрес может быть переопределен заданием пользовательского СDN.</value>
+  </data>
+  <data name="CDNLabel.Text" xml:space="preserve">
+    <value>CDN по умолчанию:</value>
+  </data>
+  <data name="CustomCDNLabel.Help" xml:space="preserve">
+    <value>Адрес URL пользовательского CDN для данной библиотеки, который будет использован вместо CDN по умолчанию.</value>
+  </data>
+  <data name="CustomCDNLabel.Text" xml:space="preserve">
+    <value>Пользовательский CDN:</value>
+  </data>
+  <data name="DependOnPackagesLabel.Help" xml:space="preserve">
+    <value>Отображает список всех пакетов, от которых зависит данная библиотека.</value>
+  </data>
+  <data name="DependOnPackagesLabel.Text" xml:space="preserve">
+    <value>Зависит от:</value>
+  </data>
+  <data name="FileNameLabel.Help" xml:space="preserve">
+    <value>Имя файла JavaScript.</value>
+  </data>
+  <data name="FileNameLabel.Text" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="LibraryNameLabel.Help" xml:space="preserve">
+    <value>Имя библиотеки JavaScript (например "jQuery")</value>
+  </data>
+  <data name="LibraryNameLabel.Text" xml:space="preserve">
+    <value>Имя библиотеки:</value>
+  </data>
+  <data name="LocationLabel.Help" xml:space="preserve">
+    <value>Предпочтительное место размещения сценария JavaScript в коде страницы. Доступны три варианта размещения: в теге head, наверху тега body, а также внизу тега body.</value>
+  </data>
+  <data name="LocationLabel.Text" xml:space="preserve">
+    <value>Размещать сценарий:</value>
+  </data>
+  <data name="ObjectNameLabel.Help" xml:space="preserve">
+    <value>Имя объекта JavaScript, используемого для доступа к методам библиотеки.</value>
+  </data>
+  <data name="ObjectNameLabel.Text" xml:space="preserve">
+    <value>Имя объекта:</value>
+  </data>
+  <data name="PageHead.Text" xml:space="preserve">
+    <value>В теге head</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Настройки библиотеки JavaScript</value>
+  </data>
+  <data name="UsedByPackagesLabel.Help" xml:space="preserve">
+    <value>Отображает список всех пакетов, использующих данную библиотеку.</value>
+  </data>
+  <data name="UsedByPackagesLabel.Text" xml:space="preserve">
+    <value>Используется пакетами:</value>
+  </data>
+  <data name="VersionLabel.Help" xml:space="preserve">
+    <value>Версия библиотеки JavaScript.</value>
+  </data>
+  <data name="VersionLabel.Text" xml:space="preserve">
+    <value>Версия библиотеки:</value>
+  </data>
+</root>

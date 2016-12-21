@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelButton.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="GeneralTab.Text" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="PreviewPanelTitle.Text" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="UserCannotReadFileError.Text" xml:space="preserve">
+    <value>У пользователя нет разрешений на чтение для этого файла.</value>
+  </data>
+</root>

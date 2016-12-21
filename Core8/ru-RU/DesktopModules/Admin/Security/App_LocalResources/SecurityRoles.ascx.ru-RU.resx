@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserName.Header" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="SecurityRole.Header" xml:space="preserve">
+    <value>Роль безопасности</value>
+  </data>
+  <data name="ExpiryDate.Header" xml:space="preserve">
+    <value>Дата завершения</value>
+  </data>
+  <data name="plUsers.Text" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="plUsers.Help" xml:space="preserve">
+    <value>Введите имя пользователя и нажмите Проверить.</value>
+  </data>
+  <data name="cmdValidate.Text" xml:space="preserve">
+    <value>Проверить</value>
+  </data>
+  <data name="plRoles.Text" xml:space="preserve">
+    <value>Роль безопасности</value>
+  </data>
+  <data name="plRoles.Help" xml:space="preserve">
+    <value>Выберите роль безопасности.</value>
+  </data>
+  <data name="plExpiryDate.Text" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="plExpiryDate.Help" xml:space="preserve">
+    <value>Укажите дату, когда назначение роли пользователю должно быть автоматически отменено (необязательное поле). Пустое значение соответствует неограниченному сроку действия роли.</value>
+  </data>
+  <data name="SendNotification.Text" xml:space="preserve">
+    <value>Отправить уведомление?</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Добавить роль</value>
+  </data>
+  <data name="valExpiryDate.Text" xml:space="preserve">
+    <value>Недопустимая дата завершения</value>
+  </data>
+  <data name="RoleRemoveError.Text" xml:space="preserve">
+    <value>Вы не можете удалить роль администратора сайта или общую роль, в которую включены все зарегистрированные пользователи</value>
+  </data>
+  <data name="ControlTitle_user roles.Text" xml:space="preserve">
+    <value>Роли пользователя</value>
+  </data>
+  <data name="UserTitle.Text" xml:space="preserve">
+    <value>Управление ролями пользователя: {0}</value>
+  </data>
+  <data name="RoleTitle.Text" xml:space="preserve">
+    <value>Управление пользователями роли: {0}</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Об управлении ролями&lt;/h1&gt;
+&lt;p&gt;Администраторы при помощи данного модуля могут управлять ролями, определенными на своих сайтах. Модуль дает возможность назначать роли пользователям сайта.&lt;/p&gt;</value>
+  </data>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="AddRole.Text" xml:space="preserve">
+    <value>Добавить роль</value>
+  </data>
+  <data name="EffectiveDate.Header" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="plEffectiveDate.Text" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="plEffectiveDate.Help" xml:space="preserve">
+    <value>Укажите дату, начиная с которой назначение роли пользователю вступит в силу (необязательное поле). Если оставить поле пустым - назначение роли вступит в силу немедленно.</value>
+  </data>
+  <data name="valEffectiveDate.Text" xml:space="preserve">
+    <value>Недопустимая дата начала</value>
+  </data>
+  <data name="valDates.Text" xml:space="preserve">
+    <value>Дата окончания срока действия должна быть больше, чем дата вступления в силу</value>
+  </data>
+  <data name="UpdateRole.Text" xml:space="preserve">
+    <value>Изменить роль пользователя</value>
+  </data>
+  <data name="NotAuthorized.Text" xml:space="preserve">
+    <value>Вы не уполномочены редактировать эту роль.</value>
+  </data>
+  <data name="DeleteUsersFromRole.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить '{0}' из роли '{1}'?</value>
+  </data>
+  <data name="DeleteRoleFromUser.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить роль '{1}' из '{0}'?</value>
+  </data>
+  <data name="lblIsOwner.Text" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="IsOwner.Header" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="lblIsOwner.Help" xml:space="preserve">
+    <value>Сделать данного пользователя владельцем группы.</value>
+  </data>
+</root>

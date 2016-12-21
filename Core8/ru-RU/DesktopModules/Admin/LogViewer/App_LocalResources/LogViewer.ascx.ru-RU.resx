@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPortalID.Text" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="plPortalID.Help" xml:space="preserve">
+    <value>Выберите сайт, журнал которого вы хотите просмотреть.</value>
+  </data>
+  <data name="plLogType.Text" xml:space="preserve">
+    <value>Тип событий</value>
+  </data>
+  <data name="plLogType.Help" xml:space="preserve">
+    <value>Вы можете отфильтровать журнал по определенному типу событий.</value>
+  </data>
+  <data name="plShowRecords.Text" xml:space="preserve">
+    <value>Показать записи</value>
+  </data>
+  <data name="plShowRecords.Help" xml:space="preserve">
+    <value>Выберите записи, которые вы хотите просмотреть.</value>
+  </data>
+  <data name="ColorCoding.Text" xml:space="preserve">
+    <value>Цветовое выделение записей</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Параметры просмотра</value>
+  </data>
+  <data name="Legend.Text" xml:space="preserve">
+    <value>Расшифровка цветового выделения</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Type.Text" xml:space="preserve">
+    <value>Тип журнала</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="Summary.Text" xml:space="preserve">
+    <value>Кратко</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Удалить выбранные записи</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Очистить журнал</value>
+  </data>
+  <data name="SendExceptions.Text" xml:space="preserve">
+    <value>Отправить записи</value>
+  </data>
+  <data name="ExceptionsWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Обратите внимание&lt;/b&gt;: При использвании данной функции Вы &lt;i&gt;можете&lt;/i&gt; отправлять некоторые конфиденциальные данные через Интернет в открытом виде (&lt;i&gt;НЕ&lt;/i&gt; зашифрованными). Перед тем, как отправить отчет об ошибках, пожалуйста, еще раз просмотрите содержимое журнала ошибок, чтобы убедиться, что он не содержит каких-либо сведений, нежелательных для отправки. Будут отправлены только отмеченные записи.
+</value>
+  </data>
+  <data name="SendExceptionsEmail.Text" xml:space="preserve">
+    <value>Отправить записи по эл. почте</value>
+  </data>
+  <data name="plEmailAddress.Text" xml:space="preserve">
+    <value>Адрес эл. почты</value>
+  </data>
+  <data name="plEmailAddress.Help" xml:space="preserve">
+    <value>Пожалуйста, введите адрес электронной почты человека, который должен получать записи журнала.</value>
+  </data>
+  <data name="SendMessage.Text" xml:space="preserve">
+    <value>Комментарий (необязательно)</value>
+  </data>
+  <data name="SendMessage.Help" xml:space="preserve">
+    <value>Включить дополнительный комментарий к записям.</value>
+  </data>
+  <data name="btnEmail.Text" xml:space="preserve">
+    <value>Отправить выбранные записи</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Параметры журнала</value>
+  </data>
+  <data name="NoEntries.Text" xml:space="preserve">
+    <value>В настоящий момент в журнале нет ни одной записи.</value>
+  </data>
+  <data name="Showing.Text" xml:space="preserve">
+    <value>Показаны записи с {0} по {1} из {2}</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>Выбранные записи успешно удалены.</value>
+  </data>
+  <data name="EmailSuccess.Text" xml:space="preserve">
+    <value>Ваше сообщение отправлено.</value>
+  </data>
+  <data name="EmailFailure.Text" xml:space="preserve">
+    <value>Ваше сообщение &lt;b&gt;НЕ&lt;/b&gt; отправлено.</value>
+  </data>
+  <data name="ServiceUnavailable.Text" xml:space="preserve">
+    <value>Веб-служба по адресу DotNetNuke.com в настоящий момент недоступен.</value>
+  </data>
+  <data name="ServerName.Text" xml:space="preserve">
+    <value>&lt;b&gt;Имя сервера&lt;/b&gt;: </value>
+  </data>
+  <data name="LogCleared.Text" xml:space="preserve">
+    <value>Журнал очищен.</value>
+  </data>
+  <data name="ClickRow.Text" xml:space="preserve">
+    <value>Нажмите на строку для получения более подробной информации.</value>
+  </data>
+  <data name="ExceptionCode.Text" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="ItemCreatedCode.Text" xml:space="preserve">
+    <value>Создание элемента</value>
+  </data>
+  <data name="ItemUpdatedCode.Text" xml:space="preserve">
+    <value>Изменение элемента</value>
+  </data>
+  <data name="ItemDeletedCode.Text" xml:space="preserve">
+    <value>Удаление элемента</value>
+  </data>
+  <data name="SuccessCode.Text" xml:space="preserve">
+    <value>Успешная операция</value>
+  </data>
+  <data name="FailureCode.Text" xml:space="preserve">
+    <value>Сбой операции</value>
+  </data>
+  <data name="AdminOpCode.Text" xml:space="preserve">
+    <value>Общая административная операция</value>
+  </data>
+  <data name="AdminAlertCode.Text" xml:space="preserve">
+    <value>Административный сигнал</value>
+  </data>
+  <data name="HostAlertCode.Text" xml:space="preserve">
+    <value>Сигнал хост-уровня</value>
+  </data>
+  <data name="ToEmail.Text" xml:space="preserve">
+    <value>На указанный адрес эл. почты</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Просмотр журнала</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;О просмотре журнала&lt;/h1&gt;&lt;p&gt;Позволяет просматривать записи в журнале событий сайта.&lt;/p&gt;</value>
+  </data>
+  <data name="SecurityException.Text" xml:space="preserve">
+    <value>Исключение по безопасности</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>Введите тему электронной почты.</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="InavlidEmailAddress.Text" xml:space="preserve">
+    <value>'{0}' не допустимый адрес электронной почты.</value>
+  </data>
+  <data name="Viewer.Text" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="ClearLog.Text" xml:space="preserve">
+    <value>Уверены, что хотите удалить все записи журнала?</value>
+  </data>
+  <data name="SelectException.Text" xml:space="preserve">
+    <value>Выберите хотя бы одну запись в журнале.</value>
+  </data>
+  <data name="LogEntryDefaultMsg.Text" xml:space="preserve">
+    <value>Во вложении - записи из журнала ошибок.</value>
+  </data>
+  <data name="LogEntryDefaultSubject.Text" xml:space="preserve">
+    <value>Журналы ошибок</value>
+  </data>
+</root>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add.Title" xml:space="preserve">
+    <value>Создатель модулей</value>
+  </data>
+  <data name="plOwner.Text" xml:space="preserve">
+    <value>Владелец:</value>
+  </data>
+  <data name="plOwner.Help" xml:space="preserve">
+    <value>Разработчикам рекомендуется использовать уникальное имя пространства имен для своих расширений для предотвращения возможных конфликтов с кодом других разработчиков. Укажите название вашей организации - оно будет использовано в качестве префикса.</value>
+  </data>
+  <data name="plModule.Text" xml:space="preserve">
+    <value>Имя модуля:</value>
+  </data>
+  <data name="plModule.Help" xml:space="preserve">
+    <value>Введите уникальное имя вашего модуля.</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Вы можете задать описание Вашего модуля.</value>
+  </data>
+  <data name="plLanguage.Text" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="plLanguage.Help" xml:space="preserve">
+    <value>Выберите предпочитаемый язык для разработки модуля.</value>
+  </data>
+  <data name="C#.Text" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="VB.Text" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>Шаблон:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>Выберите предпочитаемы шаблон модуля. Шаблоны модулей хранятся в папке Modules внутри корневой папки хостинга.</value>
+  </data>
+  <data name="plControl.Text" xml:space="preserve">
+    <value>Имя элемента управления:</value>
+  </data>
+  <data name="plControl.Help" xml:space="preserve">
+    <value>Введите уникальное имя элемента управления вашего модуля.</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Создать модуль</value>
+  </data>
+  <data name="InputValidation.ErrorMessage" xml:space="preserve">
+    <value>Укажите владельца и имя модуля, а также выберите шаблон модуля.</value>
+  </data>
+  <data name="SuperUser.ErrorMessage" xml:space="preserve">
+    <value>Создавать новые модули могут только администраторы хостинга.</value>
+  </data>
+  <data name="AlreadyExists.ErrorMessage" xml:space="preserve">
+    <value>Модуль с таким именем уже существует.</value>
+  </data>
+  <data name="TemplateProblem.ErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка при чтении файлов выбранного шаблона модуля.</value>
+  </data>
+</root>
