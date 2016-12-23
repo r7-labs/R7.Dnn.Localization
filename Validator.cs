@@ -99,15 +99,37 @@ internal class ResxValidator
 			}
 			
 			if (!string.IsNullOrWhiteSpace (sd [key]) && !string.IsNullOrWhiteSpace (td [key])) {
-				if (sd [key] [sd [key].Length - 1] != td [key] [td [key].Length - 1]) {
-					Console.WriteLine ("Warning: {0} {1} - different ending chars.", sourceFile, key);
-					exitCode = 2;
-					continue;
+				var sourceLastChar = sd [key] [sd [key].Length - 1];
+				var translationLastChar = td [key] [td [key].Length - 1];
+				if (!char.IsLetter (sourceLastChar) && !char.IsLetter (translationLastChar)) {
+					if (sourceLastChar != translationLastChar) {
+						Console.WriteLine ("Warning: {0} {1} - different ending chars '{2}' and '{3}'.", 
+							sourceFile, key, VisibleWhiteSpace (sourceLastChar), VisibleWhiteSpace (translationLastChar));
+						exitCode = 2;
+						continue;
+					}
 				}
 			}
 		}
 
 		return exitCode;
+	}
+
+	private string VisibleWhiteSpace (char c)
+	{
+		if (c == '\n') {
+			return "\\n";
+		}
+
+		if (c == '\r') {
+			return "\\r";
+		}
+
+		if (c == '\t') {
+			return "\\t";
+		}
+
+		return c.ToString ();
 	}
 
 	private Dictionary<string,string> LoadResxFile (string file)
