@@ -101,7 +101,7 @@ internal class ResxValidator
 			if (!string.IsNullOrWhiteSpace (sd [key]) && !string.IsNullOrWhiteSpace (td [key])) {
 				var sourceLastChar = sd [key] [sd [key].Length - 1];
 				var translationLastChar = td [key] [td [key].Length - 1];
-				if (!char.IsLetter (sourceLastChar) && !char.IsLetter (translationLastChar)) {
+				if (!(char.IsLetter (sourceLastChar) && char.IsLetter (translationLastChar))) {
 					if (sourceLastChar != translationLastChar) {
 						Console.WriteLine ("Warning: {0} {1} - different ending chars '{2}' and '{3}'.", 
 							sourceFile, key, VisibleWhiteSpace (sourceLastChar), VisibleWhiteSpace (translationLastChar));
