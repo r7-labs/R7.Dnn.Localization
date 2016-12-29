@@ -59,14 +59,20 @@ internal class RemoveEmptyEntries
 
 				if (xsltproc.ExitCode == 0) {
 					NormalizeLineEndings (outFile);
-					File.Delete (file);
-					File.Move (outFile, file);
+					
+					// the output file should be shorter than the original one 
+					// if something was removed during XSL transformation
+					if (new FileInfo (outFile).Length < new FileInfo (file).Length) {
+						File.Delete (file);
+						File.Move (outFile, file);
+					}	
 				}
 				else {
 					Console.WriteLine ("Error processing '{0}' file.", file);
-					if (File.Exists (outFile)) {
-						File.Delete (outFile);
-					}
+				}
+
+				if (File.Exists (outFile)) {
+					File.Delete (outFile);
 				}
 			}
 
