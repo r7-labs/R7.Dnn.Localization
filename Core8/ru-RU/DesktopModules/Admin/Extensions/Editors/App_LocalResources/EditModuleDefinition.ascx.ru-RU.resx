@@ -85,7 +85,7 @@
     <value>Создать папку</value>
   </data>
   <data name="CSharp.Text" xml:space="preserve">
-    <value>C# (C sharp)</value>
+    <value>C# (Си шарп)</value>
   </data>
   <data name="LanguageError.Text" xml:space="preserve">
     <value>Необходимо выбрать язык для элемента управления модуля.</value>

@@ -13,7 +13,7 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
   <data name="URL.Text">
-		<value>URL</value>
+		<value>Ссылка</value>
 	</data>
   <data name="TrackingUrl.Text">
 		<value>Отслеживаемый URL</value>

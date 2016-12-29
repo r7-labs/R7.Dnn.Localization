@@ -184,7 +184,7 @@
     <value>Создавать миниатюры изображений для предпросмотра:</value>
   </data>
   <data name="lblShowPageLinksTabFirst.Text" xml:space="preserve">
-    <value>Показывать вкладку ссылок на страницы первой:</value>
+    <value>Показывать первой вкладку ссылок на страницы:</value>
   </data>
   <data name="lblUseAnchorSelector.Text" xml:space="preserve">
     <value>Использовать выбор якорей (автоматически находит все якоря на выбранной странице):</value>

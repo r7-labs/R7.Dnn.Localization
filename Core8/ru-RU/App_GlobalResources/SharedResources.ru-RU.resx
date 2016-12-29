@@ -166,7 +166,7 @@
     <value>Справка</value>
   </data>
   <data name="PURGEUSERS.Log" xml:space="preserve">
-    <value>Информация о пользователях онлайн успешно очищена </value>
+    <value>Информация о пользователях на сайте успешно очищена</value>
   </data>
   <data name="ErrorOccurred.Text" xml:space="preserve">
     <value>Произошла ошибка.</value>
@@ -211,7 +211,7 @@
     <value>Произошла неожиданная ошибка в процессе регистрации. Если ошибка повторится, свяжитесь с администратором для решения этой проблемы.</value>
   </data>
   <data name="PaneNotFound.Error" xml:space="preserve">
-    <value>Не удалось найти ContentPane в теме </value>
+    <value>Не удалось найти ContentPane в теме</value>
   </data>
   <data name="ContractExpired.Error" xml:space="preserve">
     <value>Соглашение о хостинге {0} истекает {1}. Свяжитесь с &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; для получения дополнительной информации.</value>
@@ -229,13 +229,13 @@
     <value>Необработанное исключение при загрузке модуля.</value>
   </data>
   <data name="ModuleAdd.Error" xml:space="preserve">
-    <value>Необработанное исключение при добавлении модуля на {0}</value>
+    <value>Необработанное исключение при добавлении модуля на {0}.</value>
   </data>
   <data name="ContainerLoad.Error" xml:space="preserve">
     <value>Невозможно загрузить контейнер: {0}</value>
   </data>
   <data name="BeginZip.Text" xml:space="preserve">
-    <value>Начало обработки zip-архива</value>
+    <value>Начало обработки zip-архива.</value>
   </data>
   <data name="CreateDir.Text" xml:space="preserve">
     <value>Создаем каталог</value>
@@ -274,7 +274,7 @@
     <value>Отбрасываем дубликат скин-объекта для токена {0}</value>
   </data>
   <data name="DuplicateSkinObject.Detail" xml:space="preserve">
-    <value>Любая тема, содержащая ссылку на данную метку, будет прежде всего регистрировать элемент управления {0} из темы, а не тот, что является дубликатом ({1}). В результате этого, тема может отображаться некорректно.  </value>
+    <value>Любая тема, содержащая ссылку на данную метку, будет прежде всего регистрировать элемент управления {0} из темы, а не тот, что является дубликатом ({1}). В результате этого, тема может отображаться некорректно. </value>
   </data>
   <data name="LoadingSkinToken.Text" xml:space="preserve">
     <value>Загружаем скин-объект для токена {0}</value>
@@ -361,10 +361,10 @@
     <value>Закончить</value>
   </data>
   <data name="cmdBack.Help" xml:space="preserve">
-    <value>Нажмите. чтобы вернуться на предыдующую страницу</value>
+    <value>Нажмите. чтобы вернуться на предыдующую страницу.</value>
   </data>
   <data name="cmdNext.Help" xml:space="preserve">
-    <value>Нажмите, чтобы перейти на следующую страницу</value>
+    <value>Нажмите, чтобы перейти на следующую страницу.</value>
   </data>
   <data name="Left.Text" xml:space="preserve">
     <value>Влево</value>
@@ -391,19 +391,19 @@
     <value>Справка</value>
   </data>
   <data name="cmdHelp.Help" xml:space="preserve">
-    <value>Нажмите, чтобы отобразить справку по этой странице</value>
+    <value>Нажмите, чтобы отобразить справку относительно этой страницы.</value>
   </data>
   <data name="DNN_Reading.Text" xml:space="preserve">
     <value>Читаем файл манифеста установки</value>
   </data>
   <data name="DNN_Success.Text" xml:space="preserve">
-    <value>Манифест успешно завершен</value>
+    <value>Манифест успешно завершен.</value>
   </data>
   <data name="DNN_Valid.Text" xml:space="preserve">
     <value>Файл DNN в корректном формате версии {0}.</value>
   </data>
   <data name="DNN_ValidSkinObject.Text" xml:space="preserve">
-    <value>Файл DNN имеет корректный формат ThemeObject версии 2.0</value>
+    <value>Файл DNN имеет корректный формат ThemeObject версии 2.0.</value>
   </data>
   <data name="EXCEPTION.Text" xml:space="preserve">
     <value>Исключение</value>
@@ -460,7 +460,7 @@
     <value>Найден верный путь ({0}) для {1}.</value>
   </data>
   <data name="FILE_Loading.Text" xml:space="preserve">
-    <value>Загрузка</value>
+    <value>Загрузка </value>
   </data>
   <data name="FILE_NotFound.Text" xml:space="preserve">
     <value>Файл, указанный в сценарии dnn, не обнаружен в zip-архиве: </value>
@@ -490,7 +490,7 @@
     <value>Чтение файлов завершено.</value>
   </data>
   <data name="INSTALL_Start.Text" xml:space="preserve">
-    <value>Установка начата.</value>
+    <value>Установка начата</value>
   </data>
   <data name="INSTALL_Success.Text" xml:space="preserve">
     <value>Установка прошла успешно.</value>
@@ -523,7 +523,7 @@
     <value>Исполнение SQL привело к следующим исключениям: {0}{1}</value>
   </data>
   <data name="SQL_Executing.Text" xml:space="preserve">
-    <value>Исполняем</value>
+    <value>Исполняем </value>
   </data>
   <data name="SQL_UnknownFile.Text" xml:space="preserve">
     <value>Неизвестная кодировка файла {0}, операция прервана</value>
@@ -541,7 +541,7 @@
     <value>Страница:</value>
   </data>
   <data name="URL.Text" xml:space="preserve">
-    <value>URL:</value>
+    <value>Ссылка:</value>
   </data>
   <data name="Home.Text" xml:space="preserve">
     <value>Домашняя</value>
@@ -706,10 +706,10 @@
     <value>Очистка Word HTML</value>
   </data>
   <data name="INSTALL_OlderVersion.Text" xml:space="preserve">
-    <value>Установка прервана - версия устанавливаемого модуля более старая, чем версия модуля, уже установленного в системе</value>
+    <value>Установка прервана - версия устанавливаемого модуля более старая, чем версия модуля, уже установленного в системе.</value>
   </data>
   <data name="INSTALL_Compatibility.Text" xml:space="preserve">
-    <value>Установка прервана: устанавливаемый модуль не совместим с вашей версией хост-приложения (требуется обновление)</value>
+    <value>Установка прервана - устанавливаемый модуль не совместим с вашей версией DNN. Требуется обновление до версии {0}.</value>
   </data>
   <data name="INSTALL_Dependencies.Text" xml:space="preserve">
     <value>Установка прервана - устанавливаемый модуль требует дополнительных компонентов, которые не доступны в вашей среде.</value>
@@ -763,7 +763,7 @@
     <value>Уверены, что хотите удалить эти элементы?</value>
   </data>
   <data name="PasswordMismatch.Text" xml:space="preserve">
-    <value>Пароли не совпадают</value>
+    <value>Пароли не совпадают.</value>
   </data>
   <data name="OnLine.Text" xml:space="preserve">
     <value>Онлайн</value>
@@ -772,7 +772,7 @@
     <value>Удалено</value>
   </data>
   <data name="LOG.LangPackReader.ModuleWarning" xml:space="preserve">
-    <value>Файл ресурсов {0} не был сохранен, поскольку модуль {1} не установлен</value>
+    <value>Файл ресурсов {0} не был сохранен, поскольку модуль {1} не установлен.</value>
   </data>
   <data name="AdminOnly.Text" xml:space="preserve">
     <value>Только для администратора</value>
@@ -787,28 +787,28 @@
     <value>Видимость:</value>
   </data>
   <data name="CreateProfileDefinitions.Error" xml:space="preserve">
-    <value>Ошибка при создании определений профиля</value>
+    <value>Ошибка при создании определений профиля.</value>
   </data>
   <data name="CreatePortal.Error" xml:space="preserve">
-    <value>Ошибка при создании сайта</value>
+    <value>Ошибка при создании сайта.</value>
   </data>
   <data name="CreateAdminUser.Error" xml:space="preserve">
     <value>Ошибка при создании учетной записи администратора.</value>
   </data>
   <data name="DeleteUploadFolder.Error" xml:space="preserve">
-    <value>Ошибка при удалении предыдущей папки подгрузки</value>
+    <value>Ошибка при удалении предыдущей папки подгрузки.</value>
   </data>
   <data name="ChildPortal.Error" xml:space="preserve">
-    <value>Ошибка конфигурирования дочернего сайта</value>
+    <value>Ошибка конфигурирования дочернего сайта.</value>
   </data>
   <data name="PortalTemplate.Error" xml:space="preserve">
-    <value>Ошибка при чтении шаблона веб-сайта</value>
+    <value>Ошибка при разборе шаблона сайта.</value>
   </data>
   <data name="AdminTemplate.Error" xml:space="preserve">
-    <value>Ошибка при разборе шаблона администратора</value>
+    <value>Ошибка при разборе шаблона администратора.</value>
   </data>
   <data name="FilePermission.Error" xml:space="preserve">
-    <value>У Вас недостаточно прав для просмотра запрошенного файла</value>
+    <value>У вас нет разрешений на просмотр запрошенного файла.</value>
   </data>
   <data name="ModuleLoadWarning.Error" xml:space="preserve">
     <value>Предупреждение при загрузке модуля</value>
@@ -856,7 +856,7 @@
     <value>У вас нет необходимых разрешений для подгрузки изображений.</value>
   </data>
   <data name="LastPortal.Text" xml:space="preserve">
-    <value>Вы не можете удалить единственный имеющийся портал!</value>
+    <value>Вы не можете удалить последний имеющийся в базе данных сайт.</value>
   </data>
   <data name="User.Text" xml:space="preserve">
     <value>Имя пользователя:</value>
@@ -871,10 +871,10 @@
     <value>Эта страница была отключена и видима только для пользователей с правами на ее редактирование.</value>
   </data>
   <data name="InvalidPasswordAnswer.Text" xml:space="preserve">
-    <value>Нужно указать ответ на секретный вопрос</value>
+    <value>Требуется ввести ответ на секретный вопрос.</value>
   </data>
   <data name="InvalidPasswordQuestion.Text" xml:space="preserve">
-    <value>Нужно указать секретный вопрос</value>
+    <value>Требуется ввести секретный вопрос.</value>
   </data>
   <data name="PasswordChanged.Text" xml:space="preserve">
     <value>Пароль был изменен.</value>
@@ -925,10 +925,10 @@
     <value>Информация о небезопасной учетной записи</value>
   </data>
   <data name="PrivateMembership.Text" xml:space="preserve">
-    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Доступ на данный портал ограничен. По получении Вашей регистрационной информации, администратор портала будет извещен, и Ваша заявка будет рассмотрена. При положительном решении, Вы будете извещены о возможности доступа на портал.</value>
+    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Доступ на данный портал ограничен. После отправки ваших учетных данных об этом будет извещен администратор сайта, и он рассмотрит вашу заявку. В случае положительного решения, вы будете извещены о возможности доступа на сайт.</value>
   </data>
   <data name="PublicMembership.Text" xml:space="preserve">
-    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Членство на данном портале является открытым. Как только указанная Вами информация будет принята, вы незамедлительно получите доступ на портал. </value>
+    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Регистрация на этом сайте является открытой. После того, как ваши учетные данные будут оправлены, вы незамедлительно получите доступ на сайт.</value>
   </data>
   <data name="Register.Text" xml:space="preserve">
     <value>Регистрация пользователя</value>
@@ -937,12 +937,12 @@
     <value>Все поля, помеченные красной звездочкой, являются обязательными к заполнению.</value>
   </data>
   <data name="VerifiedMembership.Text" xml:space="preserve">
-    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Членство на этом 
-портале выдается после проверки. 
-Как только ваши данные будут получены, Вам будет отправлено электронное письмо с уникальным кодом подтверждения, который необходимо ввести при первом входе на портал. </value>
+    <value>&lt;strong&gt;Примечание:&lt;/strong&gt; Регистрация на этом 
+сайте требует подтверждения. 
+После того, как ваши учетные данные будут оправлены, вам будет отправлено электронное письмо со ссылкой, перейдя по которой вы сможете подтвердить свою учетную запись.</value>
   </data>
   <data name="Captcha.Help" xml:space="preserve">
-    <value>Введите код безопасности</value>
+    <value>Введите код безопасности.</value>
   </data>
   <data name="Captcha.Text" xml:space="preserve">
     <value>Код безопасности</value>
@@ -954,7 +954,7 @@
     <value>Имя пользователя:</value>
   </data>
   <data name="CaptchaText.Text" xml:space="preserve">
-    <value>Введите код безопасности, показанный выше, в расположенное ниже поле</value>
+    <value>Введите код безопасности, показанный выше, в расположенное ниже поле.</value>
   </data>
   <data name="InvalidCaptcha.Text" xml:space="preserve">
     <value>Неверный код безопасности</value>
@@ -1005,7 +1005,7 @@
     <value>Производим откат компонента</value>
   </data>
   <data name="AUTHENTICATION_UnRegistered.Text" xml:space="preserve">
-    <value>Регистрация аутентификации успешно отменена</value>
+    <value>Регистрация успешно отменена - {0}</value>
   </data>
   <data name="COMPONENT_Installed.Text" xml:space="preserve">
     <value>Компонент успешно установлен</value>
@@ -1068,7 +1068,7 @@
     <value>Зависимый пакет не установлен</value>
   </data>
   <data name="INSTALL_Version.Text" xml:space="preserve">
-    <value>Более свежая версия этого пакета уже установлена.</value>
+    <value>Более свежая версия этого пакета уже установлена</value>
   </data>
   <data name="INSTALL_Namespace.Text" xml:space="preserve">
     <value>Зависимый компонент не установлен</value>
@@ -1101,10 +1101,10 @@
     <value>Папка создана - {0}</value>
   </data>
   <data name="SECURITY_Installer.Text" xml:space="preserve">
-    <value>У вас недостаточно прав для установки этого компонента</value>
+    <value>У вас нет разрешений на установку этого компонента.</value>
   </data>
   <data name="SECURITY_NotRegistered.Text" xml:space="preserve">
-    <value>Этот тип пакета не зарегистрирован</value>
+    <value>Этот тип пакета не зарегистрирован.</value>
   </data>
   <data name="EXCEPTION_InstallerCreate.Text" xml:space="preserve">
     <value>Ошибка при создании установщика компонент.</value>
@@ -1116,10 +1116,10 @@
     <value>Ошибка при удалении пользователя</value>
   </data>
   <data name="SKIN_BeginProcessing.Text" xml:space="preserve">
-    <value>Начало обработки файлов темы</value>
+    <value>Начало обработки файлов темы.</value>
   </data>
   <data name="SKIN_EndProcessing.Text" xml:space="preserve">
-    <value>Конец обработки файлов темы</value>
+    <value>Конец обработки файлов темы.</value>
   </data>
   <data name="MODULE_ControlKeyMissing.Text" xml:space="preserve">
     <value>Поле Key отсутствует</value>
@@ -1287,25 +1287,25 @@
     <value>Ошибка при доступе к [{0}:{1}], {0} - неизвестный источник данных.</value>
   </data>
   <data name="DASHBOARD_KeyMissing.Text" xml:space="preserve">
-    <value>Необходимое поле Key отсутствует в манифесте</value>
+    <value>Необходимое поле Key отсутствует в манифесте.</value>
   </data>
   <data name="DASHBOARD_LocalResourcesMissing.Text" xml:space="preserve">
-    <value>Необходимое поле LocalResources отсутствует в манифесте</value>
+    <value>Необходимое поле LocalResources отсутствует в манифесте.</value>
   </data>
   <data name="DASHBOARD_ReadSuccess.Text" xml:space="preserve">
-    <value>Манифест Dashboard разобран успешно</value>
+    <value>Манифест элемента панели управления успешно разобран.</value>
   </data>
   <data name="DASHBOARD_Registered.Text" xml:space="preserve">
-    <value>Элемент панели управления успешно зарегистрирован</value>
+    <value>Элемент панели управления успешно зарегистрирован.</value>
   </data>
   <data name="DASHBOARD_SrcMissing.Text" xml:space="preserve">
-    <value>Необходимое поле Src отсутствует в манифесте</value>
+    <value>Необходимое поле Src отсутствует в манифесте.</value>
   </data>
   <data name="DASHBOARD_UnRegistered.Text" xml:space="preserve">
-    <value>Регистрация элемента панели управления удалена</value>
+    <value>Регистрация элемента панели управления успешно отменена.</value>
   </data>
   <data name="SKIN_Installed.Text" xml:space="preserve">
-    <value>Эта тема уже установлена, но с другим именем пакета</value>
+    <value>Эта тема уже установлена, но под другим именем пакета.</value>
   </data>
   <data name="ModuleEffective.Text" xml:space="preserve">
     <value>Доступные модули - {0}</value>
@@ -1386,10 +1386,10 @@
     <value>Версия {0} не корректна - не будет добавлена в список UpgradeVersions.</value>
   </data>
   <data name="EVENTMESSAGE_CommandMissing.Text" xml:space="preserve">
-    <value>Команда процессора отсутствует в манифесте</value>
+    <value>Команда обработчика отсутствует в манифесте.</value>
   </data>
   <data name="EVENTMESSAGE_TypeMissing.Text" xml:space="preserve">
-    <value>Тип процессора отсутствует в манифесте</value>
+    <value>Тип обработчика отсутствует в манифесте.</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>Справка модуля</value>
@@ -1449,16 +1449,16 @@
     <value>Отображаемое имя некорректно.</value>
   </data>
   <data name="OAuthConfigBase_APIKey.Help" xml:space="preserve">
-    <value>Введите значения APP ID/API Key/Consumer Key, которые были указаны при конфигурировании провайдера аутентификации.</value>
+    <value>Введите значения ид. приложения/ключа API/ключа потребителя, которые были указаны при настройке поставщика аутентификации.</value>
   </data>
   <data name="OAuthConfigBase_APIKey.Text" xml:space="preserve">
-    <value>APP ID</value>
+    <value>Ид. приложения</value>
   </data>
   <data name="OAuthConfigBase_APISecret.Help" xml:space="preserve">
-    <value>Введите значение APP Secret/Consumer Secret, которые были указаны при конфигурировании провайдера аутентификации.</value>
+    <value>Введите значения ид. приложения/ключа API/ключа потребителя, которые были указаны при настройке поставщика аутентификации.</value>
   </data>
   <data name="OAuthConfigBase_APISecret.Text" xml:space="preserve">
-    <value>APP Secret</value>
+    <value>Секрет приложения</value>
   </data>
   <data name="OAuthConfigBase_Enabled.Help" xml:space="preserve">
     <value>Отметьте флажок чтобы включить данный вид аутентификации для этого сайта.</value>
@@ -1542,46 +1542,46 @@
     <value>Черновик готов</value>
   </data>
   <data name="DraftCompleted.Comment" xml:space="preserve">
-    <value>Состояние чернового варианта завершено. Контент готов к публикации</value>
+    <value>Состояние чернового варианта завершено. Содержимое готово к публикации.</value>
   </data>
   <data name="StateCompleted.Action" xml:space="preserve">
     <value>Состоние завершено</value>
   </data>
   <data name="StateCompleted.Comment" xml:space="preserve">
-    <value>Состояние '[STATE]' утверждено</value>
+    <value>Состояние '[STATE]' было утверждено.</value>
   </data>
   <data name="StateDiscarded.Action" xml:space="preserve">
     <value>Состояние снято</value>
   </data>
   <data name="StateDiscarded.Comment" xml:space="preserve">
-    <value>Состояние '[STATE]' было снято</value>
+    <value>Состояние '[STATE]' было отвергнуто. </value>
   </data>
   <data name="StateInitiated.Action" xml:space="preserve">
     <value>Состояние инициировано</value>
   </data>
   <data name="StateInitiated.Comment" xml:space="preserve">
-    <value>Рабочий процесс в состоянии '[STATE]' </value>
+    <value>Рабочий процесс в состоянии '[STATE]'.</value>
   </data>
   <data name="WorkflowApproved.Action" xml:space="preserve">
     <value>Рабочий процесс завершен</value>
   </data>
   <data name="WorkflowApproved.Comment" xml:space="preserve">
-    <value>Рабочий процесс '[WORKFLOW]' завершен. Контент проверен</value>
+    <value>Рабочий процесс '[WORKFLOW]' завершен. Содержимое было утверждено.</value>
   </data>
   <data name="WorkflowError.Action" xml:space="preserve">
     <value>Ошибка в рабочем процессе</value>
   </data>
   <data name="WorkflowError.Comment" xml:space="preserve">
-    <value>Рабочий процесс '[WORKFLOW]' вызвал ошибку</value>
+    <value>Рабочий процесс '[WORKFLOW]' вызвал ошибку.</value>
   </data>
   <data name="WorkflowStarted.Action" xml:space="preserve">
     <value>Рабочий процесс запущен</value>
   </data>
   <data name="WorkflowStarted.Comment" xml:space="preserve">
-    <value>Рабочий процесс '[WORKFLOW]' запущен</value>
+    <value>Рабочий процесс '[WORKFLOW]' запущен.</value>
   </data>
   <data name="URLPROVIDER_NameMissing.Text" xml:space="preserve">
-    <value>Отсутствует имя поставщика URL </value>
+    <value>Отсутствует имя поставщика URL</value>
   </data>
   <data name="URLPROVIDER_Registered.Text" xml:space="preserve">
     <value>Поставщик URL зарегистрирован</value>
@@ -1602,7 +1602,7 @@
     <value>Утверждение контента</value>
   </data>
   <data name="DefaultWorkflowState1.OnCompleteMessageBody" xml:space="preserve">
-    <value>[DATE]: Файл [FILE] готов к проверке [USER]</value>
+    <value>[DATE]: Файл [FILE] готов к проверке [USER].</value>
   </data>
   <data name="DefaultWorkflowState1.OnCompleteMessageSubject" xml:space="preserve">
     <value>Файл готов к проверке</value>
@@ -1611,13 +1611,13 @@
     <value>Черновик</value>
   </data>
   <data name="DefaultWorkflowState2.OnCompleteMessageBody" xml:space="preserve">
-    <value>[DATE]: Файл [FILE] был утвержден [USER]</value>
+    <value>[DATE]: Файл [FILE] был утвержден [USER].</value>
   </data>
   <data name="DefaultWorkflowState2.OnCompleteMessageSubject" xml:space="preserve">
     <value>Файл утвержден</value>
   </data>
   <data name="DefaultWorkflowState2.OnDiscardMessageBody" xml:space="preserve">
-    <value>[DATE]: Файл [FILE] был отвергнут [USER]</value>
+    <value>[DATE]: Файл [FILE] был отвергнут [USER].</value>
   </data>
   <data name="DefaultWorkflowState2.OnDiscardMessageSubject" xml:space="preserve">
     <value>Файл отвергнут</value>
@@ -1644,7 +1644,7 @@
     <value>Рабочий процесс отменен</value>
   </data>
   <data name="WorkflowDiscarded.Comment" xml:space="preserve">
-    <value>Рабочий процесс '[WORKFLOW]' был отменен, когда находился в состоянии '[STATE]'</value>
+    <value>Рабочий процесс '[WORKFLOW]' был отвергнут, когда находился в состоянии '[STATE]'.</value>
   </data>
   <data name="DropDownList.SearchInputPlaceHolder" xml:space="preserve">
     <value>Поиск...</value>
@@ -1692,7 +1692,7 @@
     <value>[нет ссылки]</value>
   </data>
   <data name="VerificationSuccess.Text" xml:space="preserve">
-    <value>Ваша учетная запись успешно проверена</value>
+    <value>Ваша учетная запись успешно проверена.</value>
   </data>
   <data name="RootFolder.Name" xml:space="preserve">
     <value>Корень портала</value>
@@ -1758,13 +1758,13 @@
     <value>Действия</value>
   </data>
   <data name="RoleNotFound.Text" xml:space="preserve">
-    <value>Указанная роль не найдена. Пожалуйста, обновите страницу и повторите попытку</value>
+    <value>Выбранная роль не найдена. Пожалуйста, обновите страницу и повторите попытку.</value>
   </data>
   <data name="RoleSelect.Text" xml:space="preserve">
     <value>Роль:</value>
   </data>
   <data name="CreatingConfiguredFolderMapping.Error" xml:space="preserve">
-    <value>Произошла ошибка при создании отображения папки из файла конфигурации</value>
+    <value>Произошла ошибка при создании отображения папки из файла конфигурации.</value>
   </data>
   <data name="PermissionUserHeader.Text" xml:space="preserve">
     <value>Пользователь</value>
@@ -1800,13 +1800,13 @@
     <value>Папки:</value>
   </data>
   <data name="DefaultDirectPublishWorkflowDescription.Text" xml:space="preserve">
-    <value>Разрешить автору напрямую публиковать содержимое на сайте</value>
+    <value>Позволяет автору напрямую публиковать содержимое на сайте.</value>
   </data>
   <data name="DefaultDirectPublishWorkflowName.Text" xml:space="preserve">
     <value>Прямая публикация</value>
   </data>
   <data name="DefaultSaveDraftWorkflowDescription.Text" xml:space="preserve">
-    <value>Разрешить автору сохранять черновик прежде, чем содержимое будет опубликовано</value>
+    <value>Разрешить автору сохранять черновую версию содержимого перед непосредственной публикацией.</value>
   </data>
   <data name="DefaultSaveDraftWorkflowName.Text" xml:space="preserve">
     <value>Сохранять черновик</value>
@@ -1821,6 +1821,6 @@
     <value>Тип данных</value>
   </data>
   <data name="NoRecords.Text" xml:space="preserve">
-    <value>Нет записей для отображения.</value>
+    <value>Нет записей для отображения</value>
   </data>
 </root>

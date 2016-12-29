@@ -88,7 +88,7 @@
     <value>URL автора.</value>
   </data>
   <data name="URL.Text" xml:space="preserve">
-    <value>URL:</value>
+    <value>Ссылка:</value>
   </data>
   <data name="FriendlyName.Required" xml:space="preserve">
     <value>Укажите дружественное имя для пакета.</value>

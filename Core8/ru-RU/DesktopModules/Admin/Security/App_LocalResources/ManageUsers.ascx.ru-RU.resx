@@ -133,7 +133,7 @@
     <value>Выполнить вход</value>
   </data>
   <data name="plCaptcha.Help" xml:space="preserve">
-    <value>Введите код безопасности</value>
+    <value>Введите код безопасности.</value>
   </data>
   <data name="plCaptcha.Text" xml:space="preserve">
     <value>Код безопасности:</value>

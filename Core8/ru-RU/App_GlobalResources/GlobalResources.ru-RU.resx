@@ -388,7 +388,9 @@
 </value>
   </data>
   <data name="MESSAGE_RETRIEVEPASSWORD_INSTRUCTIONS.Text" xml:space="preserve">
-    <value>Чтобы восстановить ваш пароль, Вы должны ввести ваше имя пользователя, а также ответ на секретный вопрос о пароле.</value>
+    <value>Чтобы восстановить ваш пароль, Вы должны ввести ваше имя пользователя, а также
+			ответ на секретный вопрос о пароле.	
+		</value>
   </data>
   <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Восстановление утерянного пароля</value>
@@ -453,8 +455,8 @@
 Страна: [Profile:Country]
 Почтовый индекс: [Profile:PostalCode]
 Телефон: [Profile:Telephone]
-Адрес эл. почты: [User:Email] 
-</value>
+Адрес эл. почты: [User:Email]
+		</value>
   </data>
   <data name="EMAIL_USER_REGISTRATION_VERIFIED_SUBJECT.Text" xml:space="preserve">
     <value>[Portal:PortalName] Регистрация нового пользователя</value>
@@ -474,6 +476,7 @@ http://[Portal:URL]/default.aspx?ctl=Login&amp;username=[Custom:0]&amp;verificat
 Благодарим Вас за сотрудничество и поддержку...
 
 [Portal:PortalName]
+
 </value>
   </data>
   <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text" xml:space="preserve">
@@ -656,33 +659,32 @@ http://[Portal:URL]/default.aspx?ctl=Login&amp;username=[Custom:0]&amp;verificat
   </data>
   <data name="EMAIL_BulkMailConf_Html_Body.Text" xml:space="preserve">
     <value>&lt;h1&gt;Отчет по рассылке&lt;/h1&gt;
-Операция начата в: [Custom:0]&lt;br&gt;
-Получатели: [Custom:1]&lt;br&gt;
-Сообщений: [Custom:2]&lt;br&gt;
-Операция выполнена: [Custom:3]&lt;br&gt;
-[Custom:4|Количество ошибок:{0}&lt;br&gt;]
-&lt;br&gt;
-Отчет: &lt;br&gt;
+Операция начата в: [Custom:0]&lt;br /&gt;
+Получатели: [Custom:1]&lt;br /&gt;
+Сообщений: [Custom:2]&lt;br /&gt;
+Операция выполнена: [Custom:3]&lt;br /&gt;
+[Custom:4|Количество ошибок:{0}&lt;br /&gt;]
+&lt;br /&gt;
+Отчет: &lt;br /&gt;
 &lt;pre&gt;[Custom:5]&lt;/pre&gt;
-[Custom:6|&lt;hr&gt;&lt;b&gt;Получатели:&lt;/B&gt;&lt;br&gt;{0}]
-</value>
+[Custom:6|&lt;hr /&gt;&lt;strong&gt;Получатели:&lt;/strong&gt;&lt;br /&gt;{0}]</value>
   </data>
   <data name="EMAIL_BulkMailConf_Text_Body.Text" xml:space="preserve">
     <value>Операция начата в: [Custom:0]
-Получатели:      [Custom:1]
-Сообщения:        [Custom:2]
-Операция выполнена:  [Custom:3]
-[Custom:4|Количество ошибок:     {0}
+Получатели: [Custom:1]
+Сообщения: [Custom:2]
+Операция выполнена: [Custom:3]
+
+[Custom:4|Количество ошибок: {0}
 ]Отчет о состоянии:
 [Custom:5]
 --------------------------------
 [Custom:6|Адресаты:
 ===========
-{0}]
-</value>
+{0}]</value>
   </data>
   <data name="NoErrorsSending.Text" xml:space="preserve">
-    <value>Ошибок при отправке не произошло. </value>
+    <value>Ошибок при отправке не произошло.</value>
   </data>
   <data name="Return.Text" xml:space="preserve">
     <value>Вернуться на сайт</value>
@@ -1015,10 +1017,10 @@ Sincerely,
     <value>Исполняем сценарий</value>
   </data>
   <data name="LogStart.Text" xml:space="preserve">
-    <value>Начало</value>
+    <value>Начало </value>
   </data>
   <data name="LogEnd.Text" xml:space="preserve">
-    <value>Конец</value>
+    <value>Конец </value>
   </data>
   <data name="ActivatingLicense.Text" xml:space="preserve">
     <value>Активация лицензии</value>
