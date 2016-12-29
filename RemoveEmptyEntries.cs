@@ -12,17 +12,17 @@ public static class Program
 {
 	public static void Main (string [] args)
 	{
-		try
-		{
+		try {
+			Console.WriteLine ("Removing empty entries...");
 			var script = new RemoveEmptyEntries () {
 				PackageName = args [1],
 				CultureCode = args [2].Replace ("_", "-")
 			};
 
 			script.Run ();
+			Console.WriteLine ("Done.");
 		}
-		catch (Exception ex)
-		{
+		catch (Exception ex) {
 			Console.WriteLine (ex.Message);
 		}
 	}
@@ -39,29 +39,15 @@ internal class RemoveEmptyEntries
 
 	public void Run ()
 	{
-		try
-		{
+		try {
 			// get translation files
 			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
 			var files = Directory.GetFiles (".",
 				string.Format ("*.{0}.resx", CultureCode), SearchOption.AllDirectories);
 
-			foreach (var file in files)
-			{
-				/*
-				var doc = new XPathDocument (file);
-				var writer = XmlWriter.Create (file + ".out");
-				writer.Settings.Indent = true;
-				writer.Settings.NewLineHandling = NewLineHandling.None;
-
-				var transform = new XslCompiledTransform ();
-				var settings = new XsltSettings ();
-
-				transform.Load("../../xslt/remove-empty-entries.xslt", settings, null);
-
-				transform.Transform (doc, writer);
-				*/
-
+			foreach (var file in files) {
+				var outFile = file + ".out";
+				
 				// invoke xlstproc
 				var xsltproc = new Process ();
 				xsltproc.StartInfo.FileName = "xsltproc";
@@ -72,32 +58,28 @@ internal class RemoveEmptyEntries
 				xsltproc.WaitForExit ();
 
 				if (xsltproc.ExitCode == 0) {
-					var diff = new Process ();
-					diff.StartInfo.FileName = "diff";
-					diff.StartInfo.Arguments = string.Format ("-w \"{0}\" \"{0}.out\"", file);
-					diff.StartInfo.UseShellExecute = false;
-					diff.Start ();
-					diff.WaitForExit ();
-
-					if (diff.ExitCode == 0) {
-						// no difference except whitespace, keep original file
-						File.Delete (file + ".out");
-					}
-					else {
-						// TODO: Detect comments and schema removal
-						// replace original file
-						Console.WriteLine ("Empty entries removed from: {0}", file);
-						File.Delete (file);
-						File.Move (file + ".out", file);
+					NormalizeLineEndings (outFile);
+					File.Delete (file);
+					File.Move (outFile, file);
+				}
+				else {
+					Console.WriteLine ("Error processing '{0}' file.", file);
+					if (File.Exists (outFile)) {
+						File.Delete (outFile);
 					}
 				}
 			}
 
 			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
 		}
-		catch (Exception ex)
-		{
+		catch (Exception ex) {
 			throw ex;
 		}
+	}
+
+	private void NormalizeLineEndings (string file)
+	{
+		var lines = File.ReadAllLines (file);
+		File.WriteAllText (file, string.Join ("\r\n", lines) + "\r\n");
 	}
 }
