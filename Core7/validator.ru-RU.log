@@ -1,0 +1,512 @@
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx //Host//SQL.String - values are the same.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx MESSAGE_RETRIEVEPASSWORD_INSTRUCTIONS.Text - different ending chars '\t' and ' '.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_PASSWORD_REMINDER_BODY.Text - different ending chars '\n' and '.'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_USER_UNREGISTER_BODY.Text - different ending chars '\t' and ' '.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_USER_REGISTRATION_VERIFIED_BODY.Text - different ending chars ' ' and '\n'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_BANNER_NOTIFICATION_SUBJECT.Text - values are the same.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx 500.Error - values are the same.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_BulkMailConf_Html_Body.Text - different ending chars ']' and '\n'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_BulkMailConf_Text_Body.Text - different ending chars ' ' and '\n'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx NoErrorsSending.Text - different ending chars '.' and ' '.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx //Host//WhatsNew.String - different ending chars 'w' and '?'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx AddFollowerRequestBody.Text - different ending chars '}' and 'и'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx LogStart.Text - different ending chars ' ' and 'о'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx LogEnd.Text - different ending chars ' ' and 'ц'.
+Warning: Core7/en-US/App_GlobalResources/GlobalResources.resx EMAIL_MESSAGING_DISPATCH_ITEM.Text - values are the same.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx PURGEUSERS.Log - different ending chars 'y' and ' '.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx PaneNotFound.Error - different ending chars 'e' and ' '.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx DuplicateSkinObject.Detail - different ending chars '.' and ' '.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx ControlDirective.Text - values are the same.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx cmdNext.Text - different ending chars 't' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx Pages.Text - different ending chars '}' and '>'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx DNN_ValidSkinObject.Text - different ending chars '.' and '0'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx EXCEPTION_MissingDnn.Text - different ending chars '?' and 'n'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx FILE_Loading.Text - different ending chars ' ' and 'а'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx INSTALL_Start.Text - different ending chars 'n' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx SQL_Executing.Text - different ending chars ' ' and 'м'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx URL.Text - values are the same.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx INSTALL_Compatibility.Text - different ending chars '.' and ')'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx INSTALL_Permissions.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx First.Text - different ending chars 't' and '<'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx Next.Text - different ending chars 't' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx Previous.Text - different ending chars 's' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx Last.Text - different ending chars 't' and '>'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx LastPortal.Text - different ending chars 'e' and '!'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx PasswordNotDifferent.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx PublicMembership.Text - different ending chars '.' and ' '.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx VerifiedMembership.Text - different ending chars '.' and ' '.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx AUTHENTICATION_UnRegistered.Text - different ending chars '}' and 'а'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx INSTALL_Version.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx ModuleVisibleAdministrator.Text - different ending chars 'y' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx OAuthConfigBase_APIKey.Text - values are the same.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx OAuthConfigBase_APISecret.Text - values are the same.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx OAuthConfigBase_Enabled.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx URLPROVIDER_NameMissing.Text - different ending chars 'g' and ' '.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx DefaultWorkflowDescription.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/App_GlobalResources/SharedResources.resx GettingStarted.FacebookLinkTooltip - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/AdvancedSettings/App_LocalResources/SmtpServerSettings.ascx.resx SMTPNTLM.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Banners/App_LocalResources/BannerOptions.ascx.resx plSource.Help - different ending chars 'e' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Banners/App_LocalResources/BannerOptions.ascx.resx plOrientation.Help - different ending chars 'y' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Banners/App_LocalResources/BannerOptions.ascx.resx valBannerClickThroughURL.ErrorMessage - different ending chars '"' and 'т'.
+Warning: Core7/en-US/DesktopModules/Admin/Console/App_LocalResources/Settings.ascx.resx ModuleHelp.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/ContentList/App_LocalResources/ContentList.ascx.resx ModuleHidden.Text - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/ContentList/App_LocalResources/ContentList.ascx.resx NoResults.Text - different ending chars '>' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/ContentList/App_LocalResources/ContentList.ascx.resx Results.Text - different ending chars '>' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Dashboard/App_LocalResources/Export.ascx.resx Success.Text - different ending chars 'r' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Dashboard/App_LocalResources/SharedResources.resx SupportEmail.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Dashboard/Modules/App_LocalResources/Database.ascx.resx DbInfo_ServicePack.Help - different ending chars ')' and 'я'.
+Warning: Core7/en-US/DesktopModules/Admin/Dashboard/Modules/App_LocalResources/Portals.ascx.resx GUID.Header - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/EditExtension.ascx.resx PackageUpdated.Text - different ending chars 'y' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/EditExtension.ascx.resx HostHeading.Text - different ending chars 's' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/ExtensionWizard.ascx.resx Package.Text - different ending chars ' ' and 'я'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/Install.ascx.resx InstallCustomPackage.Text - different ending chars 'n' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/Install.ascx.resx ZipCriticalError.Text - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/PackageWriter.ascx.resx Introduction.Help - different ending chars 'n' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/PackageWriter.ascx.resx FinalStep.Help - different ending chars '.' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/PackageWriter.ascx.resx plManifestName.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/PackageWriter.ascx.resx plPackage.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/PackageWriter.ascx.resx Success.Text - different ending chars 'r' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/SharedResources.resx URL.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/SharedResources.resx feedEndpoint.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/SharedResources.resx StoreFile.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/UnInstall.ascx.resx CannotDeleteContainer.ErrorMessage - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/UsageDetails.ascx.resx lblFilterUsageList.Text - different ending chars ' ' and 'я'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/UsageDetails.ascx.resx Usage.Text - different ending chars ' ' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/UsageDetails.ascx.resx grd.PagerSettings.FirstPageText - different ending chars ' ' and '<'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/UsageDetails.ascx.resx grd.PagerSettings.NextPageText - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/App_LocalResources/UsageDetails.ascx.resx grd.PagerSettings.PreviousPageText - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/AuthenticationEditor.ascx.resx AuthenticationType.Text - different ending chars ':' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/AuthenticationEditor.ascx.resx AdminHelp.Text - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/EditModuleControl.ascx.resx plType.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/EditModuleControl.ascx.resx plSupportsPartialRendering.Help - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/EditModuleDefinition.ascx.resx VisualBasic.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/EditModuleDefinition.ascx.resx ImportControl.ErrorMessage - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/EditModuleDefinition.ascx.resx InvalidFilename.Text - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/JavaScriptLibraryEditor.ascx.resx CustomCDNLabel.Help - different ending chars 'N' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/LanguagePackEditor.ascx.resx Locale_Text.Help - different ending chars 'k' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/ModuleEditor.ascx.resx Controls.Text - different ending chars ' ' and 'я'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/ModuleEditor.ascx.resx ModuleControlInfo_ControlType.Help - different ending chars '.' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/ModuleEditor.ascx.resx Category.Text - different ending chars 'y' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/SkinEditor.ascx.resx ContainerHelp.Text - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/SkinEditor.ascx.resx SkinHelp.Text - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/SkinObjectEditor.ascx.resx SupportsPartialRendering.Help - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Extensions/Editors/App_LocalResources/SkinObjectEditor.ascx.resx SupportsPartialRendering.Text - different ending chars ':' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/Administration.ascx.resx BackButtonDeviceText.Text - different ending chars 's' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/Administration.ascx.resx DeviceBrowserUnavailableButton.Url - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/FiftyOneClientCapabilityProvider/App_LocalResources/Administration.ascx.resx GetStartedIntro.Html - different ending chars '>' and 'i'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plIdentity.Help - different ending chars '.' and 'я'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plSMTPServer.Help - different ending chars ')' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plSiteLogHistory.Help - different ending chars 'g' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plUsersOnline.Help - different ending chars 'e' and '"'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plUsersOnlineTime.Help - different ending chars 'r' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx FriendlyUrl.Text - different ending chars 's' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plCacheability.Text - different ending chars ':' and 'х'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx ServerAndNoCache.Text - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx ServerAndPrivate.Text - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plPageState.Help - different ending chars '*' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx TransDoctype.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx StrictDoctype.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plRememberMe.Help - different ending chars '.' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plAdminContainer.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plProduct.Help - different ending chars 'g' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plPsWarning.Text - different ending chars 's' and '*'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plContentLocalization.Help - different ending chars 'n' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plJQueryUIVersion.Text - different ending chars 'n' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx Html5Doctype.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx lblSearchIndexPath.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/HostSettings.ascx.resx plConnectionLimit.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HostSettings/App_LocalResources/RequestFilters.ascx.resx plServerVar.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HtmlEditorManager/App_LocalResources/ProviderConfiguration.ascx.resx lblPortal.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HtmlEditorManager/App_LocalResources/ProviderConfiguration.ascx.resx ToolsWidth.Help - different ending chars '!' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/HtmlEditorManager/App_LocalResources/ProviderConfiguration.ascx.resx Width.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/EditLanguage.ascx.resx localizationNotEnabled.Text - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/EnableLocalizedContent.ascx.resx siteDefaultLabel.Text - different ending chars ':' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/EnableLocalizedContent.ascx.resx Progress.Text - different ending chars 's' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/EnableLocalizedContent.ascx.resx AllPagesTranslatable.Help - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/LanguageEditor.ascx.resx cmdView.Text - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/LanguageEnabler.ascx.resx NonLocalizedPagesTitle.Text - different ending chars ' ' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/LanguageSettings.ascx.resx plBrowser.Help - different ending chars 'n' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/LanguageSettings.ascx.resx plShowLanguages.Help - different ending chars 'b' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/LanguageSettings.ascx.resx plShowSettings.Help - different ending chars 'b' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Languages/App_LocalResources/LocalizePages.ascx.resx Progress.Text - different ending chars 's' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Lists/App_LocalResources/ListEntries.ascx.resx plListName.Text - different ending chars ':' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/LogViewer/App_LocalResources/EditLogTypes.ascx.resx plEmailNotificationStatus.Help - different ending chars '?' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/LogViewer/App_LocalResources/LogViewer.ascx.resx plPortalID.Help - different ending chars '.' and 'ь'.
+Warning: Core7/en-US/DesktopModules/Admin/LogViewer/App_LocalResources/LogViewer.ascx.resx plLogType.Help - different ending chars '.' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/LogViewer/App_LocalResources/LogViewer.ascx.resx plShowRecords.Help - different ending chars '.' and 'ь'.
+Warning: Core7/en-US/DesktopModules/Admin/LogViewer/App_LocalResources/LogViewer.ascx.resx ExceptionsWarning.Text - different ending chars '.' and '\n'.
+Warning: Core7/en-US/DesktopModules/Admin/MobilePreview/App_LocalResources/Preview.ascx.resx lblOrientation.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/MobilePreview/App_LocalResources/Preview.ascx.resx lblSendAgent.Help - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/CreateModule.ascx.resx plLanguage.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/CreateModule.ascx.resx C#.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/CreateModule.ascx.resx VB.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/ViewSource.ascx.resx plLanguage.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/ViewSource.ascx.resx C#.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/ModuleCreator/App_LocalResources/ViewSource.ascx.resx VB.Text - values are the same.
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/C#/Module - Inline Script/template.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/C#/Module - User Control/template.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/C#/Settings - User Control/Settings.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/CS/ModuleInlineScript/template.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/CS/ModuleUserControl/template.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/CS/SettingsUserControl/Settings.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - Inline Script/template.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Module - User Control/template.ascx.resx - cannot load source file!
+Error: Core7/en-US/DesktopModules/Admin/ModuleCreator/Templates/VB/Settings - User Control/Settings.ascx.resx - cannot load source file!
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plSubject.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plAttachment.Help - different ending chars '.' and 'ю'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plPriority.Help - different ending chars '.' and 'я'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plReplaceTokens.Text - different ending chars 's' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plNoDuplicates.Text - different ending chars 's' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx SendTo.Text - different ending chars ')' and 'ю'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx SendBCC.Text - different ending chars ')' and 'е'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plSendMethod.Help - different ending chars '.' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx plSendAction.Help - different ending chars '.' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx MessageSent.Text - different ending chars '.' and 'о'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx ModuleHelp.Text - different ending chars '>' and '\n'.
+Warning: Core7/en-US/DesktopModules/Admin/Newsletters/App_LocalResources/Newsletter.ascx.resx Heading.Text - different ending chars ' ' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/Signup.ascx.resx PortalSetup.Text - different ending chars 'p' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/Signup.ascx.resx SecuritySettings.Text - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plPortalName.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plDescription.Help - different ending chars '.' and 'е'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plKeyWords.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plPortalContainer.Help - different ending chars '.' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plAdminSkin.Help - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plAdminContainer.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx AdvancedSettingsHelp.Text - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plSplashTabId.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plHomeTabId.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plLoginTabId.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plUserTabId.Help - different ending chars '.' and 'е'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plCurrency.Help - different ending chars '.' and 'е'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plProcessor.Help - different ending chars '.' and 'е'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plUserId.Help - different ending chars '.' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plPassword.Help - different ending chars '.' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plAdministrator.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plDefaultLanguage.Help - different ending chars '.' and 'ю'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plTimeZone.Help - different ending chars '.' and 'т'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plPortalAlias.Help - different ending chars '.' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plExpiryDate.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plHostFee.Help - different ending chars '.' and 'о'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plHostSpace.Help - different ending chars '.' and 'х'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plSiteLogHistory.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plDesktopModules.Text - different ending chars ':' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plDesktopModules.Help - different ending chars '.' and 'м'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plPageQuota.Help - different ending chars '.' and 'е'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plMsgThrottlingInterval.Help - different ending chars 't' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx Security_UserNameValidation.Help - different ending chars ')' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx MinPasswordLength.Help - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx RequiresQuestionAndAnswer.Help - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx Profile_DefaultVisibility.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx Profile_DisplayVisibility.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx Redirect_AfterLogin.Help - different ending chars 'n' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx Security_CaptchaLogin.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx Security_CaptchaRetrivePassword.Help - different ending chars 'l' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx InvalidRegularExpression.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plFileVersionEnabled.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plMaxVersions.Help - different ending chars 'p' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx vanilyUrlPrefixLabel.Help - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx SMTPNTLM.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx plConnectionLimit.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx pl404TabId.Text - different ending chars 'e' and '4'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/SiteSettings.ascx.resx pl500TabId.Text - different ending chars 'e' and '0'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.resx plContent.Text - different ending chars '?' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.resx PortalSetup.Text - different ending chars 'p' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.resx lblMultilanguage.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.resx lblPages.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Portals/App_LocalResources/template.ascx.resx lblPages.Text - different ending chars ':' and 'ы'.
+Warning: Core7/en-US/DesktopModules/Admin/RadEditorProvider/App_LocalResources/ProviderConfig.ascx.resx ToolsWidth.Help - different ending chars '!' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/RadEditorProvider/App_LocalResources/ProviderConfig.ascx.resx Width.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/RadEditorProvider/App_LocalResources/ProviderConfig.ascx.resx lblPortal.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdRestoreTab.Help - different ending chars ')' and 'ы'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdDeleteTab.Help - different ending chars ')' and 'ы'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdRestoreModule.Help - different ending chars ')' and 'у'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdDeleteModule.Help - different ending chars ')' and 'о'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdRestoreTab.Text - different ending chars ')' and 'у'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdDeleteTab.Text - different ending chars ')' and 'у'.
+Warning: Core7/en-US/DesktopModules/Admin/RecycleBin/App_LocalResources/RecycleBin.ascx.resx cmdRestoreModule.Text - different ending chars ')' and 'у'.
+Warning: Core7/en-US/DesktopModules/Admin/SQL/App_LocalResources/SQL.ascx.resx ControlTitle_.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/SQL/App_LocalResources/SQL.ascx.resx scriptLabel.Text - different ending chars 't' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/SQL/App_LocalResources/SQL.ascx.resx NoName.Text - different ending chars 'y' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/SQL/App_LocalResources/SQL.ascx.resx sInfo.Text - different ending chars 's' and '_'.
+Warning: Core7/en-US/DesktopModules/Admin/SQL/App_LocalResources/SQL.ascx.resx sNext.Text - different ending chars 't' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/SQL/App_LocalResources/SQL.ascx.resx sPrevious.Text - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Scheduler/App_LocalResources/ViewSchedule.ascx.resx TimeLapsePrefix.Text - different ending chars 'y' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Scheduler/App_LocalResources/ViewScheduleHistory.ascx.resx Start.Header - different ending chars 't' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/SearchAdmin/App_LocalResources/SearchAdmin.ascx.resx DefaultSynonymGroup.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/SearchResults/App_LocalResources/ResultsSettings.ascx.resx plResultsScopeForFilters.Help - different ending chars ')' and 'о'.
+Warning: Core7/en-US/DesktopModules/Admin/SearchResults/App_LocalResources/ResultsSettings.ascx.resx plResultsScopeForFilters.Text - different ending chars ')' and 'о'.
+Warning: Core7/en-US/DesktopModules/Admin/SearchResults/App_LocalResources/ResultsSettings.ascx.resx plResultsScopeForPortals.Help - different ending chars ')' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/SearchResults/App_LocalResources/ResultsSettings.ascx.resx plResultsScopeForPortals.Text - different ending chars ')' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/SearchResults/App_LocalResources/SearchResults.ascx.resx NoResults.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/EditProfileDefinition.ascx.resx ProfilePropertyDefinition_ValidationExpression.Help - different ending chars 'y' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/EditProfileDefinition.ascx.resx ProfilePropertyDefinition_DefaultVisibility.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/EditRoles.ascx.resx AutoAssignment.Text - different ending chars ':' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/EditRoles.ascx.resx AdvancedSettingsHelp.Text - different ending chars '.' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/EditRoles.ascx.resx plRoleGroups.Text - different ending chars ':' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/EditRoles.ascx.resx plRSVPLink.Help - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/ManageUsers.ascx.resx ModuleHelp.Text - different ending chars '\n' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/MemberServices.ascx.resx Frequency_D.Text - different ending chars ')' and 'й'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/MemberServices.ascx.resx Frequency_M.Text - different ending chars ')' and 'в'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/MemberServices.ascx.resx Frequency_W.Text - different ending chars ')' and 'ь'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/MemberServices.ascx.resx Frequency_Y.Text - different ending chars ')' and 'т'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Membership.ascx.resx IsDeleted.Help - different ending chars 'd' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_MiddleName.Help - different ending chars 'e' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_Street.Help - different ending chars ')' and 'у'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_Region.Help - different ending chars 's' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_PreferredLocale.Required - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_Facebook.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_GooglePlus.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_LinkedIn.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_Twitter.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Register.ascx.resx RegisterWarning.Text - different ending chars '>' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/SharedResources.resx Username.Help - different ending chars 'e' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/User.ascx.resx plNotify.Help - different ending chars 's' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/User.ascx.resx Password.Text - different ending chars 'd' and ':'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Column_Address.Help - different ending chars 'n' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Column_CreatedDate.Help - different ending chars 'n' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Column_LastLogin.Help - different ending chars 'n' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Records_PerPage.Help - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Display_Mode.Text - different ending chars ':' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Security_UsersControl.Text - different ending chars ':' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Display_SuppressPager.Help - different ending chars 's' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Display_SuppressPager.Text - different ending chars ':' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Profile_ManageServices.Help - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/UserSettings.ascx.resx Profile_ManageServices.Text - different ending chars ':' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Users.ascx.resx ModuleHelp.Text - different ending chars '\n' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/Security/App_LocalResources/Users.ascx.resx UserDeleted.Text - different ending chars 'y' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Introduction.Help - different ending chars '\t' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Template.Help - different ending chars '\t' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx MergeWarning.Text - different ending chars '\t' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Container.Help - different ending chars '\t' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx lblLogo.Help - different ending chars '.' and 'п'.
+Warning: Core7/en-US/DesktopModules/Admin/Sitemap/App_LocalResources/SitemapSettings.ascx.resx lblMinPagePriority.Help - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Sitemap/App_LocalResources/SitemapSettings.ascx.resx SectionProviderSettings.Help - different ending chars 'y' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Sitemap/App_LocalResources/SitemapSettings.ascx.resx SectionSubmissionSettings.Text - different ending chars 'n' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx Host.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx Site.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx plContainers.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx ParseOptions.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx Localized.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx Portable.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx cmdPreview.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx NoContainer.ErrorMessage - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx plContainers.Help - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx ContainerUpload.Action - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/Skins/App_LocalResources/EditSkins.ascx.resx CannotDeleteContainer.ErrorMessage - values are the same.
+Error: Core7/en-US/DesktopModules/Admin/Solutions/App_LocalResources/Solutions.ascx.resx - cannot load source file!
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx RefreshInterval.Help - different ending chars ')' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx plCopySkin.Help - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx CacheMaxVaryByCount.Help - different ending chars ')' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx lblCachedItemCount.Text - different ending chars 'e' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx TranslateConfirm.Text - different ending chars '?' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx UnTranslateConfirm.Text - different ending chars '?' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/ManageTabs.ascx.resx IsTranslated.Help - different ending chars ')' and 'т'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx AddPage.Text - different ending chars ')' and 'ы'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx btnBulkCreate.Text - different ending chars ')' and 'ы'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx DefaultContainer.Text - different ending chars ']' and '>'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx TabCreated.Text - different ending chars 'd' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx TabDeleted.Text - different ending chars 'd' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx TabEnabled.Text - different ending chars 'd' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx TabDisabled.Text - different ending chars 'd' and '}'.
+Warning: Core7/en-US/DesktopModules/Admin/Tabs/App_LocalResources/Tabs.ascx.resx lblMetaRefresh.Help - different ending chars ')' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/UrlManagement/App_LocalResources/FriendlyUrls.ascx.resx FriendlyUrl.Text - different ending chars 's' and ' '.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/Affiliates.ascx.resx CPA.Header - different ending chars 'A' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditAffiliate.ascx.resx CPC.ErrorMessage - different ending chars '"' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditAffiliate.ascx.resx CPA.ErrorMessage - different ending chars 'A' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditBanner.ascx.resx plCPM.Help - different ending chars '.' and 'и'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditBanner.ascx.resx CPM.ErrorMessage - different ending chars 't' and ')'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditVendors.ascx.resx plVendorName.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditVendors.ascx.resx plFirstName.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditVendors.ascx.resx plWebsite.Help - different ending chars ')' and 'а'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/EditVendors.ascx.resx plAuthorized.Text - different ending chars 'd' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/Vendors/App_LocalResources/Vendors.ascx.resx Authorized.Header - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/Admin/ViewProfile/App_LocalResources/SharedResources.resx DefaultTemplate.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/Admin/ViewProfile/App_LocalResources/ViewProfile.ascx.resx GetInTouch.Text - different ending chars 'h' and '?'.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx header.text - different ending chars '.' and '\n'.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.04.09.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.04.09.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.00.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.04.09.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.00.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.04.09.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.04.09.04 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.01.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.01.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.01.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.04.09.05 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.01.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.02.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.02.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.02.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.02.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.03.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.03.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.04.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.04.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.04.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.04.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.04.04 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.05.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.05.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.06.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.06.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.06.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.05.06.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.00.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.00.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.00.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.01.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.01.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.01.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.01.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.01.04 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.01.05 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.04 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.05 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.02 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.06 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.06.02.08 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.03 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.04 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.05 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.00.06 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.01.00 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.01.01 - not translated.
+Warning: Core7/en-US/DesktopModules/Admin/WhatsNew/App_LocalResources/WhatsNew.ascx.resx WhatsNew.07.01.02 - not translated.
+Warning: Core7/en-US/DesktopModules/AuthenticationServices/DNN/App_LocalResources/Login.ascx.resx cmdPassword.Text - different ending chars 'd' and '?'.
+Warning: Core7/en-US/DesktopModules/AuthenticationServices/DNN/App_LocalResources/Settings.ascx.resx AuthenticationConfig_Enabled.Help - different ending chars 'n' and ' '.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/SharedResources.resx Next.Text - different ending chars 't' and '.'.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/SharedResources.resx Prev.Text - different ending chars 'v' and '.'.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/SharedResources.resx ResultCount.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/SharedResources.resx SingleResultCount.Text - values are the same.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/View.ascx.resx Attachments.Text - different ending chars ')' and 'я'.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/View.ascx.resx ArchiveMessages.Text - different ending chars ')' and 'я'.
+Warning: Core7/en-US/DesktopModules/CoreMessaging/App_LocalResources/View.ascx.resx Unsubscribed.Text - different ending chars 'd' and '.'.
+Warning: Core7/en-US/DesktopModules/DNNCorp/SecurityAnalyzer/App_LocalResources/View.ascx.resx CheckDebugReason.Text - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/DNNCorp/SecurityAnalyzer/App_LocalResources/View.ascx.resx AuditExplanation.Text - different ending chars '.' and 'и'.
+Warning: Core7/en-US/DesktopModules/DNNCorp/SecurityAnalyzer/App_LocalResources/View.ascx.resx NoDatabaseResults.Text - different ending chars 'e' and '.'.
+Warning: Core7/en-US/DesktopModules/DNNCorp/SecurityAnalyzer/App_LocalResources/View.ascx.resx NoFileResults.Text - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/EditFolderMapping.ascx.resx ControlTitle.Text - different ending chars 'e' and '}'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/FolderProperties.ascx.resx DialogTitle.Text - different ending chars 'o' and '}'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/Settings.ascx.resx DefaultFolderType.Help - different ending chars 'r' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/Settings.ascx.resx FolderMustBeSelected.ErrorMessage - different ending chars 'd' and '"'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx UploadFiles.Info - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx PagerNextPage.Text - different ending chars 't' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx PagerPreviousPage.Text - different ending chars 'v' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx InvalidGroup.Error - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx InvalidUser.Error - different ending chars 'r' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx DeleteConfirmWithMappedSubfolder.Text - different ending chars 'n' and '.'.
+Warning: Core7/en-US/DesktopModules/DigitalAssets/App_LocalResources/View.ascx.resx DeleteConfirmWithMappedSubfolders.Text - different ending chars 'n' and '.'.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/EditHtml.ascx.resx ModuleHelp.Text - not translated.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/EditHtml.ascx.resx AddContent.Text - different ending chars '.' and 'е'.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/EditHtml.ascx.resx plMaxVersions.Text - different ending chars 's' and ')'.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/EditHtml.ascx.resx DeleteVersion.Confirm - different ending chars '?' and '!'.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/HtmlModule.ascx.resx ModuleHelp.Text - not translated.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/MyWork.ascx.resx ModuleHelp.Text - not translated.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/MyWork.ascx.resx lblNoRecords.Text - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/HTML/App_LocalResources/Workflow.ascx.resx ModuleHelp.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx journal_status.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx journal_link.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx journal_photo.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx journal_file.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx journal_groupcreate.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx journal_groupjoin.Text - not translated.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx articleadd.Action - different ending chars 'e' and ' '.
+Warning: Core7/en-US/DesktopModules/Journal/App_LocalResources/SharedResources.resx Notification_Mention.Body - values are the same.
+Warning: Core7/en-US/DesktopModules/MemberDirectory/App_LocalResources/Settings.ascx.resx alternateItemTemplateLabel.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/MemberDirectory/App_LocalResources/View.ascx.resx Attachments.Text - different ending chars ')' and 'я'.
+Warning: Core7/en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/CreateModule.ascx.resx ManifestText.Text - not translated.
+Warning: Core7/en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/CreateModule.ascx.resx ModuleControlText.Text - not translated.
+Warning: Core7/en-US/DesktopModules/RazorModules/RazorHost/App_LocalResources/CreateModule.ascx.resx ImportControl.ErrorMessage - different ending chars 's' and '.'.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/CreateSettings.ascx.resx GroupViewPage.Help - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx GroupName.Required - different ending chars ' ' and 'ы'.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx GroupViewTemplate.Text - not translated.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx GroupListTemplate.Text - not translated.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx GroupIdNotFound.Text - different ending chars ' ' and '.'.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx Sample_RoleDescription.Text - different ending chars '.' and ' '.
+Warning: Core7/en-US/DesktopModules/SocialGroups/App_LocalResources/SharedResources.resx SearchButton.Text - different ending chars 'h' and ':'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx Confirm.Text - different ending chars 'm' and ':'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx IntroDetail.Text - different ending chars '>' and '\n'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx IsValidSqlServerVersionCheck.Text - different ending chars 'k' and '.'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx IsValidSqlServerVersion.Text - different ending chars 'k' and ')'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx Password.Text - different ending chars 'd' and ':'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx StepFailed.Text - different ending chars '}' and 'о'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx UserName.Text - different ending chars 'e' and ':'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx WebsiteTemplate.Text - different ending chars ' ' and 'н'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx InstallingDataBaseScriptStep.Text - different ending chars ' ' and 'х'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx ProcessingUpgradeScript.Text - different ending chars ' ' and 'я'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx DatabaseError.Text - different ending chars ' ' and '.'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx StandardDatabaseMsg.Text - different ending chars 'e' and '.'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx TestingDatabase.Text - different ending chars 'n' and '.'.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx FileAndFolderPermissionCheckFailed.Text - different ending chars '>' and ' '.
+Warning: Core7/en-US/Install/App_LocalResources/Installwizard.aspx.resx Email.Help - different ending chars '.' and 'я'.
+Warning: Core7/en-US/Portals/_default/Blank Website.template.en-US.resx Tab.GettingStarted.Actions.Module.Content.0.Text - different ending chars 'o' and '"'.
+Warning: Core7/en-US/Portals/_default/Blank Website.template.en-US.resx Tab.GettingStarted.LeftPane.Module.Content.9.Text - different ending chars '.' and 'N'.
+Warning: Core7/en-US/Portals/_default/Blank Website.template.en-US.resx Tab.404ErrorPage.Content.Text - different ending chars 'e' and '4'.
+Warning: Core7/en-US/Portals/_default/Blank Website.template.en-US.resx Tab.404ErrorPage.Title.Text - different ending chars 'e' and '4'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.404ErrorPage.Content.Text - different ending chars 'e' and '4'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.404ErrorPage.Title.Text - different ending chars 'e' and '4'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.ActivityFeed.FooterRightPane.Module.Content.0.Text - different ending chars '.' and '"'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Header.Title - different ending chars ' ' and '.'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.Blog.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.Forums.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.LeaderBoard.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.OnlineHelp.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.QA.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.Shop.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.Videos.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.Webinars.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.Wikis.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Product.Content.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Product.Social.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.SocialLinks.Facebook.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.SocialLinks.LinkedIn.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.SocialLinks.Twitter.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.SocialLinks.Youtube.Link - values are the same.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.MyFriends.FooterRightPane.Module.Content.0.Text - different ending chars '.' and '"'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.MyMessages.FooterRightPane.Module.Content.0.Text - different ending chars '.' and '"'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.MyProfile.FooterRightPane.Module.Content.0.Text - different ending chars '.' and '"'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.SiteRedirection.Description.Text - different ending chars '.' and 'в'.
+Warning: Core7/en-US/Portals/_default/Default Website.template.en-US.resx Tab.Home.Main.LeaderBoard.SubLink.Text - different ending chars 'd' and '?'.
+Warning: Core7/en-US/admin/ControlPanel/App_LocalResources/AddModule.ascx.resx DefaultModule.Text - values are the same.
+Warning: Core7/en-US/admin/ControlPanel/App_LocalResources/ControlBar.ascx.resx LoadingModule.Text - different ending chars ')' and 'и'.
+Warning: Core7/en-US/admin/ControlPanel/App_LocalResources/RibbonBar.ascx.resx hypMessageUrl.Text - values are the same.
+Warning: Core7/en-US/admin/ControlPanel/App_LocalResources/RibbonBar.ascx.resx CommonTabActions.Text - different ending chars ':' and 'я'.
+Warning: Core7/en-US/admin/ControlPanel/App_LocalResources/UpdatePage.ascx.resx SkinLstSeparator.Text - values are the same.
+Warning: Core7/en-US/admin/Modules/App_LocalResources/ModuleSettings.ascx.resx plVisibility.Help - different ending chars '.' and ')'.
+Warning: Core7/en-US/admin/Modules/App_LocalResources/ModuleSettings.ascx.resx plDefault.Text - different ending chars ' ' and '?'.
+Warning: Core7/en-US/admin/Modules/App_LocalResources/ModuleSettings.ascx.resx plWebSlice.Help - different ending chars 'e' and '8'.
+Warning: Core7/en-US/admin/Security/App_LocalResources/PasswordReset.ascx.resx Confirm.Text - different ending chars 'd' and ':'.
+Warning: Core7/en-US/admin/Security/App_LocalResources/SendPassword.ascx.resx LoginFailed.Text - different ending chars 'e' and '!'.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Banner.ascx.resx - the translation file does not exists.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Copyright.ascx.resx Copyright.Text - values are the same.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Language.ascx.resx AlternateTemplate.Default - values are the same.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Language.ascx.resx CommonFooterTemplate.Default - values are the same.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Language.ascx.resx CommonHeaderTemplate.Default - values are the same.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Language.ascx.resx ItemTemplate.Default - values are the same.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/Language.ascx.resx SelectedItemTemplate.Default - values are the same.
+Warning: Core7/en-US/admin/Skins/App_LocalResources/User.ascx.resx NewMessages.Text - values are the same.
+Warning: Core7/en-US/admin/Tabs/App_LocalResources/Import.ascx.resx InsertPosition.Help - different ending chars '.' and 'ю'.
+Warning: Core7/en-US/controls/App_LocalResources/Address.ascx.resx plStreet.Help - different ending chars ')' and 'ы'.
+Warning: Core7/en-US/controls/App_LocalResources/Address.ascx.resx plUnit.Help - different ending chars '#' and 'ы'.
+Warning: Core7/en-US/controls/App_LocalResources/Address.ascx.resx plRegion.Help - different ending chars 'n' and ':'.
+Warning: Core7/en-US/controls/App_LocalResources/Address.ascx.resx plTelephone.Help - different ending chars '.' and 'а'.
+Warning: Core7/en-US/controls/App_LocalResources/URLControl.ascx.resx TabType.Text - different ending chars ')' and 'а'.
+Warning: Core7/en-US/controls/App_LocalResources/URLControl.ascx.resx FileType.Text - different ending chars ')' and 'е'.
+Warning: Core7/en-US/controls/App_LocalResources/URLControl.ascx.resx UserType.Text - different ending chars ')' and 'а'.
+Warning: Core7/en-US/controls/App_LocalResources/UrlTrackingControl.ascx.resx URL.Text - values are the same.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx plPassword.Help - different ending chars 'd' and '.'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valFirstName.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valLastName.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valUsername.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valPassword.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valConfirm2.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valEmail1.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx valEmail2.Text - different ending chars '.' and '!'.
+Warning: Core7/en-US/controls/App_LocalResources/User.ascx.resx plIM.Help - different ending chars 'D' and ')'.

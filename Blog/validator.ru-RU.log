@@ -1,0 +1,20 @@
+Warning: Blog/en-US/DesktopModules/Blog/App_LocalResources/Admin.ascx.resx ServerErrorWithDescription.Text - different ending chars ' ' and ':'.
+Warning: Blog/en-US/DesktopModules/Blog/App_LocalResources/Admin.ascx.resx lblWLWRecentPostsMax.Text - different ending chars 's' and ' '.
+Warning: Blog/en-US/DesktopModules/Blog/App_LocalResources/Admin.ascx.resx lblSummaryModel.Help - different ending chars 'e' and '.'.
+Warning: Blog/en-US/DesktopModules/Blog/App_LocalResources/Admin.ascx.resx RSS.Text - different ending chars 's' and ' '.
+Warning: Blog/en-US/DesktopModules/Blog/App_LocalResources/Admin.ascx.resx lblModifyPageDetails.Help - different ending chars 'c' and '.'.
+Warning: Blog/en-US/DesktopModules/Blog/App_LocalResources/PostEdit.ascx.resx lblImage.Help - different ending chars '.' and 'м'.
+Warning: Blog/en-US/DesktopModules/Blog/Controls/App_LocalResources/Comments.ascx.resx EmailRequired.Error - different ending chars 's' and '.'.
+Warning: Blog/en-US/DesktopModules/Blog/Controls/App_LocalResources/Comments.ascx.resx RemarksRequired.Error - different ending chars 'l' and '''.
+Warning: Blog/en-US/DesktopModules/Blog/Controls/App_LocalResources/ManagementPanel.ascx.resx cmdBlog.Text - different ending chars '!' and 'е'.
+Warning: Blog/en-US/DesktopModules/Blog/Controls/App_LocalResources/ManagementPanel.ascx.resx RSS.Text - values are the same.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.resx By.Text - different ending chars 'y' and ':'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.resx Comments.Text - different ending chars ')' and 'и'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.resx pagesize.Help - different ending chars '.' and ' '.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.resx Posts.Text - different ending chars ')' and 'й'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/_default/App_LocalResources/SharedResources.ascx.resx ReadMore.Text - different ending chars '.' and '>'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/classicBlog/App_LocalResources/SharedResources.ascx.resx by.Text - different ending chars 'y' and ':'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/classicBlog/App_LocalResources/SharedResources.ascx.resx commentssofar.Text - different ending chars '.' and 'в'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/classicBlog/App_LocalResources/SharedResources.ascx.resx posts.Text - different ending chars ')' and 'й'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/classicBlog/App_LocalResources/SharedResources.ascx.resx readmore.Text - different ending chars '»' and '>'.
+Warning: Blog/en-US/DesktopModules/Blog/Templates/commentList/App_LocalResources/SharedResources.ascx.resx pagesize.Help - different ending chars '.' and 'ы'.
