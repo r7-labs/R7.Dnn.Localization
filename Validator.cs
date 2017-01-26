@@ -55,20 +55,22 @@ internal class ResxValidator
 
 	private int ValidateResxFile (string sourceFile, string translationFile)
 	{
+		var shortSourceFile = sourceFile.Replace (PackageName + "/en-US/", string.Empty);
+			
 		if (!File.Exists (translationFile)) {
-			Console.WriteLine ("Warning: {0} - the translation file does not exists.", sourceFile);
+			Console.WriteLine ("Warning: {0} - the translation file does not exists.", shortSourceFile);
 			return 2;
 		}
 
 		var sd = LoadResxFile (sourceFile);
 		if (sd == null) {
-			Console.WriteLine ("Error: {0} - cannot load source file!", sourceFile);
+			Console.WriteLine ("Error: {0} - cannot load source file!", shortSourceFile);
 			return 1;
 		}
 
 		var td = LoadResxFile (translationFile);
 		if (td == null) {
-			Console.WriteLine ("Error: {0} - cannot load translation file!", sourceFile);
+			Console.WriteLine ("Error: {0} - cannot load translation file!", shortSourceFile);
 			return 1;
 		}
 
@@ -77,7 +79,7 @@ internal class ResxValidator
 		foreach (var key in sd.Keys) {
 		
 			if (!string.IsNullOrWhiteSpace (sd [key]) && !td.ContainsKey (key)) {
-				Console.WriteLine ("Warning: {0} {1} - not translated.", sourceFile, key);
+				Console.WriteLine ("Warning: {0} {1} - not translated.", shortSourceFile, key);
 				exitCode = 2;
 				continue;
 			}
@@ -87,13 +89,13 @@ internal class ResxValidator
 			}
 
 			if (td [key] == sd [key]) {
-				Console.WriteLine ("Warning: {0} {1} - values are the same.", sourceFile, key);
+				Console.WriteLine ("Warning: {0} {1} - values are the same.", shortSourceFile, key);
 				exitCode = 2;
 				continue;
 			}
 			
 			if (!string.IsNullOrWhiteSpace (sd [key]) && string.IsNullOrWhiteSpace (td [key])) {
-				Console.WriteLine ("Warning: {0} {1} - translation is blank.", sourceFile, key);
+				Console.WriteLine ("Warning: {0} {1} - translation is blank.", shortSourceFile, key);
 				exitCode = 2;
 				continue;
 			}
@@ -104,7 +106,7 @@ internal class ResxValidator
 				if (!(char.IsLetter (sourceLastChar) && char.IsLetter (translationLastChar))) {
 					if (sourceLastChar != translationLastChar) {
 						Console.WriteLine ("Warning: {0} {1} - different ending chars '{2}' and '{3}'.", 
-							sourceFile, key, VisibleWhiteSpace (sourceLastChar), VisibleWhiteSpace (translationLastChar));
+							shortSourceFile, key, VisibleWhiteSpace (sourceLastChar), VisibleWhiteSpace (translationLastChar));
 						exitCode = 2;
 						continue;
 					}

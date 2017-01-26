@@ -1,26 +1,26 @@
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx lblAvailableTokens.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_AltItemTemplate.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_FooterTemplate.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_HeaderTemplate.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_ItemTemplate.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_SeparatorTemplate.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Feedback.ascx.resx plCaptcha - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/FeedbackLists.ascx.resx plIsActive.Help - different ending chars '.' and 'в'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plSendTo.Help - different ending chars '.' and 'я'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plWidth.Help - different ending chars '"' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valRows.ErrorMessage - different ending chars 'r' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx ModuleHelp.Text - values are the same.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plCategory.Help - different ending chars ')' and 'в'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plSubject.Help - different ending chars ')' and 'и'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plAsync.Help - different ending chars 'y' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valSendTo.ErrorMessage - different ending chars '.' and ' '.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valSendFrom.ErrorMessage - different ending chars 't' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx InLine.Text - different ending chars ')' and 'е'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx Popup.Text - different ending chars ')' and 'е'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plScope.Help - different ending chars ' ' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valEmptyCategoryListMsg.ErrorMessage - different ending chars 's' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valEmptyCategoryMsg.ErrorMessage - different ending chars 's' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plCleanupDaysBefore.Help - different ending chars 'd' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx varMaxMessage.ErrorMessage - different ending chars 'r' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plEmailOnly.Help - different ending chars 'e' and '.'.
-Warning: Feedback/en-US/DesktopModules/Feedback/App_LocalResources/SharedResources.resx DefaultPrintTemplate.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx lblAvailableTokens.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_AltItemTemplate.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_FooterTemplate.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_HeaderTemplate.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_ItemTemplate.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/CommentSettings.ascx.resx Feedback_SeparatorTemplate.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/Feedback.ascx.resx plCaptcha - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/FeedbackLists.ascx.resx plIsActive.Help - different ending chars '.' and 'в'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plSendTo.Help - different ending chars '.' and 'я'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plWidth.Help - different ending chars '"' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valRows.ErrorMessage - different ending chars 'r' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx ModuleHelp.Text - values are the same.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plCategory.Help - different ending chars ')' and 'в'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plSubject.Help - different ending chars ')' and 'и'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plAsync.Help - different ending chars 'y' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valSendTo.ErrorMessage - different ending chars '.' and ' '.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valSendFrom.ErrorMessage - different ending chars 't' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx InLine.Text - different ending chars ')' and 'е'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx Popup.Text - different ending chars ')' and 'е'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plScope.Help - different ending chars ' ' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valEmptyCategoryListMsg.ErrorMessage - different ending chars 's' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx valEmptyCategoryMsg.ErrorMessage - different ending chars 's' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plCleanupDaysBefore.Help - different ending chars 'd' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx varMaxMessage.ErrorMessage - different ending chars 'r' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/Settings.ascx.resx plEmailOnly.Help - different ending chars 'e' and '.'.
+Warning: DesktopModules/Feedback/App_LocalResources/SharedResources.resx DefaultPrintTemplate.Text - values are the same.
