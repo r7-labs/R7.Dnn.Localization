@@ -12,4 +12,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Delete selected attachment</value>
+  </data>
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>You can't delete this item, as you have already placed it inline the post body.&lt;br /&gt;Please remove the '[attachment]{0}[/attachment]' part of the post body and try again.</value>
+  </data>
+  <data name="Inline.Text" xml:space="preserve">
+    <value>Place Inline</value>
+  </data>
+  <data name="plAttachments.Help" xml:space="preserve">
+    <value>Any uploads completed for this session or previously terminated sessions, are listed below. You can delete an uploaded file, by selecting it from the list and click the delete button.</value>
+  </data>
+  <data name="plAttachments.Text" xml:space="preserve">
+    <value>Uploaded Attachments</value>
+  </data>
+  <data name="plInline.Help" xml:space="preserve">
+    <value>Any uploaded image file, can be placed inline the post body, exactly where you want it. Place the cursor where you want the uploaded image to appear and click the 'Place Inline' link. &lt;b&gt;NOTE:&lt;/b&gt;All inline placed images will be automatically reduced in size to the forum maximum allowed dimentions.</value>
+  </data>
+  <data name="plInline.Text" xml:space="preserve">
+    <value>Inline</value>
+  </data>
+  <data name="plUpload.Text" xml:space="preserve">
+    <value>Upload New Attachment</value>
+  </data>
+  <data name="Upload.Text" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="MaxFileSize.Text" xml:space="preserve">
+    <value>The uploaded item must be smaller than </value>
+  </data>
+  <data name="plUpload.Help" xml:space="preserve">
+    <value>Select the file you want to upload to the website. </value>
+  </data>
 </root>

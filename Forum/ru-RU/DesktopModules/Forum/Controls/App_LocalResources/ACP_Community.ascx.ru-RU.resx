@@ -12,4 +12,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plUserOnline.Text" xml:space="preserve">
+    <value>Users Online</value>
+  </data>
+  <data name="plUserOnline.Help" xml:space="preserve">
+    <value>If checked, displays user online status, overridable by user settings.</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>Needs to be numeric!</value>
+  </data>
+  <data name="PostEditWindow.ErrorMessage" xml:space="preserve">
+    <value>Value must be between 0 and 60</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Community Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plEnableExtProfilePage.Help" xml:space="preserve">
+    <value>If checked, users will be navigated to an outside module to view a user's community profile. If this is not checked, profiles will use the core profile page per user. </value>
+  </data>
+  <data name="plEnableExtProfilePage.Text" xml:space="preserve">
+    <value>Enable External Profile</value>
+  </data>
+  <data name="plExtProfilePageID.Help" xml:space="preserve">
+    <value>The page which houses the profile module.</value>
+  </data>
+  <data name="plExtProfilePageID.Text" xml:space="preserve">
+    <value>Profile Page</value>
+  </data>
+  <data name="plExtProfileUserParam.Help" xml:space="preserve">
+    <value>The URL parameter that is assoicated with the UserID necessary for user profiles.</value>
+  </data>
+  <data name="plExtProfileUserParam.Text" xml:space="preserve">
+    <value>Profile User Parameter</value>
+  </data>
+  <data name="plExtProfileParamName.Help" xml:space="preserve">
+    <value>The URL parameter name that will be passed in combination with the value for external profile pages.</value>
+  </data>
+  <data name="plExtProfileParamName.Text" xml:space="preserve">
+    <value>Profile Parameter Name</value>
+  </data>
+  <data name="plExtProfileParamValue.Help" xml:space="preserve">
+    <value>The URL parameter value that will be passed in combination with the name for external profile pages.</value>
+  </data>
+  <data name="plExtProfileParamValue.Text" xml:space="preserve">
+    <value>Profile Parameter Value</value>
+  </data>
 </root>

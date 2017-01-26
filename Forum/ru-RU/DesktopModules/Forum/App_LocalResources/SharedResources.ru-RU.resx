@@ -417,6 +417,9 @@
   <data name="Page.Text" xml:space="preserve">
     <value>Page</value>
   </data>
+  <data name="to.Text" xml:space="preserve">
+    <value>to</value>
+  </data>
   <data name="DeleteThread.Text" xml:space="preserve">
     <value>Удалить тему</value>
   </data>

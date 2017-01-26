@@ -189,6 +189,9 @@
   <data name="HasContributed.Text" xml:space="preserve">
     <value>участвовал</value>
   </data>
+  <data name="by.Text" xml:space="preserve">
+    <value>by</value>
+  </data>
   <data name="in.Text" xml:space="preserve">
     <value>в</value>
   </data>

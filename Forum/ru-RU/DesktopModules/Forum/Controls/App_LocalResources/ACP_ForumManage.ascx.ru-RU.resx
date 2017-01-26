@@ -12,4 +12,70 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ControlTitle_forummanage.Text" xml:space="preserve">
+    <value>Manage Forums &amp; Groups</value>
+  </data>
+  <data name="imgGroupEdit.Text" xml:space="preserve">
+    <value>Edit Group</value>
+  </data>
+  <data name="AddGroup.Text" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="lblNewGroup.Text" xml:space="preserve">
+    <value>New Group:</value>
+  </data>
+  <data name="lblvalAddGroup.Text" xml:space="preserve">
+    <value>Name Required</value>
+  </data>
+  <data name="imgDisabled.Text" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="imgEnabled.Text" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="imgGroupSave.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Forum &amp; Group Management</value>
+  </data>
+  <data name="imgCloseGroup.Text" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="imgExpand.Text" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="imgForumAdd.Text" xml:space="preserve">
+    <value>Add Forum</value>
+  </data>
+  <data name="imgForumDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="imgForumDown.Text" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="imgForumEdit.Text" xml:space="preserve">
+    <value>Edit Forum</value>
+  </data>
+  <data name="imgForumUp.Text" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="imgGroupCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imgGroupDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="imgGroupDown.Text" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="imgGroupUp.Text" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="cmdHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>No Records</value>
+  </data>
 </root>

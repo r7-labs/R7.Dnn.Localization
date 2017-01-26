@@ -12,4 +12,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plPopularPostsView.Text" xml:space="preserve">
+    <value>View Count</value>
+  </data>
+  <data name="plPopularPostsView.Help" xml:space="preserve">
+    <value>The number of post views before a thread becomes popular.</value>
+  </data>
+  <data name="plPopularPostsReply.Text" xml:space="preserve">
+    <value>Reply Count</value>
+  </data>
+  <data name="plPopularPostsReply.Help" xml:space="preserve">
+    <value>The number of post replies before a thread becomes popular.</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Popular Status Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plDays.Help" xml:space="preserve">
+    <value>This is the number of days the thread's last post must have been posted wtihin. If set to 14, threads without activity for two weeks will no longer be popular.</value>
+  </data>
+  <data name="plDays.Text" xml:space="preserve">
+    <value>Active Within (Days)</value>
+  </data>
 </root>

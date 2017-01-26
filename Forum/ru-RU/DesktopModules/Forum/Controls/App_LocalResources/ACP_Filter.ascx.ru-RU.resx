@@ -12,4 +12,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Filter Management</value>
+  </data>
+  <data name="plBadWord.Text" xml:space="preserve">
+    <value>Enable Word Filter</value>
+  </data>
+  <data name="plBadWord.Help" xml:space="preserve">
+    <value>If checked, enables the post body to be filtered for words defined in word filter.</value>
+  </data>
+  <data name="plFilterSubject.Text" xml:space="preserve">
+    <value>Filter Subjects</value>
+  </data>
+  <data name="plFilterSubject.Help" xml:space="preserve">
+    <value>If checked, filters words in post subjects.</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
 </root>

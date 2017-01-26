@@ -12,4 +12,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblby.Text" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="lblIn.Text" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="lblNoResults.Text" xml:space="preserve">
+    <value>No Reported Posts!</value>
+  </data>
+  <data name="Post.Header" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="PostReported.Header" xml:space="preserve">
+    <value>Reported</value>
+  </data>
+  <data name="ReportedDate.Header" xml:space="preserve">
+    <value>Last Reported</value>
+  </data>
+  <data name="ReportedPost.Header" xml:space="preserve">
+    <value>Reported Posts</value>
+  </data>
+  <data name="imgView.Text" xml:space="preserve">
+    <value>View Post</value>
+  </data>
+  <data name="Accepted.Text" xml:space="preserve">
+    <value>This report has been addressed.</value>
+  </data>
+  <data name="Alias.Header" xml:space="preserve">
+    <value>Reporter</value>
+  </data>
+  <data name="Reason.Header" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Reported.Header" xml:space="preserve">
+    <value>Reported</value>
+  </data>
+  <data name="Unaccepted.Text" xml:space="preserve">
+    <value>Click to "Address" Report</value>
+  </data>
 </root>

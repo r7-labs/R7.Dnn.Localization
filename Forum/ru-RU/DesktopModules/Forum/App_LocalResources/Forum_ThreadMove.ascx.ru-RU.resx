@@ -15,6 +15,12 @@
   <data name="ManageCategory.Text" xml:space="preserve">
     <value>Управление категориями</value>
   </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>Subject of the thread you are moving.&lt;br&gt;(Read Only)</value>
+  </data>
   <data name="plOldForum.Text" xml:space="preserve">
     <value>Исходный форум</value>
   </data>

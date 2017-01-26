@@ -12,4 +12,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Email Queue Activity Report</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Needs to be numeric!</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>No Records</value>
+  </data>
+  <data name="QueueAddedDate.Header" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="QueueCompletedDate.Header" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="QueueStartedDate.Header" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="IsComplete.Header" xml:space="preserve">
+    <value>Attempted</value>
+  </data>
+  <data name="Failed.Header" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="View.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="EmailSubject.Header" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="EmailAddress.Header" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="DateAdded.Header" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="DateComplete.Header" xml:space="preserve">
+    <value>Completed</value>
+  </data>
 </root>

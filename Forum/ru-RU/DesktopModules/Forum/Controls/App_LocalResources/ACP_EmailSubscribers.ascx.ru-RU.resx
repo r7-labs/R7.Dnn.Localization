@@ -12,4 +12,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Email Subscribers Report</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>No Records</value>
+  </data>
+  <data name="CreatedDate.Header" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Email.Header" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="Username.Header" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="DisplayName.Header" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="lblForumDescription.Text" xml:space="preserve">
+    <value>Forum Subscribers For:</value>
+  </data>
+  <data name="lblThreadDescription.Text" xml:space="preserve">
+    <value>Thread Subscribers:</value>
+  </data>
+  <data name="lnkShowAll.Text" xml:space="preserve">
+    <value>Show All</value>
+  </data>
 </root>

@@ -12,4 +12,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ForumHome.Text" xml:space="preserve">
+    <value>Forum Home</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Email Template Management</value>
+  </data>
+  <data name="lblEmailTemplates.Text" xml:space="preserve">
+    <value>Email Template Administration</value>
+  </data>
+  <data name="plEmailTextBody.Text" xml:space="preserve">
+    <value>Text Email Body</value>
+  </data>
+  <data name="plEmailTextBody.Help" xml:space="preserve">
+    <value>Body used for Text emails using this template. </value>
+  </data>
+  <data name="plEmailHTMLBody.Text" xml:space="preserve">
+    <value>HTML Email Body</value>
+  </data>
+  <data name="plEmailHTMLBody.Help" xml:space="preserve">
+    <value>Body used for HTML emails using this template. </value>
+  </data>
+  <data name="plEmailSubject.Text" xml:space="preserve">
+    <value>Email Subject</value>
+  </data>
+  <data name="plEmailSubject.Help" xml:space="preserve">
+    <value>Email subject for this template.</value>
+  </data>
+  <data name="plEmailTemplate.Text" xml:space="preserve">
+    <value>Email Template</value>
+  </data>
+  <data name="plEmailTemplate.Help" xml:space="preserve">
+    <value>Email template you wish to edit.</value>
+  </data>
+  <data name="plDefaults.Text" xml:space="preserve">
+    <value>Template Level</value>
+  </data>
+  <data name="plDefaults.Help" xml:space="preserve">
+    <value>The type of templates to edit. Options are host or module levels.</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="ControlTitle_emailtemplates.Text" xml:space="preserve">
+    <value>Email Template Management</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="plAvailableKeywords.Help" xml:space="preserve">
+    <value>Show the available tags to use, that will be replaced with actual data on realtime generation of the email.</value>
+  </data>
+  <data name="plAvailableKeywords.Text" xml:space="preserve">
+    <value>Available Keywords</value>
+  </data>
+  <data name="cmdHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
 </root>

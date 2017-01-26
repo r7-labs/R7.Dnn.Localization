@@ -12,4 +12,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plAttachment.Text" xml:space="preserve">
+    <value>Enable File Attachment</value>
+  </data>
+  <data name="plAttachment.Help" xml:space="preserve">
+    <value>If checked, enables users to attach files to forum posts.</value>
+  </data>
+  <data name="plAttachmentFolder.Text" xml:space="preserve">
+    <value>File Attachment Folder</value>
+  </data>
+  <data name="plAttachmentFolder.Help" xml:space="preserve">
+    <value>The folder to store post attachment files.</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>Needs to be numeric!</value>
+  </data>
+  <data name="plAnonDownloads.Text" xml:space="preserve">
+    <value>Anonymous Downloads</value>
+  </data>
+  <data name="plAnonDownloads.Help" xml:space="preserve">
+    <value>If checked, downloads are available to all users who can view post.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;File permissions also control access to files.</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Attachment Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plAttachmentPath.Help" xml:space="preserve">
+    <value>The attachments path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/</value>
+  </data>
+  <data name="plAttachmentPath.Text" xml:space="preserve">
+    <value>Attachments Path</value>
+  </data>
+  <data name="plMaxAttachmentSize.Help" xml:space="preserve">
+    <value>The maximum file size allowed for file uploads of attachments, in KB, and restricts per attachment uploaded. Additionally, the size set here should be no larger than what is permitted in the web.config.</value>
+  </data>
+  <data name="plMaxAttachmentSize.Text" xml:space="preserve">
+    <value>Max Attachment Size</value>
+  </data>
 </root>

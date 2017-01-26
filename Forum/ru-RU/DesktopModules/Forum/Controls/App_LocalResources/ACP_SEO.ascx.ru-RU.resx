@@ -12,4 +12,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>SEO Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>Value must be between 0 and 1.0. </value>
+  </data>
+  <data name="plNoFollowWeb.Help" xml:space="preserve">
+    <value>If checked, indicates that the destination of user website hyperlinks SHOULD NOT be afforded any additional weight or ranking by user agents which perform link analysis upon web pages (e.g. search engines).&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;This applies to user profile page website links as well as user website links in posts.</value>
+  </data>
+  <data name="plNoFollowWeb.Text" xml:space="preserve">
+    <value>User's Website No Follow</value>
+  </data>
+  <data name="plOverrideTitle.Help" xml:space="preserve">
+    <value>If checked, the page title set by DotNetNuke will be overriden with the forum name or thread name depending on view (up to 64 chars).</value>
+  </data>
+  <data name="plOverrideTitle.Text" xml:space="preserve">
+    <value>Override Page Title</value>
+  </data>
+  <data name="plNoFollowLatestThreads.Help" xml:space="preserve">
+    <value>If checked, indicates that the destination hyperlinks in the initial group view SHOULD NOT be afforded any additional weight or ranking by user agents which perform link analysis upon web pages (e.g. search engines).&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;This applies to the links in initial group view (6,12,24,48, view latest threads) typically seen when first viewing a page with the forum module placed on it.</value>
+  </data>
+  <data name="plNoFollowLatestThreads.Text" xml:space="preserve">
+    <value>Latest Threads No Follow</value>
+  </data>
+  <data name="plOverrideDescription.Help" xml:space="preserve">
+    <value>If checked, the page meta description set by DotNetNuke will be overriden with the initial post content at the thread level (when view posts). If in forum view (ie. lists of threads) the description of the forum will be set here (up to 150 chars). </value>
+  </data>
+  <data name="plOverrideDescription.Text" xml:space="preserve">
+    <value>Override Page Description</value>
+  </data>
+  <data name="plSitemapPriority.Help" xml:space="preserve">
+    <value>This will set the priority level in the sitemap provider (values of 1.0 to .1 work here). </value>
+  </data>
+  <data name="plSitemapPriority.Text" xml:space="preserve">
+    <value>Sitemap Priority</value>
+  </data>
+  <data name="plOverrideKeyWords.Help" xml:space="preserve">
+    <value>If checked, the page keywords set by DotNetNuke will be overriden with the forum name and any applied tags (up to 15 total words).</value>
+  </data>
+  <data name="plOverrideKeyWords.Text" xml:space="preserve">
+    <value>Override Keywords</value>
+  </data>
 </root>

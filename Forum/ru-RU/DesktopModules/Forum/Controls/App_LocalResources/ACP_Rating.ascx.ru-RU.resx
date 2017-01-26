@@ -12,4 +12,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Rating Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Needs to be numeric!</value>
+  </data>
+  <data name="plRatings.Help" xml:space="preserve">
+    <value>If checked, users will be permitted to rate a thread's content if enabled at the forum level as well. </value>
+  </data>
+  <data name="plRatings.Text" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="plRatingScale.Help" xml:space="preserve">
+    <value>A whole number that represents the highest rating for a thread.</value>
+  </data>
+  <data name="plRatingScale.Text" xml:space="preserve">
+    <value>Rating Scale</value>
+  </data>
 </root>

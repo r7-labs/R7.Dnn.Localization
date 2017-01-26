@@ -12,4 +12,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Email Queue Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plEmailDeleteDays.Help" xml:space="preserve">
+    <value>The number of days you wish to retain the history in the queue emails table. &lt;br/&gt;&lt;b&gt;NOTE:&lt;/b&gt;&lt;br/&gt;This can only be enabled if the host has enabled the Forum's scheduled CleanupEmailQueuedTasks task in the core scheduler.</value>
+  </data>
+  <data name="plEmailDeleteDays.Text" xml:space="preserve">
+    <value>Email History (days)</value>
+  </data>
+  <data name="plTaskDeleteDays.Help" xml:space="preserve">
+    <value>The number of days you wish to retain the history in the queue tasks table.&lt;br/&gt;&lt;b&gt;NOTE:&lt;/b&gt;&lt;br/&gt;This can only be enabled if the host has enabled the Forum's scheduled CleanupEmailQueuedTasks task in the core scheduler.</value>
+  </data>
+  <data name="plTaskDeleteDays.Text" xml:space="preserve">
+    <value>Task History (days)</value>
+  </data>
+  <data name="plScheduleItemID.Text" xml:space="preserve">
+    <value>Schedule Item ID</value>
+  </data>
 </root>

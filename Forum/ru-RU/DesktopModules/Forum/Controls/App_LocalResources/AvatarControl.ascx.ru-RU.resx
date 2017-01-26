@@ -12,4 +12,94 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Type.Text" xml:space="preserve">
+    <value>Link Type:</value>
+  </data>
+  <data name="URLType.Text" xml:space="preserve">
+    <value>URL ( A Link To An External Resource )</value>
+  </data>
+  <data name="TabType.Text" xml:space="preserve">
+    <value>Page ( A Page On Your Site )</value>
+  </data>
+  <data name="FileType.Text" xml:space="preserve">
+    <value>File ( A File On Your Site )</value>
+  </data>
+  <data name="UserType.Text" xml:space="preserve">
+    <value>User ( A Member Of Your Site )</value>
+  </data>
+  <data name="NoneType.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="URL.Text" xml:space="preserve">
+    <value>Location: ( Enter The Address Of The Link )&lt;BR&gt;</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>Select An Existing URL</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Delete Selected URL From The List&lt;BR&gt;</value>
+  </data>
+  <data name="Tab.Text" xml:space="preserve">
+    <value>Select A Web Page From Your Site:&lt;BR&gt;</value>
+  </data>
+  <data name="Folder.Text" xml:space="preserve">
+    <value>File Location:&lt;BR&gt;</value>
+  </data>
+  <data name="File.Text" xml:space="preserve">
+    <value>File Name:&lt;BR&gt;</value>
+  </data>
+  <data name="Upload.Text" xml:space="preserve">
+    <value>Upload New File</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Upload Selected File&lt;BR&gt;</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Select An Existing File</value>
+  </data>
+  <data name="Track.Text" xml:space="preserve">
+    <value>Track Number Of Times This Link Is Clicked?&lt;BR&gt;</value>
+  </data>
+  <data name="Log.Text" xml:space="preserve">
+    <value>Log The User, Date, And Time For Every Link Click?&lt;BR&gt;</value>
+  </data>
+  <data name="NewWindow.Text" xml:space="preserve">
+    <value>Open Link In New Browser Window?&lt;BR&gt;</value>
+  </data>
+  <data name="UploadError.Text" xml:space="preserve">
+    <value>File type {1} is not valid in this context. Valid File Types Include: {0}</value>
+  </data>
+  <data name="NoPermission.Text" xml:space="preserve">
+    <value>You don't have permission to see the files on the site</value>
+  </data>
+  <data name="Root.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Enter The Username Of A Member Of Your Site:&lt;BR&gt;</value>
+  </data>
+  <data name="MaxUploadSizeError.Text" xml:space="preserve">
+    <value>File size {0}KB is not valid. Max allowed file size is {1}KB.</value>
+  </data>
+  <data name="AvatarPoolHeader.Text" xml:space="preserve">
+    <value>Select Avatar from pool</value>
+  </data>
+  <data name="cmdBrowsePool.Text" xml:space="preserve">
+    <value>Browse Avatar Pool</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imgDelete.Text" xml:space="preserve">
+    <value>Delete Avatar</value>
+  </data>
+  <data name="SelectAvatar.Text" xml:space="preserve">
+    <value>Click to select this Avatar</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
 </root>

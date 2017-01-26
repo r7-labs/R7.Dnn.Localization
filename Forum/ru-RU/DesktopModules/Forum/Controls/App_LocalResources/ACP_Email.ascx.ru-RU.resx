@@ -12,4 +12,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="plAutomatedAddress.Text" xml:space="preserve">
+    <value>From Address</value>
+  </data>
+  <data name="plNofify.Text" xml:space="preserve">
+    <value>Enable Notifications</value>
+  </data>
+  <data name="plNofify.Help" xml:space="preserve">
+    <value>If checked, the forum supports email notifications.</value>
+  </data>
+  <data name="plAutomatedAddress.Help" xml:space="preserve">
+    <value>The from email address used on all outgoing forum emails.</value>
+  </data>
+  <data name="plEmailAddressDisplayName.Help" xml:space="preserve">
+    <value>The friendly display name used on outgoing emails sent from this module.</value>
+  </data>
+  <data name="plEmailAddressDisplayName.Text" xml:space="preserve">
+    <value>Email Display Name</value>
+  </data>
+  <data name="plEmailQueueTask.Help" xml:space="preserve">
+    <value>If checked, email notifications will be sent using a background scheduled task.&lt;br/&gt;&lt;b&gt;NOTE:&lt;/b&gt;&lt;br/&gt;This can only be enabled if the host has enabled the Forum's scheduled StartEmailQueuedTasks task in the core scheduler. </value>
+  </data>
+  <data name="plEmailQueueTask.Text" xml:space="preserve">
+    <value>Enable Email Queue</value>
+  </data>
+  <data name="plEnableEditEmails.Help" xml:space="preserve">
+    <value>If checked, users will receive email notifications when posts are edited.</value>
+  </data>
+  <data name="plEnableEditEmails.Text" xml:space="preserve">
+    <value>Enable Edit Emails</value>
+  </data>
+  <data name="valEmailAddy.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Must be a valid Email!</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Email Settings Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plEnableListServer.Help" xml:space="preserve">
+    <value>If checked, users will be able to post to the forums via email. This requires enabling of from address per forum as well as installation of a third party scheduled task. </value>
+  </data>
+  <data name="plEnableListServer.Text" xml:space="preserve">
+    <value>Enable List Server</value>
+  </data>
+  <data name="plEnablePerForumFrom.Help" xml:space="preserve">
+    <value>If checked, module administrators will be able to associate a from email address (and from name) per individual forum.</value>
+  </data>
+  <data name="plEnablePerForumFrom.Text" xml:space="preserve">
+    <value>Enable From Address Per Forum</value>
+  </data>
+  <data name="plListServerFolder.Help" xml:space="preserve">
+    <value>The folder emails will be downloaded to for forum post parsing. (Same requirements as List Server)</value>
+  </data>
+  <data name="plListServerFolder.Text" xml:space="preserve">
+    <value>List Server Folder</value>
+  </data>
 </root>

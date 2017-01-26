@@ -12,4 +12,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Advertisement Management</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>&lt;br /&gt;Needs to be numeric!</value>
+  </data>
+  <data name="plAdsAfterFirstPost.Help" xml:space="preserve">
+    <value>Add Advertisement after first post</value>
+  </data>
+  <data name="plAdsAfterFirstPost.Text" xml:space="preserve">
+    <value>Add Advertisement after first post</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plAddAdverAfterPostNo.Help" xml:space="preserve">
+    <value>Advertisement will be injected after specified number of posts. A value of zero means no advertisements</value>
+  </data>
+  <data name="plAddAdverAfterPostNo.Text" xml:space="preserve">
+    <value>Specify post number</value>
+  </data>
+  <data name="plAdvertisementText.Help" xml:space="preserve">
+    <value>Specified text can contain html tags</value>
+  </data>
+  <data name="plAdvertisementText.Text" xml:space="preserve">
+    <value>Text of Advertisement</value>
+  </data>
+  <data name="lblUpdateDone.Text1" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="lblHelp.Text" xml:space="preserve">
+    <value>Use css class &lt;i&gt;AdvertisementPost&lt;/i&gt; in &lt;i&gt;Themes/Blue/Blue.css&lt;/i&gt; to precisly set Advertisement layout</value>
+  </data>
+  <data name="plVendorsList.Help" xml:space="preserve">
+    <value>Select vendors to add their banners in advertisement content</value>
+  </data>
+  <data name="plVendorsList.Text" xml:space="preserve">
+    <value>Vendors list</value>
+  </data>
+  <data name="lblNoAdvertisements.Text" xml:space="preserve">
+    <value>No advertisements</value>
+  </data>
+  <data name="BannerUrl.Header" xml:space="preserve">
+    <value>Banners</value>
+  </data>
+  <data name="Logo.Header" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="VendorName.Header" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
 </root>

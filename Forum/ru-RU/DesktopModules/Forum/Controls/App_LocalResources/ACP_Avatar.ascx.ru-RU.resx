@@ -12,4 +12,109 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cmdGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="plEnableSystemAvatar.Help" xml:space="preserve">
+    <value>site or Forum administrators will be permitted to assign avatar images to specific users of their choice. This is done per user, not by role. </value>
+  </data>
+  <data name="plEnableSystemAvatar.Text" xml:space="preserve">
+    <value>Enable System Avatars</value>
+  </data>
+  <data name="plEnableUserAvatar.Help" xml:space="preserve">
+    <value>If checked, users will be allowed to upload one image for their profile that will be displayed in posts view and also in their profile. </value>
+  </data>
+  <data name="plEnableUserAvatar.Text" xml:space="preserve">
+    <value>Enable User Avatars</value>
+  </data>
+  <data name="plEnableUserAvatarPool.Help" xml:space="preserve">
+    <value>If checked, you can upload a folder of images for users to choose from to represent their profile avatar.</value>
+  </data>
+  <data name="plEnableUserAvatarPool.Text" xml:space="preserve">
+    <value>Enable Avatar Pool</value>
+  </data>
+  <data name="plEnableRoleAvatar.Help" xml:space="preserve">
+    <value>If checked, you can assign avatars based on roles. The avatars will be placed in the Role Avatar Path folder and will not have size limitations because only forum administrators can upload them.</value>
+  </data>
+  <data name="plEnableRoleAvatar.Text" xml:space="preserve">
+    <value>Enable Role Avatar</value>
+  </data>
+  <data name="plRoleAvatarPath.Help" xml:space="preserve">
+    <value>The role avatar path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/</value>
+  </data>
+  <data name="plRoleAvatarPath.Text" xml:space="preserve">
+    <value>Role Avatar Path</value>
+  </data>
+  <data name="plSystemAvatarPath.Help" xml:space="preserve">
+    <value>The system avatar path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/</value>
+  </data>
+  <data name="plSystemAvatarPath.Text" xml:space="preserve">
+    <value>System Avatar Path</value>
+  </data>
+  <data name="plUserAvatarDimensions.Help" xml:space="preserve">
+    <value>The W x H the generated thumbnails will be for the user avatars.</value>
+  </data>
+  <data name="plUserAvatarDimensions.Text" xml:space="preserve">
+    <value>User Avatar Dimensions</value>
+  </data>
+  <data name="plUserAvatarPath.Help" xml:space="preserve">
+    <value>The user avatar path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/&lt;br /&gt;&lt;b&gt;Note: &lt;/b&gt;Remember to apply the nessary write permissions to the folder.</value>
+  </data>
+  <data name="plUserAvatarPath.Text" xml:space="preserve">
+    <value>User Avatar Path</value>
+  </data>
+  <data name="plUserAvatarSizeLimit.Help" xml:space="preserve">
+    <value>The file size limit (in KB) that the uploaded user avatar images are limited to. </value>
+  </data>
+  <data name="plUserAvatarSizeLimit.Text" xml:space="preserve">
+    <value>User Image Size Limit</value>
+  </data>
+  <data name="validSystemDimHeight.Text" xml:space="preserve">
+    <value>Invalid value for system avatar height.</value>
+  </data>
+  <data name="validSystemDimWidth.Text" xml:space="preserve">
+    <value>Invalid value for system avatar width.</value>
+  </data>
+  <data name="validUserDimHeight.Text" xml:space="preserve">
+    <value>Invalid value for user avatar height.</value>
+  </data>
+  <data name="validUserDimWidth.Text" xml:space="preserve">
+    <value>Invalid value for user avatar width.</value>
+  </data>
+  <data name="validUserSize.Text" xml:space="preserve">
+    <value>Invalid value for user avatar size limit.</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Avatar Management</value>
+  </data>
+  <data name="lblUpdateDone.Text" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="plUserAvatarPoolPath.Help" xml:space="preserve">
+    <value>The pool avatar path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/</value>
+  </data>
+  <data name="plUserAvatarPoolPath.Text" xml:space="preserve">
+    <value>Pool Avatar Path</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="plEnableProfileAvatar.Help" xml:space="preserve">
+    <value>If checked, the system looks for avatars uploaded to the user's core profile.</value>
+  </data>
+  <data name="plEnableProfileAvatar.Text" xml:space="preserve">
+    <value>Enable Profile Avatar</value>
+  </data>
+  <data name="plProfileAvatarPropertyName.Help" xml:space="preserve">
+    <value>Select the profile property associated with user avatar's in the core profile. Please note, this should be an ImageControl data type property. </value>
+  </data>
+  <data name="plProfileAvatarPropertyName.Text" xml:space="preserve">
+    <value>Profile Property</value>
+  </data>
+  <data name="plEnableProfileUserFolders.Help" xml:space="preserve">
+    <value>If checked, the system will utilize the core profile image control. This means the path to the image will utilize user folders.</value>
+  </data>
+  <data name="plEnableProfileUserFolders.Text" xml:space="preserve">
+    <value>Enable User Folders</value>
+  </data>
 </root>

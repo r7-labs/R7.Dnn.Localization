@@ -12,4 +12,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblNoResults.Text" xml:space="preserve">
+    <value>No Reported Users!</value>
+  </data>
+  <data name="lblTitle.Header" xml:space="preserve">
+    <value>Reported Users</value>
+  </data>
+  <data name="ReportedPostCount.Header" xml:space="preserve">
+    <value>Reported</value>
+  </data>
+  <data name="UnaddressedPostCount.Header" xml:space="preserve">
+    <value>Unresolved</value>
+  </data>
+  <data name="User.Header" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="imgEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
 </root>

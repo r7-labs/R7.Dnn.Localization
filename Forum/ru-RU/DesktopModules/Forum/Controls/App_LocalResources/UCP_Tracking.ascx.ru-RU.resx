@@ -12,6 +12,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="by.Text" xml:space="preserve">
+    <value>by</value>
+  </data>
   <data name="NoForums.Text" xml:space="preserve">
     <value>В настоящее время Вы не отслеживаете форумы.</value>
   </data>

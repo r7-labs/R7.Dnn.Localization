@@ -12,4 +12,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblTitle.Header" xml:space="preserve">
+    <value>Banned Users</value>
+  </data>
+  <data name="lblNoResults.Text" xml:space="preserve">
+    <value>No Banned Users!</value>
+  </data>
+  <data name="imgEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LiftBanDate.Header" xml:space="preserve">
+    <value>Ends</value>
+  </data>
+  <data name="StartBanDate.Header" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="User.Header" xml:space="preserve">
+    <value>User</value>
+  </data>
 </root>
