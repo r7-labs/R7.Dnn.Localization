@@ -28,4 +28,5 @@ popd > /dev/null
 # empty entries patch
 if [ $PULL_ERROR -eq 0 ]; then
     ./RemoveEmptyEntries.cs $PACKAGE_NAME $CULTURE_CODE
+    ./Validator.cs $PACKAGE_NAME $CULTURE_CODE > $PACKAGE_NAME/validator.${CULTURE_CODE/_/-}.log
 fi
