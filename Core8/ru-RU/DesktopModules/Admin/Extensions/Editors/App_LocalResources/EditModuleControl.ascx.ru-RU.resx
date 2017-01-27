@@ -46,7 +46,7 @@
     <value>Тип:</value>
   </data>
   <data name="plType.Help" xml:space="preserve">
-    <value>Выберите тип элемента управления модуля из списка</value>
+    <value>Выберите тип элемента управления модуля из списка.</value>
   </data>
   <data name="Skin.Text" xml:space="preserve">
     <value>Объект темы</value>
@@ -107,10 +107,10 @@
     <value>Уже существует элемент управления модуля с таким же значением ключа в этом определении модуля.</value>
   </data>
   <data name="plSupportsPartialRendering.Text" xml:space="preserve">
-    <value>Поддерживает частичную отрисовку?</value>
+    <value>Поддерживает частичную отрисовку:</value>
   </data>
   <data name="plSupportsPartialRendering.Help" xml:space="preserve">
-    <value>Этот флаг указывает, поддерживает ли модуль частичную отрисовку с использованием AJAX. </value>
+    <value>Этот флаг указывает, поддерживает ли модуль частичную отрисовку с использованием AJAX.</value>
   </data>
   <data name="supportsModalPopUpsLabel.Help" xml:space="preserve">
     <value>Этот флаг показывает, поддерживает ли элемент управления модуля модальные всплывающие окна.</value>

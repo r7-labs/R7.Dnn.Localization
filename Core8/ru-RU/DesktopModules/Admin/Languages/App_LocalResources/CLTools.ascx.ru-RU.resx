@@ -40,13 +40,13 @@
     <value>Модули на странице</value>
   </data>
   <data name="ModuleDeleted.Text" xml:space="preserve">
-    <value>Модуль удален, но присутствует в корзине</value>
+    <value>Модуль удален, но присутствует в корзине.</value>
   </data>
   <data name="ModuleInfo.Text" xml:space="preserve">
     <value>Модуль: {0}&lt;br/&gt;Заголовок: {1}&lt;br/&gt;Панель: {2}</value>
   </data>
   <data name="ModuleInfoForNonAdmins.Text" xml:space="preserve">
-    <value>У вас недостаточно разрешений для изменения заголовка данного модуля</value>
+    <value>У вас недостаточно разрешений для изменения заголовка данного модуля.</value>
   </data>
   <data name="ModuleTitle.Text" xml:space="preserve">
     <value>Заголовок модуля</value>

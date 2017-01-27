@@ -28,7 +28,7 @@
     <value>Восстановить выбранные модули на указанную страницу</value>
   </data>
   <data name="cmdDeleteModule.Help" xml:space="preserve">
-    <value>Удалить выбранный модуль безвозвратно</value>
+    <value>Удалить выбранные модули безвозвратно</value>
   </data>
   <data name="cmdEmpty.Text" xml:space="preserve">
     <value>Очистить корзину</value>
@@ -52,10 +52,10 @@
     <value>Корзина</value>
   </data>
   <data name="cmdRestoreTab.Text" xml:space="preserve">
-    <value>Восстановить выбранную страницу</value>
+    <value>Восстановить выбранные страницы</value>
   </data>
   <data name="cmdDeleteTab.Text" xml:space="preserve">
-    <value>Удалить выбранную страницу</value>
+    <value>Удалить выбранные страницы</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;h1&gt;О корзине&lt;/h1&gt;

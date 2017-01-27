@@ -73,7 +73,7 @@
     <value>Недопустимый тип файла {1}! Список допустимых типов включает: {0}</value>
   </data>
   <data name="NoPermission.Text" xml:space="preserve">
-    <value>У Вас недостаточно разрешений для просмотра файлов сайта</value>
+    <value>У Вас недостаточно разрешений для просмотра файлов сайта.</value>
   </data>
   <data name="Root.Text" xml:space="preserve">
     <value>Корень</value>
@@ -85,7 +85,7 @@
     <value>Введенное имя пользователя не соответствует ни одному пользователю сайта.</value>
   </data>
   <data name="NoWritePermission.Text" xml:space="preserve">
-    <value>У Вас нет необходимых разрешений для подгрузки файлов на сайт</value>
+    <value>У Вас нет необходимых разрешений для подгрузки файлов на сайт.</value>
   </data>
   <data name="ImageType.Text" xml:space="preserve">
     <value>Системное изображение</value>

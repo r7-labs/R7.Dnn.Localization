@@ -34,7 +34,7 @@
     <value>Языковой пакет</value>
   </data>
   <data name="Decompress.Text" xml:space="preserve">
-    <value>Распаковать архивы ZIP?</value>
+    <value>Распаковать архивы ZIP</value>
   </data>
   <data name="LogTitle.Text" xml:space="preserve">
     <value>Журналы подгрузки ресурсов</value>
@@ -43,7 +43,7 @@
     <value>Назад</value>
   </data>
   <data name="InvalidExt.Text" xml:space="preserve">
-    <value>Недопустимое расширение имени файла</value>
+    <value>Недопустимое расширение имени файла </value>
   </data>
   <data name="ControlTitle_file manager.Text" xml:space="preserve">
     <value>Подгрузка файла</value>
@@ -79,7 +79,7 @@
     <value>Сначала нужно выбрать файл для подгрузки - нажмите кнопку Выбрать, чтобы найти файл на Вашем компьютере.</value>
   </data>
   <data name="Multiple.Text" xml:space="preserve">
-    <value>Подгрузить несколько файлов?</value>
+    <value>Подгрузить несколько файлов</value>
   </data>
   <data name="FileUploadSuccess.Text" xml:space="preserve">
     <value>{0} подгружен успешно</value>
@@ -100,7 +100,7 @@
     <value>Установка расширения</value>
   </data>
   <data name="FileSizeRestriction.Text" xml:space="preserve">
-    <value>Максимальный размер подгружаемого файла {0} Мб. </value>
+    <value>Максимальный размер подгружаемого файла {0} Мб.</value>
   </data>
   <data name="Decompress.Help" xml:space="preserve">
     <value>Отметьте, чтобы распаковать подгружаемые архивы ZIP.</value>

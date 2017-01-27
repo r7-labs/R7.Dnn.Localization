@@ -91,7 +91,7 @@
     <value>Папка назначения не может совпадать с исходной папкой.</value>
   </data>
   <data name="UserHasNoPermissionToCopyFolder.Error" xml:space="preserve">
-    <value>У пользователя нет разрешения на копирование из данной папки.</value>
+    <value>У пользователя нет разрешения на копирование из данной папки</value>
   </data>
   <data name="UserHasNoPermissionToMoveFolder.Error" xml:space="preserve">
     <value>У пользователя нет разрешения на перемещение из этой папки.</value>

@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AuthenticationType.Text" xml:space="preserve">
-    <value>Тип аутентификации</value>
+    <value>Тип аутентификации:</value>
   </data>
   <data name="AuthenticationType.Help" xml:space="preserve">
     <value>Тип системы аутентификации (например: LiveID, OpenID и др.)</value>
@@ -52,7 +52,7 @@
     <value>Этот редактор позволяет настраивать поставщики аутентификации. Вы можете изменить местоположение исходных файлов, а также включить некоторый поставщик. Включенные поставщики доступны администраторам сайтов, которые затем смогут изменить настройки данных проставщиков для каждого конкретного сайта.</value>
   </data>
   <data name="AdminHelp.Text" xml:space="preserve">
-    <value>Данный редактор позволяет настроить поставщика аутентификации.</value>
+    <value>Данный редактор позволяет настроить поставщика аутентификации. </value>
   </data>
   <data name="NoSettings.Text" xml:space="preserve">
     <value>Данная система аутентификации не имеет изменяемых настроек.</value>

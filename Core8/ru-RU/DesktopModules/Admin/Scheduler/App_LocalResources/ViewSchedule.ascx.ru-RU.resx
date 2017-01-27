@@ -40,7 +40,7 @@
     <value>Журнал</value>
   </data>
   <data name="TimeLapsePrefix.Text" xml:space="preserve">
-    <value>Кажд.</value>
+    <value>Каждые</value>
   </data>
   <data name="Minute.Text" xml:space="preserve">
     <value>минута</value>

@@ -34,16 +34,16 @@
     <value>&lt;h1&gt;Импорт модуля&lt;/h1&gt;&lt;p&gt;Администраторы имеют возможность загрузить импортировать созданное ранее содержимое в указанный модуль.&lt;/p&gt;</value>
   </data>
   <data name="Error.Text" xml:space="preserve">
-    <value>При выполнении импорта произошла ошибка</value>
+    <value>При выполнении импорта произошла ошибка.</value>
   </data>
   <data name="ImportNotSupported.Text" xml:space="preserve">
-    <value>Указанный модуль не поддерживает импорт содержимого</value>
+    <value>Указанный модуль не поддерживает импорт содержимого.</value>
   </data>
   <data name="NotCorrectType.Text" xml:space="preserve">
-    <value>Тип содержимого модуля не соответствует данному модулю</value>
+    <value>Тип содержимого модуля не соответствует данному модулю.</value>
   </data>
   <data name="NotValidXml.Text" xml:space="preserve">
-    <value>Содержимое модуля имеет некорректную структуру XML</value>
+    <value>Содержимое модуля имеет некорректную структуру XML.</value>
   </data>
   <data name="Root.Text" xml:space="preserve">
     <value>Корень</value>

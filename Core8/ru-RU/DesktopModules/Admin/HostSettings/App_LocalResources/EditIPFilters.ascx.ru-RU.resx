@@ -40,7 +40,7 @@
     <value>Может использоваться как отдельный адрес IP, так и адрес совместно с маской подсети для вычисления диапазона IP адресов.</value>
   </data>
   <data name="CannotDeleteIPInUse.Text" xml:space="preserve">
-    <value>Нельзя удалить этот фильтр, так как это приведет к блокировке текущего адреса IP</value>
+    <value>Нельзя удалить этот фильтр, так как это приведет к блокировке текущего адреса IP.</value>
   </data>
   <data name="plSubnet.Text" xml:space="preserve">
     <value>Маска</value>
@@ -67,13 +67,13 @@
     <value>Отдельный адрес IP</value>
   </data>
   <data name="plRuleSpecifity.Help" xml:space="preserve">
-    <value>Определяет,  будет ли применяться правило фильтра к отдельному адресу IP или диапазону IP адресов</value>
+    <value>Определяет,  будет ли применяться правило фильтра к отдельному адресу IP или диапазону IP адресов.</value>
   </data>
   <data name="plRuleSpecifity.Text" xml:space="preserve">
     <value>Применять к</value>
   </data>
   <data name="plRuleType.Help" xml:space="preserve">
-    <value>Определяет, является ли правило фильтра разрешающим или запрещающим</value>
+    <value>Определяет, является ли правило фильтра разрешающим или запрещающим.</value>
   </data>
   <data name="plRuleType.Text" xml:space="preserve">
     <value>Действие</value>

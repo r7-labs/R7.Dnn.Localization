@@ -31,7 +31,7 @@
     <value>Список словарей</value>
   </data>
   <data name="Create.ToolTip" xml:space="preserve">
-    <value>Нажмите на эту кнопку, чтобы создать новый словарь</value>
+    <value>Нажмите на эту кнопку, чтобы создать новый словарь.</value>
   </data>
   <data name="Edit.Text" xml:space="preserve">
     <value>Редактировать</value>

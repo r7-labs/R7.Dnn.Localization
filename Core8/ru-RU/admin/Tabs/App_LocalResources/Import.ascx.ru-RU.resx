@@ -34,13 +34,13 @@
     <value>&lt;h1&gt;Импорт страницы&lt;/h1&gt;&lt;p&gt;Администраторы могут импортировать содержимое указанной страницы.&lt;/p&gt;</value>
   </data>
   <data name="Error.Text" xml:space="preserve">
-    <value>Произошла ошибка в процессе импорта</value>
+    <value>Произошла ошибка в процессе импорта.</value>
   </data>
   <data name="NotCorrectType.Text" xml:space="preserve">
     <value>Указанный для импорта файл не принадлежит к нужному типу.</value>
   </data>
   <data name="NotValidXml.Text" xml:space="preserve">
-    <value>Выбранный файл не содержит правильной структуры XML</value>
+    <value>Выбранный файл не содержит правильной структуры XML.</value>
   </data>
   <data name="Root.Text" xml:space="preserve">
     <value>Корень</value>
@@ -97,7 +97,7 @@
     <value>Перед</value>
   </data>
   <data name="InsertPosition.Help" xml:space="preserve">
-    <value>Укажите страницу, перед или после которой нужно вставить новую</value>
+    <value>Укажите страницу, перед или после которой нужно вставить новую.</value>
   </data>
   <data name="InsertPosition.Text" xml:space="preserve">
     <value>Вставить страницу:</value>

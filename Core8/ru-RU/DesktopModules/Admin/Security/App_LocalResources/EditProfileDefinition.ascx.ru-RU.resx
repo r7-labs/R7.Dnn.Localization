@@ -160,7 +160,7 @@
     <value>Добавить определение свойства</value>
   </data>
   <data name="ProfilePropertyDefinition_DefaultVisibility.Help" xml:space="preserve">
-    <value>Вы можете предоставить установку видимости по умолчанию для этого свойства</value>
+    <value>Вы можете предоставить установку видимости по умолчанию для этого свойства.</value>
   </data>
   <data name="ProfilePropertyDefinition_DefaultVisibility.Text" xml:space="preserve">
     <value>Видимость по умолчанию:</value>

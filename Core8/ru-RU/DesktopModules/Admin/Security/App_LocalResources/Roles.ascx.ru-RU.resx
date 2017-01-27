@@ -49,7 +49,7 @@
     <value>Фильтровать по группе ролей:</value>
   </data>
   <data name="plRoleGroups.Help" xml:space="preserve">
-    <value>Выберите группу ролей, которую Вы хотели бы посмотреть</value>
+    <value>Выберите группу ролей, которую Вы хотели бы посмотреть.</value>
   </data>
   <data name="AddGroup.Action" xml:space="preserve">
     <value>Добавить группа ролей</value>

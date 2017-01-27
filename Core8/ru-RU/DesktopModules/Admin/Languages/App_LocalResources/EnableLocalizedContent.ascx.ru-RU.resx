@@ -31,7 +31,7 @@
     <value>После включения локализованного содержимого, язык по-умолчанию для сайта будет задан навсегда и &lt;strong&gt;&lt;em&gt;Вы не сможете больше сменить его&lt;/em&gt;&lt;/strong&gt;. &lt;br/&gt;&lt;br/&gt;Нажмите Отмена, если требуется сначала изменить язык по-умолчанию для сайта.</value>
   </data>
   <data name="siteDefaultLabel.Text" xml:space="preserve">
-    <value>Из текущих настроек сайта</value>
+    <value>Из текущих настроек сайта:</value>
   </data>
   <data name="Update.Text" xml:space="preserve">
     <value>Включить локализацию содержимого</value>
@@ -43,10 +43,10 @@
     <value>{0}: Страница {1} из {2} - {3}</value>
   </data>
   <data name="Progress.Text" xml:space="preserve">
-    <value>Завершено:</value>
+    <value>Завершено</value>
   </data>
   <data name="TotalProgress.Text" xml:space="preserve">
-    <value>Общий прогресс</value>
+    <value>Завершено всего</value>
   </data>
   <data name="TotalLanguages.Text" xml:space="preserve">
     <value>Всего языков</value>

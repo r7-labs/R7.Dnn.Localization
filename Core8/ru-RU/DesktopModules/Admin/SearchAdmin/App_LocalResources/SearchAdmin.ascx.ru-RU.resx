@@ -31,10 +31,10 @@
     <value>Добавить группу синонимов</value>
   </data>
   <data name="SynonymsTagDuplicated.Text" xml:space="preserve">
-    <value>Уже используется в другой группе синонимов</value>
+    <value>Уже используется в другой группе синонимов.</value>
   </data>
   <data name="SynonymsTagRequired.Text" xml:space="preserve">
-    <value>Требуется как минимум одна метка-синоним</value>
+    <value>Требуется как минимум одна метка-синоним.</value>
   </data>
   <data name="AddStopWords.Text" xml:space="preserve">
     <value>Добавить слово</value>
@@ -43,7 +43,7 @@
     <value>Не найдено шумовых слов для выбранного портала/языка</value>
   </data>
   <data name="lblStopwordsCultureList.Help" xml:space="preserve">
-    <value>Выберите язык для поиска шумовых слов</value>
+    <value>Выберите язык для поиска шумовых слов.</value>
   </data>
   <data name="lblStopwordsCultureList.Text" xml:space="preserve">
     <value>Выберите язык:</value>
@@ -82,7 +82,7 @@
     <value>Продолжить</value>
   </data>
   <data name="lblSynonymsCultureList.Help" xml:space="preserve">
-    <value>Выберите язык для группы синонимов</value>
+    <value>Выберите язык для группы синонимов </value>
   </data>
   <data name="lblSynonymsCultureList.Text" xml:space="preserve">
     <value>Выберите язык:</value>

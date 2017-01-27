@@ -28,7 +28,7 @@
     <value>Не удается обработать шаблон страницы.</value>
   </data>
   <data name="Err.Header" xml:space="preserve">
-    <value>Произошла ошибка при сохранении страницы:</value>
+    <value>Произошла ошибка при сохранении страницы: </value>
   </data>
   <data name="Err.HostBeforeAfterError" xml:space="preserve">
     <value>Вы не можете добавлять или перемещать страницы непосредственно перед или после страницы администратора хостинга.</value>

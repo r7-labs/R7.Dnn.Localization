@@ -16,7 +16,7 @@
     <value>Экспортировать шаблон</value>
   </data>
   <data name="valFileName.ErrorMessage" xml:space="preserve">
-    <value>Имя файла шаблона обязательно</value>
+    <value>Имя файла шаблона обязательно.</value>
   </data>
   <data name="plTemplateName.Text" xml:space="preserve">
     <value>Имя файла шаблона:</value>
@@ -28,25 +28,25 @@
     <value>Шаблон сайта создан для &lt;b&gt;{0}&lt;/b&gt;</value>
   </data>
   <data name="plPortals.Help" xml:space="preserve">
-    <value>Выберите сайт для экспорта</value>
+    <value>Выберите сайт для экспорта.</value>
   </data>
   <data name="plTemplateName.Help" xml:space="preserve">
-    <value>Укажите имя файла шаблона, который будет создан</value>
+    <value>Укажите имя файла шаблона, который будет создан.</value>
   </data>
   <data name="plContent.Text" xml:space="preserve">
     <value>Включая содержимое:</value>
   </data>
   <data name="plContent.Help" xml:space="preserve">
-    <value>Отметьте, если хотите экспортировать содержимое в файл шаблона</value>
+    <value>Отметьте, если хотите экспортировать содержимое в файл шаблона.</value>
   </data>
   <data name="plDescription.Text" xml:space="preserve">
     <value>Описание шаблона:</value>
   </data>
   <data name="plDescription.Help" xml:space="preserve">
-    <value>Тестовое описание для файла шаблона</value>
+    <value>Тестовое описание для файла шаблона.</value>
   </data>
   <data name="valDescription.ErrorMessage" xml:space="preserve">
-    <value>Описание шаблона обязательно</value>
+    <value>Описание шаблона обязательно.</value>
   </data>
   <data name="ControlTitle_template.Text" xml:space="preserve">
     <value>Экспорт шаблона</value>
@@ -86,7 +86,7 @@
     <value>Отметьте, если Вы хотите экспортировать определения свойств профиля пользователя во вновь создаваемый шаблон.</value>
   </data>
   <data name="lblProfile.Text" xml:space="preserve">
-    <value>Включить определения свойств профиля?</value>
+    <value>Включить определения свойств профиля:</value>
   </data>
   <data name="lblRoles.Help" xml:space="preserve">
     <value>Отметьте, если Вы хотите экспортировать роли пользователей во вновь создаваемый шаблон.</value>
@@ -113,7 +113,7 @@
     <value>Включить разрешения модулей:</value>
   </data>
   <data name="lblNote.Text" xml:space="preserve">
-    <value>Подсказка: язык по-умолчанию ({0}) будет экспортирован в любом случае</value>
+    <value>Подсказка: язык по-умолчанию ({0}) будет экспортирован в любом случае.</value>
   </data>
   <data name="BasicSettings.Text" xml:space="preserve">
     <value>Основные настройки</value>

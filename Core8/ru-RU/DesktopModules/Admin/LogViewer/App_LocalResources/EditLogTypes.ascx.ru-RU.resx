@@ -34,19 +34,19 @@
     <value>Сохранять события</value>
   </data>
   <data name="plIsActive.Help" xml:space="preserve">
-    <value>Отметьте, если желаете сохранять события</value>
+    <value>Отметьте, если желаете сохранять события.</value>
   </data>
   <data name="plLogTypeKey.Text" xml:space="preserve">
     <value>Тип событий</value>
   </data>
   <data name="plLogTypeKey.Help" xml:space="preserve">
-    <value>Выберите тип событий для этого журнала</value>
+    <value>Выберите тип событий для этого журнала.</value>
   </data>
   <data name="plLogTypePortalID.Text" xml:space="preserve">
     <value>Сайт</value>
   </data>
   <data name="plLogTypePortalID.Help" xml:space="preserve">
-    <value>С каким сайтом связан данный журнал</value>
+    <value>С каким сайтом связан данный журнал.</value>
   </data>
   <data name="plKeepMostRecent.Text" xml:space="preserve">
     <value>Сохранять последние</value>
@@ -61,7 +61,7 @@
     <value>Разрешить уведомления по эл. почте</value>
   </data>
   <data name="plEmailNotificationStatus.Help" xml:space="preserve">
-    <value>Отметьте, если желаете отправлять сообщения при появлении данного типа событий</value>
+    <value>Отметьте, если желаете отправлять сообщения при появлении данного типа событий.</value>
   </data>
   <data name="plThreshold.Text" xml:space="preserve">
     <value>Порог появления</value>

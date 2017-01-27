@@ -196,7 +196,7 @@
     <value>Использовать данный модуль могут только администраторы хостинга.</value>
   </data>
   <data name="lblPortal.Help" xml:space="preserve">
-    <value>Если отмечено, текущий сайт будет связан с данной конфигурацией редактора.</value>
+    <value>Если отмечено, текущий сайт будет связан с данной конфигурацией редактора. </value>
   </data>
   <data name="lblPortal.Text" xml:space="preserve">
     <value>Привязать к сайту</value>
@@ -453,7 +453,7 @@
     <value>Режим:</value>
   </data>
   <data name="ToolsWidth.Help" xml:space="preserve">
-    <value>Устанавливает ширину панели инструментов редактора. Эту функцию нужно использовать только в случае, если не выбран режим панели инструментов по-умолчанию.</value>
+    <value>Устанавливает ширину панели инструментов редактора. Эту функцию нужно использовать только в случае, если не выбран режим панели инструментов по-умолчанию!</value>
   </data>
   <data name="ToolsWidth.Text" xml:space="preserve">
     <value>Ширина:</value>
@@ -462,7 +462,7 @@
     <value>[Папка пользователя]</value>
   </data>
   <data name="Width.Help" xml:space="preserve">
-    <value>Общая ширина элемента управления редактора.</value>
+    <value>Общая ширина элемента управления редактора. </value>
   </data>
   <data name="Width.Text" xml:space="preserve">
     <value>Ширина:</value>

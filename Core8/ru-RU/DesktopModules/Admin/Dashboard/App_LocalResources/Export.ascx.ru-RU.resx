@@ -22,13 +22,13 @@
     <value>Экспорт панели управления</value>
   </data>
   <data name="plFileName.Help" xml:space="preserve">
-    <value>Введите имя файла XML</value>
+    <value>Введите имя файла XML.</value>
   </data>
   <data name="plFileName.Text" xml:space="preserve">
     <value>Имя файла:</value>
   </data>
   <data name="Success.Text" xml:space="preserve">
-    <value>Экспорт панели управления в XML успешно завершен. Файл - {0} - можно найти с помощью менеджера файлов в корневом каталоге хостинга. </value>
+    <value>Экспорт панели управления в XML успешно завершен. Файл - {0} - можно найти с помощью менеджера файлов в корневом каталоге хостинга.</value>
   </data>
   <data name="valFileName.Error" xml:space="preserve">
     <value>Укажите имя файла.</value>

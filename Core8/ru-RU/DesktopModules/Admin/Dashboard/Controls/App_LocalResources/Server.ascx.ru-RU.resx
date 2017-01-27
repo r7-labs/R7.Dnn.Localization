@@ -16,7 +16,7 @@
     <value>Сервер</value>
   </data>
   <data name="ServerInfo_DBVersion.Help" xml:space="preserve">
-    <value>Версия SQL Server</value>
+    <value>Версия SQL Server.</value>
   </data>
   <data name="ServerInfo_DBVersion.Text" xml:space="preserve">
     <value>Версия базы данных:</value>
@@ -40,7 +40,7 @@
     <value>Учетная запись ASP.NET:</value>
   </data>
   <data name="ServerInfo_IISVersion.Help" xml:space="preserve">
-    <value>Версия Internet Information Server (IIS)</value>
+    <value>Версия Internet Information Server (IIS).</value>
   </data>
   <data name="ServerInfo_IISVersion.Text" xml:space="preserve">
     <value>Версия веб-сервера:</value>

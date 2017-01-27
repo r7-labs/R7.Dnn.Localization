@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="alternateItemTemplateLabel.Help" xml:space="preserve">
-    <value>Шаблон альтернативной записи используется при отображении данных каждого четного участника в списке.</value>
+    <value>Шаблон альтернативной записи используется при отображении данных каждого четного участника в списке. </value>
   </data>
   <data name="alternateItemTemplateLabel.Text" xml:space="preserve">
     <value>Шаблон альтернативной записи</value>
@@ -58,25 +58,25 @@
     <value>Настройки поиска</value>
   </data>
   <data name="searchField1Label.Help" xml:space="preserve">
-    <value>Укажите первое поле, используемое в расширенном поиске</value>
+    <value>Укажите первое поле, используемое в расширенном поиске.</value>
   </data>
   <data name="searchField1Label.Text" xml:space="preserve">
     <value>Поле поиска 1:</value>
   </data>
   <data name="searchField2Label.Help" xml:space="preserve">
-    <value>Укажите второе поле, используемое в расширенном поиске</value>
+    <value>Укажите второе поле, используемое в расширенном поиске.</value>
   </data>
   <data name="searchField2Label.Text" xml:space="preserve">
     <value>Поле поиска 2:</value>
   </data>
   <data name="searchField3Label.Help" xml:space="preserve">
-    <value>Укажите 3-е поле, используемое в расширенном поиске</value>
+    <value>Укажите 3-е поле, используемое в расширенном поиске.</value>
   </data>
   <data name="searchField3Label.Text" xml:space="preserve">
     <value>Поле поиска 3:</value>
   </data>
   <data name="searchField4Label.Help" xml:space="preserve">
-    <value>Укажите 4-е поле, используемое в расширенном поиске</value>
+    <value>Укажите 4-е поле, используемое в расширенном поиске.</value>
   </data>
   <data name="searchField4Label.Text" xml:space="preserve">
     <value>Поле поиска 4:</value>
@@ -142,7 +142,7 @@
     <value>Отключить разбивку на страницы:</value>
   </data>
   <data name="pageSize.Error" xml:space="preserve">
-    <value>Количество записей на страницу должно быть от 1 до 100</value>
+    <value>Количество записей на страницу должно быть от 1 до 100.</value>
   </data>
   <data name="pageSizeLabel.Help" xml:space="preserve">
     <value>Можно задать количество записей, отображаемых на одной странице, указав значение от 1 до 100.</value>
@@ -160,7 +160,7 @@
     <value>Простой поиск</value>
   </data>
   <data name="ExcludeHostUsersLabel.Help" xml:space="preserve">
-    <value>Если отмечено, администраторы хостинга не будут показаны в результатах поиска</value>
+    <value>Если отмечено, администраторы хостинга не будут показаны в результатах поиска.</value>
   </data>
   <data name="ExcludeHostUsersLabel.Text" xml:space="preserve">
     <value>Исключить администраторов хостинга:</value>

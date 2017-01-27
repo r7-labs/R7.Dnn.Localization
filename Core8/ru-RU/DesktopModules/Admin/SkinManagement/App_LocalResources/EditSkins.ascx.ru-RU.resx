@@ -16,7 +16,7 @@
     <value>&lt;b&gt;Примечание:&lt;/b&gt;&amp;nbsp;&amp;nbsp;Для подгрузки пакета темы или контейнера нужно воспользоваться диспетчером файлов.</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
-    <value>Host</value>
+    <value>Хостинг</value>
   </data>
   <data name="Site.Text" xml:space="preserve">
     <value>Сайт</value>
@@ -55,7 +55,7 @@
     <value>Портируемый</value>
   </data>
   <data name="NoSkin.ErrorMessage" xml:space="preserve">
-    <value>Файлы темы не найдены в папке</value>
+    <value>Файлы темы не найдены в папке.</value>
   </data>
   <data name="cmdPreview.Text" xml:space="preserve">
     <value>Предпросмотр</value>
@@ -67,7 +67,7 @@
     <value>В папке не найдены файлы контейнеров.</value>
   </data>
   <data name="plSkins.Help" xml:space="preserve">
-    <value>Выберите пакет темы</value>
+    <value>Выберите пакет темы.</value>
   </data>
   <data name="plContainers.Help" xml:space="preserve">
     <value>Выберите пакет контейнеров.</value>

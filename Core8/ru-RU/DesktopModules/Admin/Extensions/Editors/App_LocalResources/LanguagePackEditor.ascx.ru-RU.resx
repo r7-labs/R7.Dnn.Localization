@@ -28,7 +28,7 @@
     <value>Резервный язык:</value>
   </data>
   <data name="Locale_Text.Help" xml:space="preserve">
-    <value>Введите отображаемое имя для языкового пакета.</value>
+    <value>Введите отображаемое имя для языкового пакета</value>
   </data>
   <data name="Locale_Text.Text" xml:space="preserve">
     <value>Отображаемое имя:</value>

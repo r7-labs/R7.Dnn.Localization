@@ -103,7 +103,7 @@
     <value>Настройки</value>
   </data>
   <data name="CommonTabActions.Text" xml:space="preserve">
-    <value>Действия</value>
+    <value>Действия:</value>
   </data>
   <data name="CommonTabAddPage.Text" xml:space="preserve">
     <value>Вставить страницу</value>
@@ -340,6 +340,6 @@
     <value>Отмена</value>
   </data>
   <data name="cmdConfirmAdd.Text" xml:space="preserve">
-    <value>Я понимаю риск</value>
+    <value>Я понимаю риск.</value>
   </data>
 </root>

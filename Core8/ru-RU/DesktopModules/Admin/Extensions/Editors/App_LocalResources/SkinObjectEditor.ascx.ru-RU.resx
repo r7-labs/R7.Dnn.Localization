@@ -40,10 +40,10 @@
     <value>Файл значка:</value>
   </data>
   <data name="SupportsPartialRendering.Help" xml:space="preserve">
-    <value>Этот флаг указывает, поддерживает ли модуль частичную отрисовку с использованием AJAX. </value>
+    <value>Этот флаг указывает, поддерживает ли модуль частичную отрисовку с использованием AJAX.</value>
   </data>
   <data name="SupportsPartialRendering.Text" xml:space="preserve">
-    <value>Поддерживает частичную отрисовку?</value>
+    <value>Поддерживает частичную отрисовку:</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
     <value>Настройки объекта темы</value>

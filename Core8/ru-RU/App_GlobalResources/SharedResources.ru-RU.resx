@@ -1554,7 +1554,7 @@
     <value>Состояние снято</value>
   </data>
   <data name="StateDiscarded.Comment" xml:space="preserve">
-    <value>Состояние '[STATE]' было отвергнуто. </value>
+    <value>Состояние '[STATE]' было отвергнуто.</value>
   </data>
   <data name="StateInitiated.Action" xml:space="preserve">
     <value>Состояние инициировано</value>

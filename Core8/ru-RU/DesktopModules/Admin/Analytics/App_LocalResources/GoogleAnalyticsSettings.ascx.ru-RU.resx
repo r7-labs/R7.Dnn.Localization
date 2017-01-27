@@ -13,13 +13,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblTrackingId.Help" xml:space="preserve">
-    <value>ID отслеживания сайта, полученный от Google</value>
+    <value>ID отслеживания сайта, полученный от Google.</value>
   </data>
   <data name="lblTrackingId.Text" xml:space="preserve">
-    <value>Ид. отслеживания</value>
+    <value>Ид. отслеживания:</value>
   </data>
   <data name="lblUrlParameter.Help" xml:space="preserve">
-    <value>Необязательный фрагмент кода Javascript, который будет передаваться в качестве параметра отслеживателю страниц (используется, чтобы изменить значение, отслеживаемое в Google Analytics, вместо используемого по-умолчанию location.href)</value>
+    <value>Необязательный фрагмент кода Javascript, который будет передаваться в качестве параметра отслеживателю страниц (используется, чтобы изменить значение, отслеживаемое в Google Analytics, вместо используемого по-умолчанию location.href).</value>
   </data>
   <data name="lblUrlParameter.Text" xml:space="preserve">
     <value>Параметр URL</value>

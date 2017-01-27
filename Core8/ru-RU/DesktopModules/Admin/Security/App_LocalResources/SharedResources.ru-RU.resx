@@ -82,7 +82,7 @@
     <value>Пароль еще раз:</value>
   </data>
   <data name="PasswordQuestion.Help" xml:space="preserve">
-    <value>Введите секретный вопрос, который можно будет использовать для восстановления забытого пароля</value>
+    <value>Введите секретный вопрос, который можно будет использовать для восстановления забытого пароля.</value>
   </data>
   <data name="PasswordQuestion.Text" xml:space="preserve">
     <value>Секретный вопрос:</value>

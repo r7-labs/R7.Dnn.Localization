@@ -47,7 +47,7 @@
     <value>Описание</value>
   </data>
   <data name="Start.Header" xml:space="preserve">
-    <value>Запуск/Останов/След.</value>
+    <value>Запуск/Останов/След. запуск</value>
   </data>
   <data name="Server.Header" xml:space="preserve">
     <value>Выполнялся на сервере</value>

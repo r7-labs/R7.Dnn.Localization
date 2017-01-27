@@ -197,7 +197,7 @@
     <value>DNN&lt;sup&gt;&amp;reg;&lt;/sup&gt; делает его легким для вас процесс установки и использования платформы DNN&lt;sup&gt;&amp;reg;&lt;/sup&gt;. У нас есть много возможностей для того, чтобы удовлетворить ваши потребности, хотите ли вы попробовать CMS в облаке, установить его на своем собственном сервере или использовать его на персональном компьютере для разработки. Вы на расстоянии всего одного клика от начала работы с DNN&lt;sup&gt;&amp;reg;&lt;/sup&gt;.</value>
   </data>
   <data name="Tab.Home.Header.Title" xml:space="preserve">
-    <value>Каждое путешествие начинается с первого шага.</value>
+    <value>Каждое путешествие начинается с первого шага. </value>
   </data>
   <data name="Tab.Home.Main.Blog.Link" xml:space="preserve">
     <value>http://www.dnnsoftware.com/community-blog?utm_source=dnn-platform-install&amp;utm_medium=web-link&amp;utm_term=blog&amp;utm_content=7.3-tile&amp;utm_campaign=dnn-platform-home</value>
@@ -785,7 +785,7 @@
     <value>Управление перенаправлениями</value>
   </data>
   <data name="Tab.SiteRedirection.Description.Text" xml:space="preserve">
-    <value>Управление перенаправлением сайтов</value>
+    <value>Управление перенаправлением сайтов.</value>
   </data>
   <data name="Tab.SiteRedirection.Name.Text" xml:space="preserve">
     <value>Управление перенаправлениями</value>

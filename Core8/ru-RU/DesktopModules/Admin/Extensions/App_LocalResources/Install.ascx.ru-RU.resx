@@ -37,7 +37,7 @@
     <value>Подгрузить пакет</value>
   </data>
   <data name="AcceptLicense.Text" xml:space="preserve">
-    <value>Принять условия лицензии?</value>
+    <value>Принять условия лицензии</value>
   </data>
   <data name="Introduction.Help" xml:space="preserve">
     <value>Возможности системы управления контентом DNN могут быть расширены множеством способов. Этот мастер поможет Вам подгрузить и установить пакеты расширений для DNN.</value>
@@ -70,7 +70,7 @@
     <value>Информация пакета</value>
   </data>
   <data name="License.Help" xml:space="preserve">
-    <value>Прежде, чем продолжить вы должны принять условия лицензии для этого расширения. Пожалуйста, прочитайте лицензию и подпишите, нажав "Принять условия"</value>
+    <value>Прежде, чем продолжить вы должны принять условия лицензии для этого расширения. Пожалуйста, прочитайте лицензию и подпишите, нажав "Принять условия".</value>
   </data>
   <data name="License.Title" xml:space="preserve">
     <value>Просмотр лицензии</value>
@@ -82,7 +82,7 @@
     <value>Заметки к выпуску</value>
   </data>
   <data name="IgnoreWhiteList.Text" xml:space="preserve">
-    <value>Не проверять типы файлов?</value>
+    <value>Не проверять типы файлов</value>
   </data>
   <data name="IgnoreRestrictedFilesWarning.Text" xml:space="preserve">
     <value>&lt;b&gt;Предупреждение:&lt;/b&gt; Вы выбрали игнорировать проверку на запрещенные типы файлов. Это действие потенциально угрожает безопасности Вашего сайта, поэтому Вы должны  делать это только в том случае, если пакет, который устанавливается, получен из доверенного источника.</value>
@@ -151,7 +151,7 @@
     <value>Установка расширения</value>
   </data>
   <data name="FileSizeRestriction.Text" xml:space="preserve">
-    <value>Максимальный размер подгружаемого файла {0} Мб. </value>
+    <value>Максимальный размер подгружаемого файла {0} Мб.</value>
   </data>
   <data name="AzureCompact.Text" xml:space="preserve">
     <value>Установить без проверки на совместимость с Sql Azure?</value>

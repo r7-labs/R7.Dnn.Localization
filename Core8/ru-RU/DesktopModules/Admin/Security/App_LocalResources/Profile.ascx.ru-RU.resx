@@ -31,7 +31,7 @@
     <value>Введите фамилию.</value>
   </data>
   <data name="ProfileProperties_MiddleName.Help" xml:space="preserve">
-    <value>Отчество:</value>
+    <value>Введите отчество.</value>
   </data>
   <data name="ProfileProperties_Prefix.Help" xml:space="preserve">
     <value>Введите префикс, например Д-р., Мр., проф.</value>
@@ -52,7 +52,7 @@
     <value>Улица:</value>
   </data>
   <data name="ProfileProperties_Street.Help" xml:space="preserve">
-    <value>Введите часть почтового адреса, содержащую название улицы и номер дома. Например, ул. Главная, д. 123.</value>
+    <value>Введите часть почтового адреса, содержащую название улицы и номер дома. Например, ул. Главная, д. 123</value>
   </data>
   <data name="ProfileProperties_City.Text" xml:space="preserve">
     <value>Город:</value>

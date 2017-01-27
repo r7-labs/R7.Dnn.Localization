@@ -16,7 +16,7 @@
     <value>Зарегистрироваться</value>
   </data>
   <data name="RegisterWarning.Text" xml:space="preserve">
-    <value>&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Регистрация обычно занимает всего несколько секунд. После того, как нажмете кнопку Зарегистрироваться, дождитесь ответа системы.</value>
+    <value>&lt;em&gt;(&lt;strong&gt;Примечание:&lt;/strong&gt; Регистрация обычно занимает всего несколько секунд. После того, как нажмете кнопку Зарегистрироваться, дождитесь ответа системы.)&lt;/em&gt;</value>
   </data>
   <data name="ControlTitle_register.Text" xml:space="preserve">
     <value>Регистрация</value>

@@ -70,7 +70,7 @@
     <value>Регион:</value>
   </data>
   <data name="plRegion.Help" xml:space="preserve">
-    <value>Введите название региона:</value>
+    <value>Введите название региона.</value>
   </data>
   <data name="plPostal.Text" xml:space="preserve">
     <value>Почтовый индекс:</value>

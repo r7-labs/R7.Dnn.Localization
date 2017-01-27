@@ -22,7 +22,7 @@
     <value>Текущая дата и время на веб-сервере.</value>
   </data>
   <data name="plebFarm.Text" xml:space="preserve">
-    <value>Веб-ферма?</value>
+    <value>Веб-ферма включена:</value>
   </data>
   <data name="plWebFarm.Help" xml:space="preserve">
     <value>Указывает, работает ли сайт в конфигурации фермы. Эта установка может быть разрешена в корневом файле конфигурации для вашего сайта.</value>
@@ -43,7 +43,7 @@
     <value>Версия .NET Framework:</value>
   </data>
   <data name="plFramework.Help" xml:space="preserve">
-    <value>Версия .NET Framework, установленная и работающая на данном сервере - предоставлена IIS</value>
+    <value>Версия .NET Framework, установленная и работающая на данном сервере - предоставлена IIS.</value>
   </data>
   <data name="plIdentity.Text" xml:space="preserve">
     <value>Учетная запись ASP.NET:</value>
@@ -82,7 +82,7 @@
     <value>Физическое местоположение корня сайта на сервере.</value>
   </data>
   <data name="plGUID.Text" xml:space="preserve">
-    <value>GUID :</value>
+    <value>GUID:</value>
   </data>
   <data name="plGUID.Help" xml:space="preserve">
     <value>Глобально уникальный идентификатор, который может использоваться для идентификации этого приложения.</value>
@@ -127,7 +127,7 @@
     <value>Пробный период:</value>
   </data>
   <data name="plDemoSignup.Text" xml:space="preserve">
-    <value>Анонимный пробный хостинг?</value>
+    <value>Анонимный пробный хостинг:</value>
   </data>
   <data name="plUsersOnline.Text" xml:space="preserve">
     <value>Разрешить отслеживание пользователей на сайте:</value>
@@ -169,7 +169,7 @@
     <value>Разрешить SSL для SMTP:</value>
   </data>
   <data name="plSMTPEnableSSL.Help" xml:space="preserve">
-    <value>Используется для службы SMTP, которая требует безопасного подключения (обычно не нужно)</value>
+    <value>Используется для службы SMTP, которая требует безопасного подключения (обычно не нужно).</value>
   </data>
   <data name="plFileExtensions.Text" xml:space="preserve">
     <value>Типы файлов для загрузки:</value>
@@ -184,10 +184,10 @@
     <value>Очистка кэша</value>
   </data>
   <data name="plCopyright.Text" xml:space="preserve">
-    <value>Показывать копирайт?</value>
+    <value>Показывать копирайт:</value>
   </data>
   <data name="plUseCustomErrorMessages.Text" xml:space="preserve">
-    <value>Расширенные сообщения об ошибках?</value>
+    <value>Расширенные сообщения об ошибках:</value>
   </data>
   <data name="UpgradeLog.Text" xml:space="preserve">
     <value>Журнал обновления для версии</value>
@@ -196,7 +196,7 @@
     <value>Сообщение успешно отправлено от {0} к {0}</value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
-    <value>Вы должны указать email-адрес хоста</value>
+    <value>Вы должны указать email-адрес хоста.</value>
   </data>
   <data name="15Seconds.Text" xml:space="preserve">
     <value>15 секунд</value>
@@ -226,7 +226,7 @@
     <value>Без кэширования</value>
   </data>
   <data name="BasicSettingsHelp.Text" xml:space="preserve">
-    <value>Основные параметры Вашего хоста</value>
+    <value>Основные параметры Вашего хоста.</value>
   </data>
   <data name="BasicSettings.Text" xml:space="preserve">
     <value>Основные параметры</value>
@@ -235,19 +235,19 @@
     <value>Параметры хоста</value>
   </data>
   <data name="plHostTitle.Help" xml:space="preserve">
-    <value>Укажите название хоста</value>
+    <value>Укажите название хоста.</value>
   </data>
   <data name="plHostURL.Help" xml:space="preserve">
     <value>Укажите URL хоста</value>
   </data>
   <data name="plHostEmail.Help" xml:space="preserve">
-    <value>Укажите email-адрес службы поддержки хостинга</value>
+    <value>Укажите email-адрес службы поддержки хостинга.</value>
   </data>
   <data name="plHostSkin.Help" xml:space="preserve">
-    <value>Выберите тему, которая будет использоваться по-умолчанию на Ваших сайтах</value>
+    <value>Выберите тему, которая будет использоваться по-умолчанию на Ваших сайтах.</value>
   </data>
   <data name="plHostContainer.Help" xml:space="preserve">
-    <value>Выберите контейнер по умолчанию для всех сайтов этого хоста</value>
+    <value>Выберите контейнер по умолчанию для всех сайтов этого хоста.</value>
   </data>
   <data name="Appearance.Text" xml:space="preserve">
     <value>Внешний вид</value>
@@ -268,46 +268,46 @@
     <value>Дополнительные параметры</value>
   </data>
   <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
-    <value>Дополнительные параметры Вашего хоста</value>
+    <value>Дополнительные параметры Вашего хоста.</value>
   </data>
   <data name="Other.Text" xml:space="preserve">
     <value>Другие параметры</value>
   </data>
   <data name="plCopyright.Help" xml:space="preserve">
-    <value>Включить показ копирайта DotNetNuke</value>
+    <value>Включить показ копирайта DotNetNuke.</value>
   </data>
   <data name="plUseCustomErrorMessages.Help" xml:space="preserve">
-    <value>Отметьте для использования расширенных сообщений об ошибках</value>
+    <value>Отметьте для использования расширенных сообщений об ошибках.</value>
   </data>
   <data name="plProcessor.Help" xml:space="preserve">
-    <value>Выберите систему обработки платежей для сайтов клиентов</value>
+    <value>Выберите систему обработки платежей для сайтов клиентов.</value>
   </data>
   <data name="plUserId.Help" xml:space="preserve">
-    <value>Укажите идентификатор пользователя для доступа к системе обработки платежей</value>
+    <value>Укажите идентификатор пользователя для доступа к системе обработки платежей.</value>
   </data>
   <data name="plPassword.Help" xml:space="preserve">
-    <value>Укажите пароль к системе обработки платежей</value>
+    <value>Укажите пароль к системе обработки платежей.</value>
   </data>
   <data name="plHostFee.Help" xml:space="preserve">
-    <value>Укажите базовую стоимость услуги  хостинга сайтов</value>
+    <value>Укажите базовую стоимость услуги  хостинга сайтов.</value>
   </data>
   <data name="plHostCurrency.Help" xml:space="preserve">
-    <value>Выберите валюту для оплаты хостинга</value>
+    <value>Выберите валюту для оплаты хостинга.</value>
   </data>
   <data name="plDemoPeriod.Help" xml:space="preserve">
-    <value>Укажите период времени действия пробного хостинга</value>
+    <value>Укажите период времени действия пробного хостинга.</value>
   </data>
   <data name="plDemoSignup.Help" xml:space="preserve">
-    <value>Укажите способ подписания пользователей на пробный хостинг</value>
+    <value>Укажите способ подписания пользователей на пробный хостинг.</value>
   </data>
   <data name="plHostSpace.Help" xml:space="preserve">
-    <value>Укажите размер дискового пространства для хостинга сайта</value>
+    <value>Укажите размер дискового пространства для хостинга сайта.</value>
   </data>
   <data name="plSMTPServer.Help" xml:space="preserve">
-    <value>Укажите адрес SMTP-сервера</value>
+    <value>Укажите адрес SMTP-сервера.</value>
   </data>
   <data name="plSMTPAuthentication.Help" xml:space="preserve">
-    <value>Укажите метод проверки подлинности пользователя SMTP-сервера (по-умолчанию анонимный)</value>
+    <value>Укажите метод проверки подлинности пользователя SMTP-сервера (по-умолчанию анонимный).</value>
   </data>
   <data name="SMTPAnonymous.Text" xml:space="preserve">
     <value>Анонимный пользователь</value>
@@ -319,22 +319,22 @@
     <value>NTLM-проверка</value>
   </data>
   <data name="plSMTPUsername.Help" xml:space="preserve">
-    <value>Укажите имя пользователя для доступа к SMTP-серверу</value>
+    <value>Укажите имя пользователя для доступа к SMTP-серверу.</value>
   </data>
   <data name="plSMTPPassword.Help" xml:space="preserve">
-    <value>Укажите пароль к SMTP-серверу</value>
+    <value>Укажите пароль к SMTP-серверу.</value>
   </data>
   <data name="plControlPanel.Text" xml:space="preserve">
     <value>Панель управления:</value>
   </data>
   <data name="plControlPanel.Help" xml:space="preserve">
-    <value>Вы можете указать альтернативную панель управления страницами</value>
+    <value>Вы можете указать альтернативную панель управления страницами.</value>
   </data>
   <data name="plFileExtensions.Help" xml:space="preserve">
-    <value>Укажите доступные для загрузки типы файлов(через запятую)</value>
+    <value>Укажите доступные для загрузки типы файлов(через запятую).</value>
   </data>
   <data name="plSkinUpload.Help" xml:space="preserve">
-    <value>Выберите, будет ли подгрузка тем доступна только администратору хостинга, или может также выполняться также администраторами сайтов</value>
+    <value>Выберите, будет ли подгрузка тем доступна только администратору хостинга, или может также выполняться также администраторами сайтов.</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хост</value>
@@ -343,46 +343,46 @@
     <value>Портал</value>
   </data>
   <data name="plCache.Help" xml:space="preserve">
-    <value>Выберите период времени, в течении которого объекты будут находиться в кэше</value>
+    <value>Выберите период времени, в течении которого объекты будут находиться в кэше.</value>
   </data>
   <data name="plPerformance.Help" xml:space="preserve">
     <value>Выберите способ оптимизации производительности.</value>
   </data>
   <data name="plProxyServer.Help" xml:space="preserve">
-    <value>Укажите адрес прокси-сервера</value>
+    <value>Укажите адрес прокси-сервера.</value>
   </data>
   <data name="plProxyPort.Help" xml:space="preserve">
-    <value>Укажите порт прокси-сервера</value>
+    <value>Укажите порт прокси-сервера.</value>
   </data>
   <data name="plProxyUsername.Help" xml:space="preserve">
-    <value>Укажите имя пользователя прокси-сервера</value>
+    <value>Укажите имя пользователя прокси-сервера.</value>
   </data>
   <data name="plProxyPassword.Help" xml:space="preserve">
-    <value>Укажите пароль к прокси-серверу</value>
+    <value>Укажите пароль к прокси-серверу.</value>
   </data>
   <data name="plWebRequestTimeout.Help" xml:space="preserve">
-    <value>Укажите таймаут для веб-запросов</value>
+    <value>Укажите таймаут для веб-запросов.</value>
   </data>
   <data name="plUsersOnline.Help" xml:space="preserve">
-    <value>Вы можете запретить функцию "кто сейчас на сайте"</value>
+    <value>Вы можете запретить функцию "кто сейчас на сайте".</value>
   </data>
   <data name="plUsersOnlineTime.Help" xml:space="preserve">
-    <value>Укажите размер буфера для функции "кто сейчас на сайте" ( в минутах)</value>
+    <value>Укажите размер буфера для функции "кто сейчас на сайте" ( в минутах).</value>
   </data>
   <data name="FriendlyUrl.Text" xml:space="preserve">
-    <value>Настройка дружественных Url </value>
+    <value>Настройка дружественных URL</value>
   </data>
   <data name="RequestFilter.Text" xml:space="preserve">
     <value>Настройки фильтра запросов</value>
   </data>
   <data name="plEnableRequestFilters.Text" xml:space="preserve">
-    <value>Включить фильтры запросов?</value>
+    <value>Включить фильтры запросов:</value>
   </data>
   <data name="plEnableRequestFilters.Help" xml:space="preserve">
     <value>Включить фильтры запросов.</value>
   </data>
   <data name="plHostPortal.Help" xml:space="preserve">
-    <value>Выберите сайт по умолчанию</value>
+    <value>Выберите сайт по умолчанию.</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Параметры хоста</value>
@@ -404,7 +404,7 @@
 &lt;p&gt;Администратор хоста с помощью данного модуля может настроить все необходимые параметры хоста, применяемые ко всем сайтам.&lt;/p&gt;</value>
   </data>
   <data name="plLogBuffer.Text" xml:space="preserve">
-    <value>Буферизация журнала?</value>
+    <value>Включить буферизацию журнала:</value>
   </data>
   <data name="plLogBuffer.Help" xml:space="preserve">
     <value>Отметьте, если хотите, чтобы новые записи журнала сначала помещались в буфер памяти, а затем по расписанию сохранялись в базе данных. В противном случае новые записи журнала будут сохраняться в базу данных немедленно.</value>
@@ -449,7 +449,7 @@
     <value>Установливает заголовок Cache-Control протокола HTTP для неаутентифицированных пользователей.</value>
   </data>
   <data name="plCacheability.Text" xml:space="preserve">
-    <value>Кэширование аутентифицированных</value>
+    <value>Кэширование аутентифицированных:</value>
   </data>
   <data name="plCacheability.Help" xml:space="preserve">
     <value>Установливает заголовок Cache-Control протокола HTTP для аутентифицированных пользователей.</value>
@@ -467,13 +467,13 @@
     <value>Сервер</value>
   </data>
   <data name="ServerAndNoCache.Text" xml:space="preserve">
-    <value>ServerAndNoCache </value>
+    <value>ServerAndNoCache</value>
   </data>
   <data name="ServerAndPrivate.Text" xml:space="preserve">
-    <value>ServerAndPrivate </value>
+    <value>ServerAndPrivate</value>
   </data>
   <data name="plUpgrade.Text" xml:space="preserve">
-    <value>Проверить обновления?</value>
+    <value>Проверить обновления</value>
   </data>
   <data name="plUpgrade.Help" xml:space="preserve">
     <value>Вы можете просмотреть журнал апгрейда до версии программного обеспечения, выбранной из списка.</value>
@@ -482,22 +482,22 @@
     <value>Никогда</value>
   </data>
   <data name="plAvailable.Text" xml:space="preserve">
-    <value>Возможно обновление?</value>
+    <value>Доступно обновление:</value>
   </data>
   <data name="plAvailable.Help" xml:space="preserve">
-    <value>Показывать этот значок, если вышла новая версия приложения</value>
+    <value>Показывать этот значок, если вышла новая версия приложения.</value>
   </data>
   <data name="plLog.Text" xml:space="preserve">
     <value>Журнал обновлений для версии:</value>
   </data>
   <data name="plLog.Help" xml:space="preserve">
-    <value>Возможность показывать Вам журнал обновления базы данных для конкретной версии</value>
+    <value>Возможность показывать Вам журнал обновления базы данных для конкретной версии.</value>
   </data>
   <data name="cmdRestart.Text" xml:space="preserve">
     <value>Перестартовать приложение</value>
   </data>
   <data name="plAutoSync.Text" xml:space="preserve">
-    <value>Автоматически синхронизировать файловую систему?</value>
+    <value>Автоматически синхронизировать файловую систему:</value>
   </data>
   <data name="plAutoSync.Help" xml:space="preserve">
     <value>Включите это для автоматической синхронизации файловой системы.</value>
@@ -545,7 +545,7 @@
     <value>Введите регулярное выражение для того, чтобы удалять пробельные символы.</value>
   </data>
   <data name="valHostFee.Error" xml:space="preserve">
-    <value>Недопустимая оплата! Должно быть денежным значением!</value>
+    <value>Недопустимая оплата! Должно быть денежным значением.</value>
   </data>
   <data name="LogEmpty.Text" xml:space="preserve">
     <value>Журнал пуст для указанной версии сценария. Это означает, что сценарий выполнился успешно.</value>
@@ -563,7 +563,7 @@
     <value>Включить поддержку AJAX.</value>
   </data>
   <data name="plAJAX.Text" xml:space="preserve">
-    <value>Разрешить AJAX?</value>
+    <value>Разрешить AJAX</value>
   </data>
   <data name="UserRestart.Text" xml:space="preserve">
     <value>Пользователь вызвал перезапуск приложения</value>
@@ -590,13 +590,13 @@
     <value>XHTML 1.0 strict</value>
   </data>
   <data name="plRememberMe.Text" xml:space="preserve">
-    <value>Разрешить "запомнить меня" при входе пользователя?</value>
+    <value>Разрешить "запомнить меня" при входе пользователя:</value>
   </data>
   <data name="plRememberMe.Help" xml:space="preserve">
-    <value>&lt;p&gt;Разрешает флажок "запомнить меня" на элементах управления при регистрации пользователя. Если "запомнить меня" разрешен, то пользователи могут создать cookies, которые будут сохранены для множества посещений.&lt;/p&gt;</value>
+    <value>Разрешает флажок "запомнить меня" на элементах управления при регистрации пользователя. Если "запомнить меня" разрешен, то пользователи могут создать cookies, которые будут сохранены для множества посещений.</value>
   </data>
   <data name="plWebFarm.Text" xml:space="preserve">
-    <value>Это Web-ферма?</value>
+    <value>Это Web-ферма</value>
   </data>
   <data name="valFileExtensions.Error" xml:space="preserve">
     <value>&lt;br/&gt;Расширения имен файлов могут включать только буквы, числа и подчеркивание, разделенные запятыми.</value>
@@ -608,10 +608,10 @@
     <value>Если отмечено, то пользователь хоста будет уведомлен об обновлении по электронной почте.</value>
   </data>
   <data name="plNotifyUpgrade.Text" xml:space="preserve">
-    <value>Уведомлять хост?</value>
+    <value>Уведомлять хост</value>
   </data>
   <data name="plAdminContainer.Help" xml:space="preserve">
-    <value>Выберите служебный контейнер по-умолчанию для всех сайтов этого хоста</value>
+    <value>Выберите служебный контейнер по-умолчанию для всех сайтов этого хоста.</value>
   </data>
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Служебный контейнер:</value>
@@ -626,7 +626,7 @@
     <value>Если отмечено, то используется стандартный файл сценария jQuery. Если выключено, то используется уменьшенная версия, который значительно уменьшает размер javascript файла, но ухудшает удобочитаемость javascript.</value>
   </data>
   <data name="plJQueryDebugVersion.Text" xml:space="preserve">
-    <value>Использовать версию для отладки jQuery?</value>
+    <value>Использовать версию для отладки jQuery</value>
   </data>
   <data name="plJQueryHostUrl.Help" xml:space="preserve">
     <value>Это - полный URL для сценария jQuery. По умолчанию,- это установлено на уменьшенный сценарий последней версии jQuery, который расположен на серверах CDN Google для оптимальной производительности.</value>
@@ -638,7 +638,7 @@
     <value>Если отмечено, то будет использоваться  ассоциированный URL для файла jQuery. Если - нет, то тогда будут использоваться локальные копии файла.</value>
   </data>
   <data name="plJQueryUseHosted.Text" xml:space="preserve">
-    <value>Использовать хост-версию jQuery?</value>
+    <value>Использовать хост-версию jQuery</value>
   </data>
   <data name="plJQueryVersion.Help" xml:space="preserve">
     <value>Идентифицирует строку версии, встроенную в локальный сценарий jQuery.</value>
@@ -650,7 +650,7 @@
     <value>Если отмечено, будут использоваться заданные в настройках библиотек JavaScript адреса CDN. Если сброшено, то будут использоваться локальные копии файлов.</value>
   </data>
   <data name="plEnableCDN.Text" xml:space="preserve">
-    <value>Использовать CDN для библиотек JavaScript?</value>
+    <value>Использовать CDN для библиотек JavaScript:</value>
   </data>
   <data name="HostEmail.Error" xml:space="preserve">
     <value>Недопустимый адрес Email</value>
@@ -662,7 +662,7 @@
     <value>Продукт DotNetNuke:</value>
   </data>
   <data name="plProduct.Help" xml:space="preserve">
-    <value>Используемое Вами приложение DotNetNuke </value>
+    <value>Используемое Вами приложение DotNetNuke</value>
   </data>
   <data name="FrameworkDownLevel.Text" xml:space="preserve">
     <value>Примечание: Вы используете старую версию .NET Framework. Платформа DNN требует использования .NET 4.0 или более новой версии.</value>
@@ -671,7 +671,7 @@
     <value>Поставьте этот флажок, чтобы отобразить сообщение, указывающее, что выполняющаяся версия - Бета-версия.</value>
   </data>
   <data name="plBetaNotice.Text" xml:space="preserve">
-    <value>Сообщать о Бета-версии?</value>
+    <value>Сообщать о Бета-версии:</value>
   </data>
   <data name="plThrowExceptions.Help" xml:space="preserve">
     <value>Отметьте это, чтобы разрешить  перезапуск для исключений ядра, которые происходят из-за недостающих полей в данных, возвращенных из базы данных. Если это не включено, то ошибка будет зарегистрирована в журнале регистрации событий. Если это отмечено, то ошибка будет передана пользователю. Эта установка прежде всего используется для разработчиков, чтобы диагностировать проблемы.</value>
@@ -680,19 +680,19 @@
     <value>Перезапуск CBO исключений:</value>
   </data>
   <data name="plPsWarning.Text" xml:space="preserve">
-    <value>** Предупреждение: состояние постоянного нахождения страницы в памяти может причинить проблемы Ajax**</value>
+    <value>Предупреждение: состояние постоянного нахождения страницы в памяти может вызывать проблемы с Ajax.</value>
   </data>
   <data name="ModuleCacheProvider.Help" xml:space="preserve">
     <value>Выберите  поставщик кэширования модуля по умолчанию. Эта установка может быть переопределена каждым отдельным модулем.</value>
   </data>
   <data name="ModuleCacheProvider.Text" xml:space="preserve">
-    <value>Провайдер кэширования модуля</value>
+    <value>Провайдер кэширования модуля:</value>
   </data>
   <data name="plContentLocalization.Help" xml:space="preserve">
     <value>Отметьте это, чтобы разрешить переход пользователей с текущим языком, позволяя динамическую локализацию портала и контента.</value>
   </data>
   <data name="plContentLocalization.Text" xml:space="preserve">
-    <value>Разрешить локализацию контента?</value>
+    <value>Разрешить локализацию контента:</value>
   </data>
   <data name="PageCacheProvider.Help" xml:space="preserve">
     <value>Выберите поставщика кэширования страниц по умолчанию. Поставщика кэширования нужно включить, устанавливая таймаут кэша на каждой странице.</value>
@@ -704,13 +704,13 @@
     <value>Отметьте этот флаг, чтобы включить в разметку модуля специального класса CSS на основе названия определения модуля. Этот класс может использоваться дизайнерами тем оформления для того, чтобы применять конкретные стили CSS к конкретным типам модулей.</value>
   </data>
   <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
-    <value>Использовать класс CSS пользовательских модулей?</value>
+    <value>Использовать класс CSS пользовательских модулей:</value>
   </data>
   <data name="plEnableContentLocalization.Help" xml:space="preserve">
     <value>Поставьте этот флажок, чтобы разрешить  администраторам сайта локализацию контента для своего сайта.</value>
   </data>
   <data name="plEnableContentLocalization.Text" xml:space="preserve">
-    <value>Разрешить локализацию контента?</value>
+    <value>Разрешить локализацию контента</value>
   </data>
   <data name="SkinPreview.Text" xml:space="preserve">
     <value>Предпросмотр темы и контейнера хостинга</value>
@@ -728,7 +728,7 @@
     <value>Показывает строку версии локального сценария jQuery UI.</value>
   </data>
   <data name="plJQueryUIVersion.Text" xml:space="preserve">
-    <value>Установленная версия jQuery UI </value>
+    <value>Установленная версия jQuery UI:</value>
   </data>
   <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
     <value>Выберите тему и/или контейнер для предпросмотра.</value>
@@ -740,25 +740,25 @@
     <value>Для управления кешем браузера, клиенским ресурсам назначается номер версии. Этот номер увеличивается при установке расширения, обновлении portal.css, а также при сбросе кеша сервера. Номер версии применяется к каждому файлу ресурсов (составному и/или уменьшенному). Вы также можете увеличить номер версии вручную, что заставит браузеры загрузить новые копии ресурсных файлов.</value>
   </data>
   <data name="plCrmVersion.Text" xml:space="preserve">
-    <value>Текущая версия хоста</value>
+    <value>Текущая версия хоста:</value>
   </data>
   <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
     <value>Составные файлы представляют собой комбинацию ресурсов (JavaScript и CSS), они создаются для уменьшения количества запросов от браузера к отдельным файлам на сайте. Их использование значительно увеличивает скорость загрузки страницы.</value>
   </data>
   <data name="plCrmEnableCompositeFiles.Text" xml:space="preserve">
-    <value>Включить составные файлы</value>
+    <value>Включить составные файлы:</value>
   </data>
   <data name="plCrmMinifyCss.Help" xml:space="preserve">
     <value>Уменьшение CSS приведет к уменьшению размера кода CSS путем использования регулярных выражений для удаления комментариев, пустого пространства и неиспользуемых правил. Эта возможность доступна только при включении составных файлов ресурсов.</value>
   </data>
   <data name="plCrmMinifyCss.Text" xml:space="preserve">
-    <value>Сжимать CSS</value>
+    <value>Сжимать CSS:</value>
   </data>
   <data name="plCrmMinifyJs.Help" xml:space="preserve">
     <value>Включение уменьшения JavaScript приведет уменьшению размера кода JavaScript путем использования JSMin. Эта возможность доступна только при включении составных файлов ресурсов.</value>
   </data>
   <data name="plCrmMinifyJs.Text" xml:space="preserve">
-    <value>Сжимать JS</value>
+    <value>Сжимать JS:</value>
   </data>
   <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
     <value>Увеличить версию</value>
@@ -818,10 +818,10 @@
     <value>Хранение журнала</value>
   </data>
   <data name="plLogs.Text" xml:space="preserve">
-    <value>Файлы журнала</value>
+    <value>Файлы журнала:</value>
   </data>
   <data name="plLogs.Help" xml:space="preserve">
-    <value>Список файлов журнала, доступных для просмотра</value>
+    <value>Список файлов журнала, доступных для просмотра.</value>
   </data>
   <data name="SelectLog.Text" xml:space="preserve">
     <value>Выберите файл журнала для просмотра</value>
@@ -836,31 +836,31 @@
     <value>Управление участием</value>
   </data>
   <data name="plResetLinkValidity.Text" xml:space="preserve">
-    <value>Время жизни ссылки для сброса пароля (минут)</value>
+    <value>Время жизни ссылки для сброса пароля (минут):</value>
   </data>
   <data name="plAdminResetLinkValidity.Text" xml:space="preserve">
     <value>Время жизни ссылки для сброса пароля для администраторов (минут)</value>
   </data>
   <data name="plNumberPasswords.Text" xml:space="preserve">
-    <value>Хранить старых паролей</value>
+    <value>Хранить старых паролей:</value>
   </data>
   <data name="plNumberPasswords.Help" xml:space="preserve">
     <value>Установите число старых паролей, хранимых для проверки повторного использования</value>
   </data>
   <data name="plEnableBannedList.Text" xml:space="preserve">
-    <value>Включить список запрещенных паролей</value>
+    <value>Включить список запрещенных паролей:</value>
   </data>
   <data name="plEnableBannedList.Help" xml:space="preserve">
-    <value>Устанавливает, будут ли пароли сравниваться со списком запрещенных паролей</value>
+    <value>Устанавливает, будут ли пароли сравниваться со списком запрещенных паролей.</value>
   </data>
   <data name="plEnableStrengthMeter.Text" xml:space="preserve">
-    <value>Включить проверку силы пароля</value>
+    <value>Включить проверку силы пароля:</value>
   </data>
   <data name="plEnableStrengthMeter.Help" xml:space="preserve">
     <value>Устанавливает, будет ли в окне регистрации показываться индикатор силы пароля</value>
   </data>
   <data name="plEnableIPChecking.Text" xml:space="preserve">
-    <value>Включить проверку адреса IP</value>
+    <value>Включить проверку адреса IP:</value>
   </data>
   <data name="plEnableIPChecking.Help" xml:space="preserve">
     <value>Устанавливает, будет ли адрес IP проверяться в процессе входа пользователя в систему</value>
@@ -869,28 +869,28 @@
     <value>Настройки CDN</value>
   </data>
   <data name="plMsAjaxCdn.Help" xml:space="preserve">
-    <value>Включить CDN для библиотеки Microsoft Ajax?</value>
+    <value>Включить CDN для библиотеки Microsoft Ajax.</value>
   </data>
   <data name="plMsAjaxCdn.Text" xml:space="preserve">
-    <value>Включить CDN для MS Ajax?</value>
+    <value>Включить CDN для MS Ajax:</value>
   </data>
   <data name="plTelerikBasicUrl.Help" xml:space="preserve">
     <value>Устанавливает обычный URL для Telerik CDN, при этом если поле оставлено пустым, будут использоваться файлы на сервере Telerik. Подробнее см. &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;здесь&lt;/a&gt;.</value>
   </data>
   <data name="plTelerikBasicUrl.Text" xml:space="preserve">
-    <value>Адрес CDN для Telerik</value>
+    <value>Адрес CDN для Telerik:</value>
   </data>
   <data name="plTelerikCdn.Help" xml:space="preserve">
-    <value>Использовать настройки CDN для элементов управления Telerik?</value>
+    <value>Использовать настройки CDN для элементов управления Telerik.</value>
   </data>
   <data name="plTelerikCdn.Text" xml:space="preserve">
-    <value>Включить CDN для Telerik?</value>
+    <value>Включить CDN для Telerik:</value>
   </data>
   <data name="plTelerikSecureUrl.Help" xml:space="preserve">
     <value>Устанавливает защищенный URL для Telerik CDN, при этом если поле оставлено пустым, будут использоваться файлы на сервере Telerik. Подробнее см. &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;здесь&lt;/a&gt;.</value>
   </data>
   <data name="plTelerikSecureUrl.Text" xml:space="preserve">
-    <value>Защищенный  адрес CDN для Telerik</value>
+    <value>Защищенный  адрес CDN для Telerik:</value>
   </data>
   <data name="plAsyncTimeout.Help" xml:space="preserve">
     <value>Значение задает время в секундах, по истечении которого асинхронный запрос отменяется, если не был получен ответ. Значение должно быть в диапазоне 90-9999 секунд.</value>
@@ -902,7 +902,7 @@
     <value>Устанавливает, будет ли храниться список недавно использованных паролей и будет ли он использоваться для предотвращения повторного использования одних и тех же паролей.</value>
   </data>
   <data name="plEnablePasswordHistory.Text" xml:space="preserve">
-    <value>Хранить историю паролей?</value>
+    <value>Хранить историю паролей:</value>
   </data>
   <data name="plResetLinkValidity.Help" xml:space="preserve">
     <value>Ссылки для сброса пароля будут действительны в течении заданного количества минут.</value>
@@ -914,7 +914,7 @@
     <value>Ссылки для сброса пароля администратора будут действительны в течении заданного количества минут.</value>
   </data>
   <data name="valAdminResetLink.Error" xml:space="preserve">
-    <value>Время действия ссылки для сброса пароля администратора должно быть больше 0</value>
+    <value>Время действия ссылки для сброса пароля администратора должно быть больше 0.</value>
   </data>
   <data name="AlwaysUse.Text" xml:space="preserve">
     <value>Все URL.</value>
@@ -950,7 +950,7 @@
     <value>URL-адрес хостинга плагина jQuery Migrate:</value>
   </data>
   <data name="lblSearchIndexPath.Help" xml:space="preserve">
-    <value>Путь к папке, в которой хранится поисковый индекс. Этот путь может быть изменен вручную - для этого нужно добавить в таблицу настроек хостинга в базе данных настройку с именем "Search_IndexFolder". Перед этим рекомендуется остановить пул приложения. Содержимое старой папки нужно вручную перенести в новую папк, или же прозвести переиндексирование содержимого.</value>
+    <value>Путь к папке, в которой хранится поисковый индекс. Этот путь может быть изменен вручную - для этого нужно добавить в таблицу настроек хостинга в базе данных настройку с именем "Search_IndexFolder". Перед этим рекомендуется остановить пул приложения. Содержимое старой папки нужно вручную перенести в новую папку, или же прозвести переиндексирование содержимого. </value>
   </data>
   <data name="lblSearchIndexPath.Text" xml:space="preserve">
     <value>Путь к хранилищу поискового индекса:</value>
@@ -975,7 +975,7 @@
     <value>Отмена</value>
   </data>
   <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
-    <value>Сжатие индекса может вызвать значительную нагрузку на процессор, а также временно увеличит объем хранилища индекса вдвое. Сжатие производится краулера поисковой системы и зависит от расписания его запуска. Уверены, что хотите продолжить?</value>
+    <value>Сжатие индекса может вызвать значительную нагрузку на процессор, а также временно увеличит объем хранилища индекса вдвое. Сжатие производится краулером поисковой системы и зависит от расписания его запуска. Уверены, что хотите продолжить?</value>
   </data>
   <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
     <value>Подтвердите сжатие</value>
@@ -1011,7 +1011,7 @@
     <value>Удаленных документов:</value>
   </data>
   <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
-    <value>Дата и время последних изменений индексных файлов поисковой системы</value>
+    <value>Дата и время последних изменений индексных файлов поисковой системы.</value>
   </data>
   <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
     <value>Изменено:</value>
@@ -1029,19 +1029,19 @@
     <value>Продолжить</value>
   </data>
   <data name="valIndexWordMaxLengthCompare.Error" xml:space="preserve">
-    <value>Должно быть целым числом, большим минимальной длины</value>
+    <value>Должно быть целым числом, большим минимальной длины.</value>
   </data>
   <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
-    <value>Укажите минимальную длину слова</value>
+    <value>Укажите минимальную длину слова.</value>
   </data>
   <data name="valIndexWordMinLengthCompare.Error" xml:space="preserve">
-    <value>Должно быть целым числом большим 0</value>
+    <value>Должно быть целым числом большим 0.</value>
   </data>
   <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
-    <value>Укажите минимальную длину слова</value>
+    <value>Укажите минимальную длину слова.</value>
   </data>
   <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
-    <value>Общий объем хранилища поискового индекса</value>
+    <value>Общий объем хранилища поискового индекса.</value>
   </data>
   <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
     <value>Размер индекса:</value>
@@ -1050,7 +1050,7 @@
     <value>Если отмечено, приложение будет работь в так называемом "режиме отладки", в котором различные его части будут формировать более детальную информацию в журналах и т.п. Заметьте, что это может привести к снижению производительности.</value>
   </data>
   <data name="plDebugMode.Text" xml:space="preserve">
-    <value>Режим отладки</value>
+    <value>Режим отладки:</value>
   </data>
   <data name="plImprovementProgram.Help" xml:space="preserve">
     <value>Отметьте, чтобы участвовать в программе улучшения DNN. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt;Подробнее&lt;/a&gt;.</value>
@@ -1062,10 +1062,10 @@
     <value>Эта настройка определяет, будут ли сообщения об ошибках, передаваемые в сроке запроса, отображаться также и на странице.</value>
   </data>
   <data name="plShowCriticalErrors.Text" xml:space="preserve">
-    <value>Показывать критические ошибки на экране?</value>
+    <value>Показывать критические ошибки на экране:</value>
   </data>
   <data name="lblCustomAnalyzer.Help" xml:space="preserve">
-    <value>&lt;p&gt;Если это поле пусто, система будет использовать стандартный анализатор для индексирования содержимого. Если Вы хотите использовать другой анализатор, введите полное имя класса анализатора в это поле.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Примечание:&lt;/b&gt; Если Вы хотите, чтобы существующее содержимое было проиндексировано новым анализатором, Вам нужно перейти на страницу "Админ &gt; Настройки поиска" на каждом сайте, который Вы хотите переиндексировать, и нажать кнопку "Переиндексировать содержимое".&lt;/p&gt;</value>
+    <value>Если это поле пусто, система будет использовать стандартный анализатор для индексирования содержимого. Если Вы хотите использовать другой анализатор, введите полное имя класса анализатора в это поле. Примечание: Если Вы хотите, чтобы существующее содержимое было проиндексировано новым анализатором, Вам нужно перейти на страницу "Админ &gt; Настройки поиска" на каждом сайте, который Вы хотите переиндексировать, и нажать кнопку "Переиндексировать содержимое".</value>
   </data>
   <data name="lblCustomAnalyzer.Text" xml:space="preserve">
     <value>Имя класса анализатора:</value>
@@ -1077,7 +1077,7 @@
     <value>Максимальный размер файла, подгружаемого на сайт. Минимальный размер 12 Мб.</value>
   </data>
   <data name="plMaxUploadSize.Text" xml:space="preserve">
-    <value>Макс. размер подгружаемого файла</value>
+    <value>Макс. размер подгружаемого файла:</value>
   </data>
   <data name="maxUploadSize.Error" xml:space="preserve">
     <value>Максимальный размер подгружаемого файла должен быть между 12 и {0}</value>
@@ -1096,13 +1096,13 @@
     <value>Максимально разрешенное число соединений к данному объекту ServicePoint. Максимальное значение 2147483647. Значение по-умолчанию - 1.</value>
   </data>
   <data name="ConnectionLimitValidation.Text" xml:space="preserve">
-    <value>Только числа от 1 до 2147483647!</value>
+    <value>Только числа от 1 до 2147483647.</value>
   </data>
   <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
-    <value>Только числа от 1 до 2147483647!</value>
+    <value>Только числа от 1 до 2147483647.</value>
   </data>
   <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
-    <value>Число дней, которое должно пройти прежде, чем пользователю нужно будет сменить пароль (если указать значение 0, то срок действия пароля будет неограничен)</value>
+    <value>Число дней, которое должно пройти прежде, чем пользователю нужно будет сменить пароль (если указать значение 0, то срок действия пароля будет неограничен).</value>
   </data>
   <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
     <value>Пароль истекает через (в днях):</value>
@@ -1117,13 +1117,13 @@
     <value>Домен, используемый в случае, если для мастера обновлений установлено требование использования защищенных соединений SSL.</value>
   </data>
   <data name="plSSLDomain.Text" xml:space="preserve">
-    <value>Домен SSL</value>
+    <value>Домен SSL:</value>
   </data>
   <data name="plUpgradeForceSSL.Help" xml:space="preserve">
     <value>Нужно ли принудительно использовать защищенное соединение SSL для запуска и работы мастера обновлений.</value>
   </data>
   <data name="plUpgradeForceSSL.Text" xml:space="preserve">
-    <value>Требовать SSL для мастера обновлений</value>
+    <value>Требовать SSL для мастера обновлений:</value>
   </data>
   <data name="lblAllowLeadingWildcard.Help" xml:space="preserve">
     <value>Включите данную настройку для того, чтобы разрешить поиск внутри слов. Например: по-умолчанию, при поиске по фразе "dnn" будет найдено "dnn8", но не "powerfuldnn", то есть будут найдены слова, начинающиеся с поисковой фразы. Если Вы хотите включить "powerfuldnn" в результаты поиска, Вам нужно включить эту настройку. Примечание: это может оказать негативное влияние на производительность, поэтому включайте эту настройку только в том случае, если это действительно необходимо.</value>

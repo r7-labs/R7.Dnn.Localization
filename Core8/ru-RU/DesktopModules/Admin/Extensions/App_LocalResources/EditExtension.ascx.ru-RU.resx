@@ -106,7 +106,7 @@
     <value>В данном разделе Вы можете задать свойства пакета данной темы.</value>
   </data>
   <data name="DuplicateName.Text" xml:space="preserve">
-    <value>Пакеты должны иметь уникальные имена</value>
+    <value>Пакеты должны иметь уникальные имена.</value>
   </data>
   <data name="Core.Text" xml:space="preserve">
     <value>Ядро</value>
@@ -115,7 +115,7 @@
     <value>Пакет</value>
   </data>
   <data name="plPackageType.Help" xml:space="preserve">
-    <value>Выберите тип языкового пакета, который Вы хотите создать</value>
+    <value>Выберите тип языкового пакета, который Вы хотите создать.</value>
   </data>
   <data name="plPackageType.Text" xml:space="preserve">
     <value>Тип языкового пакета:</value>
@@ -142,6 +142,6 @@
     <value>Настройка параметров расширения {0}</value>
   </data>
   <data name="Controls.Help" xml:space="preserve">
-    <value>Отображает элементы управления определения модуля</value>
+    <value>Отображает элементы управления определения модуля.</value>
   </data>
 </root>
