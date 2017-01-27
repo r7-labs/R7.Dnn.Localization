@@ -100,7 +100,7 @@
     <value>На главную страницу редактора языков</value>
   </data>
   <data name="plSelected.Help" xml:space="preserve">
-    <value>Показывает путь файла, который редактируется в настоящий момент</value>
+    <value>Показывает путь файла, который редактируется в настоящий момент.</value>
   </data>
   <data name="plResources.Help" xml:space="preserve">
     <value>Выберите файл ресурсов для редактирования.</value>
@@ -115,7 +115,7 @@
     <value>Файл ресурсов успешно сохранен.</value>
   </data>
   <data name="cmdView.Text" xml:space="preserve">
-    <value>Просмотр значения по умолчанию </value>
+    <value>Просмотр значения по умолчанию</value>
   </data>
   <data name="plEditingLanguage.Help" xml:space="preserve">
     <value>Это выбранный язык, для которого вы редактируете ресурсы. Чтобы выбрать другой язык, нажмите Отмена.</value>

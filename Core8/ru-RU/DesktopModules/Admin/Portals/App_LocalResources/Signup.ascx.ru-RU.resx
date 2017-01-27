@@ -198,7 +198,7 @@
     <value>Результаты проверки правильности</value>
   </data>
   <data name="plAnswer.Help" xml:space="preserve">
-    <value>Введите ответ на приведенный выше вопрос. </value>
+    <value>Введите ответ на приведенный выше вопрос.</value>
   </data>
   <data name="plAnswer.Text" xml:space="preserve">
     <value>Ответ на секретный вопрос:</value>

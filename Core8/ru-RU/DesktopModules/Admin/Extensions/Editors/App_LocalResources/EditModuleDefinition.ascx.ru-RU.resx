@@ -85,7 +85,7 @@
     <value>Создать папку</value>
   </data>
   <data name="CSharp.Text" xml:space="preserve">
-    <value>C# (Си шарп)</value>
+    <value>C# (C sharp)</value>
   </data>
   <data name="LanguageError.Text" xml:space="preserve">
     <value>Необходимо выбрать язык для элемента управления модуля.</value>
@@ -135,10 +135,10 @@
     <value>Язык:</value>
   </data>
   <data name="ImportControl.ErrorMessage" xml:space="preserve">
-    <value>Возникла непредвиденная ошибка при импорте элемента управления модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации.</value>
+    <value>Возникла непредвиденная ошибка при импорте элемента управления модуля. Пожалуйста, перейдите на страницу просмотра событий сайта для получения подробной информации</value>
   </data>
   <data name="InvalidFilename.Text" xml:space="preserve">
-    <value>Имя файла не может содержать недопустимые символы.</value>
+    <value>Имя файла не может содержать недопустимые символы</value>
   </data>
   <data name="MissingControl.Text" xml:space="preserve">
     <value>Необходимо выбрать имя файла для управления модулем</value>

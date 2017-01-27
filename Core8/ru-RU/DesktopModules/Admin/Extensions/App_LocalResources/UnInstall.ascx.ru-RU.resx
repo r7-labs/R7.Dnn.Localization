@@ -28,18 +28,18 @@
     <value>Удаление пакета</value>
   </data>
   <data name="plDelete.Text" xml:space="preserve">
-    <value>Удалить вместе с файлами?</value>
+    <value>Удалить файлы</value>
   </data>
   <data name="CannotDeleteContainer.ErrorMessage" xml:space="preserve">
     <value>Данный набор контейнеров не может быть удален, поскольку используется в настоящее время.</value>
   </data>
   <data name="CannotDeleteSkin.ErrorMessage" xml:space="preserve">
-    <value>Данный набор тем не может быть удален, поскольку используется в настоящее время</value>
+    <value>Данный набор тем не может быть удален, поскольку используется в настоящее время.</value>
   </data>
   <data name="CannotDeleteProvider.ErrorMessage" xml:space="preserve">
-    <value>Данный поставщик не может быть удален, поскольку все еще используется</value>
+    <value>Данный поставщик не может быть удален, поскольку все еще используется.</value>
   </data>
   <data name="plDelete.Help" xml:space="preserve">
-    <value>Отметьте, чтобы вместе с расширением удалить также все созданные при его установке файлы</value>
+    <value>Отметьте, чтобы вместе с расширением удалить также все созданные при его установке файлы.</value>
   </data>
 </root>

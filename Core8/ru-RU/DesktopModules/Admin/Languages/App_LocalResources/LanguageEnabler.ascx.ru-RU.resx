@@ -37,13 +37,13 @@
     <value>Базовый язык сайта:</value>
   </data>
   <data name="viewTypeLabel.Help" xml:space="preserve">
-    <value>Выбрать способ отображения языков на данной странице</value>
+    <value>Выбрать способ отображения языков на данной странице.</value>
   </data>
   <data name="plEnabled.Help" xml:space="preserve">
-    <value>Ниже Вы можете включить или отключить языки сайта</value>
+    <value>Ниже Вы можете включить или отключить языки сайта.</value>
   </data>
   <data name="Host.Help" xml:space="preserve">
-    <value>Редактировать языковые ресурсы хостинга</value>
+    <value>Редактировать языковые ресурсы хостинга.</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
     <value>Хостинг</value>
@@ -52,13 +52,13 @@
     <value>Это список языков &lt;br /&gt;, доступных для установки.</value>
   </data>
   <data name="Portal.Help" xml:space="preserve">
-    <value>Редактировать языковые ресурсы сайта</value>
+    <value>Редактировать языковые ресурсы сайта.</value>
   </data>
   <data name="Portal.Text" xml:space="preserve">
     <value>Сайт</value>
   </data>
   <data name="System.Help" xml:space="preserve">
-    <value>Редактировать системные языковые ресурсы</value>
+    <value>Редактировать системные языковые ресурсы.</value>
   </data>
   <data name="System.Text" xml:space="preserve">
     <value>Система</value>
@@ -142,7 +142,7 @@
     <value>Системный язык:</value>
   </data>
   <data name="detectBrowserLable.Help" xml:space="preserve">
-    <value>Использовать язык браузера пользователя для определения предпочитаемого языка?</value>
+    <value>Использовать язык браузера пользователя для определения предпочитаемого языка.</value>
   </data>
   <data name="detectBrowserLable.Text" xml:space="preserve">
     <value>Включить определение языка браузера?</value>
@@ -157,7 +157,7 @@
     <value>Уверены, что хотите опубликовать все страницы на языке {0}?</value>
   </data>
   <data name="allowUserCulture.Help" xml:space="preserve">
-    <value>При включении этой настройки, пользователь сможет выбрать язык интерфейса, отличный от языка содержимого, используя панель управления</value>
+    <value>При включении этой настройки, пользователь сможет выбрать язык интерфейса, отличный от языка содержимого, используя панель управления.</value>
   </data>
   <data name="allowUserCulture.Text" xml:space="preserve">
     <value>Разрешить пользователям выбирать язык интерфейса?</value>
@@ -199,7 +199,7 @@
     <value>Добавить недостающие языки</value>
   </data>
   <data name="Page.Help" xml:space="preserve">
-    <value>Выберите страницу для фильтрации представленной ниже информации</value>
+    <value>Выберите страницу для фильтрации представленной ниже информации.</value>
   </data>
   <data name="Page.Text" xml:space="preserve">
     <value>Выберите страницу:</value>
@@ -235,7 +235,7 @@
     <value>Отметить все страницы как переведенные</value>
   </data>
   <data name="NonLocalizedPagesTitle.Text" xml:space="preserve">
-    <value>Не переведенные страницы:</value>
+    <value>Не переведенные страницы: </value>
   </data>
   <data name="Pages.Header" xml:space="preserve">
     <value>Страницы</value>

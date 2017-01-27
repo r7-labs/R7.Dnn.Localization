@@ -100,19 +100,19 @@
     <value>Контейнер сайта:</value>
   </data>
   <data name="plPortalContainer.Help" xml:space="preserve">
-    <value>Выбранный контейнер будет использован для всех модулей сайта, за исключением явно переопределенных на уровне страниц или модулей</value>
+    <value>Выбранный контейнер будет использован для всех модулей сайта, за исключением явно переопределенных на уровне страниц или модулей.</value>
   </data>
   <data name="plAdminSkin.Text" xml:space="preserve">
     <value>Тема для режиме редактирования:</value>
   </data>
   <data name="plAdminSkin.Help" xml:space="preserve">
-    <value>Выбранная тема будет применена ко всем страницам сайта в режиме редактирования (с параметром ctl= в строке адреса). </value>
+    <value>Выбранная тема будет применена ко всем страницам сайта в режиме редактирования (с параметром ctl= в строке адреса).</value>
   </data>
   <data name="plAdminContainer.Text" xml:space="preserve">
     <value>Служебный контейнер:</value>
   </data>
   <data name="plAdminContainer.Help" xml:space="preserve">
-    <value>Выбранный контейнер будет использован для административных модулей Вашего сайта</value>
+    <value>Выбранный контейнер будет использован для административных модулей Вашего сайта.</value>
   </data>
   <data name="plIconSet.Text" xml:space="preserve">
     <value>Набор значков:</value>
@@ -136,7 +136,7 @@
     <value>Дополнительные параметры</value>
   </data>
   <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
-    <value>В этой секции Вы можете установить дополнительные параметры для Вашего сайта</value>
+    <value>В этой секции Вы можете установить дополнительные параметры для Вашего сайта.</value>
   </data>
   <data name="SecuritySettings.Text" xml:space="preserve">
     <value>Параметры безопасности</value>
@@ -145,7 +145,7 @@
     <value>Регистрация пользователей:</value>
   </data>
   <data name="plUserRegistration.Help" xml:space="preserve">
-    <value>Установите порядок регистрации пользователей на данном сайте</value>
+    <value>Установите порядок регистрации пользователей на данном сайте.</value>
   </data>
   <data name="None.Text" xml:space="preserve">
     <value>Нет</value>
@@ -166,7 +166,7 @@
     <value>Страница-заставка:</value>
   </data>
   <data name="plSplashTabId.Help" xml:space="preserve">
-    <value>Страница заставки для данного сайта</value>
+    <value>Страница заставки для данного сайта.</value>
   </data>
   <data name="plHomeTabId.Text" xml:space="preserve">
     <value>Главная страница:</value>
@@ -193,13 +193,13 @@
     <value>Валюта:</value>
   </data>
   <data name="plCurrency.Help" xml:space="preserve">
-    <value>Выберите валюту, используемую на Вашем сайте</value>
+    <value>Выберите валюту, используемую на Вашем сайте.</value>
   </data>
   <data name="plProcessor.Text" xml:space="preserve">
     <value>Обработчик платежей:</value>
   </data>
   <data name="plProcessor.Help" xml:space="preserve">
-    <value>Обработчик платежей, используемый на данном сайте</value>
+    <value>Обработчик платежей, используемый на данном сайте.</value>
   </data>
   <data name="ProcessorWebSite.Text" xml:space="preserve">
     <value>Перейти на сайт обработчика</value>
@@ -292,7 +292,7 @@
     <value>Часовой пояс сайта:</value>
   </data>
   <data name="plTimeZone.Help" xml:space="preserve">
-    <value>Выберите часовой пояс, в котором расположен данный сайт</value>
+    <value>Выберите часовой пояс, в котором расположен данный сайт.</value>
   </data>
   <data name="HostSettings.Text" xml:space="preserve">
     <value>Настройки хостинга</value>
@@ -301,19 +301,19 @@
     <value>Псевдоним сайта:</value>
   </data>
   <data name="plPortalAlias.Help" xml:space="preserve">
-    <value>Псевдоним сайта - это адрес ссылки, по которому он доступен в сети</value>
+    <value>Псевдоним сайта - это адрес ссылки, по которому он доступен в сети.</value>
   </data>
   <data name="plExpiryDate.Text" xml:space="preserve">
     <value>Конечная дата:</value>
   </data>
   <data name="plExpiryDate.Help" xml:space="preserve">
-    <value>Дата истечения хостингового договора для данного сайта</value>
+    <value>Дата истечения хостингового договора для данного сайта.</value>
   </data>
   <data name="plHostFee.Text" xml:space="preserve">
     <value>Стоимость хостинга:</value>
   </data>
   <data name="plHostFee.Help" xml:space="preserve">
-    <value>Стоимость хостинга, взимаемая ежемесячно</value>
+    <value>Стоимость хостинга, взимаемая ежемесячно.</value>
   </data>
   <data name="plHostSpace.Text" xml:space="preserve">
     <value>Дисковое пространство:</value>
@@ -355,7 +355,7 @@
     <value>Домашний каталог:</value>
   </data>
   <data name="plHomeDirectory.Help" xml:space="preserve">
-    <value>Домашний каталог сайта</value>
+    <value>Домашний каталог сайта.</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Настройки сайта</value>
@@ -373,10 +373,10 @@
     <value>&lt;h1&gt;О настройках сайта&lt;/h1&gt;&lt;p&gt;Модуль представляет локальные настройки сайта. Модуль позволяет настроить сайт для наиболее полного соответствия вашим потребностям.&lt;/p&gt;</value>
   </data>
   <data name="RestoreCCSMessage.Text" xml:space="preserve">
-    <value>Вы уверены, что хотиле восстановить файл стилей по-умолчанию (Все изменения в стилевом файле, сделанные к этому моменту, будут утеряны) ? </value>
+    <value>Вы уверены, что хотиле восстановить файл стилей по-умолчанию? Все изменения в стилевом файле, сделанные к этому моменту, будут утеряны.</value>
   </data>
   <data name="valHostFee.Error" xml:space="preserve">
-    <value>Недопустимое значение платы, должно быть денежным значением!</value>
+    <value>Недопустимое значение платы, должно быть денежным значением.</value>
   </data>
   <data name="plPageQuota.Help" xml:space="preserve">
     <value>Максимальное число страниц на сайте.</value>
@@ -418,7 +418,7 @@
     <value>Если вы выше задали URL для SSL, то вам также необходимо задать   стандартный URL для не защищенных соединений.</value>
   </data>
   <data name="lblBanners.Text" xml:space="preserve">
-    <value>&lt;br&gt;Опции банеров были установлены хостинг-провайдером и не могут быть измененены</value>
+    <value>&lt;br&gt;Опции банеров были установлены хостинг-провайдером и не могут быть измененены.</value>
   </data>
   <data name="AddAllModules.Text" xml:space="preserve">
     <value>Добавить все модули</value>
@@ -472,7 +472,7 @@
     <value>Отметьте, чтобы предотвратить добавление скрытых каталогов или каталогов, которые начинаются с подчеркивания, при выполнении синхронизации каталогов.</value>
   </data>
   <data name="plHideSystemFolders.Text" xml:space="preserve">
-    <value>Скрывать системные каталоги</value>
+    <value>Скрывать системные каталоги:</value>
   </data>
   <data name="plRegisterTabId.Help" xml:space="preserve">
     <value>Регистрационная страница пользователей для Вашего сайта.</value>
@@ -493,13 +493,13 @@
     <value>Выберите язык:</value>
   </data>
   <data name="plSearchTabId.Help" xml:space="preserve">
-    <value>Страница, на которой размещен модуль для отображения результатов поиска по сайту</value>
+    <value>Страница, на которой размещен модуль для отображения результатов поиска по сайту.</value>
   </data>
   <data name="plSearchTabId.Text" xml:space="preserve">
     <value>Страница результатов поиска:</value>
   </data>
   <data name="portalAliasModeButtonListLabel.Help" xml:space="preserve">
-    <value>Данная настройка определяет, каким образом сайт будет реагировать на URL-псевдонимы, но не являющиеся псевдонимами по умолчанию. Нет - дополнительных действий не предпринимается. Канонический - URL-псевдоним передается как канонический URL-адрес, Переадресация - происходит переадресация на псевдоним по умолчанию. </value>
+    <value>Данная настройка определяет, каким образом сайт будет реагировать на URL-псевдонимы, но не являющиеся псевдонимами по умолчанию. Нет - дополнительных действий не предпринимается. Канонический - URL-псевдоним передается как канонический URL-адрес, Переадресация - происходит переадресация на псевдоним по умолчанию.</value>
   </data>
   <data name="portalAliasModeButtonListLabel.Text" xml:space="preserve">
     <value>Режим привязки псевдонима сайта:</value>
@@ -526,7 +526,7 @@
     <value>Поставьте флажок, чтобы использовать модальные всплывающие окна в пользовательском интерфейсе.</value>
   </data>
   <data name="enablePopUpsLabel.Text" xml:space="preserve">
-    <value>Разрешить всплывающие окна?</value>
+    <value>Разрешить всплывающие окна:</value>
   </data>
   <data name="Marketing.Text" xml:space="preserve">
     <value>Маркетинг сайта</value>
@@ -544,13 +544,13 @@
     <value>Выберите тему и/или контейнер для предпросмотра.</value>
   </data>
   <data name="valExpiryDate.ErrorMessage" xml:space="preserve">
-    <value>Недопустимая дата завершения</value>
+    <value>Недопустимая дата завершения.</value>
   </data>
   <data name="ClientResourceManagement.Text" xml:space="preserve">
     <value>Управление клиенскими ресурсами</value>
   </data>
   <data name="plEnableCompositeFiles.Text" xml:space="preserve">
-    <value>Включить составные файлы</value>
+    <value>Включить составные файлы:</value>
   </data>
   <data name="plEnableCompositeFiles.Help" xml:space="preserve">
     <value>Составные файлы представляют собой комбинацию ресурсов (JavaScript и CSS), они создаются для уменьшения количества запросов от браузера к отдельным файлам на сайте. Их использование значительно увеличивает скорость загрузки страницы.</value>
@@ -559,7 +559,7 @@
     <value>Это номер версии клиенских ресурсов на Вашем сайте. При изменении этого номера, каждый пользователь будет вынужден загрузить новую версию ресурсных файлов. Не рекомендуется увеличивать номер версии без необходимости.</value>
   </data>
   <data name="plCrmVersion.Text" xml:space="preserve">
-    <value>Версия сайта</value>
+    <value>Версия сайта:</value>
   </data>
   <data name="MessagingSettings.Text" xml:space="preserve">
     <value>Настройки сообщений</value>
@@ -645,13 +645,13 @@
     <value>Включение уменьшения CSS приведет к уменьшению размера кода CSS путем использования регулярных выражений для удаления комментариев, пустого пространства и неиспользуемых правил. Эта возможность доступна только при включении составных файлов ресурсов.</value>
   </data>
   <data name="plMinifyCss.Text" xml:space="preserve">
-    <value>Уменьшать CSS</value>
+    <value>Уменьшать CSS:</value>
   </data>
   <data name="plMinifyJs.Help" xml:space="preserve">
     <value>Включение уменьшения JavaScript приведет уменьшению размера кода JavaScript путем использования JSMin. Эта возможность доступна только при включении составных файлов ресурсов.</value>
   </data>
   <data name="plMinifyJs.Text" xml:space="preserve">
-    <value>Уменьшать JavaScript</value>
+    <value>Уменьшать JavaScript:</value>
   </data>
   <data name="DebugEnabled.Text" xml:space="preserve">
     <value>В настоящее время установлен режим отладки на уровне приложения (в файле web.config). Это означает, что составные файлы ресурсов не будут создаваться вне зависимости от настроек, заданных здесь или на уровне хостинга.</value>
@@ -738,10 +738,10 @@
     <value>Проверка эл. почты:</value>
   </data>
   <data name="Security_UserNameValidation.Help" xml:space="preserve">
-    <value>Добавьте Ваше выражение для проверки правильности введенного имени пользователя. Если Вы изменили это выражение, обновите также сообщение, которое показывается пользователю при вводе некорректного имени - используйте для этого редактор локализации (ресурс SharedResources.resx - Username.RegExError).</value>
+    <value>Добавьте Ваше выражение для проверки правильности введенного имени пользователя. Если Вы изменили это выражение, обновите также сообщение, которое показывается пользователю при вводе некорректного имени - используйте для этого редактор локализации (ресурс SharedResources.resx - Username.RegExError)</value>
   </data>
   <data name="Security_UserNameValidation.Text" xml:space="preserve">
-    <value>Проверка имени пользователя</value>
+    <value>Проверка имени пользователя:</value>
   </data>
   <data name="Custom.Text" xml:space="preserve">
     <value>Другой</value>
@@ -774,7 +774,7 @@
     <value>Ожидать после неудачных попыток входа (в мин.):</value>
   </data>
   <data name="PasswordFormat.Help" xml:space="preserve">
-    <value>Формат пароля</value>
+    <value>Формат пароля.</value>
   </data>
   <data name="PasswordFormat.Text" xml:space="preserve">
     <value>Формат пароля:</value>
@@ -858,7 +858,7 @@
     <value>Переадресация после выхода:</value>
   </data>
   <data name="Security_CaptchaLogin.Help" xml:space="preserve">
-    <value>Указывает, должен ли этот сайт использовать код безопасности для связывания учетных записей, таких как openId, liveId, cardspace.</value>
+    <value>Указывает, должен ли этот сайт использовать код безопасности для связывания учетных записей, таких как openId, liveId, CardSpace</value>
   </data>
   <data name="Security_CaptchaLogin.Text" xml:space="preserve">
     <value>Использовать код безопасности для связывания учетных записей:</value>
@@ -867,13 +867,13 @@
     <value>Отметьте, чтобы использовать код безопасности при восстановлении пароля.</value>
   </data>
   <data name="Security_CaptchaRetrivePassword.Text" xml:space="preserve">
-    <value>Использовать код безопасности при восстановлении пароля</value>
+    <value>Использовать код безопасности при восстановлении пароля:</value>
   </data>
   <data name="Security_CaptchaChangePassword.Help" xml:space="preserve">
-    <value>Отметьте, чтобы использовать код безопасности при смене пароля</value>
+    <value>Отметьте, чтобы использовать код безопасности при смене пароля.</value>
   </data>
   <data name="Security_CaptchaChangePassword.Text" xml:space="preserve">
-    <value>Использовать код безопасности при смене пароля</value>
+    <value>Использовать код безопасности при смене пароля:</value>
   </data>
   <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
     <value>Вы можете потребовать от пользователей обновить свои профили перед входом на сайт, если их профили недействительны.</value>
@@ -897,55 +897,55 @@
     <value>Задает число неудачных попыток ввода пароля до того момента, как учетная запись будет заблокирована. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="MaxInvalidPasswordAttemptsTitle.Text" xml:space="preserve">
-    <value>Макс. число неудачных попыток входа</value>
+    <value>Макс. число неудачных попыток входа:</value>
   </data>
   <data name="MinNonAlphanumericCharactersTitle.Help" xml:space="preserve">
     <value>Задает минимальное число специальных (не буквенно-цифровых) символов в пароле. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="MinNonAlphanumericCharactersTitle.Text" xml:space="preserve">
-    <value>Мин. специальных символов</value>
+    <value>Мин. специальных символов:</value>
   </data>
   <data name="MinPasswordLengthTitle.Help" xml:space="preserve">
     <value>Задает минимальное число символов в пароле. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="MinPasswordLengthTitle.Text" xml:space="preserve">
-    <value>Мин. длина пароля</value>
+    <value>Мин. длина пароля:</value>
   </data>
   <data name="PasswordAttemptWindowTitle.Help" xml:space="preserve">
     <value>Задает длительность блокировки учетной записи после заданного числа неудачных попыток входа. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="PasswordAttemptWindowTitle.Text" xml:space="preserve">
-    <value>Длительность блокировки учетной записи</value>
+    <value>Длительность блокировки учетной записи:</value>
   </data>
   <data name="PasswordFormatTitle.Help" xml:space="preserve">
     <value>Формат хранения пароля будет Clear, Hashed или Encrypted. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="PasswordFormatTitle.Text" xml:space="preserve">
-    <value>Формат хранения пароля</value>
+    <value>Формат хранения пароля:</value>
   </data>
   <data name="PasswordResetEnabledTitle.Help" xml:space="preserve">
     <value>Указывает, может ли пользователь запрашивать сброс пароля. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="PasswordResetEnabledTitle.Text" xml:space="preserve">
-    <value>Сброс пароля разрешен</value>
+    <value>Сброс пароля разрешен:</value>
   </data>
   <data name="PasswordRetrievalEnabledTitle.Help" xml:space="preserve">
     <value>Указывает, может ли пользователь запрашивать получение своего пароля по эл. почте. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="PasswordRetrievalEnabledTitle.Text" xml:space="preserve">
-    <value>Извлечение пароля разрешено</value>
+    <value>Извлечение пароля разрешено:</value>
   </data>
   <data name="PasswordStrengthRegularExpressionTitle.Help" xml:space="preserve">
     <value>Регулярное выражение, используемое для проверки сложности пароля для поставщика аутентификации, указанного в поле Поставщик. Данная настройка может быть изменена только в файле web.config, путем добавления/изменения узла passwordStrengthRegularExpression в AspNetSqlMembershipProvider. Примечание: это проверка на стороне сервера отличается от индикатора силы пароля, появившегося в версии 7.1.0, который только помогает оценить силу пароля, в то время как это выражение (если определено) задает необходимые трабования для новых паролей.</value>
   </data>
   <data name="PasswordStrengthRegularExpressionTitle.Text" xml:space="preserve">
-    <value>Регулярное выражение для силы пароля</value>
+    <value>Регулярное выражение для силы пароля:</value>
   </data>
   <data name="RequiresQuestionAndAnswerTitle.Help" xml:space="preserve">
     <value>Задает, будет ли использоваться секретный вопрос и ответ в процессе регистрации. Данная настройка может быть изменена только в файле web.config.</value>
   </data>
   <data name="RequiresQuestionAndAnswerTitle.Text" xml:space="preserve">
-    <value>Требовать секретный вопрос и ответ</value>
+    <value>Требовать секретный вопрос и ответ:</value>
   </data>
   <data name="MsgSendEmailsNo.Text" xml:space="preserve">
     <value>Нет</value>
@@ -957,22 +957,22 @@
     <value>Отметьте, чтобы скрыть ссылку входа в систему на странице.</value>
   </data>
   <data name="plHideLoginControl.Text" xml:space="preserve">
-    <value>Скрыть вход в систему?</value>
+    <value>Скрыть вход в систему:</value>
   </data>
   <data name="MembershipManagement.Text" xml:space="preserve">
     <value>Управление участием</value>
   </data>
   <data name="plEnableBannedList.Text" xml:space="preserve">
-    <value>Включить список запрещенных паролей</value>
+    <value>Включить список запрещенных паролей:</value>
   </data>
   <data name="plEnableBannedList.Help" xml:space="preserve">
-    <value>Устанавливает, будут ли пароли сравниваться со списком запрещенных паролей</value>
+    <value>Устанавливает, будут ли пароли сравниваться со списком запрещенных паролей.</value>
   </data>
   <data name="plEnableIPChecking.Text" xml:space="preserve">
     <value>Включить проверку адреса IP</value>
   </data>
   <data name="plEnableIPChecking.Help" xml:space="preserve">
-    <value>Устанавливает, будет ли адрес IP проверяться в процессе входа в систему</value>
+    <value>Устанавливает, будет ли адрес IP проверяться в процессе входа в систему.</value>
   </data>
   <data name="CharacterSubListLabel.Help" xml:space="preserve">
     <value>Укажите символ, используемый при объединении URL.</value>
@@ -1020,7 +1020,7 @@
     <value>Уставливает, включено или отключено использование версий файлов для данного сайта.</value>
   </data>
   <data name="plFileVersionEnabled.Text" xml:space="preserve">
-    <value>Включить версии файлов?</value>
+    <value>Включить версии файлов:</value>
   </data>
   <data name="plMaxVersions.Help" xml:space="preserve">
     <value>Задает максимальное количество хранимых версий файла.</value>
@@ -1062,10 +1062,10 @@
     <value>Аутентификация SMTP:</value>
   </data>
   <data name="plSMTPAuthentication.Help" xml:space="preserve">
-    <value>Укажите способ аутентификации сервера SMTP (анонимная по-умолчанию)</value>
+    <value>Укажите способ аутентификации сервера SMTP (анонимная по-умолчанию).</value>
   </data>
   <data name="plSMTPEnableSSL.Help" xml:space="preserve">
-    <value>Используется службами SMTP, которые требуют безопасных соединений (обычно не требуется)</value>
+    <value>Используется службами SMTP, которые требуют безопасных соединений (обычно не требуется).</value>
   </data>
   <data name="plSMTPEnableSSL.Text" xml:space="preserve">
     <value>Включить SSL для SMTP:</value>
@@ -1080,7 +1080,7 @@
     <value>Пароль SMTP:</value>
   </data>
   <data name="plSMTPPassword.Help" xml:space="preserve">
-    <value>Введите пароль для доступа к серверу SMTP</value>
+    <value>Введите пароль для доступа к серверу SMTP.</value>
   </data>
   <data name="plSMTPServer.Help" xml:space="preserve">
     <value>Введите имя (адрес) и порт сервера SMTP, который будет использоваться для отправки эл. почты с данного сайта.</value>
@@ -1110,14 +1110,13 @@
     <value>Вы пытаетесь использовать нестандартный порт SMTP, при этом приложение работает в режиме 'medium trust'. Свяжитесь с Вашим хостинг-провайдером чтобы убедиться, что с данными настройкам приложение будет работать правильно.</value>
   </data>
   <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
-    <value>Вы должны указать email-адрес хоста</value>
+    <value>Вы должны указать email-адрес хоста.</value>
   </data>
   <data name="plMaxIdleTime.Text" xml:space="preserve">
     <value>Макс. время ожидания:</value>
   </data>
   <data name="plMaxIdleTime.Help" xml:space="preserve">
-    <value>Время в миллисекундах, в течение которого соединение, связанное с объектом ServicePoint, будет находиться в состоянии простоя прежде чем будет закрыто и использовано заново другим соединением. Макс. значение 2147483647. Значение по-умолчанию - 0.
-</value>
+    <value>Время в миллисекундах, в течение которого соединение, связанное с объектом ServicePoint, будет находиться в состоянии простоя прежде чем будет закрыто и использовано заново другим соединением. Макс. значение 2147483647. Значение по-умолчанию - 0.</value>
   </data>
   <data name="plConnectionLimit.Text" xml:space="preserve">
     <value>Макс. соединений:</value>
@@ -1126,22 +1125,22 @@
     <value>Максимально разрешенное число соединений к данному объекту ServicePoint. Максимальное значение 2147483647. Значение по-умолчанию - 1.</value>
   </data>
   <data name="ConnectionLimitValidation.Text" xml:space="preserve">
-    <value>Только числа от 1 до 2147483647!</value>
+    <value>Только числа от 1 до 2147483647.</value>
   </data>
   <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
-    <value>Только числа от 1 до 2147483647!</value>
+    <value>Только числа от 1 до 2147483647.</value>
   </data>
   <data name="pl404TabId.Help" xml:space="preserve">
     <value>Страница 404 для Вашего сайта. Пользователи будут перенаправлены на эту страницу в том случае, если запрошенный ими URL не найден на сайте.</value>
   </data>
   <data name="pl404TabId.Text" xml:space="preserve">
-    <value>Страница ошибки 404</value>
+    <value>Страница ошибки 404:</value>
   </data>
   <data name="pl500TabId.Help" xml:space="preserve">
     <value>Страница 500 для Вашего сайта. Пользователи будут перенаправлены на эту страницу, если запрошенный ими URL привел к неожиданной ошибке.</value>
   </data>
   <data name="pl500TabId.Text" xml:space="preserve">
-    <value>Страница ошибки 500</value>
+    <value>Страница ошибки 500:</value>
   </data>
   <data name="ContainsDuplicateAddresses.Text" xml:space="preserve">
     <value>База данных пользователей сайта содержит повторяющиеся адреса эл. почты. Если вы хотите использовать адреса эл. почты в качестве имен пользователей, то нужно сначала исправить эти записи.</value>
@@ -1153,19 +1152,19 @@
     <value>Введите любые мета-теги, которые должны отображаться внутри раздела "HEAD" в коде HTML страницы.</value>
   </data>
   <data name="plPageHeadText.Text" xml:space="preserve">
-    <value>Мета-теги заголовка страницы</value>
+    <value>Мета-теги заголовка страницы:</value>
   </data>
   <data name="plInjectModuleHyperLink.Help" xml:space="preserve">
     <value>Вставлять пустую ссылку вверху кода модуля с именем, равным moduleid.</value>
   </data>
   <data name="plInjectModuleHyperLink.Text" xml:space="preserve">
-    <value>Вставлять ссылки модулей</value>
+    <value>Вставлять ссылки модулей:</value>
   </data>
   <data name="plAddCompatibleHttpHeader.Help" xml:space="preserve">
     <value>Добавлять X-UA-Compatible в заголовки ответов HTTP (например: IE=edge)</value>
   </data>
   <data name="plAddCompatibleHttpHeader.Text" xml:space="preserve">
-    <value>Добавлять X-UA-Compatible в заголовки HTTP</value>
+    <value>Добавлять X-UA-Compatible в заголовки HTTP:</value>
   </data>
   <data name="plOAuthSitesettingsClient.Help" xml:space="preserve">
     <value>Идентификатор клиента OAuth для использования третьими лицами.</value>

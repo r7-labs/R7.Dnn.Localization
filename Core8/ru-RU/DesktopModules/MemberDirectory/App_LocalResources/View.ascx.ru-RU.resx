@@ -82,7 +82,7 @@
     <value>Обновить результаты</value>
   </data>
   <data name="SearchError.Text" xml:space="preserve">
-    <value>Поисковая фраза может содержать только буквы, цифры или пробелы</value>
+    <value>Поисковая фраза может содержать только буквы, цифры или пробелы.</value>
   </data>
   <data name="Attachments.Text" xml:space="preserve">
     <value>Вложения</value>

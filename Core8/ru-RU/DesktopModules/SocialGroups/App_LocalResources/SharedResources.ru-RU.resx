@@ -31,7 +31,7 @@
     <value>документы</value>
   </data>
   <data name="GroupName.Required" xml:space="preserve">
-    <value>Укажите имя группы</value>
+    <value>Укажите имя группы. </value>
   </data>
   <data name="GroupName.Text" xml:space="preserve">
     <value>Имя группы</value>
@@ -149,13 +149,13 @@
     <value>Создать новую группу</value>
   </data>
   <data name="GroupIdNotFound.Text" xml:space="preserve">
-    <value>Мы не смогли обнаружить запрошенную вами группу.</value>
+    <value>Мы не смогли обнаружить запрошенную вами группу. </value>
   </data>
   <data name="NoGroupsFound.Text" xml:space="preserve">
     <value>Группы не найдены.</value>
   </data>
   <data name="Sample_RoleDescription.Text" xml:space="preserve">
-    <value>Это описание группы. Эта группа не существует, но Вы видите это потому, что настраиваете модуль группы в первый раз, либо Вы являетесь администратором и перешли на эту страницу без указания id группы. </value>
+    <value>Это описание группы. Эта группа не существует, но Вы видите это потому, что настраиваете модуль группы в первый раз, либо Вы являетесь администратором и перешли на эту страницу без указания id группы.</value>
   </data>
   <data name="Sample_RoleName.Text" xml:space="preserve">
     <value>Социальная группа</value>
@@ -212,7 +212,7 @@
     <value>Автоматическая конфигурация</value>
   </data>
   <data name="SearchButton.Text" xml:space="preserve">
-    <value>Поиск:</value>
+    <value>Поиск</value>
   </data>
   <data name="GroupSearch.Required" xml:space="preserve">
     <value>Введите поисковую фразу.</value>

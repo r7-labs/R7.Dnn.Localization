@@ -67,7 +67,7 @@
     <value>Вы можете переименовать созданный пакет ресурсов. Заметьте, что часть имени будет задана автоматически.</value>
   </data>
   <data name="Success.Text" xml:space="preserve">
-    <value>Языковой пакет (или пакеты) был создан и помещен в каталог {0}/Install/Language</value>
+    <value>Языковой пакет (или пакеты) был создан и помещен в каталог {0}/Install/Language.</value>
   </data>
   <data name="Failure.Text" xml:space="preserve">
     <value>Вы должны создать файлы ресурсов прежде, чем сможете создать языковой пакет.</value>

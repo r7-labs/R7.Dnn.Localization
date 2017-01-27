@@ -43,7 +43,7 @@
     <value>Укажите дату, когда назначение роли пользователю должно быть автоматически отменено (необязательное поле). Пустое значение соответствует неограниченному сроку действия роли.</value>
   </data>
   <data name="SendNotification.Text" xml:space="preserve">
-    <value>Отправить уведомление?</value>
+    <value>Отправить уведомление</value>
   </data>
   <data name="cmdAdd.Text" xml:space="preserve">
     <value>Добавить роль</value>
@@ -52,7 +52,7 @@
     <value>Недопустимая дата завершения</value>
   </data>
   <data name="RoleRemoveError.Text" xml:space="preserve">
-    <value>Вы не можете удалить роль администратора сайта или общую роль, в которую включены все зарегистрированные пользователи</value>
+    <value>Вы не можете удалить роль администратора сайта или общую роль, в которую включены все зарегистрированные пользователи.</value>
   </data>
   <data name="ControlTitle_user roles.Text" xml:space="preserve">
     <value>Роли пользователя</value>
@@ -86,7 +86,7 @@
     <value>Недопустимая дата начала</value>
   </data>
   <data name="valDates.Text" xml:space="preserve">
-    <value>Дата окончания срока действия должна быть больше, чем дата вступления в силу</value>
+    <value>Дата окончания срока действия должна быть больше, чем дата вступления в силу.</value>
   </data>
   <data name="UpdateRole.Text" xml:space="preserve">
     <value>Изменить роль пользователя</value>

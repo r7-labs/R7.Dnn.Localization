@@ -22,7 +22,7 @@
     <value>Редактировать язык</value>
   </data>
   <data name="languageLabel.Help" xml:space="preserve">
-    <value>Выберите язык</value>
+    <value>Выберите язык.</value>
   </data>
   <data name="languageLabel.Text" xml:space="preserve">
     <value>Язык:</value>

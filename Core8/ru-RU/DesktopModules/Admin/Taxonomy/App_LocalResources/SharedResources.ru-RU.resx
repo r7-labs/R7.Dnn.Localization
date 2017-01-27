@@ -19,13 +19,13 @@
     <value>Описание</value>
   </data>
   <data name="Description.ToolTip" xml:space="preserve">
-    <value>Описание словаря</value>
+    <value>Описание словаря.</value>
   </data>
   <data name="Hierarchy.Text" xml:space="preserve">
     <value>Древовидный</value>
   </data>
   <data name="Name.Required" xml:space="preserve">
-    <value>Укажите имя словаря</value>
+    <value>Укажите имя словаря.</value>
   </data>
   <data name="Name.Text" xml:space="preserve">
     <value>Название</value>

@@ -34,16 +34,16 @@
     <value>Расширенные настройки</value>
   </data>
   <data name="plAllTabs.Text" xml:space="preserve">
-    <value>Показывать на всех страницах?</value>
+    <value>Показывать на всех страницах</value>
   </data>
   <data name="plAllTabs.Help" xml:space="preserve">
-    <value>Отметьте этот флаг, если нужно, чтобы данный модуль отображался на всех страницах сайта в таком же расположении</value>
+    <value>Отметьте этот флаг, если нужно, чтобы данный модуль отображался на всех страницах сайта в таком же расположении.</value>
   </data>
   <data name="plVisibility.Text" xml:space="preserve">
     <value>Показывать:</value>
   </data>
   <data name="plVisibility.Help" xml:space="preserve">
-    <value>Выберите для этого модуля по умолчанию режим видимости (показывать или нет)</value>
+    <value>Выберите для этого модуля по умолчанию режим видимости (показывать или нет).</value>
   </data>
   <data name="plTab.Text" xml:space="preserve">
     <value>Переместить на страницу:</value>
@@ -55,43 +55,43 @@
     <value>Текст перед:</value>
   </data>
   <data name="plHeader.Help" xml:space="preserve">
-    <value>Укажите текст, который будет выведен перед содержимым модуля</value>
+    <value>Укажите текст, который будет выведен перед содержимым модуля.</value>
   </data>
   <data name="plFooter.Text" xml:space="preserve">
     <value>Текст после:</value>
   </data>
   <data name="plFooter.Help" xml:space="preserve">
-    <value>Введите текст, который будет выведен после содержимого модуля</value>
+    <value>Введите текст, который будет выведен после содержимого модуля.</value>
   </data>
   <data name="plIcon.Text" xml:space="preserve">
     <value>Значок:</value>
   </data>
   <data name="plIcon.Help" xml:space="preserve">
-    <value>Выберите значок для модуля, который будет отображаться в заголовке</value>
+    <value>Выберите значок для модуля, который будет отображаться в заголовке.</value>
   </data>
   <data name="plAlign.Text" xml:space="preserve">
     <value>Выравнивание:</value>
   </data>
   <data name="plAlign.Help" xml:space="preserve">
-    <value>Выберите тип выравнивания модуля на панели</value>
+    <value>Выберите тип выравнивания модуля на панели.</value>
   </data>
   <data name="plColor.Text" xml:space="preserve">
     <value>Цвет:</value>
   </data>
   <data name="plColor.Help" xml:space="preserve">
-    <value>Укажите цвет для этого модуля</value>
+    <value>Укажите цвет для этого модуля.</value>
   </data>
   <data name="plBorder.Text" xml:space="preserve">
     <value>Ширина рамки:</value>
   </data>
   <data name="plBorder.Help" xml:space="preserve">
-    <value>Укажите ширину рамки для модуля в пикселах</value>
+    <value>Укажите ширину рамки для модуля в пикселах.</value>
   </data>
   <data name="plModuleContainer.Text" xml:space="preserve">
     <value>Контейнер модуля:</value>
   </data>
   <data name="plModuleContainer.Help" xml:space="preserve">
-    <value>Выберите контейнер для этого модуля (для добавления новых контейнеров используйте Управление файлами)</value>
+    <value>Выберите контейнер для этого модуля (для добавления новых контейнеров используйте Управление файлами).</value>
   </data>
   <data name="plPermissions.Text" xml:space="preserve">
     <value>Разрешения:</value>
@@ -103,7 +103,7 @@
     <value>Время кэширования (сек):</value>
   </data>
   <data name="plCacheTime.Help" xml:space="preserve">
-    <value>Укажите время хранения содержимого этого модуля в кэше</value>
+    <value>Укажите время хранения содержимого этого модуля в кэше.</value>
   </data>
   <data name="plStartDate.Text" xml:space="preserve">
     <value>Начало публикации:</value>
@@ -124,13 +124,13 @@
     <value>Уникальный идентификатор этого модуля на странице. Может использоваться при вызове методов WEB API для задания контекста страницы или модуля.</value>
   </data>
   <data name="plDefault.Text" xml:space="preserve">
-    <value>По умолчанию для новых модулей?</value>
+    <value>Использовать по умолчанию</value>
   </data>
   <data name="plDefault.Help" xml:space="preserve">
     <value>Отметьте этот флаг, если нужно, чтобы настройки этого модуля на текущей странице страницы стали параметрами по-умолчанию для всех вновь добавляемых модулей. Опция доступна только администраторам сайта и хостинга.</value>
   </data>
   <data name="plAllModules.Text" xml:space="preserve">
-    <value>Применить ко всем модулям?</value>
+    <value>Применить ко всем модулям</value>
   </data>
   <data name="plAllModules.Help" xml:space="preserve">
     <value>Отметьте, если хотите, чтобы настройки этого модуля на текущей странице были применены ко всем существующим модулям сайта. Опция доступна только администраторам сайта и хостинга.</value>
@@ -151,55 +151,55 @@
     <value>Свойства модуля</value>
   </data>
   <data name="plDisplayTitle.Text" xml:space="preserve">
-    <value>Показывать контейнер?</value>
+    <value>Показывать контейнер</value>
   </data>
   <data name="plDisplayTitle.Help" xml:space="preserve">
     <value>Выберите эту опцию, если нужно, чтобы отображался контейнер модуля.</value>
   </data>
   <data name="plDisplaySyndicate.Text" xml:space="preserve">
-    <value>Разрешить публичный экспорт?</value>
+    <value>Разрешить публичный экспорт</value>
   </data>
   <data name="plDisplayPrint.Help" xml:space="preserve">
-    <value>Отметьте этот флаг, если хотите разрешить печать содержимого данного модуля</value>
+    <value>Отметьте этот флаг, если хотите разрешить печать содержимого данного модуля.</value>
   </data>
   <data name="plDisplaySyndicate.Help" xml:space="preserve">
-    <value>Отметьте, если хотите разрешить для этого модуля функцию публичного экпорта в формате RSS</value>
+    <value>Отметьте, если хотите разрешить для этого модуля функцию публичного экпорта в формате RSS.</value>
   </data>
   <data name="plDisplayPrint.Text" xml:space="preserve">
-    <value>Разрешить печать?</value>
+    <value>Разрешить печать</value>
   </data>
   <data name="valStartDate.ErrorMessage" xml:space="preserve">
-    <value>Неверная дата начала</value>
+    <value>Неверная дата начала.</value>
   </data>
   <data name="valEndDate.ErrorMessage" xml:space="preserve">
-    <value>Недопустимая дата окончания</value>
+    <value>Недопустимая дата окончания.</value>
   </data>
   <data name="valCacheTime.ErrorMessage" xml:space="preserve">
-    <value>Недопустимое время кэширования</value>
+    <value>Недопустимое время кэширования.</value>
   </data>
   <data name="ModuleHelp.Text" xml:space="preserve">
     <value>&lt;h1&gt;Настройки модуля&lt;/h1&gt;&lt;p&gt;Администраторы могут управлять свойствами экземпляра модуля, размещенного на странице. Здесь можно установить различные характеристики модуля, такие как свойства содержимого, разрешения и параметры вывода на экран.&lt;/p&gt;</value>
   </data>
   <data name="valBorder.ErrorMessage" xml:space="preserve">
-    <value>Недопустимый параметр рамки (должен быть целым числом в пределах от 0 до 9)</value>
+    <value>Недопустимый параметр рамки (должен быть целым числом в пределах от 0 до 9).</value>
   </data>
   <data name="valEndDate2.ErrorMessage" xml:space="preserve">
-    <value>Дата окончания публикации должна быть позже даты начала</value>
+    <value>Дата окончания публикации должна быть позже даты начала.</value>
   </data>
   <data name="plNewTabs.Help" xml:space="preserve">
     <value>Отметьте это флаг, чтобы разрешить добавление этого модуля только на новые страницы. Опция доступна только администраторам сайта и хостинга.</value>
   </data>
   <data name="plNewTabs.Text" xml:space="preserve">
-    <value>Только на новых страницах?</value>
+    <value>Только на новых страницах</value>
   </data>
   <data name="plWebSlice.Help" xml:space="preserve">
-    <value>Отметьте этот флаг, чтобы сделать этот модуль веб-фрагментом IE8</value>
+    <value>Отметьте этот флаг, чтобы сделать этот модуль веб-фрагментом IE8.</value>
   </data>
   <data name="plWebSlice.Text" xml:space="preserve">
-    <value>Веб-фрагмент?</value>
+    <value>Веб-фрагмент</value>
   </data>
   <data name="plWebSliceExpiry.Help" xml:space="preserve">
-    <value>Введите дату окончания срока действия веб-фрагмента. Если оставить это поле пустым, в качестве этой даты будет использована дата окончания публикации модуля</value>
+    <value>Введите дату окончания срока действия веб-фрагмента. Если оставить это поле пустым, в качестве этой даты будет использована дата окончания публикации модуля.</value>
   </data>
   <data name="plWebSliceExpiry.Text" xml:space="preserve">
     <value>Истечение срока действия веб-фрагмента:</value>
@@ -211,7 +211,7 @@
     <value>Заголовок веб-фрагмента:</value>
   </data>
   <data name="plWebSliceTTL.Help" xml:space="preserve">
-    <value>Введите время активности (TTL) данного веб-фрагмента в минутах. Если оставить поле пустым, будет использоваться время кеширования (переведенное в минуты)</value>
+    <value>Введите время активности (TTL) данного веб-фрагмента в минутах. Если оставить поле пустым, будет использоваться время кеширования (переведенное в минуты).</value>
   </data>
   <data name="plWebSliceTTL.Text" xml:space="preserve">
     <value>Время активности веб-фрагмента:</value>
@@ -220,7 +220,7 @@
     <value>Неверная дата истечения срока действия</value>
   </data>
   <data name="valWebSliceTTL.ErrorMessage" xml:space="preserve">
-    <value>Неверное время активности веб-фрагмента - значение должно быть целым числом</value>
+    <value>Неверное время активности веб-фрагмента - значение должно быть целым числом.</value>
   </data>
   <data name="InstalledOn.Text" xml:space="preserve">
     <value>Модуль добавлен на следующие страницы:</value>
@@ -262,7 +262,7 @@
     <value>Очистить кеш этого модуля на всех страницах</value>
   </data>
   <data name="lblCachedItemCount.Text" xml:space="preserve">
-    <value>Текущее число кеша: {0} записей для этого модуля на странице</value>
+    <value>Текущее число кеша: {0} записей для этого модуля на странице.</value>
   </data>
   <data name="CacheDurationWarning.Text" xml:space="preserve">
     <value>Содержимое этого модуля не рекомендуется кешировать (выберите Не указан в списке Поставщик кеширования). Включение кеширования может привести к отображению устаревших или некорректных данных.</value>
@@ -283,13 +283,13 @@
     <value>Скрыть рамку администратора</value>
   </data>
   <data name="cultureLabel.Help" xml:space="preserve">
-    <value>Культура (язык) данного модуля</value>
+    <value>Культура (язык) данного модуля.</value>
   </data>
   <data name="cultureLabel.Text" xml:space="preserve">
     <value>Культура:</value>
   </data>
   <data name="defaultCultureLabel.Help" xml:space="preserve">
-    <value>Нажмите эту сслыку для просмотра исходной версии данного модуля - в культуре по-умолчанию</value>
+    <value>Нажмите эту сслыку для просмотра исходной версии данного модуля - в культуре по-умолчанию.</value>
   </data>
   <data name="defaultCultureLabel.Text" xml:space="preserve">
     <value>Культура по умолчанию:</value>
@@ -346,19 +346,19 @@
     <value>Эта опция контролирует, будет ли модуль индексироваться поисковыми роботами.</value>
   </data>
   <data name="AllowIndexLabel.Text" xml:space="preserve">
-    <value>Разрешить индексирование?</value>
+    <value>Разрешить индексирование</value>
   </data>
   <data name="isShareableLabel.Help" xml:space="preserve">
     <value>Отметьте флаг, чтобы позволить совместное использование этого модуля на различных сайтах хостинга.</value>
   </data>
   <data name="isShareableLabel.Text" xml:space="preserve">
-    <value>Совместно используемый?</value>
+    <value>Совместно используемый</value>
   </data>
   <data name="isShareableViewOnlyLabel.Help" xml:space="preserve">
     <value>Отметьте этот флаг, чтобы ограничить совместное использование только в режиме просмотра.</value>
   </data>
   <data name="isShareableViewOnlyLabel.Text" xml:space="preserve">
-    <value>Только просмотр?</value>
+    <value>Только просмотр</value>
   </data>
   <data name="MonikerExists.Text" xml:space="preserve">
     <value>Введенное значение псевдонима модуля уже существует; оно должно быть уникальным для сайта.</value>

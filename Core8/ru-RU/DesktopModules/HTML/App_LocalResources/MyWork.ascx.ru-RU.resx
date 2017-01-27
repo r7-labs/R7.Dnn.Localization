@@ -28,7 +28,7 @@
     <value>Следующее содержимое требует проверки перед публикацией:</value>
   </data>
   <data name="lblNoRecords.Text" xml:space="preserve">
-    <value>Нет требующего внимания содержимого, связанного с вашей учетной записью.</value>
+    <value>Нет требующего внимания содержимого, связанного с вашей учетной записью. </value>
   </data>
   <data name="Page.Header" xml:space="preserve">
     <value>Страница</value>

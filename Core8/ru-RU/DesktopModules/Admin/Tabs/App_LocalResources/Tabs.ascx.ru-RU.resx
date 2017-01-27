@@ -16,10 +16,10 @@
     <value>Добавить страницы</value>
   </data>
   <data name="CanNotDeleteHomeTab.Text" xml:space="preserve">
-    <value>Нельзя удалить главную страницу сайта!</value>
+    <value>Нельзя удалить главную страницу сайта.</value>
   </data>
   <data name="CanNotDeleteSpecialTab.Text" xml:space="preserve">
-    <value>Это специальная страница, и ее нельзя удалить!</value>
+    <value>Это специальная страница, и ее нельзя удалить.</value>
   </data>
   <data name="Collapse.Text" xml:space="preserve">
     <value>Свернуть все</value>
@@ -37,7 +37,7 @@
     <value>Раскрыть все</value>
   </data>
   <data name="InvalidTabName.Text" xml:space="preserve">
-    <value>Недопустимый заголовок страницы {0}!</value>
+    <value>Недопустимый заголовок страницы {0}.</value>
   </data>
   <data name="lblDisabled.Text" xml:space="preserve">
     <value>Отключена</value>
@@ -223,10 +223,10 @@
     <value>Выбранное имя страницы уже используется другой страницей на том же уровне в этом разделе.</value>
   </data>
   <data name="TabCreated.Text" xml:space="preserve">
-    <value>Создана страница {0}</value>
+    <value>Страница {0} создана</value>
   </data>
   <data name="TabDeleted.Text" xml:space="preserve">
-    <value>Удалена страница {0}</value>
+    <value>Страница {0} удалена</value>
   </data>
   <data name="TabHidden.Text" xml:space="preserve">
     <value>Страница {0} скрыта в меню</value>
@@ -235,10 +235,10 @@
     <value>Страница {0} показана в меню</value>
   </data>
   <data name="TabEnabled.Text" xml:space="preserve">
-    <value>Включена страница {0}</value>
+    <value>Страница {0} включена</value>
   </data>
   <data name="TabDisabled.Text" xml:space="preserve">
-    <value>Отключена страница {0}</value>
+    <value>Страница {0} отключена</value>
   </data>
   <data name="TabMadeHome.Text" xml:space="preserve">
     <value>Страница {0} сделана главной</value>
@@ -307,7 +307,7 @@
     <value>Вы можете выбрать, следует ли показывать страницу в меню сайта или нет. Если страница не включена в меню, попасть на нее по-прежнему можно, указав URL страницы в адресной строке браузера.</value>
   </data>
   <data name="valName.ErrorMessage" xml:space="preserve">
-    <value>Укажите имя страницы</value>
+    <value>Укажите имя страницы.</value>
   </data>
   <data name="bulkPagesLabel.Text" xml:space="preserve">
     <value>Страницы:</value>
@@ -319,13 +319,13 @@
     <value>Нельзя добавить эту страницу, поскольку будет превышена установленная квота на количество страниц для данного сайта. Свяжитесь с администратором хостинга относительно увеличения квоты на количество страниц.</value>
   </data>
   <data name="valRefresh.ErrorMessage" xml:space="preserve">
-    <value>Неверное число</value>
+    <value>Неверное число.</value>
   </data>
   <data name="valPriority.ErrorMessage" xml:space="preserve">
-    <value>Неверное значение важности страницы</value>
+    <value>Неверное значение важности страницы.</value>
   </data>
   <data name="valPriorityRequired.ErrorMessage" xml:space="preserve">
-    <value>Укажите важность страницы</value>
+    <value>Укажите важность страницы.</value>
   </data>
   <data name="lblAllowIndex.Help" xml:space="preserve">
     <value>Данная настройка определяет, должна ли страница индексироваться поисковыми роботами. Для это используется значения INDEX/NOINDEX мета-тега ROBOTS.</value>

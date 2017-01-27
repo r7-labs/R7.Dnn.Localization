@@ -25,7 +25,7 @@
     <value>Продолжить</value>
   </data>
   <data name="Confirm.Text" xml:space="preserve">
-    <value>Подтвердите пароль:</value>
+    <value>Подтвердите пароль</value>
   </data>
   <data name="DatabaseAdvanced.Text" xml:space="preserve">
     <value>Другой</value>
@@ -110,9 +110,7 @@
   <data name="IntroDetail.Text" xml:space="preserve">
     <value>&lt;p&gt;Вас приветствует Мастер Установки DotNetNuke. Этот мастер проведет Вас через весь процесс установки Вашего DotNetNuke приложения.&lt;/p&gt;
 &lt;p&gt;Вы можете перемещаться между страницами Мастера с помощью кнопок Далее и Назад. На некоторых страницах присутствует кнопка "Проверка ...", нажатие которой позволяет протестировать настройки и увидеть эффект от проведенных изменений перед тем, как двигаться дальше.&lt;/p&gt;
-&lt;p&gt;Первый шаг - выбор метода и языка установки.&lt;/p&gt;
-
-</value>
+&lt;p&gt;Первый шаг - выбор метода и языка установки.&lt;/p&gt;</value>
   </data>
   <data name="IsAbleToPerformDatabaseActionsCheck.Text" xml:space="preserve">
     <value>Проверяем возможность пользователя базы даннных осуществлять необходимые действия</value>
@@ -127,7 +125,7 @@
     <value>DotNetNuke требует для своей работы .net 4.0 или выше</value>
   </data>
   <data name="IsValidSqlServerVersionCheck.Text" xml:space="preserve">
-    <value>Проверяем версию базы данных. Для работы требуется SQL Server 2008 Express или полная версия данного продукта.</value>
+    <value>Проверяем версию базы данных. Для работы требуется SQL Server 2008 Express или полная версия данного продукта</value>
   </data>
   <data name="IsValidSqlServerVersion.Text" xml:space="preserve">
     <value>DotNetNuke требует для своей работы SQL 2008 (express или полную версию)</value>
@@ -136,7 +134,7 @@
     <value>Язык</value>
   </data>
   <data name="Password.Text" xml:space="preserve">
-    <value>Пароль:</value>
+    <value>Пароль</value>
   </data>
   <data name="RequiresFileOrDatabase.Text" xml:space="preserve">
     <value>Требуется запись File или Database в узле connection файла DotNetNuke.Install.Config</value>
@@ -151,7 +149,7 @@
     <value>Шаг {0} - неудачно</value>
   </data>
   <data name="UserName.Text" xml:space="preserve">
-    <value>Имя пользователя:</value>
+    <value>Имя пользователя</value>
   </data>
   <data name="WebsiteInfo.Text" xml:space="preserve">
     <value>Информация о сайте</value>
@@ -160,7 +158,7 @@
     <value>Имя сайта</value>
   </data>
   <data name="WebsiteTemplate.Text" xml:space="preserve">
-    <value>Шаблон</value>
+    <value>Шаблон </value>
   </data>
   <data name="LanguageDutch.Text" xml:space="preserve">
     <value>Голландский</value>
@@ -277,13 +275,13 @@
     <value>Готово</value>
   </data>
   <data name="InstallingDataBaseScriptStep.Text" xml:space="preserve">
-    <value>Устанавливаем сценарий базы данных</value>
+    <value>Устанавливаем сценарий базы данных </value>
   </data>
   <data name="InstallingMembershipDatabaseScriptStep.Text" xml:space="preserve">
     <value>Устанавливаем сценарии базы данных для участия</value>
   </data>
   <data name="ProcessingUpgradeScript.Text" xml:space="preserve">
-    <value>Применяем сценарий обновления</value>
+    <value>Применяем сценарий обновления </value>
   </data>
   <data name="SkipCreatingSite.Text" xml:space="preserve">
     <value>Псевдоним портала [{0}] уже существует. Пропускаем этот шаг.</value>
@@ -358,14 +356,14 @@
     <value>Ошибка соединения с базой данных</value>
   </data>
   <data name="DatabaseError.Text" xml:space="preserve">
-    <value>Невозможно установить соединение с базой данных.</value>
+    <value>Невозможно установить соединение с базой данных. </value>
   </data>
   <data name="StandardDatabaseMsg.Text" xml:space="preserve">
     <value>Нет доступных соединений с базой данных.
-Стандартная настройка базы данных недоступна.</value>
+Стандартная настройка базы данных недоступна</value>
   </data>
   <data name="TestingDatabase.Text" xml:space="preserve">
-    <value>Проверяем соединение с базой данных.</value>
+    <value>Проверяем соединение с базой данных</value>
   </data>
   <data name="TimerSeconds.Text" xml:space="preserve">
     <value>секунд</value>
@@ -425,8 +423,7 @@
 &lt;h3&gt;При использовании Windows 2003 - IIS6 или Vista / Windows 2008 - IIS7&lt;/h3&gt;
 &lt;p&gt;учетная запись пользователя NT AUTHORITY\NETWORK SERVICE должна иметь разрешения на чтение, запись и управление изменениями виртуального корня вашего сайта.&lt;/p&gt;
 &lt;h3&gt;При использовании Windows 7 или Windows Server 2008 R2 и IIS7.5&lt;/h3&gt;
-&lt;p&gt;Учетная запись IIS AppPool\DefaultAppPool должна иметь разрешения на чтение, запись и управление разрешениями виртуального корня вашего сайта.&lt;/p&gt;&lt;p&gt;&lt;a class="dnnPrimaryAction" href=""&gt;Повторить проверку&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
-		    </value>
+&lt;p&gt;Учетная запись IIS AppPool\DefaultAppPool должна иметь разрешения на чтение, запись и управление разрешениями виртуального корня вашего сайта.&lt;/p&gt;&lt;p&gt;&lt;a class="dnnPrimaryAction" href=""&gt;Повторить проверку&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</value>
   </data>
   <data name="InstallVersion.Text" xml:space="preserve">
     <value>Добавляем InstallVersion</value>
@@ -435,7 +432,7 @@
     <value>Добавляем FcnMode</value>
   </data>
   <data name="Email.Help" xml:space="preserve">
-    <value>Введите адрес электронной почты пользователя</value>
+    <value>Введите адрес электронной почты пользователя.</value>
   </data>
   <data name="Email.Invalid" xml:space="preserve">
     <value>Укажите корректный электронный адрес</value>

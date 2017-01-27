@@ -19,10 +19,10 @@
     <value>Родитель</value>
   </data>
   <data name="plListName.Text" xml:space="preserve">
-    <value>Имя списка</value>
+    <value>Имя списка:</value>
   </data>
   <data name="plListName.Help" xml:space="preserve">
-    <value>Имя списка</value>
+    <value>Имя списка.</value>
   </data>
   <data name="plEntryCount.Text" xml:space="preserve">
     <value>Всего:</value>
@@ -55,25 +55,25 @@
     <value>Родительский список:</value>
   </data>
   <data name="plSelectList.Help" xml:space="preserve">
-    <value>Выберите родительский список этого списка</value>
+    <value>Выберите родительский список этого списка.</value>
   </data>
   <data name="plSelectParent.Text" xml:space="preserve">
     <value>Родительский элемент:</value>
   </data>
   <data name="plSelectParent.Help" xml:space="preserve">
-    <value>Выберите родительский элемент этого списка</value>
+    <value>Выберите родительский элемент этого списка.</value>
   </data>
   <data name="plEntryName.Text" xml:space="preserve">
     <value>Имя списка:</value>
   </data>
   <data name="plEntryName.Help" xml:space="preserve">
-    <value>Имя списка</value>
+    <value>Имя списка.</value>
   </data>
   <data name="plEntryText.Text" xml:space="preserve">
     <value>Текст элемента:</value>
   </data>
   <data name="plEntryText.Help" xml:space="preserve">
-    <value>Показываемый текст</value>
+    <value>Название элемента списка.</value>
   </data>
   <data name="plEntryValue.Text" xml:space="preserve">
     <value>Значение элемента:</value>
@@ -85,7 +85,7 @@
     <value>Разрешить порядок сортировки:</value>
   </data>
   <data name="plEnableSortOrder.Help" xml:space="preserve">
-    <value>Выберите, чтобы разрешить для этого списка заказной порядок сортировки</value>
+    <value>Выберите, чтобы разрешить для этого списка заказной порядок сортировки.</value>
   </data>
   <data name="cmdSave.Text" xml:space="preserve">
     <value>Сохранить</value>

@@ -67,7 +67,7 @@
     <value>Редактирование содержимого</value>
   </data>
   <data name="AddContent.Text" xml:space="preserve">
-    <value>Новое содержимое</value>
+    <value>Новое содержимое...</value>
   </data>
   <data name="cmdPreview.Text" xml:space="preserve">
     <value>Предпросмотр</value>
@@ -139,7 +139,7 @@
     <value>Состояние рабочего процесса</value>
   </data>
   <data name="plMaxVersions.Text" xml:space="preserve">
-    <value>Хранить версий (не более)</value>
+    <value>Макс. число хранимых версий</value>
   </data>
   <data name="plPreviewWorkflowState.Text" xml:space="preserve">
     <value>Состояние рабочего процессе</value>
@@ -148,7 +148,7 @@
     <value>Текущее содержимое</value>
   </data>
   <data name="DeleteVersion.Confirm" xml:space="preserve">
-    <value>Уверены, что хотите удалить версию [VERSION] ([STATE]), созданную [DATECREATED] пользователем [USERNAME]? Это действие нельзя будет отменить!</value>
+    <value>Уверены, что хотите безвозвратно удалить версию [VERSION] ([STATE]), созданную [DATECREATED] пользователем [USERNAME]?</value>
   </data>
   <data name="plCurrentWorkVersion.Help" xml:space="preserve">
     <value>Номер версии содержимого</value>

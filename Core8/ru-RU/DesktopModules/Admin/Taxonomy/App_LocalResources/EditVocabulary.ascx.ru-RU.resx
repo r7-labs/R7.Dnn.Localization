@@ -58,13 +58,13 @@
     <value>Описание</value>
   </data>
   <data name="Description.ToolTip" xml:space="preserve">
-    <value>Описание термина</value>
+    <value>Описание термина.</value>
   </data>
   <data name="ParentTerm.Text" xml:space="preserve">
     <value>Термин-предок</value>
   </data>
   <data name="ParentTerm.ToolTip" xml:space="preserve">
-    <value>Термин более высокого уровня, которому подчиняется текущий термин</value>
+    <value>Термин более высокого уровня, которому подчиняется текущий термин.</value>
   </data>
   <data name="TermName.Text" xml:space="preserve">
     <value>Название</value>

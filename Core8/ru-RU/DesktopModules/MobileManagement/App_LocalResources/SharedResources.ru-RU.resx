@@ -28,7 +28,7 @@
     <value>Имя перенаправления.</value>
   </data>
   <data name="lblRedirectSource.Help" xml:space="preserve">
-    <value>Определяет, будет ли перенаправление осуществляться на уровне сайта или страницы</value>
+    <value>Определяет, будет ли перенаправление осуществляться на уровне сайта или страницы.</value>
   </data>
   <data name="lblRedirectTarget.Help" xml:space="preserve">
     <value>Задает цель для перенаправления.</value>
@@ -76,7 +76,7 @@
     <value>Определите ваши правила ниже. Добавьте несколько правил, нажав кнопку Добавить.</value>
   </data>
   <data name="valRedirectName.Text" xml:space="preserve">
-    <value>Необходимо задать имя для перенаправления</value>
+    <value>Необходимо задать имя для перенаправления.</value>
   </data>
   <data name="lblCapability.Text" xml:space="preserve">
     <value>Возможность</value>
@@ -151,7 +151,7 @@
     <value>Цель: {0}</value>
   </data>
   <data name="DuplicateNameError.Text" xml:space="preserve">
-    <value>Перенаправление с таким именем уже существует. Пожалуйста, используйте другое имя</value>
+    <value>Перенаправление с таким именем уже существует. Пожалуйста, используйте другое имя.</value>
   </data>
   <data name="addCapability.Text" xml:space="preserve">
     <value>Добавить возможность</value>

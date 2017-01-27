@@ -187,13 +187,13 @@
     <value>Тема</value>
   </data>
   <data name="SearchLabel.Help" xml:space="preserve">
-    <value>Нажмите Enter для поиска, Esc очищает результаты поиска и отменяет его</value>
+    <value>Нажмите Enter для поиска, Esc очищает результаты поиска и отменяет его.</value>
   </data>
   <data name="SearchLabel.Text" xml:space="preserve">
     <value>Поиск:</value>
   </data>
   <data name="TypeLabel.Help" xml:space="preserve">
-    <value>Выберите тип расширения</value>
+    <value>Выберите тип расширения.</value>
   </data>
   <data name="TypeLabel.Text" xml:space="preserve">
     <value>Тип:</value>

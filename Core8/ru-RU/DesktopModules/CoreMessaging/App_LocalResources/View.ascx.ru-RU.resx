@@ -97,7 +97,7 @@
     <value>Пометить как непрочитанные</value>
   </data>
   <data name="Message.Text" xml:space="preserve">
-    <value>Ваше сообщение</value>
+    <value>Ваше сообщение:</value>
   </data>
   <data name="MessageSent.Text" xml:space="preserve">
     <value>Ваше сообщение успешно отправлено.</value>
@@ -136,7 +136,7 @@
     <value>Отправить</value>
   </data>
   <data name="Subject.Text" xml:space="preserve">
-    <value>Тема</value>
+    <value>Тема:</value>
   </data>
   <data name="Throttling.Text" xml:space="preserve">
     <value>Подождите немного, прежде чем отсылать новое сообщение.</value>
@@ -145,7 +145,7 @@
     <value>Новое сообщение</value>
   </data>
   <data name="To.Text" xml:space="preserve">
-    <value>Кому</value>
+    <value>Кому:</value>
   </data>
   <data name="Type.Header" xml:space="preserve">
     <value>Тип</value>
@@ -301,7 +301,7 @@
     <value>Расписание доставки почты</value>
   </data>
   <data name="PrefSaved.Text" xml:space="preserve">
-    <value>Ваши настройки были сохранены</value>
+    <value>Ваши настройки были сохранены.</value>
   </data>
   <data name="SearchFilter.Text" xml:space="preserve">
     <value>Фильтр поиска</value>

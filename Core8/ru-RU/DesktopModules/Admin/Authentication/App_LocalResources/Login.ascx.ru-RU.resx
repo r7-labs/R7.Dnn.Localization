@@ -64,7 +64,7 @@
     <value>Вы не можете войти на сайт с данного IP адреса.</value>
   </data>
   <data name="LoginFailed.Text" xml:space="preserve">
-    <value>Вход не удался. Помните, что пароли чувствительны к регистру и раскладке клавиатуры</value>
+    <value>Вход не удался. Помните, что пароли чувствительны к регистру и раскладке клавиатуры.</value>
   </data>
   <data name="PasswordExpired.Text" xml:space="preserve">
     <value>Срок действия Вашего пароля истек {0}. Укажите новый пароль, прежде чем продолжить.</value>
@@ -82,7 +82,7 @@
     <value>Вы должны указать свой текущий пароль, чтобы иметь возможность сменить его.</value>
   </data>
   <data name="PasswordNotDifferent.Text" xml:space="preserve">
-    <value>Новый пароль совпадает со старым. Введите другой пароль</value>
+    <value>Новый пароль совпадает со старым. Введите другой пароль.</value>
   </data>
   <data name="PasswordSent.Text" xml:space="preserve">
     <value>Пароль был послан &lt;br/&gt; на Ваш электронный адрес.</value>

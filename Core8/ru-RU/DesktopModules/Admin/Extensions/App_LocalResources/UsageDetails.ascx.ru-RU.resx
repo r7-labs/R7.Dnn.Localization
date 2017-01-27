@@ -22,25 +22,25 @@
     <value>Выберите хостинг или конкретный портал в списке, чтобы просмотреть список страниц, на которых размещен данный модуль.</value>
   </data>
   <data name="lblFilterUsageList.Text" xml:space="preserve">
-    <value>Страницы модуля</value>
+    <value>Страницы модуля </value>
   </data>
   <data name="Usage.Text" xml:space="preserve">
-    <value>Информация об использовании</value>
+    <value>Информация об использовании </value>
   </data>
   <data name="Msg.InUseBy" xml:space="preserve">
     <value>Этот модуль размещен на {0} {1} страницах.</value>
   </data>
   <data name="grd.PagerSettings.FirstPageText" xml:space="preserve">
-    <value>&lt;&lt;</value>
+    <value>&lt;&lt; </value>
   </data>
   <data name="grd.PagerSettings.LastPageText" xml:space="preserve">
     <value>&gt;&gt;   </value>
   </data>
   <data name="grd.PagerSettings.NextPageText" xml:space="preserve">
-    <value>след.</value>
+    <value>след. </value>
   </data>
   <data name="grd.PagerSettings.PreviousPageText" xml:space="preserve">
-    <value>пред.</value>
+    <value>пред. </value>
   </data>
   <data name="Msg.NotUsedBy" xml:space="preserve">
     <value>Этого модуля нет на любой из {0} страниц.</value>

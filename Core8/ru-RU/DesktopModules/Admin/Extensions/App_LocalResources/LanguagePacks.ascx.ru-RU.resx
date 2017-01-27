@@ -25,7 +25,7 @@
     <value>Использовать службу обновлений для проверки доступности обновлений языковых пакетов расширений</value>
   </data>
   <data name="NoResults.Text" xml:space="preserve">
-    <value>Расширения не найдены</value>
+    <value>Расширения не найдены.</value>
   </data>
   <data name="InstalledOnHost.Tooltip" xml:space="preserve">
     <value>Установлено на хостинге</value>

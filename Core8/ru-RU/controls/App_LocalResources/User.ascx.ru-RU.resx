@@ -40,28 +40,28 @@
     <value>Эл. почта:</value>
   </data>
   <data name="valFirstName.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Имя обязательно!</value>
+    <value>&lt;br/&gt;Имя обязательно.</value>
   </data>
   <data name="valLastName.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Фамилия обязательна!</value>
+    <value>&lt;br/&gt;Фамилия обязательна.</value>
   </data>
   <data name="valUsername.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Имя пользователя обязательно!</value>
+    <value>&lt;br/&gt;Имя пользователя обязательно.</value>
   </data>
   <data name="valPassword.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Пароль обязателен!</value>
+    <value>&lt;br/&gt;Пароль обязателен.</value>
   </data>
   <data name="valConfirm1.Text" xml:space="preserve">
     <value>&lt;br/&gt;Повторный ввод пароля обязателен.</value>
   </data>
   <data name="valConfirm2.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Указанные значения пароля не совпадают!</value>
+    <value>&lt;br/&gt;Указанные значения пароля не совпадают.</value>
   </data>
   <data name="valEmail1.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Адрес эл. почты обязателен!</value>
+    <value>&lt;br/&gt;Адрес эл. почты обязателен.</value>
   </data>
   <data name="valEmail2.Text" xml:space="preserve">
-    <value>&lt;br/&gt;Укажите адрес эл. почты в правильном формате!</value>
+    <value>&lt;br/&gt;Укажите адрес эл. почты в правильном формате.</value>
   </data>
   <data name="plFirstName.Help" xml:space="preserve">
     <value>Укажите свое имя.</value>
@@ -82,6 +82,6 @@
     <value>Клиент мгновенных сообщений:</value>
   </data>
   <data name="plIM.Help" xml:space="preserve">
-    <value>Укажите свой идентификатор в одной из служб мгновенных сообщений (Skype, Yahoo, Google или др.)</value>
+    <value>Укажите свой идентификатор в одной из служб мгновенных сообщений (Skype, Yahoo, Google или др.).</value>
   </data>
 </root>

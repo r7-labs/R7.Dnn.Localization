@@ -25,7 +25,7 @@
     <value>CDN по умолчанию:</value>
   </data>
   <data name="CustomCDNLabel.Help" xml:space="preserve">
-    <value>Адрес URL пользовательского CDN для данной библиотеки, который будет использован вместо CDN по умолчанию.</value>
+    <value>Адрес URL пользовательского CDN для данной библиотеки, который будет использован вместо CDN по умолчанию</value>
   </data>
   <data name="CustomCDNLabel.Text" xml:space="preserve">
     <value>Пользовательский CDN:</value>

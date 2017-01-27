@@ -40,13 +40,13 @@
     <value>Авто-назначение:</value>
   </data>
   <data name="AutoAssignment.Help" xml:space="preserve">
-    <value>Можно ли автоматически назначать эту роль пользователям?</value>
+    <value>Можно ли автоматически назначать эту роль пользователям</value>
   </data>
   <data name="AdvancedSettings.Text" xml:space="preserve">
     <value>Расширенные настройки</value>
   </data>
   <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
-    <value>В этом разделе можно настроить дополнительные параметры для данной роли</value>
+    <value>В этом разделе можно настроить дополнительные параметры для данной роли.</value>
   </data>
   <data name="ServiceFee.Text" xml:space="preserve">
     <value>Стоимость услуги</value>
@@ -64,7 +64,7 @@
     <value>Стоимость ознакомления</value>
   </data>
   <data name="TrialFee.Help" xml:space="preserve">
-    <value>Укажите плату за ознакомительный период для этой роли</value>
+    <value>Укажите плату за ознакомительный период для этой роли.</value>
   </data>
   <data name="TrialPeriod.Text" xml:space="preserve">
     <value>Ознакомительный режим (каждый)</value>
@@ -97,7 +97,7 @@
     <value>&lt;br /&gt;Стоимость ознакомительного режима должна быть больше или равна нулю.</value>
   </data>
   <data name="valTrialPeriod1.Text" xml:space="preserve">
-    <value>&lt;br /&gt;Недопустимая продолжительность ознакомительного режима</value>
+    <value>&lt;br /&gt;Недопустимая продолжительность ознакомительного режима.</value>
   </data>
   <data name="valTrialPeriod2.Text" xml:space="preserve">
     <value>&lt;br /&gt;Продолжительность ознакомительного периода должна быть больше нуля.</value>
@@ -124,7 +124,7 @@
     <value>Ссылка приглашения:</value>
   </data>
   <data name="plRSVPLink.Help" xml:space="preserve">
-    <value>Если указан код приглашения, Вы можете  использовать этот URL для подключения пользователей. </value>
+    <value>Если указан код приглашения, Вы можете  использовать этот URL для подключения пользователей.</value>
   </data>
   <data name="plIcon.Text" xml:space="preserve">
     <value>Значок:</value>

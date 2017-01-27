@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AuthenticationConfig_Enabled.Help" xml:space="preserve">
-    <value>Отметьте этот пункт для включения стандартной аутентификации DotNetNuke </value>
+    <value>Отметьте этот пункт для включения стандартной аутентификации DotNetNuke.</value>
   </data>
   <data name="AuthenticationConfig_Enabled.Text" xml:space="preserve">
     <value>Включена:</value>

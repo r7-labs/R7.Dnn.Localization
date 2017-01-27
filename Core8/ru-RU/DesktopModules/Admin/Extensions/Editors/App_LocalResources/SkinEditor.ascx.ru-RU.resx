@@ -22,7 +22,7 @@
     <value>Настройки пакета контейнера</value>
   </data>
   <data name="SkinHelp.Text" xml:space="preserve">
-    <value>Данная форма позволяет настроить пакет темы.</value>
+    <value>Данная форма позволяет настроить пакет темы. </value>
   </data>
   <data name="SkinName.Help" xml:space="preserve">
     <value>Введите имя пакета для темы</value>
