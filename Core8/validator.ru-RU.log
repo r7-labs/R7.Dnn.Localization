@@ -67,6 +67,7 @@ Warning: DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx Prof
 Warning: DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_GooglePlus.Text - values are the same.
 Warning: DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_LinkedIn.Text - values are the same.
 Warning: DesktopModules/Admin/Security/App_LocalResources/Profile.ascx.resx ProfileProperties_Twitter.Text - values are the same.
+Warning: DesktopModules/Admin/Security/App_LocalResources/Register.ascx.resx RegisterWarning.Text - different ending chars '>' and '.'.
 Warning: DesktopModules/Admin/Security/App_LocalResources/User.ascx.resx ConfirmUnRegister.Text - different ending chars '.' and '?'.
 Warning: DesktopModules/Admin/Security/App_LocalResources/Users.ascx.resx First.Text - different ending chars 't' and '<'.
 Warning: DesktopModules/Admin/Security/App_LocalResources/Users.ascx.resx Next.Text - different ending chars 't' and '.'.
@@ -74,7 +75,6 @@ Warning: DesktopModules/Admin/Security/App_LocalResources/Users.ascx.resx Previo
 Warning: DesktopModules/Admin/Security/App_LocalResources/Users.ascx.resx Last.Text - different ending chars 't' and '>'.
 Warning: DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Introduction.Help - different ending chars '\t' and '.'.
 Warning: DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Template.Help - different ending chars '\t' and '>'.
-Warning: DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx MergeWarning.Text - different ending chars '\t' and '>'.
 Warning: DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Container.Help - different ending chars '\t' and '>'.
 Warning: DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Next.Text - different ending chars 't' and '.'.
 Warning: DesktopModules/Admin/SiteWizard/App_LocalResources/SiteWizard.ascx.resx Previous.Text - different ending chars 's' and '.'.
