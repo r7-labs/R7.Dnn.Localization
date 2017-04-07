@@ -28,7 +28,7 @@
     <value>Описание</value>
   </data>
   <data name="documents.Text" xml:space="preserve">
-    <value>документы</value>
+    <value>документов</value>
   </data>
   <data name="GroupName.Required" xml:space="preserve">
     <value>Укажите имя группы. </value>
@@ -73,13 +73,13 @@
     <value>Вступить</value>
   </data>
   <data name="members.Text" xml:space="preserve">
-    <value>участники</value>
+    <value>участников</value>
   </data>
   <data name="photos.Text" xml:space="preserve">
     <value>фото</value>
   </data>
   <data name="posts.Text" xml:space="preserve">
-    <value>сообщения</value>
+    <value>сообщений</value>
   </data>
   <data name="Private.Help" xml:space="preserve">
     <value>(только участники)</value>
