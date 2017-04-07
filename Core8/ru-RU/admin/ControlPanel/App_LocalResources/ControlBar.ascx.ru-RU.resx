@@ -115,7 +115,7 @@
     <value>Копировать</value>
   </data>
   <data name="Tool.ManageRoles.Text" xml:space="preserve">
-    <value>Управления ролями</value>
+    <value>Управление ролями</value>
   </data>
   <data name="Tool.ManageTemplate.Text" xml:space="preserve">
     <value>Внешний вид страницы</value>

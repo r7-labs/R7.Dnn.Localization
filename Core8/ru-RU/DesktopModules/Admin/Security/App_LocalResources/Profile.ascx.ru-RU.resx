@@ -184,7 +184,7 @@
     <value>Биография:</value>
   </data>
   <data name="ProfileProperties_Biography.Help" xml:space="preserve">
-    <value>Используйте редактор для ввода краткой биографиии.</value>
+    <value>Используйте редактор для ввода краткой биографии.</value>
   </data>
   <data name="ProfileProperties_Biography.Required" xml:space="preserve">
     <value>Биография обязательна.</value>
