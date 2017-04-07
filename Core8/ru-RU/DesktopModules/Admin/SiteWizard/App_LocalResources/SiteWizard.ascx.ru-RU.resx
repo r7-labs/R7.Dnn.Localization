@@ -59,10 +59,11 @@
   </data>
   <data name="MergeWarning.Text" xml:space="preserve">
     <value>								
-&lt;span class="NormalRed"&gt;
-Примечание: Если вы выбрали "Замена", все текущее содержимое страниц, также представленное 
-в шаблоне, будет утеряно.
-&lt;/span&gt;</value>
+			&lt;span class="NormalRed"&gt;
+				Примечание: Если вы выбрали "Замена", все текущее содержимое страниц, также представленное
+				в шаблоне, будет утеряно.
+			&lt;/span&gt;
+		</value>
   </data>
   <data name="TemplateRequired.Text" xml:space="preserve">
     <value>Вы должны выбрать шаблон, перед тем как сможете продолжить.</value>
