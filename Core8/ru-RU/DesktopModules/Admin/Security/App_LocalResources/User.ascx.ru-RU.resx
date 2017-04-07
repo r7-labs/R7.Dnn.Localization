@@ -61,7 +61,7 @@
     <value>Неверный код безопасности</value>
   </data>
   <data name="CaptchaText.Text" xml:space="preserve">
-    <value>Введите код безопасности, показанный выше, в расположенное ниже поле.</value>
+    <value>Введите код безопасности, показанный выше.</value>
   </data>
   <data name="UnRegister.Text" xml:space="preserve">
     <value>Отменить регистрацию</value>
