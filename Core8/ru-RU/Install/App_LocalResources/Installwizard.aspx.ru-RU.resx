@@ -108,9 +108,8 @@
     <value>Установка</value>
   </data>
   <data name="IntroDetail.Text" xml:space="preserve">
-    <value>&lt;p&gt;Вас приветствует Мастер Установки DotNetNuke. Этот мастер проведет Вас через весь процесс установки Вашего DotNetNuke приложения.&lt;/p&gt;
-&lt;p&gt;Вы можете перемещаться между страницами Мастера с помощью кнопок Далее и Назад. На некоторых страницах присутствует кнопка "Проверка ...", нажатие которой позволяет протестировать настройки и увидеть эффект от проведенных изменений перед тем, как двигаться дальше.&lt;/p&gt;
-&lt;p&gt;Первый шаг - выбор метода и языка установки.&lt;/p&gt;</value>
+    <value>
+&lt;a class="videoLink" href="http://www.dotnetnuke.com/Resources/Training/Training-Videos/Installation.aspx" target="new"&gt;Смотреть видео об установке&lt;/a&gt;</value>
   </data>
   <data name="IsAbleToPerformDatabaseActionsCheck.Text" xml:space="preserve">
     <value>Проверяем возможность пользователя базы даннных осуществлять необходимые действия</value>
