@@ -304,7 +304,7 @@
     <value>Укажите размер дискового пространства для хостинга сайта.</value>
   </data>
   <data name="plSMTPServer.Help" xml:space="preserve">
-    <value>Укажите адрес SMTP-сервера.</value>
+    <value>Укажите адрес SMTP-сервера (по умолчанию, будет использоваться порт 25). Также можно указать иной номер порта, добавив двоеточие и номер порта к адресу сервера SMTP. Например: smtp.googlemail.com:587.</value>
   </data>
   <data name="plSMTPAuthentication.Help" xml:space="preserve">
     <value>Укажите метод проверки подлинности пользователя SMTP-сервера (по-умолчанию анонимный).</value>
@@ -473,7 +473,7 @@
     <value>ServerAndPrivate</value>
   </data>
   <data name="plUpgrade.Text" xml:space="preserve">
-    <value>Проверить обновления</value>
+    <value>Проверять обновления</value>
   </data>
   <data name="plUpgrade.Help" xml:space="preserve">
     <value>Вы можете просмотреть журнал апгрейда до версии программного обеспечения, выбранной из списка.</value>
@@ -608,7 +608,7 @@
     <value>Если отмечено, то пользователь хоста будет уведомлен об обновлении по электронной почте.</value>
   </data>
   <data name="plNotifyUpgrade.Text" xml:space="preserve">
-    <value>Уведомлять хост</value>
+    <value>Уведомлять администратора хостинга</value>
   </data>
   <data name="plAdminContainer.Help" xml:space="preserve">
     <value>Выберите служебный контейнер по-умолчанию для всех сайтов этого хоста.</value>
