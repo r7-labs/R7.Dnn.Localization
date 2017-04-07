@@ -67,7 +67,7 @@
     <value>Редактирование содержимого</value>
   </data>
   <data name="AddContent.Text" xml:space="preserve">
-    <value>Новое содержимое...</value>
+    <value>Добавить содержимое...</value>
   </data>
   <data name="cmdPreview.Text" xml:space="preserve">
     <value>Предпросмотр</value>

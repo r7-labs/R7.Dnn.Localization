@@ -79,7 +79,7 @@
     <value>Удален:</value>
   </data>
   <data name="IsDeleted.Help" xml:space="preserve">
-    <value>Был ли пользователь удален.</value>
+    <value>Показывает, был ли этот пользователь удален.</value>
   </data>
   <data name="cmdPassword.Text" xml:space="preserve">
     <value>Потребовать смену пароля</value>
