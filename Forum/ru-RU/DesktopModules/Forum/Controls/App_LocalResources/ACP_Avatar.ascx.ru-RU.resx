@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cmdGeneral.Text" xml:space="preserve">
-    <value>General</value>
+    <value>Общий</value>
   </data>
   <data name="plEnableSystemAvatar.Help" xml:space="preserve">
     <value>site or Forum administrators will be permitted to assign avatar images to specific users of their choice. This is done per user, not by role. </value>
@@ -88,7 +88,7 @@
     <value>Avatar Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plUserAvatarPoolPath.Help" xml:space="preserve">
     <value>The pool avatar path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/</value>
@@ -97,7 +97,7 @@
     <value>Pool Avatar Path</value>
   </data>
   <data name="Update.Text" xml:space="preserve">
-    <value>Update</value>
+    <value>Сохранить</value>
   </data>
   <data name="plEnableProfileAvatar.Help" xml:space="preserve">
     <value>If checked, the system looks for avatars uploaded to the user's core profile.</value>

@@ -13,16 +13,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="by.Text" xml:space="preserve">
-    <value>by</value>
+    <value>от</value>
   </data>
   <data name="NoThreads.Text" xml:space="preserve">
-    <value>У Вас нет тем, добавленных в закладки.</value>
+    <value>У вас нет тем, добавленных в закладки.</value>
   </data>
   <data name="PostInfo.Text" xml:space="preserve">
     <value>Последнее сообщение</value>
   </data>
   <data name="UserInfo.Text" xml:space="preserve">
-    <value>Профайл</value>
+    <value>Просмотр профиля</value>
   </data>
   <data name="cmdRemove.Text" xml:space="preserve">
     <value>Удалить</value>

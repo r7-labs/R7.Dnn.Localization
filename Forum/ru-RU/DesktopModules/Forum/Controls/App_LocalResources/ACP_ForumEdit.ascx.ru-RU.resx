@@ -16,16 +16,16 @@
     <value>Active</value>
   </data>
   <data name="plGroupName.Text" xml:space="preserve">
-    <value>Group</value>
+    <value>Группа</value>
   </data>
   <data name="plGroupName.Help" xml:space="preserve">
     <value>The name of the Forum Group.</value>
   </data>
   <data name="plForumCreatorName.Text" xml:space="preserve">
-    <value>Created By</value>
+    <value>Создан</value>
   </data>
   <data name="plForumCreatorName.Help" xml:space="preserve">
-    <value>The name of the user who created the forum.</value>
+    <value>Имя пользователя, создавшего форум.</value>
   </data>
   <data name="plForumName.Text" xml:space="preserve">
     <value>Forum Name</value>
@@ -67,7 +67,7 @@
     <value>&lt;h1&gt;Forum - Manage Forums&lt;/h1&gt;&lt;p&gt;Forum Groups and Forums can be created and edited here.  A Group must contain at least one Forum prior to users being able to post Threads in that Forum and Group.  The Forum must be enabled as well.&lt;/p&gt;&lt;p&gt;Once a Forum is added to a Group, you can click the edit pencil next to the Forum name to configure it's settings.  A Forums settings allow you to control if the Forum is moderated, who is authorized to view the Forum (Users must be a member of an authorized edit role for this module to have the ability to post anywhere using this module.)  The ability to set a module to private so it can only be seen by specific roles is also controlled here.&lt;/p&gt;</value>
   </data>
   <data name="ForumHome.Text" xml:space="preserve">
-    <value>Forum Home</value>
+    <value>Главная страница</value>
   </data>
   <data name="ControlTitle_forumedit.Text" xml:space="preserve">
     <value>Edit Forum</value>
@@ -139,10 +139,10 @@
     <value>These are individual users currently assigned as moderators of this particular forum.</value>
   </data>
   <data name="Administration.Text" xml:space="preserve">
-    <value>Forum Admin</value>
+    <value>Администрирование форума</value>
   </data>
   <data name="cmdAdd.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Добавить</value>
   </data>
   <data name="PrivateView.Text" xml:space="preserve">
     <value>View restricted &lt;b&gt;beyond&lt;/b&gt; Module View Permissions.</value>
@@ -211,7 +211,7 @@
     <value>General Settings</value>
   </data>
   <data name="None.Text" xml:space="preserve">
-    <value>None</value>
+    <value>Нет</value>
   </data>
   <data name="plParentForumName.Help" xml:space="preserve">
     <value>Select a parent forum, if you want to configure this forum as a subforum.</value>
@@ -223,7 +223,7 @@
     <value>Edit Forum</value>
   </data>
   <data name="TabEmail.Text" xml:space="preserve">
-    <value>Email</value>
+    <value>Эл. почта</value>
   </data>
   <data name="plEmailAddress.Help" xml:space="preserve">
     <value>The email address that will be displayed for all outgoing emails for this particular forum.</value>
@@ -262,7 +262,7 @@
     <value>The username of the email account (not necessarily the full email address).</value>
   </data>
   <data name="plEmailUser.Text" xml:space="preserve">
-    <value>Email User</value>
+    <value>Оповестить пользователя</value>
   </data>
   <data name="valEmailAddy.ErrorMessage" xml:space="preserve">
     <value>A valid email is required</value>
@@ -292,7 +292,7 @@
     <value>Email Port</value>
   </data>
   <data name="cmdHome.Text" xml:space="preserve">
-    <value>Home</value>
+    <value>Главная</value>
   </data>
   <data name="plEnableSitemap.Help" xml:space="preserve">
     <value>If checked (and the forum is public), the threads created within this forum will be exposed to the SEO sitemap provider.</value>

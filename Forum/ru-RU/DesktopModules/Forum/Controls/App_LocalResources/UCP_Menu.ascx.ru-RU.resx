@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cmdAvatar.Text" xml:space="preserve">
-    <value>Аватар</value>
+    <value>Изменить аватар</value>
   </data>
   <data name="cmdBookmark.Text" xml:space="preserve">
     <value>Закладки</value>
@@ -22,10 +22,10 @@
     <value>Обзор</value>
   </data>
   <data name="cmdProfile.Text" xml:space="preserve">
-    <value>Профайл</value>
+    <value>Редактировать профиль</value>
   </data>
   <data name="cmdSignature.Text" xml:space="preserve">
-    <value>Подпись</value>
+    <value>Изменить подпись</value>
   </data>
   <data name="cmdTracking.Text" xml:space="preserve">
     <value>Уведомления</value>
@@ -43,7 +43,7 @@
     <value>Новое сообщение</value>
   </data>
   <data name="ProfileSettings.Text" xml:space="preserve">
-    <value>Профайл</value>
+    <value>Профиль</value>
   </data>
   <data name="Selected.Text" xml:space="preserve">
     <value>Выбранный пункт меню</value>

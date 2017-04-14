@@ -376,7 +376,7 @@
     <value>Открытый модерируемый</value>
   </data>
   <data name="PublicModeratedPostRestricted.Text" xml:space="preserve">
-    <value>Открытый модерируемыйй с ограничениями</value>
+    <value>Открытый модерируемый с ограничениями</value>
   </data>
   <data name="PublicUnModerated.Text" xml:space="preserve">
     <value>Открытый без модерации</value>

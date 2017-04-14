@@ -16,6 +16,6 @@
     <value>&lt;h3&gt;Forum Admin Control Panel&lt;/h3&gt;&lt;p&gt;Administrators can manage all aspects of the forum module, such as Groups, Forums, Users, Features and Email Notifications from the control panel.&lt;/p&gt;</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
-    <value>Instructions</value>
+    <value>Инструкции</value>
   </data>
 </root>

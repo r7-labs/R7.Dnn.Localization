@@ -34,7 +34,7 @@
 		<value>Содержимое форума не доступно</value>
 	</data>
   <data name="cmdForumHome.Text">
-		<value>Начальная страница</value>
+		<value>Главная страница</value>
 	</data>
   <data name="ControlTitle_contentremoved.Text">
 		<value>Содержимое форума недоступно</value>

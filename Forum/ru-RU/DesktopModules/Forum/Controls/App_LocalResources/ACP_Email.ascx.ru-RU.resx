@@ -49,7 +49,7 @@
     <value>Email Settings Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plEnableListServer.Help" xml:space="preserve">
     <value>If checked, users will be able to post to the forums via email. This requires enabling of from address per forum as well as installation of a third party scheduled task. </value>

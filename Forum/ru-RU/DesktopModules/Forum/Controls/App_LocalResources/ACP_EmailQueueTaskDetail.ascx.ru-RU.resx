@@ -28,7 +28,7 @@
     <value>Completed</value>
   </data>
   <data name="QueueStartedDate.Header" xml:space="preserve">
-    <value>Started</value>
+    <value>Начато</value>
   </data>
   <data name="IsComplete.Header" xml:space="preserve">
     <value>Attempted</value>
@@ -37,13 +37,13 @@
     <value>Failed</value>
   </data>
   <data name="View.Text" xml:space="preserve">
-    <value>View</value>
+    <value>Просмотр форума</value>
   </data>
   <data name="EmailSubject.Header" xml:space="preserve">
-    <value>Subject</value>
+    <value>Тема</value>
   </data>
   <data name="EmailAddress.Header" xml:space="preserve">
-    <value>Email</value>
+    <value>Эл. почта</value>
   </data>
   <data name="DateAdded.Header" xml:space="preserve">
     <value>Added</value>

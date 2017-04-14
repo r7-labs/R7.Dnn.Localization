@@ -19,13 +19,13 @@
     <value>No Banned Users!</value>
   </data>
   <data name="imgEdit.Text" xml:space="preserve">
-    <value>Edit</value>
+    <value>Редактировать</value>
   </data>
   <data name="LiftBanDate.Header" xml:space="preserve">
     <value>Ends</value>
   </data>
   <data name="StartBanDate.Header" xml:space="preserve">
-    <value>Started</value>
+    <value>Начато</value>
   </data>
   <data name="User.Header" xml:space="preserve">
     <value>User</value>

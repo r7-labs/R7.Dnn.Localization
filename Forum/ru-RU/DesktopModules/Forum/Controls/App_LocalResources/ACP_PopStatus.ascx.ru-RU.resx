@@ -19,7 +19,7 @@
     <value>The number of post views before a thread becomes popular.</value>
   </data>
   <data name="plPopularPostsReply.Text" xml:space="preserve">
-    <value>Reply Count</value>
+    <value>Ответов</value>
   </data>
   <data name="plPopularPostsReply.Help" xml:space="preserve">
     <value>The number of post replies before a thread becomes popular.</value>
@@ -28,7 +28,7 @@
     <value>Popular Status Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plDays.Help" xml:space="preserve">
     <value>This is the number of days the thread's last post must have been posted wtihin. If set to 14, threads without activity for two weeks will no longer be popular.</value>

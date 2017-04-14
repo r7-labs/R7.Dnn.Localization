@@ -97,9 +97,9 @@
     <value>No post ranking count can be set here, but a title can be set to override the localized display of Not Ranked.</value>
   </data>
   <data name="plNoRanking.Text" xml:space="preserve">
-    <value>No Ranking</value>
+    <value>Новичок</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
 </root>

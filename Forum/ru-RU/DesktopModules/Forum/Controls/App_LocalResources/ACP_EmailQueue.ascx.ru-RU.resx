@@ -16,7 +16,7 @@
     <value>Email Queue Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plEmailDeleteDays.Help" xml:space="preserve">
     <value>The number of days you wish to retain the history in the queue emails table. &lt;br/&gt;&lt;b&gt;NOTE:&lt;/b&gt;&lt;br/&gt;This can only be enabled if the host has enabled the Forum's scheduled CleanupEmailQueuedTasks task in the core scheduler.</value>

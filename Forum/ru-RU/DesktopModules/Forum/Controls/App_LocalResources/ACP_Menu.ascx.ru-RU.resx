@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cmdAttachment.Text" xml:space="preserve">
-    <value>Attachments</value>
+    <value>Вложения</value>
   </data>
   <data name="cmdAvatar.Text" xml:space="preserve">
     <value>Avatars</value>
@@ -37,10 +37,10 @@
     <value>Forum Manager</value>
   </data>
   <data name="cmdGeneral.Text" xml:space="preserve">
-    <value>General</value>
+    <value>Общий</value>
   </data>
   <data name="cmdOverview.Text" xml:space="preserve">
-    <value>Overview</value>
+    <value>Обзор</value>
   </data>
   <data name="cmdPopStatus.Text" xml:space="preserve">
     <value>Popular Status</value>
@@ -64,16 +64,16 @@
     <value>User Interface</value>
   </data>
   <data name="cmdUserSettings.Text" xml:space="preserve">
-    <value>User Settings</value>
+    <value>Настройки пользователя</value>
   </data>
   <data name="ContentSection.Text" xml:space="preserve">
     <value>Content</value>
   </data>
   <data name="ControlPanel.Text" xml:space="preserve">
-    <value>Control Panel</value>
+    <value>Панель управления</value>
   </data>
   <data name="EmailSection.Text" xml:space="preserve">
-    <value>Email</value>
+    <value>Эл. почта</value>
   </data>
   <data name="UserSection.Text" xml:space="preserve">
     <value>Users</value>
@@ -85,7 +85,7 @@
     <value>Edit Forum</value>
   </data>
   <data name="Forums.Text" xml:space="preserve">
-    <value>Forums</value>
+    <value>Форумы</value>
   </data>
   <data name="cmdRoleAvatar.Text" xml:space="preserve">
     <value>Role Avatars</value>

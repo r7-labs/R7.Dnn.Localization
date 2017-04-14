@@ -25,7 +25,7 @@
     <value>Add Advertisement after first post</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plAddAdverAfterPostNo.Help" xml:space="preserve">
     <value>Advertisement will be injected after specified number of posts. A value of zero means no advertisements</value>
@@ -40,7 +40,7 @@
     <value>Text of Advertisement</value>
   </data>
   <data name="lblUpdateDone.Text1" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="lblHelp.Text" xml:space="preserve">
     <value>Use css class &lt;i&gt;AdvertisementPost&lt;/i&gt; in &lt;i&gt;Themes/Blue/Blue.css&lt;/i&gt; to precisly set Advertisement layout</value>

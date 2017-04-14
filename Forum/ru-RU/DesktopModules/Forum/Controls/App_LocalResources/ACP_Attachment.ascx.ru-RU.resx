@@ -25,7 +25,7 @@
     <value>The folder to store post attachment files.</value>
   </data>
   <data name="NumericValidation.ErrorMessage" xml:space="preserve">
-    <value>Needs to be numeric!</value>
+    <value>Должно быть числом!</value>
   </data>
   <data name="plAnonDownloads.Text" xml:space="preserve">
     <value>Anonymous Downloads</value>
@@ -37,7 +37,7 @@
     <value>Attachment Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plAttachmentPath.Help" xml:space="preserve">
     <value>The attachments path is located in the &lt;strong&gt;portal root directory&lt;/strong&gt;.&lt;br&gt;ie. domain.com/Portals/0/</value>

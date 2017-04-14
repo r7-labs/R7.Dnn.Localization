@@ -16,7 +16,7 @@
     <value>Модерировать сообщения</value>
   </data>
   <data name="lblMemberSince.Text" xml:space="preserve">
-    <value>Зарегистрирован</value>
+    <value>На форуме с</value>
   </data>
   <data name="cmdApprove.Text" xml:space="preserve">
     <value>Одобрить</value>

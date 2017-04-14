@@ -22,16 +22,16 @@
     <value>Created</value>
   </data>
   <data name="Email.Header" xml:space="preserve">
-    <value>Email</value>
+    <value>Эл. почта</value>
   </data>
   <data name="Name.Header" xml:space="preserve">
-    <value>Forum</value>
+    <value>Форум</value>
   </data>
   <data name="Username.Header" xml:space="preserve">
-    <value>Username</value>
+    <value>Имя пользователя</value>
   </data>
   <data name="DisplayName.Header" xml:space="preserve">
-    <value>Display Name</value>
+    <value>Отображаемое имя</value>
   </data>
   <data name="lblForumDescription.Text" xml:space="preserve">
     <value>Forum Subscribers For:</value>

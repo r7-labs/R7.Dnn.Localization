@@ -28,7 +28,7 @@
     <value>Выберите "Управление форумом" в меню для создания форумов или групп.</value>
   </data>
   <data name="Threads.Text" xml:space="preserve">
-    <value>Обсуждения</value>
+    <value>Темы</value>
   </data>
   <data name="Posts.Text" xml:space="preserve">
     <value>Сообщения</value>
@@ -46,7 +46,7 @@
     <value>Статистика обновлена [DateTime] </value>
   </data>
   <data name="NoThread.Text" xml:space="preserve">
-    <value>Нет обсуждений</value>
+    <value>Нет тем</value>
   </data>
   <data name="NoPost.Text" xml:space="preserve">
     <value>Нет сообщений</value>
@@ -64,16 +64,16 @@
     <value>[PostCount] сообщений от [DateTime] </value>
   </data>
   <data name="StatisticsSummary.Text" xml:space="preserve">
-    <value>[UserCount] пользователей участвовали в  [ThreadCount] обсуждениях и создали [PostCount] сообщений.</value>
+    <value>[UserCount] пользователей участвовали в  [ThreadCount] обсуждениях тем и создали [PostCount] сообщений.</value>
   </data>
   <data name="Statistics24HoursSummary.Text" xml:space="preserve">
-    <value>В течение последних суток было создано [ThreadCount] обсуждений и опубликовано [PostCount] новых сообщений.</value>
+    <value>В течение последних суток было создано [ThreadCount] тем и опубликовано [PostCount] новых сообщений.</value>
   </data>
   <data name="StatisticsMostPopularThread.Text" xml:space="preserve">
-    <value>Самое популярное обсуждение [ThreadURL]</value>
+    <value>Наиболее популярная тема [ThreadURL]</value>
   </data>
   <data name="StatisticsMostActiveThread.Text" xml:space="preserve">
-    <value>Наиболее активное обсуждение [ThreadURL]</value>
+    <value>Наиболее активная тема [ThreadURL]</value>
   </data>
   <data name="StatisticsMostActiveUsers.Text" xml:space="preserve">
     <value>Наиболее активные пользователи:</value>
@@ -85,10 +85,10 @@
     <value>Пометить как прочитанное</value>
   </data>
   <data name="MailWhenNewThread.Text" xml:space="preserve">
-    <value>Оповещать меня при появлении нового обсуждения.</value>
+    <value>Оповещать меня при появлении новой темы.</value>
   </data>
   <data name="MailWhenReply.Text" xml:space="preserve">
-    <value>Оповещать меня при появлении сообщений в этом обсуждении.</value>
+    <value>Оповещать меня при появлении сообщений в этой теме.</value>
   </data>
   <data name="Started.Text" xml:space="preserve">
     <value>Начато</value>
@@ -145,7 +145,7 @@
     <value>На форуме</value>
   </data>
   <data name="ThreadStartedBy.Text" xml:space="preserve">
-    <value>Обсуждение начато</value>
+    <value>Тема создана</value>
   </data>
   <data name="PostsToModerated.Text" xml:space="preserve">
     <value>Сообщения, ожидающие модерации</value>
@@ -157,7 +157,7 @@
     <value>Модерировать</value>
   </data>
   <data name="NewThread.Text" xml:space="preserve">
-    <value>Новое обсуждение</value>
+    <value>Новая тема</value>
   </data>
   <data name="Delete.Text" xml:space="preserve">
     <value>Удалить</value>
@@ -181,7 +181,7 @@
     <value>Мои сообщения</value>
   </data>
   <data name="LatestThreads.Text" xml:space="preserve">
-    <value>Показывать обсуждения из:</value>
+    <value>Показывать темы из:</value>
   </data>
   <data name="NoneSpecified.Text" xml:space="preserve">
     <value>-- Не указано --</value>
@@ -190,7 +190,7 @@
     <value>участвовал</value>
   </data>
   <data name="by.Text" xml:space="preserve">
-    <value>by</value>
+    <value>от</value>
   </data>
   <data name="in.Text" xml:space="preserve">
     <value>в</value>
@@ -199,7 +199,7 @@
     <value>Изменил</value>
   </data>
   <data name="Joined.Text" xml:space="preserve">
-    <value>Объединены</value>
+    <value>На форуме с</value>
   </data>
   <data name="on.Text" xml:space="preserve">
     <value>на</value>
@@ -235,31 +235,31 @@
     <value>Горячая заблокированная тема с новыми сообщениями</value>
   </data>
   <data name="imgPopLockedThread.Text" xml:space="preserve">
-    <value>Горячее заблокированное обсуждение</value>
+    <value>Горячая заблокированная тема</value>
   </data>
   <data name="imgNewLockedThread.Text" xml:space="preserve">
-    <value>Заблокированное обсуждение с новыми сообщениями</value>
+    <value>Заблокированная тема с новыми сообщениями</value>
   </data>
   <data name="imgLockedThread.Text" xml:space="preserve">
-    <value>Заблокированное обсуждение</value>
+    <value>Заблокированная тема</value>
   </data>
   <data name="imgNewPopThread.Text" xml:space="preserve">
     <value>Горячая тема с новыми сообщениями</value>
   </data>
   <data name="imgPopThread.Text" xml:space="preserve">
-    <value>Горячее обсуждение</value>
+    <value>Горячая тема</value>
   </data>
   <data name="imgNewThread.Text" xml:space="preserve">
-    <value>Обсуждение с новыми сообщениями</value>
+    <value>Тема с новыми сообщениями</value>
   </data>
   <data name="imgThread.Text" xml:space="preserve">
-    <value>Обсуждение</value>
+    <value>Тема</value>
   </data>
   <data name="imgNewPinnedThread.Text" xml:space="preserve">
     <value>Закрепленная тема с новыми сообщениями</value>
   </data>
   <data name="imgPinnedThread.Text" xml:space="preserve">
-    <value>Закрепленное обсуждение</value>
+    <value>Закрепленная тема</value>
   </data>
   <data name="Status.Text" xml:space="preserve">
     <value>Состояние:</value>
@@ -280,16 +280,16 @@
     <value>Все открытые форумы</value>
   </data>
   <data name="imgHotLockedPinnedThread.Text" xml:space="preserve">
-    <value>Горячее закрепленное заблокированное обсуждение</value>
+    <value>Горячая закрепленная заблокированная тема</value>
   </data>
   <data name="imgHotNewLockedPinnedThread.Text" xml:space="preserve">
-    <value>Горячее закрепленное заблокированное обсуждение с новыми сообщениями</value>
+    <value>Горячая закрепленная заблокированная тема с новыми сообщениями</value>
   </data>
   <data name="imgHotPinnedThread.Text" xml:space="preserve">
-    <value>Горячее закрепленное обсуждение</value>
+    <value>Горячая закрепленная тема</value>
   </data>
   <data name="imgNewHotPinnedThread.Text" xml:space="preserve">
-    <value>Горячее закрепленное обсуждение с новыми сообщениями</value>
+    <value>Горячая закрепленная тема с новыми сообщениями</value>
   </data>
   <data name="imgNewPinnedLockedThread.Text" xml:space="preserve">
     <value>Закрепленная заблокированная тема с новыми сообщениями</value>
@@ -298,7 +298,7 @@
     <value>Закрытый модерируемый форум с новыми сообщениями</value>
   </data>
   <data name="imgPinnedLockedThread.Text" xml:space="preserve">
-    <value>Закрепленное заблокированное обсуждение</value>
+    <value>Закрепленная заблокированная тема</value>
   </data>
   <data name="imgPrivateModerated.Text" xml:space="preserve">
     <value>Закрытый модерируемый форум</value>
@@ -325,7 +325,7 @@
     <value>Опрос</value>
   </data>
   <data name="ViewProfile.Text" xml:space="preserve">
-    <value>Профайл</value>
+    <value>Просмотр профиля</value>
   </data>
   <data name="cmdForumSubscribers.Text" xml:space="preserve">
     <value>Подписчики</value>

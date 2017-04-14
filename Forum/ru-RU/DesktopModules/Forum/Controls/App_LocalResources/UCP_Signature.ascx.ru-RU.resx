@@ -16,7 +16,7 @@
     <value>Подпись</value>
   </data>
   <data name="plSignature.Help" xml:space="preserve">
-    <value>Текст (код) для отображения внизу всех Ваших сообщений.</value>
+    <value>Сообщение для отображения внизу всех ваших сообщений.</value>
   </data>
   <data name="cmdPreview.Text" xml:space="preserve">
     <value>Предпросмотр</value>
@@ -25,12 +25,12 @@
     <value>Редактировать</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
-    <value>Пользовательская панель управления: редактирование подписи</value>
+    <value>Редактирование подписи</value>
   </data>
   <data name="Update.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Успешно обновлено!</value>
+    <value>Успешно сохранено!</value>
   </data>
 </root>

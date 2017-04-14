@@ -13,25 +13,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plThreadsPerPage.Text" xml:space="preserve">
-    <value>Threads Per Page</value>
+    <value>Тем на страницу</value>
   </data>
   <data name="plThreadsPerPage.Help" xml:space="preserve">
     <value>The number of threads displayed on one page at once.&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;Per user settings this is overriden.  Applicable to unauthenticated users ONLY.</value>
   </data>
   <data name="plPostsPerPage.Text" xml:space="preserve">
-    <value>Posts Per Page</value>
+    <value>Сообщений на страницу</value>
   </data>
   <data name="plPostsPerPage.Help" xml:space="preserve">
     <value>The number of posts displayed on one page at once.&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;Per user settings this is overriden.  Applicable to unauthenticated users ONLY.</value>
   </data>
   <data name="plSkin.Text" xml:space="preserve">
-    <value>Theme</value>
+    <value>Тема</value>
   </data>
   <data name="plSkin.Help" xml:space="preserve">
     <value>The theme used for this forum module.&lt;br&gt;The checkox, if checked, allows users to pick their own theme from the list.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Themes are in the Forum\Skins folder.</value>
   </data>
   <data name="NumericValidation.ErrorMessage" xml:space="preserve">
-    <value>Needs to be numeric!</value>
+    <value>Должно быть числом!</value>
   </data>
   <data name="plDisplayPosterLocation.Text" xml:space="preserve">
     <value>Display Location</value>
@@ -49,7 +49,7 @@
     <value>User Interface Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plThreadPageCount.Help" xml:space="preserve">
     <value>This is the number of pages to show in threads view next to the thread subject.&lt;br/&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br/&gt;Ex. Page: 1,2,3...,5</value>

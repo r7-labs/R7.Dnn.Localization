@@ -16,7 +16,7 @@
     <value>Filtered Word Management</value>
   </data>
   <data name="cmdAdd.Text" xml:space="preserve">
-    <value>Add Word</value>
+    <value>Добавить слово</value>
   </data>
   <data name="Replacement For Filtered Word.Header" xml:space="preserve">
     <value>Replacement Word</value>
@@ -40,19 +40,19 @@
     <value>Filter</value>
   </data>
   <data name="imgAdd.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Добавить</value>
   </data>
   <data name="imgCancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="imgDelete.Text" xml:space="preserve">
-    <value>Delete</value>
+    <value>Удалить</value>
   </data>
   <data name="imgEdit.Text" xml:space="preserve">
-    <value>Edit</value>
+    <value>Редактировать</value>
   </data>
   <data name="imgUpdate.Text" xml:space="preserve">
-    <value>Update</value>
+    <value>Сохранить</value>
   </data>
   <data name="cmdGeneral.Text" xml:space="preserve">
     <value>General Settings</value>

@@ -16,7 +16,7 @@
     <value>User Management</value>
   </data>
   <data name="Email.Header" type="">
-    <value>Email</value>
+    <value>Эл. почта</value>
   </data>
   <data name="FirstName.Header" xml:space="preserve">
     <value>First Name</value>
@@ -28,19 +28,19 @@
     <value>&lt;h1&gt;Forum - Manage Forum Users&lt;/h1&gt;&lt;p&gt;This is where site administrators manage the forum users.&lt;br&gt;Users can be filtered by first letter of firstname, lastname, alias, and username.&lt;br&gt;Details of each user can be changed by clicking the edit pencil next to their name.&lt;/p&gt;</value>
   </data>
   <data name="MySettings.Text" xml:space="preserve">
-    <value>My Settings</value>
+    <value>Мои настройки</value>
   </data>
   <data name="Search.Text" xml:space="preserve">
     <value>Search:</value>
   </data>
   <data name="Username.Header" xml:space="preserve">
-    <value>Username</value>
+    <value>Имя пользователя</value>
   </data>
   <data name="Filter.Text" xml:space="preserve">
     <value>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</value>
   </data>
   <data name="DisplayName.Header" xml:space="preserve">
-    <value>Display Name</value>
+    <value>Отображаемое имя</value>
   </data>
   <data name="imgOnline.Text" xml:space="preserve">
     <value>Online</value>
@@ -52,7 +52,7 @@
     <value>No Results</value>
   </data>
   <data name="None.Text" xml:space="preserve">
-    <value>None</value>
+    <value>Нет</value>
   </data>
   <data name="imgOffline.Text" xml:space="preserve">
     <value>Offline</value>
@@ -61,7 +61,7 @@
     <value>Online</value>
   </data>
   <data name="Email.Text" xml:space="preserve">
-    <value>Email</value>
+    <value>Эл. почта</value>
   </data>
   <data name="LastName.Text" xml:space="preserve">
     <value>Last Name</value>
@@ -70,12 +70,12 @@
     <value>Role</value>
   </data>
   <data name="imgEdit.Text" xml:space="preserve">
-    <value>Edit</value>
+    <value>Редактировать</value>
   </data>
   <data name="DisplayName.Text" xml:space="preserve">
-    <value>Display Name</value>
+    <value>Отображаемое имя</value>
   </data>
   <data name="Username.Text" xml:space="preserve">
-    <value>Username</value>
+    <value>Имя пользователя</value>
   </data>
 </root>

@@ -52,7 +52,7 @@
     <value>General Configuration</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="cmdResetDate.Text" xml:space="preserve">
     <value>Reset</value>

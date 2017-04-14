@@ -25,7 +25,7 @@
     <value>Number of threads displayed per RSS feed.</value>
   </data>
   <data name="NumericValidation.ErrorMessage" xml:space="preserve">
-    <value>Needs to be numeric!</value>
+    <value>Должно быть числом!</value>
   </data>
   <data name="plTTL.Help" xml:space="preserve">
     <value>Time to live is the number of minutes that indicates how long a channel can be cached before refreshing from the source.</value>
@@ -37,6 +37,6 @@
     <value>RSS Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
 </root>

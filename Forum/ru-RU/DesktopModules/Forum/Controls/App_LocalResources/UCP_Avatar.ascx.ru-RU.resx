@@ -16,7 +16,7 @@
     <value>Сохранить</value>
   </data>
   <data name="plAvatar.Help" xml:space="preserve">
-    <value>Изображение, которое будет отображаться в заголовке всех Ваших сообщений.</value>
+    <value>Изображение, которое будет отображаться в заголовке всех ваших сообщений.</value>
   </data>
   <data name="plAvatar.Text" xml:space="preserve">
     <value>Аватар</value>
@@ -31,6 +31,6 @@
     <value>Редактировать аватар</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Успешно обновлено!</value>
+    <value>Успешно сохранено!</value>
   </data>
 </root>

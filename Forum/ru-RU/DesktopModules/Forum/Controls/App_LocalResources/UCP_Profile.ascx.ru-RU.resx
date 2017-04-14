@@ -16,20 +16,21 @@
     <value>Имя пользователя</value>
   </data>
   <data name="plUserName.Help" xml:space="preserve">
-    <value>Имя пользователя DNN.&lt;br /&gt;(Только для чтения)&lt;br /&gt;Для изменения необходимо отредактровать свой профиль на сайте.
+    <value>Имя пользователя DNN.&lt;br /&gt;(Только для чтения)&lt;br /&gt;Для изменения перейдите по ссылке для редактирования своего профиля на сайте.
+
  </value>
   </data>
   <data name="plEmail.Text" xml:space="preserve">
-    <value>Показывать адрес эл. почты</value>
+    <value>Адрес эл. почты</value>
   </data>
   <data name="plEmail.Help" xml:space="preserve">
-    <value>Если отмечено, другие пользователи смогут видеть адрес электронной почты пользователя на странице профайла.</value>
+    <value>Если отмечено, другие пользователи смогут увидеть адрес электронной почты пользователя на странице профиля пользователя.</value>
   </data>
   <data name="plOnlineStatus.Text" xml:space="preserve">
     <value>Показывать онлайн</value>
   </data>
   <data name="plOnlineStatus.Help" xml:space="preserve">
-    <value>Если отмечено, другие пользователи могут видеть Ваш статус в системе (онлайн или оффлайн).</value>
+    <value>Если отмечено, другие пользователи могут видеть ваш статус в системе (онлайн или офлайн).</value>
   </data>
   <data name="plIsTrusted.Text" xml:space="preserve">
     <value>Проверенный пользователь</value>
@@ -50,7 +51,7 @@
     <value>Если отмечено, пользователь заблокирован (забанен) и не может создавать и редактировать сообщения.</value>
   </data>
   <data name="plIsBanned.Text" xml:space="preserve">
-    <value>Заблокировать пользователя</value>
+    <value>Пользователь заблокирован</value>
   </data>
   <data name="plLockTrust.Help" xml:space="preserve">
     <value>Если отмечено, состояние проверки пользователя может быть изменено только администратором модуля.</value>
@@ -65,15 +66,15 @@
     <value>Ид. пользователя</value>
   </data>
   <data name="Title.Text" xml:space="preserve">
-    <value>Пользовательская панель управления: редактирование профайла</value>
+    <value>Редактировать профиль</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Успешно обновлено!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="plLiftBanDate.Help" xml:space="preserve">
-    <value>Дата завершения периода блокировки учетной записи пользователя на форумах этого портала.</value>
+    <value>Дата завершения периода блокировки учетной записи пользователя на форумах этого сайта.</value>
   </data>
   <data name="plLiftBanDate.Text" xml:space="preserve">
-    <value>Окончание блокировки</value>
+    <value>Блокировка закончится</value>
   </data>
 </root>

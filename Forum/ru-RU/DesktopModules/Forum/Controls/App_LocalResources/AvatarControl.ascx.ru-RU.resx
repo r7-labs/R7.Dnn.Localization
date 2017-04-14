@@ -28,7 +28,7 @@
     <value>User ( A Member Of Your Site )</value>
   </data>
   <data name="NoneType.Text" xml:space="preserve">
-    <value>None</value>
+    <value>Нет</value>
   </data>
   <data name="URL.Text" xml:space="preserve">
     <value>Location: ( Enter The Address Of The Link )&lt;BR&gt;</value>
@@ -37,7 +37,7 @@
     <value>Select An Existing URL</value>
   </data>
   <data name="Add.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Добавить</value>
   </data>
   <data name="Delete.Text" xml:space="preserve">
     <value>Delete Selected URL From The List&lt;BR&gt;</value>

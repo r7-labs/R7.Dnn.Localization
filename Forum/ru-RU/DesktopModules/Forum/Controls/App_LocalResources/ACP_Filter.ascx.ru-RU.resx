@@ -28,6 +28,6 @@
     <value>If checked, filters words in post subjects.</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
 </root>

@@ -70,7 +70,7 @@
     <value>Уведомлять о своих сообщениях</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Успешно обновлено!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>Пользовательская панель управления: редактирование настроек форума</value>
@@ -82,6 +82,6 @@
     <value>HTML</value>
   </data>
   <data name="Text.Text" xml:space="preserve">
-    <value>Текст</value>
+    <value>Text</value>
   </data>
 </root>

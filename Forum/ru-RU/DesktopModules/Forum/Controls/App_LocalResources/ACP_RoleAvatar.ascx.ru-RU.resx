@@ -16,36 +16,36 @@
     <value>Role Avatars</value>
   </data>
   <data name="cmdGeneral.Text" xml:space="preserve">
-    <value>General</value>
+    <value>Общий</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>Avatar Manager</value>
   </data>
   <data name="Add.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Добавить</value>
   </data>
   <data name="Avatar.Text" xml:space="preserve">
-    <value>Avatar</value>
+    <value>Аватар</value>
   </data>
   <data name="Cancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="Delete.Text" xml:space="preserve">
-    <value>Delete</value>
+    <value>Удалить</value>
   </data>
   <data name="Edit.Text" xml:space="preserve">
-    <value>Edit</value>
+    <value>Редактировать</value>
   </data>
   <data name="RoleName.Text" xml:space="preserve">
     <value>Role Name</value>
   </data>
   <data name="Update.Text" xml:space="preserve">
-    <value>Update</value>
+    <value>Сохранить</value>
   </data>
   <data name="ControlTitle_roleavatar.Text" xml:space="preserve">
     <value>Role Avatar Management</value>
   </data>
   <data name="cmdHome.Text" xml:space="preserve">
-    <value>Home</value>
+    <value>На главную</value>
   </data>
 </root>

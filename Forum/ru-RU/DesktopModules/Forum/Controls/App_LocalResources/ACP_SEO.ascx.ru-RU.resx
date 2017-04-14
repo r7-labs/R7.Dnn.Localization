@@ -16,7 +16,7 @@
     <value>SEO Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="NumericValidation.ErrorMessage" xml:space="preserve">
     <value>Value must be between 0 and 1.0. </value>

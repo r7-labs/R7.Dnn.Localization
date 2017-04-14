@@ -16,10 +16,10 @@
     <value>Управление категориями</value>
   </data>
   <data name="plSubject.Text" xml:space="preserve">
-    <value>Subject</value>
+    <value>Тема</value>
   </data>
   <data name="plSubject.Help" xml:space="preserve">
-    <value>Subject of the thread you are moving.&lt;br&gt;(Read Only)</value>
+    <value>Название перемещаемой темы.&lt;br /&gt;(только для чтения)</value>
   </data>
   <data name="plOldForum.Text" xml:space="preserve">
     <value>Исходный форум</value>

@@ -16,7 +16,7 @@
     <value>Rating Management</value>
   </data>
   <data name="lblUpdateDone.Text" xml:space="preserve">
-    <value>Updated Successfully!</value>
+    <value>Успешно сохранено!</value>
   </data>
   <data name="NumericValidation.ErrorMessage" xml:space="preserve">
     <value>&lt;br /&gt;Needs to be numeric!</value>
