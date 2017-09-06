@@ -110,7 +110,7 @@
     <value>Управление свойствами профиля</value>
   </data>
   <data name="cmdRegister.Text" xml:space="preserve">
-    <value>Регистрация</value>
+    <value>Зарегистрироваться</value>
   </data>
   <data name="ExceededRegisterQuota.Text" xml:space="preserve">
     <value>Сейчас Вы не можете зарегистрироваться на этом сайте. Пожалуйста, свяжитесь с вашим администратором сайта, чтобы узнать, когда регистрация будет возобновлена.</value>

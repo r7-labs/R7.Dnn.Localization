@@ -337,7 +337,7 @@
     <value>Восстановить исходный файл стилей</value>
   </data>
   <data name="LoginInstructions.Text" xml:space="preserve">
-    <value>Инструкции входа</value>
+    <value>Инструкции по входу в систему</value>
   </data>
   <data name="RegistrationInstructions.Text" xml:space="preserve">
     <value>Инструкции по регистрации</value>

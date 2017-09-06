@@ -19,10 +19,10 @@
     <value>Редактировать профиль</value>
   </data>
   <data name="Login.Text" xml:space="preserve">
-    <value>Вход</value>
+    <value>Войти</value>
   </data>
   <data name="Logout.Text" xml:space="preserve">
-    <value>Выход</value>
+    <value>Выйти</value>
   </data>
   <data name="MessageCount.Text" xml:space="preserve">
     <value>{0} сообщений</value>
@@ -43,6 +43,6 @@
     <value>Изображение моего профиля</value>
   </data>
   <data name="Register.Text" xml:space="preserve">
-    <value>Регистрация</value>
+    <value>Зарегистрироваться</value>
   </data>
 </root>
