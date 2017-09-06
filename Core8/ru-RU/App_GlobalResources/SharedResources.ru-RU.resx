@@ -148,7 +148,7 @@
     <value>Вы уверены, что хотите удалить этот модуль?</value>
   </data>
   <data name="EXCEPTION.Log" xml:space="preserve">
-    <value>Исключительная ситуация: {0}</value>
+    <value>ИСКЛЮЧЕНИЕ: {0}</value>
   </data>
   <data name="PURGE.Log" xml:space="preserve">
     <value>Журнал сайта успешно очищен</value>
