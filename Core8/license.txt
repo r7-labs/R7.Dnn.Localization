@@ -1,6 +1,6 @@
 <h3>The MIT License (MIT)</h3>
 <p>
-    Copyright (c) 2014-2016 by Roman M. Yagodin &lt;roman.yagodin@gmail.com&gt;
+    Copyright (c) 2014-2018 by Roman M. Yagodin &lt;roman.yagodin@gmail.com&gt;
 </p>
 <h4>Original contributors</h4>
 <p>
