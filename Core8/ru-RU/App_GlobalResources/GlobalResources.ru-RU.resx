@@ -1167,7 +1167,7 @@ Sincerely,
                         &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateSubHeader"&gt;
                             &lt;tr&gt;
                                 &lt;td class="subHeaderContent" bgcolor="#417CD3" width="66%" align="left"&gt;
-                                    &lt;h2 style="color:#fff; font-weight:100; font-size:24px;"&gt;Notifications&lt;/h2&gt;
+                                    &lt;h2 style="color:#fff; font-weight:100; font-size:24px;"&gt;Уведомления&lt;/h2&gt;
                                 &lt;/td&gt;&lt;!--close subHeaderContent--&gt;
                                 &lt;td width="33%" bgcolor="#417CD3" align="right"&gt;
                                     &lt;p style="color:#fff;"&gt;&lt;/p&gt;
@@ -1206,7 +1206,7 @@ Sincerely,
                                     &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
                                         &lt;tr&gt;
                                             &lt;td align="center"&gt;
-                                                &lt;a href="[UNSUBSCRIBEURL]" &gt; Управление подписками&lt;/a&gt; &amp;nbsp; |  &amp;nbsp;&lt;a href="[NOTIFICATIONURL]" &gt; Смотреть на сайте&lt;/a&gt;
+                                                &lt;a href="[UNSUBSCRIBEURL]" &gt; Управление подписками&lt;/a&gt; &amp;nbsp; |  &amp;nbsp;&lt;a href="[NOTIFICATIONURL]" &gt; Просмотреть на сайте&lt;/a&gt;
                                             &lt;/td&gt;
                                         &lt;/tr&gt;
                                     &lt;/table&gt;
