@@ -1,3 +1,9 @@
+<h3>Version 8.0.4-10</h3>
+<ul>
+    <li>Update login/logout/registration messages.</li>
+    <li>Translate email header.</li>
+</ul>
+
 <h3>Version 8.0.4-9</h3>
 <p>Fix some typos and outdated translations, address some translation-related UI quirks.</p>
 
