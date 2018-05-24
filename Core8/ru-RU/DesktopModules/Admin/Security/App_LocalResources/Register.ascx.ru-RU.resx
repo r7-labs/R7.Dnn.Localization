@@ -13,10 +13,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cmdRegister.Text" xml:space="preserve">
-    <value>Зарегистрироваться</value>
+    <value>Регистрация</value>
   </data>
   <data name="RegisterWarning.Text" xml:space="preserve">
-    <value>&lt;br /&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Регистрация обычно занимает всего несколько секунд. После того, как нажмете кнопку Зарегистрироваться, дождитесь ответа системы.</value>
+    <value>&lt;br /&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Регистрация обычно занимает всего несколько секунд. После того, как нажмете кнопку Регистрация, дождитесь ответа системы.</value>
   </data>
   <data name="ControlTitle_register.Text" xml:space="preserve">
     <value>Регистрация</value>
@@ -28,6 +28,6 @@
     <value>Код безопасности:</value>
   </data>
   <data name="NoEmail.Text" xml:space="preserve">
-    <value>Поставщик аутентификации, используемый для регистрации, не предоставил адреса электронной почты. Укажите корректный адрес электронной почты и нажмите кнопку Зарегистрироваться для завершения регистрации.</value>
+    <value>Поставщик аутентификации, используемый для регистрации, не предоставил адреса электронной почты. Укажите корректный адрес электронной почты и нажмите кнопку Регистрация для завершения регистрации.</value>
   </data>
 </root>

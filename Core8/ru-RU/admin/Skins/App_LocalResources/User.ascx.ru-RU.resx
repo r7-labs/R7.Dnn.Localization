@@ -37,7 +37,7 @@
     <value>Аватар</value>
   </data>
   <data name="Register.Text" xml:space="preserve">
-    <value>Зарегистрироваться</value>
+    <value>Регистрация</value>
   </data>
   <data name="ToolTip.Text" xml:space="preserve">
     <value>Нажмите сюда для перехода на страницу вашего профиля.</value>

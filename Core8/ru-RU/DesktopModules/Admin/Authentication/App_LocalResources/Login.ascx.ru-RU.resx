@@ -40,7 +40,7 @@
     <value>Продолжить (сменить пароль позже)</value>
   </data>
   <data name="cmdRegister.Text" xml:space="preserve">
-    <value>Зарегистрироваться</value>
+    <value>Регистрация</value>
   </data>
   <data name="ControlTitle_.Text" xml:space="preserve">
     <value>Вход</value>
@@ -106,7 +106,7 @@
     <value>Сохраните изменения в данных своего профиля, прежде чем продолжить.</value>
   </data>
   <data name="RegisterTitle.Text" xml:space="preserve">
-    <value>Зарегистрироваться</value>
+    <value>Регистрация</value>
   </data>
   <data name="Remember.Text" xml:space="preserve">
     <value>Запомнить меня</value>
