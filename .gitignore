@@ -5,6 +5,8 @@ source.files
 csexec.log
 
 # distribution sources
+_source/
+dist/
 _*/*
 
 # R7 extensions
