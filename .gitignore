@@ -4,10 +4,8 @@
 source.files
 csexec.log
 
-# distribution sources
-_source/
-dist/
-_*/*
+# sources and build directories 
+_*/
 
 # R7 extensions
 ru-RU/DesktopModules/R7.*

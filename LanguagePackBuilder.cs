@@ -17,7 +17,6 @@ public static class Program
 				PackageName = args [1],
 				CultureCode = args [2].Replace ("_", "-")
 			};
-
 			script.Run ();
 		}
 		catch (Exception ex)
@@ -33,23 +32,27 @@ internal class LanguagePackBuilder
 
 	public string PackageName { get; set; }
 	public string CultureCode { get; set; }
-
 	public string PackageVersion = Environment.GetEnvironmentVariable ("LPB_PACKAGE_VERSION");
 	public string PackageType = Environment.GetEnvironmentVariable ("LPB_PACKAGE_TYPE");
 	public string SourceVersion = Environment.GetEnvironmentVariable ("LPB_SOURCE_VERSION");
+	public string TranslationDir = Environment.GetEnvironmentVariable ("LPB_TRANSLATION_DIR");
 	public string PlatformType = Environment.GetEnvironmentVariable ("LBP_PLATFORM_TYPE");
 	public string ExtensionPackage = Environment.GetEnvironmentVariable ("LBP_EXTENSION_PACKAGE");
-
+	public string BuildDir = "_build";
 	public string ManifestFileNameTemplate = "R7_${PlatformType}_${PackageType}_${PackageName}_${CultureCode}.dnn";
 	public string PackFileNameTemplate = "ResourcePack.R7.${PlatformType}.${PackageType}.${PackageName}.${SourceVersion}-${PackageVersion}.${CultureCode}.zip";
 
 	#endregion
 
+	string ScriptDirectory;
+
 	public void Run ()
 	{
 		try
 		{
+			ScriptDirectory = Directory.GetCurrentDirectory ();
 			CreatePackage (GenerateManifest ());
+			Directory.SetCurrentDirectory (ScriptDirectory);
 		}
 		catch (Exception ex)
 		{
@@ -57,10 +60,11 @@ internal class LanguagePackBuilder
 		}
 	}
 
-	private string GenerateManifest ()
+	string GenerateManifest ()
 	{
 		try
 		{
+			// TODO: Support for package-specific manifest template
 			var manifestTemplate = File.ReadAllText ("manifest_template.xml");
 
 			var startTag = "<languageFile>";
@@ -71,10 +75,10 @@ internal class LanguagePackBuilder
 
 			// get template for languageFile entries
 			var langFileTemplate = manifestTemplate.Substring (begin, end - begin);
-
-			// get translation files
-			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
-			var files = Directory.GetFiles (".", "*.ru-RU.resx", SearchOption.AllDirectories);
+            
+            // get translation files
+			CdToTranslationDirectory ();
+			var files = Directory.GetFiles (".", "*." + CultureCode + ".resx", SearchOption.AllDirectories);
 
 			// for better formatting
 			var line = 0;
@@ -92,7 +96,9 @@ internal class LanguagePackBuilder
 
 				langFiles.Append (langEntry);
 			}
-
+                
+			CdToPackageDirectory ();
+            
 			var manifest = manifestTemplate;
 
 			// must remove and insert before any other replacement done
@@ -102,24 +108,22 @@ internal class LanguagePackBuilder
 			manifest = ReplaceTags (manifest);
 
 			// add license
-			if (File.Exists (Path.Combine ("..", "license.txt")))
+			if (File.Exists ("license.txt"))
 				manifest = manifest.Replace ("${License}", "<license src=\"license.txt\" />");
 			else
 				manifest = manifest.Replace ("${License}", "<license />");
 
 			// add release notes
-			if (File.Exists (Path.Combine ("..", "releaseNotes.txt")))
+			if (File.Exists ("releaseNotes.txt"))
 				manifest = manifest.Replace ("${ReleaseNotes}", "<releaseNotes src=\"releaseNotes.txt\" />");
 			else
 				manifest = manifest.Replace ("${ReleaseNotes}", "<releaseNotes />");
+    
+			if (!string.IsNullOrEmpty (manifest)) {
+                Console.WriteLine ("Package manifest generated.");
+            }
 
-			var manifestFileName = ReplaceTags (ManifestFileNameTemplate);
-
-			File.WriteAllText (manifestFileName, manifest);
-
-			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
-
-			return manifestFileName;
+			return manifest;
 		}
 		catch (Exception ex)
 		{
@@ -127,42 +131,85 @@ internal class LanguagePackBuilder
 		}
 	}
 
-	private void CreatePackage (string manifestFileName)
+    void CdToPackageDirectory ()
+	{
+		Directory.SetCurrentDirectory (ScriptDirectory);
+		Directory.SetCurrentDirectory (PackageName);
+	}
+
+	void CdToTranslationDirectory ()
+	{
+		CdToPackageDirectory ();
+		Directory.SetCurrentDirectory (GetTranslationDirectory ());
+	}
+
+    string GetTranslationDirectory ()
+    {
+        if (!string.IsNullOrEmpty (TranslationDir)) {
+            return TranslationDir;    
+        }
+        return CultureCode;
+    }
+
+	void CdToBuildDirectory ()
+	{
+		CdToPackageDirectory ();
+		Directory.SetCurrentDirectory (BuildDir);
+	}
+
+	void CreatePackage (string manifestText)
 	{
 		try
 		{
-			var packFileName = Path.Combine ("..", ReplaceTags (PackFileNameTemplate));
+			CdToPackageDirectory ();
+            
+            // recreate build dir
+            if (Directory.Exists (BuildDir)) {
+                Directory.Delete (BuildDir, true);
+            }
+            Directory.CreateDirectory (BuildDir);
+
+            Console.WriteLine ("Created build directory.");
+            
+			// TODO: Support more license/releaseNotes formats
+			var packFileName = ReplaceTags (PackFileNameTemplate);
 			var licenseFileName = "license.txt";
 			var releaseNotesFileName = "releaseNotes.txt";
 
-			Console.WriteLine (Directory.GetCurrentDirectory());
-
-			Directory.SetCurrentDirectory (Path.Combine (PackageName, CultureCode));
-
-			// delete old package
-			if (File.Exists (packFileName))
-				File.Delete (packFileName);
+            // create manifest file
+			var manifestFileName = ReplaceTags (ManifestFileNameTemplate);
+            File.WriteAllText (Path.Combine (BuildDir, manifestFileName), manifestText);
 
 			// copy license and release notes
-			if (File.Exists (Path.Combine ("..", licenseFileName)))
-				File.Copy (Path.Combine ("..", licenseFileName), licenseFileName);
+			if (File.Exists (licenseFileName)) {
+				File.Copy (licenseFileName, Path.Combine (BuildDir, licenseFileName));
+                Console.WriteLine ("License file copied.");
+            }
 
-			if (File.Exists (Path.Combine ("..", releaseNotesFileName)))
-				File.Copy (Path.Combine ("..", releaseNotesFileName), releaseNotesFileName);
+			if (File.Exists (releaseNotesFileName)) {
+				File.Copy (releaseNotesFileName, Path.Combine (BuildDir, releaseNotesFileName));
+                Console.WriteLine ("Release notes file copied.");
+            }
+            
+            // copy translation files
+            var buildDirAbsolute = Path.GetFullPath (BuildDir);
+			CdToTranslationDirectory ();
+            var files = Directory.GetFiles (".", "*." + CultureCode + ".resx", SearchOption.AllDirectories);
+            foreach (var file in files) {
+                CopyFilePreserveHierarchy (file, buildDirAbsolute);
+            }
+
+            Console.WriteLine ("Translation files copied.");
 
 			// create package
+            CdToBuildDirectory ();
 			var zip = new Process ();
 			zip.StartInfo.FileName = "zip";
 			zip.StartInfo.Arguments = string.Format (@"-q -r -9 -i \*.resx \*.dnn \*.txt -UN=UTF8 ""{0}"" .", packFileName);
 			zip.Start ();
 			zip.WaitForExit ();
-
-			// delete manifest and related files
-			File.Delete (manifestFileName);
-			File.Delete (licenseFileName);
-			File.Delete (releaseNotesFileName);
-
-			Directory.SetCurrentDirectory (Path.Combine ("..", ".."));
+            
+            Console.WriteLine ("Language pack created.");
 		}
 		catch (Exception ex)
 		{
@@ -170,7 +217,16 @@ internal class LanguagePackBuilder
 		}
 	}
 
-	private string ReplaceTags (string template)
+    void CopyFilePreserveHierarchy (string srcFile, string destDir)
+    {
+        var cp = new Process ();
+    	cp.StartInfo.FileName = "cp";
+        cp.StartInfo.Arguments = string.Format (@"-r --parents ""{0}"" ""{1}""", srcFile, destDir);
+		cp.Start ();
+		cp.WaitForExit ();
+    }
+
+	string ReplaceTags (string template)
 	{
 		var result = template;
 
@@ -206,7 +262,7 @@ internal class LanguagePackBuilder
 		return result;
 	}
 
-	private List<string> RunToLines (string command, string arguments)
+	List<string> RunToLines (string command, string arguments)
 	{
 		var result = new List<string> ();
 
@@ -221,8 +277,9 @@ internal class LanguagePackBuilder
 			process.Start ();
 			process.WaitForExit ();
 
-			while (!process.StandardOutput.EndOfStream)
+			while (!process.StandardOutput.EndOfStream) {
 				result.Add (process.StandardOutput.ReadLine ());
+            }
 		}
 		catch (Exception ex)
 		{

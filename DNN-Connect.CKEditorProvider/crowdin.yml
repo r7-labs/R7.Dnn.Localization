@@ -1,0 +1,11 @@
+"project_identifier" : "r7-labs-dnn-ckeditor"
+"base_path" : "./_src/CKEditorProvider/"
+"preserve_hierarchy": true
+
+files: [
+ {
+  "source" : "/**/*.as?x.resx",
+  "translation" : "/%original_path%/%file_name%.%locale%.%file_extension%",
+  "ignore" : ["CKEditorOptions.ascx.resx", "Browser/Browser.aspx.resx"]
+ }
+]
