@@ -1,0 +1,15 @@
+"project_identifier" : "r7-labs-dnn-platform"
+"base_path" : "./_src/Dnn.Platform/"
+"preserve_hierarchy": true
+
+files: [
+ {
+  "source" : "/**/*.resx",
+  "translation" : "/%original_path%/%file_name%.%locale%.%file_extension%",
+  "ignore": [
+    "Website/Install/App_LocalResources/Installwizard.aspx.*.resx",
+    "Website/Install/App_LocalResources/UpgradeWizard.aspx.*.resx",
+    "DNN Platform/Test/DotNetNuke.Tests.Data/DataResources.resx"
+  ]
+ }
+]
