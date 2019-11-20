@@ -3,13 +3,17 @@
 "preserve_hierarchy": true
 
 files: [
- {
-  "source" : "/**/*.resx",
-  "translation" : "/%original_path%/%file_name%.%locale%.%file_extension%",
-  "ignore": [
-    "Website/Install/App_LocalResources/Installwizard.aspx.*.resx",
-    "Website/Install/App_LocalResources/UpgradeWizard.aspx.*.resx",
-    "DNN Platform/Test/DotNetNuke.Tests.Data/DataResources.resx"
-  ]
- }
+  {
+    "source" : "/**/*.resx",
+    "translation" : "/%original_path%/%file_name%.%locale%.%file_extension%",
+    "translation_replace": {
+      ".en-US.ru-RU" : ".ru-RU"
+    },
+    "ignore": [
+      "Website/Install/App_LocalResources/Installwizard.aspx.*.resx",
+      "Website/Install/App_LocalResources/UpgradeWizard.aspx.*.resx",
+      "DNN Platform/Test/DotNetNuke.Tests.Data/DataResources.resx",
+      "Website/App_GlobalResources/List_Country.resx"
+    ]
+  }
 ]
