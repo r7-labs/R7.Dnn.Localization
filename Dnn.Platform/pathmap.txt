@@ -1,0 +1,20 @@
+DNN Platform/Admin Modules/Dnn.Modules.ConfigurationManager: DesktopModules/Admin/XmlMerge
+DNN Platform/Admin Modules/Dnn.Modules.Console: DesktopModules/Admin/Console
+DNN Platform/Admin Modules/Dnn.Modules.Dashboard: DesktopModules/Admin/Dashboard
+DNN Platform/Admin Modules/Dnn.Modules.GoogleAnalytics: DesktopModules/Admin/Analytics
+DNN Platform/Admin Modules/Dnn.Modules.Languages: DesktopModules/Admin/Languages
+DNN Platform/Admin Modules/Dnn.Modules.Lists: DesktopModules/Admin/Lists
+DNN Platform/Admin Modules/Dnn.Modules.LogViewer: DesktopModules/Admin/LogViewer
+DNN Platform/Admin Modules/Dnn.Modules.ModuleCreator: DesktopModules/Admin/ModuleCreator
+DNN Platform/Admin Modules/Dnn.Modules.RecycleBin: DesktopModules/Admin/RecycleBin
+DNN Platform/Admin Modules/Dnn.Modules.Sitemap: DesktopModules/Admin/Sitemap
+DNN Platform/Admin Modules/Dnn.Modules.SiteWizard: DesktopModules/Admin/SiteWizard
+DNN Platform/Admin Modules/Dnn.Modules.SkinManagement: DesktopModules/Admin/SkinManagement
+DNN Platform/Admin Modules/Dnn.Modules.Sql: DesktopModules/Admin/SQL
+DNN Platform/Admin Modules/Dnn.Modules.Tabs: DesktopModules/Admin/Tabs
+DNN Platform/Skins/DarkKnight/Skin: Portals/_default/Skins/DarkKnight
+DNN Platform/Skins: Portals/_default/Skins
+DNN Platform/Modules: DesktopModules
+DNN Platform/Website: Portals/_default
+DNN Platform/Providers: Providers
+Website/:

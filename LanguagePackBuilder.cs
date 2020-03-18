@@ -2,6 +2,7 @@
 
 using System;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Diagnostics;
 using System.Globalization;
@@ -23,6 +24,58 @@ public static class Program
 		{
 			Console.WriteLine (ex.Message);
 		}
+	}
+}
+
+
+internal class PathMap
+{
+	public string SrcPath;
+
+	public string DstPath;
+}
+
+internal class PathMapper
+{
+	IList<PathMap> maps = new List<PathMap> ();
+
+	public void LoadPathMap (string filePath)
+	{
+		if (!File.Exists (filePath)) {
+			return;
+		}
+
+		var lines = File.ReadAllLines (filePath);
+		foreach (var line in lines) {
+			var lineParts = line.Split (':', StringSplitOptions.RemoveEmptyEntries);
+			if (lineParts.Length > 0) {
+				var map = new PathMap ();
+				map.SrcPath = lineParts [0].Trim ();
+				if (lineParts.Length > 1) {
+					map.DstPath = lineParts [1].Trim ();
+				}
+				else {
+					map.DstPath = string.Empty;
+				}
+				maps.Add (map);
+			}
+		}
+	}
+
+	public string MapPath (string path)
+	{
+		if (maps.Count == 0) {
+			return path;
+		}
+
+		var map = maps.FirstOrDefault (p => path.Contains (p.SrcPath));
+		if (map == null) {
+			return path;
+		}
+
+		var dstPath = path.Replace (map.SrcPath, map.DstPath);
+
+		return dstPath;
 	}
 }
 
@@ -51,7 +104,15 @@ internal class LanguagePackBuilder
 		try
 		{
 			ScriptDirectory = Directory.GetCurrentDirectory ();
-			CreatePackage (GenerateManifest ());
+
+			CdToPackageDirectory ();
+			var pathMapper = new PathMapper ();
+			pathMapper.LoadPathMap ("pathmap.txt");
+
+			Directory.SetCurrentDirectory (ScriptDirectory);
+			var manifestText = GenerateManifest (pathMapper);
+			CreatePackage (manifestText, pathMapper);
+
 			Directory.SetCurrentDirectory (ScriptDirectory);
 		}
 		catch (Exception ex)
@@ -60,7 +121,7 @@ internal class LanguagePackBuilder
 		}
 	}
 
-	string GenerateManifest ()
+	string GenerateManifest (PathMapper pathMapper)
 	{
 		try
 		{
@@ -90,7 +151,7 @@ internal class LanguagePackBuilder
 					langFiles.Append ("\n\t\t\t\t\t\t");
 
 				var langEntry =	langFileTemplate
-					.Replace ("${FilePath}", Path.GetDirectoryName(file)
+					.Replace ("${FilePath}", pathMapper.MapPath (Path.GetDirectoryName (file))
 					 	.Remove (0, 2)) // remove "./" prefix
 					.Replace ("${FileName}", Path.GetFileName (file));
 
@@ -157,7 +218,7 @@ internal class LanguagePackBuilder
 		Directory.SetCurrentDirectory (BuildDir);
 	}
 
-	void CreatePackage (string manifestText)
+	void CreatePackage (string manifestText, PathMapper pathMapper)
 	{
 		try
 		{
@@ -190,13 +251,15 @@ internal class LanguagePackBuilder
 				File.Copy (releaseNotesFileName, Path.Combine (BuildDir, releaseNotesFileName));
                 Console.WriteLine ("Release notes file copied.");
             }
-            
-            // copy translation files
-            var buildDirAbsolute = Path.GetFullPath (BuildDir);
+            						
+			// copy translation files
 			CdToTranslationDirectory ();
-            var files = Directory.GetFiles (".", "*." + CultureCode + ".resx", SearchOption.AllDirectories);
-            foreach (var file in files) {
-                CopyFilePreserveHierarchy (file, buildDirAbsolute);
+			var files = Directory.GetFiles (".", "*." + CultureCode + ".resx", SearchOption.AllDirectories);
+            foreach (var filePath in files) {
+                var newFilePath = $"../../{BuildDir}/" + pathMapper.MapPath (filePath)
+					.Remove (0, 2); // remove "./" prefix
+				Directory.CreateDirectory (Path.GetDirectoryName (newFilePath));
+				File.Copy (filePath, newFilePath);
             }
 
             Console.WriteLine ("Translation files copied.");
@@ -216,16 +279,7 @@ internal class LanguagePackBuilder
 			throw ex;
 		}
 	}
-
-    void CopyFilePreserveHierarchy (string srcFile, string destDir)
-    {
-        var cp = new Process ();
-    	cp.StartInfo.FileName = "cp";
-        cp.StartInfo.Arguments = string.Format (@"-r --parents ""{0}"" ""{1}""", srcFile, destDir);
-		cp.Start ();
-		cp.WaitForExit ();
-    }
-
+	
 	string ReplaceTags (string template)
 	{
 		var result = template;
