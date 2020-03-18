@@ -1,0 +1,26 @@
+<h3>Version 8.0.4-11</h3>
+<p>Transition to Crowdin: https://crowdin.com/project/r7-labs-dnn-platform.</p>
+<p>
+  Note that v11 package contains slightly different set of resource files than v10 one -
+  e.g. ones for RadEditor instead of DNN CKEditor. This is due to the fact that v11 takes the DNN Platform source code
+  as a reference point (but not installed application, as v10 do).
+</p>
+
+<h3>Version 8.0.4-10</h3>
+<ul>
+    <li>Update login/logout/registration messages.</li>
+    <li>Translate email header.</li>
+</ul>
+
+<h3>Version 8.0.4-9</h3>
+<p>Fix some typos and outdated translations, address some translation-related UI quirks.</p>
+
+<h3>Version 8.0.4-8</h3>
+<ul>
+    <li>Fixed few hundreds validator messages (thanks to @lelka-34).</li>
+    <li>Fixed version number to allow upgrade of DNN 7 package.</li>
+    <li>Added validator logs for each package/culture.</li>
+</ul>
+<h3>Version 8.0.4-7</h3>
+<p>First release for DNN v8.0.4 and first 100% complete russian translation ever! Well, I could miss something nevertheless...</p>
+<p>Future releases will focus on quality improvements such as general clarity, unification and glossary compliance.</p>
