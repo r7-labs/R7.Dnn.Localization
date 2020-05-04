@@ -10,9 +10,10 @@ files: [
       ".en-US.ru-RU" : ".ru-RU"
     },
     "ignore": [
+      "/**/*.ru-RU.resx",
       "Website/Install/App_LocalResources/Installwizard.aspx.*.resx",
       "Website/Install/App_LocalResources/UpgradeWizard.aspx.*.resx",
-      "DNN Platform/Test/DotNetNuke.Tests.Data/DataResources.resx",
+      "DNN Platform/Tests/DotNetNuke.Tests.Data/DataResources.resx",
       "Website/App_GlobalResources/List_Country.resx"
     ]
   }
