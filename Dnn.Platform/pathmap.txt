@@ -14,6 +14,12 @@ DNN Platform/Admin Modules/Dnn.Modules.Sql: DesktopModules/Admin/SQL
 DNN Platform/Admin Modules/Dnn.Modules.Tabs: DesktopModules/Admin/Tabs
 DNN Platform/Skins/DarkKnight/Skin: Portals/_default/Skins/DarkKnight
 DNN Platform/Skins: Portals/_default/Skins
+DNN Platform/Modules/Groups: DesktopModules/SocialGroups
+DNN Platform/Modules/RazorHost: DesktopModules/RazorModules/RazorHost
+DNN Platform/Modules/Taxonomy: DesktopModules/Admin/Taxonomy
+DNN Platform/Modules/UrlManagement: DesktopModules/Admin/UrlManagement
+DNN Platform/Modules/HtmlEditorManager: DesktopModules/Admin/HtmlEditorManager
+DNN Platform/Providers/ClientCapabilityProviders/Provider.FiftyOneClientCapabilityProvider: DesktopModules\Admin\FiftyOneClientCapabilityProvider
 DNN Platform/Modules: DesktopModules
 DNN Platform/Website: Portals/_default
 DNN Platform/Providers: Providers
