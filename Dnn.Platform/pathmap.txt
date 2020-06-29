@@ -20,7 +20,7 @@ DNN Platform/Modules/Taxonomy: DesktopModules/Admin/Taxonomy
 DNN Platform/Modules/UrlManagement: DesktopModules/Admin/UrlManagement
 DNN Platform/Modules/HtmlEditorManager: DesktopModules/Admin/HtmlEditorManager
 DNN Platform/Modules/MobileManagement: DesktopModules/DevicePreviewManagement
-DNN Platform/Providers/ClientCapabilityProviders/Provider.FiftyOneClientCapabilityProvider: DesktopModules\Admin\FiftyOneClientCapabilityProvider
+DNN Platform/Providers/ClientCapabilityProviders/Provider.FiftyOneClientCapabilityProvider: DesktopModules/Admin/FiftyOneClientCapabilityProvider
 DNN Platform/Modules: DesktopModules
 DNN Platform/Website: Portals/_default
 DNN Platform/Providers: Providers
