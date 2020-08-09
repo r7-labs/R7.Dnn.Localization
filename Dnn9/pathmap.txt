@@ -1,3 +1,8 @@
+Dnn.AdminExperience/Library/Dnn.PersonaBar.UI/admin/personaBar: DesktopModules/Admin/Dnn.PersonaBar
+Dnn.AdminExperience/Dnn.PersonaBar.Extensions/admin/personaBar: DesktopModules/Admin\Dnn.PersonaBar/Modules
+Dnn.AdminExperience/EditBar/Dnn.EditBar.UI/editBar: DesktopModules/Admin/Dnn.EditBar
+Dnn.AdminExperience/EditBar/Dnn.EditBar.UI/editBar/resources/ContentEditorManager: DesktopModules/Admin/Dnn.EditBar/Resources/ContentEditorManager
+DNN Platform/Connectors: DesktopModules/Connectors
 DNN Platform/Admin Modules/Dnn.Modules.Console: DesktopModules/Admin/Console
 DNN Platform/Admin Modules/Dnn.Modules.ModuleCreator: DesktopModules/Admin/ModuleCreator
 DNN Platform/Modules/RazorHost: DesktopModules/RazorModules/RazorHost
