@@ -1,0 +1,10 @@
+DNN Platform/Admin Modules/Dnn.Modules.Console: DesktopModules/Admin/Console
+DNN Platform/Admin Modules/Dnn.Modules.ModuleCreator: DesktopModules/Admin/ModuleCreator
+DNN Platform/Modules/RazorHost: DesktopModules/RazorModules/RazorHost
+DNN Platform/Modules/Groups: DesktopModules/SocialGroups
+DNN Platform/Modules/HtmlEditorManager: DesktopModules/Admin/HtmlEditorManager
+DNN Platform/Modules: DesktopModules
+DNN Platform/Providers/ClientCapabilityProviders/Provider.AspNetCCP: Providers/ClientCapabilityProviders/AspNetClientCapabilityProvider
+DNN Platform/Providers: Providers
+DNN Platform/Skins: Portals/_default/Skins
+DNN Platform/Website/:
