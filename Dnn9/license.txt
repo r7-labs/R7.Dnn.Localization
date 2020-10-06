@@ -1,11 +1,18 @@
 <h3>The MIT License (MIT)</h3>
 <p>
-    Copyright (c) 2014-2020 by R7.Labs
+    Copyright (c) 2014-2020 by R7.Labs and contributors.
 </p>
 <h4>Translators:</h4>
 <ul>
+    <li>Dmitry Kokachev &lt;dimakokachev@gmail.com&gt;</li>
+    <li>Ntsandvo Motsa &lt;motsantsandvo@gmail.com&gt;</li>
+    <li>Vlad Novikov &lt;zvezd200029@gmail.com&gt;</li>
+    <li>Vladimir Kozlov &lt;vladimir.kozlov.2000@list.ru&gt;</li>
     <li>Roman M. Yagodin &lt;roman.yagodin@gmail.com&gt;</li>
     <li>Elena V. Yagodina &lt;yagodina.elena@gmail.com&gt;</li>
+</ul>
+<h4>Translators (for historical versions):</h4>
+<ul>
     <li>Alexey Sidorov &lt;dnnrussianlp.codeplex.com&gt;</li>
     <li>Lehman technology &lt;www.dnnsite.ru&gt;</li>
 </ul>
