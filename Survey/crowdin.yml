@@ -1,0 +1,11 @@
+"project_id" : "450070"
+"base_path" : "./_src/DNN.Survey/DNN.Survey"
+"preserve_hierarchy": true
+
+files: [
+ {
+  "source" : "/**/*.as?x.resx",
+  "translation" : "/%original_path%/%file_name%.%locale%.%file_extension%",
+  "ignore" : []
+ }
+]
